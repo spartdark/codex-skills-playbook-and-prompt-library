@@ -1,0 +1,20 @@
+{
+  "id": "codex.skill.sdd-architect",
+  "name": "SDD Architect",
+  "slug": "skill-sdd-architect",
+  "version": "0.1.0",
+  "summary": "Arquitectura y ejecución de desarrollo guiado por especificaciones, planes técnicos y criterios de aceptación.",
+  "entrypoints": [
+    "SKILL.md",
+    "prompt.md"
+  ],
+  "tags": [
+    "sdd",
+    "architecture",
+    "planning",
+    "requirements",
+    "delivery"
+  ],
+  "public": true,
+  "stable": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "codex.skill.rag-research",
+  "name": "RAG Research",
+  "slug": "skill-rag-research",
+  "version": "0.1.0",
+  "summary": "Marco de trabajo para investigación RAG con grounding, evaluación de fuentes y citas trazables.",
+  "entrypoints": [
+    "SKILL.md",
+    "prompt.md"
+  ],
+  "tags": [
+    "rag",
+    "research",
+    "retrieval",
+    "grounding",
+    "citations"
+  ],
+  "public": true,
+  "stable": true
+}

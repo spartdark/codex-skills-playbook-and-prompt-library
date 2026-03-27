@@ -1,0 +1,20 @@
+{
+  "id": "codex.skill.git-github-expert",
+  "name": "Git & GitHub Expert",
+  "slug": "skill-git-github-expert",
+  "version": "0.1.0",
+  "summary": "Guía experta para ramas, commits, PRs, releases y colaboración segura con Git y GitHub.",
+  "entrypoints": [
+    "SKILL.md",
+    "prompt.md"
+  ],
+  "tags": [
+    "git",
+    "github",
+    "pull-requests",
+    "commits",
+    "release-management"
+  ],
+  "public": true,
+  "stable": true
+}

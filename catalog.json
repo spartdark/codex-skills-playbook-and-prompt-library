@@ -1,0 +1,77 @@
+{
+  "catalogVersion": "1.0.0",
+  "repository": {
+    "name": "codex-skills-playbook-and-prompt-library",
+    "owner": "spartdark",
+    "visibility": "public",
+    "license": "MIT",
+    "version": "0.1.0",
+    "updatedAt": "2026-03-26",
+    "installBase": "skills"
+  },
+  "skills": [
+    {
+      "id": "codex.skill.git-github-expert",
+      "name": "Git & GitHub Expert",
+      "slug": "skill-git-github-expert",
+      "version": "0.1.0",
+      "summary": "Guía experta para ramas, commits, PRs, releases y colaboración segura con Git y GitHub.",
+      "path": "skills/skill-git-github-expert",
+      "entrypoints": [
+        "SKILL.md",
+        "prompt.md"
+      ],
+      "tags": [
+        "git",
+        "github",
+        "developer-experience",
+        "pull-requests",
+        "release-management"
+      ],
+      "public": true,
+      "stable": true
+    },
+    {
+      "id": "codex.skill.rag-research",
+      "name": "RAG Research",
+      "slug": "skill-rag-research",
+      "version": "0.1.0",
+      "summary": "Marco de trabajo para investigación RAG con grounding, evaluación de fuentes y citas trazables.",
+      "path": "skills/skill-rag-research",
+      "entrypoints": [
+        "SKILL.md",
+        "prompt.md"
+      ],
+      "tags": [
+        "rag",
+        "research",
+        "retrieval",
+        "grounding",
+        "evaluation"
+      ],
+      "public": true,
+      "stable": true
+    },
+    {
+      "id": "codex.skill.sdd-architect",
+      "name": "SDD Architect",
+      "slug": "skill-sdd-architect",
+      "version": "0.1.0",
+      "summary": "Arquitectura y ejecución de desarrollo guiado por especificaciones, planes técnicos y criterios de aceptación.",
+      "path": "skills/skill-sdd-architect",
+      "entrypoints": [
+        "SKILL.md",
+        "prompt.md"
+      ],
+      "tags": [
+        "sdd",
+        "architecture",
+        "planning",
+        "acceptance-criteria",
+        "product-delivery"
+      ],
+      "public": true,
+      "stable": true
+    }
+  ]
+}

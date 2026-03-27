@@ -1,0 +1,19 @@
+{
+  "id": "codex.skill.template",
+  "name": "Template Skill",
+  "slug": "skill-template",
+  "version": "0.1.0",
+  "summary": "Plantilla base para crear nuevas skills públicas de Codex con estructura coherente y metadata instalable.",
+  "entrypoints": [
+    "SKILL.md",
+    "prompt.md"
+  ],
+  "tags": [
+    "template",
+    "skills",
+    "codex",
+    "starter"
+  ],
+  "public": true,
+  "stable": true
+}
