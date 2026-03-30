@@ -280,13 +280,116 @@ Genera siempre un PRD accionable en `docs/specs/<slug-del-problema>/PRD.md`.
 
 Si el nombre del problema no es claro, crea primero un slug razonable y declaralo como supuesto.
 
-El PRD final debe incluir:
+El PRD final debe seguir una estructura fija. No omitas secciones; si falta informacion, escribe `Pendiente`, `No validado aun` o `Supuesto`.
+
+Usa este esqueleto minimo:
+
+```md
+# PRD
+
+## 0. Metadata
+- Nombre del problema:
+- Slug:
+- Fecha:
+- Autor del analisis:
+- Estado:
+- Decision recomendada:
+
+## 1. Resumen Ejecutivo
+- Problema:
+- Usuario objetivo:
+- Oportunidad:
+- Por que ahora:
+- Riesgo principal:
+
+## 2. Scoreboard Global
+| Fase | Claridad | Completitud | Riesgo | Validabilidad | Decision |
+|------|----------|-------------|--------|---------------|----------|
+
+## 3. Gate 1 - Intent Engineering
+### 3.1 Entregable del Intent Agent
+### 3.2 JTBD
+### 3.3 Supuestos criticos
+### 3.4 Auditoria
+### 3.5 Scores
+### 3.6 Decision
+
+## 4. Gate 2 - Spec Engineering
+### 4.1 Entregable del Spec Agent
+### 4.2 User stories
+### 4.3 Criterios GIVEN / WHEN / THEN
+### 4.4 Trazabilidad problema -> feature -> metrica
+### 4.5 Definicion de MVP como experimento
+### 4.6 Auditoria
+### 4.7 Scores
+### 4.8 Decision
+
+## 5. Gate 3 - Context Engineering
+### 5.1 Entregable del Context Agent
+### 5.2 Conocimiento estable
+### 5.3 Datos dinamicos
+### 5.4 Memoria de usuario
+### 5.5 Estrategia RAG
+### 5.6 Riesgos de alucinacion y context window
+### 5.7 Auditoria
+### 5.8 Scores
+### 5.9 Decision
+
+## 6. Gate 4 - Generation Control
+### 6.1 Entregable del Generation Agent
+### 6.2 Output contracts
+### 6.3 JSON schemas
+### 6.4 Guardrails
+### 6.5 Validacion de outputs
+### 6.6 Evals
+### 6.7 Auditoria
+### 6.8 Scores
+### 6.9 Decision
+
+## 7. Gate 5 - Validation Engineering
+### 7.1 Entregable del Validation Agent
+### 7.2 Hipotesis clave
+### 7.3 Experimentos
+### 7.4 Metricas leading
+### 7.5 Metricas lagging
+### 7.6 Criterios de falsificacion
+### 7.7 Umbrales para avanzar, iterar o detener
+### 7.8 Auditoria
+### 7.9 Scores
+### 7.10 Decision
+
+## 8. Gate 6 - Arquitectura AI-First
+### 8.1 Entregable del Architecture Agent
+### 8.2 Separacion de estados
+### 8.3 Modularidad y desacoplamiento
+### 8.4 Seguridad por defecto
+### 8.5 Portabilidad
+### 8.6 Riesgos tecnicos
+### 8.7 Riesgos OWASP LLM
+### 8.8 Auditoria
+### 8.9 Scores
+### 8.10 Decision
+
+## 9. Riesgos Consolidados
+
+## 10. Supuestos Abiertos
+
+## 11. Preguntas Pendientes
+
+## 12. Recomendacion Final
+```
+
+El PRD final debe incluir de forma explicita:
 
 - scores por fase;
 - observaciones del auditor;
 - lista consolidada de riesgos;
 - supuestos abiertos;
 - decision final recomendada: avanzar, iterar o no construir.
+
+Las subsecciones `Auditoria`, `Scores` y `Decision` son obligatorias en cada gate.
+
+La seccion `Scoreboard Global` debe resumir las seis fases aunque alguna quede bloqueada.
 
 ## Guardrails operativos
 
@@ -303,3 +406,4 @@ El PRD final debe incluir:
 - `prompt.md` para tono, disciplina de razonamiento y estilo de salida.
 - `examples/example-1.md` para un caso de uso esperado.
 - `assets/iscgv-review-checklist.md` para revisar solidez antes de cerrar la especificacion.
+- `assets/prd-template.md` para reutilizar la plantilla obligatoria del `PRD.md`.
