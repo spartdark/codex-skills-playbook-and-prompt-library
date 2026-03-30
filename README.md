@@ -12,13 +12,14 @@ Este repositorio organiza cada skill como una unidad distribuible con:
 
 ## Version actual
 
-La versión inicial del repositorio es `0.1.0`.
+La version actual del repositorio es `0.2.0`.
 
 ## Skills incluidas
 
 - `skill-git-github-expert`: buenas prácticas de Git, ramas, PRs, commits y releases.
 - `skill-rag-research`: diseño y ejecución de investigación RAG con grounding y citas verificables.
 - `skill-sdd-architect`: desarrollo guiado por especificaciones, criterios de aceptación y trazabilidad.
+- `skill-intent-spec-context-generation-validation`: ISCGV++ Product Operating System para pasar de idea ambigua a PRD auditable y validable.
 
 ## Estructura principal
 
@@ -29,6 +30,7 @@ La versión inicial del repositorio es `0.1.0`.
 ├── install/
 ├── skills/
 │   ├── skill-git-github-expert/
+│   ├── skill-intent-spec-context-generation-validation/
 │   ├── skill-rag-research/
 │   └── skill-sdd-architect/
 └── templates/
