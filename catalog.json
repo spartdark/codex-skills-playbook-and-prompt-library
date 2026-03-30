@@ -5,7 +5,7 @@
     "owner": "spartdark",
     "visibility": "public",
     "license": "MIT",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "updatedAt": "2026-03-29",
     "installBase": "skills"
   },
@@ -90,6 +90,27 @@
         "sdd",
         "rag",
         "validation"
+      ],
+      "public": true,
+      "stable": true
+    },
+    {
+      "id": "codex.skill.intent-spec-context-generation-validation-en",
+      "name": "Intent Spec Context Generation Validation",
+      "slug": "skill-intent-spec-context-generation-validation-en",
+      "version": "0.1.0",
+      "summary": "English AI-first framework for turning ambiguous ideas into validated, buildable systems through intent, spec, context, generation, and validation gates.",
+      "path": "skills/skill-intent-spec-context-generation-validation-en",
+      "entrypoints": [
+        "SKILL.md",
+        "prompt.md"
+      ],
+      "tags": [
+        "ai-first",
+        "product-strategy",
+        "validation",
+        "sdd",
+        "english"
       ],
       "public": true,
       "stable": true

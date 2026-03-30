@@ -4,6 +4,17 @@ Todos los cambios relevantes de este repositorio se documentan aquí.
 
 El formato sigue una variante legible de [Keep a Changelog](https://keepachangelog.com/) y el proyecto usa versionado semántico.
 
+## [0.3.0] - 2026-03-29
+
+### Added
+
+- nueva skill `skill-intent-spec-context-generation-validation-en` en ingles para producto AI-first y validacion por gates;
+- metadatos, ejemplo y checklist publico para la version inglesa de ISCGV.
+
+### Changed
+
+- version del repositorio actualizada a `0.3.0`.
+
 ## [0.2.0] - 2026-03-29
 
 ### Added

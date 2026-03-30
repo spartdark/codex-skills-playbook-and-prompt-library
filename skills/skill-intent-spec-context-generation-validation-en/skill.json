@@ -1,0 +1,20 @@
+{
+  "id": "codex.skill.intent-spec-context-generation-validation-en",
+  "name": "Intent Spec Context Generation Validation",
+  "slug": "skill-intent-spec-context-generation-validation-en",
+  "version": "0.1.0",
+  "summary": "English AI-first framework for turning ambiguous ideas into validated, buildable systems through intent, spec, context, generation, and validation gates.",
+  "entrypoints": [
+    "SKILL.md",
+    "prompt.md"
+  ],
+  "tags": [
+    "ai-first",
+    "product-strategy",
+    "validation",
+    "sdd",
+    "english"
+  ],
+  "public": true,
+  "stable": true
+}

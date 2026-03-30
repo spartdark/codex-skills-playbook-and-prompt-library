@@ -12,7 +12,7 @@ Este repositorio organiza cada skill como una unidad distribuible con:
 
 ## Version actual
 
-La version actual del repositorio es `0.2.0`.
+La version actual del repositorio es `0.3.0`.
 
 ## Skills incluidas
 
@@ -20,6 +20,7 @@ La version actual del repositorio es `0.2.0`.
 - `skill-rag-research`: diseño y ejecución de investigación RAG con grounding y citas verificables.
 - `skill-sdd-architect`: desarrollo guiado por especificaciones, criterios de aceptación y trazabilidad.
 - `skill-intent-spec-context-generation-validation`: ISCGV++ Product Operating System para pasar de idea ambigua a PRD auditable y validable.
+- `skill-intent-spec-context-generation-validation-en`: versión en inglés de ISCGV para convertir ideas ambiguas en PRDs validados y accionables.
 
 ## Estructura principal
 
@@ -31,6 +32,7 @@ La version actual del repositorio es `0.2.0`.
 ├── skills/
 │   ├── skill-git-github-expert/
 │   ├── skill-intent-spec-context-generation-validation/
+│   ├── skill-intent-spec-context-generation-validation-en/
 │   ├── skill-rag-research/
 │   └── skill-sdd-architect/
 └── templates/
