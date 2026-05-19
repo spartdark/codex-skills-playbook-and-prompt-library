@@ -1,0 +1,22 @@
+{
+  "id": "codex.skill.youtube-ai-researcher",
+  "name": "YouTube AI Researcher",
+  "slug": "skill-youtube-ai-researcher",
+  "version": "0.1.0",
+  "summary": "Analisis grounded de videos y transcripciones de YouTube para extraer aprendizajes, ideas de producto, workflows de IA, monetizacion, experimentos y prompts detectados.",
+  "entrypoints": [
+    "SKILL.md",
+    "prompt.md"
+  ],
+  "tags": [
+    "youtube",
+    "research",
+    "ai-workflows",
+    "product-strategy",
+    "monetization",
+    "prompts",
+    "grounding"
+  ],
+  "public": false,
+  "stable": false
+}
