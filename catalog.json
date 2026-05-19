@@ -5,8 +5,8 @@
     "owner": "spartdark",
     "visibility": "public",
     "license": "MIT",
-    "version": "0.1.0",
-    "updatedAt": "2026-03-26",
+    "version": "0.2.0",
+    "updatedAt": "2026-05-18",
     "installBase": "skills"
   },
   "skills": [
@@ -72,6 +72,28 @@
       ],
       "public": true,
       "stable": true
+    },
+    {
+      "id": "codex.skill.youtube-transcript",
+      "name": "YouTube Transcript",
+      "slug": "skill-youtube-transcript",
+      "version": "0.1.1",
+      "summary": "Extraccion y normalizacion de transcripciones publicas de YouTube con timestamps, metadatos y errores trazables.",
+      "path": "skills/skill-youtube-transcript",
+      "entrypoints": [
+        "SKILL.md",
+        "prompt.md"
+      ],
+      "tags": [
+        "youtube",
+        "transcript",
+        "captions",
+        "research",
+        "source-extraction",
+        "grounding"
+      ],
+      "public": true,
+      "stable": false
     }
   ]
 }
