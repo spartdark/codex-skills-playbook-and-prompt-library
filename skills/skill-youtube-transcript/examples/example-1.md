@@ -10,6 +10,12 @@
 python3 scripts/youtube_transcript.py "https://www.youtube.com/watch?v=VIDEO_ID" --language es --pretty
 ```
 
+Para guardar el resultado con nombre amigable:
+
+```bash
+python3 scripts/youtube_transcript.py "https://www.youtube.com/watch?v=VIDEO_ID" --language es --output auto --pretty
+```
+
 ## Resultado
 
 La skill devuelve un objeto JSON con:
@@ -21,6 +27,7 @@ La skill devuelve un objeto JSON con:
 - segmentos con timestamps;
 - `plain_text`;
 - advertencias de fallback si el idioma solicitado no existe.
+- `saved_to` cuando se uso `--output`.
 
 Si no hay captions disponibles, devuelve `transcript_unavailable` sin inventar contenido.
 

@@ -30,6 +30,18 @@ Para guardar resultados largos:
 python3 scripts/youtube_transcript.py "https://youtu.be/VIDEO_ID" --output transcript.json --pretty
 ```
 
+Para generar automaticamente un nombre legible basado en canal, titulo, video id e idioma:
+
+```bash
+python3 scripts/youtube_transcript.py "https://youtu.be/VIDEO_ID" --output auto --pretty
+```
+
+Tambien puedes pasar una carpeta; la skill guardara ahi el JSON con nombre natural:
+
+```bash
+python3 scripts/youtube_transcript.py "https://youtu.be/VIDEO_ID" --output transcripts/ --pretty
+```
+
 Para diagnosticar un fallo sin intentar extraer texto:
 
 ```bash

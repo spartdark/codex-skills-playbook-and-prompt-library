@@ -36,6 +36,26 @@ python3 skills/skill-youtube-transcript/scripts/youtube_transcript.py \
   --pretty
 ```
 
+Guardar con nombre natural:
+
+```bash
+python3 skills/skill-youtube-transcript/scripts/youtube_transcript.py \
+  "https://www.youtube.com/watch?v=VIDEO_ID" \
+  --language es \
+  --output auto \
+  --pretty
+```
+
+O guardar dentro de una carpeta con nombre generado automaticamente:
+
+```bash
+python3 skills/skill-youtube-transcript/scripts/youtube_transcript.py \
+  "https://www.youtube.com/watch?v=VIDEO_ID" \
+  --language es \
+  --output transcripts/ \
+  --pretty
+```
+
 Diagnosticar captions sin extraer texto:
 
 ```bash

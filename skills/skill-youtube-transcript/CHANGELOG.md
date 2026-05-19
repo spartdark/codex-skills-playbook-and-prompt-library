@@ -6,6 +6,7 @@ Todos los cambios relevantes de esta skill se documentan aqui.
 
 ### Added
 
+- nombres naturales para JSON guardados con `--output auto` o con `--output` apuntando a una carpeta;
 - fallback `youtubei/get_transcript` antes de declarar fallo definitivo de proveedor;
 - fallback opcional con `yt-dlp` para descargar solo subtitulos con `--skip-download`;
 - soporte para `--po-token`, `YOUTUBE_PO_TOKEN` y `--cookies-from-browser` cuando YouTube requiere Proof of Origin token;

@@ -45,6 +45,46 @@ def normalize_text(value: str) -> str:
     return value.strip()
 
 
+def filename_slug(value: str | None, max_length: int = 72) -> str:
+    value = normalize_text(value or "")
+    value = value.lower()
+    value = re.sub(r"[^a-z0-9]+", "-", value)
+    value = re.sub(r"-+", "-", value).strip("-")
+    if len(value) > max_length:
+        value = value[:max_length].rstrip("-")
+    return value or "untitled"
+
+
+def natural_json_filename(payload: dict[str, Any]) -> str:
+    video_id = payload.get("video_id") or payload.get("error", {}).get("details", {}).get("video_id") or "unknown-video"
+    title = payload.get("title") or payload.get("error", {}).get("details", {}).get("title")
+    channel = payload.get("channel") or payload.get("error", {}).get("details", {}).get("channel")
+    language = payload.get("language") or payload.get("error", {}).get("details", {}).get("language")
+
+    parts = ["youtube-transcript"]
+    if channel:
+        parts.append(filename_slug(channel, 32))
+    if title:
+        parts.append(filename_slug(title, 72))
+    parts.append(str(video_id))
+    if language:
+        parts.append(filename_slug(str(language), 12))
+    return "-".join(parts) + ".json"
+
+
+def resolve_output_path(output: str, payload: dict[str, Any]) -> Path:
+    if output.lower() in {"auto", "natural"}:
+        return Path(natural_json_filename(payload))
+
+    path = Path(output)
+    if output.endswith(("/", "\\")) or path.is_dir():
+        return path / natural_json_filename(payload)
+
+    if path.suffix.lower() != ".json":
+        return path.with_suffix(".json")
+    return path
+
+
 def extract_video_id(source: str) -> str:
     try:
         parsed = urllib.parse.urlparse(source)
@@ -668,7 +708,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Extract a public YouTube transcript as structured JSON.")
     parser.add_argument("url", help="YouTube video URL.")
     parser.add_argument("--language", "-l", help="Preferred transcript language code, for example es or en.")
-    parser.add_argument("--output", "-o", help="Optional file path for the JSON result.")
+    parser.add_argument(
+        "--output",
+        "-o",
+        help="Optional JSON file path. Use a directory or 'auto' to generate a natural filename from channel/title/video id.",
+    )
     parser.add_argument("--pretty", action="store_true", help="Pretty-print JSON.")
     parser.add_argument("--diagnose", action="store_true", help="Return video/caption metadata without fetching text.")
     parser.add_argument("--po-token", help="Optional YouTube PO token for yt-dlp subtitle fallback.")
@@ -695,9 +739,13 @@ def main() -> int:
         payload = error_payload(TranscriptError("internal_error", str(exc)))
         exit_code = 1
 
+    if args.output:
+        output_path = resolve_output_path(args.output, payload)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        payload["saved_to"] = str(output_path)
     rendered = json.dumps(payload, ensure_ascii=False, indent=2 if args.pretty else None)
     if args.output:
-        with open(args.output, "w", encoding="utf-8") as handle:
+        with open(output_path, "w", encoding="utf-8") as handle:
             handle.write(rendered + "\n")
     print(rendered)
     return exit_code
