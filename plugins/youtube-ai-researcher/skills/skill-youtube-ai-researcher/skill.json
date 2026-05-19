@@ -17,6 +17,6 @@
     "prompts",
     "grounding"
   ],
-  "public": false,
+  "public": true,
   "stable": false
 }

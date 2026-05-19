@@ -9,7 +9,7 @@ description: Analiza videos, transcripciones, canales o patrones de YouTube para
 
 Convertir fuentes de YouTube en criterio accionable para IA, apps, producto, automatizacion y monetizacion, manteniendo trazabilidad estricta hacia la transcripcion, notas o fuente proporcionada.
 
-Esta skill analiza. No extrae captions por si misma como responsabilidad principal. Si el usuario da una URL y no hay transcripcion disponible en contexto, primero usa la skill local existente `youtube-transcript` ubicada en `/Users/vsm/.codex/skills/skill-youtube-transcript` para obtener la fuente estructurada, sin modificarla ni duplicarla dentro de este plugin.
+Esta skill analiza. No extrae captions por si misma como responsabilidad principal. Si el usuario da una URL y no hay transcripcion disponible en contexto, primero usa la skill `youtube-transcript` cuando este instalada en el entorno de Codex del usuario, normalmente bajo `${CODEX_HOME:-$HOME/.codex}/skills/skill-youtube-transcript`, para obtener la fuente estructurada, sin modificarla ni duplicarla dentro de este plugin.
 
 ## Regla central
 

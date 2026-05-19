@@ -1,6 +1,6 @@
 # YouTube AI Researcher Plugin
 
-Plugin local para Codex que empaqueta la skill `youtube-ai-researcher`.
+Plugin publico para Codex que empaqueta la skill `youtube-ai-researcher`.
 
 ## Que hace
 
@@ -13,9 +13,13 @@ Plugin local para Codex que empaqueta la skill `youtube-ai-researcher`.
 
 ## Dependencia tecnica
 
-Cuando el usuario comparta una URL sin transcripcion, usa la skill local existente `youtube-transcript` en `/Users/vsm/.codex/skills/skill-youtube-transcript` para obtener la fuente.
+Cuando el usuario comparta una URL sin transcripcion, usa la skill `youtube-transcript` si esta instalada en el entorno de Codex del usuario, normalmente bajo `${CODEX_HOME:-$HOME/.codex}/skills/skill-youtube-transcript`, para obtener la fuente.
 
 No empaquetes ni dupliques esa skill dentro de este plugin. `youtube-ai-researcher` solo analiza; `youtube-transcript` extrae y normaliza la transcripcion.
+
+## Distribucion publica
+
+Este plugin esta preparado para publicarse o compartirse desde este repositorio. No depende de rutas privadas de una maquina especifica; si `youtube-transcript` no esta instalada, la skill debe pedir al usuario una transcripcion, notas o JSON estructurado antes de hacer claims especificos sobre el video.
 
 ## Fuera de alcance
 
