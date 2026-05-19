@@ -1,0 +1,23 @@
+{
+  "id": "codex.skill.reddit-ai-researcher",
+  "name": "Reddit AI Researcher",
+  "slug": "skill-reddit-ai-researcher",
+  "version": "0.1.0",
+  "summary": "Analisis grounded de posts y comentarios de Reddit para extraer senales de IA, software, producto, monetizacion, dolores de usuario, workflows y oportunidades accionables.",
+  "entrypoints": [
+    "SKILL.md",
+    "prompt.md"
+  ],
+  "tags": [
+    "reddit",
+    "research",
+    "ai-trends",
+    "software-development",
+    "product-strategy",
+    "monetization",
+    "pain-mining",
+    "grounding"
+  ],
+  "public": true,
+  "stable": false
+}

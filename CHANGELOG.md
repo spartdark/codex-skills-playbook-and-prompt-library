@@ -4,6 +4,18 @@ Todos los cambios relevantes de este repositorio se documentan aquí.
 
 El formato sigue una variante legible de [Keep a Changelog](https://keepachangelog.com/) y el proyecto usa versionado semántico.
 
+## [0.4.0] - 2026-05-19
+
+### Added
+
+- nuevo PRD `reddit-ai-researcher-plugin` para convertir Reddit en senales accionables de IA, software, producto, monetizacion y mejora de procesos;
+- nuevo plugin publico experimental `reddit-ai-researcher` con skill empaquetada, prompt guide, checklist y ejemplo;
+- documentacion base para tratar Reddit como fuente cualitativa de senales, no como validacion definitiva.
+
+### Changed
+
+- version del repositorio actualizada a `0.4.0`.
+
 ## [0.3.0] - 2026-05-19
 
 ### Added
