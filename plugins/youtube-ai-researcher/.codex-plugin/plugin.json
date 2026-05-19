@@ -1,7 +1,7 @@
 {
   "name": "youtube-ai-researcher",
   "version": "0.1.0",
-  "description": "Plugin local para analizar videos, transcripciones y patrones de YouTube como fuentes trazables de aprendizaje, ideas de producto, workflows de IA, monetizacion y prompts detectados.",
+  "description": "Plugin publico para analizar videos, transcripciones y patrones de YouTube como fuentes trazables de aprendizaje, ideas de producto, workflows de IA, monetizacion y prompts detectados.",
   "author": {
     "name": "VSM",
     "url": "https://github.com/spartdark"
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "YouTube AI Researcher",
     "shortDescription": "Convierte transcripciones de YouTube en aprendizajes, ideas y experimentos trazables.",
-    "longDescription": "Analiza videos, transcripciones y canales de YouTube para extraer tesis, first principles, casos practicos, oportunidades de producto, workflows de IA, monetizacion, experimentos y prompts detectados. Trabaja sobre fuentes trazables y puede apoyarse en la skill youtube-transcript para obtener transcripciones, sin modificarla.",
+    "longDescription": "Analiza videos, transcripciones y canales de YouTube para extraer tesis, first principles, casos practicos, oportunidades de producto, workflows de IA, monetizacion, experimentos y prompts detectados. Esta pensado para distribucion publica, trabaja sobre fuentes trazables y puede apoyarse en la skill youtube-transcript cuando este instalada para obtener transcripciones, sin modificarla.",
     "developerName": "VSM",
     "category": "Productivity",
     "capabilities": [
@@ -37,6 +37,6 @@
       "Detecta prompts utiles en este video.",
       "Convierte este video en ideas de producto."
     ],
-    "brandColor": "#7C3AED"
+    "brandColor": "#2563EB"
   }
 }

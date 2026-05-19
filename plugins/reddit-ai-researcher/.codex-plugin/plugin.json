@@ -1,0 +1,43 @@
+{
+  "name": "reddit-ai-researcher",
+  "version": "0.1.0",
+  "description": "Plugin publico para analizar posts, comentarios y patrones de Reddit como senales trazables sobre IA, desarrollo de software, producto, automatizacion, monetizacion y mejora de procesos.",
+  "author": {
+    "name": "VSM",
+    "url": "https://github.com/spartdark"
+  },
+  "homepage": "https://github.com/spartdark/codex-skills-playbook-and-prompt-library/tree/main/plugins/reddit-ai-researcher",
+  "repository": "https://github.com/spartdark/codex-skills-playbook-and-prompt-library",
+  "license": "MIT",
+  "keywords": [
+    "reddit",
+    "research",
+    "ai-trends",
+    "software-development",
+    "product-strategy",
+    "monetization",
+    "pain-mining",
+    "grounding"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Reddit AI Researcher",
+    "shortDescription": "Convierte threads de Reddit en senales, problemas, ideas y experimentos accionables.",
+    "longDescription": "Analiza posts, comentarios, subreddits y discusiones de Reddit para detectar dolores repetidos, herramientas emergentes, casos de uso de IA, oportunidades de software, mejoras de proceso y monetizacion como hipotesis. Trata Reddit como fuente de senales cualitativas, no como validacion definitiva.",
+    "developerName": "VSM",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "Signal Analysis",
+      "Product Strategy",
+      "Software Opportunity Mapping"
+    ],
+    "websiteURL": "https://github.com/spartdark/codex-skills-playbook-and-prompt-library",
+    "defaultPrompt": [
+      "Analiza estos threads de Reddit y extrae oportunidades para software e IA.",
+      "Detecta problemas repetidos, herramientas mencionadas y experimentos posibles.",
+      "Convierte estas discusiones de Reddit en ideas de producto y mejoras de proceso."
+    ],
+    "brandColor": "#FF4500"
+  }
+}

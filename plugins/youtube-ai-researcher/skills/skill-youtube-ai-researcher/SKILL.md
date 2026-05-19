@@ -9,7 +9,7 @@ description: Analiza videos, transcripciones, canales o patrones de YouTube para
 
 Convertir fuentes de YouTube en criterio accionable para IA, apps, producto, automatizacion y monetizacion, manteniendo trazabilidad estricta hacia la transcripcion, notas o fuente proporcionada.
 
-Esta skill analiza. No extrae captions por si misma como responsabilidad principal. Si el usuario da una URL y no hay transcripcion disponible en contexto, primero usa la skill local existente `youtube-transcript` ubicada en `/Users/vsm/.codex/skills/skill-youtube-transcript` para obtener la fuente estructurada, sin modificarla ni duplicarla dentro de este plugin.
+Esta skill analiza. No extrae captions por si misma como responsabilidad principal. Si el usuario da una URL y no hay transcripcion disponible en contexto, primero usa la skill `youtube-transcript` cuando este instalada en el entorno de Codex del usuario, normalmente bajo `${CODEX_HOME:-$HOME/.codex}/skills/skill-youtube-transcript`, para obtener la fuente estructurada, sin modificarla ni duplicarla dentro de este plugin.
 
 ## Regla central
 
@@ -66,6 +66,17 @@ Si un dato, prompt o claim no esta en la fuente, dilo claramente. No reconstruya
    - Incluye audiencia, oferta, canal, pricing tentativo si la fuente lo permite y primer experimento.
    - No prometas ingresos ni validacion de mercado sin evidencia.
 
+7. **Memoria derivada del workspace**
+   - Si el workspace declara una memoria local, guarda o propone artefactos persistibles ahi ademas del reporte conversacional.
+   - Para `ia-learning`, usa `/Users/vladimir.saldivar/Documents/IntelliJProyects/ia-learning/knowledge/`.
+   - Preserva raw transcript o JSON en `knowledge/raw/youtube/` cuando exista.
+   - Guarda transcripciones limpias en `knowledge/processed/transcripts/`.
+   - Guarda reportes en `knowledge/processed/summaries/`.
+   - Guarda insights atomicos en `knowledge/processed/insights/`.
+   - Enlaza patrones, monetizacion, mejoras de proceso y novedades relevantes en `knowledge/projects/ia-learning/`.
+   - Incluye URL, video id, titulo, canal, idioma, fecha de consulta, confidence label y timestamps relevantes.
+   - Si no puedes escribir archivos, entrega bloques Markdown/JSON listos para guardar.
+
 ## Salida por defecto
 
 Usa esta estructura salvo que el usuario pida otra:
@@ -120,6 +131,7 @@ Puedes generar insumos estructurados, pero marca cualquier supuesto que no venga
 - No presentes contenido como si hubiera sido escrito por otra persona.
 - No descargues audio o video.
 - No uses speech-to-text como fallback dentro de esta skill.
+- No requieras base de datos, embeddings ni dashboard para guardar memoria derivada en el MVP.
 - No tomes decisiones tecnicas finales sin PRD o plan cuando el cambio sea de implementacion.
 
 ## Checklist de calidad
@@ -128,5 +140,6 @@ Puedes generar insumos estructurados, pero marca cualquier supuesto que no venga
 - [ ] Separe hechos, inferencias y recomendaciones.
 - [ ] No invente prompts ausentes.
 - [ ] Inclui `Prompts detectados`, aunque sea para decir "no detectados".
+- [ ] Escribi o propuse memoria derivada si el workspace la declara.
 - [ ] No genere contenido fuera de alcance.
 - [ ] Cerre con experimentos o preguntas utiles.

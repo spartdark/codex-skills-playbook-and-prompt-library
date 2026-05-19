@@ -1,6 +1,6 @@
 # YouTube AI Researcher Plugin
 
-Plugin local para Codex que empaqueta la skill `youtube-ai-researcher`.
+Plugin publico para Codex que empaqueta la skill `youtube-ai-researcher`.
 
 ## Que hace
 
@@ -13,9 +13,33 @@ Plugin local para Codex que empaqueta la skill `youtube-ai-researcher`.
 
 ## Dependencia tecnica
 
-Cuando el usuario comparta una URL sin transcripcion, usa la skill local existente `youtube-transcript` en `/Users/vsm/.codex/skills/skill-youtube-transcript` para obtener la fuente.
+Cuando el usuario comparta una URL sin transcripcion, usa la skill `youtube-transcript` si esta instalada en el entorno de Codex del usuario, normalmente bajo `${CODEX_HOME:-$HOME/.codex}/skills/skill-youtube-transcript`, para obtener la fuente.
 
 No empaquetes ni dupliques esa skill dentro de este plugin. `youtube-ai-researcher` solo analiza; `youtube-transcript` extrae y normaliza la transcripcion.
+
+## Distribucion publica
+
+Este plugin esta preparado para publicarse o compartirse desde este repositorio. No depende de rutas privadas de una maquina especifica; si `youtube-transcript` no esta instalada, la skill debe pedir al usuario una transcripcion, notas o JSON estructurado antes de hacer claims especificos sobre el video.
+
+## Memoria derivada por workspace
+
+Si el workspace declara una memoria local, la skill debe guardar o proponer artefactos persistibles ahi ademas de responder en chat.
+
+Para `ia-learning`, la convencion vive en:
+
+```text
+/Users/vladimir.saldivar/Documents/IntelliJProyects/ia-learning/knowledge/
+```
+
+Destinos esperados:
+
+- `knowledge/raw/youtube/` para JSON/transcripts originales o referencias fuente;
+- `knowledge/processed/transcripts/` para transcripciones limpias;
+- `knowledge/processed/summaries/` para reportes;
+- `knowledge/processed/insights/` para hallazgos atomicos;
+- `knowledge/projects/ia-learning/` para patrones, monetizacion, mejoras de proceso y novedades de IA aplicables.
+
+No requiere base de datos para el MVP. Si no puede escribir archivos, debe entregar bloques Markdown/JSON listos para guardar.
 
 ## Fuera de alcance
 

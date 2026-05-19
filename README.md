@@ -12,7 +12,7 @@ Este repositorio organiza cada skill como una unidad distribuible con:
 
 ## Version actual
 
-La version actual del repositorio es `0.3.0`.
+La version actual del repositorio es `0.4.0`.
 
 ## Skills incluidas
 
@@ -23,6 +23,11 @@ La version actual del repositorio es `0.3.0`.
 - `skill-intent-spec-context-generation-validation-en`: versión en inglés de ISCGV para convertir ideas ambiguas en PRDs validados y accionables.
 - `skill-youtube-transcript`: extracción y normalización de transcripciones públicas de YouTube como fuente trazable.
 
+## Plugins incluidos
+
+- `youtube-ai-researcher`: analisis grounded de videos, transcripciones y patrones de YouTube para aprendizajes, ideas, workflows, monetizacion y prompts detectados.
+- `reddit-ai-researcher`: analisis grounded de posts y comentarios de Reddit para senales de IA, software, producto, monetizacion, dolores de usuario y mejoras de proceso.
+
 ## Estructura principal
 
 ```text
@@ -30,6 +35,9 @@ La version actual del repositorio es `0.3.0`.
 ├── catalog.json
 ├── docs/
 ├── install/
+├── plugins/
+│   ├── reddit-ai-researcher/
+│   └── youtube-ai-researcher/
 ├── skills/
 │   ├── skill-git-github-expert/
 │   ├── skill-intent-spec-context-generation-validation/
