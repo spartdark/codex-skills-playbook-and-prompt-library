@@ -14,3 +14,15 @@ Detecta prompts, ideas de producto, oportunidades de monetizacion y experimentos
 ## Guardrail principal
 
 No genera guiones ni piezas de contenido. Analiza fuentes y produce criterio accionable.
+
+## Memoria derivada
+
+Cuando el workspace declare una memoria local, la skill debe guardar o proponer artefactos persistibles ademas del reporte conversacional.
+
+Para `ia-learning`, usa:
+
+```text
+/Users/vladimir.saldivar/Documents/IntelliJProyects/ia-learning/knowledge/
+```
+
+Usa esa memoria para conservar raw transcripts, resumenes, prompts detectados, insights, ideas de monetizacion, patrones de implementacion y mejoras de proceso con trazabilidad a la fuente.

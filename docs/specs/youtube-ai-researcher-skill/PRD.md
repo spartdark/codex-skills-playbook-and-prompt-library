@@ -75,6 +75,27 @@ Responsabilidad:
 
 La skill debe poder funcionar tambien con transcripciones pegadas manualmente por el usuario, pero debe preferir una fuente estructurada cuando exista.
 
+### Memoria derivada por workspace
+
+Cuando `youtube-ai-researcher` se use dentro de un workspace que declare memoria local, la skill debe escribir o proponer artefactos derivados en la ubicacion indicada por ese workspace.
+
+Para el workspace `ia-learning`, la convencion inicial es:
+
+```text
+/Users/vladimir.saldivar/Documents/IntelliJProyects/ia-learning/knowledge/
+```
+
+Contrato minimo:
+
+- preservar raw transcript, JSON de `youtube-transcript` o referencia fuente en `knowledge/raw/youtube/`;
+- guardar transcripciones normalizadas en `knowledge/processed/transcripts/`;
+- guardar reportes o resumenes en `knowledge/processed/summaries/`;
+- extraer insights atomicos en `knowledge/processed/insights/`;
+- enlazar hallazgos aplicables a `knowledge/projects/ia-learning/`;
+- registrar URL, video id, titulo, canal, idioma, fecha de consulta, confidence label y timestamps relevantes.
+
+Esta memoria derivada no reemplaza la respuesta conversacional ni convierte el video en fuente definitiva. Es una capa local de trazabilidad y aprendizaje para reutilizar casos practicos, prompts, patrones de implementacion, ideas de monetizacion y mejoras de proceso.
+
 ## 6. Casos de uso iniciales
 
 ### UC1: Aprender de un video
@@ -124,7 +145,7 @@ La primera version de la skill debe:
 - Extraer transcripciones automaticamente como responsabilidad interna.
 - Descargar audio o video.
 - Monitorear canales.
-- Guardar resultados en base de datos.
+- Guardar resultados en base de datos externa como requisito del MVP.
 - Crear dashboards.
 - Imitar de forma exacta la voz de una persona real.
 - Producir deepfakes textuales o contenido que haga creer que fue escrito por el creador original.
@@ -296,6 +317,20 @@ Cuando el usuario pida aterrizar una idea, la skill debe poder producir insumos 
 - backlog;
 - experimento de validacion.
 
+### RF10: Memoria derivada local opcional
+
+Cuando el workspace tenga una convencion de memoria, la skill debe generar una salida persistible ademas del reporte principal.
+
+Debe incluir:
+
+- metadata de fuente compatible con `source-metadata.template.json` cuando exista;
+- insight atomico compatible con `insight.template.md` cuando exista;
+- separacion entre raw transcript, resumen, prompts detectados e insights;
+- project links cuando el hallazgo aplique a un proyecto concreto;
+- advertencia explicita cuando no se pueda guardar y solo se entregue contenido para guardar manualmente.
+
+Para MVP, esto puede ser un bloque Markdown/JSON listo para guardar. No requiere base de datos, embeddings ni dashboard.
+
 ## 11. Requisitos no funcionales
 
 ### Trazabilidad
@@ -373,6 +408,12 @@ THEN la skill describe la estructura conceptual, ejemplos, analogias y progresio
 GIVEN solo una URL y sin plugin de transcripcion disponible  
 WHEN la skill no pueda obtener la fuente  
 THEN pide la transcripcion o notas al usuario antes de hacer afirmaciones especificas.
+
+### CA10: Memoria derivada en workspace
+
+GIVEN un workspace con convencion de memoria local  
+WHEN la skill analiza una transcripcion de YouTube con hallazgos accionables  
+THEN produce artefactos o bloques persistibles para raw transcript, resumen, prompts detectados e insights, conectados a la fuente y al proyecto relevante.
 
 ## 13. Borrador de skill propuesto
 
@@ -453,6 +494,7 @@ When a transcript contains prompts or agent instructions, extract them into a fi
 
 - Guardar analisis por proyecto, canal, tema y oportunidad.
 - Reusar aprendizajes en PRDs y planes tecnicos.
+- Alinear los campos con la convencion `knowledge/schema/source-metadata.template.json` cuando el workspace la tenga.
 
 ### Fase 5: Research OS para IA y producto
 
@@ -460,6 +502,7 @@ When a transcript contains prompts or agent instructions, extract them into a fi
 - Detectar tendencias.
 - Generar mapas de oportunidad.
 - Convertir investigacion en backlog priorizado.
+- Migrar la memoria local validada hacia un hub compartido, probablemente Supabase/Postgres con pgvector, cuando exista volumen o colaboracion entre workspaces.
 
 ## 18. Decisiones abiertas
 
@@ -469,6 +512,7 @@ When a transcript contains prompts or agent instructions, extract them into a fi
 - Si se incluiran referencias adicionales con plantillas de salida.
 - Si se creara una skill separada para monetizacion o se mantendra como modo interno.
 - Como se conectara con specs de proyectos actuales o futuros.
+- Si la memoria derivada debe vivir solo en el workspace activo, apuntar al hub `ia-learning/knowledge/` o sincronizarse posteriormente con Supabase.
 
 ## 19. Principio rector
 
