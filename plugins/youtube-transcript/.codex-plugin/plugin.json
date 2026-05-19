@@ -1,0 +1,40 @@
+{
+  "name": "youtube-transcript",
+  "version": "0.1.0",
+  "description": "Plugin local para extraer, validar y normalizar transcripciones publicas de YouTube como JSON trazable para investigacion, apps, IA y monetizacion.",
+  "author": {
+    "name": "VSM",
+    "url": "https://github.com/spartdark"
+  },
+  "homepage": "https://github.com/spartdark/codex-skills-playbook-and-prompt-library/tree/main/plugins/youtube-transcript",
+  "repository": "https://github.com/spartdark/codex-skills-playbook-and-prompt-library",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "transcript",
+    "captions",
+    "research",
+    "grounding",
+    "codex-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YouTube Transcript",
+    "shortDescription": "Extrae transcripciones publicas de YouTube con timestamps y JSON trazable.",
+    "longDescription": "Obtiene captions publicos de videos de YouTube, normaliza segmentos con timestamps, conserva metadatos, genera nombres de archivo legibles y reporta errores explicitos sin descargar audio o video. Sirve como capa tecnica para skills de investigacion, producto, apps, IA y monetizacion.",
+    "developerName": "VSM",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "File Write",
+      "Source Extraction"
+    ],
+    "websiteURL": "https://github.com/spartdark/codex-skills-playbook-and-prompt-library",
+    "defaultPrompt": [
+      "Extrae la transcripcion de este video de YouTube.",
+      "Guarda esta transcripcion con nombre legible.",
+      "Diagnostica captions disponibles para este video."
+    ],
+    "brandColor": "#DC2626"
+  }
+}
