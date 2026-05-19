@@ -1,0 +1,42 @@
+{
+  "name": "youtube-ai-researcher",
+  "version": "0.1.0",
+  "description": "Plugin local para analizar videos, transcripciones y patrones de YouTube como fuentes trazables de aprendizaje, ideas de producto, workflows de IA, monetizacion y prompts detectados.",
+  "author": {
+    "name": "VSM",
+    "url": "https://github.com/spartdark"
+  },
+  "homepage": "https://github.com/spartdark/codex-skills-playbook-and-prompt-library/tree/main/plugins/youtube-ai-researcher",
+  "repository": "https://github.com/spartdark/codex-skills-playbook-and-prompt-library",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "research",
+    "ai-workflows",
+    "product-strategy",
+    "monetization",
+    "prompts",
+    "grounding"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YouTube AI Researcher",
+    "shortDescription": "Convierte transcripciones de YouTube en aprendizajes, ideas y experimentos trazables.",
+    "longDescription": "Analiza videos, transcripciones y canales de YouTube para extraer tesis, first principles, casos practicos, oportunidades de producto, workflows de IA, monetizacion, experimentos y prompts detectados. Trabaja sobre fuentes trazables y puede apoyarse en la skill youtube-transcript para obtener transcripciones, sin modificarla.",
+    "developerName": "VSM",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "Analysis",
+      "Product Strategy",
+      "Prompt Extraction"
+    ],
+    "websiteURL": "https://github.com/spartdark/codex-skills-playbook-and-prompt-library",
+    "defaultPrompt": [
+      "Analiza esta transcripcion de YouTube.",
+      "Detecta prompts utiles en este video.",
+      "Convierte este video en ideas de producto."
+    ],
+    "brandColor": "#7C3AED"
+  }
+}

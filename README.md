@@ -21,6 +21,7 @@ La version actual del repositorio es `0.3.0`.
 - `skill-sdd-architect`: desarrollo guiado por especificaciones, criterios de aceptación y trazabilidad.
 - `skill-intent-spec-context-generation-validation`: ISCGV++ Product Operating System para pasar de idea ambigua a PRD auditable y validable.
 - `skill-intent-spec-context-generation-validation-en`: versión en inglés de ISCGV para convertir ideas ambiguas en PRDs validados y accionables.
+- `skill-youtube-transcript`: extracción y normalización de transcripciones públicas de YouTube como fuente trazable.
 
 ## Estructura principal
 
@@ -34,7 +35,8 @@ La version actual del repositorio es `0.3.0`.
 │   ├── skill-intent-spec-context-generation-validation/
 │   ├── skill-intent-spec-context-generation-validation-en/
 │   ├── skill-rag-research/
-│   └── skill-sdd-architect/
+│   ├── skill-sdd-architect/
+│   └── skill-youtube-transcript/
 └── templates/
     └── skill-template/
 ```
