@@ -1,0 +1,20 @@
+{
+  "id": "codex.skill.intent-spec-context-generation-validation",
+  "name": "ISCGV++ Product Operating System",
+  "slug": "skill-intent-spec-context-generation-validation",
+  "version": "0.2.0",
+  "summary": "Marco AI-first ISCGV++ para convertir ideas ambiguas en PRDs auditables y validables con agentes por fase, scoring y bloqueo por baja solidez.",
+  "entrypoints": [
+    "SKILL.md",
+    "prompt.md"
+  ],
+  "tags": [
+    "ai-first",
+    "product-strategy",
+    "sdd",
+    "rag",
+    "validation"
+  ],
+  "public": true,
+  "stable": true
+}

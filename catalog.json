@@ -5,8 +5,8 @@
     "owner": "spartdark",
     "visibility": "public",
     "license": "MIT",
-    "version": "0.2.0",
-    "updatedAt": "2026-05-18",
+    "version": "0.3.0",
+    "updatedAt": "2026-05-19",
     "installBase": "skills"
   },
   "skills": [
@@ -69,6 +69,48 @@
         "planning",
         "acceptance-criteria",
         "product-delivery"
+      ],
+      "public": true,
+      "stable": true
+    },
+    {
+      "id": "codex.skill.intent-spec-context-generation-validation",
+      "name": "ISCGV++ Product Operating System",
+      "slug": "skill-intent-spec-context-generation-validation",
+      "version": "0.2.0",
+      "summary": "Marco AI-first ISCGV++ para convertir ideas ambiguas en PRDs auditables y validables con agentes por fase, scoring y bloqueo por baja solidez.",
+      "path": "skills/skill-intent-spec-context-generation-validation",
+      "entrypoints": [
+        "SKILL.md",
+        "prompt.md"
+      ],
+      "tags": [
+        "ai-first",
+        "product-strategy",
+        "sdd",
+        "rag",
+        "validation"
+      ],
+      "public": true,
+      "stable": true
+    },
+    {
+      "id": "codex.skill.intent-spec-context-generation-validation-en",
+      "name": "Intent Spec Context Generation Validation",
+      "slug": "skill-intent-spec-context-generation-validation-en",
+      "version": "0.1.0",
+      "summary": "English AI-first framework for turning ambiguous ideas into validated, buildable systems through intent, spec, context, generation, and validation gates.",
+      "path": "skills/skill-intent-spec-context-generation-validation-en",
+      "entrypoints": [
+        "SKILL.md",
+        "prompt.md"
+      ],
+      "tags": [
+        "ai-first",
+        "product-strategy",
+        "validation",
+        "sdd",
+        "english"
       ],
       "public": true,
       "stable": true
