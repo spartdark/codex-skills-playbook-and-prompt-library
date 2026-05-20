@@ -1,0 +1,11158 @@
+---
+source_type: youtube_transcript
+source_url: https://www.youtube.com/watch?v=j7d5rs0iMlE
+video_id: j7d5rs0iMlE
+source_title: "OpenAI Codex Full Course 4 Hours: Build & Ship"
+channel: "Aniket Panjwani"
+language: en
+is_auto_generated: true
+extraction_strategy: yt-dlp
+retrieved_at: 2026-05-19T19:50:55Z
+raw_evidence: knowledge/raw/youtube/codex-ai-project-management/transcript-j7d5rs0iMlE.json
+confidence: verified source capture; caption accuracy not independently verified
+---
+
+# OpenAI Codex Full Course 4 Hours: Build & Ship
+
+## Transcript
+
+- [00:02] Welcome to the definitive course on open
+- [00:02] Welcome to the definitive course on open AI codecs. I use codecs every single day
+- [00:06] AI codecs. I use codecs every single day
+- [00:06] AI codecs. I use codecs every single day as the director of AI and ML at Paylice,
+- [00:09] as the director of AI and ML at Paylice,
+- [00:09] as the director of AI and ML at Paylice, a VC funded fintech startup. I also
+- [00:12] a VC funded fintech startup. I also
+- [00:12] a VC funded fintech startup. I also teach over 1,700 people in my school
+- [00:15] teach over 1,700 people in my school
+- [00:15] teach over 1,700 people in my school server, the AI MBA, how to use Agentic
+- [00:17] server, the AI MBA, how to use Agentic
+- [00:17] server, the AI MBA, how to use Agentic coding tools like Codeex and Claude Code
+- [00:20] coding tools like Codeex and Claude Code
+- [00:20] coding tools like Codeex and Claude Code for both personal, professional, and
+- [00:22] for both personal, professional, and
+- [00:22] for both personal, professional, and also academic research applications.
+- [00:25] also academic research applications.
+- [00:25] also academic research applications. Now, I also recently made a 3hour full
+- [00:29] Now, I also recently made a 3hour full
+- [00:29] Now, I also recently made a 3hour full course on Claude Code for beginners. But
+- [00:31] course on Claude Code for beginners. But
+- [00:31] course on Claude Code for beginners. But the reality is that for the last few
+- [00:33] the reality is that for the last few
+- [00:33] the reality is that for the last few months, I've been using codecs for 80 to
+- [00:37] months, I've been using codecs for 80 to
+- [00:37] months, I've been using codecs for 80 to 90% of my work. And my recommendation to
+- [00:40] 90% of my work. And my recommendation to
+- [00:40] 90% of my work. And my recommendation to anybody new to the agentic coding space
+- [00:43] anybody new to the agentic coding space
+- [00:43] anybody new to the agentic coding space is that regardless of your budget,
+- [00:45] is that regardless of your budget,
+- [00:45] is that regardless of your budget, whether it's $20, $100, or $200, is that
+- [00:49] whether it's $20, $100, or $200, is that
+- [00:49] whether it's $20, $100, or $200, is that your first subscription should be to
+- [00:52] your first subscription should be to
+- [00:52] your first subscription should be to Chad GBT, which gets you access to
+- [00:54] Chad GBT, which gets you access to
+- [00:54] Chad GBT, which gets you access to codeex. As I discussed in a recent
+- [00:56] codeex. As I discussed in a recent
+- [00:56] codeex. As I discussed in a recent video, there are many reasons for this,
+- [00:59] video, there are many reasons for this,
+- [00:59] video, there are many reasons for this, and I'll also discuss them in this
+- [01:01] and I'll also discuss them in this
+- [01:01] and I'll also discuss them in this course. But in a nutshell, Codeex is the
+- [01:04] course. But in a nutshell, Codeex is the
+- [01:04] course. But in a nutshell, Codeex is the best model. It has the best usage limits
+- [01:07] best model. It has the best usage limits
+- [01:07] best model. It has the best usage limits and it's got the best interface for
+- [01:09] and it's got the best interface for
+- [01:09] and it's got the best interface for agentic coding. The codeex desktop app.
+- [01:12] agentic coding. The codeex desktop app.
+- [01:12] agentic coding. The codeex desktop app. In this course, you're not going to have
+- [01:13] In this course, you're not going to have
+- [01:13] In this course, you're not going to have to have any technical background. Maybe
+- [01:16] to have any technical background. Maybe
+- [01:16] to have any technical background. Maybe you've played around with chatbt or
+- [01:18] you've played around with chatbt or
+- [01:18] you've played around with chatbt or clawed in a web interface or you skimmed
+- [01:21] clawed in a web interface or you skimmed
+- [01:21] clawed in a web interface or you skimmed through my clawed code course. Either
+- [01:23] through my clawed code course. Either
+- [01:24] through my clawed code course. Either way, I'm going to take you step by step
+- [01:26] way, I'm going to take you step by step
+- [01:26] way, I'm going to take you step by step all the way from not knowing anything
+- [01:29] all the way from not knowing anything
+- [01:29] all the way from not knowing anything about agentic coding to being able to
+- [01:32] about agentic coding to being able to
+- [01:32] about agentic coding to being able to deploy a full-blown web app with codecs.
+- [01:35] deploy a full-blown web app with codecs.
+- [01:35] deploy a full-blown web app with codecs. Additionally, this isn't one of those
+- [01:37] Additionally, this isn't one of those
+- [01:37] Additionally, this isn't one of those courses where I'm going to fill you up
+- [01:39] courses where I'm going to fill you up
+- [01:39] courses where I'm going to fill you up with hours of theory before we get to
+- [01:41] with hours of theory before we get to
+- [01:41] with hours of theory before we get to anything practical. I'm going to give
+- [01:43] anything practical. I'm going to give
+- [01:43] anything practical. I'm going to give you practical applications of codecs
+- [01:45] you practical applications of codecs
+- [01:45] you practical applications of codecs that you can take away and which will
+- [01:47] that you can take away and which will
+- [01:47] that you can take away and which will add value to your life within the first
+- [01:49] add value to your life within the first
+- [01:49] add value to your life within the first 10 minutes. And that's going to be a
+- [01:51] 10 minutes. And that's going to be a
+- [01:51] 10 minutes. And that's going to be a common pattern in the rest of the
+- [01:52] common pattern in the rest of the
+- [01:52] common pattern in the rest of the course. I'm always going to take little
+- [01:55] course. I'm always going to take little
+- [01:55] course. I'm always going to take little bits of theory and get as quickly to
+- [01:57] bits of theory and get as quickly to
+- [01:57] bits of theory and get as quickly to practice as I can. Now, one more thing I
+- [02:00] practice as I can. Now, one more thing I
+- [02:00] practice as I can. Now, one more thing I want to flag before we get started. This
+- [02:03] want to flag before we get started. This
+- [02:03] want to flag before we get started. This course is specifically concentrated on
+- [02:05] course is specifically concentrated on
+- [02:05] course is specifically concentrated on the codeex desktop application. Codeex
+- [02:08] the codeex desktop application. Codeex
+- [02:08] the codeex desktop application. Codeex actually ships as several different
+- [02:11] actually ships as several different
+- [02:11] actually ships as several different interfaces. There's the command line
+- [02:13] interfaces. There's the command line
+- [02:13] interfaces. There's the command line interface that you have to use in the
+- [02:15] interface that you have to use in the
+- [02:15] interface that you have to use in the terminal. There's an extension inside VS
+- [02:18] terminal. There's an extension inside VS
+- [02:18] terminal. There's an extension inside VS Code. And then there's the desktop
+- [02:20] Code. And then there's the desktop
+- [02:20] Code. And then there's the desktop application. I'm going to be focusing on
+- [02:21] application. I'm going to be focusing on
+- [02:22] application. I'm going to be focusing on the desktop application because it's the
+- [02:24] the desktop application because it's the
+- [02:24] the desktop application because it's the best interface for agentic coding, but
+- [02:26] best interface for agentic coding, but
+- [02:26] best interface for agentic coding, but nobody has put out materials that teach
+- [02:29] nobody has put out materials that teach
+- [02:29] nobody has put out materials that teach people how to use it yet. In the desktop
+- [02:31] people how to use it yet. In the desktop
+- [02:31] people how to use it yet. In the desktop app, you can easily run multiple codeex
+- [02:33] app, you can easily run multiple codeex
+- [02:34] app, you can easily run multiple codeex agents working on different aspects of
+- [02:36] agents working on different aspects of
+- [02:36] agents working on different aspects of your project in parallel. Set up
+- [02:38] your project in parallel. Set up
+- [02:38] your project in parallel. Set up automations which will run on the
+- [02:40] automations which will run on the
+- [02:40] automations which will run on the background on a timer and review all of
+- [02:42] background on a timer and review all of
+- [02:42] background on a timer and review all of it in one place. Let me first give you
+- [02:44] it in one place. Let me first give you
+- [02:44] it in one place. Let me first give you guys a brief overview of everything that
+- [02:47] guys a brief overview of everything that
+- [02:47] guys a brief overview of everything that we'll be covering in this course. We'll
+- [02:48] we'll be covering in this course. We'll
+- [02:48] we'll be covering in this course. We'll start by talking about what codec
+- [02:50] start by talking about what codec
+- [02:50] start by talking about what codec actually is. It may be unfamiliar to
+- [02:52] actually is. It may be unfamiliar to
+- [02:52] actually is. It may be unfamiliar to some of you, how much it costs, how to
+- [02:55] some of you, how much it costs, how to
+- [02:55] some of you, how much it costs, how to install it. I'll give you a tour of this
+- [02:57] install it. I'll give you a tour of this
+- [02:57] install it. I'll give you a tour of this desktop app interface which may be new
+- [02:59] desktop app interface which may be new
+- [02:59] desktop app interface which may be new to some of you who may be used to a
+- [03:01] to some of you who may be used to a
+- [03:01] to some of you who may be used to a terminal interface and then we'll start
+- [03:03] terminal interface and then we'll start
+- [03:03] terminal interface and then we'll start getting directly into some of the
+- [03:04] getting directly into some of the
+- [03:04] getting directly into some of the fundamentals of agentic coding such as
+- [03:07] fundamentals of agentic coding such as
+- [03:07] fundamentals of agentic coding such as context windows and compaction and why
+- [03:09] context windows and compaction and why
+- [03:09] context windows and compaction and why you should typically be using voice for
+- [03:11] you should typically be using voice for
+- [03:12] you should typically be using voice for most of your work with codecs. Next,
+- [03:14] most of your work with codecs. Next,
+- [03:14] most of your work with codecs. Next, I'll cover some of the basics of agentic
+- [03:16] I'll cover some of the basics of agentic
+- [03:16] I'll cover some of the basics of agentic workflows past simply using it in a sort
+- [03:19] workflows past simply using it in a sort
+- [03:19] workflows past simply using it in a sort of chat GBT sort of way. We'll talk
+- [03:21] of chat GBT sort of way. We'll talk
+- [03:21] of chat GBT sort of way. We'll talk about permissions, guardrails, and just
+- [03:23] about permissions, guardrails, and just
+- [03:23] about permissions, guardrails, and just the basics of what you need to know
+- [03:25] the basics of what you need to know
+- [03:25] the basics of what you need to know about terminals. I'll talk about this
+- [03:27] about terminals. I'll talk about this
+- [03:27] about terminals. I'll talk about this agents.md file, which gives codec
+- [03:30] agents.md file, which gives codec
+- [03:30] agents.md file, which gives codec context about what to do in a project
+- [03:33] context about what to do in a project
+- [03:33] context about what to do in a project when it's starting up. And then we'll
+- [03:34] when it's starting up. And then we'll
+- [03:34] when it's starting up. And then we'll start getting into what I call the five
+- [03:36] start getting into what I call the five
+- [03:36] start getting into what I call the five practical primitives of agentic coding.
+- [03:39] practical primitives of agentic coding.
+- [03:39] practical primitives of agentic coding. Those are command line interfaces,
+- [03:41] Those are command line interfaces,
+- [03:41] Those are command line interfaces, skills, mcps, plugins, and sub aents.
+- [03:44] skills, mcps, plugins, and sub aents.
+- [03:44] skills, mcps, plugins, and sub aents. We'll talk about plugins and the plug-in
+- [03:47] We'll talk about plugins and the plug-in
+- [03:47] We'll talk about plugins and the plug-in system in codecs. We'll talk about a
+- [03:49] system in codecs. We'll talk about a
+- [03:49] system in codecs. We'll talk about a particular plugin called computer use
+- [03:51] particular plugin called computer use
+- [03:51] particular plugin called computer use which allows codecs to control every
+- [03:54] which allows codecs to control every
+- [03:54] which allows codecs to control every single application on your computer. And
+- [03:56] single application on your computer. And
+- [03:56] single application on your computer. And then we'll do a deep dive into skills
+- [03:58] then we'll do a deep dive into skills
+- [03:58] then we'll do a deep dive into skills which are a fundamental concept in
+- [04:00] which are a fundamental concept in
+- [04:00] which are a fundamental concept in agentic coding to give agentic coding
+- [04:03] agentic coding to give agentic coding
+- [04:03] agentic coding to give agentic coding tools the ability to do repeated
+- [04:05] tools the ability to do repeated
+- [04:05] tools the ability to do repeated workflows with all sorts of external
+- [04:08] workflows with all sorts of external
+- [04:08] workflows with all sorts of external systems. I'll compare this with an
+- [04:10] systems. I'll compare this with an
+- [04:10] systems. I'll compare this with an alternative way of getting access to
+- [04:12] alternative way of getting access to
+- [04:12] alternative way of getting access to external systems called MCPs and then
+- [04:15] external systems called MCPs and then
+- [04:15] external systems called MCPs and then we'll go into sub agents which allow you
+- [04:17] we'll go into sub agents which allow you
+- [04:17] we'll go into sub agents which allow you to parallelize work allowing you to do
+- [04:19] to parallelize work allowing you to do
+- [04:20] to parallelize work allowing you to do things a lot more completely and
+- [04:22] things a lot more completely and
+- [04:22] things a lot more completely and quickly. We'll talk about when to use
+- [04:24] quickly. We'll talk about when to use
+- [04:24] quickly. We'll talk about when to use which of these different tools and then
+- [04:26] which of these different tools and then
+- [04:26] which of these different tools and then from there I'll start bridging into the
+- [04:29] from there I'll start bridging into the
+- [04:29] from there I'll start bridging into the last third of the course where we talk
+- [04:31] last third of the course where we talk
+- [04:31] last third of the course where we talk about how to go from doing automations
+- [04:33] about how to go from doing automations
+- [04:34] about how to go from doing automations on your computer to building full-blown
+- [04:36] on your computer to building full-blown
+- [04:36] on your computer to building full-blown web applications. And the first
+- [04:38] web applications. And the first
+- [04:38] web applications. And the first prerequisite to understanding this is to
+- [04:40] prerequisite to understanding this is to
+- [04:40] prerequisite to understanding this is to understand the version control system
+- [04:43] understand the version control system
+- [04:43] understand the version control system git and how it interacts with GitHub.
+- [04:45] git and how it interacts with GitHub.
+- [04:45] git and how it interacts with GitHub. Then I'll take you through a sort of
+- [04:48] Then I'll take you through a sort of
+- [04:48] Then I'll take you through a sort of product agentic coding course where
+- [04:51] product agentic coding course where
+- [04:51] product agentic coding course where we'll go and learn how to use agentic
+- [04:55] we'll go and learn how to use agentic
+- [04:55] we'll go and learn how to use agentic coding tools to think about what you
+- [04:57] coding tools to think about what you
+- [04:57] coding tools to think about what you want to build from a product
+- [04:59] want to build from a product
+- [04:59] want to build from a product perspective. And there's particular
+- [05:01] perspective. And there's particular
+- [05:01] perspective. And there's particular skills that I'll introduce to help
+- [05:03] skills that I'll introduce to help
+- [05:03] skills that I'll introduce to help automate this. Next we'll go into the
+- [05:05] automate this. Next we'll go into the
+- [05:05] automate this. Next we'll go into the idea of cloud delegation running agentic
+- [05:07] idea of cloud delegation running agentic
+- [05:07] idea of cloud delegation running agentic coding tasks in the cloud instead of
+- [05:09] coding tasks in the cloud instead of
+- [05:09] coding tasks in the cloud instead of your local computer. After that we'll
+- [05:12] your local computer. After that we'll
+- [05:12] your local computer. After that we'll get into GitHub issues which I find to
+- [05:14] get into GitHub issues which I find to
+- [05:14] get into GitHub issues which I find to be a very useful basic project
+- [05:16] be a very useful basic project
+- [05:16] be a very useful basic project management tool. And once we have GitHub
+- [05:19] management tool. And once we have GitHub
+- [05:19] management tool. And once we have GitHub issues in place automations become very
+- [05:21] issues in place automations become very
+- [05:21] issues in place automations become very useful. This is a concept in codeex to
+- [05:23] useful. This is a concept in codeex to
+- [05:23] useful. This is a concept in codeex to have certain sort of workflows that run
+- [05:26] have certain sort of workflows that run
+- [05:26] have certain sort of workflows that run on a timer. And so you could imagine for
+- [05:28] on a timer. And so you could imagine for
+- [05:28] on a timer. And so you could imagine for example checking in every single few
+- [05:31] example checking in every single few
+- [05:31] example checking in every single few hours what sorts of new bugs arise and
+- [05:34] hours what sorts of new bugs arise and
+- [05:34] hours what sorts of new bugs arise and perhaps if they're simple automatically
+- [05:37] perhaps if they're simple automatically
+- [05:37] perhaps if they're simple automatically starting up on solutions to those bugs.
+- [05:39] starting up on solutions to those bugs.
+- [05:39] starting up on solutions to those bugs. That's the kind of thing that you'll be
+- [05:40] That's the kind of thing that you'll be
+- [05:40] That's the kind of thing that you'll be able to build after going through this
+- [05:42] able to build after going through this
+- [05:42] able to build after going through this automation section. Then for the
+- [05:44] automation section. Then for the
+- [05:44] automation section. Then for the application that we're building I'm
+- [05:46] application that we're building I'm
+- [05:46] application that we're building I'm going to introduce the general stack
+- [05:48] going to introduce the general stack
+- [05:48] going to introduce the general stack that we're using of Nex.js JS the
+- [05:50] that we're using of Nex.js JS the
+- [05:50] that we're using of Nex.js JS the front-end framework, Convex the backend
+- [05:53] front-end framework, Convex the backend
+- [05:53] front-end framework, Convex the backend framework, and Versell the place where
+- [05:55] framework, and Versell the place where
+- [05:55] framework, and Versell the place where you host your applications. After
+- [05:57] you host your applications. After
+- [05:57] you host your applications. After introducing the stack, I'm going to
+- [05:58] introducing the stack, I'm going to
+- [05:58] introducing the stack, I'm going to introduce the concept of work trees,
+- [06:00] introduce the concept of work trees,
+- [06:00] introduce the concept of work trees, which are a little similar to sub aents,
+- [06:02] which are a little similar to sub aents,
+- [06:02] which are a little similar to sub aents, but instead allow you to parallelize
+- [06:05] but instead allow you to parallelize
+- [06:05] but instead allow you to parallelize work across an entire repo rather than
+- [06:08] work across an entire repo rather than
+- [06:08] work across an entire repo rather than just within a repo. And this is very
+- [06:10] just within a repo. And this is very
+- [06:10] just within a repo. And this is very powerful to be able to scale up the rate
+- [06:12] powerful to be able to scale up the rate
+- [06:12] powerful to be able to scale up the rate at which you're able to complete agentic
+- [06:14] at which you're able to complete agentic
+- [06:14] at which you're able to complete agentic coding tasks. Then finally, we're going
+- [06:17] coding tasks. Then finally, we're going
+- [06:17] coding tasks. Then finally, we're going to build out this creator carousel
+- [06:20] to build out this creator carousel
+- [06:20] to build out this creator carousel studio. So, I'm going to build a kind of
+- [06:22] studio. So, I'm going to build a kind of
+- [06:22] studio. So, I'm going to build a kind of social media creation automation. Now,
+- [06:25] social media creation automation. Now,
+- [06:25] social media creation automation. Now, this app which I'm going to develop may
+- [06:27] this app which I'm going to develop may
+- [06:28] this app which I'm going to develop may not be relevant to every single person
+- [06:30] not be relevant to every single person
+- [06:30] not be relevant to every single person who is taking this course, but I still
+- [06:32] who is taking this course, but I still
+- [06:32] who is taking this course, but I still do recommend you go through this section
+- [06:35] do recommend you go through this section
+- [06:35] do recommend you go through this section if you're interested in general with app
+- [06:37] if you're interested in general with app
+- [06:37] if you're interested in general with app development. Because what's important to
+- [06:39] development. Because what's important to
+- [06:39] development. Because what's important to get out of this section is different
+- [06:42] get out of this section is different
+- [06:42] get out of this section is different methodologies that I'm going to show you
+- [06:44] methodologies that I'm going to show you
+- [06:44] methodologies that I'm going to show you on the fly. Both simpler ones, both less
+- [06:48] on the fly. Both simpler ones, both less
+- [06:48] on the fly. Both simpler ones, both less automated and more automated, more
+- [06:50] automated and more automated, more
+- [06:50] automated and more automated, more handsoff workflows when you're building
+- [06:53] handsoff workflows when you're building
+- [06:53] handsoff workflows when you're building any kind of complex web application. And
+- [06:56] any kind of complex web application. And
+- [06:56] any kind of complex web application. And the nice thing is that you're not going
+- [06:57] the nice thing is that you're not going
+- [06:57] the nice thing is that you're not going to need to know about the deep technical
+- [06:59] to need to know about the deep technical
+- [06:59] to need to know about the deep technical foundations of what you're building
+- [07:02] foundations of what you're building
+- [07:02] foundations of what you're building because I'll show you how with natural
+- [07:04] because I'll show you how with natural
+- [07:04] because I'll show you how with natural language just expressing your intent,
+- [07:07] language just expressing your intent,
+- [07:07] language just expressing your intent, you're able to build fairly complex
+- [07:09] you're able to build fairly complex
+- [07:09] you're able to build fairly complex applications by yourself. I'm going to
+- [07:11] applications by yourself. I'm going to
+- [07:11] applications by yourself. I'm going to create a companion skill to this
+- [07:14] create a companion skill to this
+- [07:14] create a companion skill to this application so that we're able to
+- [07:16] application so that we're able to
+- [07:16] application so that we're able to interact with it both in a web UI and
+- [07:19] interact with it both in a web UI and
+- [07:19] interact with it both in a web UI and from our local computer and then we'll
+- [07:21] from our local computer and then we'll
+- [07:21] from our local computer and then we'll deploy it so that it's available on the
+- [07:23] deploy it so that it's available on the
+- [07:23] deploy it so that it's available on the wider internet. All right, let's get
+- [07:25] wider internet. All right, let's get
+- [07:25] wider internet. All right, let's get started. So, first, what exactly is
+- [07:28] started. So, first, what exactly is
+- [07:28] started. So, first, what exactly is Codeex? If you've used ChatGpt or Claude
+- [07:31] Codeex? If you've used ChatGpt or Claude
+- [07:31] Codeex? If you've used ChatGpt or Claude in the browser in the past, you know how
+- [07:33] in the browser in the past, you know how
+- [07:33] in the browser in the past, you know how it works. You open a tab in your
+- [07:35] it works. You open a tab in your
+- [07:35] it works. You open a tab in your browser, you type in a message, and then
+- [07:37] browser, you type in a message, and then
+- [07:37] browser, you type in a message, and then the AI responds. You can upload a
+- [07:39] the AI responds. You can upload a
+- [07:39] the AI responds. You can upload a document and you can ask it to write
+- [07:41] document and you can ask it to write
+- [07:41] document and you can ask it to write some code, but it can't access the
+- [07:43] some code, but it can't access the
+- [07:43] some code, but it can't access the actual documents which are on your
+- [07:45] actual documents which are on your
+- [07:45] actual documents which are on your computer, and it can only run code in a
+- [07:48] computer, and it can only run code in a
+- [07:48] computer, and it can only run code in a very limited sandboxed environment. It
+- [07:51] very limited sandboxed environment. It
+- [07:51] very limited sandboxed environment. It can't run code actually on your
+- [07:53] can't run code actually on your
+- [07:53] can't run code actually on your computer. That's the fundamental problem
+- [07:55] computer. That's the fundamental problem
+- [07:55] computer. That's the fundamental problem which Codeex is here to solve. When you
+- [07:57] which Codeex is here to solve. When you
+- [07:57] which Codeex is here to solve. When you run Codeex, it's running on your
+- [07:59] run Codeex, it's running on your
+- [07:59] run Codeex, it's running on your computer. So, it sees your actual files.
+- [08:02] computer. So, it sees your actual files.
+- [08:02] computer. So, it sees your actual files. It can edit them and it can run commands
+- [08:04] It can edit them and it can run commands
+- [08:04] It can edit them and it can run commands whether to test some code or move files
+- [08:07] whether to test some code or move files
+- [08:07] whether to test some code or move files from one location or to another or to do
+- [08:10] from one location or to another or to do
+- [08:10] from one location or to another or to do really anything you can, it can also do
+- [08:13] really anything you can, it can also do
+- [08:13] really anything you can, it can also do from your computer. The analogy I gave
+- [08:15] from your computer. The analogy I gave
+- [08:15] from your computer. The analogy I gave in the Claude code course, which also
+- [08:17] in the Claude code course, which also
+- [08:17] in the Claude code course, which also applies here, is that things like Chad
+- [08:19] applies here, is that things like Chad
+- [08:19] applies here, is that things like Chad GBT and Claude are like asking a friend
+- [08:21] GBT and Claude are like asking a friend
+- [08:21] GBT and Claude are like asking a friend for advice. And then Codeex and Claude
+- [08:24] for advice. And then Codeex and Claude
+- [08:24] for advice. And then Codeex and Claude Code are like your friend actually
+- [08:26] Code are like your friend actually
+- [08:26] Code are like your friend actually sitting down at your computer and then
+- [08:28] sitting down at your computer and then
+- [08:28] sitting down at your computer and then doing the work for you. Now, Codeex
+- [08:31] doing the work for you. Now, Codeex
+- [08:31] doing the work for you. Now, Codeex starts with code. And so you might think
+- [08:33] starts with code. And so you might think
+- [08:33] starts with code. And so you might think that this is primarily a coding tool,
+- [08:35] that this is primarily a coding tool,
+- [08:35] that this is primarily a coding tool, but really since it's got access to your
+- [08:37] but really since it's got access to your
+- [08:37] but really since it's got access to your computer and to your files, it can do
+- [08:40] computer and to your files, it can do
+- [08:40] computer and to your files, it can do and help you automate anything that can
+- [08:42] and help you automate anything that can
+- [08:42] and help you automate anything that can be done with access to your files and
+- [08:44] be done with access to your files and
+- [08:44] be done with access to your files and your computer. So for example, you can
+- [08:46] your computer. So for example, you can
+- [08:46] your computer. So for example, you can use Codeex to draft emails, analyze
+- [08:49] use Codeex to draft emails, analyze
+- [08:49] use Codeex to draft emails, analyze PDFs, analyze your business
+- [08:51] PDFs, analyze your business
+- [08:51] PDFs, analyze your business spreadsheets, or even help you do your
+- [08:53] spreadsheets, or even help you do your
+- [08:53] spreadsheets, or even help you do your taxes. If it's on your computer, Codeex
+- [08:55] taxes. If it's on your computer, Codeex
+- [08:55] taxes. If it's on your computer, Codeex can help you out with it. Let me show
+- [08:57] can help you out with it. Let me show
+- [08:57] can help you out with it. Let me show you a quick demo right before I get into
+- [09:00] you a quick demo right before I get into
+- [09:00] you a quick demo right before I get into installing Codeex. Here we are in the
+- [09:03] installing Codeex. Here we are in the
+- [09:03] installing Codeex. Here we are in the Codeex desktop environment. So, if all
+- [09:05] Codeex desktop environment. So, if all
+- [09:05] Codeex desktop environment. So, if all of this looks very unfamiliar to you,
+- [09:07] of this looks very unfamiliar to you,
+- [09:07] of this looks very unfamiliar to you, don't worry. I'm going to be getting
+- [09:09] don't worry. I'm going to be getting
+- [09:09] don't worry. I'm going to be getting into that in just a few sections. What I
+- [09:11] into that in just a few sections. What I
+- [09:11] into that in just a few sections. What I wanted to show you quickly is just a
+- [09:13] wanted to show you quickly is just a
+- [09:13] wanted to show you quickly is just a practical demo that shows you the power
+- [09:16] practical demo that shows you the power
+- [09:16] practical demo that shows you the power of Codeex and which you'll be able to do
+- [09:18] of Codeex and which you'll be able to do
+- [09:18] of Codeex and which you'll be able to do right after going through the very next
+- [09:20] right after going through the very next
+- [09:20] right after going through the very next section. As you can see right here,
+- [09:22] section. As you can see right here,
+- [09:22] section. As you can see right here, Codeex ships with a file browser. And
+- [09:25] Codeex ships with a file browser. And
+- [09:26] Codeex ships with a file browser. And this is the directory that I use to
+- [09:27] this is the directory that I use to
+- [09:28] this is the directory that I use to organize all my research and my thinking
+- [09:30] organize all my research and my thinking
+- [09:30] organize all my research and my thinking about different YouTube videos. And so,
+- [09:32] about different YouTube videos. And so,
+- [09:32] about different YouTube videos. And so, one thing you can see here is that I
+- [09:34] one thing you can see here is that I
+- [09:34] one thing you can see here is that I have a folder with about 10 different
+- [09:36] have a folder with about 10 different
+- [09:36] have a folder with about 10 different PDFs of different papers on AI job loss.
+- [09:40] PDFs of different papers on AI job loss.
+- [09:40] PDFs of different papers on AI job loss. And let's say I wanted to make a summary
+- [09:43] And let's say I wanted to make a summary
+- [09:43] And let's say I wanted to make a summary of all of these PDFs. How can I do that?
+- [09:46] of all of these PDFs. How can I do that?
+- [09:46] of all of these PDFs. How can I do that? Well, I'm simply going to come in here
+- [09:47] Well, I'm simply going to come in here
+- [09:47] Well, I'm simply going to come in here and say go to the content directory for
+- [09:51] and say go to the content directory for
+- [09:51] and say go to the content directory for 2026412
+- [09:53] 2026412
+- [09:53] 2026412 AI job loss and then I want you to
+- [09:57] AI job loss and then I want you to
+- [09:57] AI job loss and then I want you to create a sub agent to read every single
+- [10:01] create a sub agent to read every single
+- [10:01] create a sub agent to read every single paper in the research sources PDFs
+- [10:05] paper in the research sources PDFs
+- [10:05] paper in the research sources PDFs directory and create a detailed summary
+- [10:09] directory and create a detailed summary
+- [10:09] directory and create a detailed summary of the paper and different angles that
+- [10:12] of the paper and different angles that
+- [10:12] of the paper and different angles that might be good for YouTube videos. Then I
+- [10:15] might be good for YouTube videos. Then I
+- [10:15] might be good for YouTube videos. Then I want you to take the markdown created by
+- [10:18] want you to take the markdown created by
+- [10:18] want you to take the markdown created by each sub agent and compile it all
+- [10:21] each sub agent and compile it all
+- [10:21] each sub agent and compile it all together in one attractive PDF using
+- [10:25] together in one attractive PDF using
+- [10:25] together in one attractive PDF using Pandock and IceBogle. Now, if that all
+- [10:28] Pandock and IceBogle. Now, if that all
+- [10:28] Pandock and IceBogle. Now, if that all sounds like gobbledegook to you, I
+- [10:31] sounds like gobbledegook to you, I
+- [10:31] sounds like gobbledegook to you, I totally understand cuz I haven't
+- [10:33] totally understand cuz I haven't
+- [10:33] totally understand cuz I haven't explained anything yet. But I just kind
+- [10:34] explained anything yet. But I just kind
+- [10:34] explained anything yet. But I just kind of want to prime you with some ideas
+- [10:37] of want to prime you with some ideas
+- [10:37] of want to prime you with some ideas because we're all about practice. We're
+- [10:39] because we're all about practice. We're
+- [10:39] because we're all about practice. We're not about theory. We're about practice.
+- [10:41] not about theory. We're about practice.
+- [10:41] not about theory. We're about practice. And so I want you guys to see the power
+- [10:43] And so I want you guys to see the power
+- [10:43] And so I want you guys to see the power of codec at a kind of basic skill right
+- [10:47] of codec at a kind of basic skill right
+- [10:47] of codec at a kind of basic skill right now or like a basic task right now but
+- [10:49] now or like a basic task right now but
+- [10:49] now or like a basic task right now but which is likely to be very useful to you
+- [10:52] which is likely to be very useful to you
+- [10:52] which is likely to be very useful to you all. You may have lots of different
+- [10:54] all. You may have lots of different
+- [10:54] all. You may have lots of different documents or papers across which you
+- [10:57] documents or papers across which you
+- [10:57] documents or papers across which you want to do some kind of research. And
+- [10:59] want to do some kind of research. And
+- [10:59] want to do some kind of research. And this kind of thing that I'm doing right
+- [11:01] this kind of thing that I'm doing right
+- [11:01] this kind of thing that I'm doing right here, it doesn't get rid of the need for
+- [11:04] here, it doesn't get rid of the need for
+- [11:04] here, it doesn't get rid of the need for actually doing your own reading. In
+- [11:07] actually doing your own reading. In
+- [11:07] actually doing your own reading. In fact, if you look over here on the left
+- [11:09] fact, if you look over here on the left
+- [11:09] fact, if you look over here on the left hand side, you're getting a little bit
+- [11:11] hand side, you're getting a little bit
+- [11:11] hand side, you're getting a little bit of a taste of what's to come. This is
+- [11:13] of a taste of what's to come. This is
+- [11:13] of a taste of what's to come. This is where you can see all your project. And
+- [11:15] where you can see all your project. And
+- [11:15] where you can see all your project. And you can see here that I'm building my
+- [11:17] you can see here that I'm building my
+- [11:17] you can see here that I'm building my own PDF reading app. I'm even building
+- [11:19] own PDF reading app. I'm even building
+- [11:20] own PDF reading app. I'm even building my own focus app. And I'm building my
+- [11:22] my own focus app. And I'm building my
+- [11:22] my own focus app. And I'm building my own general learning system for how I
+- [11:24] own general learning system for how I
+- [11:24] own general learning system for how I like to learn things in a gentic way.
+- [11:26] like to learn things in a gentic way.
+- [11:26] like to learn things in a gentic way. All right. So, Codeex now in parallel is
+- [11:30] All right. So, Codeex now in parallel is
+- [11:30] All right. So, Codeex now in parallel is doing research across many of these
+- [11:33] doing research across many of these
+- [11:33] doing research across many of these different PDFs and then it's going to
+- [11:35] different PDFs and then it's going to
+- [11:36] different PDFs and then it's going to come back to me with some kind of
+- [11:38] come back to me with some kind of
+- [11:38] come back to me with some kind of comprehensive summary. All right, it
+- [11:40] comprehensive summary. All right, it
+- [11:40] comprehensive summary. All right, it finished. Let's take a look. So, we're
+- [11:42] finished. Let's take a look. So, we're
+- [11:42] finished. Let's take a look. So, we're going to click this open. And one of the
+- [11:45] going to click this open. And one of the
+- [11:45] going to click this open. And one of the nice things is that these briefs can
+- [11:47] nice things is that these briefs can
+- [11:47] nice things is that these briefs can open up right in your browser. So, let
+- [11:50] open up right in your browser. So, let
+- [11:50] open up right in your browser. So, let me close the file tree. AI job loss
+- [11:52] me close the file tree. AI job loss
+- [11:52] me close the file tree. AI job loss research packet detailed paper summaries
+- [11:55] research packet detailed paper summaries
+- [11:55] research packet detailed paper summaries and YouTube angles. And then I've got
+- [11:57] and YouTube angles. And then I've got
+- [11:57] and YouTube angles. And then I've got like 10 different papers in here. So
+- [12:00] like 10 different papers in here. So
+- [12:00] like 10 different papers in here. So let's take a look at this. I guess I
+- [12:02] let's take a look at this. I guess I
+- [12:02] let's take a look at this. I guess I can't click on it, but still pretty
+- [12:04] can't click on it, but still pretty
+- [12:04] can't click on it, but still pretty cool. Let's make this a little bit more
+- [12:07] cool. Let's make this a little bit more
+- [12:08] cool. Let's make this a little bit more small. And so this is nice. So I would
+- [12:11] small. And so this is nice. So I would
+- [12:11] small. And so this is nice. So I would often take something like this and just
+- [12:13] often take something like this and just
+- [12:14] often take something like this and just stick it on my phone. And now I have
+- [12:16] stick it on my phone. And now I have
+- [12:16] stick it on my phone. And now I have something to like keep my mind running
+- [12:18] something to like keep my mind running
+- [12:18] something to like keep my mind running while I'm on the go in an Uber, at the
+- [12:20] while I'm on the go in an Uber, at the
+- [12:20] while I'm on the go in an Uber, at the gym, whatever. So, this is a pretty cool
+- [12:22] gym, whatever. So, this is a pretty cool
+- [12:22] gym, whatever. So, this is a pretty cool first demo that I wanted to show you
+- [12:24] first demo that I wanted to show you
+- [12:24] first demo that I wanted to show you guys of the power of codecs and
+- [12:26] guys of the power of codecs and
+- [12:26] guys of the power of codecs and something that's really not possible
+- [12:28] something that's really not possible
+- [12:28] something that's really not possible when you're just using these tools in
+- [12:30] when you're just using these tools in
+- [12:30] when you're just using these tools in the web UI. All right, so how do you do
+- [12:33] the web UI. All right, so how do you do
+- [12:33] the web UI. All right, so how do you do something like that yourself? Well,
+- [12:35] something like that yourself? Well,
+- [12:35] something like that yourself? Well, first you're going to have to install
+- [12:36] first you're going to have to install
+- [12:36] first you're going to have to install the Codeex desktop app. So, that's what
+- [12:38] the Codeex desktop app. So, that's what
+- [12:38] the Codeex desktop app. So, that's what I'm going to get to now. Let's talk
+- [12:39] I'm going to get to now. Let's talk
+- [12:39] I'm going to get to now. Let's talk about installation and also pricing for
+- [12:42] about installation and also pricing for
+- [12:42] about installation and also pricing for Codeex. All right. So, as you can see
+- [12:44] Codeex. All right. So, as you can see
+- [12:44] Codeex. All right. So, as you can see here, codeex is included in your chat
+- [12:47] here, codeex is included in your chat
+- [12:47] here, codeex is included in your chat GPT subscription. So, which subscription
+- [12:50] GPT subscription. So, which subscription
+- [12:50] GPT subscription. So, which subscription should you get? Now, technically, you
+- [12:53] should you get? Now, technically, you
+- [12:53] should you get? Now, technically, you would be able to use codecs in a very
+- [12:55] would be able to use codecs in a very
+- [12:56] would be able to use codecs in a very lightweight way on the free or go
+- [12:58] lightweight way on the free or go
+- [12:58] lightweight way on the free or go levels, but the minimum that I suggest
+- [13:01] levels, but the minimum that I suggest
+- [13:01] levels, but the minimum that I suggest to most people in order to get the
+- [13:03] to most people in order to get the
+- [13:03] to most people in order to get the latest models and have even a decent
+- [13:06] latest models and have even a decent
+- [13:06] latest models and have even a decent amount of usage is the $20 per month
+- [13:09] amount of usage is the $20 per month
+- [13:09] amount of usage is the $20 per month plan. Now, if you're on the $20 a month
+- [13:11] plan. Now, if you're on the $20 a month
+- [13:11] plan. Now, if you're on the $20 a month plan, it is very likely that you're
+- [13:14] plan, it is very likely that you're
+- [13:14] plan, it is very likely that you're going to hit your session or weekly
+- [13:17] going to hit your session or weekly
+- [13:17] going to hit your session or weekly usage limits. So, if you come in here to
+- [13:20] usage limits. So, if you come in here to
+- [13:20] usage limits. So, if you come in here to the Codeex desktop application, click on
+- [13:23] the Codeex desktop application, click on
+- [13:23] the Codeex desktop application, click on settings and then click on rate limits
+- [13:25] settings and then click on rate limits
+- [13:25] settings and then click on rate limits remaining. You see that it tells you
+- [13:26] remaining. You see that it tells you
+- [13:26] remaining. You see that it tells you here in the bottom left corner in every
+- [13:29] here in the bottom left corner in every
+- [13:29] here in the bottom left corner in every 5hour window how much can you use and
+- [13:32] 5hour window how much can you use and
+- [13:32] 5hour window how much can you use and then also on a weekly basis, how much do
+- [13:34] then also on a weekly basis, how much do
+- [13:34] then also on a weekly basis, how much do you have left? So, I'm actually likely
+- [13:37] you have left? So, I'm actually likely
+- [13:37] you have left? So, I'm actually likely to run out of my weekly limit pretty
+- [13:39] to run out of my weekly limit pretty
+- [13:39] to run out of my weekly limit pretty soon, and that's on the pro plan at $200
+- [13:44] soon, and that's on the pro plan at $200
+- [13:44] soon, and that's on the pro plan at $200 per month. Now, I use Codeex extremely
+- [13:47] per month. Now, I use Codeex extremely
+- [13:47] per month. Now, I use Codeex extremely heavily because I'm working with
+- [13:49] heavily because I'm working with
+- [13:49] heavily because I'm working with multiple coding agents across many
+- [13:51] multiple coding agents across many
+- [13:51] multiple coding agents across many projects simultaneously, but what I
+- [13:54] projects simultaneously, but what I
+- [13:54] projects simultaneously, but what I would recommend for most of you is to
+- [13:56] would recommend for most of you is to
+- [13:56] would recommend for most of you is to get on the $100 per month plan, which
+- [13:59] get on the $100 per month plan, which
+- [13:59] get on the $100 per month plan, which gives you five times the limits of the
+- [14:01] gives you five times the limits of the
+- [14:01] gives you five times the limits of the plus plan. I'm on the $200 per month
+- [14:04] plus plan. I'm on the $200 per month
+- [14:04] plus plan. I'm on the $200 per month plan, which isn't listed here, but
+- [14:06] plan, which isn't listed here, but
+- [14:06] plan, which isn't listed here, but that's why it says from and then it's a
+- [14:08] that's why it says from and then it's a
+- [14:08] that's why it says from and then it's a 20x and so I have even higher limits.
+- [14:11] 20x and so I have even higher limits.
+- [14:11] 20x and so I have even higher limits. Now, one thing to note here is that you
+- [14:14] Now, one thing to note here is that you
+- [14:14] Now, one thing to note here is that you can also use codecs by the API. I don't
+- [14:18] can also use codecs by the API. I don't
+- [14:18] can also use codecs by the API. I don't recommend that because the subscriptions
+- [14:21] recommend that because the subscriptions
+- [14:21] recommend that because the subscriptions are giving you a subsidized rate for the
+- [14:24] are giving you a subsidized rate for the
+- [14:24] are giving you a subsidized rate for the amount of usage that you get. So, choose
+- [14:27] amount of usage that you get. So, choose
+- [14:27] amount of usage that you get. So, choose whichever subscription makes most sense
+- [14:29] whichever subscription makes most sense
+- [14:29] whichever subscription makes most sense for you. Next, you'll want to install
+- [14:31] for you. Next, you'll want to install
+- [14:31] for you. Next, you'll want to install Codeex. And you'll see here that there's
+- [14:33] Codeex. And you'll see here that there's
+- [14:33] Codeex. And you'll see here that there's a command line interface and then a
+- [14:35] a command line interface and then a
+- [14:36] a command line interface and then a Codeex app. Now, this command line
+- [14:38] Codeex app. Now, this command line
+- [14:38] Codeex app. Now, this command line interface is actually mostly open-
+- [14:41] interface is actually mostly open-
+- [14:41] interface is actually mostly open- source, which is a pretty cool feature
+- [14:43] source, which is a pretty cool feature
+- [14:43] source, which is a pretty cool feature of Codeex as opposed to Claw Code, but
+- [14:45] of Codeex as opposed to Claw Code, but
+- [14:45] of Codeex as opposed to Claw Code, but we're going to be focusing on the
+- [14:47] we're going to be focusing on the
+- [14:47] we're going to be focusing on the desktop app, which is both better,
+- [14:50] desktop app, which is both better,
+- [14:50] desktop app, which is both better, surprisingly for beginners and for power
+- [14:53] surprisingly for beginners and for power
+- [14:53] surprisingly for beginners and for power users. So, you come over here to
+- [14:55] users. So, you come over here to
+- [14:55] users. So, you come over here to developers.openai.com/codex/app
+- [14:56] developers.openai.com/codex/app
+- [14:56] developers.openai.com/codex/app openai.com/codex/app.
+- [14:59] openai.com/codex/app.
+- [14:59] openai.com/codex/app. And then you can install it either for
+- [15:01] And then you can install it either for
+- [15:01] And then you can install it either for Mac or for Windows. So I would just
+- [15:04] Mac or for Windows. So I would just
+- [15:04] Mac or for Windows. So I would just click on the one for Mac. Then once it's
+- [15:07] click on the one for Mac. Then once it's
+- [15:07] click on the one for Mac. Then once it's installed, it's going to show up over
+- [15:09] installed, it's going to show up over
+- [15:09] installed, it's going to show up over here in your downloads. Double click on
+- [15:12] here in your downloads. Double click on
+- [15:12] here in your downloads. Double click on it, grab it, drag it, then say replace
+- [15:16] it, grab it, drag it, then say replace
+- [15:16] it, grab it, drag it, then say replace if you've already got an old version.
+- [15:18] if you've already got an old version.
+- [15:18] if you've already got an old version. Now you can open it up. You'll see
+- [15:20] Now you can open it up. You'll see
+- [15:20] Now you can open it up. You'll see something like this. Press come up. Say
+- [15:22] something like this. Press come up. Say
+- [15:22] something like this. Press come up. Say open. Okay. Now there's two options. You
+- [15:25] open. Okay. Now there's two options. You
+- [15:25] open. Okay. Now there's two options. You can continue with chat GBT or enter an
+- [15:28] can continue with chat GBT or enter an
+- [15:28] can continue with chat GBT or enter an API key. You should have a Chat GBT
+- [15:30] API key. You should have a Chat GBT
+- [15:30] API key. You should have a Chat GBT subscription now. Sign in with your
+- [15:33] subscription now. Sign in with your
+- [15:33] subscription now. Sign in with your email address. Say continue there. And
+- [15:36] email address. Say continue there. And
+- [15:36] email address. Say continue there. And then if this is your first time in
+- [15:38] then if this is your first time in
+- [15:38] then if this is your first time in Codeex, you're not going to see all this
+- [15:40] Codeex, you're not going to see all this
+- [15:40] Codeex, you're not going to see all this stuff on the left or any of these
+- [15:42] stuff on the left or any of these
+- [15:42] stuff on the left or any of these things, but it remembers that I had
+- [15:45] things, but it remembers that I had
+- [15:45] things, but it remembers that I had Codeex installed before. So I get to
+- [15:48] Codeex installed before. So I get to
+- [15:48] Codeex installed before. So I get to come back to my previous state. All
+- [15:50] come back to my previous state. All
+- [15:50] come back to my previous state. All right. Now, before we do any deeper
+- [15:53] right. Now, before we do any deeper
+- [15:53] right. Now, before we do any deeper exercises, I want to give you a full
+- [15:55] exercises, I want to give you a full
+- [15:55] exercises, I want to give you a full tour of the desktop application. I'm
+- [15:58] tour of the desktop application. I'm
+- [15:58] tour of the desktop application. I'm going to go through every single
+- [16:00] going to go through every single
+- [16:00] going to go through every single interface, explain where it is, what it
+- [16:03] interface, explain where it is, what it
+- [16:03] interface, explain where it is, what it is, and how to use it. We're not going
+- [16:05] is, and how to use it. We're not going
+- [16:05] is, and how to use it. We're not going to go fully into detail, but I want you
+- [16:07] to go fully into detail, but I want you
+- [16:07] to go fully into detail, but I want you to have at least a cursory overview, and
+- [16:10] to have at least a cursory overview, and
+- [16:10] to have at least a cursory overview, and then we'll go more into detail later in
+- [16:12] then we'll go more into detail later in
+- [16:12] then we'll go more into detail later in the course. So, this is what you see
+- [16:14] the course. So, this is what you see
+- [16:14] the course. So, this is what you see when you launch Codeex. On the left hand
+- [16:17] when you launch Codeex. On the left hand
+- [16:17] when you launch Codeex. On the left hand side you see different projects each of
+- [16:19] side you see different projects each of
+- [16:19] side you see different projects each of which are defined by a particular
+- [16:22] which are defined by a particular
+- [16:22] which are defined by a particular folder. If you want to add a new project
+- [16:24] folder. If you want to add a new project
+- [16:24] folder. If you want to add a new project you just click this add new project
+- [16:26] you just click this add new project
+- [16:26] you just click this add new project button and then if you like me have a
+- [16:30] button and then if you like me have a
+- [16:30] button and then if you like me have a projects folder where you like to keep
+- [16:32] projects folder where you like to keep
+- [16:32] projects folder where you like to keep everything you can either have a new
+- [16:34] everything you can either have a new
+- [16:34] everything you can either have a new folder and create a folder in there.
+- [16:37] folder and create a folder in there.
+- [16:37] folder and create a folder in there. Open it up and now the files and work
+- [16:41] Open it up and now the files and work
+- [16:41] Open it up and now the files and work that codeex does will by default be done
+- [16:44] that codeex does will by default be done
+- [16:44] that codeex does will by default be done just in that folder. And so I can scroll
+- [16:46] just in that folder. And so I can scroll
+- [16:46] just in that folder. And so I can scroll here and I can see that there are
+- [16:48] here and I can see that there are
+- [16:48] here and I can see that there are different threads here that have been
+- [16:50] different threads here that have been
+- [16:50] different threads here that have been created for a wide variety of different
+- [16:53] created for a wide variety of different
+- [16:53] created for a wide variety of different projects. And then if I want to start a
+- [16:55] projects. And then if I want to start a
+- [16:55] projects. And then if I want to start a new chat in some project, I just come
+- [16:58] new chat in some project, I just come
+- [16:58] new chat in some project, I just come here, click on new chat. I can choose
+- [17:01] here, click on new chat. I can choose
+- [17:01] here, click on new chat. I can choose between my different projects that I
+- [17:03] between my different projects that I
+- [17:03] between my different projects that I have available. And then I can simply
+- [17:05] have available. And then I can simply
+- [17:05] have available. And then I can simply ask codec make me a Python script to
+- [17:09] ask codec make me a Python script to
+- [17:10] ask codec make me a Python script to make a map of the United States in a
+- [17:13] make a map of the United States in a
+- [17:13] make a map of the United States in a virtual environment. And so now Codeex
+- [17:17] virtual environment. And so now Codeex
+- [17:17] virtual environment. And so now Codeex will start working and the UN user
+- [17:20] will start working and the UN user
+- [17:20] will start working and the UN user interface has changed a little bit. Now
+- [17:22] interface has changed a little bit. Now
+- [17:22] interface has changed a little bit. Now here we can see the work that Codeex is
+- [17:25] here we can see the work that Codeex is
+- [17:25] here we can see the work that Codeex is doing which includes running various
+- [17:27] doing which includes running various
+- [17:27] doing which includes running various commands and then down here there's an
+- [17:30] commands and then down here there's an
+- [17:30] commands and then down here there's an interface in which I can ask for
+- [17:32] interface in which I can ask for
+- [17:32] interface in which I can ask for follow-ups or whatnot. Now we'll come
+- [17:34] follow-ups or whatnot. Now we'll come
+- [17:34] follow-ups or whatnot. Now we'll come back to this but I want to show you a
+- [17:36] back to this but I want to show you a
+- [17:36] back to this but I want to show you a few more interfaces. Next besides this
+- [17:39] few more interfaces. Next besides this
+- [17:39] few more interfaces. Next besides this new chat button we see a search button.
+- [17:42] new chat button we see a search button.
+- [17:42] new chat button we see a search button. So if I wanted to look for example uh in
+- [17:45] So if I wanted to look for example uh in
+- [17:46] So if I wanted to look for example uh in which where was I talking about making a
+- [17:48] which where was I talking about making a
+- [17:48] which where was I talking about making a Spanish course? So, I'm making Spanish
+- [17:50] Spanish course? So, I'm making Spanish
+- [17:50] Spanish course? So, I'm making Spanish versions of some of my materials. And
+- [17:52] versions of some of my materials. And
+- [17:52] versions of some of my materials. And so, you can use that to find a thread
+- [17:55] so, you can use that to find a thread
+- [17:55] so, you can use that to find a thread when you have lots of projects and lots
+- [17:57] when you have lots of projects and lots
+- [17:57] when you have lots of projects and lots of threads in each project. Then, this
+- [17:59] of threads in each project. Then, this
+- [17:59] of threads in each project. Then, this button for plugins is where you can see
+- [18:02] button for plugins is where you can see
+- [18:02] button for plugins is where you can see different plugins which are available in
+- [18:05] different plugins which are available in
+- [18:05] different plugins which are available in codecs. You can think of these as
+- [18:07] codecs. You can think of these as
+- [18:07] codecs. You can think of these as capabilities that allow you to connect
+- [18:09] capabilities that allow you to connect
+- [18:09] capabilities that allow you to connect with external systems or to do things
+- [18:12] with external systems or to do things
+- [18:12] with external systems or to do things that codecs otherwise couldn't do. So
+- [18:14] that codecs otherwise couldn't do. So
+- [18:14] that codecs otherwise couldn't do. So this one, the computer use plugin on
+- [18:17] this one, the computer use plugin on
+- [18:17] this one, the computer use plugin on which I recently made a video and we'll
+- [18:20] which I recently made a video and we'll
+- [18:20] which I recently made a video and we'll be talking about in more detail later in
+- [18:22] be talking about in more detail later in
+- [18:22] be talking about in more detail later in this course is a plugin which allows you
+- [18:24] this course is a plugin which allows you
+- [18:24] this course is a plugin which allows you to control Mac apps from codecs. But if
+- [18:27] to control Mac apps from codecs. But if
+- [18:27] to control Mac apps from codecs. But if you come here and select this built by
+- [18:29] you come here and select this built by
+- [18:29] you come here and select this built by open AI plugins, you'll see that there
+- [18:32] open AI plugins, you'll see that there
+- [18:32] open AI plugins, you'll see that there are all sorts of plugins for lots of
+- [18:34] are all sorts of plugins for lots of
+- [18:34] are all sorts of plugins for lots of different things. So there's like a
+- [18:36] different things. So there's like a
+- [18:36] different things. So there's like a Figma one, Google Drive, Gmail, Slack,
+- [18:40] Figma one, Google Drive, Gmail, Slack,
+- [18:40] Figma one, Google Drive, Gmail, Slack, etc. So, we'll be experimenting with
+- [18:42] etc. So, we'll be experimenting with
+- [18:42] etc. So, we'll be experimenting with some of these plugins later in the
+- [18:44] some of these plugins later in the
+- [18:44] some of these plugins later in the course, but I just want you to be aware
+- [18:46] course, but I just want you to be aware
+- [18:46] course, but I just want you to be aware of them for now. Now, also, if you look
+- [18:49] of them for now. Now, also, if you look
+- [18:49] of them for now. Now, also, if you look up here on the top left, you'll see
+- [18:51] up here on the top left, you'll see
+- [18:51] up here on the top left, you'll see there's plugins, but also skills. So,
+- [18:53] there's plugins, but also skills. So,
+- [18:53] there's plugins, but also skills. So, skills are a concept similar to plugins,
+- [18:57] skills are a concept similar to plugins,
+- [18:57] skills are a concept similar to plugins, but they're perhaps more specialized
+- [18:59] but they're perhaps more specialized
+- [18:59] but they're perhaps more specialized particular capabilities. And some skills
+- [19:03] particular capabilities. And some skills
+- [19:03] particular capabilities. And some skills come bundled with codecs. And so you can
+- [19:05] come bundled with codecs. And so you can
+- [19:06] come bundled with codecs. And so you can see for example that there's a skill to
+- [19:08] see for example that there's a skill to
+- [19:08] see for example that there's a skill to create skills and a skill to install
+- [19:10] create skills and a skill to install
+- [19:10] create skills and a skill to install skills that comes bundled with codeex.
+- [19:13] skills that comes bundled with codeex.
+- [19:13] skills that comes bundled with codeex. Now if for whatever reason you didn't
+- [19:15] Now if for whatever reason you didn't
+- [19:15] Now if for whatever reason you didn't want to have this skill available, you
+- [19:18] want to have this skill available, you
+- [19:18] want to have this skill available, you could just come here and choose to
+- [19:20] could just come here and choose to
+- [19:20] could just come here and choose to disable the skill and then enable it
+- [19:23] disable the skill and then enable it
+- [19:23] disable the skill and then enable it again if you wanted to enable it again.
+- [19:25] again if you wanted to enable it again.
+- [19:25] again if you wanted to enable it again. We'll go more into detail on what skills
+- [19:27] We'll go more into detail on what skills
+- [19:27] We'll go more into detail on what skills are, how they work, how to make them,
+- [19:30] are, how they work, how to make them,
+- [19:30] are, how they work, how to make them, how they defer from plugins and other
+- [19:32] how they defer from plugins and other
+- [19:32] how they defer from plugins and other things like MCPs and CLIs, which you
+- [19:35] things like MCPs and CLIs, which you
+- [19:35] things like MCPs and CLIs, which you might have heard of. Doesn't matter
+- [19:37] might have heard of. Doesn't matter
+- [19:37] might have heard of. Doesn't matter right now. We'll get into it later in
+- [19:38] right now. We'll get into it later in
+- [19:38] right now. We'll get into it later in the course. And I also have tons of
+- [19:40] the course. And I also have tons of
+- [19:40] the course. And I also have tons of plugins that I've made across many
+- [19:42] plugins that I've made across many
+- [19:42] plugins that I've made across many different projects. So you can see some
+- [19:44] different projects. So you can see some
+- [19:44] different projects. So you can see some of them are all in here and you'll be
+- [19:47] of them are all in here and you'll be
+- [19:47] of them are all in here and you'll be able to see all the skills that you make
+- [19:48] able to see all the skills that you make
+- [19:48] able to see all the skills that you make over time whether they're for particular
+- [19:51] over time whether they're for particular
+- [19:51] over time whether they're for particular projects or general ones that you always
+- [19:53] projects or general ones that you always
+- [19:53] projects or general ones that you always want to be available all the time. An
+- [19:55] want to be available all the time. An
+- [19:55] want to be available all the time. An additional concept that codeex has is
+- [19:58] additional concept that codeex has is
+- [19:58] additional concept that codeex has is that of automations. And so these are
+- [20:01] that of automations. And so these are
+- [20:01] that of automations. And so these are literally automations just things that
+- [20:03] literally automations just things that
+- [20:04] literally automations just things that run on some schedule like every single
+- [20:07] run on some schedule like every single
+- [20:07] run on some schedule like every single day at a particular time. And so for
+- [20:09] day at a particular time. And so for
+- [20:09] day at a particular time. And so for example at Pay Slice where I work as a
+- [20:13] example at Pay Slice where I work as a
+- [20:13] example at Pay Slice where I work as a director of AI and ML I have a standup
+- [20:15] director of AI and ML I have a standup
+- [20:16] director of AI and ML I have a standup summary plugin which I have run every
+- [20:18] summary plugin which I have run every
+- [20:18] summary plugin which I have run every single day before our weekly standup
+- [20:21] single day before our weekly standup
+- [20:21] single day before our weekly standup just to summarize the changes that have
+- [20:23] just to summarize the changes that have
+- [20:23] just to summarize the changes that have occurred in the git repository. And this
+- [20:25] occurred in the git repository. And this
+- [20:25] occurred in the git repository. And this is useful for communicating both to the
+- [20:29] is useful for communicating both to the
+- [20:29] is useful for communicating both to the rest of the team what I've done in a
+- [20:31] rest of the team what I've done in a
+- [20:31] rest of the team what I've done in a summarized way, but also for me to get
+- [20:33] summarized way, but also for me to get
+- [20:33] summarized way, but also for me to get insight into what the other engineers I
+- [20:36] insight into what the other engineers I
+- [20:36] insight into what the other engineers I work with have been working on if I
+- [20:38] work with have been working on if I
+- [20:38] work with have been working on if I haven't spoken to them recently. And so
+- [20:39] haven't spoken to them recently. And so
+- [20:39] haven't spoken to them recently. And so you can create all sorts of automations
+- [20:42] you can create all sorts of automations
+- [20:42] you can create all sorts of automations in this interface. Again, we'll be
+- [20:44] in this interface. Again, we'll be
+- [20:44] in this interface. Again, we'll be getting into this in more detail later
+- [20:46] getting into this in more detail later
+- [20:46] getting into this in more detail later in the course. So if we come back over
+- [20:49] in the course. So if we come back over
+- [20:49] in the course. So if we come back over here to this pane, I want to show you a
+- [20:52] here to this pane, I want to show you a
+- [20:52] here to this pane, I want to show you a few more features about what's available
+- [20:55] few more features about what's available
+- [20:55] few more features about what's available in this interface. Now sometimes to
+- [20:58] in this interface. Now sometimes to
+- [20:58] in this interface. Now sometimes to install certain kinds of software, maybe
+- [21:00] install certain kinds of software, maybe
+- [21:00] install certain kinds of software, maybe you don't want codecs to just do it for
+- [21:02] you don't want codecs to just do it for
+- [21:02] you don't want codecs to just do it for you. Codeex can do software installation
+- [21:04] you. Codeex can do software installation
+- [21:04] you. Codeex can do software installation for you. And if you want to be able to
+- [21:06] for you. And if you want to be able to
+- [21:06] for you. And if you want to be able to do it yourself, if you're on a Mac or on
+- [21:09] do it yourself, if you're on a Mac or on
+- [21:09] do it yourself, if you're on a Mac or on Windows, often too, what you want is
+- [21:11] Windows, often too, what you want is
+- [21:11] Windows, often too, what you want is access to the terminal. Now, in this
+- [21:14] access to the terminal. Now, in this
+- [21:14] access to the terminal. Now, in this course, unlike the clawed code course,
+- [21:16] course, unlike the clawed code course,
+- [21:16] course, unlike the clawed code course, I'm not going to go into the terminal in
+- [21:18] I'm not going to go into the terminal in
+- [21:18] I'm not going to go into the terminal in detail because the desktop app is such a
+- [21:21] detail because the desktop app is such a
+- [21:21] detail because the desktop app is such a beautiful amazing interface that you end
+- [21:23] beautiful amazing interface that you end
+- [21:23] beautiful amazing interface that you end up not really having to use codecs of
+- [21:25] up not really having to use codecs of
+- [21:25] up not really having to use codecs of the terminal or the terminal very much.
+- [21:27] the terminal or the terminal very much.
+- [21:27] the terminal or the terminal very much. But if you want to use the terminal,
+- [21:29] But if you want to use the terminal,
+- [21:29] But if you want to use the terminal, there's two ways to do it. One is that
+- [21:31] there's two ways to do it. One is that
+- [21:31] there's two ways to do it. One is that you can click this button over here for
+- [21:33] you can click this button over here for
+- [21:33] you can click this button over here for the terminal or as you can also see, you
+- [21:36] the terminal or as you can also see, you
+- [21:36] the terminal or as you can also see, you can just toggle it on with command J.
+- [21:38] can just toggle it on with command J.
+- [21:38] can just toggle it on with command J. And so that's what I'm doing right
+- [21:39] And so that's what I'm doing right
+- [21:39] And so that's what I'm doing right there. Command J. That gets me to a
+- [21:41] there. Command J. That gets me to a
+- [21:41] there. Command J. That gets me to a terminal. And this terminal opens up in
+- [21:45] terminal. And this terminal opens up in
+- [21:45] terminal. And this terminal opens up in the same folder that you're in. And if
+- [21:47] the same folder that you're in. And if
+- [21:47] the same folder that you're in. And if you go to another one, there will be a
+- [21:50] you go to another one, there will be a
+- [21:50] you go to another one, there will be a different distinct terminal in each
+- [21:52] different distinct terminal in each
+- [21:52] different distinct terminal in each project and each thread's interface. So
+- [21:55] project and each thread's interface. So
+- [21:55] project and each thread's interface. So there's no risk of them interacting with
+- [21:57] there's no risk of them interacting with
+- [21:58] there's no risk of them interacting with each other. If you want to open multiple
+- [21:59] each other. If you want to open multiple
+- [22:00] each other. If you want to open multiple terminals in a single interface, you can
+- [22:02] terminals in a single interface, you can
+- [22:02] terminals in a single interface, you can just click that plus button. And so
+- [22:03] just click that plus button. And so
+- [22:03] just click that plus button. And so that's handy to have. Now the next
+- [22:05] that's handy to have. Now the next
+- [22:05] that's handy to have. Now the next button over here is for toggling the
+- [22:08] button over here is for toggling the
+- [22:08] button over here is for toggling the file tree. So you can see all the files
+- [22:11] file tree. So you can see all the files
+- [22:11] file tree. So you can see all the files which are in your project and if you
+- [22:13] which are in your project and if you
+- [22:13] which are in your project and if you click on them you can even look at the
+- [22:16] click on them you can even look at the
+- [22:16] click on them you can even look at the file itself. Now most of the time I
+- [22:19] file itself. Now most of the time I
+- [22:19] file itself. Now most of the time I almost never have to edit files by hand
+- [22:22] almost never have to edit files by hand
+- [22:22] almost never have to edit files by hand anymore but in the rare occasion that we
+- [22:25] anymore but in the rare occasion that we
+- [22:25] anymore but in the rare occasion that we do I don't recommend doing it within
+- [22:28] do I don't recommend doing it within
+- [22:28] do I don't recommend doing it within codeex. I instead recommend doing it
+- [22:31] codeex. I instead recommend doing it
+- [22:31] codeex. I instead recommend doing it with an external application. The
+- [22:33] with an external application. The
+- [22:33] with an external application. The particular application that I recommend
+- [22:35] particular application that I recommend
+- [22:35] particular application that I recommend you have installed is Visual Studio
+- [22:38] you have installed is Visual Studio
+- [22:38] you have installed is Visual Studio Code, which is a very good, very useful
+- [22:41] Code, which is a very good, very useful
+- [22:41] Code, which is a very good, very useful external editor. So, you just look up VS
+- [22:43] external editor. So, you just look up VS
+- [22:43] external editor. So, you just look up VS Code, then you'll have a download,
+- [22:45] Code, then you'll have a download,
+- [22:45] Code, then you'll have a download, install it. You're all pros at
+- [22:47] install it. You're all pros at
+- [22:47] install it. You're all pros at installing software. I'm sure I don't
+- [22:49] installing software. I'm sure I don't
+- [22:49] installing software. I'm sure I don't need to show you how to do that. In
+- [22:50] need to show you how to do that. In
+- [22:50] need to show you how to do that. In order to easily open up a folder or a
+- [22:54] order to easily open up a folder or a
+- [22:54] order to easily open up a folder or a file in a particular editor of your
+- [22:57] file in a particular editor of your
+- [22:57] file in a particular editor of your choice, you need to first have a git
+- [22:59] choice, you need to first have a git
+- [22:59] choice, you need to first have a git repository initiated in your project. So
+- [23:03] repository initiated in your project. So
+- [23:03] repository initiated in your project. So the way I would do that is just ask
+- [23:05] the way I would do that is just ask
+- [23:05] the way I would do that is just ask codeex, can you create a git repo for me
+- [23:09] codeex, can you create a git repo for me
+- [23:09] codeex, can you create a git repo for me and make a first commit. Now if you're
+- [23:12] and make a first commit. Now if you're
+- [23:12] and make a first commit. Now if you're not familiar with git, don't worry.
+- [23:14] not familiar with git, don't worry.
+- [23:14] not familiar with git, don't worry. We're going to be getting into that
+- [23:15] We're going to be getting into that
+- [23:15] We're going to be getting into that later in the course, but basically Git
+- [23:18] later in the course, but basically Git
+- [23:18] later in the course, but basically Git is a version control system which helps
+- [23:21] is a version control system which helps
+- [23:21] is a version control system which helps you keep track of changes to your files
+- [23:25] you keep track of changes to your files
+- [23:25] you keep track of changes to your files in your project as you work on it. And
+- [23:27] in your project as you work on it. And
+- [23:27] in your project as you work on it. And Git is both really good to use for a
+- [23:30] Git is both really good to use for a
+- [23:30] Git is both really good to use for a variety of reasons as a software
+- [23:33] variety of reasons as a software
+- [23:33] variety of reasons as a software developer or for anybody really working
+- [23:35] developer or for anybody really working
+- [23:36] developer or for anybody really working with files at all, but it also is very
+- [23:39] with files at all, but it also is very
+- [23:39] with files at all, but it also is very helpful for agentic coding tools like
+- [23:42] helpful for agentic coding tools like
+- [23:42] helpful for agentic coding tools like codecs to give them memory because
+- [23:45] codecs to give them memory because
+- [23:45] codecs to give them memory because they're then able to see all the changes
+- [23:48] they're then able to see all the changes
+- [23:48] they're then able to see all the changes that have been made in a project and
+- [23:51] that have been made in a project and
+- [23:51] that have been made in a project and that helps them do better work. And so
+- [23:52] that helps them do better work. And so
+- [23:52] that helps them do better work. And so if you look here at the top right,
+- [23:55] if you look here at the top right,
+- [23:55] if you look here at the top right, you'll see that the user interface has
+- [23:57] you'll see that the user interface has
+- [23:57] you'll see that the user interface has changed a bit. There are a few new
+- [23:59] changed a bit. There are a few new
+- [23:59] changed a bit. There are a few new things that have come up. So there's
+- [24:00] things that have come up. So there's
+- [24:00] things that have come up. So there's this menu that has come up now which
+- [24:03] this menu that has come up now which
+- [24:03] this menu that has come up now which with which you can choose to commit,
+- [24:06] with which you can choose to commit,
+- [24:06] with which you can choose to commit, push or create PRs or create branches.
+- [24:09] push or create PRs or create branches.
+- [24:09] push or create PRs or create branches. Again, these are git concepts that I'll
+- [24:11] Again, these are git concepts that I'll
+- [24:11] Again, these are git concepts that I'll get to later in the course. But you can
+- [24:13] get to later in the course. But you can
+- [24:13] get to later in the course. But you can also now choose to open up this project
+- [24:17] also now choose to open up this project
+- [24:17] also now choose to open up this project in an application of your choice. And so
+- [24:19] in an application of your choice. And so
+- [24:19] in an application of your choice. And so cursor and VS Code are two editors that
+- [24:22] cursor and VS Code are two editors that
+- [24:22] cursor and VS Code are two editors that I have open. The one that I just
+- [24:24] I have open. The one that I just
+- [24:24] I have open. The one that I just recommended you install is VS Code, but
+- [24:26] recommended you install is VS Code, but
+- [24:26] recommended you install is VS Code, but you can also open it up in a terminal or
+- [24:29] you can also open it up in a terminal or
+- [24:29] you can also open it up in a terminal or if you're building some application,
+- [24:31] if you're building some application,
+- [24:31] if you're building some application, then you can build it up in Xcode or
+- [24:33] then you can build it up in Xcode or
+- [24:33] then you can build it up in Xcode or Android Studio. So I'm going to choose
+- [24:35] Android Studio. So I'm going to choose
+- [24:35] Android Studio. So I'm going to choose to open this up in VS Code. Let's click
+- [24:37] to open this up in VS Code. Let's click
+- [24:37] to open this up in VS Code. Let's click that. And there it is. Now it's open up
+- [24:39] that. And there it is. Now it's open up
+- [24:39] that. And there it is. Now it's open up in VS Code. And so this can be a nicer
+- [24:43] in VS Code. And so this can be a nicer
+- [24:43] in VS Code. And so this can be a nicer environment. It's like more particular
+- [24:45] environment. It's like more particular
+- [24:45] environment. It's like more particular to looking through your files. and you
+- [24:48] to looking through your files. and you
+- [24:48] to looking through your files. and you can customize it with extensions as you
+- [24:50] can customize it with extensions as you
+- [24:50] can customize it with extensions as you like. And so for most of you, even
+- [24:52] like. And so for most of you, even
+- [24:52] like. And so for most of you, even though I do recommend Codeex for doing
+- [24:54] though I do recommend Codeex for doing
+- [24:54] though I do recommend Codeex for doing most of the operations that you'll need
+- [24:57] most of the operations that you'll need
+- [24:57] most of the operations that you'll need done, having VS Code available will be
+- [24:59] done, having VS Code available will be
+- [24:59] done, having VS Code available will be very useful. Next, you'll also see this
+- [25:01] very useful. Next, you'll also see this
+- [25:01] very useful. Next, you'll also see this other side panel available. So, I can
+- [25:03] other side panel available. So, I can
+- [25:03] other side panel available. So, I can flip it out. And in that side panel, one
+- [25:06] flip it out. And in that side panel, one
+- [25:06] flip it out. And in that side panel, one of the things that you could do is to
+- [25:08] of the things that you could do is to
+- [25:08] of the things that you could do is to see files. But there's two other things
+- [25:10] see files. But there's two other things
+- [25:10] see files. But there's two other things which are cool to know. There's a review
+- [25:13] which are cool to know. There's a review
+- [25:13] which are cool to know. There's a review UI. So, this helps you see the different
+- [25:16] UI. So, this helps you see the different
+- [25:16] UI. So, this helps you see the different changes that have been made in your repo
+- [25:18] changes that have been made in your repo
+- [25:18] changes that have been made in your repo as changes are made. Can you make it
+- [25:21] as changes are made. Can you make it
+- [25:21] as changes are made. Can you make it prettier? And so, I'm going to ask
+- [25:23] prettier? And so, I'm going to ask
+- [25:23] prettier? And so, I'm going to ask codeex to fulfill this vague instruction
+- [25:26] codeex to fulfill this vague instruction
+- [25:26] codeex to fulfill this vague instruction to just make the map look more
+- [25:29] to just make the map look more
+- [25:29] to just make the map look more beautiful. And then we're going to see
+- [25:31] beautiful. And then we're going to see
+- [25:31] beautiful. And then we're going to see the changes come up on here, but they're
+- [25:34] the changes come up on here, but they're
+- [25:34] the changes come up on here, but they're just going to be the changes relative to
+- [25:36] just going to be the changes relative to
+- [25:36] just going to be the changes relative to what the last change is that we
+- [25:39] what the last change is that we
+- [25:39] what the last change is that we committed is the git term to git. All
+- [25:41] committed is the git term to git. All
+- [25:41] committed is the git term to git. All right. So, we've pretty much talked at
+- [25:43] right. So, we've pretty much talked at
+- [25:43] right. So, we've pretty much talked at this point about the main UI, but we
+- [25:46] this point about the main UI, but we
+- [25:46] this point about the main UI, but we haven't really talked yet about this
+- [25:48] haven't really talked yet about this
+- [25:48] haven't really talked yet about this very important interface down here, and
+- [25:51] very important interface down here, and
+- [25:51] very important interface down here, and there's actually quite a lot going on in
+- [25:53] there's actually quite a lot going on in
+- [25:54] there's actually quite a lot going on in this small space. So, let me go through
+- [25:56] this small space. So, let me go through
+- [25:56] this small space. So, let me go through it piece by piece. First, this thing is
+- [25:58] it piece by piece. First, this thing is
+- [25:58] it piece by piece. First, this thing is now making changes. It deleted one file.
+- [26:00] now making changes. It deleted one file.
+- [26:00] now making changes. It deleted one file. And so, as you can see, we can now see
+- [26:03] And so, as you can see, we can now see
+- [26:03] And so, as you can see, we can now see these changes coming up on the ra right
+- [26:05] these changes coming up on the ra right
+- [26:05] these changes coming up on the ra right hand side in this review user interface.
+- [26:08] hand side in this review user interface.
+- [26:08] hand side in this review user interface. So in this UI when codeex has finished
+- [26:12] So in this UI when codeex has finished
+- [26:12] So in this UI when codeex has finished doing something you can chat with it
+- [26:15] doing something you can chat with it
+- [26:15] doing something you can chat with it just like you would chat with chat GBT
+- [26:17] just like you would chat with chat GBT
+- [26:17] just like you would chat with chat GBT and so let's say uh I wanted to just say
+- [26:20] and so let's say uh I wanted to just say
+- [26:20] and so let's say uh I wanted to just say make it prettier after this. It would be
+- [26:23] make it prettier after this. It would be
+- [26:23] make it prettier after this. It would be able to understand that instruction and
+- [26:25] able to understand that instruction and
+- [26:25] able to understand that instruction and then try to fulfill it to the best of
+- [26:27] then try to fulfill it to the best of
+- [26:27] then try to fulfill it to the best of its ability. But there's also some
+- [26:29] its ability. But there's also some
+- [26:29] its ability. But there's also some additional capabilities just in this
+- [26:32] additional capabilities just in this
+- [26:32] additional capabilities just in this little text area. So first I'm going to
+- [26:34] little text area. So first I'm going to
+- [26:34] little text area. So first I'm going to just press in slash and you'll see a
+- [26:37] just press in slash and you'll see a
+- [26:37] just press in slash and you'll see a bunch of things come up. Now these are
+- [26:39] bunch of things come up. Now these are
+- [26:39] bunch of things come up. Now these are inbuilt capabilities in codeex which are
+- [26:43] inbuilt capabilities in codeex which are
+- [26:43] inbuilt capabilities in codeex which are neither plugins nor skills. So plugins
+- [26:46] neither plugins nor skills. So plugins
+- [26:46] neither plugins nor skills. So plugins and skills as you saw were these sort of
+- [26:48] and skills as you saw were these sort of
+- [26:48] and skills as you saw were these sort of specialized things that codeex has to be
+- [26:51] specialized things that codeex has to be
+- [26:51] specialized things that codeex has to be able to interact with different external
+- [26:53] able to interact with different external
+- [26:53] able to interact with different external systems or give it new abilities.
+- [26:55] systems or give it new abilities.
+- [26:56] systems or give it new abilities. Everything that shows up when you press
+- [26:57] Everything that shows up when you press
+- [26:57] Everything that shows up when you press slash up top are the default things that
+- [27:02] slash up top are the default things that
+- [27:02] slash up top are the default things that come baked into codecs. These aren't
+- [27:05] come baked into codecs. These aren't
+- [27:05] come baked into codecs. These aren't additional capabilities. And so one of
+- [27:07] additional capabilities. And so one of
+- [27:07] additional capabilities. And so one of these for example is fast. And so, as
+- [27:10] these for example is fast. And so, as
+- [27:10] these for example is fast. And so, as you can see, what fast basically does is
+- [27:13] you can see, what fast basically does is
+- [27:13] you can see, what fast basically does is it will give you faster inference,
+- [27:16] it will give you faster inference,
+- [27:16] it will give you faster inference, meaning you're going to get the
+- [27:18] meaning you're going to get the
+- [27:18] meaning you're going to get the responses from codecs faster, but the
+- [27:20] responses from codecs faster, but the
+- [27:20] responses from codecs faster, but the cost is going to be that you're going to
+- [27:22] cost is going to be that you're going to
+- [27:22] cost is going to be that you're going to spend your tokens, your weekly limit
+- [27:25] spend your tokens, your weekly limit
+- [27:25] spend your tokens, your weekly limit twice as fast. And so, I'm going to show
+- [27:27] twice as fast. And so, I'm going to show
+- [27:27] twice as fast. And so, I'm going to show you this full settings UI later, but as
+- [27:30] you this full settings UI later, but as
+- [27:30] you this full settings UI later, but as you recall, if you click on settings and
+- [27:31] you recall, if you click on settings and
+- [27:32] you recall, if you click on settings and then go to rate limits remaining, you
+- [27:34] then go to rate limits remaining, you
+- [27:34] then go to rate limits remaining, you can see what your 5h hour and weekly
+- [27:36] can see what your 5h hour and weekly
+- [27:36] can see what your 5h hour and weekly limit remaining are. So, if you choose
+- [27:38] limit remaining are. So, if you choose
+- [27:38] limit remaining are. So, if you choose to have fast on, then you're going to be
+- [27:41] to have fast on, then you're going to be
+- [27:41] to have fast on, then you're going to be going through your tokens a lot faster.
+- [27:43] going through your tokens a lot faster.
+- [27:43] going through your tokens a lot faster. You can also do things like see your
+- [27:45] You can also do things like see your
+- [27:45] You can also do things like see your different MCP servers, which are
+- [27:47] different MCP servers, which are
+- [27:47] different MCP servers, which are available. Some of you guys may be
+- [27:49] available. Some of you guys may be
+- [27:49] available. Some of you guys may be familiar with MCP servers. If not, no
+- [27:52] familiar with MCP servers. If not, no
+- [27:52] familiar with MCP servers. If not, no worries. We're going to get into it
+- [27:53] worries. We're going to get into it
+- [27:53] worries. We're going to get into it later in the course. You can also
+- [27:55] later in the course. You can also
+- [27:56] later in the course. You can also compact your thread, which is a way to
+- [27:59] compact your thread, which is a way to
+- [27:59] compact your thread, which is a way to summarize everything that's been done in
+- [28:01] summarize everything that's been done in
+- [28:01] summarize everything that's been done in your current thread and start fresh.
+- [28:03] your current thread and start fresh.
+- [28:03] your current thread and start fresh. Again, we'll also get into that later in
+- [28:05] Again, we'll also get into that later in
+- [28:05] Again, we'll also get into that later in the course. You can choose the
+- [28:07] the course. You can choose the
+- [28:07] the course. You can choose the particular model that is used. So right
+- [28:09] particular model that is used. So right
+- [28:09] particular model that is used. So right now I have it set to GPT 5.4 and there's
+- [28:13] now I have it set to GPT 5.4 and there's
+- [28:13] now I have it set to GPT 5.4 and there's also a few others. So that's what slash
+- [28:15] also a few others. So that's what slash
+- [28:15] also a few others. So that's what slash does. Now if you do dollar sign then
+- [28:19] does. Now if you do dollar sign then
+- [28:19] does. Now if you do dollar sign then what comes up at top are the skills. And
+- [28:22] what comes up at top are the skills. And
+- [28:22] what comes up at top are the skills. And so these are these specialized
+- [28:24] so these are these specialized
+- [28:24] so these are these specialized capabilities, most of which I've made
+- [28:26] capabilities, most of which I've made
+- [28:26] capabilities, most of which I've made myself or which other people have made
+- [28:29] myself or which other people have made
+- [28:29] myself or which other people have made and I have installed in my own system to
+- [28:32] and I have installed in my own system to
+- [28:32] and I have installed in my own system to allow codecs to do other specialized
+- [28:35] allow codecs to do other specialized
+- [28:35] allow codecs to do other specialized things. And so if you want to
+- [28:37] things. And so if you want to
+- [28:37] things. And so if you want to instantiate or use one of them in your
+- [28:39] instantiate or use one of them in your
+- [28:39] instantiate or use one of them in your current context, you can use dollar
+- [28:41] current context, you can use dollar
+- [28:41] current context, you can use dollar sign. Finally, the last sort of shortcut
+- [28:44] sign. Finally, the last sort of shortcut
+- [28:44] sign. Finally, the last sort of shortcut I want you to know about is at. And so
+- [28:47] I want you to know about is at. And so
+- [28:48] I want you to know about is at. And so when you use at, it's going to surface
+- [28:50] when you use at, it's going to surface
+- [28:50] when you use at, it's going to surface agents that you may have installed, but
+- [28:53] agents that you may have installed, but
+- [28:53] agents that you may have installed, but also plugins, which are a concept we
+- [28:55] also plugins, which are a concept we
+- [28:55] also plugins, which are a concept we talked about. We'll also get to agents
+- [28:57] talked about. We'll also get to agents
+- [28:58] talked about. We'll also get to agents and sub aents later. But you can also,
+- [29:00] and sub aents later. But you can also,
+- [29:00] and sub aents later. But you can also, if you want to reference a specific file
+- [29:03] if you want to reference a specific file
+- [29:03] if you want to reference a specific file for whatever it is you're doing, you can
+- [29:06] for whatever it is you're doing, you can
+- [29:06] for whatever it is you're doing, you can reference that file by like going like
+- [29:07] reference that file by like going like
+- [29:08] reference that file by like going like that, typing it in, and now Codex will
+- [29:10] that, typing it in, and now Codex will
+- [29:10] that, typing it in, and now Codex will know that whatever you say next refers
+- [29:12] know that whatever you say next refers
+- [29:12] know that whatever you say next refers to or needs to include as context that
+- [29:15] to or needs to include as context that
+- [29:15] to or needs to include as context that file. Now in this user interface you can
+- [29:18] file. Now in this user interface you can
+- [29:18] file. Now in this user interface you can also paste in images or PDFs if you want
+- [29:23] also paste in images or PDFs if you want
+- [29:23] also paste in images or PDFs if you want to give those as context to codecs. So
+- [29:26] to give those as context to codecs. So
+- [29:26] to give those as context to codecs. So something I do pretty frequently is we
+- [29:27] something I do pretty frequently is we
+- [29:27] something I do pretty frequently is we can click this and something cool is
+- [29:30] can click this and something cool is
+- [29:30] can click this and something cool is that HTML files and images along with
+- [29:33] that HTML files and images along with
+- [29:33] that HTML files and images along with PDFs can be viewed right in the user
+- [29:36] PDFs can be viewed right in the user
+- [29:36] PDFs can be viewed right in the user interface. And so what I could do if I
+- [29:39] interface. And so what I could do if I
+- [29:39] interface. And so what I could do if I wanted is just take a screenshot, drag
+- [29:42] wanted is just take a screenshot, drag
+- [29:42] wanted is just take a screenshot, drag it right in and say, "Can you mark the
+- [29:46] it right in and say, "Can you mark the
+- [29:46] it right in and say, "Can you mark the state capitals as well?" And you know,
+- [29:50] state capitals as well?" And you know,
+- [29:50] state capitals as well?" And you know, that instruction didn't really require
+- [29:52] that instruction didn't really require
+- [29:52] that instruction didn't really require me to take the screenshot, but let's say
+- [29:54] me to take the screenshot, but let's say
+- [29:54] me to take the screenshot, but let's say I wanted to say, "Hey, it looks kind of
+- [29:56] I wanted to say, "Hey, it looks kind of
+- [29:56] I wanted to say, "Hey, it looks kind of ugly. I don't like this map, but hey,
+- [29:58] ugly. I don't like this map, but hey,
+- [29:58] ugly. I don't like this map, but hey, take a look at this map. It looks
+- [30:00] take a look at this map. It looks
+- [30:00] take a look at this map. It looks better." Most of Open AI's models and
+- [30:03] better." Most of Open AI's models and
+- [30:03] better." Most of Open AI's models and all the ones which are available in the
+- [30:06] all the ones which are available in the
+- [30:06] all the ones which are available in the Codeex desktop app are multimodal,
+- [30:08] Codeex desktop app are multimodal,
+- [30:08] Codeex desktop app are multimodal, meaning that they can sort of see images
+- [30:11] meaning that they can sort of see images
+- [30:11] meaning that they can sort of see images and text. And so you'd be able to use
+- [30:13] and text. And so you'd be able to use
+- [30:13] and text. And so you'd be able to use them in that way, too. Now, the last
+- [30:15] them in that way, too. Now, the last
+- [30:15] them in that way, too. Now, the last little detail I want to mention is this
+- [30:18] little detail I want to mention is this
+- [30:18] little detail I want to mention is this button over here for voice dictation.
+- [30:21] button over here for voice dictation.
+- [30:21] button over here for voice dictation. So, we'll talk about this in a little
+- [30:23] So, we'll talk about this in a little
+- [30:23] So, we'll talk about this in a little bit later in the course, but if you want
+- [30:26] bit later in the course, but if you want
+- [30:26] bit later in the course, but if you want to give voice instructions, you can just
+- [30:28] to give voice instructions, you can just
+- [30:28] to give voice instructions, you can just click that. I am the walrus goo. Press
+- [30:32] click that. I am the walrus goo. Press
+- [30:32] click that. I am the walrus goo. Press stop and then your very important
+- [30:34] stop and then your very important
+- [30:34] stop and then your very important instructions will come up into the
+- [30:37] instructions will come up into the
+- [30:37] instructions will come up into the interface. All right, so we're almost
+- [30:39] interface. All right, so we're almost
+- [30:39] interface. All right, so we're almost done with the interface. The last main
+- [30:41] done with the interface. The last main
+- [30:41] done with the interface. The last main thing I want to talk about is models and
+- [30:44] thing I want to talk about is models and
+- [30:44] thing I want to talk about is models and tokens. So, if you look over here,
+- [30:47] tokens. So, if you look over here,
+- [30:47] tokens. So, if you look over here, you'll see this little dial. And that
+- [30:49] you'll see this little dial. And that
+- [30:50] you'll see this little dial. And that dial is telling us how much of the
+- [30:52] dial is telling us how much of the
+- [30:52] dial is telling us how much of the context window, meaning the available
+- [30:55] context window, meaning the available
+- [30:55] context window, meaning the available maximum limit of a given thread, has
+- [30:58] maximum limit of a given thread, has
+- [30:58] maximum limit of a given thread, has been used. And so, it says 25% of the
+- [31:02] been used. And so, it says 25% of the
+- [31:02] been used. And so, it says 25% of the maximum available context has been used.
+- [31:05] maximum available context has been used.
+- [31:05] maximum available context has been used. We'll get into more detail about what
+- [31:08] We'll get into more detail about what
+- [31:08] We'll get into more detail about what takes up the context window, but one of
+- [31:10] takes up the context window, but one of
+- [31:10] takes up the context window, but one of the main things and you can see that
+- [31:12] the main things and you can see that
+- [31:12] the main things and you can see that it's increasing as codeex does more
+- [31:15] it's increasing as codeex does more
+- [31:15] it's increasing as codeex does more things is the files it's reading and the
+- [31:18] things is the files it's reading and the
+- [31:18] things is the files it's reading and the messages that we're giving it and the
+- [31:19] messages that we're giving it and the
+- [31:19] messages that we're giving it and the messages that it's giving us back. The
+- [31:21] messages that it's giving us back. The
+- [31:21] messages that it's giving us back. The next thing you'll see here is a model
+- [31:24] next thing you'll see here is a model
+- [31:24] next thing you'll see here is a model selector. So there are all sorts of
+- [31:26] selector. So there are all sorts of
+- [31:26] selector. So there are all sorts of models and you'll see that some of them
+- [31:28] models and you'll see that some of them
+- [31:28] models and you'll see that some of them are marked as codecs and then some of
+- [31:31] are marked as codecs and then some of
+- [31:31] are marked as codecs and then some of them are marked without codecs. So what
+- [31:33] them are marked without codecs. So what
+- [31:33] them are marked without codecs. So what I recommend generally to everybody here
+- [31:36] I recommend generally to everybody here
+- [31:36] I recommend generally to everybody here is that you just use GPT 5.4. It's kind
+- [31:39] is that you just use GPT 5.4. It's kind
+- [31:39] is that you just use GPT 5.4. It's kind of the best model right now in my
+- [31:42] of the best model right now in my
+- [31:42] of the best model right now in my opinion for any coding task, any any
+- [31:45] opinion for any coding task, any any
+- [31:45] opinion for any coding task, any any task really for anything other than
+- [31:47] task really for anything other than
+- [31:47] task really for anything other than writing for writing clawed code. Opus
+- [31:50] writing for writing clawed code. Opus
+- [31:50] writing for writing clawed code. Opus 4.7 is pretty good for pretty much
+- [31:52] 4.7 is pretty good for pretty much
+- [31:52] 4.7 is pretty good for pretty much everything else. GPT 5.4 is the best
+- [31:55] everything else. GPT 5.4 is the best
+- [31:55] everything else. GPT 5.4 is the best model available right now. Now, what
+- [31:57] model available right now. Now, what
+- [31:57] model available right now. Now, what often happens after a new model release
+- [32:00] often happens after a new model release
+- [32:00] often happens after a new model release is that Open AI will come out later with
+- [32:03] is that Open AI will come out later with
+- [32:03] is that Open AI will come out later with a model that's optimized for coding
+- [32:06] a model that's optimized for coding
+- [32:06] a model that's optimized for coding tasks. And so, before you used to be
+- [32:07] tasks. And so, before you used to be
+- [32:08] tasks. And so, before you used to be able to see GBT 5.3 and GBT 5.3 codeex
+- [32:12] able to see GBT 5.3 and GBT 5.3 codeex
+- [32:12] able to see GBT 5.3 and GBT 5.3 codeex and so I would use GBT 5.3 codeex to do
+- [32:15] and so I would use GBT 5.3 codeex to do
+- [32:15] and so I would use GBT 5.3 codeex to do my coding before 5.4 came out. For now,
+- [32:18] my coding before 5.4 came out. For now,
+- [32:18] my coding before 5.4 came out. For now, I just recommend you use 5.4. So because
+- [32:21] I just recommend you use 5.4. So because
+- [32:21] I just recommend you use 5.4. So because it's such an such an important toggle,
+- [32:23] it's such an such an important toggle,
+- [32:23] it's such an such an important toggle, it's available right here in the
+- [32:25] it's available right here in the
+- [32:25] it's available right here in the interface, but you can also toggle it by
+- [32:28] interface, but you can also toggle it by
+- [32:28] interface, but you can also toggle it by going slashmodel and then choosing your
+- [32:31] going slashmodel and then choosing your
+- [32:31] going slashmodel and then choosing your model from there. The last bit you'll
+- [32:32] model from there. The last bit you'll
+- [32:32] model from there. The last bit you'll see here is this button for reasoning
+- [32:35] see here is this button for reasoning
+- [32:35] see here is this button for reasoning effort. And so you can choose to have
+- [32:37] effort. And so you can choose to have
+- [32:38] effort. And so you can choose to have your reasoning effort at low, medium,
+- [32:41] your reasoning effort at low, medium,
+- [32:41] your reasoning effort at low, medium, high, or extra high. And roughly
+- [32:44] high, or extra high. And roughly
+- [32:44] high, or extra high. And roughly reasoning effort refers to for a given
+- [32:47] reasoning effort refers to for a given
+- [32:47] reasoning effort refers to for a given model how much time it's going to spend
+- [32:49] model how much time it's going to spend
+- [32:49] model how much time it's going to spend in a thinking stage before doing
+- [32:52] in a thinking stage before doing
+- [32:52] in a thinking stage before doing something. Now generally I would say
+- [32:54] something. Now generally I would say
+- [32:54] something. Now generally I would say that if you add additional or higher
+- [32:57] that if you add additional or higher
+- [32:57] that if you add additional or higher reasoning effort you get better results
+- [32:59] reasoning effort you get better results
+- [33:00] reasoning effort you get better results but it's not perfectly the case. And
+- [33:02] but it's not perfectly the case. And
+- [33:02] but it's not perfectly the case. And often when I want to get things done
+- [33:04] often when I want to get things done
+- [33:04] often when I want to get things done fast or I'm working on something simple
+- [33:07] fast or I'm working on something simple
+- [33:07] fast or I'm working on something simple I'll switch to medium but most of the
+- [33:09] I'll switch to medium but most of the
+- [33:09] I'll switch to medium but most of the time I have it on extra high. If you're
+- [33:11] time I have it on extra high. If you're
+- [33:11] time I have it on extra high. If you're on a $20 per month plan, it might make
+- [33:15] on a $20 per month plan, it might make
+- [33:15] on a $20 per month plan, it might make sense to not use extra high that much or
+- [33:19] sense to not use extra high that much or
+- [33:19] sense to not use extra high that much or stay mostly on medium, probably later in
+- [33:22] stay mostly on medium, probably later in
+- [33:22] stay mostly on medium, probably later in the course, I'll talk more through
+- [33:24] the course, I'll talk more through
+- [33:24] the course, I'll talk more through strategies on how to conserve tokens. If
+- [33:27] strategies on how to conserve tokens. If
+- [33:27] strategies on how to conserve tokens. If you are primarily using a $20 per month
+- [33:30] you are primarily using a $20 per month
+- [33:30] you are primarily using a $20 per month plan, if you're on the 100 or $200 per
+- [33:32] plan, if you're on the 100 or $200 per
+- [33:32] plan, if you're on the 100 or $200 per month plan, I would mostly just
+- [33:34] month plan, I would mostly just
+- [33:34] month plan, I would mostly just recommend using extra high as your
+- [33:35] recommend using extra high as your
+- [33:35] recommend using extra high as your default for everything. That's how I use
+- [33:37] default for everything. That's how I use
+- [33:37] default for everything. That's how I use it. Just a few more comments about these
+- [33:40] it. Just a few more comments about these
+- [33:40] it. Just a few more comments about these models because you may hear about some
+- [33:41] models because you may hear about some
+- [33:41] models because you may hear about some of them. So, uh, Mini is a model that I
+- [33:45] of them. So, uh, Mini is a model that I
+- [33:45] of them. So, uh, Mini is a model that I don't really recommend for coding, maybe
+- [33:48] don't really recommend for coding, maybe
+- [33:48] don't really recommend for coding, maybe for certain simple things and codecs
+- [33:51] for certain simple things and codecs
+- [33:51] for certain simple things and codecs used to have this ultraast codec spark
+- [33:53] used to have this ultraast codec spark
+- [33:53] used to have this ultraast codec spark model. Again, I didn't really find any
+- [33:56] model. Again, I didn't really find any
+- [33:56] model. Again, I didn't really find any particular use for it, but I just want
+- [33:58] particular use for it, but I just want
+- [33:58] particular use for it, but I just want you guys to be aware of those two as
+- [34:00] you guys to be aware of those two as
+- [34:00] you guys to be aware of those two as well. Now, over here on the left hand
+- [34:03] well. Now, over here on the left hand
+- [34:03] well. Now, over here on the left hand side, you'll see two toggles. one is
+- [34:05] side, you'll see two toggles. one is
+- [34:05] side, you'll see two toggles. one is this plus sign and then this thing which
+- [34:07] this plus sign and then this thing which
+- [34:07] this plus sign and then this thing which I currently have set to full access. So
+- [34:10] I currently have set to full access. So
+- [34:10] I currently have set to full access. So by default codeex will run with default
+- [34:13] by default codeex will run with default
+- [34:13] by default codeex will run with default permissions. And so that means that it's
+- [34:15] permissions. And so that means that it's
+- [34:16] permissions. And so that means that it's allowed to do certain things in the
+- [34:18] allowed to do certain things in the
+- [34:18] allowed to do certain things in the folder that it's in, but it's not
+- [34:20] folder that it's in, but it's not
+- [34:20] folder that it's in, but it's not allowed to do things outside that folder
+- [34:22] allowed to do things outside that folder
+- [34:22] allowed to do things outside that folder or it may not be allowed to do things
+- [34:24] or it may not be allowed to do things
+- [34:24] or it may not be allowed to do things without asking for your permission such
+- [34:27] without asking for your permission such
+- [34:27] without asking for your permission such as installing applications or going to
+- [34:29] as installing applications or going to
+- [34:30] as installing applications or going to certain websites. Now, I usually leave
+- [34:32] certain websites. Now, I usually leave
+- [34:32] certain websites. Now, I usually leave it on full access, which is a little bit
+- [34:35] it on full access, which is a little bit
+- [34:35] it on full access, which is a little bit more dangerous because now codecs can go
+- [34:38] more dangerous because now codecs can go
+- [34:38] more dangerous because now codecs can go all over my entire computer and pretty
+- [34:41] all over my entire computer and pretty
+- [34:41] all over my entire computer and pretty much do anything. But in the next
+- [34:43] much do anything. But in the next
+- [34:43] much do anything. But in the next section, I'm going to talk about how to
+- [34:46] section, I'm going to talk about how to
+- [34:46] section, I'm going to talk about how to stay on full access, but still make that
+- [34:49] stay on full access, but still make that
+- [34:49] stay on full access, but still make that safer. Not the next section, but in the
+- [34:51] safer. Not the next section, but in the
+- [34:51] safer. Not the next section, but in the next few sections. So, we'll talk about
+- [34:53] next few sections. So, we'll talk about
+- [34:53] next few sections. So, we'll talk about the permission system in much more
+- [34:55] the permission system in much more
+- [34:55] the permission system in much more detail, but I prefer having it on full
+- [34:57] detail, but I prefer having it on full
+- [34:57] detail, but I prefer having it on full access. It's just a little bit faster.
+- [34:58] access. It's just a little bit faster.
+- [34:58] access. It's just a little bit faster. I'm comfortable with it. So that's where
+- [35:00] I'm comfortable with it. So that's where
+- [35:00] I'm comfortable with it. So that's where I've got it. And you also see this plus
+- [35:02] I've got it. And you also see this plus
+- [35:02] I've got it. And you also see this plus sign here. And so you can add photos and
+- [35:04] sign here. And so you can add photos and
+- [35:04] sign here. And so you can add photos and files just like I showed you adding the
+- [35:06] files just like I showed you adding the
+- [35:06] files just like I showed you adding the photo. There's also this concept of a
+- [35:09] photo. There's also this concept of a
+- [35:09] photo. There's also this concept of a plan mode. So when you turn plan mode
+- [35:11] plan mode. So when you turn plan mode
+- [35:11] plan mode. So when you turn plan mode on, codeex will not actually write
+- [35:14] on, codeex will not actually write
+- [35:14] on, codeex will not actually write files. It will read files, but it'll
+- [35:16] files. It will read files, but it'll
+- [35:16] files. It will read files, but it'll make a plan of whatever it is that you
+- [35:19] make a plan of whatever it is that you
+- [35:20] make a plan of whatever it is that you want it to do. And so this is generally
+- [35:22] want it to do. And so this is generally
+- [35:22] want it to do. And so this is generally a good practice when agentic coding. But
+- [35:25] a good practice when agentic coding. But
+- [35:25] a good practice when agentic coding. But my preference for many reasons which
+- [35:28] my preference for many reasons which
+- [35:28] my preference for many reasons which I'll talk about a little bit later in
+- [35:29] I'll talk about a little bit later in
+- [35:29] I'll talk about a little bit later in the course is to just make plans on my
+- [35:33] the course is to just make plans on my
+- [35:33] the course is to just make plans on my actual file system like not go to a
+- [35:36] actual file system like not go to a
+- [35:36] actual file system like not go to a separate plan mode. And so if you've got
+- [35:38] separate plan mode. And so if you've got
+- [35:38] separate plan mode. And so if you've got it on, you can turn it on with shift tab
+- [35:41] it on, you can turn it on with shift tab
+- [35:41] it on, you can turn it on with shift tab and then turn it off just by clicking on
+- [35:42] and then turn it off just by clicking on
+- [35:42] and then turn it off just by clicking on it. I'm going to leave it off for now.
+- [35:44] it. I'm going to leave it off for now.
+- [35:44] it. I'm going to leave it off for now. You can also access your plugins right
+- [35:46] You can also access your plugins right
+- [35:46] You can also access your plugins right here. So I showed you that you can
+- [35:48] here. So I showed you that you can
+- [35:48] here. So I showed you that you can access them with the app symbol. And
+- [35:50] access them with the app symbol. And
+- [35:50] access them with the app symbol. And over here you'll see that there's a few
+- [35:52] over here you'll see that there's a few
+- [35:52] over here you'll see that there's a few different options for how you can use
+- [35:56] different options for how you can use
+- [35:56] different options for how you can use codecs. So you can use codecs on the
+- [35:59] codecs. So you can use codecs on the
+- [35:59] codecs. So you can use codecs on the web. You can send it to the cloud if you
+- [36:01] web. You can send it to the cloud if you
+- [36:01] web. You can send it to the cloud if you set up a cloud environment. And you can
+- [36:03] set up a cloud environment. And you can
+- [36:03] set up a cloud environment. And you can also hand off to a work tree. So I'm
+- [36:06] also hand off to a work tree. So I'm
+- [36:06] also hand off to a work tree. So I'm going to teach you all about work trees
+- [36:08] going to teach you all about work trees
+- [36:08] going to teach you all about work trees because they are very useful. I'm not
+- [36:11] because they are very useful. I'm not
+- [36:11] because they are very useful. I'm not going to teach you so much about cloud
+- [36:13] going to teach you so much about cloud
+- [36:13] going to teach you so much about cloud usage because I don't find it that
+- [36:16] usage because I don't find it that
+- [36:16] usage because I don't find it that useful and I'll explain a little bit why
+- [36:18] useful and I'll explain a little bit why
+- [36:18] useful and I'll explain a little bit why when we talk about work trees. And
+- [36:20] when we talk about work trees. And
+- [36:20] when we talk about work trees. And finally here, if you're familiar with
+- [36:22] finally here, if you're familiar with
+- [36:22] finally here, if you're familiar with the Git system, one of the main concepts
+- [36:25] the Git system, one of the main concepts
+- [36:25] the Git system, one of the main concepts in Git is a branch. We're going to talk
+- [36:27] in Git is a branch. We're going to talk
+- [36:27] in Git is a branch. We're going to talk about branches later, but just so you're
+- [36:29] about branches later, but just so you're
+- [36:29] about branches later, but just so you're aware, you can create and check out new
+- [36:31] aware, you can create and check out new
+- [36:31] aware, you can create and check out new branches from this UI or switch between
+- [36:34] branches from this UI or switch between
+- [36:34] branches from this UI or switch between your different branches that you have
+- [36:35] your different branches that you have
+- [36:35] your different branches that you have available over here. So, we can actually
+- [36:37] available over here. So, we can actually
+- [36:37] available over here. So, we can actually see this thing got regenerated. I guess
+- [36:39] see this thing got regenerated. I guess
+- [36:40] see this thing got regenerated. I guess I got to refresh. Ah, there. And now
+- [36:42] I got to refresh. Ah, there. And now
+- [36:42] I got to refresh. Ah, there. And now we've got the state capitals in here.
+- [36:44] we've got the state capitals in here.
+- [36:44] we've got the state capitals in here. That's pretty cool. All right. The last
+- [36:46] That's pretty cool. All right. The last
+- [36:46] That's pretty cool. All right. The last bit that I want to tell you about in
+- [36:49] bit that I want to tell you about in
+- [36:49] bit that I want to tell you about in this interface is the settings UI. And
+- [36:52] this interface is the settings UI. And
+- [36:52] this interface is the settings UI. And there's a lot in it that's not that
+- [36:54] there's a lot in it that's not that
+- [36:54] there's a lot in it that's not that important, but I'll try to walk you
+- [36:56] important, but I'll try to walk you
+- [36:56] important, but I'll try to walk you through some bits which might be more
+- [36:58] through some bits which might be more
+- [36:58] through some bits which might be more important. So, first here in the
+- [37:00] important. So, first here in the
+- [37:00] important. So, first here in the configuration tab, there's a user
+- [37:03] configuration tab, there's a user
+- [37:03] configuration tab, there's a user interface in which you can add some
+- [37:05] interface in which you can add some
+- [37:05] interface in which you can add some configuration options to codecs. And a
+- [37:09] configuration options to codecs. And a
+- [37:09] configuration options to codecs. And a lot of codeex's configuration is defined
+- [37:12] lot of codeex's configuration is defined
+- [37:12] lot of codeex's configuration is defined in a file called config.toml
+- [37:15] in a file called config.toml
+- [37:16] in a file called config.toml which is located in a specific location
+- [37:17] which is located in a specific location
+- [37:18] which is located in a specific location on your computer. And so if I open it up
+- [37:20] on your computer. And so if I open it up
+- [37:20] on your computer. And so if I open it up here, we'll see that this is what this
+- [37:22] here, we'll see that this is what this
+- [37:22] here, we'll see that this is what this configtoml
+- [37:23] configtoml
+- [37:24] configtoml file looks like. Now most of you will
+- [37:26] file looks like. Now most of you will
+- [37:26] file looks like. Now most of you will never really need to edit this by hand,
+- [37:29] never really need to edit this by hand,
+- [37:29] never really need to edit this by hand, but it is important to know that it
+- [37:31] but it is important to know that it
+- [37:31] but it is important to know that it lives in your home folder in a folder
+- [37:34] lives in your home folder in a folder
+- [37:34] lives in your home folder in a folder calledcodex. So just important to be
+- [37:37] calledcodex. So just important to be
+- [37:37] calledcodex. So just important to be aware of. And you can also in this
+- [37:39] aware of. And you can also in this
+- [37:39] aware of. And you can also in this section make some changes to how the
+- [37:42] section make some changes to how the
+- [37:42] section make some changes to how the permission system works on your
+- [37:44] permission system works on your
+- [37:44] permission system works on your computer. Again, we'll get into this a
+- [37:45] computer. Again, we'll get into this a
+- [37:45] computer. Again, we'll get into this a little bit later. Now, over here in the
+- [37:48] little bit later. Now, over here in the
+- [37:48] little bit later. Now, over here in the threads UI, you can see that if I click
+- [37:51] threads UI, you can see that if I click
+- [37:51] threads UI, you can see that if I click on this, I can remove some project if
+- [37:54] on this, I can remove some project if
+- [37:54] on this, I can remove some project if it's not relevant to me. But I can also
+- [37:56] it's not relevant to me. But I can also
+- [37:56] it's not relevant to me. But I can also once a thread is not useful to me
+- [37:59] once a thread is not useful to me
+- [37:59] once a thread is not useful to me anymore, I can archive it. So, this is
+- [38:01] anymore, I can archive it. So, this is
+- [38:01] anymore, I can archive it. So, this is an old one that I don't really need
+- [38:02] an old one that I don't really need
+- [38:02] an old one that I don't really need anymore is I can go here and then
+- [38:05] anymore is I can go here and then
+- [38:05] anymore is I can go here and then archive that thread. But then if you
+- [38:07] archive that thread. But then if you
+- [38:07] archive that thread. But then if you ever wanted to recover an archived
+- [38:09] ever wanted to recover an archived
+- [38:09] ever wanted to recover an archived thread in your settings, you can come
+- [38:11] thread in your settings, you can come
+- [38:11] thread in your settings, you can come here to archived chats and you'll see
+- [38:14] here to archived chats and you'll see
+- [38:14] here to archived chats and you'll see all these different chats. You can try
+- [38:16] all these different chats. You can try
+- [38:16] all these different chats. You can try to find the one hopefully by its name or
+- [38:19] to find the one hopefully by its name or
+- [38:19] to find the one hopefully by its name or the timestamp or the project name and
+- [38:22] the timestamp or the project name and
+- [38:22] the timestamp or the project name and click unarchive to unarchive it. There's
+- [38:24] click unarchive to unarchive it. There's
+- [38:24] click unarchive to unarchive it. There's also some user interfaces here for Git.
+- [38:28] also some user interfaces here for Git.
+- [38:28] also some user interfaces here for Git. You really will never need to touch
+- [38:29] You really will never need to touch
+- [38:30] You really will never need to touch this. You can just leave it on its
+- [38:31] this. You can just leave it on its
+- [38:31] this. You can just leave it on its default. for environments. I'll teach
+- [38:34] default. for environments. I'll teach
+- [38:34] default. for environments. I'll teach you about these when we get to work
+- [38:36] you about these when we get to work
+- [38:36] you about these when we get to work trees. Again, here for work trees. We'll
+- [38:38] trees. Again, here for work trees. We'll
+- [38:38] trees. Again, here for work trees. We'll talk about this in more detail once we
+- [38:40] talk about this in more detail once we
+- [38:40] talk about this in more detail once we get to that. This one for
+- [38:41] get to that. This one for
+- [38:41] get to that. This one for personalization, I don't find that
+- [38:44] personalization, I don't find that
+- [38:44] personalization, I don't find that important. I just leave it on friendly
+- [38:46] important. I just leave it on friendly
+- [38:46] important. I just leave it on friendly or you can put it on pragmatic. Up to
+- [38:48] or you can put it on pragmatic. Up to
+- [38:48] or you can put it on pragmatic. Up to you. And then just some general config
+- [38:50] you. And then just some general config
+- [38:50] you. And then just some general config options for how you like your codec UI
+- [38:52] options for how you like your codec UI
+- [38:52] options for how you like your codec UI to look. Lastly, codec updates pretty
+- [38:55] to look. Lastly, codec updates pretty
+- [38:55] to look. Lastly, codec updates pretty often. And when there's an update
+- [38:58] often. And when there's an update
+- [38:58] often. And when there's an update available, you'll see right over here an
+- [39:02] available, you'll see right over here an
+- [39:02] available, you'll see right over here an icon that says update. So you just
+- [39:05] icon that says update. So you just
+- [39:05] icon that says update. So you just select it, press it, it'll restart, and
+- [39:07] select it, press it, it'll restart, and
+- [39:07] select it, press it, it'll restart, and that'll do an update. Otherwise, you can
+- [39:09] that'll do an update. Otherwise, you can
+- [39:09] that'll do an update. Otherwise, you can always go here to codecs, check for
+- [39:10] always go here to codecs, check for
+- [39:10] always go here to codecs, check for updates, and update it from there. All
+- [39:12] updates, and update it from there. All
+- [39:12] updates, and update it from there. All right, so we just covered the entire
+- [39:15] right, so we just covered the entire
+- [39:15] right, so we just covered the entire interface, and you now know enough to
+- [39:18] interface, and you now know enough to
+- [39:18] interface, and you now know enough to get started with codecs on your own
+- [39:20] get started with codecs on your own
+- [39:20] get started with codecs on your own project. Just open up a folder, start up
+- [39:22] project. Just open up a folder, start up
+- [39:22] project. Just open up a folder, start up a thread, and then start prompting away.
+- [39:25] a thread, and then start prompting away.
+- [39:25] a thread, and then start prompting away. But next I want to introduce a
+- [39:27] But next I want to introduce a
+- [39:27] But next I want to introduce a fundamental concept that you're going to
+- [39:30] fundamental concept that you're going to
+- [39:30] fundamental concept that you're going to encounter quite quickly as you get
+- [39:32] encounter quite quickly as you get
+- [39:32] encounter quite quickly as you get started with codecs and that is the idea
+- [39:34] started with codecs and that is the idea
+- [39:34] started with codecs and that is the idea of a context window and compaction. As I
+- [39:38] of a context window and compaction. As I
+- [39:38] of a context window and compaction. As I had mentioned right here in codeex
+- [39:40] had mentioned right here in codeex
+- [39:40] had mentioned right here in codeex there's a dial which tells you how many
+- [39:43] there's a dial which tells you how many
+- [39:43] there's a dial which tells you how many tokens you've used and how many you have
+- [39:46] tokens you've used and how many you have
+- [39:46] tokens you've used and how many you have left until this compaction event occurs.
+- [39:49] left until this compaction event occurs.
+- [39:49] left until this compaction event occurs. But let me go into a little bit more
+- [39:52] But let me go into a little bit more
+- [39:52] But let me go into a little bit more detail what a token is, what the context
+- [39:54] detail what a token is, what the context
+- [39:54] detail what a token is, what the context window is, and what compaction is. A
+- [39:57] window is, and what compaction is. A
+- [39:57] window is, and what compaction is. A token in the context of agentic coding
+- [40:00] token in the context of agentic coding
+- [40:00] token in the context of agentic coding and large language models is roughly a
+- [40:03] and large language models is roughly a
+- [40:03] and large language models is roughly a word. And so you have limits on how many
+- [40:06] word. And so you have limits on how many
+- [40:06] word. And so you have limits on how many tokens you're allowed to use at a time
+- [40:10] tokens you're allowed to use at a time
+- [40:10] tokens you're allowed to use at a time in a given conversation. And so what
+- [40:12] in a given conversation. And so what
+- [40:12] in a given conversation. And so what counts as tokens? Well, obviously like
+- [40:15] counts as tokens? Well, obviously like
+- [40:15] counts as tokens? Well, obviously like if you're giving a really long message,
+- [40:17] if you're giving a really long message,
+- [40:18] if you're giving a really long message, that's going to have more tokens and so
+- [40:20] that's going to have more tokens and so
+- [40:20] that's going to have more tokens and so your your actual messages count. But
+- [40:22] your your actual messages count. But
+- [40:22] your your actual messages count. But Codeex's responses also add to this
+- [40:25] Codeex's responses also add to this
+- [40:25] Codeex's responses also add to this maximum number of tokens that you can
+- [40:27] maximum number of tokens that you can
+- [40:27] maximum number of tokens that you can use. But now that we're in the Aentic
+- [40:29] use. But now that we're in the Aentic
+- [40:29] use. But now that we're in the Aentic coding world as well, the files that
+- [40:32] coding world as well, the files that
+- [40:32] coding world as well, the files that it's reading are going to count. So if
+- [40:34] it's reading are going to count. So if
+- [40:34] it's reading are going to count. So if it's reading bigger files, that's going
+- [40:36] it's reading bigger files, that's going
+- [40:36] it's reading bigger files, that's going to use up more of this token limit. Now,
+- [40:39] to use up more of this token limit. Now,
+- [40:39] to use up more of this token limit. Now, Codeex has access to tools to run
+- [40:41] Codeex has access to tools to run
+- [40:42] Codeex has access to tools to run commands on your computer, to search for
+- [40:44] commands on your computer, to search for
+- [40:44] commands on your computer, to search for code, to fetch things on the web, and
+- [40:46] code, to fetch things on the web, and
+- [40:46] code, to fetch things on the web, and the output it gets from these tool calls
+- [40:49] the output it gets from these tool calls
+- [40:49] the output it gets from these tool calls are also going to count towards your
+- [40:51] are also going to count towards your
+- [40:51] are also going to count towards your tokens. Finally, as I've mentioned,
+- [40:53] tokens. Finally, as I've mentioned,
+- [40:53] tokens. Finally, as I've mentioned, there are these concepts called MCPs,
+- [40:56] there are these concepts called MCPs,
+- [40:56] there are these concepts called MCPs, skills, and plugins, which we're going
+- [40:58] skills, and plugins, which we're going
+- [40:58] skills, and plugins, which we're going to get into later. And the use and the
+- [41:01] to get into later. And the use and the
+- [41:01] to get into later. And the use and the awareness of these tools has some token
+- [41:04] awareness of these tools has some token
+- [41:04] awareness of these tools has some token usage for codecs as a default. And then
+- [41:07] usage for codecs as a default. And then
+- [41:07] usage for codecs as a default. And then finally, your system prompt, meaning the
+- [41:11] finally, your system prompt, meaning the
+- [41:11] finally, your system prompt, meaning the prompt that codeex always has in memory
+- [41:14] prompt that codeex always has in memory
+- [41:14] prompt that codeex always has in memory to tell itself about what it is. Your
+- [41:16] to tell itself about what it is. Your
+- [41:16] to tell itself about what it is. Your agents.md, which we'll get into a little
+- [41:19] agents.md, which we'll get into a little
+- [41:19] agents.md, which we'll get into a little bit later, but is a description that you
+- [41:22] bit later, but is a description that you
+- [41:22] bit later, but is a description that you can create of your project with project
+- [41:25] can create of your project with project
+- [41:25] can create of your project with project specific instructions for codecs also
+- [41:27] specific instructions for codecs also
+- [41:28] specific instructions for codecs also eat up tokens. And so I've got here
+- [41:30] eat up tokens. And so I've got here
+- [41:30] eat up tokens. And so I've got here 258,000
+- [41:33] 258,000
+- [41:33] 258,000 tokens available in this thread. And it
+- [41:36] tokens available in this thread. And it
+- [41:36] tokens available in this thread. And it says that this compaction thing is going
+- [41:38] says that this compaction thing is going
+- [41:38] says that this compaction thing is going to happen once it reaches that
+- [41:40] to happen once it reaches that
+- [41:40] to happen once it reaches that threshold. So what is compaction? What
+- [41:43] threshold. So what is compaction? What
+- [41:43] threshold. So what is compaction? What compaction basically does is take all
+- [41:46] compaction basically does is take all
+- [41:46] compaction basically does is take all these things that are using up tools
+- [41:48] these things that are using up tools
+- [41:48] these things that are using up tools that I just talked about and it
+- [41:50] that I just talked about and it
+- [41:50] that I just talked about and it efficiently creates a summary with
+- [41:53] efficiently creates a summary with
+- [41:53] efficiently creates a summary with references to some key decisions that
+- [41:55] references to some key decisions that
+- [41:55] references to some key decisions that were made here and important files so
+- [41:59] were made here and important files so
+- [41:59] were made here and important files so that codeex can just keep working after
+- [42:01] that codeex can just keep working after
+- [42:01] that codeex can just keep working after hitting that limit. Start not totally
+- [42:04] hitting that limit. Start not totally
+- [42:04] hitting that limit. Start not totally fresh but freshish and then keep going
+- [42:07] fresh but freshish and then keep going
+- [42:07] fresh but freshish and then keep going on with new work. This graph here is
+- [42:09] on with new work. This graph here is
+- [42:09] on with new work. This graph here is from anthropic and it shows the
+- [42:12] from anthropic and it shows the
+- [42:12] from anthropic and it shows the performance along a measure called mean
+- [42:15] performance along a measure called mean
+- [42:16] performance along a measure called mean match ratio. You don't have to
+- [42:17] match ratio. You don't have to
+- [42:17] match ratio. You don't have to understand what that is but the basic
+- [42:19] understand what that is but the basic
+- [42:19] understand what that is but the basic idea is that as we have more tokens the
+- [42:22] idea is that as we have more tokens the
+- [42:22] idea is that as we have more tokens the performance of most of these models gets
+- [42:25] performance of most of these models gets
+- [42:25] performance of most of these models gets worse over time. The model performance
+- [42:28] worse over time. The model performance
+- [42:28] worse over time. The model performance also becomes more expensive as you're
+- [42:31] also becomes more expensive as you're
+- [42:31] also becomes more expensive as you're having conversations that use more
+- [42:34] having conversations that use more
+- [42:34] having conversations that use more tokens because effectively what's
+- [42:36] tokens because effectively what's
+- [42:36] tokens because effectively what's happening every single time you send a
+- [42:39] happening every single time you send a
+- [42:39] happening every single time you send a new message to Codeex is that Codeex
+- [42:41] new message to Codeex is that Codeex
+- [42:41] new message to Codeex is that Codeex sends all the previous messages back to
+- [42:45] sends all the previous messages back to
+- [42:45] sends all the previous messages back to Open AI's API and then sends you a
+- [42:48] Open AI's API and then sends you a
+- [42:48] Open AI's API and then sends you a response and adds that on. But there's
+- [42:50] response and adds that on. But there's
+- [42:50] response and adds that on. But there's going to be this kind of pyramiding that
+- [42:53] going to be this kind of pyramiding that
+- [42:53] going to be this kind of pyramiding that occurs as you do this over time where
+- [42:55] occurs as you do this over time where
+- [42:55] occurs as you do this over time where the amount of messages or the size of
+- [42:58] the amount of messages or the size of
+- [42:58] the amount of messages or the size of the message you're sending is bigger.
+- [43:00] the message you're sending is bigger.
+- [43:00] the message you're sending is bigger. And so if you're frequently going all
+- [43:02] And so if you're frequently going all
+- [43:02] And so if you're frequently going all the way to the end of your potential
+- [43:04] the way to the end of your potential
+- [43:04] the way to the end of your potential usage, you'll see these rate limits
+- [43:07] usage, you'll see these rate limits
+- [43:07] usage, you'll see these rate limits decrease more quickly. Now, in practice,
+- [43:10] decrease more quickly. Now, in practice,
+- [43:10] decrease more quickly. Now, in practice, what I do is I just let it automatically
+- [43:13] what I do is I just let it automatically
+- [43:13] what I do is I just let it automatically compact all the time. So, I'm on this
+- [43:16] compact all the time. So, I'm on this
+- [43:16] compact all the time. So, I'm on this $200 plan and I come up close to my
+- [43:20] $200 plan and I come up close to my
+- [43:20] $200 plan and I come up close to my limits, but not all the way there. And
+- [43:22] limits, but not all the way there. And
+- [43:22] limits, but not all the way there. And so, I'm making the most out of my usage
+- [43:24] so, I'm making the most out of my usage
+- [43:24] so, I'm making the most out of my usage and I don't feel the need to do this
+- [43:26] and I don't feel the need to do this
+- [43:26] and I don't feel the need to do this compaction earlier on my own. Instead, I
+- [43:29] compaction earlier on my own. Instead, I
+- [43:29] compaction earlier on my own. Instead, I just leave these threads running really
+- [43:31] just leave these threads running really
+- [43:32] just leave these threads running really long and I have various strategies that
+- [43:34] long and I have various strategies that
+- [43:34] long and I have various strategies that I'll talk about that I use to make sure
+- [43:36] I'll talk about that I use to make sure
+- [43:36] I'll talk about that I use to make sure that codeex stays on top of work across
+- [43:40] that codeex stays on top of work across
+- [43:40] that codeex stays on top of work across long running sessions. But if you ever
+- [43:43] long running sessions. But if you ever
+- [43:43] long running sessions. But if you ever want to do this compaction early, you
+- [43:45] want to do this compaction early, you
+- [43:45] want to do this compaction early, you can come here and just do /compact. And
+- [43:48] can come here and just do /compact. And
+- [43:48] can come here and just do /compact. And if you have something that you want
+- [43:50] if you have something that you want
+- [43:50] if you have something that you want codeex to focus on in the compaction,
+- [43:53] codeex to focus on in the compaction,
+- [43:53] codeex to focus on in the compaction, you can say focus on new post hog
+- [43:56] you can say focus on new post hog
+- [43:56] you can say focus on new post hog features. So this is a project I was
+- [43:59] features. So this is a project I was
+- [43:59] features. So this is a project I was just working on right now and maybe I
+- [44:01] just working on right now and maybe I
+- [44:01] just working on right now and maybe I would want it to focus on something in
+- [44:03] would want it to focus on something in
+- [44:04] would want it to focus on something in particular. I can just say that in the
+- [44:06] particular. I can just say that in the
+- [44:06] particular. I can just say that in the compaction instruction. That's basically
+- [44:08] compaction instruction. That's basically
+- [44:08] compaction instruction. That's basically all I wanted to tell you about context
+- [44:10] all I wanted to tell you about context
+- [44:10] all I wanted to tell you about context windows. It's a pretty straightforward
+- [44:12] windows. It's a pretty straightforward
+- [44:12] windows. It's a pretty straightforward concept. You're going to hit this
+- [44:13] concept. You're going to hit this
+- [44:13] concept. You're going to hit this compaction event often. And my
+- [44:15] compaction event often. And my
+- [44:15] compaction event often. And my recommendation to most of you is just
+- [44:17] recommendation to most of you is just
+- [44:17] recommendation to most of you is just let codeex do the compaction for you.
+- [44:19] let codeex do the compaction for you.
+- [44:19] let codeex do the compaction for you. That's the easiest way to go about doing
+- [44:21] That's the easiest way to go about doing
+- [44:21] That's the easiest way to go about doing things. The next topic I want to cover
+- [44:23] things. The next topic I want to cover
+- [44:23] things. The next topic I want to cover briefly as a fundamental of agentic
+- [44:27] briefly as a fundamental of agentic
+- [44:27] briefly as a fundamental of agentic coding is voice mode. Now, we saw this
+- [44:30] coding is voice mode. Now, we saw this
+- [44:30] coding is voice mode. Now, we saw this little voice mode feature earlier when I
+- [44:32] little voice mode feature earlier when I
+- [44:32] little voice mode feature earlier when I was introducing the interface. And you
+- [44:35] was introducing the interface. And you
+- [44:35] was introducing the interface. And you can use it by just going CtrlM and then
+- [44:38] can use it by just going CtrlM and then
+- [44:38] can use it by just going CtrlM and then saying whatever it is that you want to
+- [44:40] saying whatever it is that you want to
+- [44:40] saying whatever it is that you want to say. And then you can just do CtrlM
+- [44:42] say. And then you can just do CtrlM
+- [44:42] say. And then you can just do CtrlM again and it'll show up here on the
+- [44:44] again and it'll show up here on the
+- [44:44] again and it'll show up here on the screen. Now depending on how I edit
+- [44:46] screen. Now depending on how I edit
+- [44:46] screen. Now depending on how I edit this, you may not see how slowly or
+- [44:49] this, you may not see how slowly or
+- [44:49] this, you may not see how slowly or quickly it showed up, but it was kind of
+- [44:53] quickly it showed up, but it was kind of
+- [44:53] quickly it showed up, but it was kind of slow. The tool that I like using for
+- [44:56] slow. The tool that I like using for
+- [44:56] slow. The tool that I like using for voice input is Whisper Flow, which costs
+- [44:59] voice input is Whisper Flow, which costs
+- [44:59] voice input is Whisper Flow, which costs money, but if you have an academic
+- [45:02] money, but if you have an academic
+- [45:02] money, but if you have an academic email, you get 3 months for free. And
+- [45:04] email, you get 3 months for free. And
+- [45:04] email, you get 3 months for free. And there are lots of other free options
+- [45:06] there are lots of other free options
+- [45:06] there are lots of other free options that are hosted on your computer that
+- [45:08] that are hosted on your computer that
+- [45:08] that are hosted on your computer that people are coming out with to do voice
+- [45:10] people are coming out with to do voice
+- [45:10] people are coming out with to do voice input. But sort of initial question is
+- [45:14] input. But sort of initial question is
+- [45:14] input. But sort of initial question is why use voice input at all? Why am I
+- [45:17] why use voice input at all? Why am I
+- [45:17] why use voice input at all? Why am I emphasizing this as an explicit section
+- [45:19] emphasizing this as an explicit section
+- [45:19] emphasizing this as an explicit section of the course? Well, fundamentally, one
+- [45:22] of the course? Well, fundamentally, one
+- [45:22] of the course? Well, fundamentally, one of the best ways to get better results
+- [45:24] of the best ways to get better results
+- [45:24] of the best ways to get better results out of codecs is to give it better
+- [45:26] out of codecs is to give it better
+- [45:26] out of codecs is to give it better context. So, if you're giving more
+- [45:29] context. So, if you're giving more
+- [45:29] context. So, if you're giving more complete instructions with more context
+- [45:32] complete instructions with more context
+- [45:32] complete instructions with more context about what you want for designing an app
+- [45:34] about what you want for designing an app
+- [45:34] about what you want for designing an app or every little detail of how you're
+- [45:37] or every little detail of how you're
+- [45:37] or every little detail of how you're thinking about some research problem,
+- [45:39] thinking about some research problem,
+- [45:39] thinking about some research problem, then you're going to be likely to get
+- [45:41] then you're going to be likely to get
+- [45:41] then you're going to be likely to get better results. But when you are typing
+- [45:44] better results. But when you are typing
+- [45:44] better results. But when you are typing you can on average let's say type at
+- [45:46] you can on average let's say type at
+- [45:46] you can on average let's say type at just 40 words per minute whereas you can
+- [45:48] just 40 words per minute whereas you can
+- [45:48] just 40 words per minute whereas you can speak at 150 words per minute. So just
+- [45:51] speak at 150 words per minute. So just
+- [45:51] speak at 150 words per minute. So just naturally by speaking as a default mode
+- [45:54] naturally by speaking as a default mode
+- [45:54] naturally by speaking as a default mode of working with agentic coding tools
+- [45:56] of working with agentic coding tools
+- [45:56] of working with agentic coding tools you're going to get better results. So
+- [45:58] you're going to get better results. So
+- [45:58] you're going to get better results. So here's an example of the kind of thing
+- [46:00] here's an example of the kind of thing
+- [46:00] here's an example of the kind of thing that I might myself do behaviorally if I
+- [46:04] that I might myself do behaviorally if I
+- [46:04] that I might myself do behaviorally if I was giving instructions typed versus
+- [46:07] was giving instructions typed versus
+- [46:07] was giving instructions typed versus giving instructions spoken. So the
+- [46:09] giving instructions spoken. So the
+- [46:09] giving instructions spoken. So the spoken instruction is going to be a lot
+- [46:12] spoken instruction is going to be a lot
+- [46:12] spoken instruction is going to be a lot more natural but also a lot more
+- [46:15] more natural but also a lot more
+- [46:15] more natural but also a lot more effusive. And so the same person with
+- [46:17] effusive. And so the same person with
+- [46:17] effusive. And so the same person with the same intent is likely to get better
+- [46:20] the same intent is likely to get better
+- [46:20] the same intent is likely to get better results from codeex when speaking right
+- [46:23] results from codeex when speaking right
+- [46:23] results from codeex when speaking right on the first try. Whereas if you say fix
+- [46:25] on the first try. Whereas if you say fix
+- [46:25] on the first try. Whereas if you say fix the login bug, maybe Codeex is now going
+- [46:27] the login bug, maybe Codeex is now going
+- [46:27] the login bug, maybe Codeex is now going to ask you for clarification questions,
+- [46:29] to ask you for clarification questions,
+- [46:30] to ask you for clarification questions, go off in incorrect directions, and use
+- [46:32] go off in incorrect directions, and use
+- [46:32] go off in incorrect directions, and use a context which doesn't help you solve
+- [46:34] a context which doesn't help you solve
+- [46:34] a context which doesn't help you solve the problem. On whisper flow, I have
+- [46:37] the problem. On whisper flow, I have
+- [46:37] the problem. On whisper flow, I have control space mapped to the text to
+- [46:40] control space mapped to the text to
+- [46:40] control space mapped to the text to speech or rather speech to text usage.
+- [46:42] speech or rather speech to text usage.
+- [46:42] speech or rather speech to text usage. So if I wanted to do the same thing
+- [46:43] So if I wanted to do the same thing
+- [46:43] So if I wanted to do the same thing here, I just do that and then I do
+- [46:45] here, I just do that and then I do
+- [46:45] here, I just do that and then I do control space again and it showed up.
+- [46:47] control space again and it showed up.
+- [46:48] control space again and it showed up. Again, depending on how I edit this, you
+- [46:49] Again, depending on how I edit this, you
+- [46:49] Again, depending on how I edit this, you wouldn't see it, but there was like a
+- [46:51] wouldn't see it, but there was like a
+- [46:51] wouldn't see it, but there was like a five or 6 second lag when I was using
+- [46:54] five or 6 second lag when I was using
+- [46:54] five or 6 second lag when I was using voice mode over here, whereas it took
+- [46:57] voice mode over here, whereas it took
+- [46:57] voice mode over here, whereas it took about 1 second for that to show up. And
+- [46:59] about 1 second for that to show up. And
+- [46:59] about 1 second for that to show up. And that may seem like a small thing, but
+- [47:01] that may seem like a small thing, but
+- [47:01] that may seem like a small thing, but when you're using with these tools, uh,
+- [47:03] when you're using with these tools, uh,
+- [47:03] when you're using with these tools, uh, you get kind of annoyed if there's a
+- [47:05] you get kind of annoyed if there's a
+- [47:05] you get kind of annoyed if there's a 6-second lag before some action occurs.
+- [47:08] 6-second lag before some action occurs.
+- [47:08] 6-second lag before some action occurs. So, I would recommend Whisper Flow if
+- [47:10] So, I would recommend Whisper Flow if
+- [47:10] So, I would recommend Whisper Flow if you have the budget for it, or
+- [47:11] you have the budget for it, or
+- [47:11] you have the budget for it, or especially if you can get that academic
+- [47:13] especially if you can get that academic
+- [47:13] especially if you can get that academic discount. Otherwise, there are other
+- [47:15] discount. Otherwise, there are other
+- [47:15] discount. Otherwise, there are other free options coming out. And the
+- [47:17] free options coming out. And the
+- [47:17] free options coming out. And the in-built controlM voice input option is
+- [47:20] in-built controlM voice input option is
+- [47:20] in-built controlM voice input option is not bad either. All right, that's it for
+- [47:23] not bad either. All right, that's it for
+- [47:23] not bad either. All right, that's it for voice mode. The next thing I want to get
+- [47:25] voice mode. The next thing I want to get
+- [47:25] voice mode. The next thing I want to get to is the permissions system and guard
+- [47:29] to is the permissions system and guard
+- [47:29] to is the permissions system and guard rails in Codeex. So, one of the things I
+- [47:32] rails in Codeex. So, one of the things I
+- [47:32] rails in Codeex. So, one of the things I covered when I was discussing codeex's
+- [47:34] covered when I was discussing codeex's
+- [47:34] covered when I was discussing codeex's interface is this thing right here. You
+- [47:37] interface is this thing right here. You
+- [47:37] interface is this thing right here. You can choose to either have full access or
+- [47:40] can choose to either have full access or
+- [47:40] can choose to either have full access or default permissions as the two ways in
+- [47:43] default permissions as the two ways in
+- [47:43] default permissions as the two ways in the codeex desktop app to give codec
+- [47:46] the codeex desktop app to give codec
+- [47:46] the codeex desktop app to give codec permissions over your computer. So, what
+- [47:48] permissions over your computer. So, what
+- [47:48] permissions over your computer. So, what does this exactly mean? What is this
+- [47:51] does this exactly mean? What is this
+- [47:51] does this exactly mean? What is this sandbox? and what is full access and
+- [47:54] sandbox? and what is full access and
+- [47:54] sandbox? and what is full access and what are the risks with full access to
+- [47:57] what are the risks with full access to
+- [47:57] what are the risks with full access to demonstrate the difference. Let me first
+- [47:59] demonstrate the difference. Let me first
+- [47:59] demonstrate the difference. Let me first give you a little bit of a demo using
+- [48:01] give you a little bit of a demo using
+- [48:01] give you a little bit of a demo using default permissions. So, I'm going to
+- [48:03] default permissions. So, I'm going to
+- [48:03] default permissions. So, I'm going to use Whisper Flow and I'm just going to
+- [48:04] use Whisper Flow and I'm just going to
+- [48:04] use Whisper Flow and I'm just going to ask, can you look at my downloads folder
+- [48:08] ask, can you look at my downloads folder
+- [48:08] ask, can you look at my downloads folder or actually look at my desktop and help
+- [48:11] or actually look at my desktop and help
+- [48:11] or actually look at my desktop and help me clean up all the screenshots over
+- [48:14] me clean up all the screenshots over
+- [48:14] me clean up all the screenshots over there? They're kind of like messy. I
+- [48:16] there? They're kind of like messy. I
+- [48:16] there? They're kind of like messy. I don't like them. So, I have like I don't
+- [48:18] don't like them. So, I have like I don't
+- [48:18] don't like them. So, I have like I don't know two years of screenshots which are
+- [48:20] know two years of screenshots which are
+- [48:20] know two years of screenshots which are all in my desktop folder. And we're
+- [48:24] all in my desktop folder. And we're
+- [48:24] all in my desktop folder. And we're going to see how with default
+- [48:26] going to see how with default
+- [48:26] going to see how with default permissions codeex does at helping me
+- [48:29] permissions codeex does at helping me
+- [48:29] permissions codeex does at helping me clean that up. In order for codeex to
+- [48:31] clean that up. In order for codeex to
+- [48:31] clean that up. In order for codeex to move a little bit faster, I'm going to
+- [48:33] move a little bit faster, I'm going to
+- [48:33] move a little bit faster, I'm going to tweak down the reasoning and then say to
+- [48:35] tweak down the reasoning and then say to
+- [48:36] tweak down the reasoning and then say to continue. So, let's try that. All right.
+- [48:37] continue. So, let's try that. All right.
+- [48:38] continue. So, let's try that. All right. So here we got the first sort of useful
+- [48:41] So here we got the first sort of useful
+- [48:41] So here we got the first sort of useful example to show the difference between
+- [48:44] example to show the difference between
+- [48:44] example to show the difference between default permissions and full access. So
+- [48:47] default permissions and full access. So
+- [48:47] default permissions and full access. So as you can see here, Codeex was able to
+- [48:49] as you can see here, Codeex was able to
+- [48:49] as you can see here, Codeex was able to run certain commands like ls, which just
+- [48:52] run certain commands like ls, which just
+- [48:52] run certain commands like ls, which just helps it list files and find which is a
+- [48:55] helps it list files and find which is a
+- [48:55] helps it list files and find which is a Unix command to help it find files
+- [48:57] Unix command to help it find files
+- [48:58] Unix command to help it find files without needing to ask for permission.
+- [48:59] without needing to ask for permission.
+- [49:00] without needing to ask for permission. But now it's come to something where it
+- [49:02] But now it's come to something where it
+- [49:02] But now it's come to something where it actually wants to move files from one
+- [49:05] actually wants to move files from one
+- [49:05] actually wants to move files from one location to the other. And so what it's
+- [49:07] location to the other. And so what it's
+- [49:07] location to the other. And so what it's suggesting is that you've got like 1.1
+- [49:10] suggesting is that you've got like 1.1
+- [49:10] suggesting is that you've got like 1.1 GB of screenshot files and I can move
+- [49:12] GB of screenshot files and I can move
+- [49:12] GB of screenshot files and I can move them to a location where they'll be
+- [49:15] them to a location where they'll be
+- [49:15] them to a location where they'll be sorted and leaving other desktop images
+- [49:17] sorted and leaving other desktop images
+- [49:17] sorted and leaving other desktop images alone. And so two options come up here.
+- [49:19] alone. And so two options come up here.
+- [49:19] alone. And so two options come up here. One is that I can just approve this
+- [49:21] One is that I can just approve this
+- [49:21] One is that I can just approve this action. Second, I can say yes and don't
+- [49:24] action. Second, I can say yes and don't
+- [49:24] action. Second, I can say yes and don't ask again for commands that start with
+- [49:26] ask again for commands that start with
+- [49:26] ask again for commands that start with this. So I'm going to say that I'm going
+- [49:29] this. So I'm going to say that I'm going
+- [49:29] this. So I'm going to say that I'm going to say just yes right here and then let
+- [49:31] to say just yes right here and then let
+- [49:31] to say just yes right here and then let it move forward. Now having default
+- [49:34] it move forward. Now having default
+- [49:34] it move forward. Now having default permissions on is very helpful and
+- [49:37] permissions on is very helpful and
+- [49:37] permissions on is very helpful and useful because if something dangerous is
+- [49:40] useful because if something dangerous is
+- [49:40] useful because if something dangerous is potentially going to occur then you can
+- [49:42] potentially going to occur then you can
+- [49:42] potentially going to occur then you can vet the action before codeex is able to
+- [49:46] vet the action before codeex is able to
+- [49:46] vet the action before codeex is able to do that. But there is also a cost to
+- [49:49] do that. But there is also a cost to
+- [49:49] do that. But there is also a cost to working with codeex primarily in this
+- [49:51] working with codeex primarily in this
+- [49:51] working with codeex primarily in this way. Sort of the magic of agentic coding
+- [49:54] way. Sort of the magic of agentic coding
+- [49:54] way. Sort of the magic of agentic coding is when you can actually let it loose
+- [49:56] is when you can actually let it loose
+- [49:56] is when you can actually let it loose and be able to work for long periods of
+- [49:59] and be able to work for long periods of
+- [49:59] and be able to work for long periods of time with your hands totally off. And so
+- [50:03] time with your hands totally off. And so
+- [50:03] time with your hands totally off. And so setting it to full access on the other
+- [50:05] setting it to full access on the other
+- [50:06] setting it to full access on the other hand won't continue asking you for
+- [50:08] hand won't continue asking you for
+- [50:08] hand won't continue asking you for permissions when these stages occur. So
+- [50:12] permissions when these stages occur. So
+- [50:12] permissions when these stages occur. So now if I proceed in full access I can
+- [50:14] now if I proceed in full access I can
+- [50:14] now if I proceed in full access I can say what do you recommend next. So it's
+- [50:18] say what do you recommend next. So it's
+- [50:18] say what do you recommend next. So it's recommending a sweep of what remains on
+- [50:20] recommending a sweep of what remains on
+- [50:20] recommending a sweep of what remains on the desktop and then stop the mess from
+- [50:23] the desktop and then stop the mess from
+- [50:23] the desktop and then stop the mess from coming back. So I'll say sure do that.
+- [50:26] coming back. So I'll say sure do that.
+- [50:26] coming back. So I'll say sure do that. The issue with full access is that
+- [50:29] The issue with full access is that
+- [50:29] The issue with full access is that potentially codecs could delete things
+- [50:31] potentially codecs could delete things
+- [50:32] potentially codecs could delete things that you don't want deleted without you
+- [50:34] that you don't want deleted without you
+- [50:34] that you don't want deleted without you having any mechanism to recover those
+- [50:36] having any mechanism to recover those
+- [50:36] having any mechanism to recover those files for example. And so one option is
+- [50:39] files for example. And so one option is
+- [50:40] files for example. And so one option is to give codecs very fine detailed
+- [50:43] to give codecs very fine detailed
+- [50:43] to give codecs very fine detailed permissions of what it can and can't do.
+- [50:46] permissions of what it can and can't do.
+- [50:46] permissions of what it can and can't do. And that is possible in codeex. Let me
+- [50:49] And that is possible in codeex. Let me
+- [50:49] And that is possible in codeex. Let me show you how. On this documentation page
+- [50:52] show you how. On this documentation page
+- [50:52] show you how. On this documentation page for codeex, there's a pretty thorough
+- [50:56] for codeex, there's a pretty thorough
+- [50:56] for codeex, there's a pretty thorough explanation of all the different types
+- [50:59] explanation of all the different types
+- [50:59] explanation of all the different types of configuration options you have at
+- [51:01] of configuration options you have at
+- [51:01] of configuration options you have at hand to limit codecs on what it can and
+- [51:04] hand to limit codecs on what it can and
+- [51:04] hand to limit codecs on what it can and can't do. So here, for example, you can
+- [51:06] can't do. So here, for example, you can
+- [51:06] can't do. So here, for example, you can decide whether to enable full internet
+- [51:09] decide whether to enable full internet
+- [51:09] decide whether to enable full internet access or just have an allow list of
+- [51:12] access or just have an allow list of
+- [51:12] access or just have an allow list of particular domains. You can also have a
+- [51:15] particular domains. You can also have a
+- [51:15] particular domains. You can also have a deny list for what is allowed or not
+- [51:18] deny list for what is allowed or not
+- [51:18] deny list for what is allowed or not allowed for codecs to read or write on
+- [51:22] allowed for codecs to read or write on
+- [51:22] allowed for codecs to read or write on your computer. And all of this occurs in
+- [51:24] your computer. And all of this occurs in
+- [51:24] your computer. And all of this occurs in a file called config.toml
+- [51:27] a file called config.toml
+- [51:28] a file called config.toml which is located in a particular
+- [51:29] which is located in a particular
+- [51:29] which is located in a particular location on your computer which I'll
+- [51:31] location on your computer which I'll
+- [51:31] location on your computer which I'll show you in a little bit. There's also a
+- [51:33] show you in a little bit. There's also a
+- [51:33] show you in a little bit. There's also a concept called rules with which you can
+- [51:36] concept called rules with which you can
+- [51:36] concept called rules with which you can define particular commands that codeex
+- [51:39] define particular commands that codeex
+- [51:39] define particular commands that codeex is allowed to run which go on outside
+- [51:42] is allowed to run which go on outside
+- [51:42] is allowed to run which go on outside the sandbox where the sandbox for a
+- [51:45] the sandbox where the sandbox for a
+- [51:45] the sandbox where the sandbox for a given project you can roughly think of
+- [51:47] given project you can roughly think of
+- [51:48] given project you can roughly think of as being that folder like a set of
+- [51:50] as being that folder like a set of
+- [51:50] as being that folder like a set of operations that it's allowed to do
+- [51:52] operations that it's allowed to do
+- [51:52] operations that it's allowed to do outside that folder. Now this rules
+- [51:56] outside that folder. Now this rules
+- [51:56] outside that folder. Now this rules setup is not trivial. It is a pretty
+- [52:00] setup is not trivial. It is a pretty
+- [52:00] setup is not trivial. It is a pretty complex format that if I was writing, I
+- [52:04] complex format that if I was writing, I
+- [52:04] complex format that if I was writing, I wouldn't want to write by hand. I would
+- [52:05] wouldn't want to write by hand. I would
+- [52:05] wouldn't want to write by hand. I would probably ask Codeex itself to help me
+- [52:08] probably ask Codeex itself to help me
+- [52:08] probably ask Codeex itself to help me write this thing. And I'm personally
+- [52:11] write this thing. And I'm personally
+- [52:11] write this thing. And I'm personally comfortable enough with these tools that
+- [52:13] comfortable enough with these tools that
+- [52:13] comfortable enough with these tools that I just leave them in full access all the
+- [52:16] I just leave them in full access all the
+- [52:16] I just leave them in full access all the time. So my recommendation is to either
+- [52:18] time. So my recommendation is to either
+- [52:18] time. So my recommendation is to either just use default permissions or full
+- [52:21] just use default permissions or full
+- [52:21] just use default permissions or full access, one or the other. the permission
+- [52:24] access, one or the other. the permission
+- [52:24] access, one or the other. the permission system. You can dig into it and I'll
+- [52:27] system. You can dig into it and I'll
+- [52:27] system. You can dig into it and I'll send you those links, but it can be a
+- [52:29] send you those links, but it can be a
+- [52:29] send you those links, but it can be a little bit complicated, a little bit
+- [52:31] little bit complicated, a little bit
+- [52:31] little bit complicated, a little bit finicky, and so I'm personally
+- [52:33] finicky, and so I'm personally
+- [52:33] finicky, and so I'm personally comfortable with full access. But there
+- [52:35] comfortable with full access. But there
+- [52:35] comfortable with full access. But there is one additional tool that I use
+- [52:38] is one additional tool that I use
+- [52:38] is one additional tool that I use alongside full access in order to make
+- [52:41] alongside full access in order to make
+- [52:41] alongside full access in order to make certain destructive commands impossible
+- [52:44] certain destructive commands impossible
+- [52:44] certain destructive commands impossible for codecs to run. The tool I use for
+- [52:47] for codecs to run. The tool I use for
+- [52:47] for codecs to run. The tool I use for that is called destructive command
+- [52:50] that is called destructive command
+- [52:50] that is called destructive command guard. So, if you just search that on
+- [52:52] guard. So, if you just search that on
+- [52:52] guard. So, if you just search that on Google or you can see in the slides I'll
+- [52:55] Google or you can see in the slides I'll
+- [52:55] Google or you can see in the slides I'll have in my school server or in the
+- [52:57] have in my school server or in the
+- [52:57] have in my school server or in the description below this link, you can
+- [52:59] description below this link, you can
+- [52:59] description below this link, you can find this tool. And basically what it
+- [53:02] find this tool. And basically what it
+- [53:02] find this tool. And basically what it does is it prevents codecs or clawed
+- [53:05] does is it prevents codecs or clawed
+- [53:05] does is it prevents codecs or clawed code really any agent from running
+- [53:08] code really any agent from running
+- [53:08] code really any agent from running certain types of catastrophic commands
+- [53:11] certain types of catastrophic commands
+- [53:11] certain types of catastrophic commands like get reset hard which is very bad to
+- [53:14] like get reset hard which is very bad to
+- [53:14] like get reset hard which is very bad to do on a git repository rmrf source. So
+- [53:17] do on a git repository rmrf source. So
+- [53:17] do on a git repository rmrf source. So you'd want to prevent codecs from
+- [53:19] you'd want to prevent codecs from
+- [53:19] you'd want to prevent codecs from accidentally deleting some directory or
+- [53:22] accidentally deleting some directory or
+- [53:22] accidentally deleting some directory or dropping a table in your database. And
+- [53:25] dropping a table in your database. And
+- [53:25] dropping a table in your database. And so if you want to install this tool, you
+- [53:28] so if you want to install this tool, you
+- [53:28] so if you want to install this tool, you simply copy this right here. Copy. Then
+- [53:32] simply copy this right here. Copy. Then
+- [53:32] simply copy this right here. Copy. Then come back to codeex. And as you recall,
+- [53:35] come back to codeex. And as you recall,
+- [53:35] come back to codeex. And as you recall, in order to open a terminal, it's
+- [53:37] in order to open a terminal, it's
+- [53:37] in order to open a terminal, it's command J on a Mac, probably similar on
+- [53:40] command J on a Mac, probably similar on
+- [53:40] command J on a Mac, probably similar on Windows. I'm just going to paste that in
+- [53:42] Windows. I'm just going to paste that in
+- [53:42] Windows. I'm just going to paste that in here and then press enter. and we'll see
+- [53:46] here and then press enter. and we'll see
+- [53:46] here and then press enter. and we'll see that it's now active in codeex with this
+- [53:50] that it's now active in codeex with this
+- [53:50] that it's now active in codeex with this DCG hook. Now that begs the question,
+- [53:53] DCG hook. Now that begs the question,
+- [53:53] DCG hook. Now that begs the question, what is a hook? So hooks are an
+- [53:56] what is a hook? So hooks are an
+- [53:56] what is a hook? So hooks are an extensibility framework for codeex such
+- [53:59] extensibility framework for codeex such
+- [53:59] extensibility framework for codeex such that after certain points in the agentic
+- [54:03] that after certain points in the agentic
+- [54:03] that after certain points in the agentic life cycle, some actions can occur
+- [54:06] life cycle, some actions can occur
+- [54:06] life cycle, some actions can occur deterministically. But as you see here,
+- [54:09] deterministically. But as you see here,
+- [54:09] deterministically. But as you see here, this is an experimental feature. So in
+- [54:11] this is an experimental feature. So in
+- [54:11] this is an experimental feature. So in our case what we want is that before any
+- [54:15] our case what we want is that before any
+- [54:15] our case what we want is that before any tool is used meaning before any command
+- [54:17] tool is used meaning before any command
+- [54:17] tool is used meaning before any command is run we have DCG run to check if that
+- [54:21] is run we have DCG run to check if that
+- [54:21] is run we have DCG run to check if that command is a safe command and if not it
+- [54:23] command is a safe command and if not it
+- [54:24] command is a safe command and if not it rejects that command. Now in order to
+- [54:26] rejects that command. Now in order to
+- [54:26] rejects that command. Now in order to use an experimental feature like this
+- [54:29] use an experimental feature like this
+- [54:29] use an experimental feature like this you have to open up this file that I was
+- [54:31] you have to open up this file that I was
+- [54:31] you have to open up this file that I was referencing called the config.toml file
+- [54:35] referencing called the config.toml file
+- [54:35] referencing called the config.toml file and add this line underneath features in
+- [54:38] and add this line underneath features in
+- [54:38] and add this line underneath features in your config.comtom. So how do you do
+- [54:40] your config.comtom. So how do you do
+- [54:40] your config.comtom. So how do you do that? Well, you come here to codeex,
+- [54:43] that? Well, you come here to codeex,
+- [54:43] that? Well, you come here to codeex, then go over here, go to settings, then
+- [54:46] then go over here, go to settings, then
+- [54:46] then go over here, go to settings, then come down to configuration, then over
+- [54:49] come down to configuration, then over
+- [54:49] come down to configuration, then over here, choose global. So that we go to
+- [54:52] here, choose global. So that we go to
+- [54:52] here, choose global. So that we go to the user configuration, and then click
+- [54:54] the user configuration, and then click
+- [54:54] the user configuration, and then click this button for open config.toml. So let
+- [54:58] this button for open config.toml. So let
+- [54:58] this button for open config.toml. So let me do that. Okay. So if you've set up VS
+- [55:00] me do that. Okay. So if you've set up VS
+- [55:00] me do that. Okay. So if you've set up VS Code, it should probably open up like
+- [55:02] Code, it should probably open up like
+- [55:02] Code, it should probably open up like this in VS Code. And then I recommend
+- [55:05] this in VS Code. And then I recommend
+- [55:05] this in VS Code. And then I recommend doing a CtrlF for features. There it is.
+- [55:09] doing a CtrlF for features. There it is.
+- [55:09] doing a CtrlF for features. There it is. And you'll see over here that I've
+- [55:11] And you'll see over here that I've
+- [55:11] And you'll see over here that I've already added this line hooks equal
+- [55:14] already added this line hooks equal
+- [55:14] already added this line hooks equal true. So if you haven't add that, but if
+- [55:16] true. So if you haven't add that, but if
+- [55:16] true. So if you haven't add that, but if you have, leave it. And then just save
+- [55:18] you have, leave it. And then just save
+- [55:18] you have, leave it. And then just save it. And now your codeex instance will be
+- [55:21] it. And now your codeex instance will be
+- [55:21] it. And now your codeex instance will be set up to prevent certain kinds of
+- [55:24] set up to prevent certain kinds of
+- [55:24] set up to prevent certain kinds of destructive commands from ever happening
+- [55:26] destructive commands from ever happening
+- [55:26] destructive commands from ever happening in the first place. So for me, this is a
+- [55:30] in the first place. So for me, this is a
+- [55:30] in the first place. So for me, this is a sufficient level of safety. There are
+- [55:32] sufficient level of safety. There are
+- [55:32] sufficient level of safety. There are more complex types of safety that you
+- [55:35] more complex types of safety that you
+- [55:35] more complex types of safety that you can add using things like Docker
+- [55:37] can add using things like Docker
+- [55:37] can add using things like Docker sandboxes or simply working on your
+- [55:40] sandboxes or simply working on your
+- [55:40] sandboxes or simply working on your stuff on a computer which is totally
+- [55:43] stuff on a computer which is totally
+- [55:43] stuff on a computer which is totally isolated from anything else that could
+- [55:45] isolated from anything else that could
+- [55:45] isolated from anything else that could be damaging. So, it's your own decision
+- [55:47] be damaging. So, it's your own decision
+- [55:47] be damaging. So, it's your own decision of what you prefer. Maybe start off in
+- [55:50] of what you prefer. Maybe start off in
+- [55:50] of what you prefer. Maybe start off in default permissions, but I think that
+- [55:52] default permissions, but I think that
+- [55:52] default permissions, but I think that pretty soon you'll get annoyed and
+- [55:54] pretty soon you'll get annoyed and
+- [55:54] pretty soon you'll get annoyed and you'll want to move to full permissions.
+- [55:56] you'll want to move to full permissions.
+- [55:56] you'll want to move to full permissions. In that case, I recommend setting up
+- [55:58] In that case, I recommend setting up
+- [55:58] In that case, I recommend setting up destructive command guard. And you can
+- [56:00] destructive command guard. And you can
+- [56:00] destructive command guard. And you can do that all within the Codex desktop app
+- [56:02] do that all within the Codex desktop app
+- [56:02] do that all within the Codex desktop app by opening up a terminal right there in
+- [56:04] by opening up a terminal right there in
+- [56:04] by opening up a terminal right there in that environment. All right, the next
+- [56:06] that environment. All right, the next
+- [56:06] that environment. All right, the next topic I want to discuss is the agents.m
+- [56:10] topic I want to discuss is the agents.m
+- [56:10] topic I want to discuss is the agents.m MD file. Now, if you recall back to a
+- [56:13] MD file. Now, if you recall back to a
+- [56:13] MD file. Now, if you recall back to a previous section, we were discussing how
+- [56:16] previous section, we were discussing how
+- [56:16] previous section, we were discussing how there are all these different things
+- [56:18] there are all these different things
+- [56:18] there are all these different things that use up tokens in codecs. One of
+- [56:21] that use up tokens in codecs. One of
+- [56:21] that use up tokens in codecs. One of those is the system prompt, which
+- [56:23] those is the system prompt, which
+- [56:23] those is the system prompt, which includes this thing called agents.md.
+- [56:27] includes this thing called agents.md.
+- [56:27] includes this thing called agents.md. So what is agents.mmd? The agents.md is
+- [56:30] So what is agents.mmd? The agents.md is
+- [56:30] So what is agents.mmd? The agents.md is a file that codeex reads before doing
+- [56:34] a file that codeex reads before doing
+- [56:34] a file that codeex reads before doing any work. And so the possibility or the
+- [56:38] any work. And so the possibility or the
+- [56:38] any work. And so the possibility or the promise of agents.md is that if there
+- [56:40] promise of agents.md is that if there
+- [56:40] promise of agents.md is that if there are certain types of things that you
+- [56:43] are certain types of things that you
+- [56:43] are certain types of things that you always want codeex to know about your
+- [56:45] always want codeex to know about your
+- [56:45] always want codeex to know about your project, you just create an agents.md
+- [56:49] project, you just create an agents.md
+- [56:49] project, you just create an agents.md file, put it at the root location of
+- [56:51] file, put it at the root location of
+- [56:52] file, put it at the root location of your project folder and then codeex will
+- [56:54] your project folder and then codeex will
+- [56:54] your project folder and then codeex will always read that first before following
+- [56:57] always read that first before following
+- [56:57] always read that first before following any instruction that you give in any
+- [56:59] any instruction that you give in any
+- [56:59] any instruction that you give in any codeex thread. Now, there's not just one
+- [57:02] codeex thread. Now, there's not just one
+- [57:02] codeex thread. Now, there's not just one agents.mmd file, but actually multiple
+- [57:05] agents.mmd file, but actually multiple
+- [57:05] agents.mmd file, but actually multiple of them. So, typically at your
+- [57:08] of them. So, typically at your
+- [57:08] of them. So, typically at your individual project, you might put
+- [57:11] individual project, you might put
+- [57:11] individual project, you might put agents.md at the root of the project.
+- [57:14] agents.md at the root of the project.
+- [57:14] agents.md at the root of the project. But, additionally, you could have an
+- [57:16] But, additionally, you could have an
+- [57:16] But, additionally, you could have an agents.md inside some folder in your
+- [57:19] agents.md inside some folder in your
+- [57:20] agents.md inside some folder in your project and then when codeex goes inside
+- [57:22] project and then when codeex goes inside
+- [57:22] project and then when codeex goes inside that folder, anytime it's acting in that
+- [57:25] that folder, anytime it's acting in that
+- [57:25] that folder, anytime it's acting in that folder, it'll always read that agents.md
+- [57:28] folder, it'll always read that agents.md
+- [57:28] folder, it'll always read that agents.md file first. And finally, you can also
+- [57:32] file first. And finally, you can also
+- [57:32] file first. And finally, you can also have an agents.mmd file which you put in
+- [57:35] have an agents.mmd file which you put in
+- [57:35] have an agents.mmd file which you put in your home directory in thecodeex folder.
+- [57:38] your home directory in thecodeex folder.
+- [57:38] your home directory in thecodeex folder. And then this will be something that
+- [57:40] And then this will be something that
+- [57:40] And then this will be something that codeex always reads in every single one
+- [57:43] codeex always reads in every single one
+- [57:43] codeex always reads in every single one of your projects. So should you always
+- [57:46] of your projects. So should you always
+- [57:46] of your projects. So should you always make agents.md files, other AI
+- [57:49] make agents.md files, other AI
+- [57:49] make agents.md files, other AI influencers will sometimes refer to
+- [57:52] influencers will sometimes refer to
+- [57:52] influencers will sometimes refer to these as the brains of your project. But
+- [57:55] these as the brains of your project. But
+- [57:55] these as the brains of your project. But my opinion is that you actually should
+- [57:58] my opinion is that you actually should
+- [57:58] my opinion is that you actually should never make agents.md files. The
+- [58:00] never make agents.md files. The
+- [58:00] never make agents.md files. The fundamental reason for this is that
+- [58:03] fundamental reason for this is that
+- [58:03] fundamental reason for this is that coding agents like codecs have gotten so
+- [58:06] coding agents like codecs have gotten so
+- [58:06] coding agents like codecs have gotten so good that you don't need to really tell
+- [58:09] good that you don't need to really tell
+- [58:09] good that you don't need to really tell them many things about what your project
+- [58:12] them many things about what your project
+- [58:12] them many things about what your project structure is and how to work inside it.
+- [58:14] structure is and how to work inside it.
+- [58:14] structure is and how to work inside it. They can usually just infer that
+- [58:16] They can usually just infer that
+- [58:16] They can usually just infer that themselves. But what often happens is
+- [58:18] themselves. But what often happens is
+- [58:18] themselves. But what often happens is that if you put some set of instructions
+- [58:21] that if you put some set of instructions
+- [58:21] that if you put some set of instructions in your agents.mmd file if you're a
+- [58:23] in your agents.mmd file if you're a
+- [58:23] in your agents.mmd file if you're a beginner, you'll often overspecify
+- [58:26] beginner, you'll often overspecify
+- [58:26] beginner, you'll often overspecify things that aren't actually necessary to
+- [58:28] things that aren't actually necessary to
+- [58:28] things that aren't actually necessary to say, and so you'll just be using up
+- [58:30] say, and so you'll just be using up
+- [58:30] say, and so you'll just be using up valuable context in that agents.md file.
+- [58:33] valuable context in that agents.md file.
+- [58:33] valuable context in that agents.md file. Additionally, if you have instructions
+- [58:37] Additionally, if you have instructions
+- [58:37] Additionally, if you have instructions explaining your project structure in the
+- [58:39] explaining your project structure in the
+- [58:39] explaining your project structure in the agents.m MD, but then down the road your
+- [58:42] agents.m MD, but then down the road your
+- [58:42] agents.m MD, but then down the road your project's structure changes, this
+- [58:44] project's structure changes, this
+- [58:44] project's structure changes, this inconsistency can end up confusing the
+- [58:47] inconsistency can end up confusing the
+- [58:47] inconsistency can end up confusing the coding agent, and so you get worse
+- [58:49] coding agent, and so you get worse
+- [58:49] coding agent, and so you get worse results than you otherwise would. To
+- [58:51] results than you otherwise would. To
+- [58:51] results than you otherwise would. To test exactly this, some researchers at a
+- [58:54] test exactly this, some researchers at a
+- [58:54] test exactly this, some researchers at a very prestigious university in
+- [58:56] very prestigious university in
+- [58:56] very prestigious university in Switzerland in Zurich did a test to see
+- [58:59] Switzerland in Zurich did a test to see
+- [58:59] Switzerland in Zurich did a test to see whether agents.md files actually help.
+- [59:01] whether agents.md files actually help.
+- [59:02] whether agents.md files actually help. and they compared across some measure of
+- [59:05] and they compared across some measure of
+- [59:05] and they compared across some measure of success rate LLM generated agents.mmds,
+- [59:08] success rate LLM generated agents.mmds,
+- [59:08] success rate LLM generated agents.mmds, human generated agents.m MDs and no
+- [59:11] human generated agents.m MDs and no
+- [59:11] human generated agents.m MDs and no agents.m MDs. And what you see is that
+- [59:13] agents.m MDs. And what you see is that
+- [59:13] agents.m MDs. And what you see is that like for the worse models like GPT 5.1
+- [59:17] like for the worse models like GPT 5.1
+- [59:17] like for the worse models like GPT 5.1 Mini and Quen 330B, there does seem to
+- [59:21] Mini and Quen 330B, there does seem to
+- [59:21] Mini and Quen 330B, there does seem to be an improvement especially from
+- [59:24] be an improvement especially from
+- [59:24] be an improvement especially from creating this human generated agents.md.
+- [59:27] creating this human generated agents.md.
+- [59:27] creating this human generated agents.md. But when you look at GPT 5.2, 2, which
+- [59:29] But when you look at GPT 5.2, 2, which
+- [59:29] But when you look at GPT 5.2, 2, which is now a pretty old model, or sonnet
+- [59:31] is now a pretty old model, or sonnet
+- [59:31] is now a pretty old model, or sonnet 4.5, which is extremely old. There's
+- [59:34] 4.5, which is extremely old. There's
+- [59:34] 4.5, which is extremely old. There's basically no difference at all. And so
+- [59:37] basically no difference at all. And so
+- [59:37] basically no difference at all. And so that speaks to the fact that as these
+- [59:39] that speaks to the fact that as these
+- [59:39] that speaks to the fact that as these models are becoming more intelligent,
+- [59:41] models are becoming more intelligent,
+- [59:41] models are becoming more intelligent, there's just less of a need for these
+- [59:43] there's just less of a need for these
+- [59:43] there's just less of a need for these agents.mmd files. And in fact, it can
+- [59:45] agents.mmd files. And in fact, it can
+- [59:45] agents.mmd files. And in fact, it can even end up hurting you. Here we have an
+- [59:47] even end up hurting you. Here we have an
+- [59:47] even end up hurting you. Here we have an other view studying the same thing. But
+- [59:49] other view studying the same thing. But
+- [59:49] other view studying the same thing. But what we're looking at here is whether on
+- [59:51] what we're looking at here is whether on
+- [59:51] what we're looking at here is whether on these two benchmarks, whether using an
+- [59:54] these two benchmarks, whether using an
+- [59:54] these two benchmarks, whether using an agents.m MD helps you satisfy that
+- [59:57] agents.m MD helps you satisfy that
+- [59:58] agents.m MD helps you satisfy that benchmark with fewer steps and at a
+- [01:00:00] benchmark with fewer steps and at a
+- [01:00:00] benchmark with fewer steps and at a lower cost. And what you find uniformly
+- [01:00:02] lower cost. And what you find uniformly
+- [01:00:02] lower cost. And what you find uniformly across all these models is that these
+- [01:00:05] across all these models is that these
+- [01:00:05] across all these models is that these measures are done worse like in more
+- [01:00:08] measures are done worse like in more
+- [01:00:08] measures are done worse like in more steps and at a higher cost when you use
+- [01:00:13] steps and at a higher cost when you use
+- [01:00:13] steps and at a higher cost when you use an LLM generated agents.mmd or even a
+- [01:00:17] an LLM generated agents.mmd or even a
+- [01:00:17] an LLM generated agents.mmd or even a human generated agents.mmd. Now, if you
+- [01:00:20] human generated agents.mmd. Now, if you
+- [01:00:20] human generated agents.mmd. Now, if you do create an agents.m MD, my
+- [01:00:23] do create an agents.m MD, my
+- [01:00:23] do create an agents.m MD, my recommendation is to put instructions
+- [01:00:26] recommendation is to put instructions
+- [01:00:26] recommendation is to put instructions based on what the agent is getting
+- [01:00:29] based on what the agent is getting
+- [01:00:29] based on what the agent is getting consistently wrong in your project. So,
+- [01:00:32] consistently wrong in your project. So,
+- [01:00:32] consistently wrong in your project. So, use the agents.m MD as a corrective. And
+- [01:00:35] use the agents.m MD as a corrective. And
+- [01:00:35] use the agents.m MD as a corrective. And so, for example, if your project uses
+- [01:00:38] so, for example, if your project uses
+- [01:00:38] so, for example, if your project uses one more modern library that may be past
+- [01:00:41] one more modern library that may be past
+- [01:00:41] one more modern library that may be past the models memory cutoff, then you want
+- [01:00:44] the models memory cutoff, then you want
+- [01:00:44] the models memory cutoff, then you want to specify that. So, for example, if
+- [01:00:46] to specify that. So, for example, if
+- [01:00:46] to specify that. So, for example, if you're using Tailwind version 4, specify
+- [01:00:49] you're using Tailwind version 4, specify
+- [01:00:49] you're using Tailwind version 4, specify that and not Tailwind version 3. Or if
+- [01:00:52] that and not Tailwind version 3. Or if
+- [01:00:52] that and not Tailwind version 3. Or if you're using Python 3.14 specifically to
+- [01:00:55] you're using Python 3.14 specifically to
+- [01:00:55] you're using Python 3.14 specifically to write your code and you always want to
+- [01:00:57] write your code and you always want to
+- [01:00:57] write your code and you always want to make sure it uses that, then specify
+- [01:00:59] make sure it uses that, then specify
+- [01:00:59] make sure it uses that, then specify that. But the type of thing that would
+- [01:01:00] that. But the type of thing that would
+- [01:01:00] that. But the type of thing that would be bad to include in your agents.m MD is
+- [01:01:03] be bad to include in your agents.m MD is
+- [01:01:03] be bad to include in your agents.m MD is stuff like the database has 12 tables,
+- [01:01:06] stuff like the database has 12 tables,
+- [01:01:06] stuff like the database has 12 tables, the project structure is data, paper,
+- [01:01:09] the project structure is data, paper,
+- [01:01:10] the project structure is data, paper, intermediate, temp, because all of those
+- [01:01:12] intermediate, temp, because all of those
+- [01:01:12] intermediate, temp, because all of those things might change. certain types of
+- [01:01:15] things might change. certain types of
+- [01:01:15] things might change. certain types of things that people put in agents.mds
+- [01:01:18] things that people put in agents.mds
+- [01:01:18] things that people put in agents.mds actually belong in what are called
+- [01:01:20] actually belong in what are called
+- [01:01:20] actually belong in what are called skills. And we're going to be getting to
+- [01:01:22] skills. And we're going to be getting to
+- [01:01:22] skills. And we're going to be getting to that in just a few sections. But before
+- [01:01:25] that in just a few sections. But before
+- [01:01:25] that in just a few sections. But before we get there, I want to introduce the
+- [01:01:27] we get there, I want to introduce the
+- [01:01:27] we get there, I want to introduce the five practical primitives of codecs.
+- [01:01:31] five practical primitives of codecs.
+- [01:01:31] five practical primitives of codecs. Now, when we were going over the
+- [01:01:33] Now, when we were going over the
+- [01:01:33] Now, when we were going over the interface store, I already gave you an
+- [01:01:36] interface store, I already gave you an
+- [01:01:36] interface store, I already gave you an brief introduction to each one of these,
+- [01:01:38] brief introduction to each one of these,
+- [01:01:38] brief introduction to each one of these, but I want to kind of lay a road map and
+- [01:01:41] but I want to kind of lay a road map and
+- [01:01:41] but I want to kind of lay a road map and make a brief comparison of these things
+- [01:01:43] make a brief comparison of these things
+- [01:01:43] make a brief comparison of these things right now so that you have a broad
+- [01:01:46] right now so that you have a broad
+- [01:01:46] right now so that you have a broad picture in your head as we go through
+- [01:01:49] picture in your head as we go through
+- [01:01:49] picture in your head as we go through each of these in detail. So, from your
+- [01:01:51] each of these in detail. So, from your
+- [01:01:51] each of these in detail. So, from your perspective, the way you'll be
+- [01:01:53] perspective, the way you'll be
+- [01:01:53] perspective, the way you'll be interacting with codecs is through this
+- [01:01:57] interacting with codecs is through this
+- [01:01:57] interacting with codecs is through this desktop app. And so under the hood, it's
+- [01:02:00] desktop app. And so under the hood, it's
+- [01:02:00] desktop app. And so under the hood, it's talking to your computer. It's using
+- [01:02:02] talking to your computer. It's using
+- [01:02:02] talking to your computer. It's using command line interface programs on a
+- [01:02:05] command line interface programs on a
+- [01:02:05] command line interface programs on a terminal, but you don't have to actually
+- [01:02:07] terminal, but you don't have to actually
+- [01:02:08] terminal, but you don't have to actually touch the terminal. You could use codecs
+- [01:02:10] touch the terminal. You could use codecs
+- [01:02:10] touch the terminal. You could use codecs at the terminal if you wanted to, but
+- [01:02:12] at the terminal if you wanted to, but
+- [01:02:12] at the terminal if you wanted to, but the desktop app is a much nicer, much
+- [01:02:15] the desktop app is a much nicer, much
+- [01:02:15] the desktop app is a much nicer, much more comfortable interface for
+- [01:02:17] more comfortable interface for
+- [01:02:17] more comfortable interface for beginners. But even for me as an
+- [01:02:19] beginners. But even for me as an
+- [01:02:19] beginners. But even for me as an experienced user who really likes a
+- [01:02:21] experienced user who really likes a
+- [01:02:21] experienced user who really likes a terminal, the Codeex desktop app has so
+- [01:02:23] terminal, the Codeex desktop app has so
+- [01:02:24] terminal, the Codeex desktop app has so many conveniences and utilities for
+- [01:02:26] many conveniences and utilities for
+- [01:02:26] many conveniences and utilities for power users like work trees that we're
+- [01:02:28] power users like work trees that we're
+- [01:02:28] power users like work trees that we're going to be getting into that really
+- [01:02:30] going to be getting into that really
+- [01:02:30] going to be getting into that really it's kind of the best environment for
+- [01:02:32] it's kind of the best environment for
+- [01:02:32] it's kind of the best environment for everybody to do agentic coding. And so
+- [01:02:35] everybody to do agentic coding. And so
+- [01:02:35] everybody to do agentic coding. And so inside codeex, there are these five
+- [01:02:37] inside codeex, there are these five
+- [01:02:37] inside codeex, there are these five things that you're going to be able to
+- [01:02:39] things that you're going to be able to
+- [01:02:39] things that you're going to be able to use to expand Codeex's abilities, the
+- [01:02:43] use to expand Codeex's abilities, the
+- [01:02:43] use to expand Codeex's abilities, the types of things that it can do. And so
+- [01:02:45] types of things that it can do. And so
+- [01:02:45] types of things that it can do. And so one of these is going to be plugins.
+- [01:02:47] one of these is going to be plugins.
+- [01:02:47] one of these is going to be plugins. plugins are sort of builtin connections
+- [01:02:50] plugins are sort of builtin connections
+- [01:02:50] plugins are sort of builtin connections that Open AI and various companies have
+- [01:02:53] that Open AI and various companies have
+- [01:02:53] that Open AI and various companies have made to let you hook up to things like
+- [01:02:56] made to let you hook up to things like
+- [01:02:56] made to let you hook up to things like Gmail, Google Drive, Fathom, Linear,
+- [01:02:59] Gmail, Google Drive, Fathom, Linear,
+- [01:02:59] Gmail, Google Drive, Fathom, Linear, Figma, Notion, all these different
+- [01:03:01] Figma, Notion, all these different
+- [01:03:01] Figma, Notion, all these different programs that you may already be using
+- [01:03:04] programs that you may already be using
+- [01:03:04] programs that you may already be using and be able to talk to them from the
+- [01:03:06] and be able to talk to them from the
+- [01:03:06] and be able to talk to them from the Codeex desktop app itself by just
+- [01:03:09] Codeex desktop app itself by just
+- [01:03:09] Codeex desktop app itself by just clicking one button to install the
+- [01:03:11] clicking one button to install the
+- [01:03:11] clicking one button to install the plugin, an authentication flow, and then
+- [01:03:14] plugin, an authentication flow, and then
+- [01:03:14] plugin, an authentication flow, and then you've got access. Now, one of the
+- [01:03:16] you've got access. Now, one of the
+- [01:03:16] you've got access. Now, one of the plugins that sort of deserves its own
+- [01:03:18] plugins that sort of deserves its own
+- [01:03:18] plugins that sort of deserves its own category is that of computer use, which
+- [01:03:22] category is that of computer use, which
+- [01:03:22] category is that of computer use, which allows you on a Mac, but soon to come on
+- [01:03:25] allows you on a Mac, but soon to come on
+- [01:03:25] allows you on a Mac, but soon to come on Windows as well, to actually control
+- [01:03:28] Windows as well, to actually control
+- [01:03:28] Windows as well, to actually control your entire user interface with codecs.
+- [01:03:32] your entire user interface with codecs.
+- [01:03:32] your entire user interface with codecs. So, it can go and log in for you, look
+- [01:03:36] So, it can go and log in for you, look
+- [01:03:36] So, it can go and log in for you, look at your emails, download attachments,
+- [01:03:39] at your emails, download attachments,
+- [01:03:39] at your emails, download attachments, analyze them, all that kind of thing.
+- [01:03:41] analyze them, all that kind of thing.
+- [01:03:42] analyze them, all that kind of thing. And all you have to do is enable this
+- [01:03:44] And all you have to do is enable this
+- [01:03:44] And all you have to do is enable this from within codecs. Now plugins and
+- [01:03:47] from within codecs. Now plugins and
+- [01:03:47] from within codecs. Now plugins and computer use set up these connections to
+- [01:03:50] computer use set up these connections to
+- [01:03:50] computer use set up these connections to these tools, but you may have much more
+- [01:03:53] these tools, but you may have much more
+- [01:03:53] these tools, but you may have much more particular workflows that you use that
+- [01:03:56] particular workflows that you use that
+- [01:03:56] particular workflows that you use that build on top of tools like Gmail, Google
+- [01:03:59] build on top of tools like Gmail, Google
+- [01:03:59] build on top of tools like Gmail, Google Drive or Notion. And so you may have a
+- [01:04:02] Drive or Notion. And so you may have a
+- [01:04:02] Drive or Notion. And so you may have a lot more particular needs. So for
+- [01:04:03] lot more particular needs. So for
+- [01:04:03] lot more particular needs. So for example, you may want to take your
+- [01:04:06] example, you may want to take your
+- [01:04:06] example, you may want to take your emails and classify them every single
+- [01:04:08] emails and classify them every single
+- [01:04:08] emails and classify them every single morning according to some heristic you
+- [01:04:11] morning according to some heristic you
+- [01:04:11] morning according to some heristic you like to use. So you want to find
+- [01:04:13] like to use. So you want to find
+- [01:04:13] like to use. So you want to find newsletters, summarize all of them. You
+- [01:04:16] newsletters, summarize all of them. You
+- [01:04:16] newsletters, summarize all of them. You want to block spam. You want to flag
+- [01:04:18] want to block spam. You want to flag
+- [01:04:18] want to block spam. You want to flag some high priority people like your boss
+- [01:04:21] some high priority people like your boss
+- [01:04:21] some high priority people like your boss or your co-workers so that they come to
+- [01:04:23] or your co-workers so that they come to
+- [01:04:23] or your co-workers so that they come to the top of your attention and especially
+- [01:04:25] the top of your attention and especially
+- [01:04:25] the top of your attention and especially clients. And so ideally you'd like to
+- [01:04:28] clients. And so ideally you'd like to
+- [01:04:28] clients. And so ideally you'd like to have some kind of automation very
+- [01:04:30] have some kind of automation very
+- [01:04:30] have some kind of automation very particular to you and your workflows and
+- [01:04:33] particular to you and your workflows and
+- [01:04:33] particular to you and your workflows and your business and your needs. That's
+- [01:04:35] your business and your needs. That's
+- [01:04:35] your business and your needs. That's what skills enable you to do. And so
+- [01:04:37] what skills enable you to do. And so
+- [01:04:37] what skills enable you to do. And so we'll be going into skills in detail.
+- [01:04:40] we'll be going into skills in detail.
+- [01:04:40] we'll be going into skills in detail. Now under the hood, what a plug-in is
+- [01:04:44] Now under the hood, what a plug-in is
+- [01:04:44] Now under the hood, what a plug-in is sort of doing is making a wrapper
+- [01:04:47] sort of doing is making a wrapper
+- [01:04:47] sort of doing is making a wrapper usually around what are called MCPS or
+- [01:04:51] usually around what are called MCPS or
+- [01:04:51] usually around what are called MCPS or model context protocol servers. So MCPs
+- [01:04:55] model context protocol servers. So MCPs
+- [01:04:55] model context protocol servers. So MCPs are a communication standard that has
+- [01:04:58] are a communication standard that has
+- [01:04:58] are a communication standard that has been established for different AI
+- [01:05:01] been established for different AI
+- [01:05:01] been established for different AI systems to be able to communicate with
+- [01:05:03] systems to be able to communicate with
+- [01:05:03] systems to be able to communicate with other systems. And so sometimes a plugin
+- [01:05:07] other systems. And so sometimes a plugin
+- [01:05:07] other systems. And so sometimes a plugin may not already be available that
+- [01:05:09] may not already be available that
+- [01:05:09] may not already be available that connects to a particular system, but
+- [01:05:12] connects to a particular system, but
+- [01:05:12] connects to a particular system, but you'll still be able to connect to it if
+- [01:05:14] you'll still be able to connect to it if
+- [01:05:14] you'll still be able to connect to it if it has an MCP or an API, in which case
+- [01:05:18] it has an MCP or an API, in which case
+- [01:05:18] it has an MCP or an API, in which case you can build a skill. Now the
+- [01:05:21] you can build a skill. Now the
+- [01:05:21] you can build a skill. Now the distinction between skills and MCPs is
+- [01:05:23] distinction between skills and MCPs is
+- [01:05:23] distinction between skills and MCPs is often something that confuses beginners.
+- [01:05:26] often something that confuses beginners.
+- [01:05:26] often something that confuses beginners. And so when I discuss MCPs, we'll be
+- [01:05:28] And so when I discuss MCPs, we'll be
+- [01:05:28] And so when I discuss MCPs, we'll be getting into that in detail. And
+- [01:05:30] getting into that in detail. And
+- [01:05:30] getting into that in detail. And finally, a last topic that we'll be
+- [01:05:33] finally, a last topic that we'll be
+- [01:05:33] finally, a last topic that we'll be covering of codeex's main capabilities
+- [01:05:36] covering of codeex's main capabilities
+- [01:05:36] covering of codeex's main capabilities is that of a sub agent. And so sometimes
+- [01:05:39] is that of a sub agent. And so sometimes
+- [01:05:39] is that of a sub agent. And so sometimes you're okay working in a single codeex
+- [01:05:42] you're okay working in a single codeex
+- [01:05:42] you're okay working in a single codeex thread, but other times, for example, if
+- [01:05:45] thread, but other times, for example, if
+- [01:05:45] thread, but other times, for example, if you're doing summaries of a dozen
+- [01:05:48] you're doing summaries of a dozen
+- [01:05:48] you're doing summaries of a dozen different PDFs, maybe it would be useful
+- [01:05:51] different PDFs, maybe it would be useful
+- [01:05:51] different PDFs, maybe it would be useful for codecs to be able to parallelize
+- [01:05:54] for codecs to be able to parallelize
+- [01:05:54] for codecs to be able to parallelize that task that you're doing. And there
+- [01:05:56] that task that you're doing. And there
+- [01:05:56] that task that you're doing. And there are other kinds of situations that you
+- [01:05:58] are other kinds of situations that you
+- [01:05:58] are other kinds of situations that you might imagine wanting to be able to
+- [01:06:00] might imagine wanting to be able to
+- [01:06:00] might imagine wanting to be able to parallelize tasks with codecs. And sub
+- [01:06:03] parallelize tasks with codecs. And sub
+- [01:06:03] parallelize tasks with codecs. And sub agents are the tool that allow you to do
+- [01:06:05] agents are the tool that allow you to do
+- [01:06:05] agents are the tool that allow you to do that. just on call. You can basically
+- [01:06:08] that. just on call. You can basically
+- [01:06:08] that. just on call. You can basically spin up many different instances of
+- [01:06:11] spin up many different instances of
+- [01:06:11] spin up many different instances of codecs and have them attack some problem
+- [01:06:14] codecs and have them attack some problem
+- [01:06:14] codecs and have them attack some problem that can be broken up that way much more
+- [01:06:16] that can be broken up that way much more
+- [01:06:16] that can be broken up that way much more quickly and much more efficiently. So
+- [01:06:19] quickly and much more efficiently. So
+- [01:06:19] quickly and much more efficiently. So that's the last sort of final primitive
+- [01:06:21] that's the last sort of final primitive
+- [01:06:21] that's the last sort of final primitive that we'll be getting into. Now the one
+- [01:06:23] that we'll be getting into. Now the one
+- [01:06:23] that we'll be getting into. Now the one of these five that I personally like the
+- [01:06:26] of these five that I personally like the
+- [01:06:26] of these five that I personally like the best and which I use the most are
+- [01:06:28] best and which I use the most are
+- [01:06:28] best and which I use the most are skills. And I think that once we get to
+- [01:06:30] skills. And I think that once we get to
+- [01:06:30] skills. And I think that once we get to that section, you're going to learn why.
+- [01:06:32] that section, you're going to learn why.
+- [01:06:32] that section, you're going to learn why. But the one that's really the easiest to
+- [01:06:35] But the one that's really the easiest to
+- [01:06:35] But the one that's really the easiest to use and will get you value right away.
+- [01:06:37] use and will get you value right away.
+- [01:06:37] use and will get you value right away. And so which is why I'm going to be
+- [01:06:39] And so which is why I'm going to be
+- [01:06:39] And so which is why I'm going to be showing it to you first are plugins. So
+- [01:06:41] showing it to you first are plugins. So
+- [01:06:41] showing it to you first are plugins. So we're going to be starting to talk about
+- [01:06:43] we're going to be starting to talk about
+- [01:06:43] we're going to be starting to talk about plugins first. So to start, what exactly
+- [01:06:47] plugins first. So to start, what exactly
+- [01:06:47] plugins first. So to start, what exactly goes inside a plugin? Well, they're
+- [01:06:50] goes inside a plugin? Well, they're
+- [01:06:50] goes inside a plugin? Well, they're basically combinations of the following
+- [01:06:52] basically combinations of the following
+- [01:06:52] basically combinations of the following three. There's skills, which again we'll
+- [01:06:55] three. There's skills, which again we'll
+- [01:06:55] three. There's skills, which again we'll get into later. MCPs and apps, which are
+- [01:07:00] get into later. MCPs and apps, which are
+- [01:07:00] get into later. MCPs and apps, which are connections made from the chat GPT app
+- [01:07:03] connections made from the chat GPT app
+- [01:07:03] connections made from the chat GPT app itself. And so you might be saying,
+- [01:07:05] itself. And so you might be saying,
+- [01:07:05] itself. And so you might be saying, Anik, you haven't even explained to me
+- [01:07:07] Anik, you haven't even explained to me
+- [01:07:07] Anik, you haven't even explained to me what skills and MCPs are yet. How do I
+- [01:07:09] what skills and MCPs are yet. How do I
+- [01:07:10] what skills and MCPs are yet. How do I use plugins? Well, it's actually quite
+- [01:07:12] use plugins? Well, it's actually quite
+- [01:07:12] use plugins? Well, it's actually quite easy. Let me show you how. So, if we
+- [01:07:14] easy. Let me show you how. So, if we
+- [01:07:14] easy. Let me show you how. So, if we come over here to the desktop app,
+- [01:07:16] come over here to the desktop app,
+- [01:07:16] come over here to the desktop app, you'll see on the top left an icon and a
+- [01:07:20] you'll see on the top left an icon and a
+- [01:07:20] you'll see on the top left an icon and a little label for plugins. So, let's
+- [01:07:21] little label for plugins. So, let's
+- [01:07:21] little label for plugins. So, let's click on that. And then immediately
+- [01:07:24] click on that. And then immediately
+- [01:07:24] click on that. And then immediately scrolling through here, you'll see a
+- [01:07:26] scrolling through here, you'll see a
+- [01:07:26] scrolling through here, you'll see a large series of plugins. So if you use
+- [01:07:28] large series of plugins. So if you use
+- [01:07:28] large series of plugins. So if you use Outlook, you can connect to your Outlook
+- [01:07:31] Outlook, you can connect to your Outlook
+- [01:07:31] Outlook, you can connect to your Outlook calendar directly from Codeex. You can
+- [01:07:34] calendar directly from Codeex. You can
+- [01:07:34] calendar directly from Codeex. You can connect to your Outlook email. If you
+- [01:07:36] connect to your Outlook email. If you
+- [01:07:36] connect to your Outlook email. If you want to build iOS apps, then there's a
+- [01:07:39] want to build iOS apps, then there's a
+- [01:07:39] want to build iOS apps, then there's a plugin to facilitate certain aspects of
+- [01:07:42] plugin to facilitate certain aspects of
+- [01:07:42] plugin to facilitate certain aspects of building an app. So you can come here,
+- [01:07:44] building an app. So you can come here,
+- [01:07:44] building an app. So you can come here, click in on it, and you can see what
+- [01:07:47] click in on it, and you can see what
+- [01:07:47] click in on it, and you can see what this plugin includes. And so, as I was
+- [01:07:50] this plugin includes. And so, as I was
+- [01:07:50] this plugin includes. And so, as I was saying, there's an MCP server here,
+- [01:07:53] saying, there's an MCP server here,
+- [01:07:53] saying, there's an MCP server here, which is included, which helps you debug
+- [01:07:56] which is included, which helps you debug
+- [01:07:56] which is included, which helps you debug apps on simulators. And then there's a
+- [01:07:59] apps on simulators. And then there's a
+- [01:07:59] apps on simulators. And then there's a bunch of skills here as well for certain
+- [01:08:02] bunch of skills here as well for certain
+- [01:08:02] bunch of skills here as well for certain kinds of things which are useful to do
+- [01:08:04] kinds of things which are useful to do
+- [01:08:04] kinds of things which are useful to do in iOS, adopting modern iOS patterns. I
+- [01:08:08] in iOS, adopting modern iOS patterns. I
+- [01:08:08] in iOS, adopting modern iOS patterns. I actually haven't tried this out yet, and
+- [01:08:10] actually haven't tried this out yet, and
+- [01:08:10] actually haven't tried this out yet, and I'm building an iOS app, so I'm
+- [01:08:12] I'm building an iOS app, so I'm
+- [01:08:12] I'm building an iOS app, so I'm definitely going to try it out. Let me
+- [01:08:13] definitely going to try it out. Let me
+- [01:08:13] definitely going to try it out. Let me show you a few more cool plugins. So,
+- [01:08:15] show you a few more cool plugins. So,
+- [01:08:16] show you a few more cool plugins. So, this one is for Remotion. If you haven't
+- [01:08:18] this one is for Remotion. If you haven't
+- [01:08:18] this one is for Remotion. If you haven't heard of Remotion, it's a React library
+- [01:08:20] heard of Remotion, it's a React library
+- [01:08:20] heard of Remotion, it's a React library that helps you create videos from code.
+- [01:08:23] that helps you create videos from code.
+- [01:08:23] that helps you create videos from code. And so if you just install this plugin,
+- [01:08:26] And so if you just install this plugin,
+- [01:08:26] And so if you just install this plugin, this plugin just consists of a single
+- [01:08:29] this plugin just consists of a single
+- [01:08:29] this plugin just consists of a single skill, which for now you can just think
+- [01:08:31] skill, which for now you can just think
+- [01:08:31] skill, which for now you can just think of as a set of text instructions on how
+- [01:08:34] of as a set of text instructions on how
+- [01:08:34] of as a set of text instructions on how to apply Remotion for this programmatic
+- [01:08:36] to apply Remotion for this programmatic
+- [01:08:36] to apply Remotion for this programmatic video creation. So there's a few more
+- [01:08:39] video creation. So there's a few more
+- [01:08:39] video creation. So there's a few more cool plugins that I'm seeing here. So,
+- [01:08:41] cool plugins that I'm seeing here. So,
+- [01:08:41] cool plugins that I'm seeing here. So, first there's many for financial
+- [01:08:44] first there's many for financial
+- [01:08:44] first there's many for financial research to Morning Star, Moody's, and
+- [01:08:46] research to Morning Star, Moody's, and
+- [01:08:46] research to Morning Star, Moody's, and Dow Jones. And I think this one looks
+- [01:08:50] Dow Jones. And I think this one looks
+- [01:08:50] Dow Jones. And I think this one looks really cool. There's a Read Wise plugin
+- [01:08:53] really cool. There's a Read Wise plugin
+- [01:08:53] really cool. There's a Read Wise plugin where if you're using Readwise to
+- [01:08:56] where if you're using Readwise to
+- [01:08:56] where if you're using Readwise to highlight different things in your
+- [01:08:58] highlight different things in your
+- [01:08:58] highlight different things in your Kindle or on the internet or whatever,
+- [01:09:01] Kindle or on the internet or whatever,
+- [01:09:01] Kindle or on the internet or whatever, you can use this plugin, which this one
+- [01:09:04] you can use this plugin, which this one
+- [01:09:04] you can use this plugin, which this one is just an app to search across all of
+- [01:09:08] is just an app to search across all of
+- [01:09:08] is just an app to search across all of your highlights, everything in your
+- [01:09:10] your highlights, everything in your
+- [01:09:10] your highlights, everything in your library, anything that you would want to
+- [01:09:12] library, anything that you would want to
+- [01:09:12] library, anything that you would want to do in Read Wise as possible. Now, the
+- [01:09:14] do in Read Wise as possible. Now, the
+- [01:09:14] do in Read Wise as possible. Now, the plugin which I want to show you and
+- [01:09:16] plugin which I want to show you and
+- [01:09:16] plugin which I want to show you and demonstrate here is the notion plugin.
+- [01:09:19] demonstrate here is the notion plugin.
+- [01:09:19] demonstrate here is the notion plugin. So if you're not familiar with notion,
+- [01:09:22] So if you're not familiar with notion,
+- [01:09:22] So if you're not familiar with notion, it's a software which people use for a
+- [01:09:24] it's a software which people use for a
+- [01:09:24] it's a software which people use for a lot of personal knowledge management. So
+- [01:09:26] lot of personal knowledge management. So
+- [01:09:26] lot of personal knowledge management. So I have all sorts of different databases
+- [01:09:29] I have all sorts of different databases
+- [01:09:29] I have all sorts of different databases that I've put together. This is a
+- [01:09:31] that I've put together. This is a
+- [01:09:31] that I've put together. This is a database of local newsletters. I used to
+- [01:09:33] database of local newsletters. I used to
+- [01:09:33] database of local newsletters. I used to do some work in the local media space.
+- [01:09:35] do some work in the local media space.
+- [01:09:35] do some work in the local media space. And so if I want to set up this
+- [01:09:37] And so if I want to set up this
+- [01:09:37] And so if I want to set up this connection to notion, all I have to do
+- [01:09:40] connection to notion, all I have to do
+- [01:09:40] connection to notion, all I have to do is come here and press add to codeex. So
+- [01:09:43] is come here and press add to codeex. So
+- [01:09:43] is come here and press add to codeex. So let me do that right now. Okay. Just
+- [01:09:45] let me do that right now. Okay. Just
+- [01:09:45] let me do that right now. Okay. Just going to say install. Great. It's
+- [01:09:47] going to say install. Great. It's
+- [01:09:47] going to say install. Great. It's installed. And so let's go here to try
+- [01:09:50] installed. And so let's go here to try
+- [01:09:50] installed. And so let's go here to try and chat. And you can see that when you
+- [01:09:52] and chat. And you can see that when you
+- [01:09:52] and chat. And you can see that when you click that button, this thing is already
+- [01:09:55] click that button, this thing is already
+- [01:09:55] click that button, this thing is already available, but let me get X out of it.
+- [01:09:58] available, but let me get X out of it.
+- [01:09:58] available, but let me get X out of it. And you can see right here it says at to
+- [01:10:00] And you can see right here it says at to
+- [01:10:00] And you can see right here it says at to use plugins. We already covered that. So
+- [01:10:02] use plugins. We already covered that. So
+- [01:10:02] use plugins. We already covered that. So I'll go at notion. And let's say how
+- [01:10:05] I'll go at notion. And let's say how
+- [01:10:05] I'll go at notion. And let's say how many newsletters are in my local
+- [01:10:10] many newsletters are in my local
+- [01:10:10] many newsletters are in my local newsletter database in notion. And let
+- [01:10:13] newsletter database in notion. And let
+- [01:10:13] newsletter database in notion. And let me put this reasoning effort on Medium
+- [01:10:15] me put this reasoning effort on Medium
+- [01:10:15] me put this reasoning effort on Medium so it goes a little bit faster. All
+- [01:10:16] so it goes a little bit faster. All
+- [01:10:16] so it goes a little bit faster. All right. So we see that it's using notion
+- [01:10:19] right. So we see that it's using notion
+- [01:10:19] right. So we see that it's using notion thinking. I found a database titled
+- [01:10:21] thinking. I found a database titled
+- [01:10:22] thinking. I found a database titled newsletters database which looks like
+- [01:10:23] newsletters database which looks like
+- [01:10:23] newsletters database which looks like the target. The database has a single
+- [01:10:25] the target. The database has a single
+- [01:10:25] the target. The database has a single data source. So this is nice and clean.
+- [01:10:27] data source. So this is nice and clean.
+- [01:10:27] data source. So this is nice and clean. I'm running a count now. All right. So
+- [01:10:30] I'm running a count now. All right. So
+- [01:10:30] I'm running a count now. All right. So this count thing didn't work because
+- [01:10:32] this count thing didn't work because
+- [01:10:32] this count thing didn't work because that's actually not available in notion.
+- [01:10:35] that's actually not available in notion.
+- [01:10:36] that's actually not available in notion. All right. So this one is trying to
+- [01:10:38] All right. So this one is trying to
+- [01:10:38] All right. So this one is trying to work. It found the database, but it
+- [01:10:40] work. It found the database, but it
+- [01:10:40] work. It found the database, but it seems to be getting stuck and saying
+- [01:10:42] seems to be getting stuck and saying
+- [01:10:42] seems to be getting stuck and saying that it can't query more than 25
+- [01:10:45] that it can't query more than 25
+- [01:10:45] that it can't query more than 25 newsletters from the database. And so
+- [01:10:47] newsletters from the database. And so
+- [01:10:47] newsletters from the database. And so going back to these five capabilities,
+- [01:10:50] going back to these five capabilities,
+- [01:10:50] going back to these five capabilities, this is actually a useful instruction.
+- [01:10:52] this is actually a useful instruction.
+- [01:10:52] this is actually a useful instruction. So these plugins are like connections to
+- [01:10:56] So these plugins are like connections to
+- [01:10:56] So these plugins are like connections to external systems. And this experience
+- [01:10:59] external systems. And this experience
+- [01:10:59] external systems. And this experience that I'm having right now with the
+- [01:11:01] that I'm having right now with the
+- [01:11:01] that I'm having right now with the notion plugin is probably something that
+- [01:11:03] notion plugin is probably something that
+- [01:11:03] notion plugin is probably something that you're likely to have too when you try
+- [01:11:05] you're likely to have too when you try
+- [01:11:05] you're likely to have too when you try to use plugins out of the hood because
+- [01:11:07] to use plugins out of the hood because
+- [01:11:07] to use plugins out of the hood because they're not super customized. And so
+- [01:11:10] they're not super customized. And so
+- [01:11:10] they're not super customized. And so they don't have all the cases for your
+- [01:11:13] they don't have all the cases for your
+- [01:11:13] they don't have all the cases for your particular workflows built in. And so if
+- [01:11:15] particular workflows built in. And so if
+- [01:11:15] particular workflows built in. And so if I instead built a skill using the notion
+- [01:11:18] I instead built a skill using the notion
+- [01:11:18] I instead built a skill using the notion API, I'd be able to have something much
+- [01:11:21] API, I'd be able to have something much
+- [01:11:21] API, I'd be able to have something much more specific like an instruction that
+- [01:11:24] more specific like an instruction that
+- [01:11:24] more specific like an instruction that whenever you interact with a database,
+- [01:11:27] whenever you interact with a database,
+- [01:11:27] whenever you interact with a database, make sure you pass a pageionation
+- [01:11:30] make sure you pass a pageionation
+- [01:11:30] make sure you pass a pageionation parameter to go through all the results.
+- [01:11:33] parameter to go through all the results.
+- [01:11:33] parameter to go through all the results. Or initially it was trying to use some
+- [01:11:35] Or initially it was trying to use some
+- [01:11:35] Or initially it was trying to use some kind of count query to count all the
+- [01:11:38] kind of count query to count all the
+- [01:11:38] kind of count query to count all the records in the database. And so instead,
+- [01:11:40] records in the database. And so instead,
+- [01:11:40] records in the database. And so instead, I would figure out what the right way is
+- [01:11:42] I would figure out what the right way is
+- [01:11:42] I would figure out what the right way is to do things and then just have that in
+- [01:11:45] to do things and then just have that in
+- [01:11:45] to do things and then just have that in the skill instruction that I created.
+- [01:11:48] the skill instruction that I created.
+- [01:11:48] the skill instruction that I created. All right. Interesting. So it can't get
+- [01:11:50] All right. Interesting. So it can't get
+- [01:11:50] All right. Interesting. So it can't get the exact count. Can you look up whether
+- [01:11:55] the exact count. Can you look up whether
+- [01:11:55] the exact count. Can you look up whether the Catskill crew in Anapapolis,
+- [01:11:59] the Catskill crew in Anapapolis,
+- [01:11:59] the Catskill crew in Anapapolis, Maryland is in the database? Wow, I
+- [01:12:02] Maryland is in the database? Wow, I
+- [01:12:02] Maryland is in the database? Wow, I spelled database wrong. So let's see if
+- [01:12:05] spelled database wrong. So let's see if
+- [01:12:05] spelled database wrong. So let's see if at least it's able to find a record in
+- [01:12:08] at least it's able to find a record in
+- [01:12:08] at least it's able to find a record in Notion. Ah, so I actually made a
+- [01:12:10] Notion. Ah, so I actually made a
+- [01:12:10] Notion. Ah, so I actually made a mistake. This newsletter isn't in
+- [01:12:12] mistake. This newsletter isn't in
+- [01:12:12] mistake. This newsletter isn't in Annapolis. It's in the Cascills regions
+- [01:12:14] Annapolis. It's in the Cascills regions
+- [01:12:14] Annapolis. It's in the Cascills regions of New York. And it found the URL. So
+- [01:12:16] of New York. And it found the URL. So
+- [01:12:16] of New York. And it found the URL. So it's in there. Do you find anything from
+- [01:12:19] it's in there. Do you find anything from
+- [01:12:20] it's in there. Do you find anything from Annapolis? And so let's see if it can do
+- [01:12:22] Annapolis? And so let's see if it can do
+- [01:12:22] Annapolis? And so let's see if it can do that. All right. So it didn't find
+- [01:12:24] that. All right. So it didn't find
+- [01:12:24] that. All right. So it didn't find anything for Annapapolis, Maryland. So
+- [01:12:26] anything for Annapapolis, Maryland. So
+- [01:12:26] anything for Annapapolis, Maryland. So let's see if we can add a record to the
+- [01:12:29] let's see if we can add a record to the
+- [01:12:29] let's see if we can add a record to the database. So I'm going to ask it, can
+- [01:12:31] database. So I'm going to ask it, can
+- [01:12:31] database. So I'm going to ask it, can you do a search for newsletters in
+- [01:12:35] you do a search for newsletters in
+- [01:12:35] you do a search for newsletters in Annapolis? I think there's one starting
+- [01:12:39] Annapolis? I think there's one starting
+- [01:12:39] Annapolis? I think there's one starting with Naptown. Look up its deets and add
+- [01:12:44] with Naptown. Look up its deets and add
+- [01:12:44] with Naptown. Look up its deets and add it. All right. So, it found a
+- [01:12:46] it. All right. So, it found a
+- [01:12:46] it. All right. So, it found a newsletter. It even found the owner on
+- [01:12:49] newsletter. It even found the owner on
+- [01:12:49] newsletter. It even found the owner on the internet. And now it's going to try
+- [01:12:51] the internet. And now it's going to try
+- [01:12:51] the internet. And now it's going to try to add that to notion. So, that's pretty
+- [01:12:55] to add that to notion. So, that's pretty
+- [01:12:55] to add that to notion. So, that's pretty cool. It found his LinkedIn, his
+- [01:12:57] cool. It found his LinkedIn, his
+- [01:12:57] cool. It found his LinkedIn, his Twitter, the owner website, and it says
+- [01:12:59] Twitter, the owner website, and it says
+- [01:12:59] Twitter, the owner website, and it says I verified the new notion row exists
+- [01:13:01] I verified the new notion row exists
+- [01:13:02] I verified the new notion row exists here. So, let's go take a look. And
+- [01:13:03] here. So, let's go take a look. And
+- [01:13:03] here. So, let's go take a look. And yeah, we see it over here. And if we
+- [01:13:06] yeah, we see it over here. And if we
+- [01:13:06] yeah, we see it over here. And if we come back to this database, we see that
+- [01:13:07] come back to this database, we see that
+- [01:13:07] come back to this database, we see that the last record here now includes this
+- [01:13:10] the last record here now includes this
+- [01:13:10] the last record here now includes this newsletter. So the plugin is pretty
+- [01:13:13] newsletter. So the plugin is pretty
+- [01:13:13] newsletter. So the plugin is pretty handy. There's maybe some things you
+- [01:13:15] handy. There's maybe some things you
+- [01:13:15] handy. There's maybe some things you can't depend on, but if out of the hood
+- [01:13:18] can't depend on, but if out of the hood
+- [01:13:18] can't depend on, but if out of the hood you're using notion databases, you want
+- [01:13:20] you're using notion databases, you want
+- [01:13:20] you're using notion databases, you want to be able to interact with them with
+- [01:13:23] to be able to interact with them with
+- [01:13:23] to be able to interact with them with codecs and apparently you don't care
+- [01:13:25] codecs and apparently you don't care
+- [01:13:25] codecs and apparently you don't care about counting, you just want to be able
+- [01:13:27] about counting, you just want to be able
+- [01:13:27] about counting, you just want to be able to add records and retrieve them, then
+- [01:13:29] to add records and retrieve them, then
+- [01:13:29] to add records and retrieve them, then this is going to work for you right out
+- [01:13:31] this is going to work for you right out
+- [01:13:31] this is going to work for you right out of the gate. And so as you go through
+- [01:13:33] of the gate. And so as you go through
+- [01:13:33] of the gate. And so as you go through here, I think that a lot of you are
+- [01:13:35] here, I think that a lot of you are
+- [01:13:35] here, I think that a lot of you are going to want to try out, for example,
+- [01:13:36] going to want to try out, for example,
+- [01:13:36] going to want to try out, for example, the Gmail, Google Calendar, and Google
+- [01:13:39] the Gmail, Google Calendar, and Google
+- [01:13:39] the Gmail, Google Calendar, and Google Drive plugins. And I recommend that
+- [01:13:42] Drive plugins. And I recommend that
+- [01:13:42] Drive plugins. And I recommend that because there's going to be immediate
+- [01:13:43] because there's going to be immediate
+- [01:13:43] because there's going to be immediate added value to having those integrated.
+- [01:13:46] added value to having those integrated.
+- [01:13:46] added value to having those integrated. And there's a Slack plugin. Now, one
+- [01:13:49] And there's a Slack plugin. Now, one
+- [01:13:49] And there's a Slack plugin. Now, one question you might have is why don't I
+- [01:13:51] question you might have is why don't I
+- [01:13:51] question you might have is why don't I use these? You can see that I'm not
+- [01:13:53] use these? You can see that I'm not
+- [01:13:53] use these? You can see that I'm not using these right now, and in fact, I
+- [01:13:55] using these right now, and in fact, I
+- [01:13:55] using these right now, and in fact, I wasn't using the Notion one either. And
+- [01:13:57] wasn't using the Notion one either. And
+- [01:13:57] wasn't using the Notion one either. And that's because I've created my own more
+- [01:13:59] that's because I've created my own more
+- [01:13:59] that's because I've created my own more specific workflows using the notion API
+- [01:14:03] specific workflows using the notion API
+- [01:14:03] specific workflows using the notion API directly with the skills concept. So
+- [01:14:06] directly with the skills concept. So
+- [01:14:06] directly with the skills concept. So this is prefacing where we're going to
+- [01:14:07] this is prefacing where we're going to
+- [01:14:07] this is prefacing where we're going to go. But if I search notion here, we see
+- [01:14:10] go. But if I search notion here, we see
+- [01:14:10] go. But if I search notion here, we see that in one of my projects for pay slice
+- [01:14:14] that in one of my projects for pay slice
+- [01:14:14] that in one of my projects for pay slice where I'm the director of AI and ML,
+- [01:14:16] where I'm the director of AI and ML,
+- [01:14:16] where I'm the director of AI and ML, I've created a kind of exhaustive set of
+- [01:14:19] I've created a kind of exhaustive set of
+- [01:14:19] I've created a kind of exhaustive set of SOPs for lots of different things we do
+- [01:14:22] SOPs for lots of different things we do
+- [01:14:22] SOPs for lots of different things we do for managing support cases, emails that
+- [01:14:24] for managing support cases, emails that
+- [01:14:24] for managing support cases, emails that come through and triage that we have to
+- [01:14:26] come through and triage that we have to
+- [01:14:26] come through and triage that we have to do all inside notion. So this is a much
+- [01:14:29] do all inside notion. So this is a much
+- [01:14:29] do all inside notion. So this is a much more specific set of instructions that
+- [01:14:32] more specific set of instructions that
+- [01:14:32] more specific set of instructions that I've developed and I have that for
+- [01:14:34] I've developed and I have that for
+- [01:14:34] I've developed and I have that for email, Slack, and Drive as well. But if
+- [01:14:37] email, Slack, and Drive as well. But if
+- [01:14:38] email, Slack, and Drive as well. But if you don't want to figure out how to do
+- [01:14:39] you don't want to figure out how to do
+- [01:14:39] you don't want to figure out how to do that right now, you want to get started,
+- [01:14:41] that right now, you want to get started,
+- [01:14:41] that right now, you want to get started, have something useful to do, definitely
+- [01:14:43] have something useful to do, definitely
+- [01:14:43] have something useful to do, definitely use plugins. Now, something else worth
+- [01:14:46] use plugins. Now, something else worth
+- [01:14:46] use plugins. Now, something else worth saying is that you can build your own
+- [01:14:48] saying is that you can build your own
+- [01:14:48] saying is that you can build your own plugins, too. I consider this a kind of
+- [01:14:51] plugins, too. I consider this a kind of
+- [01:14:51] plugins, too. I consider this a kind of advanced feature that's outside the
+- [01:14:54] advanced feature that's outside the
+- [01:14:54] advanced feature that's outside the scope of this course, which I'm making
+- [01:14:55] scope of this course, which I'm making
+- [01:14:55] scope of this course, which I'm making for total beginners, but I do want you
+- [01:14:58] for total beginners, but I do want you
+- [01:14:58] for total beginners, but I do want you to be aware of this possibility. And
+- [01:15:01] to be aware of this possibility. And
+- [01:15:01] to be aware of this possibility. And additionally, you can install plugins
+- [01:15:03] additionally, you can install plugins
+- [01:15:03] additionally, you can install plugins that are created by third parties. And
+- [01:15:06] that are created by third parties. And
+- [01:15:06] that are created by third parties. And so if you come in here, you can see that
+- [01:15:08] so if you come in here, you can see that
+- [01:15:08] so if you come in here, you can see that right now all the plugins available say
+- [01:15:11] right now all the plugins available say
+- [01:15:11] right now all the plugins available say built by open AI. And if you want to see
+- [01:15:14] built by open AI. And if you want to see
+- [01:15:14] built by open AI. And if you want to see plugins that are built by other people,
+- [01:15:16] plugins that are built by other people,
+- [01:15:16] plugins that are built by other people, you have to register what is called a
+- [01:15:19] you have to register what is called a
+- [01:15:19] you have to register what is called a marketplace. Now, we're going to be
+- [01:15:22] marketplace. Now, we're going to be
+- [01:15:22] marketplace. Now, we're going to be getting to this concept a little bit
+- [01:15:24] getting to this concept a little bit
+- [01:15:24] getting to this concept a little bit later because for app development
+- [01:15:27] later because for app development
+- [01:15:27] later because for app development workflows or just complex agentic
+- [01:15:30] workflows or just complex agentic
+- [01:15:30] workflows or just complex agentic workflows, there's a plugin here which I
+- [01:15:32] workflows, there's a plugin here which I
+- [01:15:32] workflows, there's a plugin here which I really like to use called compound
+- [01:15:35] really like to use called compound
+- [01:15:35] really like to use called compound engineering. Now, this plugin used to be
+- [01:15:38] engineering. Now, this plugin used to be
+- [01:15:38] engineering. Now, this plugin used to be primarily for claw code, but recently
+- [01:15:41] primarily for claw code, but recently
+- [01:15:41] primarily for claw code, but recently they've made it feasible to use natively
+- [01:15:44] they've made it feasible to use natively
+- [01:15:44] they've made it feasible to use natively within codeex as well. So once we get to
+- [01:15:46] within codeex as well. So once we get to
+- [01:15:46] within codeex as well. So once we get to the part of the course where we're
+- [01:15:48] the part of the course where we're
+- [01:15:48] the part of the course where we're developing an application live, we're
+- [01:15:50] developing an application live, we're
+- [01:15:50] developing an application live, we're going to be using this plugin for this
+- [01:15:53] going to be using this plugin for this
+- [01:15:53] going to be using this plugin for this and that plugin has skills, it has sub
+- [01:15:56] and that plugin has skills, it has sub
+- [01:15:56] and that plugin has skills, it has sub agents and so all of this is going to
+- [01:15:58] agents and so all of this is going to
+- [01:15:58] agents and so all of this is going to come back and sort of congeal into one
+- [01:16:01] come back and sort of congeal into one
+- [01:16:01] come back and sort of congeal into one thing. You know, all this knowledge will
+- [01:16:03] thing. You know, all this knowledge will
+- [01:16:03] thing. You know, all this knowledge will be reinforced throughout the course. All
+- [01:16:05] be reinforced throughout the course. All
+- [01:16:05] be reinforced throughout the course. All right, the next thing I want to teach
+- [01:16:07] right, the next thing I want to teach
+- [01:16:07] right, the next thing I want to teach you guys is about a particular plug-in
+- [01:16:10] you guys is about a particular plug-in
+- [01:16:10] you guys is about a particular plug-in called computer use. Everything Codeex
+- [01:16:13] called computer use. Everything Codeex
+- [01:16:13] called computer use. Everything Codeex has done so far has been inside your
+- [01:16:16] has done so far has been inside your
+- [01:16:16] has done so far has been inside your files and your terminal. Computer use
+- [01:16:19] files and your terminal. Computer use
+- [01:16:19] files and your terminal. Computer use flips that. Codeex actually opens up
+- [01:16:22] flips that. Codeex actually opens up
+- [01:16:22] flips that. Codeex actually opens up programs, reads what's on the screen,
+- [01:16:24] programs, reads what's on the screen,
+- [01:16:24] programs, reads what's on the screen, fills out forms, and clicks buttons
+- [01:16:27] fills out forms, and clicks buttons
+- [01:16:27] fills out forms, and clicks buttons itself. So instead of setting up a
+- [01:16:29] itself. So instead of setting up a
+- [01:16:29] itself. So instead of setting up a notion plugin like we just did, you
+- [01:16:32] notion plugin like we just did, you
+- [01:16:32] notion plugin like we just did, you could just use computer use to have
+- [01:16:35] could just use computer use to have
+- [01:16:35] could just use computer use to have codecs operate in notion itself. Now,
+- [01:16:38] codecs operate in notion itself. Now,
+- [01:16:38] codecs operate in notion itself. Now, computer use is so important that if you
+- [01:16:41] computer use is so important that if you
+- [01:16:41] computer use is so important that if you look here in your settings menu, it's a
+- [01:16:44] look here in your settings menu, it's a
+- [01:16:44] look here in your settings menu, it's a plugin which has its own tab over here.
+- [01:16:47] plugin which has its own tab over here.
+- [01:16:47] plugin which has its own tab over here. And so, if you want to use it, you come
+- [01:16:49] And so, if you want to use it, you come
+- [01:16:49] And so, if you want to use it, you come here to computer use. You can click on
+- [01:16:51] here to computer use. You can click on
+- [01:16:51] here to computer use. You can click on it. You'll have to go here and install
+- [01:16:54] it. You'll have to go here and install
+- [01:16:54] it. You'll have to go here and install it. And then you'll have to go through a
+- [01:16:56] it. And then you'll have to go through a
+- [01:16:56] it. And then you'll have to go through a set of permissions prompts to be able to
+- [01:16:59] set of permissions prompts to be able to
+- [01:16:59] set of permissions prompts to be able to let codeex computer use control things
+- [01:17:02] let codeex computer use control things
+- [01:17:02] let codeex computer use control things on your computer. But once you have it,
+- [01:17:05] on your computer. But once you have it,
+- [01:17:05] on your computer. But once you have it, you'll be able to give commands like
+- [01:17:07] you'll be able to give commands like
+- [01:17:07] you'll be able to give commands like this. Play a playlist to help me lock
+- [01:17:09] this. Play a playlist to help me lock
+- [01:17:09] this. Play a playlist to help me lock in. Okay, that's kind of trivial. Play a
+- [01:17:12] in. Okay, that's kind of trivial. Play a
+- [01:17:12] in. Okay, that's kind of trivial. Play a game in chess.app. I guess if you want
+- [01:17:14] game in chess.app. I guess if you want
+- [01:17:14] game in chess.app. I guess if you want to play chess with codeex also may be
+- [01:17:17] to play chess with codeex also may be
+- [01:17:17] to play chess with codeex also may be useful, but more importantly is that you
+- [01:17:20] useful, but more importantly is that you
+- [01:17:20] useful, but more importantly is that you can give it prompts like this. Build and
+- [01:17:23] can give it prompts like this. Build and
+- [01:17:23] can give it prompts like this. Build and run my open Xcode project and test it
+- [01:17:26] run my open Xcode project and test it
+- [01:17:26] run my open Xcode project and test it for bugs. So, this is going to be a tool
+- [01:17:28] for bugs. So, this is going to be a tool
+- [01:17:28] for bugs. So, this is going to be a tool which once we get to the app development
+- [01:17:30] which once we get to the app development
+- [01:17:30] which once we get to the app development part of this course, you're going to be
+- [01:17:32] part of this course, you're going to be
+- [01:17:32] part of this course, you're going to be able to have Codeex try out the
+- [01:17:34] able to have Codeex try out the
+- [01:17:34] able to have Codeex try out the application you made and make sure it
+- [01:17:37] application you made and make sure it
+- [01:17:37] application you made and make sure it actually works like you think it would.
+- [01:17:39] actually works like you think it would.
+- [01:17:39] actually works like you think it would. Now, unfortunately, computer use right
+- [01:17:41] Now, unfortunately, computer use right
+- [01:17:41] Now, unfortunately, computer use right now is only available on Mac, but Open
+- [01:17:45] now is only available on Mac, but Open
+- [01:17:46] now is only available on Mac, but Open AI has said that this feature will be
+- [01:17:48] AI has said that this feature will be
+- [01:17:48] AI has said that this feature will be coming to Windows as well. So, if you're
+- [01:17:50] coming to Windows as well. So, if you're
+- [01:17:50] coming to Windows as well. So, if you're on Windows, feel free to skip this, but
+- [01:17:52] on Windows, feel free to skip this, but
+- [01:17:52] on Windows, feel free to skip this, but eventually it's going to be useful to
+- [01:17:54] eventually it's going to be useful to
+- [01:17:54] eventually it's going to be useful to you. And for Mac users, definitely stick
+- [01:17:56] you. And for Mac users, definitely stick
+- [01:17:56] you. And for Mac users, definitely stick around. This is a very useful feature
+- [01:17:58] around. This is a very useful feature
+- [01:17:58] around. This is a very useful feature instead of staying at a theoretical
+- [01:18:00] instead of staying at a theoretical
+- [01:18:00] instead of staying at a theoretical level with computer use for a while. I
+- [01:18:03] level with computer use for a while. I
+- [01:18:03] level with computer use for a while. I think it's just going to be helpful to
+- [01:18:05] think it's just going to be helpful to
+- [01:18:05] think it's just going to be helpful to show you a practical kind of thing that
+- [01:18:07] show you a practical kind of thing that
+- [01:18:07] show you a practical kind of thing that computer use is able to do. So, I'm
+- [01:18:09] computer use is able to do. So, I'm
+- [01:18:09] computer use is able to do. So, I'm going to open this up. Say try in chat.
+- [01:18:12] going to open this up. Say try in chat.
+- [01:18:12] going to open this up. Say try in chat. Let's work in my agentic config chat.
+- [01:18:15] Let's work in my agentic config chat.
+- [01:18:15] Let's work in my agentic config chat. We're going to work locally. I'm going
+- [01:18:17] We're going to work locally. I'm going
+- [01:18:17] We're going to work locally. I'm going to say, can you go on X, look up my list
+- [01:18:25] to say, can you go on X, look up my list
+- [01:18:25] to say, can you go on X, look up my list of economists, and give me a summary of
+- [01:18:30] of economists, and give me a summary of
+- [01:18:30] of economists, and give me a summary of things they've tweeted in the last
+- [01:18:33] things they've tweeted in the last
+- [01:18:34] things they've tweeted in the last couple days I might find interesting.
+- [01:18:37] couple days I might find interesting.
+- [01:18:37] couple days I might find interesting. Yeah. So, X has an API. It's a little
+- [01:18:40] Yeah. So, X has an API. It's a little
+- [01:18:40] Yeah. So, X has an API. It's a little bit expensive to use. And so something
+- [01:18:43] bit expensive to use. And so something
+- [01:18:43] bit expensive to use. And so something I'm curious here is codeex capable of
+- [01:18:47] I'm curious here is codeex capable of
+- [01:18:47] I'm curious here is codeex capable of doing a search or summary of content on
+- [01:18:51] doing a search or summary of content on
+- [01:18:51] doing a search or summary of content on Twitter without using the API because if
+- [01:18:54] Twitter without using the API because if
+- [01:18:54] Twitter without using the API because if that is possible then what I could do is
+- [01:18:57] that is possible then what I could do is
+- [01:18:57] that is possible then what I could do is make a set of profiles and later we're
+- [01:19:00] make a set of profiles and later we're
+- [01:19:00] make a set of profiles and later we're going to be getting into this but I
+- [01:19:01] going to be getting into this but I
+- [01:19:01] going to be getting into this but I would be able to use this computer use
+- [01:19:04] would be able to use this computer use
+- [01:19:04] would be able to use this computer use plugin to create an automation which
+- [01:19:06] plugin to create an automation which
+- [01:19:06] plugin to create an automation which makes a summary for me of tweets from
+- [01:19:10] makes a summary for me of tweets from
+- [01:19:10] makes a summary for me of tweets from economists that I find interesting. And
+- [01:19:12] economists that I find interesting. And
+- [01:19:12] economists that I find interesting. And what you can see here is that this tool
+- [01:19:15] what you can see here is that this tool
+- [01:19:15] what you can see here is that this tool is able to navigate on Chrome. And you
+- [01:19:18] is able to navigate on Chrome. And you
+- [01:19:18] is able to navigate on Chrome. And you can actually see right there that it's
+- [01:19:20] can actually see right there that it's
+- [01:19:20] can actually see right there that it's actually looking at Chrome itself and
+- [01:19:23] actually looking at Chrome itself and
+- [01:19:23] actually looking at Chrome itself and it's doing this in the background
+- [01:19:25] it's doing this in the background
+- [01:19:25] it's doing this in the background without blocking the rest of what I'm
+- [01:19:27] without blocking the rest of what I'm
+- [01:19:27] without blocking the rest of what I'm doing. That's something really
+- [01:19:29] doing. That's something really
+- [01:19:30] doing. That's something really miraculous here that Open AI has been
+- [01:19:32] miraculous here that Open AI has been
+- [01:19:32] miraculous here that Open AI has been able to figure out and configure with
+- [01:19:35] able to figure out and configure with
+- [01:19:35] able to figure out and configure with computer use. So I can go on and you
+- [01:19:37] computer use. So I can go on and you
+- [01:19:38] computer use. So I can go on and you know I'm working on some other things as
+- [01:19:39] know I'm working on some other things as
+- [01:19:39] know I'm working on some other things as well like this project here and I can
+- [01:19:43] well like this project here and I can
+- [01:19:43] well like this project here and I can keep working on this project while in
+- [01:19:45] keep working on this project while in
+- [01:19:46] keep working on this project while in the background codeex is doing an
+- [01:19:49] the background codeex is doing an
+- [01:19:49] the background codeex is doing an analysis of all these different
+- [01:19:51] analysis of all these different
+- [01:19:51] analysis of all these different economists tweets. So this is pretty
+- [01:19:54] economists tweets. So this is pretty
+- [01:19:54] economists tweets. So this is pretty incredible. Here we got in just a few
+- [01:19:56] incredible. Here we got in just a few
+- [01:19:56] incredible. Here we got in just a few minutes a complete set of summaries of
+- [01:20:01] minutes a complete set of summaries of
+- [01:20:01] minutes a complete set of summaries of all these tweets from all these
+- [01:20:03] all these tweets from all these
+- [01:20:03] all these tweets from all these economists that I follow. And if I like
+- [01:20:05] economists that I follow. And if I like
+- [01:20:06] economists that I follow. And if I like click on one of these, it's going to
+- [01:20:08] click on one of these, it's going to
+- [01:20:08] click on one of these, it's going to take me right to that tweet. So that was
+- [01:20:10] take me right to that tweet. So that was
+- [01:20:10] take me right to that tweet. So that was actually a repost of something an
+- [01:20:12] actually a repost of something an
+- [01:20:12] actually a repost of something an economist. There's another repost.
+- [01:20:15] economist. There's another repost.
+- [01:20:15] economist. There's another repost. Repost. Let's take a look at an actual
+- [01:20:17] Repost. Let's take a look at an actual
+- [01:20:17] Repost. Let's take a look at an actual post. Okay, good. So it is going to an
+- [01:20:20] post. Okay, good. So it is going to an
+- [01:20:20] post. Okay, good. So it is going to an actual post. And this is like a
+- [01:20:23] actual post. And this is like a
+- [01:20:23] actual post. And this is like a relatively recent post. And then it's
+- [01:20:25] relatively recent post. And then it's
+- [01:20:25] relatively recent post. And then it's got some small fun ones. I'm pretty
+- [01:20:27] got some small fun ones. I'm pretty
+- [01:20:27] got some small fun ones. I'm pretty happy with that. Now, what else could
+- [01:20:30] happy with that. Now, what else could
+- [01:20:30] happy with that. Now, what else could you use this for? Well, one of the
+- [01:20:33] you use this for? Well, one of the
+- [01:20:33] you use this for? Well, one of the things that I have to do at Pay Slice is
+- [01:20:36] things that I have to do at Pay Slice is
+- [01:20:36] things that I have to do at Pay Slice is I review session recordings like this
+- [01:20:38] I review session recordings like this
+- [01:20:38] I review session recordings like this one of users actually interacting with
+- [01:20:41] one of users actually interacting with
+- [01:20:41] one of users actually interacting with our application and I try to see places
+- [01:20:45] our application and I try to see places
+- [01:20:45] our application and I try to see places where there may be having bugs. Now,
+- [01:20:48] where there may be having bugs. Now,
+- [01:20:48] where there may be having bugs. Now, that's a little bit timeconuming. It's
+- [01:20:50] that's a little bit timeconuming. It's
+- [01:20:50] that's a little bit timeconuming. It's not something that I always want to be
+- [01:20:52] not something that I always want to be
+- [01:20:52] not something that I always want to be doing and so something very nice is that
+- [01:20:55] doing and so something very nice is that
+- [01:20:55] doing and so something very nice is that I'm able to use computer use to automate
+- [01:21:00] I'm able to use computer use to automate
+- [01:21:00] I'm able to use computer use to automate that as well. And then I get bug reports
+- [01:21:03] that as well. And then I get bug reports
+- [01:21:03] that as well. And then I get bug reports directly that involve very detailed
+- [01:21:07] directly that involve very detailed
+- [01:21:07] directly that involve very detailed analyses of where certain user flows
+- [01:21:09] analyses of where certain user flows
+- [01:21:10] analyses of where certain user flows break down. And so this is a little bit
+- [01:21:12] break down. And so this is a little bit
+- [01:21:12] break down. And so this is a little bit forward thinking, but a lot of you may
+- [01:21:14] forward thinking, but a lot of you may
+- [01:21:14] forward thinking, but a lot of you may have aspirations of building
+- [01:21:16] have aspirations of building
+- [01:21:16] have aspirations of building applications yourself. And computer use
+- [01:21:19] applications yourself. And computer use
+- [01:21:19] applications yourself. And computer use is going to be very useful for that.
+- [01:21:21] is going to be very useful for that.
+- [01:21:21] is going to be very useful for that. I've also used computer use to set up my
+- [01:21:24] I've also used computer use to set up my
+- [01:21:24] I've also used computer use to set up my projects in Da Vinci Resolve when I'm
+- [01:21:26] projects in Da Vinci Resolve when I'm
+- [01:21:26] projects in Da Vinci Resolve when I'm trying to move certain files onto my
+- [01:21:29] trying to move certain files onto my
+- [01:21:29] trying to move certain files onto my timeline. And so I think that this is a
+- [01:21:31] timeline. And so I think that this is a
+- [01:21:31] timeline. And so I think that this is a direction that just AI is going to be
+- [01:21:34] direction that just AI is going to be
+- [01:21:34] direction that just AI is going to be moving in general, especially as the
+- [01:21:37] moving in general, especially as the
+- [01:21:37] moving in general, especially as the underlying vision models keep getting
+- [01:21:39] underlying vision models keep getting
+- [01:21:39] underlying vision models keep getting better. I put out a video recently on
+- [01:21:41] better. I put out a video recently on
+- [01:21:41] better. I put out a video recently on chat GBT's image model, which is
+- [01:21:43] chat GBT's image model, which is
+- [01:21:43] chat GBT's image model, which is absolutely incredible, and it's part of
+- [01:21:46] absolutely incredible, and it's part of
+- [01:21:46] absolutely incredible, and it's part of the reason why computer use is able to
+- [01:21:48] the reason why computer use is able to
+- [01:21:48] the reason why computer use is able to work so well in codecs. Now, most of the
+- [01:21:51] work so well in codecs. Now, most of the
+- [01:21:51] work so well in codecs. Now, most of the time if there's a plugin available and
+- [01:21:54] time if there's a plugin available and
+- [01:21:54] time if there's a plugin available and you're a beginner and you don't want to
+- [01:21:56] you're a beginner and you don't want to
+- [01:21:56] you're a beginner and you don't want to make your own skill, which is coming up
+- [01:21:58] make your own skill, which is coming up
+- [01:21:58] make your own skill, which is coming up in the next section, then you can just
+- [01:22:00] in the next section, then you can just
+- [01:22:00] in the next section, then you can just use the plugin. But sometimes there are
+- [01:22:02] use the plugin. But sometimes there are
+- [01:22:02] use the plugin. But sometimes there are things that plugins won't enable you to
+- [01:22:05] things that plugins won't enable you to
+- [01:22:05] things that plugins won't enable you to do. And so computer use can be a way to
+- [01:22:07] do. And so computer use can be a way to
+- [01:22:07] do. And so computer use can be a way to get around them. But let's say you
+- [01:22:09] get around them. But let's say you
+- [01:22:09] get around them. But let's say you wanted to have some kind of automated
+- [01:22:12] wanted to have some kind of automated
+- [01:22:12] wanted to have some kind of automated workflow, whether with computer use or
+- [01:22:14] workflow, whether with computer use or
+- [01:22:14] workflow, whether with computer use or with anything else. the one of the five
+- [01:22:18] with anything else. the one of the five
+- [01:22:18] with anything else. the one of the five primitives that I just told you about
+- [01:22:20] primitives that I just told you about
+- [01:22:20] primitives that I just told you about that you're going to want to use are
+- [01:22:22] that you're going to want to use are
+- [01:22:22] that you're going to want to use are skills. So, let's get into that topic.
+- [01:22:24] skills. So, let's get into that topic.
+- [01:22:24] skills. So, let's get into that topic. So, if you recall this figure, plugins
+- [01:22:27] So, if you recall this figure, plugins
+- [01:22:27] So, if you recall this figure, plugins and computer use, which we discussed
+- [01:22:29] and computer use, which we discussed
+- [01:22:29] and computer use, which we discussed right now, are kind of like one click
+- [01:22:33] right now, are kind of like one click
+- [01:22:33] right now, are kind of like one click and they get set up right away. And
+- [01:22:35] and they get set up right away. And
+- [01:22:35] and they get set up right away. And that's why I wanted to introduce them
+- [01:22:37] that's why I wanted to introduce them
+- [01:22:37] that's why I wanted to introduce them first because you'll be able to get
+- [01:22:38] first because you'll be able to get
+- [01:22:38] first because you'll be able to get immediate use out of them even without
+- [01:22:41] immediate use out of them even without
+- [01:22:41] immediate use out of them even without really knowing and understanding how
+- [01:22:43] really knowing and understanding how
+- [01:22:43] really knowing and understanding how skills work. But once you want to have
+- [01:22:46] skills work. But once you want to have
+- [01:22:46] skills work. But once you want to have very specific instructions for your
+- [01:22:48] very specific instructions for your
+- [01:22:48] very specific instructions for your particular workflows, skills are the
+- [01:22:51] particular workflows, skills are the
+- [01:22:51] particular workflows, skills are the tool that you're going to want to use.
+- [01:22:53] tool that you're going to want to use.
+- [01:22:53] tool that you're going to want to use. So what are some types of example skills
+- [01:22:56] So what are some types of example skills
+- [01:22:56] So what are some types of example skills that I use myself? Let me show you. So
+- [01:23:00] that I use myself? Let me show you. So
+- [01:23:00] that I use myself? Let me show you. So if you come here to the plugins tab and
+- [01:23:02] if you come here to the plugins tab and
+- [01:23:02] if you come here to the plugins tab and then click on skills, you can see a set
+- [01:23:05] then click on skills, you can see a set
+- [01:23:05] then click on skills, you can see a set of skills that you can just install
+- [01:23:07] of skills that you can just install
+- [01:23:07] of skills that you can just install right away. So one new skill which Open
+- [01:23:10] right away. So one new skill which Open
+- [01:23:10] right away. So one new skill which Open AI has recently come out with is this
+- [01:23:13] AI has recently come out with is this
+- [01:23:13] AI has recently come out with is this image gen skill. So you can generate
+- [01:23:15] image gen skill. So you can generate
+- [01:23:16] image gen skill. So you can generate images inside codecs using the new chat
+- [01:23:19] images inside codecs using the new chat
+- [01:23:19] images inside codecs using the new chat GPT images 2.0 model. A pretty common
+- [01:23:22] GPT images 2.0 model. A pretty common
+- [01:23:22] GPT images 2.0 model. A pretty common type of skill that I'll have are writing
+- [01:23:25] type of skill that I'll have are writing
+- [01:23:25] type of skill that I'll have are writing skills that convert from one format to
+- [01:23:28] skills that convert from one format to
+- [01:23:28] skills that convert from one format to another. So, I've gotten kind of bad
+- [01:23:30] another. So, I've gotten kind of bad
+- [01:23:30] another. So, I've gotten kind of bad about this, but for a lot of my videos,
+- [01:23:32] about this, but for a lot of my videos,
+- [01:23:32] about this, but for a lot of my videos, I'll have corresponding tutorials on my
+- [01:23:35] I'll have corresponding tutorials on my
+- [01:23:35] I'll have corresponding tutorials on my site, and I use this skill to take the
+- [01:23:38] site, and I use this skill to take the
+- [01:23:38] site, and I use this skill to take the transcript of YouTube videos and then
+- [01:23:41] transcript of YouTube videos and then
+- [01:23:41] transcript of YouTube videos and then turn that into a tutorial that shows up
+- [01:23:44] turn that into a tutorial that shows up
+- [01:23:44] turn that into a tutorial that shows up on my website. Now, that's not the kind
+- [01:23:46] on my website. Now, that's not the kind
+- [01:23:46] on my website. Now, that's not the kind of thing for which anybody's ever going
+- [01:23:47] of thing for which anybody's ever going
+- [01:23:47] of thing for which anybody's ever going to create a plug-in, but it's something
+- [01:23:49] to create a plug-in, but it's something
+- [01:23:49] to create a plug-in, but it's something that I can make with codeex myself to
+- [01:23:51] that I can make with codeex myself to
+- [01:23:51] that I can make with codeex myself to automate a manual workflow. Here's an
+- [01:23:54] automate a manual workflow. Here's an
+- [01:23:54] automate a manual workflow. Here's an example from Pay Slice. We have a
+- [01:23:56] example from Pay Slice. We have a
+- [01:23:56] example from Pay Slice. We have a support email inbox where users can send
+- [01:23:59] support email inbox where users can send
+- [01:23:59] support email inbox where users can send in complaints and I have a support email
+- [01:24:03] in complaints and I have a support email
+- [01:24:03] in complaints and I have a support email skill that I've developed to handle the
+- [01:24:05] skill that I've developed to handle the
+- [01:24:05] skill that I've developed to handle the different kinds of cases that we have
+- [01:24:08] different kinds of cases that we have
+- [01:24:08] different kinds of cases that we have but then also create in our notion
+- [01:24:10] but then also create in our notion
+- [01:24:10] but then also create in our notion database a support ticket to make sure
+- [01:24:13] database a support ticket to make sure
+- [01:24:13] database a support ticket to make sure that we're monitoring that and then also
+- [01:24:16] that we're monitoring that and then also
+- [01:24:16] that we're monitoring that and then also link to clarity which is that tool we
+- [01:24:19] link to clarity which is that tool we
+- [01:24:19] link to clarity which is that tool we can use to see user behavior to actually
+- [01:24:22] can use to see user behavior to actually
+- [01:24:22] can use to see user behavior to actually try to link the user's issue to
+- [01:24:25] try to link the user's issue to
+- [01:24:25] try to link the user's issue to something that they're actually
+- [01:24:26] something that they're actually
+- [01:24:26] something that they're actually experiencing in the application. And
+- [01:24:28] experiencing in the application. And
+- [01:24:28] experiencing in the application. And finally, here's a very simple one. I
+- [01:24:30] finally, here's a very simple one. I
+- [01:24:30] finally, here's a very simple one. I have a skill to interact with my
+- [01:24:32] have a skill to interact with my
+- [01:24:32] have a skill to interact with my WhatsApp. So, I use WhatsApp a lot for
+- [01:24:35] WhatsApp. So, I use WhatsApp a lot for
+- [01:24:35] WhatsApp. So, I use WhatsApp a lot for family and friends. And I can use this
+- [01:24:38] family and friends. And I can use this
+- [01:24:38] family and friends. And I can use this skill to interact with and search
+- [01:24:41] skill to interact with and search
+- [01:24:41] skill to interact with and search through all my WhatsApp messages. You
+- [01:24:43] through all my WhatsApp messages. You
+- [01:24:43] through all my WhatsApp messages. You can do this with iMessage as well, with
+- [01:24:45] can do this with iMessage as well, with
+- [01:24:45] can do this with iMessage as well, with Telegram, with Discord. I have one for
+- [01:24:48] Telegram, with Discord. I have one for
+- [01:24:48] Telegram, with Discord. I have one for Slack that I use a lot and I find very
+- [01:24:50] Slack that I use a lot and I find very
+- [01:24:50] Slack that I use a lot and I find very useful. Now, what a skill is often
+- [01:24:53] useful. Now, what a skill is often
+- [01:24:53] useful. Now, what a skill is often described as is simply just a text file.
+- [01:24:56] described as is simply just a text file.
+- [01:24:56] described as is simply just a text file. And that is a little bit deceiving
+- [01:24:59] And that is a little bit deceiving
+- [01:24:59] And that is a little bit deceiving because rather than thinking of it as a
+- [01:25:01] because rather than thinking of it as a
+- [01:25:01] because rather than thinking of it as a text file, you should think of it as a
+- [01:25:03] text file, you should think of it as a
+- [01:25:03] text file, you should think of it as a folder. What does that folder include?
+- [01:25:06] folder. What does that folder include?
+- [01:25:06] folder. What does that folder include? Well, one, it has to always include this
+- [01:25:10] Well, one, it has to always include this
+- [01:25:10] Well, one, it has to always include this skill.md file. It has to have that name.
+- [01:25:13] skill.md file. It has to have that name.
+- [01:25:13] skill.md file. It has to have that name. It has to have the MD extension. This is
+- [01:25:15] It has to have the MD extension. This is
+- [01:25:15] It has to have the MD extension. This is the standard that is developed in the
+- [01:25:17] the standard that is developed in the
+- [01:25:17] the standard that is developed in the agentic coding space. Then along with it
+- [01:25:21] agentic coding space. Then along with it
+- [01:25:21] agentic coding space. Then along with it that skill may come with scripts. So for
+- [01:25:24] that skill may come with scripts. So for
+- [01:25:24] that skill may come with scripts. So for my WhatsApp skill or that YouTube to
+- [01:25:27] my WhatsApp skill or that YouTube to
+- [01:25:28] my WhatsApp skill or that YouTube to tutorial skill, I have scripts that
+- [01:25:31] tutorial skill, I have scripts that
+- [01:25:31] tutorial skill, I have scripts that interact with my WhatsApp that interact
+- [01:25:33] interact with my WhatsApp that interact
+- [01:25:33] interact with my WhatsApp that interact with my database and the skill.md file
+- [01:25:36] with my database and the skill.md file
+- [01:25:36] with my database and the skill.md file teaches codecs how to use those scripts.
+- [01:25:40] teaches codecs how to use those scripts.
+- [01:25:40] teaches codecs how to use those scripts. Next, sometimes you may have other
+- [01:25:43] Next, sometimes you may have other
+- [01:25:43] Next, sometimes you may have other outside reference documentation. An
+- [01:25:45] outside reference documentation. An
+- [01:25:45] outside reference documentation. An example of when you may have this is if
+- [01:25:47] example of when you may have this is if
+- [01:25:47] example of when you may have this is if you have some kind of front-end design
+- [01:25:49] you have some kind of front-end design
+- [01:25:50] you have some kind of front-end design skill to describe your design tastes or
+- [01:25:53] skill to describe your design tastes or
+- [01:25:53] skill to describe your design tastes or preferences. Maybe you would have images
+- [01:25:55] preferences. Maybe you would have images
+- [01:25:56] preferences. Maybe you would have images as references in the references folder
+- [01:25:58] as references in the references folder
+- [01:25:58] as references in the references folder or actually maybe you'd put them in the
+- [01:26:00] or actually maybe you'd put them in the
+- [01:26:00] or actually maybe you'd put them in the assets folder, but these are kind of
+- [01:26:02] assets folder, but these are kind of
+- [01:26:02] assets folder, but these are kind of funible. You can have whatever folder
+- [01:26:04] funible. You can have whatever folder
+- [01:26:04] funible. You can have whatever folder structure here you want. This is just a
+- [01:26:06] structure here you want. This is just a
+- [01:26:06] structure here you want. This is just a pretty common way to put it together.
+- [01:26:08] pretty common way to put it together.
+- [01:26:08] pretty common way to put it together. And then finally in codeex itself,
+- [01:26:11] And then finally in codeex itself,
+- [01:26:11] And then finally in codeex itself, there's a concept here of an open AI.l
+- [01:26:14] there's a concept here of an open AI.l
+- [01:26:14] there's a concept here of an open AI.l file. This is kind of the least
+- [01:26:16] file. This is kind of the least
+- [01:26:16] file. This is kind of the least important aspect of skills, but it is
+- [01:26:18] important aspect of skills, but it is
+- [01:26:18] important aspect of skills, but it is some codec specific metadata that you
+- [01:26:20] some codec specific metadata that you
+- [01:26:20] some codec specific metadata that you can optionally add to a skill, which
+- [01:26:22] can optionally add to a skill, which
+- [01:26:22] can optionally add to a skill, which makes interacting with it in codecs a
+- [01:26:25] makes interacting with it in codecs a
+- [01:26:25] makes interacting with it in codecs a little bit better, a little bit
+- [01:26:27] little bit better, a little bit
+- [01:26:27] little bit better, a little bit smoother, as I'll explain in a few
+- [01:26:28] smoother, as I'll explain in a few
+- [01:26:28] smoother, as I'll explain in a few slides. Now, the most important part of
+- [01:26:31] slides. Now, the most important part of
+- [01:26:31] slides. Now, the most important part of that structure I told you is the
+- [01:26:33] that structure I told you is the
+- [01:26:33] that structure I told you is the skill.md.
+- [01:26:35] skill.md.
+- [01:26:35] skill.md. And so, here's what a skill.md file
+- [01:26:37] And so, here's what a skill.md file
+- [01:26:38] And so, here's what a skill.md file typically looks like. So it starts with
+- [01:26:41] typically looks like. So it starts with
+- [01:26:41] typically looks like. So it starts with this mandatory section which has a front
+- [01:26:44] this mandatory section which has a front
+- [01:26:44] this mandatory section which has a front matter and so that front matter is a
+- [01:26:47] matter and so that front matter is a
+- [01:26:47] matter and so that front matter is a name and a description. So every skill
+- [01:26:50] name and a description. So every skill
+- [01:26:50] name and a description. So every skill has a name. I have a WhatsApp
+- [01:26:51] has a name. I have a WhatsApp
+- [01:26:51] has a name. I have a WhatsApp description and then the description
+- [01:26:54] description and then the description
+- [01:26:54] description and then the description tells codeex when this skill should be
+- [01:26:58] tells codeex when this skill should be
+- [01:26:58] tells codeex when this skill should be used and for what it should be used.
+- [01:27:01] used and for what it should be used.
+- [01:27:01] used and for what it should be used. Then below that there's a set of
+- [01:27:03] Then below that there's a set of
+- [01:27:03] Then below that there's a set of instructions on the skill that codeex
+- [01:27:06] instructions on the skill that codeex
+- [01:27:06] instructions on the skill that codeex should follow. Now when you look at a
+- [01:27:08] should follow. Now when you look at a
+- [01:27:08] should follow. Now when you look at a skill in this skills view in the codeex
+- [01:27:10] skill in this skills view in the codeex
+- [01:27:10] skill in this skills view in the codeex desktop, this is basically what the name
+- [01:27:14] desktop, this is basically what the name
+- [01:27:14] desktop, this is basically what the name is. And then this right here is a
+- [01:27:16] is. And then this right here is a
+- [01:27:16] is. And then this right here is a description. And then this over here is
+- [01:27:20] description. And then this over here is
+- [01:27:20] description. And then this over here is a beautified version of the markdown
+- [01:27:23] a beautified version of the markdown
+- [01:27:23] a beautified version of the markdown body of the skill. And so this is a
+- [01:27:25] body of the skill. And so this is a
+- [01:27:25] body of the skill. And so this is a skill that I use to take all my Fathom
+- [01:27:28] skill that I use to take all my Fathom
+- [01:27:28] skill that I use to take all my Fathom recordings and grab the transcripts and
+- [01:27:30] recordings and grab the transcripts and
+- [01:27:30] recordings and grab the transcripts and put them to a particular location on an
+- [01:27:33] put them to a particular location on an
+- [01:27:33] put them to a particular location on an external hard drive right here, which I
+- [01:27:35] external hard drive right here, which I
+- [01:27:36] external hard drive right here, which I can then use and have to always be able
+- [01:27:38] can then use and have to always be able
+- [01:27:38] can then use and have to always be able to look over all my Fathom recordings.
+- [01:27:41] to look over all my Fathom recordings.
+- [01:27:41] to look over all my Fathom recordings. If you want to see it raw, you can go
+- [01:27:43] If you want to see it raw, you can go
+- [01:27:43] If you want to see it raw, you can go over here and click open. And now in
+- [01:27:45] over here and click open. And now in
+- [01:27:45] over here and click open. And now in this view in VS Code, you can now see
+- [01:27:49] this view in VS Code, you can now see
+- [01:27:49] this view in VS Code, you can now see the skill in its sort of raw text
+- [01:27:52] the skill in its sort of raw text
+- [01:27:52] the skill in its sort of raw text format. So, it's got that name and then
+- [01:27:55] format. So, it's got that name and then
+- [01:27:55] format. So, it's got that name and then it's got this description and then
+- [01:27:57] it's got this description and then
+- [01:27:57] it's got this description and then there's a skill file. And you can see
+- [01:27:59] there's a skill file. And you can see
+- [01:27:59] there's a skill file. And you can see here that it says use the bundled bun
+- [01:28:03] here that it says use the bundled bun
+- [01:28:03] here that it says use the bundled bun CLI. So, I have a bundled script that it
+- [01:28:06] CLI. So, I have a bundled script that it
+- [01:28:06] CLI. So, I have a bundled script that it uses to interact with Fathom. And then
+- [01:28:10] uses to interact with Fathom. And then
+- [01:28:10] uses to interact with Fathom. And then here it tells it you need to have these
+- [01:28:12] here it tells it you need to have these
+- [01:28:12] here it tells it you need to have these API keys available. These are the
+- [01:28:14] API keys available. These are the
+- [01:28:14] API keys available. These are the different ways in which you may want to
+- [01:28:15] different ways in which you may want to
+- [01:28:16] different ways in which you may want to use it. Now, something you might be
+- [01:28:17] use it. Now, something you might be
+- [01:28:17] use it. Now, something you might be thinking when you're seeing this is,
+- [01:28:19] thinking when you're seeing this is,
+- [01:28:19] thinking when you're seeing this is, well, I'm not a programmer, so how will
+- [01:28:21] well, I'm not a programmer, so how will
+- [01:28:22] well, I'm not a programmer, so how will I ever be able to make these skills?
+- [01:28:24] I ever be able to make these skills?
+- [01:28:24] I ever be able to make these skills? Well, I am a programmer, but I didn't
+- [01:28:27] Well, I am a programmer, but I didn't
+- [01:28:27] Well, I am a programmer, but I didn't program any of these skills by hand, any
+- [01:28:29] program any of these skills by hand, any
+- [01:28:30] program any of these skills by hand, any of the scripts that these skills use. I
+- [01:28:32] of the scripts that these skills use. I
+- [01:28:32] of the scripts that these skills use. I simply tell Codeex what I want and
+- [01:28:34] simply tell Codeex what I want and
+- [01:28:34] simply tell Codeex what I want and natural language instructions, and then
+- [01:28:36] natural language instructions, and then
+- [01:28:36] natural language instructions, and then it creates the skills for me. And so,
+- [01:28:38] it creates the skills for me. And so,
+- [01:28:38] it creates the skills for me. And so, I'm going to give you a demo of that a
+- [01:28:40] I'm going to give you a demo of that a
+- [01:28:40] I'm going to give you a demo of that a little bit later in this section. Now
+- [01:28:42] little bit later in this section. Now
+- [01:28:42] little bit later in this section. Now coming back to this slide, you may ask
+- [01:28:45] coming back to this slide, you may ask
+- [01:28:45] coming back to this slide, you may ask like why does it matter that a skill.md
+- [01:28:48] like why does it matter that a skill.md
+- [01:28:48] like why does it matter that a skill.md file is structured in this particular
+- [01:28:51] file is structured in this particular
+- [01:28:51] file is structured in this particular way? And why not just put all the
+- [01:28:54] way? And why not just put all the
+- [01:28:54] way? And why not just put all the references, the assets, and everything
+- [01:28:56] references, the assets, and everything
+- [01:28:56] references, the assets, and everything in like one single file? Wouldn't that
+- [01:28:58] in like one single file? Wouldn't that
+- [01:28:58] in like one single file? Wouldn't that be simpler? Well, if you might remember,
+- [01:29:01] be simpler? Well, if you might remember,
+- [01:29:01] be simpler? Well, if you might remember, a big part of getting good results out
+- [01:29:04] a big part of getting good results out
+- [01:29:04] a big part of getting good results out of Agentic coding tools is being very
+- [01:29:06] of Agentic coding tools is being very
+- [01:29:06] of Agentic coding tools is being very particular about what sort of context
+- [01:29:09] particular about what sort of context
+- [01:29:09] particular about what sort of context you're giving them at particular times.
+- [01:29:11] you're giving them at particular times.
+- [01:29:11] you're giving them at particular times. And so you don't want to give the tool
+- [01:29:13] And so you don't want to give the tool
+- [01:29:14] And so you don't want to give the tool information it doesn't need because then
+- [01:29:16] information it doesn't need because then
+- [01:29:16] information it doesn't need because then your context window will fill up. You'll
+- [01:29:18] your context window will fill up. You'll
+- [01:29:18] your context window will fill up. You'll hit the compaction point and you won't
+- [01:29:21] hit the compaction point and you won't
+- [01:29:21] hit the compaction point and you won't be able to work as effectively or if
+- [01:29:23] be able to work as effectively or if
+- [01:29:23] be able to work as effectively or if there's irrelevant information in there,
+- [01:29:25] there's irrelevant information in there,
+- [01:29:25] there's irrelevant information in there, it might get confused and not do what
+- [01:29:27] it might get confused and not do what
+- [01:29:27] it might get confused and not do what you want it to do. What skills allow you
+- [01:29:29] you want it to do. What skills allow you
+- [01:29:29] you want it to do. What skills allow you to do is use a concept called
+- [01:29:32] to do is use a concept called
+- [01:29:32] to do is use a concept called progressive disclosure. So when codeex
+- [01:29:35] progressive disclosure. So when codeex
+- [01:29:35] progressive disclosure. So when codeex boots up, it boots up the system prompt,
+- [01:29:39] boots up, it boots up the system prompt,
+- [01:29:39] boots up, it boots up the system prompt, the agents.m MD, and it boots up all the
+- [01:29:42] the agents.m MD, and it boots up all the
+- [01:29:42] the agents.m MD, and it boots up all the skills into its context. But the only
+- [01:29:45] skills into its context. But the only
+- [01:29:45] skills into its context. But the only parts of the skill that enter into
+- [01:29:48] parts of the skill that enter into
+- [01:29:48] parts of the skill that enter into Codeex's context before you've done
+- [01:29:50] Codeex's context before you've done
+- [01:29:50] Codeex's context before you've done anything is this metadata. So the name
+- [01:29:53] anything is this metadata. So the name
+- [01:29:53] anything is this metadata. So the name and description. And that only costs
+- [01:29:56] and description. And that only costs
+- [01:29:56] and description. And that only costs about a 100 tokens, let's say, on
+- [01:29:58] about a 100 tokens, let's say, on
+- [01:29:58] about a 100 tokens, let's say, on average per skill, which let's say you
+- [01:30:01] average per skill, which let's say you
+- [01:30:01] average per skill, which let's say you have 50 skills. That's 5,000 tokens. And
+- [01:30:04] have 50 skills. That's 5,000 tokens. And
+- [01:30:04] have 50 skills. That's 5,000 tokens. And since our context window is like 260
+- [01:30:08] since our context window is like 260
+- [01:30:08] since our context window is like 260 270,000 tokens, that's not that bad. So
+- [01:30:11] 270,000 tokens, that's not that bad. So
+- [01:30:11] 270,000 tokens, that's not that bad. So like that's not a horrible amount of
+- [01:30:14] like that's not a horrible amount of
+- [01:30:14] like that's not a horrible amount of context usage before you've even started
+- [01:30:16] context usage before you've even started
+- [01:30:16] context usage before you've even started doing anything. But the skill.md body
+- [01:30:21] doing anything. But the skill.md body
+- [01:30:21] doing anything. But the skill.md body might be a,000 tokens, 2,000 tokens,
+- [01:30:25] might be a,000 tokens, 2,000 tokens,
+- [01:30:25] might be a,000 tokens, 2,000 tokens, maybe even 5,000 tokens. And so if we
+- [01:30:27] maybe even 5,000 tokens. And so if we
+- [01:30:28] maybe even 5,000 tokens. And so if we loaded up every single skills body into
+- [01:30:31] loaded up every single skills body into
+- [01:30:31] loaded up every single skills body into the context, we would quickly hit our
+- [01:30:34] the context, we would quickly hit our
+- [01:30:34] the context, we would quickly hit our compaction point even before we hit a
+- [01:30:36] compaction point even before we hit a
+- [01:30:36] compaction point even before we hit a single message. And so that's really
+- [01:30:39] single message. And so that's really
+- [01:30:39] single message. And so that's really what prompted the AI community to come
+- [01:30:42] what prompted the AI community to come
+- [01:30:42] what prompted the AI community to come up with this concept of a skill to have
+- [01:30:45] up with this concept of a skill to have
+- [01:30:45] up with this concept of a skill to have some way to allow Agentic coding tools
+- [01:30:48] some way to allow Agentic coding tools
+- [01:30:48] some way to allow Agentic coding tools to do these specialized tasks, but then
+- [01:30:50] to do these specialized tasks, but then
+- [01:30:50] to do these specialized tasks, but then also be able to protect the context
+- [01:30:53] also be able to protect the context
+- [01:30:53] also be able to protect the context window while you're doing it. Another
+- [01:30:56] window while you're doing it. Another
+- [01:30:56] window while you're doing it. Another important aspect of skills is where they
+- [01:30:59] important aspect of skills is where they
+- [01:30:59] important aspect of skills is where they actually live. And so not every skill is
+- [01:31:02] actually live. And so not every skill is
+- [01:31:02] actually live. And so not every skill is going to be available or you may even
+- [01:31:05] going to be available or you may even
+- [01:31:05] going to be available or you may even want available in every project. So for
+- [01:31:08] want available in every project. So for
+- [01:31:08] want available in every project. So for example that skill that I use to convert
+- [01:31:11] example that skill that I use to convert
+- [01:31:11] example that skill that I use to convert YouTube videos into tutorials I have
+- [01:31:14] YouTube videos into tutorials I have
+- [01:31:14] YouTube videos into tutorials I have installed at the level of a particular
+- [01:31:17] installed at the level of a particular
+- [01:31:17] installed at the level of a particular project or repository. And so the place
+- [01:31:20] project or repository. And so the place
+- [01:31:20] project or repository. And so the place that it needs to be located in the
+- [01:31:23] that it needs to be located in the
+- [01:31:23] that it needs to be located in the project structure is in this agents
+- [01:31:26] project structure is in this agents
+- [01:31:26] project structure is in this agents directory and then at the skills
+- [01:31:29] directory and then at the skills
+- [01:31:29] directory and then at the skills subdirectory in that particular project.
+- [01:31:32] subdirectory in that particular project.
+- [01:31:32] subdirectory in that particular project. Next there are user skills and so the
+- [01:31:35] Next there are user skills and so the
+- [01:31:35] Next there are user skills and so the user skills are skills that you want to
+- [01:31:38] user skills are skills that you want to
+- [01:31:38] user skills are skills that you want to have available across all projects.
+- [01:31:40] have available across all projects.
+- [01:31:40] have available across all projects. WhatsApp for me is one of those that you
+- [01:31:44] WhatsApp for me is one of those that you
+- [01:31:44] WhatsApp for me is one of those that you know from any project in any directory I
+- [01:31:47] know from any project in any directory I
+- [01:31:47] know from any project in any directory I may at some point just want to check in
+- [01:31:49] may at some point just want to check in
+- [01:31:49] may at some point just want to check in on my WhatsApp messages and so you would
+- [01:31:52] on my WhatsApp messages and so you would
+- [01:31:52] on my WhatsApp messages and so you would put that at your tilda which is your
+- [01:31:55] put that at your tilda which is your
+- [01:31:55] put that at your tilda which is your home directory in the same
+- [01:31:57] home directory in the same
+- [01:31:57] home directory in the same aagents/skills
+- [01:31:59] aagents/skills
+- [01:32:00] aagents/skills directory and then finally there are
+- [01:32:02] directory and then finally there are
+- [01:32:02] directory and then finally there are system skills so these are skills that
+- [01:32:04] system skills so these are skills that
+- [01:32:04] system skills so these are skills that come bundled with codecs and are just
+- [01:32:07] come bundled with codecs and are just
+- [01:32:07] come bundled with codecs and are just always available you don't manage these
+- [01:32:09] always available you don't manage these
+- [01:32:09] always available you don't manage these but you should still beware aware that
+- [01:32:11] but you should still beware aware that
+- [01:32:11] but you should still beware aware that they exist because you're going to use
+- [01:32:12] they exist because you're going to use
+- [01:32:12] they exist because you're going to use them, especially these two, skill
+- [01:32:14] them, especially these two, skill
+- [01:32:14] them, especially these two, skill creator and skill installer. Now, as I'd
+- [01:32:17] creator and skill installer. Now, as I'd
+- [01:32:17] creator and skill installer. Now, as I'd mentioned before, there's a set of
+- [01:32:19] mentioned before, there's a set of
+- [01:32:19] mentioned before, there's a set of skills that you can install just by
+- [01:32:21] skills that you can install just by
+- [01:32:21] skills that you can install just by clicking a button and then installing a
+- [01:32:24] clicking a button and then installing a
+- [01:32:24] clicking a button and then installing a skill. And then once you've done that,
+- [01:32:27] skill. And then once you've done that,
+- [01:32:27] skill. And then once you've done that, once you have skills available, either
+- [01:32:30] once you have skills available, either
+- [01:32:30] once you have skills available, either through this codeex UI or by installing
+- [01:32:33] through this codeex UI or by installing
+- [01:32:33] through this codeex UI or by installing them from the internet, I'll show you
+- [01:32:34] them from the internet, I'll show you
+- [01:32:34] them from the internet, I'll show you how to do that. How do you actually use
+- [01:32:37] how to do that. How do you actually use
+- [01:32:37] how to do that. How do you actually use the skills? First in this composer you
+- [01:32:40] the skills? First in this composer you
+- [01:32:40] the skills? First in this composer you can just put in a dollar sign and then
+- [01:32:42] can just put in a dollar sign and then
+- [01:32:42] can just put in a dollar sign and then all the skills that are available to you
+- [01:32:45] all the skills that are available to you
+- [01:32:45] all the skills that are available to you either in the particular project that
+- [01:32:47] either in the particular project that
+- [01:32:47] either in the particular project that you're in right now or your set of
+- [01:32:50] you're in right now or your set of
+- [01:32:50] you're in right now or your set of personal skills or system skills will
+- [01:32:53] personal skills or system skills will
+- [01:32:53] personal skills or system skills will all show up here. And so you can see
+- [01:32:55] all show up here. And so you can see
+- [01:32:55] all show up here. And so you can see that there's five total system skills
+- [01:32:57] that there's five total system skills
+- [01:32:57] that there's five total system skills here. And we're going to be talking
+- [01:32:59] here. And we're going to be talking
+- [01:32:59] here. And we're going to be talking about a fair number of those. And so if
+- [01:33:01] about a fair number of those. And so if
+- [01:33:01] about a fair number of those. And so if I go like this and then I type in back
+- [01:33:03] I go like this and then I type in back
+- [01:33:03] I go like this and then I type in back test, I've now invoked that skill and
+- [01:33:06] test, I've now invoked that skill and
+- [01:33:06] test, I've now invoked that skill and then like whatever instructions I say
+- [01:33:09] then like whatever instructions I say
+- [01:33:09] then like whatever instructions I say are going to be interpreted in the
+- [01:33:11] are going to be interpreted in the
+- [01:33:11] are going to be interpreted in the context of that skill. But additionally,
+- [01:33:14] context of that skill. But additionally,
+- [01:33:14] context of that skill. But additionally, as I mentioned, for all of these skills,
+- [01:33:17] as I mentioned, for all of these skills,
+- [01:33:17] as I mentioned, for all of these skills, the name and description are loaded into
+- [01:33:20] the name and description are loaded into
+- [01:33:20] the name and description are loaded into Codeex's context. And so if you simply
+- [01:33:23] Codeex's context. And so if you simply
+- [01:33:23] Codeex's context. And so if you simply type something in and codeex is able to
+- [01:33:26] type something in and codeex is able to
+- [01:33:26] type something in and codeex is able to infer that like that particular skill is
+- [01:33:30] infer that like that particular skill is
+- [01:33:30] infer that like that particular skill is what we should be using in this
+- [01:33:32] what we should be using in this
+- [01:33:32] what we should be using in this situation, it will autonomously decide
+- [01:33:35] situation, it will autonomously decide
+- [01:33:35] situation, it will autonomously decide without you needing to specify the skill
+- [01:33:37] without you needing to specify the skill
+- [01:33:37] without you needing to specify the skill specifically to use that skill. If
+- [01:33:40] specifically to use that skill. If
+- [01:33:40] specifically to use that skill. If whatever you're doing seems to match
+- [01:33:42] whatever you're doing seems to match
+- [01:33:42] whatever you're doing seems to match that workflow, it's not a guarantee that
+- [01:33:45] that workflow, it's not a guarantee that
+- [01:33:45] that workflow, it's not a guarantee that codecs will act at a particular moment
+- [01:33:48] codecs will act at a particular moment
+- [01:33:48] codecs will act at a particular moment and you can have skills that conflict or
+- [01:33:51] and you can have skills that conflict or
+- [01:33:51] and you can have skills that conflict or it may not be super obvious when to use
+- [01:33:54] it may not be super obvious when to use
+- [01:33:54] it may not be super obvious when to use one or the other. And so that's
+- [01:33:55] one or the other. And so that's
+- [01:33:55] one or the other. And so that's somewhere where iterating on your name
+- [01:33:58] somewhere where iterating on your name
+- [01:33:58] somewhere where iterating on your name and really the description can help out
+- [01:34:00] and really the description can help out
+- [01:34:00] and really the description can help out quite a bit. Now, what skills are often
+- [01:34:03] quite a bit. Now, what skills are often
+- [01:34:03] quite a bit. Now, what skills are often doing under the hood is they're just
+- [01:34:05] doing under the hood is they're just
+- [01:34:05] doing under the hood is they're just helping codecs understand how to operate
+- [01:34:07] helping codecs understand how to operate
+- [01:34:08] helping codecs understand how to operate some script and make it useful for you.
+- [01:34:10] some script and make it useful for you.
+- [01:34:10] some script and make it useful for you. So, let me show you an example of doing
+- [01:34:13] So, let me show you an example of doing
+- [01:34:13] So, let me show you an example of doing exactly that. So, this right here is a
+- [01:34:17] exactly that. So, this right here is a
+- [01:34:17] exactly that. So, this right here is a tool called YTDLP.
+- [01:34:19] tool called YTDLP.
+- [01:34:19] tool called YTDLP. You can use it to interact
+- [01:34:21] You can use it to interact
+- [01:34:21] You can use it to interact programmatically with YouTube and a lot
+- [01:34:24] programmatically with YouTube and a lot
+- [01:34:24] programmatically with YouTube and a lot of other websites from which you want to
+- [01:34:26] of other websites from which you want to
+- [01:34:26] of other websites from which you want to download YouTube videos. And so, I like
+- [01:34:28] download YouTube videos. And so, I like
+- [01:34:28] download YouTube videos. And so, I like it quite a lot. I use it for doing
+- [01:34:31] it quite a lot. I use it for doing
+- [01:34:31] it quite a lot. I use it for doing research against YouTube. I mean,
+- [01:34:33] research against YouTube. I mean,
+- [01:34:33] research against YouTube. I mean, YouTube does have this Gemini summarize
+- [01:34:36] YouTube does have this Gemini summarize
+- [01:34:36] YouTube does have this Gemini summarize feature, but oftentimes what I want to
+- [01:34:38] feature, but oftentimes what I want to
+- [01:34:38] feature, but oftentimes what I want to do is a lot more custom. And so, what I
+- [01:34:40] do is a lot more custom. And so, what I
+- [01:34:40] do is a lot more custom. And so, what I want to do now is create a skill that
+- [01:34:45] want to do now is create a skill that
+- [01:34:45] want to do now is create a skill that starts with YouTube, but then we'll do
+- [01:34:47] starts with YouTube, but then we'll do
+- [01:34:47] starts with YouTube, but then we'll do something fun. Now, if you want to
+- [01:34:49] something fun. Now, if you want to
+- [01:34:49] something fun. Now, if you want to create a skill, the right tool to use
+- [01:34:52] create a skill, the right tool to use
+- [01:34:52] create a skill, the right tool to use here is the skill creator skill, which
+- [01:34:56] here is the skill creator skill, which
+- [01:34:56] here is the skill creator skill, which comes with codeex. And so the first
+- [01:34:58] comes with codeex. And so the first
+- [01:34:58] comes with codeex. And so the first thing I'm going to say is that I want to
+- [01:35:00] thing I'm going to say is that I want to
+- [01:35:00] thing I'm going to say is that I want to create a skill in this repo because as
+- [01:35:04] create a skill in this repo because as
+- [01:35:04] create a skill in this repo because as you remember there are different scopes
+- [01:35:05] you remember there are different scopes
+- [01:35:05] you remember there are different scopes for skills and so I want this skill to
+- [01:35:07] for skills and so I want this skill to
+- [01:35:07] for skills and so I want this skill to be available just to this project. But
+- [01:35:09] be available just to this project. But
+- [01:35:09] be available just to this project. But in order to do make this skill it's
+- [01:35:12] in order to do make this skill it's
+- [01:35:12] in order to do make this skill it's going to require access to this tool
+- [01:35:14] going to require access to this tool
+- [01:35:14] going to require access to this tool YTDLP. And so my recommended way for you
+- [01:35:19] YTDLP. And so my recommended way for you
+- [01:35:19] YTDLP. And so my recommended way for you to install this is using a tool called
+- [01:35:21] to install this is using a tool called
+- [01:35:21] to install this is using a tool called homebrew. If you've never used homebrew
+- [01:35:24] homebrew. If you've never used homebrew
+- [01:35:24] homebrew. If you've never used homebrew before I want you to go to brew.sh sh
+- [01:35:27] before I want you to go to brew.sh sh
+- [01:35:27] before I want you to go to brew.sh sh and then copy this right here. Then come
+- [01:35:31] and then copy this right here. Then come
+- [01:35:31] and then copy this right here. Then come back to codeex and then type in command
+- [01:35:35] back to codeex and then type in command
+- [01:35:35] back to codeex and then type in command J. And that's going to open up a
+- [01:35:37] J. And that's going to open up a
+- [01:35:37] J. And that's going to open up a terminal like this. Then you simply
+- [01:35:39] terminal like this. Then you simply
+- [01:35:40] terminal like this. Then you simply paste that command that you just copied.
+- [01:35:43] paste that command that you just copied.
+- [01:35:43] paste that command that you just copied. Press enter. It might ask you for your
+- [01:35:45] Press enter. It might ask you for your
+- [01:35:45] Press enter. It might ask you for your password. You put it in and then let it
+- [01:35:49] password. You put it in and then let it
+- [01:35:49] password. You put it in and then let it install this tool. So, Homebrew is a
+- [01:35:51] install this tool. So, Homebrew is a
+- [01:35:51] install this tool. So, Homebrew is a very handy tool to be able to easily
+- [01:35:53] very handy tool to be able to easily
+- [01:35:53] very handy tool to be able to easily install a lot of useful packages that
+- [01:35:56] install a lot of useful packages that
+- [01:35:56] install a lot of useful packages that Codeex can then use. Once it's done, I
+- [01:35:59] Codeex can then use. Once it's done, I
+- [01:35:59] Codeex can then use. Once it's done, I want you to copy this that says brew
+- [01:36:01] want you to copy this that says brew
+- [01:36:01] want you to copy this that says brew install YTDLP and then back here in the
+- [01:36:05] install YTDLP and then back here in the
+- [01:36:05] install YTDLP and then back here in the terminal, just paste that in. Press
+- [01:36:07] terminal, just paste that in. Press
+- [01:36:07] terminal, just paste that in. Press install and it'll go through an
+- [01:36:09] install and it'll go through an
+- [01:36:09] install and it'll go through an installation process. That's basically
+- [01:36:11] installation process. That's basically
+- [01:36:11] installation process. That's basically the only reason why I'm going to need
+- [01:36:13] the only reason why I'm going to need
+- [01:36:13] the only reason why I'm going to need you to use the terminal in this course.
+- [01:36:15] you to use the terminal in this course.
+- [01:36:16] you to use the terminal in this course. In the Clawed Code course, I was a lot
+- [01:36:18] In the Clawed Code course, I was a lot
+- [01:36:18] In the Clawed Code course, I was a lot more terminalheavy because when I made
+- [01:36:20] more terminalheavy because when I made
+- [01:36:20] more terminalheavy because when I made that course, the Cloud Code desktop app
+- [01:36:23] that course, the Cloud Code desktop app
+- [01:36:23] that course, the Cloud Code desktop app was pretty bad. It's since improved. So,
+- [01:36:26] was pretty bad. It's since improved. So,
+- [01:36:26] was pretty bad. It's since improved. So, if I was remaking that course, I
+- [01:36:27] if I was remaking that course, I
+- [01:36:28] if I was remaking that course, I wouldn't have focused on the terminal so
+- [01:36:29] wouldn't have focused on the terminal so
+- [01:36:29] wouldn't have focused on the terminal so much and just stayed in the desktop app.
+- [01:36:31] much and just stayed in the desktop app.
+- [01:36:31] much and just stayed in the desktop app. But lucky you guys, you don't have to
+- [01:36:33] But lucky you guys, you don't have to
+- [01:36:33] But lucky you guys, you don't have to learn about the terminal, you can stay
+- [01:36:34] learn about the terminal, you can stay
+- [01:36:34] learn about the terminal, you can stay pretty much entirely inside the app
+- [01:36:37] pretty much entirely inside the app
+- [01:36:37] pretty much entirely inside the app except when we're just installing a few
+- [01:36:39] except when we're just installing a few
+- [01:36:39] except when we're just installing a few useful utilities like that one. So,
+- [01:36:41] useful utilities like that one. So,
+- [01:36:41] useful utilities like that one. So, we're back here. I want to create a
+- [01:36:43] we're back here. I want to create a
+- [01:36:43] we're back here. I want to create a skill in this repo. It should use YTDLP.
+- [01:36:48] skill in this repo. It should use YTDLP.
+- [01:36:48] skill in this repo. It should use YTDLP. I want it to combine with image gen by
+- [01:36:55] I want it to combine with image gen by
+- [01:36:56] I want it to combine with image gen by downloading the transcript of the video
+- [01:37:00] downloading the transcript of the video
+- [01:37:00] downloading the transcript of the video and creating a very detailed
+- [01:37:04] and creating a very detailed
+- [01:37:04] and creating a very detailed infographic
+- [01:37:06] infographic
+- [01:37:06] infographic of the video. something pedagogical
+- [01:37:13] of the video. something pedagogical
+- [01:37:13] of the video. something pedagogical slashexpository.
+- [01:37:15] slashexpository.
+- [01:37:15] slashexpository. So what I want to see here is can we
+- [01:37:17] So what I want to see here is can we
+- [01:37:18] So what I want to see here is can we combine a few things together? I want to
+- [01:37:20] combine a few things together? I want to
+- [01:37:20] combine a few things together? I want to make a skill. The purpose of this skill
+- [01:37:22] make a skill. The purpose of this skill
+- [01:37:22] make a skill. The purpose of this skill is to create some kind of visualization
+- [01:37:25] is to create some kind of visualization
+- [01:37:25] is to create some kind of visualization which helps me visualize what's in a
+- [01:37:28] which helps me visualize what's in a
+- [01:37:28] which helps me visualize what's in a video. And so if you've got a codec
+- [01:37:30] video. And so if you've got a codec
+- [01:37:30] video. And so if you've got a codec subscription, you have access to this
+- [01:37:32] subscription, you have access to this
+- [01:37:32] subscription, you have access to this new utility to do image generation. I
+- [01:37:35] new utility to do image generation. I
+- [01:37:35] new utility to do image generation. I made a video here that like nobody cared
+- [01:37:38] made a video here that like nobody cared
+- [01:37:38] made a video here that like nobody cared about about this, but it really was
+- [01:37:40] about about this, but it really was
+- [01:37:40] about about this, but it really was mind-blowing to me. I made this
+- [01:37:42] mind-blowing to me. I made this
+- [01:37:42] mind-blowing to me. I made this thumbnail here with this new feature.
+- [01:37:44] thumbnail here with this new feature.
+- [01:37:44] thumbnail here with this new feature. Oh, yeah, and one other thing. You might
+- [01:37:46] Oh, yeah, and one other thing. You might
+- [01:37:46] Oh, yeah, and one other thing. You might notice here that now the UI looks a
+- [01:37:49] notice here that now the UI looks a
+- [01:37:49] notice here that now the UI looks a little bit different. It says 5.5 extra
+- [01:37:51] little bit different. It says 5.5 extra
+- [01:37:51] little bit different. It says 5.5 extra high. That's because just I'm recording
+- [01:37:54] high. That's because just I'm recording
+- [01:37:54] high. That's because just I'm recording this over multiple days and now the 5.5
+- [01:37:57] this over multiple days and now the 5.5
+- [01:37:57] this over multiple days and now the 5.5 model is out. So, that's the one I
+- [01:37:58] model is out. So, that's the one I
+- [01:37:58] model is out. So, that's the one I recommend you guys use. So, it already
+- [01:38:00] recommend you guys use. So, it already
+- [01:38:00] recommend you guys use. So, it already decided what it's going to call the
+- [01:38:02] decided what it's going to call the
+- [01:38:02] decided what it's going to call the skill. It's going to call it YouTube
+- [01:38:04] skill. It's going to call it YouTube
+- [01:38:04] skill. It's going to call it YouTube infographic. If you had a specific name
+- [01:38:06] infographic. If you had a specific name
+- [01:38:06] infographic. If you had a specific name that you wanted to give it, it would do
+- [01:38:08] that you wanted to give it, it would do
+- [01:38:08] that you wanted to give it, it would do that. So, let's just see how this goes.
+- [01:38:11] that. So, let's just see how this goes.
+- [01:38:11] that. So, let's just see how this goes. All right. So, it worked for 6 minutes
+- [01:38:14] All right. So, it worked for 6 minutes
+- [01:38:14] All right. So, it worked for 6 minutes and it's created the skill. So, let's
+- [01:38:16] and it's created the skill. So, let's
+- [01:38:16] and it's created the skill. So, let's take a look at the skill itself. If you
+- [01:38:18] take a look at the skill itself. If you
+- [01:38:18] take a look at the skill itself. If you click on it, it's going to open up here.
+- [01:38:20] click on it, it's going to open up here.
+- [01:38:20] click on it, it's going to open up here. And let's make this big so that you can
+- [01:38:22] And let's make this big so that you can
+- [01:38:22] And let's make this big so that you can see the whole thing. Is there any way to
+- [01:38:23] see the whole thing. Is there any way to
+- [01:38:23] see the whole thing. Is there any way to do word rap? I guess not yet. It's
+- [01:38:26] do word rap? I guess not yet. It's
+- [01:38:26] do word rap? I guess not yet. It's coming along, right? So we got the name,
+- [01:38:28] coming along, right? So we got the name,
+- [01:38:28] coming along, right? So we got the name, description, download YouTube videos,
+- [01:38:30] description, download YouTube videos,
+- [01:38:30] description, download YouTube videos, metadata and transcripts with YTDLP and
+- [01:38:33] metadata and transcripts with YTDLP and
+- [01:38:33] metadata and transcripts with YTDLP and a handoff to this image gen skill. So
+- [01:38:35] a handoff to this image gen skill. So
+- [01:38:35] a handoff to this image gen skill. So this is important to know that like
+- [01:38:37] this is important to know that like
+- [01:38:37] this is important to know that like skills can kind of chain together and
+- [01:38:39] skills can kind of chain together and
+- [01:38:40] skills can kind of chain together and that's what I'm demonstrating here. Then
+- [01:38:41] that's what I'm demonstrating here. Then
+- [01:38:41] that's what I'm demonstrating here. Then it's got you know like uh some
+- [01:38:43] it's got you know like uh some
+- [01:38:43] it's got you know like uh some instructions prefer human subtitles when
+- [01:38:46] instructions prefer human subtitles when
+- [01:38:46] instructions prefer human subtitles when available etc. And it also created a
+- [01:38:49] available etc. And it also created a
+- [01:38:49] available etc. And it also created a reference like infographic brief I guess
+- [01:38:52] reference like infographic brief I guess
+- [01:38:52] reference like infographic brief I guess of how to create infographics. So let's
+- [01:38:55] of how to create infographics. So let's
+- [01:38:55] of how to create infographics. So let's take a look at that. use this reference
+- [01:38:57] take a look at that. use this reference
+- [01:38:57] take a look at that. use this reference after fetching transcript.md and before
+- [01:39:00] after fetching transcript.md and before
+- [01:39:00] after fetching transcript.md and before invoking image genen extract these items
+- [01:39:03] invoking image genen extract these items
+- [01:39:03] invoking image genen extract these items from the transcript. So let's just look
+- [01:39:05] from the transcript. So let's just look
+- [01:39:05] from the transcript. So let's just look for a video that maybe I would want done
+- [01:39:09] for a video that maybe I would want done
+- [01:39:09] for a video that maybe I would want done this way and then just try it out. So
+- [01:39:12] this way and then just try it out. So
+- [01:39:12] this way and then just try it out. So we're here on YouTube uh the original
+- [01:39:15] we're here on YouTube uh the original
+- [01:39:15] we're here on YouTube uh the original technobiking video. That's you know well
+- [01:39:18] technobiking video. That's you know well
+- [01:39:18] technobiking video. That's you know well set. I spent my entire life trying to be
+- [01:39:20] set. I spent my entire life trying to be
+- [01:39:20] set. I spent my entire life trying to be smart but I'm Let's do that.
+- [01:39:23] smart but I'm Let's do that.
+- [01:39:23] smart but I'm Let's do that. That sounds exactly like the kind of
+- [01:39:25] That sounds exactly like the kind of
+- [01:39:25] That sounds exactly like the kind of thing that I would want to create an
+- [01:39:27] thing that I would want to create an
+- [01:39:27] thing that I would want to create an infographic about. Let's try it with
+- [01:39:31] infographic about. Let's try it with
+- [01:39:31] infographic about. Let's try it with this video. Make it funny. All right,
+- [01:39:36] this video. Make it funny. All right,
+- [01:39:36] this video. Make it funny. All right, let's see how it works. All right, so
+- [01:39:38] let's see how it works. All right, so
+- [01:39:38] let's see how it works. All right, so this is interesting. Created an
+- [01:39:39] this is interesting. Created an
+- [01:39:39] this is interesting. Created an infographic brief. Can we look at that?
+- [01:39:43] infographic brief. Can we look at that?
+- [01:39:43] infographic brief. Can we look at that? General self-improvement audience. It
+- [01:39:45] General self-improvement audience. It
+- [01:39:45] General self-improvement audience. It can handle a loud comic motivational
+- [01:39:48] can handle a loud comic motivational
+- [01:39:48] can handle a loud comic motivational style. Use a comedic operations map
+- [01:39:52] style. Use a comedic operations map
+- [01:39:52] style. Use a comedic operations map poster. The anti-overthinking
+- [01:39:54] poster. The anti-overthinking
+- [01:39:54] poster. The anti-overthinking field manual teaching units
+- [01:39:58] field manual teaching units
+- [01:39:58] field manual teaching units verbatim labels for image. Yeah, let's
+- [01:40:02] verbatim labels for image. Yeah, let's
+- [01:40:02] verbatim labels for image. Yeah, let's see how it goes. I guess an important
+- [01:40:04] see how it goes. I guess an important
+- [01:40:04] see how it goes. I guess an important note here is that he's kind of edgy.
+- [01:40:07] note here is that he's kind of edgy.
+- [01:40:07] note here is that he's kind of edgy. Founder of Andre Horowitz tweets about
+- [01:40:09] Founder of Andre Horowitz tweets about
+- [01:40:09] Founder of Andre Horowitz tweets about this guy a lot. I like him too. He's
+- [01:40:11] this guy a lot. I like him too. He's
+- [01:40:11] this guy a lot. I like him too. He's funny, but he does say the R word and
+- [01:40:13] funny, but he does say the R word and
+- [01:40:14] funny, but he does say the R word and you're not supposed to say that. So GPT
+- [01:40:16] you're not supposed to say that. So GPT
+- [01:40:16] you're not supposed to say that. So GPT will not let you include those kinds of
+- [01:40:19] will not let you include those kinds of
+- [01:40:19] will not let you include those kinds of word cruelty I guess fake statistics and
+- [01:40:23] word cruelty I guess fake statistics and
+- [01:40:23] word cruelty I guess fake statistics and decorative only imagery FYI. All right
+- [01:40:26] decorative only imagery FYI. All right
+- [01:40:26] decorative only imagery FYI. All right is done. Check that out. So, one thing
+- [01:40:29] is done. Check that out. So, one thing
+- [01:40:29] is done. Check that out. So, one thing I'll say is that this like is kind of
+- [01:40:32] I'll say is that this like is kind of
+- [01:40:32] I'll say is that this like is kind of like funny in a cheesy way or I don't
+- [01:40:36] like funny in a cheesy way or I don't
+- [01:40:36] like funny in a cheesy way or I don't really think it's that funny, but for
+- [01:40:39] really think it's that funny, but for
+- [01:40:39] really think it's that funny, but for the purposes of creating this skill,
+- [01:40:41] the purposes of creating this skill,
+- [01:40:41] the purposes of creating this skill, especially if we were making it on like
+- [01:40:43] especially if we were making it on like
+- [01:40:43] especially if we were making it on like more serious topics like a visualization
+- [01:40:46] more serious topics like a visualization
+- [01:40:46] more serious topics like a visualization of some machine learning topic or you
+- [01:40:49] of some machine learning topic or you
+- [01:40:49] of some machine learning topic or you could even try it out on my own videos.
+- [01:40:51] could even try it out on my own videos.
+- [01:40:51] could even try it out on my own videos. Maybe that's what I should have tried
+- [01:40:52] Maybe that's what I should have tried
+- [01:40:52] Maybe that's what I should have tried out instead. It's pretty good. Like,
+- [01:40:54] out instead. It's pretty good. Like,
+- [01:40:54] out instead. It's pretty good. Like, it's pretty freaking good. Now, this is
+- [01:40:56] it's pretty freaking good. Now, this is
+- [01:40:56] it's pretty freaking good. Now, this is kind of coming up in an unfortunately
+- [01:41:00] kind of coming up in an unfortunately
+- [01:41:00] kind of coming up in an unfortunately displayed way, but if you look here in
+- [01:41:02] displayed way, but if you look here in
+- [01:41:02] displayed way, but if you look here in the file viewer, you'll see that there's
+- [01:41:04] the file viewer, you'll see that there's
+- [01:41:04] the file viewer, you'll see that there's an agents directory as well in which
+- [01:41:07] an agents directory as well in which
+- [01:41:07] an agents directory as well in which there's something called openai.yaml.
+- [01:41:10] there's something called openai.yaml.
+- [01:41:10] there's something called openai.yaml. This is sort of the optional thing that
+- [01:41:12] This is sort of the optional thing that
+- [01:41:12] This is sort of the optional thing that Codeex will create when it creates this
+- [01:41:14] Codeex will create when it creates this
+- [01:41:14] Codeex will create when it creates this skill creator skill that goes along with
+- [01:41:18] skill creator skill that goes along with
+- [01:41:18] skill creator skill that goes along with your skill. So, what is this exactly?
+- [01:41:20] your skill. So, what is this exactly?
+- [01:41:20] your skill. So, what is this exactly? It's basically a set of instructions to
+- [01:41:23] It's basically a set of instructions to
+- [01:41:23] It's basically a set of instructions to give a little bit of extra UI polish
+- [01:41:27] give a little bit of extra UI polish
+- [01:41:27] give a little bit of extra UI polish specifically in the codeex app. So if
+- [01:41:30] specifically in the codeex app. So if
+- [01:41:30] specifically in the codeex app. So if you don't have this and the skill shows
+- [01:41:32] you don't have this and the skill shows
+- [01:41:32] you don't have this and the skill shows as its folder name only. And so for
+- [01:41:35] as its folder name only. And so for
+- [01:41:35] as its folder name only. And so for example, one of the things here that's
+- [01:41:37] example, one of the things here that's
+- [01:41:37] example, one of the things here that's included is this thing that says display
+- [01:41:39] included is this thing that says display
+- [01:41:40] included is this thing that says display name Figma. And so when I type in dollar
+- [01:41:43] name Figma. And so when I type in dollar
+- [01:41:43] name Figma. And so when I type in dollar sign, you'll see that these are all
+- [01:41:46] sign, you'll see that these are all
+- [01:41:46] sign, you'll see that these are all showing up in like a regular capital
+- [01:41:49] showing up in like a regular capital
+- [01:41:49] showing up in like a regular capital case, right? And that's because there's
+- [01:41:52] case, right? And that's because there's
+- [01:41:52] case, right? And that's because there's these open ai.yammo files in the skill
+- [01:41:56] these open ai.yammo files in the skill
+- [01:41:56] these open ai.yammo files in the skill directly that is teaching, you know, how
+- [01:41:59] directly that is teaching, you know, how
+- [01:41:59] directly that is teaching, you know, how to format things. You can also decide if
+- [01:42:02] to format things. You can also decide if
+- [01:42:02] to format things. You can also decide if you want to be really hardcore to have
+- [01:42:04] you want to be really hardcore to have
+- [01:42:04] you want to be really hardcore to have little icons that go along with your
+- [01:42:07] little icons that go along with your
+- [01:42:07] little icons that go along with your skills. And over here you can have a
+- [01:42:09] skills. And over here you can have a
+- [01:42:09] skills. And over here you can have a sort of default prompt that is initiated
+- [01:42:12] sort of default prompt that is initiated
+- [01:42:12] sort of default prompt that is initiated whenever you use a particular skill. So
+- [01:42:16] whenever you use a particular skill. So
+- [01:42:16] whenever you use a particular skill. So this is optional and it's something that
+- [01:42:19] this is optional and it's something that
+- [01:42:19] this is optional and it's something that the skill creator skill will make for
+- [01:42:21] the skill creator skill will make for
+- [01:42:21] the skill creator skill will make for you itself. But something to be aware of
+- [01:42:23] you itself. But something to be aware of
+- [01:42:23] you itself. But something to be aware of if you see this thing showing up in your
+- [01:42:25] if you see this thing showing up in your
+- [01:42:25] if you see this thing showing up in your directory and you don't really know what
+- [01:42:27] directory and you don't really know what
+- [01:42:27] directory and you don't really know what it is. Now I showed you how to make
+- [01:42:29] it is. Now I showed you how to make
+- [01:42:29] it is. Now I showed you how to make skills, but what if you just want to use
+- [01:42:31] skills, but what if you just want to use
+- [01:42:31] skills, but what if you just want to use a skill that somebody else has on the
+- [01:42:34] a skill that somebody else has on the
+- [01:42:34] a skill that somebody else has on the internet? And first of all, how do you
+- [01:42:36] internet? And first of all, how do you
+- [01:42:36] internet? And first of all, how do you even find other skills in the first
+- [01:42:38] even find other skills in the first
+- [01:42:38] even find other skills in the first place? Well, unfortunately, but actually
+- [01:42:42] place? Well, unfortunately, but actually
+- [01:42:42] place? Well, unfortunately, but actually it's not that big of a deal, but
+- [01:42:43] it's not that big of a deal, but
+- [01:42:43] it's not that big of a deal, but unfortunately, there isn't like some
+- [01:42:45] unfortunately, there isn't like some
+- [01:42:45] unfortunately, there isn't like some central repository of all skills. As you
+- [01:42:48] central repository of all skills. As you
+- [01:42:48] central repository of all skills. As you see, like these things are pretty easy
+- [01:42:50] see, like these things are pretty easy
+- [01:42:50] see, like these things are pretty easy to make. You can just kind of tell
+- [01:42:53] to make. You can just kind of tell
+- [01:42:53] to make. You can just kind of tell Codeex your intent and then get the
+- [01:42:55] Codeex your intent and then get the
+- [01:42:55] Codeex your intent and then get the skill out. So, when skills first came
+- [01:42:58] skill out. So, when skills first came
+- [01:42:58] skill out. So, when skills first came out, there were people making a racket
+- [01:43:00] out, there were people making a racket
+- [01:43:00] out, there were people making a racket trying to sell skills. I think that's
+- [01:43:02] trying to sell skills. I think that's
+- [01:43:02] trying to sell skills. I think that's really stupid. There's very few people
+- [01:43:04] really stupid. There's very few people
+- [01:43:04] really stupid. There's very few people from whom I would buy their skills. Most
+- [01:43:07] from whom I would buy their skills. Most
+- [01:43:07] from whom I would buy their skills. Most of the people who are trying to sell you
+- [01:43:09] of the people who are trying to sell you
+- [01:43:09] of the people who are trying to sell you skills are just taking advantage of your
+- [01:43:13] skills are just taking advantage of your
+- [01:43:13] skills are just taking advantage of your lack of knowledge about this space. So
+- [01:43:15] lack of knowledge about this space. So
+- [01:43:15] lack of knowledge about this space. So now you know you can pretty much make
+- [01:43:17] now you know you can pretty much make
+- [01:43:17] now you know you can pretty much make your own skills for anything you would
+- [01:43:18] your own skills for anything you would
+- [01:43:18] your own skills for anything you would ever want. And so me personally, I just
+- [01:43:22] ever want. And so me personally, I just
+- [01:43:22] ever want. And so me personally, I just make pretty much all of my skills. I
+- [01:43:24] make pretty much all of my skills. I
+- [01:43:24] make pretty much all of my skills. I almost never look for is there a skill
+- [01:43:27] almost never look for is there a skill
+- [01:43:28] almost never look for is there a skill available to do something I want to do.
+- [01:43:30] available to do something I want to do.
+- [01:43:30] available to do something I want to do. I just make my own skills because it
+- [01:43:33] I just make my own skills because it
+- [01:43:33] I just make my own skills because it really is as easy as what I just
+- [01:43:34] really is as easy as what I just
+- [01:43:34] really is as easy as what I just described. You can iterate on it and
+- [01:43:36] described. You can iterate on it and
+- [01:43:36] described. You can iterate on it and there are more advanced ways to think
+- [01:43:38] there are more advanced ways to think
+- [01:43:38] there are more advanced ways to think about the construction of skills, but
+- [01:43:41] about the construction of skills, but
+- [01:43:41] about the construction of skills, but for most of what you guys want to do,
+- [01:43:42] for most of what you guys want to do,
+- [01:43:42] for most of what you guys want to do, you can make a skill almost exactly just
+- [01:43:45] you can make a skill almost exactly just
+- [01:43:45] you can make a skill almost exactly just like how I described. Now, if you do
+- [01:43:47] like how I described. Now, if you do
+- [01:43:47] like how I described. Now, if you do want to find some skills, I would mostly
+- [01:43:49] want to find some skills, I would mostly
+- [01:43:49] want to find some skills, I would mostly just Google or perhaps look on Twitter
+- [01:43:52] just Google or perhaps look on Twitter
+- [01:43:52] just Google or perhaps look on Twitter for like skill for notion or something
+- [01:43:54] for like skill for notion or something
+- [01:43:54] for like skill for notion or something like that. And then if you find a skill,
+- [01:43:57] like that. And then if you find a skill,
+- [01:43:57] like that. And then if you find a skill, let's say it's on a GitHub repo or in
+- [01:44:00] let's say it's on a GitHub repo or in
+- [01:44:00] let's say it's on a GitHub repo or in some web page which has an index of a
+- [01:44:02] some web page which has an index of a
+- [01:44:02] some web page which has an index of a lot of skills, here's how you would
+- [01:44:03] lot of skills, here's how you would
+- [01:44:03] lot of skills, here's how you would install it. So coming back here, if you
+- [01:44:05] install it. So coming back here, if you
+- [01:44:05] install it. So coming back here, if you just type in skill, you'll see that
+- [01:44:07] just type in skill, you'll see that
+- [01:44:07] just type in skill, you'll see that there's skill creator, but there's also
+- [01:44:09] there's skill creator, but there's also
+- [01:44:09] there's skill creator, but there's also skill installer. And so let me find some
+- [01:44:14] skill installer. And so let me find some
+- [01:44:14] skill installer. And so let me find some skill and then just show you me
+- [01:44:16] skill and then just show you me
+- [01:44:16] skill and then just show you me installing it and then using it. So this
+- [01:44:18] installing it and then using it. So this
+- [01:44:18] installing it and then using it. So this right here is Anthropic's front-end
+- [01:44:21] right here is Anthropic's front-end
+- [01:44:21] right here is Anthropic's front-end design skill. It's a skill that you can
+- [01:44:24] design skill. It's a skill that you can
+- [01:44:24] design skill. It's a skill that you can use and it consists literally of a
+- [01:44:26] use and it consists literally of a
+- [01:44:26] use and it consists literally of a single file, nothing else to create
+- [01:44:29] single file, nothing else to create
+- [01:44:29] single file, nothing else to create front-end interfaces that don't seem
+- [01:44:32] front-end interfaces that don't seem
+- [01:44:32] front-end interfaces that don't seem generic. And so in the past, I found
+- [01:44:34] generic. And so in the past, I found
+- [01:44:34] generic. And so in the past, I found Anthropic to be or rather claw to be a
+- [01:44:36] Anthropic to be or rather claw to be a
+- [01:44:36] Anthropic to be or rather claw to be a lot better at design, especially when
+- [01:44:39] lot better at design, especially when
+- [01:44:39] lot better at design, especially when you combined it with a skill like this.
+- [01:44:41] you combined it with a skill like this.
+- [01:44:41] you combined it with a skill like this. Now, I actually find codeex to be my
+- [01:44:43] Now, I actually find codeex to be my
+- [01:44:43] Now, I actually find codeex to be my preferred choice for design. Little bit
+- [01:44:45] preferred choice for design. Little bit
+- [01:44:45] preferred choice for design. Little bit outside the scope of this video, but
+- [01:44:47] outside the scope of this video, but
+- [01:44:47] outside the scope of this video, but something you guys can be aware of.
+- [01:44:48] something you guys can be aware of.
+- [01:44:48] something you guys can be aware of. Anyway, part of the types of
+- [01:44:50] Anyway, part of the types of
+- [01:44:50] Anyway, part of the types of instructions it gives here is to help
+- [01:44:52] instructions it gives here is to help
+- [01:44:52] instructions it gives here is to help cloud code or codeex or whatever tool is
+- [01:44:54] cloud code or codeex or whatever tool is
+- [01:44:54] cloud code or codeex or whatever tool is using these skills to avoid certain
+- [01:44:57] using these skills to avoid certain
+- [01:44:57] using these skills to avoid certain kinds of things that AI tools tend to do
+- [01:45:00] kinds of things that AI tools tend to do
+- [01:45:00] kinds of things that AI tools tend to do when they're creating interfaces. And
+- [01:45:02] when they're creating interfaces. And
+- [01:45:02] when they're creating interfaces. And so, let's copy that and say, can you
+- [01:45:05] so, let's copy that and say, can you
+- [01:45:05] so, let's copy that and say, can you install this skill just in this repo?
+- [01:45:10] install this skill just in this repo?
+- [01:45:10] install this skill just in this repo? Enter. So, you found a skill, you want
+- [01:45:12] Enter. So, you found a skill, you want
+- [01:45:12] Enter. So, you found a skill, you want to install it. This is how you would go
+- [01:45:14] to install it. This is how you would go
+- [01:45:14] to install it. This is how you would go about installing the skill. You can ask
+- [01:45:17] about installing the skill. You can ask
+- [01:45:17] about installing the skill. You can ask codeex to either install things in a
+- [01:45:19] codeex to either install things in a
+- [01:45:19] codeex to either install things in a particular repo or at the user level. I
+- [01:45:21] particular repo or at the user level. I
+- [01:45:21] particular repo or at the user level. I don't want to corrupt my other
+- [01:45:23] don't want to corrupt my other
+- [01:45:23] don't want to corrupt my other interfaces. So I'm going to get it
+- [01:45:25] interfaces. So I'm going to get it
+- [01:45:25] interfaces. So I'm going to get it installed just in this repo. And so you
+- [01:45:27] installed just in this repo. And so you
+- [01:45:27] installed just in this repo. And so you can see the installer expects a skill
+- [01:45:29] can see the installer expects a skill
+- [01:45:29] can see the installer expects a skill directly. All right. So the skill was
+- [01:45:33] directly. All right. So the skill was
+- [01:45:33] directly. All right. So the skill was installed. It says restart codeex to
+- [01:45:35] installed. It says restart codeex to
+- [01:45:35] installed. It says restart codeex to pick up new skills. So if I go front end
+- [01:45:39] pick up new skills. So if I go front end
+- [01:45:39] pick up new skills. So if I go front end design, I'm seeing this because it's
+- [01:45:41] design, I'm seeing this because it's
+- [01:45:41] design, I'm seeing this because it's part of another plugin that I use. All
+- [01:45:43] part of another plugin that I use. All
+- [01:45:43] part of another plugin that I use. All right. So I restarted. Now, let's go
+- [01:45:46] right. So I restarted. Now, let's go
+- [01:45:46] right. So I restarted. Now, let's go front end. Hm. It's not showing up. All
+- [01:45:48] front end. Hm. It's not showing up. All
+- [01:45:48] front end. Hm. It's not showing up. All right. So, something to be aware of is
+- [01:45:50] right. So, something to be aware of is
+- [01:45:50] right. So, something to be aware of is that it installed it in the wrong
+- [01:45:53] that it installed it in the wrong
+- [01:45:53] that it installed it in the wrong location a few times. So, first it put
+- [01:45:55] location a few times. So, first it put
+- [01:45:56] location a few times. So, first it put it in this skills directory. Didn't show
+- [01:45:58] it in this skills directory. Didn't show
+- [01:45:58] it in this skills directory. Didn't show up and I was like, why isn't this
+- [01:45:59] up and I was like, why isn't this
+- [01:46:00] up and I was like, why isn't this happening? But then I forgot this has
+- [01:46:01] happening? But then I forgot this has
+- [01:46:01] happening? But then I forgot this has happened before. Then it put it in
+- [01:46:03] happened before. Then it put it in
+- [01:46:03] happened before. Then it put it in theclaw directory. And then finally I
+- [01:46:05] theclaw directory. And then finally I
+- [01:46:05] theclaw directory. And then finally I told it, no, it has to be in agents. So,
+- [01:46:08] told it, no, it has to be in agents. So,
+- [01:46:08] told it, no, it has to be in agents. So, I put it there and now it shows up. And
+- [01:46:11] I put it there and now it shows up. And
+- [01:46:12] I put it there and now it shows up. And so I can say uh make me a pretty website
+- [01:46:17] so I can say uh make me a pretty website
+- [01:46:17] so I can say uh make me a pretty website about that YouTube video. Make it in the
+- [01:46:21] about that YouTube video. Make it in the
+- [01:46:21] about that YouTube video. Make it in the theme of notion just a single HTML page
+- [01:46:27] theme of notion just a single HTML page
+- [01:46:27] theme of notion just a single HTML page and then boot it up in the in browser.
+- [01:46:31] and then boot it up in the in browser.
+- [01:46:31] and then boot it up in the in browser. So, let's see if we can use this skill
+- [01:46:34] So, let's see if we can use this skill
+- [01:46:34] So, let's see if we can use this skill now that we installed to make an example
+- [01:46:37] now that we installed to make an example
+- [01:46:37] now that we installed to make an example website about the same YouTube video and
+- [01:46:40] website about the same YouTube video and
+- [01:46:40] website about the same YouTube video and see what comes out. All right, here it
+- [01:46:43] see what comes out. All right, here it
+- [01:46:43] see what comes out. All right, here it is. So, haven't told you guys this yet,
+- [01:46:45] is. So, haven't told you guys this yet,
+- [01:46:45] is. So, haven't told you guys this yet, I think, but Codeex has an inapp web
+- [01:46:49] I think, but Codeex has an inapp web
+- [01:46:49] I think, but Codeex has an inapp web browser which is very useful to use when
+- [01:46:52] browser which is very useful to use when
+- [01:46:52] browser which is very useful to use when developing a video. And you can see here
+- [01:46:54] developing a video. And you can see here
+- [01:46:54] developing a video. And you can see here that this is like a pretty neat website
+- [01:46:59] that this is like a pretty neat website
+- [01:46:59] that this is like a pretty neat website that it's made. It's notion themed. Even
+- [01:47:01] that it's made. It's notion themed. Even
+- [01:47:02] that it's made. It's notion themed. Even included that image that we just created
+- [01:47:04] included that image that we just created
+- [01:47:04] included that image that we just created all in this website. So you can really
+- [01:47:07] all in this website. So you can really
+- [01:47:07] all in this website. So you can really expand the set of possibilities here
+- [01:47:09] expand the set of possibilities here
+- [01:47:09] expand the set of possibilities here once you just make a little bit of
+- [01:47:12] once you just make a little bit of
+- [01:47:12] once you just make a little bit of progress at understanding how these
+- [01:47:15] progress at understanding how these
+- [01:47:15] progress at understanding how these tools work. And you can see right now
+- [01:47:16] tools work. And you can see right now
+- [01:47:16] tools work. And you can see right now it's actually using computer use. So
+- [01:47:19] it's actually using computer use. So
+- [01:47:19] it's actually using computer use. So it's sort of combating with me to take a
+- [01:47:22] it's sort of combating with me to take a
+- [01:47:22] it's sort of combating with me to take a look at this website and see if it looks
+- [01:47:24] look at this website and see if it looks
+- [01:47:24] look at this website and see if it looks formatted properly. And so now it's
+- [01:47:26] formatted properly. And so now it's
+- [01:47:26] formatted properly. And so now it's finding, you know, some mistakes in the
+- [01:47:29] finding, you know, some mistakes in the
+- [01:47:29] finding, you know, some mistakes in the formatting here, I guess. And this thing
+- [01:47:32] formatting here, I guess. And this thing
+- [01:47:32] formatting here, I guess. And this thing over here is codeex's or rather computer
+- [01:47:35] over here is codeex's or rather computer
+- [01:47:35] over here is codeex's or rather computer uses, I think, cursor. So anyway, I'm
+- [01:47:38] uses, I think, cursor. So anyway, I'm
+- [01:47:38] uses, I think, cursor. So anyway, I'm going to stop it right there. But I'm
+- [01:47:39] going to stop it right there. But I'm
+- [01:47:40] going to stop it right there. But I'm pretty happy with these results. One
+- [01:47:41] pretty happy with these results. One
+- [01:47:41] pretty happy with these results. One last practical thing. If you come here
+- [01:47:43] last practical thing. If you come here
+- [01:47:43] last practical thing. If you come here to plugins and then go to skills, if you
+- [01:47:46] to plugins and then go to skills, if you
+- [01:47:46] to plugins and then go to skills, if you decide you want to keep a skill, but you
+- [01:47:49] decide you want to keep a skill, but you
+- [01:47:49] decide you want to keep a skill, but you don't want it to be activated to show up
+- [01:47:51] don't want it to be activated to show up
+- [01:47:51] don't want it to be activated to show up right now for whatever reason, you can
+- [01:47:54] right now for whatever reason, you can
+- [01:47:54] right now for whatever reason, you can just go over here, click this button,
+- [01:47:56] just go over here, click this button,
+- [01:47:56] just go over here, click this button, and then you can disable the skill for
+- [01:47:58] and then you can disable the skill for
+- [01:47:58] and then you can disable the skill for the time being. So, if you have tons of
+- [01:48:01] the time being. So, if you have tons of
+- [01:48:01] the time being. So, if you have tons of skills, like you shouldn't have this,
+- [01:48:02] skills, like you shouldn't have this,
+- [01:48:02] skills, like you shouldn't have this, but I I have a ridiculous number of
+- [01:48:04] but I I have a ridiculous number of
+- [01:48:04] but I I have a ridiculous number of skills, right? And so maybe I would
+- [01:48:06] skills, right? And so maybe I would
+- [01:48:06] skills, right? And so maybe I would actually either be concerned about them
+- [01:48:08] actually either be concerned about them
+- [01:48:08] actually either be concerned about them eating up the context window or there
+- [01:48:10] eating up the context window or there
+- [01:48:10] eating up the context window or there could be some situation where like
+- [01:48:12] could be some situation where like
+- [01:48:12] could be some situation where like certain skills seem to be interfering
+- [01:48:13] certain skills seem to be interfering
+- [01:48:13] certain skills seem to be interfering with others. So I just want to
+- [01:48:15] with others. So I just want to
+- [01:48:15] with others. So I just want to temporarily shut it off. That's
+- [01:48:16] temporarily shut it off. That's
+- [01:48:16] temporarily shut it off. That's something you can do in the codeex
+- [01:48:18] something you can do in the codeex
+- [01:48:18] something you can do in the codeex desktop app. So coming back to this
+- [01:48:20] desktop app. So coming back to this
+- [01:48:20] desktop app. So coming back to this chart, right? We've discussed plugins
+- [01:48:22] chart, right? We've discussed plugins
+- [01:48:22] chart, right? We've discussed plugins and computer use and then we discussed
+- [01:48:25] and computer use and then we discussed
+- [01:48:25] and computer use and then we discussed skills. And what we described the
+- [01:48:27] skills. And what we described the
+- [01:48:27] skills. And what we described the plug-in as sort of being under the hood
+- [01:48:30] plug-in as sort of being under the hood
+- [01:48:30] plug-in as sort of being under the hood is a skill plus sometimes an app
+- [01:48:33] is a skill plus sometimes an app
+- [01:48:33] is a skill plus sometimes an app connection. And then also this third
+- [01:48:36] connection. And then also this third
+- [01:48:36] connection. And then also this third thing called an MCP or the model context
+- [01:48:39] thing called an MCP or the model context
+- [01:48:39] thing called an MCP or the model context protocol. So that begs a question, what
+- [01:48:43] protocol. So that begs a question, what
+- [01:48:43] protocol. So that begs a question, what are MCPS and what are they useful for?
+- [01:48:46] are MCPS and what are they useful for?
+- [01:48:46] are MCPS and what are they useful for? All right. So, we've now installed and
+- [01:48:49] All right. So, we've now installed and
+- [01:48:49] All right. So, we've now installed and built some of our own skills. And my
+- [01:48:52] built some of our own skills. And my
+- [01:48:52] built some of our own skills. And my general opinion is that by default, when
+- [01:48:55] general opinion is that by default, when
+- [01:48:55] general opinion is that by default, when you want codecs to interact with some
+- [01:48:57] you want codecs to interact with some
+- [01:48:57] you want codecs to interact with some external system, skills are going to be
+- [01:49:00] external system, skills are going to be
+- [01:49:00] external system, skills are going to be your go-to tool, but they're not the
+- [01:49:02] your go-to tool, but they're not the
+- [01:49:02] your go-to tool, but they're not the only one. And so, we're going to get to
+- [01:49:03] only one. And so, we're going to get to
+- [01:49:03] only one. And so, we're going to get to the next one now, which are MCPS or
+- [01:49:07] the next one now, which are MCPS or
+- [01:49:07] the next one now, which are MCPS or model context protocol servers. So, as
+- [01:49:09] model context protocol servers. So, as
+- [01:49:09] model context protocol servers. So, as the documentation here specifies, MCPs
+- [01:49:13] the documentation here specifies, MCPs
+- [01:49:13] the documentation here specifies, MCPs are an open- source standard for
+- [01:49:15] are an open- source standard for
+- [01:49:15] are an open- source standard for connecting AI applications to external
+- [01:49:17] connecting AI applications to external
+- [01:49:17] connecting AI applications to external systems. And the right way and like a
+- [01:49:20] systems. And the right way and like a
+- [01:49:20] systems. And the right way and like a common analogy that's used to think of
+- [01:49:22] common analogy that's used to think of
+- [01:49:22] common analogy that's used to think of them is to think of them as a USBC port
+- [01:49:25] them is to think of them as a USBC port
+- [01:49:25] them is to think of them as a USBC port for AI applications. So, what does that
+- [01:49:27] for AI applications. So, what does that
+- [01:49:27] for AI applications. So, what does that mean? It means that in the past, every
+- [01:49:29] mean? It means that in the past, every
+- [01:49:30] mean? It means that in the past, every AI application would develop its own
+- [01:49:33] AI application would develop its own
+- [01:49:33] AI application would develop its own standard for how your AI should connect
+- [01:49:36] standard for how your AI should connect
+- [01:49:36] standard for how your AI should connect to it. And MCP has been established as
+- [01:49:40] to it. And MCP has been established as
+- [01:49:40] to it. And MCP has been established as one official standard that everybody
+- [01:49:42] one official standard that everybody
+- [01:49:42] one official standard that everybody uses so that anytime your AI wants to
+- [01:49:46] uses so that anytime your AI wants to
+- [01:49:46] uses so that anytime your AI wants to connect to external systems, it knows
+- [01:49:48] connect to external systems, it knows
+- [01:49:48] connect to external systems, it knows the general method of doing so, which is
+- [01:49:50] the general method of doing so, which is
+- [01:49:50] the general method of doing so, which is MCP. And so under the hood, this MCP
+- [01:49:54] MCP. And so under the hood, this MCP
+- [01:49:54] MCP. And so under the hood, this MCP specification is this technical
+- [01:49:57] specification is this technical
+- [01:49:57] specification is this technical specification where the server is
+- [01:50:01] specification where the server is
+- [01:50:01] specification where the server is defined by a big JSON file in which
+- [01:50:05] defined by a big JSON file in which
+- [01:50:05] defined by a big JSON file in which particular tools are made available to
+- [01:50:07] particular tools are made available to
+- [01:50:07] particular tools are made available to you. Now you may not know it, but in
+- [01:50:10] you. Now you may not know it, but in
+- [01:50:10] you. Now you may not know it, but in this course you've already been exposed
+- [01:50:12] this course you've already been exposed
+- [01:50:12] this course you've already been exposed to MCPs. And the reason for that is that
+- [01:50:15] to MCPs. And the reason for that is that
+- [01:50:15] to MCPs. And the reason for that is that most plugins in codecs are actually
+- [01:50:19] most plugins in codecs are actually
+- [01:50:19] most plugins in codecs are actually using MCP under the hood. So let me show
+- [01:50:22] using MCP under the hood. So let me show
+- [01:50:22] using MCP under the hood. So let me show that to you. So here's the notion
+- [01:50:24] that to you. So here's the notion
+- [01:50:24] that to you. So here's the notion plugin. And as you see, the notion
+- [01:50:26] plugin. And as you see, the notion
+- [01:50:26] plugin. And as you see, the notion plugin includes this app. And under the
+- [01:50:29] plugin includes this app. And under the
+- [01:50:29] plugin includes this app. And under the hood, this app is just an MCP. And so
+- [01:50:33] hood, this app is just an MCP. And so
+- [01:50:33] hood, this app is just an MCP. And so this app contains different tools such
+- [01:50:36] this app contains different tools such
+- [01:50:36] this app contains different tools such as notion create comment, notion create
+- [01:50:40] as notion create comment, notion create
+- [01:50:40] as notion create comment, notion create database, notion create pages, and then
+- [01:50:43] database, notion create pages, and then
+- [01:50:44] database, notion create pages, and then there's a set of instructions for the AI
+- [01:50:47] there's a set of instructions for the AI
+- [01:50:47] there's a set of instructions for the AI system codeex in this case to help it
+- [01:50:49] system codeex in this case to help it
+- [01:50:50] system codeex in this case to help it understand how to use this tool. Now
+- [01:50:53] understand how to use this tool. Now
+- [01:50:53] understand how to use this tool. Now under the hood, both MCPS and skills are
+- [01:50:57] under the hood, both MCPS and skills are
+- [01:50:57] under the hood, both MCPS and skills are working with some APIs. So if you make a
+- [01:51:01] working with some APIs. So if you make a
+- [01:51:01] working with some APIs. So if you make a notion skill, it has to interact with
+- [01:51:04] notion skill, it has to interact with
+- [01:51:04] notion skill, it has to interact with this API directly. And if you want to
+- [01:51:07] this API directly. And if you want to
+- [01:51:07] this API directly. And if you want to use an MCP under the hood, it's often or
+- [01:51:12] use an MCP under the hood, it's often or
+- [01:51:12] use an MCP under the hood, it's often or pretty much always just sitting on top
+- [01:51:14] pretty much always just sitting on top
+- [01:51:14] pretty much always just sitting on top of an API. And so when the AI is taught
+- [01:51:19] of an API. And so when the AI is taught
+- [01:51:19] of an API. And so when the AI is taught how to call these tools, these tools
+- [01:51:21] how to call these tools, these tools
+- [01:51:21] how to call these tools, these tools themselves are just formatting some kind
+- [01:51:24] themselves are just formatting some kind
+- [01:51:24] themselves are just formatting some kind of request of an API. Generally, my
+- [01:51:28] of request of an API. Generally, my
+- [01:51:28] of request of an API. Generally, my advice is that if you have the option of
+- [01:51:31] advice is that if you have the option of
+- [01:51:31] advice is that if you have the option of attaching to the same service either by
+- [01:51:34] attaching to the same service either by
+- [01:51:34] attaching to the same service either by an MCP or a skill, if you plan or expect
+- [01:51:39] an MCP or a skill, if you plan or expect
+- [01:51:39] an MCP or a skill, if you plan or expect to customize your use of it, what you
+- [01:51:41] to customize your use of it, what you
+- [01:51:42] to customize your use of it, what you should do is pretty much always make a
+- [01:51:44] should do is pretty much always make a
+- [01:51:44] should do is pretty much always make a skill. Now that skill you can choose to
+- [01:51:48] skill. Now that skill you can choose to
+- [01:51:48] skill. Now that skill you can choose to either hit the API directly which the
+- [01:51:51] either hit the API directly which the
+- [01:51:51] either hit the API directly which the MCP is hitting under the hood or you can
+- [01:51:54] MCP is hitting under the hood or you can
+- [01:51:54] MCP is hitting under the hood or you can have the skill actually have your own
+- [01:51:57] have the skill actually have your own
+- [01:51:57] have the skill actually have your own particular workflows that are built
+- [01:51:59] particular workflows that are built
+- [01:51:59] particular workflows that are built around these different MCP tools. Now
+- [01:52:02] around these different MCP tools. Now
+- [01:52:02] around these different MCP tools. Now sometimes an application may not give
+- [01:52:05] sometimes an application may not give
+- [01:52:05] sometimes an application may not give you direct access to an API and so in
+- [01:52:09] you direct access to an API and so in
+- [01:52:09] you direct access to an API and so in this case your only way to interact with
+- [01:52:12] this case your only way to interact with
+- [01:52:12] this case your only way to interact with the external system since you're not
+- [01:52:14] the external system since you're not
+- [01:52:14] the external system since you're not going to be able to make your own skill
+- [01:52:16] going to be able to make your own skill
+- [01:52:16] going to be able to make your own skill which uses their API is going to be
+- [01:52:19] which uses their API is going to be
+- [01:52:19] which uses their API is going to be using their MCP if that's what they're
+- [01:52:21] using their MCP if that's what they're
+- [01:52:21] using their MCP if that's what they're making available. And so, for example,
+- [01:52:24] making available. And so, for example,
+- [01:52:24] making available. And so, for example, here in the AI MBA Pro, every single
+- [01:52:27] here in the AI MBA Pro, every single
+- [01:52:27] here in the AI MBA Pro, every single time we have a call, the call comes up
+- [01:52:30] time we have a call, the call comes up
+- [01:52:30] time we have a call, the call comes up here, but then if you click in on a
+- [01:52:32] here, but then if you click in on a
+- [01:52:32] here, but then if you click in on a call, you can go back to the call, but
+- [01:52:36] call, you can go back to the call, but
+- [01:52:36] call, you can go back to the call, but also see the full transcript here. And
+- [01:52:38] also see the full transcript here. And
+- [01:52:38] also see the full transcript here. And what I've chosen to do is make that
+- [01:52:41] what I've chosen to do is make that
+- [01:52:41] what I've chosen to do is make that transcript available to AIMBA Pro
+- [01:52:44] transcript available to AIMBA Pro
+- [01:52:44] transcript available to AIMBA Pro members by MCP. And the reason I've done
+- [01:52:48] members by MCP. And the reason I've done
+- [01:52:48] members by MCP. And the reason I've done that is because it's easier for me as
+- [01:52:51] that is because it's easier for me as
+- [01:52:51] that is because it's easier for me as the application developer to serve a
+- [01:52:55] the application developer to serve a
+- [01:52:55] the application developer to serve a broad audience who may all want to do
+- [01:52:57] broad audience who may all want to do
+- [01:52:57] broad audience who may all want to do their own different things with the
+- [01:52:59] their own different things with the
+- [01:53:00] their own different things with the transcript by just making all the
+- [01:53:03] transcript by just making all the
+- [01:53:03] transcript by just making all the different resources that I provide to
+- [01:53:04] different resources that I provide to
+- [01:53:04] different resources that I provide to pro members whether courses, tutorials
+- [01:53:08] pro members whether courses, tutorials
+- [01:53:08] pro members whether courses, tutorials or call transcripts available by MCP.
+- [01:53:12] or call transcripts available by MCP.
+- [01:53:12] or call transcripts available by MCP. And so you can see here that I give
+- [01:53:14] And so you can see here that I give
+- [01:53:14] And so you can see here that I give agents access to four different tools
+- [01:53:17] agents access to four different tools
+- [01:53:17] agents access to four different tools where they can list the pro resources,
+- [01:53:20] where they can list the pro resources,
+- [01:53:20] where they can list the pro resources, search across them, get some pro
+- [01:53:23] search across them, get some pro
+- [01:53:23] search across them, get some pro resource, and if a pro resource is
+- [01:53:26] resource, and if a pro resource is
+- [01:53:26] resource, and if a pro resource is really long, like a transcript, then
+- [01:53:28] really long, like a transcript, then
+- [01:53:28] really long, like a transcript, then they can get it in chunks. And so I
+- [01:53:31] they can get it in chunks. And so I
+- [01:53:32] they can get it in chunks. And so I actually give detailed instructions here
+- [01:53:34] actually give detailed instructions here
+- [01:53:34] actually give detailed instructions here on exactly how to set up an MCP in the
+- [01:53:38] on exactly how to set up an MCP in the
+- [01:53:38] on exactly how to set up an MCP in the Codeex desktop app. So let's try
+- [01:53:40] Codeex desktop app. So let's try
+- [01:53:40] Codeex desktop app. So let's try following those instructions and we'll
+- [01:53:42] following those instructions and we'll
+- [01:53:42] following those instructions and we'll be able to use that to understand what
+- [01:53:44] be able to use that to understand what
+- [01:53:44] be able to use that to understand what value this gives us. So you go up here
+- [01:53:47] value this gives us. So you go up here
+- [01:53:47] value this gives us. So you go up here to codeex then to settings and then over
+- [01:53:50] to codeex then to settings and then over
+- [01:53:50] to codeex then to settings and then over here you'll see MCP servers. So let me
+- [01:53:52] here you'll see MCP servers. So let me
+- [01:53:52] here you'll see MCP servers. So let me click on that. And now I already have
+- [01:53:55] click on that. And now I already have
+- [01:53:55] click on that. And now I already have some MCP servers connected. If I want to
+- [01:53:59] some MCP servers connected. If I want to
+- [01:53:59] some MCP servers connected. If I want to enable or disable them the ones that are
+- [01:54:01] enable or disable them the ones that are
+- [01:54:01] enable or disable them the ones that are already connected I can use this toggle.
+- [01:54:03] already connected I can use this toggle.
+- [01:54:03] already connected I can use this toggle. But here I'm going to say add MCP
+- [01:54:06] But here I'm going to say add MCP
+- [01:54:06] But here I'm going to say add MCP server. And you're going to see that
+- [01:54:07] server. And you're going to see that
+- [01:54:07] server. And you're going to see that there's two different options, stdio
+- [01:54:11] there's two different options, stdio
+- [01:54:11] there's two different options, stdio and streamable HTTP which are available.
+- [01:54:15] and streamable HTTP which are available.
+- [01:54:15] and streamable HTTP which are available. So the main difference between these two
+- [01:54:17] So the main difference between these two
+- [01:54:17] So the main difference between these two is that this one stdio
+- [01:54:20] is that this one stdio
+- [01:54:20] is that this one stdio the MCP server actually lives and is
+- [01:54:23] the MCP server actually lives and is
+- [01:54:23] the MCP server actually lives and is hosted as a service on a port typically
+- [01:54:25] hosted as a service on a port typically
+- [01:54:26] hosted as a service on a port typically on your own computer. Whereas with
+- [01:54:28] on your own computer. Whereas with
+- [01:54:28] on your own computer. Whereas with streamable HTTP,
+- [01:54:30] streamable HTTP,
+- [01:54:30] streamable HTTP, some other service like on the external
+- [01:54:34] some other service like on the external
+- [01:54:34] some other service like on the external web is hosting the MCP server. So most
+- [01:54:37] web is hosting the MCP server. So most
+- [01:54:38] web is hosting the MCP server. So most places are now going to have you go
+- [01:54:40] places are now going to have you go
+- [01:54:40] places are now going to have you go through this option because it's a lot
+- [01:54:41] through this option because it's a lot
+- [01:54:41] through this option because it's a lot easier for users. And then you may get
+- [01:54:45] easier for users. And then you may get
+- [01:54:45] easier for users. And then you may get instructions to fill out some of these
+- [01:54:47] instructions to fill out some of these
+- [01:54:47] instructions to fill out some of these fields depending on how the
+- [01:54:49] fields depending on how the
+- [01:54:49] fields depending on how the authentication process works to be able
+- [01:54:52] authentication process works to be able
+- [01:54:52] authentication process works to be able to use the MCP. So, I'm just going to go
+- [01:54:55] to use the MCP. So, I'm just going to go
+- [01:54:55] to use the MCP. So, I'm just going to go ahead and register with AIM MBA Pro. And
+- [01:54:59] ahead and register with AIM MBA Pro. And
+- [01:54:59] ahead and register with AIM MBA Pro. And then back here in the instructions, this
+- [01:55:01] then back here in the instructions, this
+- [01:55:02] then back here in the instructions, this is the URL for the MCP. So, I'm going to
+- [01:55:04] is the URL for the MCP. So, I'm going to
+- [01:55:04] is the URL for the MCP. So, I'm going to copy that. And then I'll just click
+- [01:55:06] copy that. And then I'll just click
+- [01:55:06] copy that. And then I'll just click save. So, if it's your first time using
+- [01:55:09] save. So, if it's your first time using
+- [01:55:09] save. So, if it's your first time using an MCP, what you might see come up here
+- [01:55:12] an MCP, what you might see come up here
+- [01:55:12] an MCP, what you might see come up here is a prompt to authenticate. I think
+- [01:55:14] is a prompt to authenticate. I think
+- [01:55:14] is a prompt to authenticate. I think since I had already registered this MCP
+- [01:55:17] since I had already registered this MCP
+- [01:55:17] since I had already registered this MCP in the past, perhaps it's not giving me
+- [01:55:19] in the past, perhaps it's not giving me
+- [01:55:19] in the past, perhaps it's not giving me that prompt. But if you get that, you'll
+- [01:55:21] that prompt. But if you get that, you'll
+- [01:55:21] that prompt. But if you get that, you'll just have to press authenticate. It'll
+- [01:55:23] just have to press authenticate. It'll
+- [01:55:23] just have to press authenticate. It'll open a browser window where you'll log
+- [01:55:25] open a browser window where you'll log
+- [01:55:25] open a browser window where you'll log in, perhaps go through some permission
+- [01:55:27] in, perhaps go through some permission
+- [01:55:27] in, perhaps go through some permission systems and then you'll have access to
+- [01:55:29] systems and then you'll have access to
+- [01:55:29] systems and then you'll have access to the MCP. So, let's come back here to the
+- [01:55:32] the MCP. So, let's come back here to the
+- [01:55:32] the MCP. So, let's come back here to the app and I'll open up a new chat. All
+- [01:55:34] app and I'll open up a new chat. All
+- [01:55:34] app and I'll open up a new chat. All right. So, I'm here in the app now and
+- [01:55:37] right. So, I'm here in the app now and
+- [01:55:37] right. So, I'm here in the app now and if you go back/mcp,
+- [01:55:40] if you go back/mcp,
+- [01:55:40] if you go back/mcp, you can see the status of your different
+- [01:55:42] you can see the status of your different
+- [01:55:42] you can see the status of your different MCP servers. So, we see here that I'm
+- [01:55:45] MCP servers. So, we see here that I'm
+- [01:55:45] MCP servers. So, we see here that I'm already authenticated with OOTH to AI
+- [01:55:48] already authenticated with OOTH to AI
+- [01:55:48] already authenticated with OOTH to AI MBA Pro. also authenticated to this one.
+- [01:55:52] MBA Pro. also authenticated to this one.
+- [01:55:52] MBA Pro. also authenticated to this one. For some other ones, it says O
+- [01:55:53] For some other ones, it says O
+- [01:55:54] For some other ones, it says O unsupported. And so what I'm going to
+- [01:55:56] unsupported. And so what I'm going to
+- [01:55:56] unsupported. And so what I'm going to ask now is use the AIM MBA Pro MCP to
+- [01:56:01] ask now is use the AIM MBA Pro MCP to
+- [01:56:01] ask now is use the AIM MBA Pro MCP to summarize the last AI MBA Pro call as if
+- [01:56:07] summarize the last AI MBA Pro call as if
+- [01:56:07] summarize the last AI MBA Pro call as if I am a Pikachu. And let's see how it
+- [01:56:10] I am a Pikachu. And let's see how it
+- [01:56:10] I am a Pikachu. And let's see how it does. So it seems to be aware of the MCP
+- [01:56:15] does. So it seems to be aware of the MCP
+- [01:56:15] does. So it seems to be aware of the MCP using AIMBA Pro searching pro resources.
+- [01:56:19] using AIMBA Pro searching pro resources.
+- [01:56:19] using AIMBA Pro searching pro resources. Okay, it found the latest call. I'm
+- [01:56:21] Okay, it found the latest call. I'm
+- [01:56:21] Okay, it found the latest call. I'm grabbing the resource details and a
+- [01:56:23] grabbing the resource details and a
+- [01:56:23] grabbing the resource details and a transcript slice. So, the summary has
+- [01:56:25] transcript slice. So, the summary has
+- [01:56:25] transcript slice. So, the summary has teeth, not just title level sparks. And
+- [01:56:28] teeth, not just title level sparks. And
+- [01:56:28] teeth, not just title level sparks. And so, it's grabbing different chunks of
+- [01:56:29] so, it's grabbing different chunks of
+- [01:56:29] so, it's grabbing different chunks of the transcript. And now, it's got a
+- [01:56:32] the transcript. And now, it's got a
+- [01:56:32] the transcript. And now, it's got a pretty comprehensive summary of the
+- [01:56:36] pretty comprehensive summary of the
+- [01:56:36] pretty comprehensive summary of the call. And so what I'm going to ask it
+- [01:56:38] call. And so what I'm going to ask it
+- [01:56:38] call. And so what I'm going to ask it now is, can you give me exact timestamps
+- [01:56:44] now is, can you give me exact timestamps
+- [01:56:44] now is, can you give me exact timestamps and exact quotes from the call for each
+- [01:56:48] and exact quotes from the call for each
+- [01:56:48] and exact quotes from the call for each of these points because what I want to
+- [01:56:51] of these points because what I want to
+- [01:56:51] of these points because what I want to see is if it's just picking up the
+- [01:56:53] see is if it's just picking up the
+- [01:56:53] see is if it's just picking up the summary on the site or if it's able to
+- [01:56:55] summary on the site or if it's able to
+- [01:56:55] summary on the site or if it's able to get exact details in there. Hold on. The
+- [01:56:58] get exact details in there. Hold on. The
+- [01:56:58] get exact details in there. Hold on. The call transcript. No, it's my own call,
+- [01:57:02] call transcript. No, it's my own call,
+- [01:57:02] call transcript. No, it's my own call, dummy. That's pretty interesting. So
+- [01:57:05] dummy. That's pretty interesting. So
+- [01:57:05] dummy. That's pretty interesting. So sometimes, you know, the codeex model
+- [01:57:08] sometimes, you know, the codeex model
+- [01:57:08] sometimes, you know, the codeex model will just be extremely annoying like
+- [01:57:10] will just be extremely annoying like
+- [01:57:10] will just be extremely annoying like that. Yeah. And so that's pretty cool.
+- [01:57:12] that. Yeah. And so that's pretty cool.
+- [01:57:12] that. Yeah. And so that's pretty cool. It's able to get, you know, like exact
+- [01:57:16] It's able to get, you know, like exact
+- [01:57:16] It's able to get, you know, like exact timestamps based on this MCP and exact
+- [01:57:20] timestamps based on this MCP and exact
+- [01:57:20] timestamps based on this MCP and exact quotes. So all the AI MBA Pro members
+- [01:57:23] quotes. So all the AI MBA Pro members
+- [01:57:23] quotes. So all the AI MBA Pro members can use this MCP server to access all
+- [01:57:26] can use this MCP server to access all
+- [01:57:26] can use this MCP server to access all the tutorials, all the different courses
+- [01:57:28] the tutorials, all the different courses
+- [01:57:28] the tutorials, all the different courses that I'm putting in there, and then of
+- [01:57:30] that I'm putting in there, and then of
+- [01:57:30] that I'm putting in there, and then of course our weekly call transcripts. Now,
+- [01:57:33] course our weekly call transcripts. Now,
+- [01:57:33] course our weekly call transcripts. Now, if you wanted to have your own
+- [01:57:35] if you wanted to have your own
+- [01:57:35] if you wanted to have your own personalized summary as a Pokemon
+- [01:57:37] personalized summary as a Pokemon
+- [01:57:37] personalized summary as a Pokemon trainer or just as a person who owns a
+- [01:57:40] trainer or just as a person who owns a
+- [01:57:40] trainer or just as a person who owns a particular kind of business of the
+- [01:57:41] particular kind of business of the
+- [01:57:41] particular kind of business of the calls, then what you would want to do is
+- [01:57:44] calls, then what you would want to do is
+- [01:57:44] calls, then what you would want to do is create a skill which builds on top of
+- [01:57:47] create a skill which builds on top of
+- [01:57:47] create a skill which builds on top of the MCP with your own particular
+- [01:57:49] the MCP with your own particular
+- [01:57:49] the MCP with your own particular workflow. So, this is a good example of
+- [01:57:51] workflow. So, this is a good example of
+- [01:57:51] workflow. So, this is a good example of how skills and MCPs can work together.
+- [01:57:55] how skills and MCPs can work together.
+- [01:57:55] how skills and MCPs can work together. But from your perspective, most of the
+- [01:57:57] But from your perspective, most of the
+- [01:57:57] But from your perspective, most of the time you're going to be good with just
+- [01:57:59] time you're going to be good with just
+- [01:57:59] time you're going to be good with just plugins and skills, which I've already
+- [01:58:01] plugins and skills, which I've already
+- [01:58:01] plugins and skills, which I've already introduced. And sometimes you will have
+- [01:58:03] introduced. And sometimes you will have
+- [01:58:03] introduced. And sometimes you will have to work with MCPs which is why I wanted
+- [01:58:05] to work with MCPs which is why I wanted
+- [01:58:05] to work with MCPs which is why I wanted you to at least be lightly aware of the
+- [01:58:08] you to at least be lightly aware of the
+- [01:58:08] you to at least be lightly aware of the topic. Coming back now to these
+- [01:58:10] topic. Coming back now to these
+- [01:58:10] topic. Coming back now to these primitive capabilities, we've covered
+- [01:58:13] primitive capabilities, we've covered
+- [01:58:13] primitive capabilities, we've covered plugins, computer use, skills, and MCPs.
+- [01:58:18] plugins, computer use, skills, and MCPs.
+- [01:58:18] plugins, computer use, skills, and MCPs. And so the last one we have is how you
+- [01:58:21] And so the last one we have is how you
+- [01:58:21] And so the last one we have is how you parallelize work in codecs and that is
+- [01:58:24] parallelize work in codecs and that is
+- [01:58:24] parallelize work in codecs and that is sub aents. Sub aents are parallel
+- [01:58:28] sub aents. Sub aents are parallel
+- [01:58:28] sub aents. Sub aents are parallel instances of codecs. So typically when
+- [01:58:31] instances of codecs. So typically when
+- [01:58:31] instances of codecs. So typically when you're here in codeex you're working in
+- [01:58:33] you're here in codeex you're working in
+- [01:58:34] you're here in codeex you're working in a particular thread. This thread has its
+- [01:58:37] a particular thread. This thread has its
+- [01:58:37] a particular thread. This thread has its own context window and when you reach
+- [01:58:39] own context window and when you reach
+- [01:58:39] own context window and when you reach your context limit codeex is going to go
+- [01:58:42] your context limit codeex is going to go
+- [01:58:42] your context limit codeex is going to go through this compaction process. Now,
+- [01:58:45] through this compaction process. Now,
+- [01:58:45] through this compaction process. Now, what a sub agent allows you to do is to
+- [01:58:48] what a sub agent allows you to do is to
+- [01:58:48] what a sub agent allows you to do is to spin up other independent instances of
+- [01:58:52] spin up other independent instances of
+- [01:58:52] spin up other independent instances of codecs and send to them different types
+- [01:58:55] codecs and send to them different types
+- [01:58:55] codecs and send to them different types of work that you may want them to do and
+- [01:58:59] of work that you may want them to do and
+- [01:58:59] of work that you may want them to do and simply have them come back and report
+- [01:59:02] simply have them come back and report
+- [01:59:02] simply have them come back and report that work to the main thread. And so
+- [01:59:04] that work to the main thread. And so
+- [01:59:04] that work to the main thread. And so ordinarily, for example, all of this
+- [01:59:07] ordinarily, for example, all of this
+- [01:59:07] ordinarily, for example, all of this work may involve going through one or
+- [01:59:11] work may involve going through one or
+- [01:59:11] work may involve going through one or two compaction events. But maybe you
+- [01:59:15] two compaction events. But maybe you
+- [01:59:15] two compaction events. But maybe you don't actually care for the main work
+- [01:59:18] don't actually care for the main work
+- [01:59:18] don't actually care for the main work that you're doing about all the
+- [01:59:20] that you're doing about all the
+- [01:59:20] that you're doing about all the internals of whatever goes on in a
+- [01:59:24] internals of whatever goes on in a
+- [01:59:24] internals of whatever goes on in a codebase exploration. All you care about
+- [01:59:26] codebase exploration. All you care about
+- [01:59:26] codebase exploration. All you care about is about the final result of a codebase
+- [01:59:28] is about the final result of a codebase
+- [01:59:28] is about the final result of a codebase exploration as it applies to you. And so
+- [01:59:31] exploration as it applies to you. And so
+- [01:59:31] exploration as it applies to you. And so in this situation, it may be appropriate
+- [01:59:34] in this situation, it may be appropriate
+- [01:59:34] in this situation, it may be appropriate to invoke a sub agent to parallelize
+- [01:59:38] to invoke a sub agent to parallelize
+- [01:59:38] to invoke a sub agent to parallelize your work. Some of you may be familiar
+- [01:59:40] your work. Some of you may be familiar
+- [01:59:40] your work. Some of you may be familiar with sub aents in claude code and you'll
+- [01:59:44] with sub aents in claude code and you'll
+- [01:59:44] with sub aents in claude code and you'll see in claw code claude code spinning up
+- [01:59:47] see in claw code claude code spinning up
+- [01:59:47] see in claw code claude code spinning up sub aents of its own accord. Codeex
+- [01:59:50] sub aents of its own accord. Codeex
+- [01:59:50] sub aents of its own accord. Codeex doesn't work like that. You have to
+- [01:59:52] doesn't work like that. You have to
+- [01:59:52] doesn't work like that. You have to explicitly tell it when you want sub
+- [01:59:54] explicitly tell it when you want sub
+- [01:59:54] explicitly tell it when you want sub aents to be invoked. And so when should
+- [01:59:57] aents to be invoked. And so when should
+- [01:59:57] aents to be invoked. And so when should you invoke sub aents? I think generally
+- [02:00:01] you invoke sub aents? I think generally
+- [02:00:01] you invoke sub aents? I think generally a good but not perfect heristic is when
+- [02:00:05] a good but not perfect heristic is when
+- [02:00:05] a good but not perfect heristic is when whatever it is that you're tackling is a
+- [02:00:08] whatever it is that you're tackling is a
+- [02:00:08] whatever it is that you're tackling is a clearly divisible task versus a fuzzy
+- [02:00:11] clearly divisible task versus a fuzzy
+- [02:00:11] clearly divisible task versus a fuzzy task. And so things like figure out the
+- [02:00:14] task. And so things like figure out the
+- [02:00:14] task. And so things like figure out the strategy, fix the app, improve the
+- [02:00:16] strategy, fix the app, improve the
+- [02:00:16] strategy, fix the app, improve the workflow. To be honest, these are just
+- [02:00:17] workflow. To be honest, these are just
+- [02:00:18] workflow. To be honest, these are just generally bad instructions. But for
+- [02:00:20] generally bad instructions. But for
+- [02:00:20] generally bad instructions. But for example, let's say you're doing a code
+- [02:00:22] example, let's say you're doing a code
+- [02:00:22] example, let's say you're doing a code review on a code base which has many
+- [02:00:25] review on a code base which has many
+- [02:00:25] review on a code base which has many different modules. It's an unfamiliar
+- [02:00:27] different modules. It's an unfamiliar
+- [02:00:27] different modules. It's an unfamiliar codebase to you. Something that might
+- [02:00:29] codebase to you. Something that might
+- [02:00:29] codebase to you. Something that might make sense is for you to have codeex go
+- [02:00:33] make sense is for you to have codeex go
+- [02:00:33] make sense is for you to have codeex go and deploy a sub agent to inspect every
+- [02:00:36] and deploy a sub agent to inspect every
+- [02:00:36] and deploy a sub agent to inspect every single module and come back to you with
+- [02:00:39] single module and come back to you with
+- [02:00:39] single module and come back to you with a report of how it works. Instead of
+- [02:00:41] a report of how it works. Instead of
+- [02:00:41] a report of how it works. Instead of there are six or seven code modules that
+- [02:00:44] there are six or seven code modules that
+- [02:00:44] there are six or seven code modules that you need to understand, you can speed up
+- [02:00:47] you need to understand, you can speed up
+- [02:00:47] you need to understand, you can speed up this process with a divide and conquer
+- [02:00:49] this process with a divide and conquer
+- [02:00:50] this process with a divide and conquer with sub aents. Codeex does come with
+- [02:00:52] with sub aents. Codeex does come with
+- [02:00:52] with sub aents. Codeex does come with some builtin sub aents. These are a
+- [02:00:56] some builtin sub aents. These are a
+- [02:00:56] some builtin sub aents. These are a default general purpose agent, a worker
+- [02:01:00] default general purpose agent, a worker
+- [02:01:00] default general purpose agent, a worker sort of execution focused agent for
+- [02:01:02] sort of execution focused agent for
+- [02:01:02] sort of execution focused agent for bounded code docs or test changes and an
+- [02:01:06] bounded code docs or test changes and an
+- [02:01:06] bounded code docs or test changes and an explorer agent for read heavy codebase
+- [02:01:09] explorer agent for read heavy codebase
+- [02:01:09] explorer agent for read heavy codebase type questions. In practice, when you're
+- [02:01:11] type questions. In practice, when you're
+- [02:01:11] type questions. In practice, when you're working with sub aents, you don't have
+- [02:01:13] working with sub aents, you don't have
+- [02:01:13] working with sub aents, you don't have to remember these distinctions between
+- [02:01:16] to remember these distinctions between
+- [02:01:16] to remember these distinctions between the built-in sub aents because based on
+- [02:01:19] the built-in sub aents because based on
+- [02:01:19] the built-in sub aents because based on the task to which you are applying sub
+- [02:01:21] the task to which you are applying sub
+- [02:01:22] the task to which you are applying sub aents, codeex will choose the one of
+- [02:01:24] aents, codeex will choose the one of
+- [02:01:24] aents, codeex will choose the one of these three or the combination of a
+- [02:01:27] these three or the combination of a
+- [02:01:27] these three or the combination of a couple of them which makes the most
+- [02:01:29] couple of them which makes the most
+- [02:01:29] couple of them which makes the most sense for whatever your application is.
+- [02:01:31] sense for whatever your application is.
+- [02:01:31] sense for whatever your application is. Now when you have some task that you
+- [02:01:33] Now when you have some task that you
+- [02:01:34] Now when you have some task that you repeat often, you can create your own
+- [02:01:37] repeat often, you can create your own
+- [02:01:37] repeat often, you can create your own custom sub agents to be able to use them
+- [02:01:40] custom sub agents to be able to use them
+- [02:01:40] custom sub agents to be able to use them in a repeatable way. So for example,
+- [02:01:43] in a repeatable way. So for example,
+- [02:01:43] in a repeatable way. So for example, here's a docs reviewer sub aent which
+- [02:01:47] here's a docs reviewer sub aent which
+- [02:01:47] here's a docs reviewer sub aent which reviews docs for accuracy and missing
+- [02:01:49] reviews docs for accuracy and missing
+- [02:01:49] reviews docs for accuracy and missing steps. And here's a set of developer
+- [02:01:52] steps. And here's a set of developer
+- [02:01:52] steps. And here's a set of developer instructions that are given to it. And
+- [02:01:54] instructions that are given to it. And
+- [02:01:54] instructions that are given to it. And so these three fields name, description,
+- [02:01:56] so these three fields name, description,
+- [02:01:56] so these three fields name, description, and developer instructions are required
+- [02:01:59] and developer instructions are required
+- [02:01:59] and developer instructions are required when you're working with sub aents with
+- [02:02:01] when you're working with sub aents with
+- [02:02:01] when you're working with sub aents with codecs. There are also other optional
+- [02:02:04] codecs. There are also other optional
+- [02:02:04] codecs. There are also other optional fields such as nickname candidates,
+- [02:02:06] fields such as nickname candidates,
+- [02:02:06] fields such as nickname candidates, model, model reasoning effort, so you
+- [02:02:09] model, model reasoning effort, so you
+- [02:02:09] model, model reasoning effort, so you should be familiar with these sandbox
+- [02:02:11] should be familiar with these sandbox
+- [02:02:11] should be familiar with these sandbox mode, MCP servers, all things that
+- [02:02:14] mode, MCP servers, all things that
+- [02:02:14] mode, MCP servers, all things that you've already learned about. And skills
+- [02:02:16] you've already learned about. And skills
+- [02:02:16] you've already learned about. And skills config to know what kind of skills for
+- [02:02:18] config to know what kind of skills for
+- [02:02:18] config to know what kind of skills for that sub agent to have access to. And so
+- [02:02:22] that sub agent to have access to. And so
+- [02:02:22] that sub agent to have access to. And so again, just to kind of emphasize the
+- [02:02:24] again, just to kind of emphasize the
+- [02:02:24] again, just to kind of emphasize the point, if you're working on parallel
+- [02:02:27] point, if you're working on parallel
+- [02:02:27] point, if you're working on parallel codebase research, great place to use
+- [02:02:29] codebase research, great place to use
+- [02:02:29] codebase research, great place to use sub aents. If you have independent
+- [02:02:33] sub aents. If you have independent
+- [02:02:33] sub aents. If you have independent documentation updates across many
+- [02:02:35] documentation updates across many
+- [02:02:35] documentation updates across many different parts of your documentation,
+- [02:02:37] different parts of your documentation,
+- [02:02:37] different parts of your documentation, another great place to use sub aents and
+- [02:02:40] another great place to use sub aents and
+- [02:02:40] another great place to use sub aents and I want to even say while implementation
+- [02:02:42] I want to even say while implementation
+- [02:02:42] I want to even say while implementation continues, but just for code review in
+- [02:02:44] continues, but just for code review in
+- [02:02:44] continues, but just for code review in general, a very nice trick is to define
+- [02:02:48] general, a very nice trick is to define
+- [02:02:48] general, a very nice trick is to define sub aents each of which are dedicated to
+- [02:02:52] sub aents each of which are dedicated to
+- [02:02:52] sub aents each of which are dedicated to studying a particular aspect of your
+- [02:02:55] studying a particular aspect of your
+- [02:02:55] studying a particular aspect of your code and reviewing it. So you may want
+- [02:02:57] code and reviewing it. So you may want
+- [02:02:57] code and reviewing it. So you may want to have one which is focused on
+- [02:02:59] to have one which is focused on
+- [02:02:59] to have one which is focused on security, one which is focused on
+- [02:03:01] security, one which is focused on
+- [02:03:02] security, one which is focused on architecture and another one which is
+- [02:03:04] architecture and another one which is
+- [02:03:04] architecture and another one which is focused on the efficiency of your
+- [02:03:06] focused on the efficiency of your
+- [02:03:06] focused on the efficiency of your database queries. That would be a great
+- [02:03:08] database queries. That would be a great
+- [02:03:08] database queries. That would be a great place in which to use sub aents. Now
+- [02:03:11] place in which to use sub aents. Now
+- [02:03:12] place in which to use sub aents. Now just like with skills, if you want to
+- [02:03:15] just like with skills, if you want to
+- [02:03:15] just like with skills, if you want to use these custom sub aents, you need to
+- [02:03:18] use these custom sub aents, you need to
+- [02:03:18] use these custom sub aents, you need to put them in your.codeex/
+- [02:03:21] put them in your.codeex/
+- [02:03:21] put them in your.codeex/ aents directory instead of
+- [02:03:23] aents directory instead of
+- [02:03:23] aents directory instead of your.codeex/skills
+- [02:03:25] your.codeex/skills
+- [02:03:25] your.codeex/skills directory. And they have to have a
+- [02:03:27] directory. And they have to have a
+- [02:03:27] directory. And they have to have a particular format called a toml format.
+- [02:03:31] particular format called a toml format.
+- [02:03:31] particular format called a toml format. TOML files look like this. And so here
+- [02:03:34] TOML files look like this. And so here
+- [02:03:34] TOML files look like this. And so here for example is a toml file for a python
+- [02:03:39] for example is a toml file for a python
+- [02:03:39] for example is a toml file for a python code reviewer sub aent. So I can zoom in
+- [02:03:42] code reviewer sub aent. So I can zoom in
+- [02:03:42] code reviewer sub aent. So I can zoom in a bit and you can see it's saying
+- [02:03:44] a bit and you can see it's saying
+- [02:03:44] a bit and you can see it's saying prioritize smallest safe changes that
+- [02:03:47] prioritize smallest safe changes that
+- [02:03:47] prioritize smallest safe changes that preserve established architecture
+- [02:03:49] preserve established architecture
+- [02:03:49] preserve established architecture quality checks etc. And so these kinds
+- [02:03:53] quality checks etc. And so these kinds
+- [02:03:53] quality checks etc. And so these kinds of things may be useful for you. Now as
+- [02:03:55] of things may be useful for you. Now as
+- [02:03:55] of things may be useful for you. Now as a practical exercise using these sub
+- [02:03:58] a practical exercise using these sub
+- [02:03:58] a practical exercise using these sub aents I wanted to try to use sub aents
+- [02:04:01] aents I wanted to try to use sub aents
+- [02:04:01] aents I wanted to try to use sub aents to understand a code base which I find
+- [02:04:04] to understand a code base which I find
+- [02:04:04] to understand a code base which I find very interesting and that's the code
+- [02:04:07] very interesting and that's the code
+- [02:04:07] very interesting and that's the code base of the pi coding agent. So if
+- [02:04:10] base of the pi coding agent. So if
+- [02:04:10] base of the pi coding agent. So if you're not familiar with pi it's a
+- [02:04:12] you're not familiar with pi it's a
+- [02:04:12] you're not familiar with pi it's a minimal coding agent just like codeex
+- [02:04:15] minimal coding agent just like codeex
+- [02:04:15] minimal coding agent just like codeex and claw coder coding agents which has
+- [02:04:17] and claw coder coding agents which has
+- [02:04:17] and claw coder coding agents which has been created by a fellow named Mario
+- [02:04:19] been created by a fellow named Mario
+- [02:04:19] been created by a fellow named Mario Zechner and I've heard lots of great
+- [02:04:21] Zechner and I've heard lots of great
+- [02:04:21] Zechner and I've heard lots of great things about it. I want to start
+- [02:04:24] things about it. I want to start
+- [02:04:24] things about it. I want to start experimenting with it and also build my
+- [02:04:27] experimenting with it and also build my
+- [02:04:27] experimenting with it and also build my own agents which build on top of it. So
+- [02:04:29] own agents which build on top of it. So
+- [02:04:29] own agents which build on top of it. So it's something I've been interested in
+- [02:04:31] it's something I've been interested in
+- [02:04:31] it's something I've been interested in understanding in more detail for a long
+- [02:04:34] understanding in more detail for a long
+- [02:04:34] understanding in more detail for a long time. And as you can see here, it's
+- [02:04:37] time. And as you can see here, it's
+- [02:04:37] time. And as you can see here, it's consists of about six different
+- [02:04:41] consists of about six different
+- [02:04:41] consists of about six different packages. So if I'm coming to this with
+- [02:04:43] packages. So if I'm coming to this with
+- [02:04:43] packages. So if I'm coming to this with no understanding of the repo, this is
+- [02:04:46] no understanding of the repo, this is
+- [02:04:46] no understanding of the repo, this is the type of situation for which sub
+- [02:04:48] the type of situation for which sub
+- [02:04:48] the type of situation for which sub aents are really appropriate and are
+- [02:04:50] aents are really appropriate and are
+- [02:04:50] aents are really appropriate and are exactly the kind of thing that you want
+- [02:04:52] exactly the kind of thing that you want
+- [02:04:52] exactly the kind of thing that you want to use. And so let me show you exactly
+- [02:04:55] to use. And so let me show you exactly
+- [02:04:55] to use. And so let me show you exactly how I would do this. I'm just going to
+- [02:04:56] how I would do this. I'm just going to
+- [02:04:56] how I would do this. I'm just going to copy this and I'll come back to codeex.
+- [02:04:59] copy this and I'll come back to codeex.
+- [02:04:59] copy this and I'll come back to codeex. Let me just open a new thread here. I'll
+- [02:05:01] Let me just open a new thread here. I'll
+- [02:05:01] Let me just open a new thread here. I'll paste this in and I'll say clone this
+- [02:05:05] paste this in and I'll say clone this
+- [02:05:05] paste this in and I'll say clone this out to temp. Then I want you to invoke
+- [02:05:10] out to temp. Then I want you to invoke
+- [02:05:10] out to temp. Then I want you to invoke sub agents each of whose purpose is to
+- [02:05:13] sub agents each of whose purpose is to
+- [02:05:13] sub agents each of whose purpose is to create an educational
+- [02:05:17] create an educational
+- [02:05:17] create an educational HTML file which helps me understand the
+- [02:05:21] HTML file which helps me understand the
+- [02:05:21] HTML file which helps me understand the basic idea of each module in this repo.
+- [02:05:26] basic idea of each module in this repo.
+- [02:05:26] basic idea of each module in this repo. I think there's like six or seven
+- [02:05:28] I think there's like six or seven
+- [02:05:28] I think there's like six or seven packages and how they relate to the
+- [02:05:31] packages and how they relate to the
+- [02:05:31] packages and how they relate to the other ones. But each sub agent should be
+- [02:05:33] other ones. But each sub agent should be
+- [02:05:33] other ones. But each sub agent should be primarily focused on its own package.
+- [02:05:35] primarily focused on its own package.
+- [02:05:36] primarily focused on its own package. And I know that there's a limit on how
+- [02:05:38] And I know that there's a limit on how
+- [02:05:38] And I know that there's a limit on how many sub agents you can use at once. So
+- [02:05:41] many sub agents you can use at once. So
+- [02:05:41] many sub agents you can use at once. So I want you to just choose the six or so
+- [02:05:45] I want you to just choose the six or so
+- [02:05:45] I want you to just choose the six or so most important packages to focus on. And
+- [02:05:47] most important packages to focus on. And
+- [02:05:47] most important packages to focus on. And so let's see how this goes. All right.
+- [02:05:50] so let's see how this goes. All right.
+- [02:05:50] so let's see how this goes. All right. So we can see here that six agents have
+- [02:05:54] So we can see here that six agents have
+- [02:05:54] So we can see here that six agents have been spawn. And when the agents are
+- [02:05:57] been spawn. And when the agents are
+- [02:05:57] been spawn. And when the agents are spawned, they get these like funky names
+- [02:06:00] spawned, they get these like funky names
+- [02:06:00] spawned, they get these like funky names I guess of mathematicians. But I see all
+- [02:06:02] I guess of mathematicians. But I see all
+- [02:06:02] I guess of mathematicians. But I see all sorts of other ones. So we've got
+- [02:06:04] sorts of other ones. So we've got
+- [02:06:04] sorts of other ones. So we've got Russell, Bertrren, Russell, Pascal,
+- [02:06:07] Russell, Bertrren, Russell, Pascal,
+- [02:06:07] Russell, Bertrren, Russell, Pascal, Wagner, Uklid, Galileo, Ramuna, John,
+- [02:06:10] Wagner, Uklid, Galileo, Ramuna, John,
+- [02:06:10] Wagner, Uklid, Galileo, Ramuna, John, and they've each been given like a set
+- [02:06:13] and they've each been given like a set
+- [02:06:13] and they've each been given like a set of instructions. You are working in this
+- [02:06:15] of instructions. You are working in this
+- [02:06:15] of instructions. You are working in this directory. You are not alone in the
+- [02:06:17] directory. You are not alone in the
+- [02:06:17] directory. You are not alone in the codebase. Other agents may write files.
+- [02:06:19] codebase. Other agents may write files.
+- [02:06:19] codebase. Other agents may write files. So only focus on this. And so it says
+- [02:06:21] So only focus on this. And so it says
+- [02:06:21] So only focus on this. And so it says these package agents are now running on
+- [02:06:23] these package agents are now running on
+- [02:06:23] these package agents are now running on these disjoint files. And so if we wait
+- [02:06:26] these disjoint files. And so if we wait
+- [02:06:26] these disjoint files. And so if we wait a few minutes, we'll get some response
+- [02:06:28] a few minutes, we'll get some response
+- [02:06:28] a few minutes, we'll get some response back and we'll be able to see what codec
+- [02:06:31] back and we'll be able to see what codec
+- [02:06:31] back and we'll be able to see what codec produced. Now, one thing to keep in mind
+- [02:06:32] produced. Now, one thing to keep in mind
+- [02:06:32] produced. Now, one thing to keep in mind is that when you're using these sub
+- [02:06:35] is that when you're using these sub
+- [02:06:35] is that when you're using these sub aents, it's true that they're not like
+- [02:06:37] aents, it's true that they're not like
+- [02:06:37] aents, it's true that they're not like affecting your current context, but they
+- [02:06:39] affecting your current context, but they
+- [02:06:39] affecting your current context, but they are going to affect your usage. And so,
+- [02:06:41] are going to affect your usage. And so,
+- [02:06:41] are going to affect your usage. And so, one of the reasons why Codeex doesn't
+- [02:06:43] one of the reasons why Codeex doesn't
+- [02:06:43] one of the reasons why Codeex doesn't tend to spawn up sub agents on its own
+- [02:06:46] tend to spawn up sub agents on its own
+- [02:06:46] tend to spawn up sub agents on its own is that if it did, that would really eat
+- [02:06:48] is that if it did, that would really eat
+- [02:06:48] is that if it did, that would really eat up your usage really quickly. And so,
+- [02:06:51] up your usage really quickly. And so,
+- [02:06:51] up your usage really quickly. And so, you want to use sub agents when they're
+- [02:06:53] you want to use sub agents when they're
+- [02:06:53] you want to use sub agents when they're appropriate. Don't shy away from them
+- [02:06:55] appropriate. Don't shy away from them
+- [02:06:55] appropriate. Don't shy away from them because they can really speed up how
+- [02:06:57] because they can really speed up how
+- [02:06:57] because they can really speed up how quickly you're able to do some things.
+- [02:06:59] quickly you're able to do some things.
+- [02:06:59] quickly you're able to do some things. But it is something to be aware of that
+- [02:07:01] But it is something to be aware of that
+- [02:07:01] But it is something to be aware of that heavy use of sub agents in general will
+- [02:07:03] heavy use of sub agents in general will
+- [02:07:03] heavy use of sub agents in general will use up your usage more quickly. All
+- [02:07:05] use up your usage more quickly. All
+- [02:07:05] use up your usage more quickly. All right. So sometimes some sub agents will
+- [02:07:08] right. So sometimes some sub agents will
+- [02:07:08] right. So sometimes some sub agents will finish earlier than others. So you can
+- [02:07:10] finish earlier than others. So you can
+- [02:07:10] finish earlier than others. So you can see that like some of these finished
+- [02:07:13] see that like some of these finished
+- [02:07:13] see that like some of these finished earlier and it's still waiting for these
+- [02:07:15] earlier and it's still waiting for these
+- [02:07:15] earlier and it's still waiting for these other three. All right, it finished. So
+- [02:07:17] other three. All right, it finished. So
+- [02:07:17] other three. All right, it finished. So let's check it out. Not sure if I showed
+- [02:07:19] let's check it out. Not sure if I showed
+- [02:07:19] let's check it out. Not sure if I showed you guys this feature, but you can open
+- [02:07:21] you guys this feature, but you can open
+- [02:07:21] you guys this feature, but you can open up stuff like in browsers directly here
+- [02:07:23] up stuff like in browsers directly here
+- [02:07:23] up stuff like in browsers directly here in the UI. Actually, I did show it to
+- [02:07:25] in the UI. Actually, I did show it to
+- [02:07:25] in the UI. Actually, I did show it to you when we made that website. So we got
+- [02:07:28] you when we made that website. So we got
+- [02:07:28] you when we made that website. So we got a guided index for understanding how
+- [02:07:30] a guided index for understanding how
+- [02:07:30] a guided index for understanding how they all fit together. The onesreen
+- [02:07:33] they all fit together. The onesreen
+- [02:07:33] they all fit together. The onesreen mental model. Okay. It says read these
+- [02:07:36] mental model. Okay. It says read these
+- [02:07:36] mental model. Okay. It says read these six first. So let's start with this one.
+- [02:07:39] six first. So let's start with this one.
+- [02:07:40] six first. So let's start with this one. Pi AI. I mean this is a pretty cool way
+- [02:07:44] Pi AI. I mean this is a pretty cool way
+- [02:07:44] Pi AI. I mean this is a pretty cool way to sort of get an overview of some
+- [02:07:47] to sort of get an overview of some
+- [02:07:47] to sort of get an overview of some package before you even start reading
+- [02:07:49] package before you even start reading
+- [02:07:50] package before you even start reading it. So you see it tells me the purpose
+- [02:07:52] it. So you see it tells me the purpose
+- [02:07:52] it. So you see it tells me the purpose gives me like a good mental model for
+- [02:07:55] gives me like a good mental model for
+- [02:07:55] gives me like a good mental model for the code base. tells me some key files
+- [02:07:57] the code base. tells me some key files
+- [02:07:57] the code base. tells me some key files to look at the data and control flow and
+- [02:08:01] to look at the data and control flow and
+- [02:08:01] to look at the data and control flow and then it even gives me this like code
+- [02:08:03] then it even gives me this like code
+- [02:08:03] then it even gives me this like code reading path to understand things in a
+- [02:08:06] reading path to understand things in a
+- [02:08:06] reading path to understand things in a particular order. And so this is exactly
+- [02:08:09] particular order. And so this is exactly
+- [02:08:09] particular order. And so this is exactly what I'm going to do when I want to
+- [02:08:11] what I'm going to do when I want to
+- [02:08:11] what I'm going to do when I want to understand this package in better
+- [02:08:13] understand this package in better
+- [02:08:13] understand this package in better detail. And in fact, if you're studying
+- [02:08:15] detail. And in fact, if you're studying
+- [02:08:15] detail. And in fact, if you're studying some unfamiliar codebase for the first
+- [02:08:17] some unfamiliar codebase for the first
+- [02:08:17] some unfamiliar codebase for the first time, this is a really good way to get
+- [02:08:19] time, this is a really good way to get
+- [02:08:19] time, this is a really good way to get up to speed. So we've now been through
+- [02:08:22] up to speed. So we've now been through
+- [02:08:22] up to speed. So we've now been through all of these five capabilities. So you
+- [02:08:25] all of these five capabilities. So you
+- [02:08:25] all of these five capabilities. So you got plugins, computer use, skills, MCPs,
+- [02:08:28] got plugins, computer use, skills, MCPs,
+- [02:08:28] got plugins, computer use, skills, MCPs, and sub Asians. And if you're anything
+- [02:08:30] and sub Asians. And if you're anything
+- [02:08:30] and sub Asians. And if you're anything like me, I would probably feel
+- [02:08:32] like me, I would probably feel
+- [02:08:32] like me, I would probably feel overwhelmed if this was my first time
+- [02:08:34] overwhelmed if this was my first time
+- [02:08:34] overwhelmed if this was my first time going through all of this material. It
+- [02:08:37] going through all of this material. It
+- [02:08:37] going through all of this material. It all kind of, you know, sometimes you
+- [02:08:39] all kind of, you know, sometimes you
+- [02:08:39] all kind of, you know, sometimes you understand a little bit, but then you
+- [02:08:40] understand a little bit, but then you
+- [02:08:40] understand a little bit, but then you forget some things. So, you know, feel
+- [02:08:42] forget some things. So, you know, feel
+- [02:08:42] forget some things. So, you know, feel free to go back through the course a few
+- [02:08:43] free to go back through the course a few
+- [02:08:43] free to go back through the course a few times, like pause, bookmark different
+- [02:08:46] times, like pause, bookmark different
+- [02:08:46] times, like pause, bookmark different sections. But what I want to do now is
+- [02:08:48] sections. But what I want to do now is
+- [02:08:48] sections. But what I want to do now is just give you a final broad overview of
+- [02:08:51] just give you a final broad overview of
+- [02:08:52] just give you a final broad overview of all of these tools and when to use one
+- [02:08:54] all of these tools and when to use one
+- [02:08:54] all of these tools and when to use one versus the other. So broadly here, often
+- [02:08:58] versus the other. So broadly here, often
+- [02:08:58] versus the other. So broadly here, often times what's appropriate to do is just
+- [02:09:00] times what's appropriate to do is just
+- [02:09:00] times what's appropriate to do is just to use a packaged capability. So you can
+- [02:09:03] to use a packaged capability. So you can
+- [02:09:03] to use a packaged capability. So you can use these plugins. In fact, that's what
+- [02:09:05] use these plugins. In fact, that's what
+- [02:09:05] use these plugins. In fact, that's what I recommend to you guys if you're
+- [02:09:06] I recommend to you guys if you're
+- [02:09:06] I recommend to you guys if you're getting started with codecs is just come
+- [02:09:09] getting started with codecs is just come
+- [02:09:09] getting started with codecs is just come to this plugins page, find something
+- [02:09:12] to this plugins page, find something
+- [02:09:12] to this plugins page, find something that looks useful, press plus, try to
+- [02:09:14] that looks useful, press plus, try to
+- [02:09:14] that looks useful, press plus, try to use it, and immediately get really great
+- [02:09:18] use it, and immediately get really great
+- [02:09:18] use it, and immediately get really great payoffs by being able to connect codeex
+- [02:09:21] payoffs by being able to connect codeex
+- [02:09:21] payoffs by being able to connect codeex directly to external systems. Now, once
+- [02:09:24] directly to external systems. Now, once
+- [02:09:24] directly to external systems. Now, once you've been using codecs for, let's say,
+- [02:09:27] you've been using codecs for, let's say,
+- [02:09:27] you've been using codecs for, let's say, a few days, or if you just want to get
+- [02:09:28] a few days, or if you just want to get
+- [02:09:28] a few days, or if you just want to get started earlier, the next thing I want
+- [02:09:31] started earlier, the next thing I want
+- [02:09:31] started earlier, the next thing I want you to go to is skills. And so skills
+- [02:09:34] you to go to is skills. And so skills
+- [02:09:34] you to go to is skills. And so skills are going to be using APIs, but they're
+- [02:09:38] are going to be using APIs, but they're
+- [02:09:38] are going to be using APIs, but they're really the most important thing that you
+- [02:09:41] really the most important thing that you
+- [02:09:41] really the most important thing that you could keep focusing on. I have a lot
+- [02:09:43] could keep focusing on. I have a lot
+- [02:09:43] could keep focusing on. I have a lot that I could say about skills past what
+- [02:09:45] that I could say about skills past what
+- [02:09:45] that I could say about skills past what I've said in the course. I probably have
+- [02:09:49] I've said in the course. I probably have
+- [02:09:49] I've said in the course. I probably have 100, 150, 200 different skills across
+- [02:09:52] 100, 150, 200 different skills across
+- [02:09:52] 100, 150, 200 different skills across all my projects. Some which I use on
+- [02:09:55] all my projects. Some which I use on
+- [02:09:55] all my projects. Some which I use on every project, most of which I only use
+- [02:09:57] every project, most of which I only use
+- [02:09:57] every project, most of which I only use on particular projects. And so in
+- [02:09:59] on particular projects. And so in
+- [02:09:59] on particular projects. And so in general skills are the one that I would
+- [02:10:02] general skills are the one that I would
+- [02:10:02] general skills are the one that I would recommend you focus on after plugins.
+- [02:10:05] recommend you focus on after plugins.
+- [02:10:06] recommend you focus on after plugins. Now sometimes skills may not be able to
+- [02:10:09] Now sometimes skills may not be able to
+- [02:10:09] Now sometimes skills may not be able to do everything or and so for example it's
+- [02:10:13] do everything or and so for example it's
+- [02:10:13] do everything or and so for example it's going to be very hard to have a skill
+- [02:10:15] going to be very hard to have a skill
+- [02:10:15] going to be very hard to have a skill which connects to your Spotify and then
+- [02:10:18] which connects to your Spotify and then
+- [02:10:18] which connects to your Spotify and then starts a playlist. That kind of thing or
+- [02:10:20] starts a playlist. That kind of thing or
+- [02:10:20] starts a playlist. That kind of thing or just anything where you need real
+- [02:10:23] just anything where you need real
+- [02:10:23] just anything where you need real browser or app control, you're going to
+- [02:10:25] browser or app control, you're going to
+- [02:10:25] browser or app control, you're going to want to use computer use. And so I like
+- [02:10:28] want to use computer use. And so I like
+- [02:10:28] want to use computer use. And so I like using computer use all the time. For
+- [02:10:29] using computer use all the time. For
+- [02:10:29] using computer use all the time. For example, like here I'm working on
+- [02:10:32] example, like here I'm working on
+- [02:10:32] example, like here I'm working on developing a mobile app and I have
+- [02:10:35] developing a mobile app and I have
+- [02:10:35] developing a mobile app and I have computer use come in and actually
+- [02:10:37] computer use come in and actually
+- [02:10:38] computer use come in and actually interact with this mobile app and see if
+- [02:10:40] interact with this mobile app and see if
+- [02:10:40] interact with this mobile app and see if things work properly. And so for that
+- [02:10:42] things work properly. And so for that
+- [02:10:42] things work properly. And so for that kind of thing, computer use is quite
+- [02:10:43] kind of thing, computer use is quite
+- [02:10:43] kind of thing, computer use is quite helpful. Now, this is a little bit of a
+- [02:10:47] helpful. Now, this is a little bit of a
+- [02:10:47] helpful. Now, this is a little bit of a misleading thing because when you need
+- [02:10:49] misleading thing because when you need
+- [02:10:50] misleading thing because when you need reliable external access, you can get
+- [02:10:52] reliable external access, you can get
+- [02:10:52] reliable external access, you can get that via a skill, but sometimes the API
+- [02:10:56] that via a skill, but sometimes the API
+- [02:10:56] that via a skill, but sometimes the API isn't available to you, like on the AI
+- [02:10:58] isn't available to you, like on the AI
+- [02:10:58] isn't available to you, like on the AI MBA Pro, because it's easier for me to
+- [02:11:01] MBA Pro, because it's easier for me to
+- [02:11:01] MBA Pro, because it's easier for me to just serve an MCP because those can be
+- [02:11:04] just serve an MCP because those can be
+- [02:11:04] just serve an MCP because those can be used immediately by people without
+- [02:11:06] used immediately by people without
+- [02:11:06] used immediately by people without really needing any additional setup. And
+- [02:11:08] really needing any additional setup. And
+- [02:11:08] really needing any additional setup. And so, they're very similar to plugins. In
+- [02:11:11] so, they're very similar to plugins. In
+- [02:11:11] so, they're very similar to plugins. In fact, plugins are often just built on
+- [02:11:13] fact, plugins are often just built on
+- [02:11:13] fact, plugins are often just built on top of MCPs. And finally, when in any of
+- [02:11:18] top of MCPs. And finally, when in any of
+- [02:11:18] top of MCPs. And finally, when in any of this stuff, like in a skill or sometimes
+- [02:11:20] this stuff, like in a skill or sometimes
+- [02:11:20] this stuff, like in a skill or sometimes even within plugins, you might package
+- [02:11:23] even within plugins, you might package
+- [02:11:23] even within plugins, you might package in sub agents because they help you
+- [02:11:25] in sub agents because they help you
+- [02:11:25] in sub agents because they help you parallelize things, but most of the time
+- [02:11:27] parallelize things, but most of the time
+- [02:11:27] parallelize things, but most of the time you yourself just when you see an
+- [02:11:30] you yourself just when you see an
+- [02:11:30] you yourself just when you see an opportunity to do things in parallel,
+- [02:11:32] opportunity to do things in parallel,
+- [02:11:32] opportunity to do things in parallel, it's a good opportunity to use a sub
+- [02:11:34] it's a good opportunity to use a sub
+- [02:11:34] it's a good opportunity to use a sub agent. Now an open question which we
+- [02:11:38] agent. Now an open question which we
+- [02:11:38] agent. Now an open question which we still haven't answered and which is
+- [02:11:40] still haven't answered and which is
+- [02:11:40] still haven't answered and which is going to kind of guide the direction of
+- [02:11:43] going to kind of guide the direction of
+- [02:11:43] going to kind of guide the direction of the rest of the course is when would you
+- [02:11:47] the rest of the course is when would you
+- [02:11:47] the rest of the course is when would you want to build a full web application or
+- [02:11:51] want to build a full web application or
+- [02:11:51] want to build a full web application or a mobile application and when might you
+- [02:11:54] a mobile application and when might you
+- [02:11:54] a mobile application and when might you best be served by instead just making a
+- [02:11:56] best be served by instead just making a
+- [02:11:56] best be served by instead just making a skill. Now obviously if you're serving
+- [02:11:59] skill. Now obviously if you're serving
+- [02:11:59] skill. Now obviously if you're serving clients and those clients want you to
+- [02:12:01] clients and those clients want you to
+- [02:12:01] clients and those clients want you to make a web app or you need to have a
+- [02:12:03] make a web app or you need to have a
+- [02:12:03] make a web app or you need to have a website something to present to the
+- [02:12:05] website something to present to the
+- [02:12:05] website something to present to the public you can't tell people oh hey have
+- [02:12:07] public you can't tell people oh hey have
+- [02:12:08] public you can't tell people oh hey have my skill and then you can use this API
+- [02:12:10] my skill and then you can use this API
+- [02:12:10] my skill and then you can use this API to connect via claude to my database and
+- [02:12:13] to connect via claude to my database and
+- [02:12:13] to connect via claude to my database and you'll know all about me right you need
+- [02:12:15] you'll know all about me right you need
+- [02:12:15] you'll know all about me right you need a website but in some situations it's
+- [02:12:18] a website but in some situations it's
+- [02:12:18] a website but in some situations it's not so obvious for a particular
+- [02:12:20] not so obvious for a particular
+- [02:12:20] not so obvious for a particular automation that you want to create
+- [02:12:22] automation that you want to create
+- [02:12:22] automation that you want to create whether you should be creating a skill
+- [02:12:24] whether you should be creating a skill
+- [02:12:24] whether you should be creating a skill versus an app. So let me get into that a
+- [02:12:26] versus an app. So let me get into that a
+- [02:12:26] versus an app. So let me get into that a little bit. So generally if you're okay
+- [02:12:30] little bit. So generally if you're okay
+- [02:12:30] little bit. So generally if you're okay with just getting text output as the
+- [02:12:33] with just getting text output as the
+- [02:12:33] with just getting text output as the deliverable of some kind of automation
+- [02:12:36] deliverable of some kind of automation
+- [02:12:36] deliverable of some kind of automation then a skill is enough. Now if you want
+- [02:12:39] then a skill is enough. Now if you want
+- [02:12:39] then a skill is enough. Now if you want some kind of regular visual review or
+- [02:12:42] some kind of regular visual review or
+- [02:12:42] some kind of regular visual review or some sort of visual interface in which
+- [02:12:45] some sort of visual interface in which
+- [02:12:45] some sort of visual interface in which to see the status of some application on
+- [02:12:48] to see the status of some application on
+- [02:12:48] to see the status of some application on a regular basis and you need to be able
+- [02:12:51] a regular basis and you need to be able
+- [02:12:51] a regular basis and you need to be able to access this from any location. then
+- [02:12:54] to access this from any location. then
+- [02:12:54] to access this from any location. then maybe you might need an app because it
+- [02:12:57] maybe you might need an app because it
+- [02:12:57] maybe you might need an app because it needs to live somewhere publicly. If you
+- [02:12:59] needs to live somewhere publicly. If you
+- [02:12:59] needs to live somewhere publicly. If you just need visual review, then as you
+- [02:13:02] just need visual review, then as you
+- [02:13:02] just need visual review, then as you saw, we can just spin up HTML locally,
+- [02:13:06] saw, we can just spin up HTML locally,
+- [02:13:06] saw, we can just spin up HTML locally, look at it like I did for that coding
+- [02:13:07] look at it like I did for that coding
+- [02:13:07] look at it like I did for that coding agent review, and that might work for
+- [02:13:09] agent review, and that might work for
+- [02:13:10] agent review, and that might work for you. So, this over here is not totally
+- [02:13:12] you. So, this over here is not totally
+- [02:13:12] you. So, this over here is not totally accurate because you can have state,
+- [02:13:15] accurate because you can have state,
+- [02:13:15] accurate because you can have state, meaning where you were at with a
+- [02:13:17] meaning where you were at with a
+- [02:13:17] meaning where you were at with a particular application, like seeing your
+- [02:13:19] particular application, like seeing your
+- [02:13:19] particular application, like seeing your last email that was reviewed, you can
+- [02:13:21] last email that was reviewed, you can
+- [02:13:21] last email that was reviewed, you can have that live locally on your computer
+- [02:13:24] have that live locally on your computer
+- [02:13:24] have that live locally on your computer as well. But if you need to collaborate
+- [02:13:26] as well. But if you need to collaborate
+- [02:13:26] as well. But if you need to collaborate with non-technical stakeholders, they're
+- [02:13:28] with non-technical stakeholders, they're
+- [02:13:28] with non-technical stakeholders, they're not going to be able to work with
+- [02:13:30] not going to be able to work with
+- [02:13:30] not going to be able to work with skills, at least yet until you train
+- [02:13:33] skills, at least yet until you train
+- [02:13:33] skills, at least yet until you train them. And so, maybe an app is going to
+- [02:13:35] them. And so, maybe an app is going to
+- [02:13:35] them. And so, maybe an app is going to be the best thing for you to create with
+- [02:13:37] be the best thing for you to create with
+- [02:13:37] be the best thing for you to create with codecs for whatever it is that you want
+- [02:13:39] codecs for whatever it is that you want
+- [02:13:39] codecs for whatever it is that you want to do. And so as an example to sort of
+- [02:13:41] to do. And so as an example to sort of
+- [02:13:41] to do. And so as an example to sort of think through this and which is going to
+- [02:13:43] think through this and which is going to
+- [02:13:43] think through this and which is going to be the web app which I'm going to make
+- [02:13:45] be the web app which I'm going to make
+- [02:13:45] be the web app which I'm going to make with codeex live here. Imagine that
+- [02:13:47] with codeex live here. Imagine that
+- [02:13:48] with codeex live here. Imagine that you'd create social media content and
+- [02:13:50] you'd create social media content and
+- [02:13:50] you'd create social media content and you wanted to be able to automate the
+- [02:13:52] you wanted to be able to automate the
+- [02:13:52] you wanted to be able to automate the creation of social media carousels.
+- [02:13:55] creation of social media carousels.
+- [02:13:55] creation of social media carousels. Okay. So these are some sort of web UI
+- [02:13:58] Okay. So these are some sort of web UI
+- [02:13:58] Okay. So these are some sort of web UI in which you're creating a image for
+- [02:14:01] in which you're creating a image for
+- [02:14:01] in which you're creating a image for social media. The optimal interface in
+- [02:14:04] social media. The optimal interface in
+- [02:14:04] social media. The optimal interface in which to work with this may require some
+- [02:14:07] which to work with this may require some
+- [02:14:07] which to work with this may require some visual judgment. fiddling things around,
+- [02:14:10] visual judgment. fiddling things around,
+- [02:14:10] visual judgment. fiddling things around, marking a particular social media asset
+- [02:14:13] marking a particular social media asset
+- [02:14:13] marking a particular social media asset as being done or not. And you can do
+- [02:14:15] as being done or not. And you can do
+- [02:14:15] as being done or not. And you can do that all with a skill, but often you're
+- [02:14:18] that all with a skill, but often you're
+- [02:14:18] that all with a skill, but often you're working on a team where everybody needs
+- [02:14:20] working on a team where everybody needs
+- [02:14:20] working on a team where everybody needs to be able to interact with this
+- [02:14:22] to be able to interact with this
+- [02:14:22] to be able to interact with this interface. And so this might be the kind
+- [02:14:25] interface. And so this might be the kind
+- [02:14:25] interface. And so this might be the kind of thing for which you would want to
+- [02:14:27] of thing for which you would want to
+- [02:14:27] of thing for which you would want to develop an app which has a canvas, which
+- [02:14:29] develop an app which has a canvas, which
+- [02:14:29] develop an app which has a canvas, which lives somewhere on the internet, which
+- [02:14:31] lives somewhere on the internet, which
+- [02:14:31] lives somewhere on the internet, which can store your brand kit and have
+- [02:14:33] can store your brand kit and have
+- [02:14:33] can store your brand kit and have drafts. And so this could very well live
+- [02:14:35] drafts. And so this could very well live
+- [02:14:36] drafts. And so this could very well live as a skill if you're working on it on
+- [02:14:38] as a skill if you're working on it on
+- [02:14:38] as a skill if you're working on it on your own, but with non-technical
+- [02:14:40] your own, but with non-technical
+- [02:14:40] your own, but with non-technical stakeholders, you'll definitely want to
+- [02:14:42] stakeholders, you'll definitely want to
+- [02:14:42] stakeholders, you'll definitely want to have this as a web app. Now, another
+- [02:14:45] have this as a web app. Now, another
+- [02:14:45] have this as a web app. Now, another common pattern, which honestly I think
+- [02:14:47] common pattern, which honestly I think
+- [02:14:47] common pattern, which honestly I think will be the one we end up implementing
+- [02:14:50] will be the one we end up implementing
+- [02:14:50] will be the one we end up implementing is to combine skills with apps. And so,
+- [02:14:52] is to combine skills with apps. And so,
+- [02:14:52] is to combine skills with apps. And so, for example, notion is an app. And if
+- [02:14:55] for example, notion is an app. And if
+- [02:14:55] for example, notion is an app. And if you build a skill on top of it, now
+- [02:14:57] you build a skill on top of it, now
+- [02:14:57] you build a skill on top of it, now you're combining skills and apps. And so
+- [02:15:00] you're combining skills and apps. And so
+- [02:15:00] you're combining skills and apps. And so similarly even with an app you build you
+- [02:15:02] similarly even with an app you build you
+- [02:15:02] similarly even with an app you build you might realize that the optimal workflow
+- [02:15:05] might realize that the optimal workflow
+- [02:15:05] might realize that the optimal workflow for like technical and non-technical
+- [02:15:07] for like technical and non-technical
+- [02:15:07] for like technical and non-technical stakeholders to work together is to
+- [02:15:10] stakeholders to work together is to
+- [02:15:10] stakeholders to work together is to create some kind of app with a skill. So
+- [02:15:13] create some kind of app with a skill. So
+- [02:15:13] create some kind of app with a skill. So one could imagine that you have some
+- [02:15:15] one could imagine that you have some
+- [02:15:15] one could imagine that you have some kind of command line interface which
+- [02:15:17] kind of command line interface which
+- [02:15:17] kind of command line interface which works with your database and then that
+- [02:15:19] works with your database and then that
+- [02:15:19] works with your database and then that results in things changing on your web
+- [02:15:21] results in things changing on your web
+- [02:15:21] results in things changing on your web app which is publicly available to
+- [02:15:23] app which is publicly available to
+- [02:15:23] app which is publicly available to everybody. Allows a human to then review
+- [02:15:26] everybody. Allows a human to then review
+- [02:15:26] everybody. Allows a human to then review what's happening on the web app. But
+- [02:15:28] what's happening on the web app. But
+- [02:15:28] what's happening on the web app. But it's some skill interacting via a
+- [02:15:30] it's some skill interacting via a
+- [02:15:30] it's some skill interacting via a command line interface with the database
+- [02:15:33] command line interface with the database
+- [02:15:33] command line interface with the database which is designating what kinds of text
+- [02:15:36] which is designating what kinds of text
+- [02:15:36] which is designating what kinds of text come up on the social media asset, what
+- [02:15:39] come up on the social media asset, what
+- [02:15:39] come up on the social media asset, what sorts of images are included on the
+- [02:15:41] sorts of images are included on the
+- [02:15:41] sorts of images are included on the social media asset, that kind of thing.
+- [02:15:44] social media asset, that kind of thing.
+- [02:15:44] social media asset, that kind of thing. Now, it may seem that creating this kind
+- [02:15:47] Now, it may seem that creating this kind
+- [02:15:47] Now, it may seem that creating this kind of web app is like mindblowingly
+- [02:15:49] of web app is like mindblowingly
+- [02:15:49] of web app is like mindblowingly difficult. And I'm going to show you in
+- [02:15:51] difficult. And I'm going to show you in
+- [02:15:51] difficult. And I'm going to show you in the rest of this course that it's not.
+- [02:15:53] the rest of this course that it's not.
+- [02:15:53] the rest of this course that it's not. You have to understand some things
+- [02:15:54] You have to understand some things
+- [02:15:54] You have to understand some things architecturally, and I'm going to help
+- [02:15:56] architecturally, and I'm going to help
+- [02:15:56] architecturally, and I'm going to help you through them. But you can kind of
+- [02:15:58] you through them. But you can kind of
+- [02:15:58] you through them. But you can kind of backfill knowledge over time and mostly
+- [02:16:02] backfill knowledge over time and mostly
+- [02:16:02] backfill knowledge over time and mostly rely on the intelligence of these models
+- [02:16:05] rely on the intelligence of these models
+- [02:16:05] rely on the intelligence of these models and these tools to help you build even
+- [02:16:07] and these tools to help you build even
+- [02:16:07] and these tools to help you build even quite complex applications. Now, one
+- [02:16:10] quite complex applications. Now, one
+- [02:16:10] quite complex applications. Now, one final thing I want to mention just to
+- [02:16:11] final thing I want to mention just to
+- [02:16:12] final thing I want to mention just to preface where we're going is that some
+- [02:16:14] preface where we're going is that some
+- [02:16:14] preface where we're going is that some sorts of things you may want to set up
+- [02:16:17] sorts of things you may want to set up
+- [02:16:17] sorts of things you may want to set up as automations. They're actually quite
+- [02:16:19] as automations. They're actually quite
+- [02:16:19] as automations. They're actually quite simple to set up. For example, you may
+- [02:16:22] simple to set up. For example, you may
+- [02:16:22] simple to set up. For example, you may want some kind of social media asset
+- [02:16:25] want some kind of social media asset
+- [02:16:25] want some kind of social media asset created in your application on a regular
+- [02:16:28] created in your application on a regular
+- [02:16:28] created in your application on a regular basis using some external data that gets
+- [02:16:31] basis using some external data that gets
+- [02:16:31] basis using some external data that gets loaded or using some kind of search to
+- [02:16:34] loaded or using some kind of search to
+- [02:16:34] loaded or using some kind of search to find information on the internet, grab
+- [02:16:37] find information on the internet, grab
+- [02:16:37] find information on the internet, grab it and then use that to create different
+- [02:16:39] it and then use that to create different
+- [02:16:39] it and then use that to create different kinds of social media assets, let's say
+- [02:16:41] kinds of social media assets, let's say
+- [02:16:41] kinds of social media assets, let's say for a news outlet. And to do that, the
+- [02:16:44] for a news outlet. And to do that, the
+- [02:16:44] for a news outlet. And to do that, the appropriate tool that codeex has for us
+- [02:16:47] appropriate tool that codeex has for us
+- [02:16:47] appropriate tool that codeex has for us is automations. So, I'll show you in a
+- [02:16:50] is automations. So, I'll show you in a
+- [02:16:50] is automations. So, I'll show you in a later section how to use these
+- [02:16:52] later section how to use these
+- [02:16:52] later section how to use these automations. But especially as we move
+- [02:16:55] automations. But especially as we move
+- [02:16:55] automations. But especially as we move out of doing stuff just by ourselves,
+- [02:16:58] out of doing stuff just by ourselves,
+- [02:16:58] out of doing stuff just by ourselves, building our own little skills, working
+- [02:17:00] building our own little skills, working
+- [02:17:00] building our own little skills, working on our own projects, and having to serve
+- [02:17:03] on our own projects, and having to serve
+- [02:17:03] on our own projects, and having to serve other people. Something that you're
+- [02:17:05] other people. Something that you're
+- [02:17:06] other people. Something that you're going to have to get familiar with is
+- [02:17:08] going to have to get familiar with is
+- [02:17:08] going to have to get familiar with is how to keep track of your work and keep
+- [02:17:11] how to keep track of your work and keep
+- [02:17:11] how to keep track of your work and keep track of different versions of your work
+- [02:17:13] track of different versions of your work
+- [02:17:14] track of different versions of your work in a typical software development life
+- [02:17:16] in a typical software development life
+- [02:17:16] in a typical software development life cycle. And so the tool that we use to do
+- [02:17:19] cycle. And so the tool that we use to do
+- [02:17:20] cycle. And so the tool that we use to do this is called Git and GitHub which
+- [02:17:23] this is called Git and GitHub which
+- [02:17:23] this is called Git and GitHub which you've already encountered many times.
+- [02:17:26] you've already encountered many times.
+- [02:17:26] you've already encountered many times. Now Git and GitHub may seem very complex
+- [02:17:30] Now Git and GitHub may seem very complex
+- [02:17:30] Now Git and GitHub may seem very complex especially if you've ever tried to use
+- [02:17:32] especially if you've ever tried to use
+- [02:17:32] especially if you've ever tried to use Git manually on your own, but coding
+- [02:17:35] Git manually on your own, but coding
+- [02:17:35] Git manually on your own, but coding agents are able to do a lot of the heavy
+- [02:17:37] agents are able to do a lot of the heavy
+- [02:17:37] agents are able to do a lot of the heavy lifting now. And so using both of these
+- [02:17:40] lifting now. And so using both of these
+- [02:17:40] lifting now. And so using both of these tools is way easier than it was in the
+- [02:17:43] tools is way easier than it was in the
+- [02:17:43] tools is way easier than it was in the past. But it is still extremely
+- [02:17:46] past. But it is still extremely
+- [02:17:46] past. But it is still extremely important to understand these tools
+- [02:17:48] important to understand these tools
+- [02:17:48] important to understand these tools conceptually because they're going to be
+- [02:17:50] conceptually because they're going to be
+- [02:17:50] conceptually because they're going to be very important for creating any kind of
+- [02:17:52] very important for creating any kind of
+- [02:17:52] very important for creating any kind of web app. It's impossible to do so
+- [02:17:54] web app. It's impossible to do so
+- [02:17:54] web app. It's impossible to do so otherwise. But also to learn how to
+- [02:17:57] otherwise. But also to learn how to
+- [02:17:57] otherwise. But also to learn how to start doing not just creating sub agents
+- [02:18:00] start doing not just creating sub agents
+- [02:18:00] start doing not just creating sub agents to do tasks in parallel, but to work on
+- [02:18:03] to do tasks in parallel, but to work on
+- [02:18:03] to do tasks in parallel, but to work on different aspects of a project in
+- [02:18:05] different aspects of a project in
+- [02:18:05] different aspects of a project in parallel. So that's what we're going to
+- [02:18:07] parallel. So that's what we're going to
+- [02:18:07] parallel. So that's what we're going to get to next. So what is git exactly?
+- [02:18:11] get to next. So what is git exactly?
+- [02:18:11] get to next. So what is git exactly? Well, typically when somebody new to
+- [02:18:14] Well, typically when somebody new to
+- [02:18:14] Well, typically when somebody new to computer programming or who is just
+- [02:18:16] computer programming or who is just
+- [02:18:16] computer programming or who is just typically working on word documents or
+- [02:18:18] typically working on word documents or
+- [02:18:18] typically working on word documents or whatever project, they'll make a change
+- [02:18:21] whatever project, they'll make a change
+- [02:18:21] whatever project, they'll make a change to a file and then they'll save it. And
+- [02:18:24] to a file and then they'll save it. And
+- [02:18:24] to a file and then they'll save it. And sometimes those applications will give
+- [02:18:26] sometimes those applications will give
+- [02:18:26] sometimes those applications will give you a way of going back to previous
+- [02:18:28] you a way of going back to previous
+- [02:18:28] you a way of going back to previous versions, but it's not perfect. You
+- [02:18:30] versions, but it's not perfect. You
+- [02:18:30] versions, but it's not perfect. You can't go back to every single previous
+- [02:18:32] can't go back to every single previous
+- [02:18:32] can't go back to every single previous version. You often can't see the exact
+- [02:18:35] version. You often can't see the exact
+- [02:18:35] version. You often can't see the exact difference in whatever files you made
+- [02:18:38] difference in whatever files you made
+- [02:18:38] difference in whatever files you made between one save versus another save.
+- [02:18:41] between one save versus another save.
+- [02:18:42] between one save versus another save. Git is a perfect interface for computers
+- [02:18:45] Git is a perfect interface for computers
+- [02:18:45] Git is a perfect interface for computers and also for humans to be able to see
+- [02:18:47] and also for humans to be able to see
+- [02:18:47] and also for humans to be able to see the exact set of changes made at every
+- [02:18:50] the exact set of changes made at every
+- [02:18:50] the exact set of changes made at every point in time to every file. So you're
+- [02:18:53] point in time to every file. So you're
+- [02:18:53] point in time to every file. So you're able to see a summary of every change
+- [02:18:57] able to see a summary of every change
+- [02:18:57] able to see a summary of every change which is created by you. You decide in
+- [02:19:00] which is created by you. You decide in
+- [02:19:00] which is created by you. You decide in this summary what to put in here or in
+- [02:19:03] this summary what to put in here or in
+- [02:19:03] this summary what to put in here or in the new era the coding agent is deciding
+- [02:19:06] the new era the coding agent is deciding
+- [02:19:06] the new era the coding agent is deciding what to put in the summary. But you can
+- [02:19:08] what to put in the summary. But you can
+- [02:19:08] what to put in the summary. But you can also see line by line for each file what
+- [02:19:12] also see line by line for each file what
+- [02:19:12] also see line by line for each file what change was made at every stage. And this
+- [02:19:14] change was made at every stage. And this
+- [02:19:14] change was made at every stage. And this is really important if you're working on
+- [02:19:18] is really important if you're working on
+- [02:19:18] is really important if you're working on anything involving code because you want
+- [02:19:21] anything involving code because you want
+- [02:19:21] anything involving code because you want to know, for example, if some bug has
+- [02:19:24] to know, for example, if some bug has
+- [02:19:24] to know, for example, if some bug has been introduced and you catch it a fair
+- [02:19:27] been introduced and you catch it a fair
+- [02:19:27] been introduced and you catch it a fair while on, what exact change in the code
+- [02:19:30] while on, what exact change in the code
+- [02:19:30] while on, what exact change in the code it was that introduced this bug. It also
+- [02:19:33] it was that introduced this bug. It also
+- [02:19:33] it was that introduced this bug. It also gives coding agents memory. So they're
+- [02:19:36] gives coding agents memory. So they're
+- [02:19:36] gives coding agents memory. So they're able to see what you were working on,
+- [02:19:38] able to see what you were working on,
+- [02:19:38] able to see what you were working on, what the most recent files are that
+- [02:19:40] what the most recent files are that
+- [02:19:40] what the most recent files are that you've been working on in a project,
+- [02:19:42] you've been working on in a project,
+- [02:19:42] you've been working on in a project, which ones are older files, because the
+- [02:19:44] which ones are older files, because the
+- [02:19:44] which ones are older files, because the date modified of a file, especially if
+- [02:19:47] date modified of a file, especially if
+- [02:19:47] date modified of a file, especially if you're copying and pasting things around
+- [02:19:49] you're copying and pasting things around
+- [02:19:49] you're copying and pasting things around or moving from one computer to another,
+- [02:19:51] or moving from one computer to another,
+- [02:19:51] or moving from one computer to another, is not a reliable indicator of the
+- [02:19:54] is not a reliable indicator of the
+- [02:19:54] is not a reliable indicator of the history of a project. But the Git
+- [02:19:56] history of a project. But the Git
+- [02:19:56] history of a project. But the Git repository can be that very reliable
+- [02:19:59] repository can be that very reliable
+- [02:19:59] repository can be that very reliable history of a project, which is very
+- [02:20:01] history of a project, which is very
+- [02:20:01] history of a project, which is very informative for coding agents. Now, one
+- [02:20:03] informative for coding agents. Now, one
+- [02:20:03] informative for coding agents. Now, one of the fundamental terms that you'll
+- [02:20:07] of the fundamental terms that you'll
+- [02:20:07] of the fundamental terms that you'll have to be familiar with is that of a
+- [02:20:09] have to be familiar with is that of a
+- [02:20:09] have to be familiar with is that of a commit. Committing is kind of like
+- [02:20:11] commit. Committing is kind of like
+- [02:20:11] commit. Committing is kind of like saving is what I was describing before.
+- [02:20:14] saving is what I was describing before.
+- [02:20:14] saving is what I was describing before. Each of these right here are commits. In
+- [02:20:17] Each of these right here are commits. In
+- [02:20:17] Each of these right here are commits. In a commit, you declare what was done by
+- [02:20:20] a commit, you declare what was done by
+- [02:20:20] a commit, you declare what was done by git and then git tracks under the hood
+- [02:20:23] git and then git tracks under the hood
+- [02:20:23] git and then git tracks under the hood the set of changes that has been done in
+- [02:20:26] the set of changes that has been done in
+- [02:20:26] the set of changes that has been done in a commit. And so one of the plugins that
+- [02:20:28] a commit. And so one of the plugins that
+- [02:20:28] a commit. And so one of the plugins that I keep referencing and which we're going
+- [02:20:30] I keep referencing and which we're going
+- [02:20:30] I keep referencing and which we're going to be talking about is this compound
+- [02:20:33] to be talking about is this compound
+- [02:20:33] to be talking about is this compound engineering plugin. And you can see here
+- [02:20:35] engineering plugin. And you can see here
+- [02:20:35] engineering plugin. And you can see here that the compound engineering plug-in
+- [02:20:38] that the compound engineering plug-in
+- [02:20:38] that the compound engineering plug-in has had 734
+- [02:20:40] has had 734
+- [02:20:40] has had 734 commits. So let's click on that. And so
+- [02:20:42] commits. So let's click on that. And so
+- [02:20:42] commits. So let's click on that. And so we see here a set of commits that has
+- [02:20:45] we see here a set of commits that has
+- [02:20:45] we see here a set of commits that has been created. And so let's take a look
+- [02:20:47] been created. And so let's take a look
+- [02:20:47] been created. And so let's take a look at one of them. And then here we can see
+- [02:20:50] at one of them. And then here we can see
+- [02:20:50] at one of them. And then here we can see the commit message which says restate
+- [02:20:53] the commit message which says restate
+- [02:20:53] the commit message which says restate model override at dispatch point. And we
+- [02:20:57] model override at dispatch point. And we
+- [02:20:57] model override at dispatch point. And we can see in this viewer in GitHub which
+- [02:21:00] can see in this viewer in GitHub which
+- [02:21:00] can see in this viewer in GitHub which I'll explain later exactly what the
+- [02:21:03] I'll explain later exactly what the
+- [02:21:03] I'll explain later exactly what the exact changes were that were made on
+- [02:21:06] exact changes were that were made on
+- [02:21:06] exact changes were that were made on particular lines in different files. And
+- [02:21:10] particular lines in different files. And
+- [02:21:10] particular lines in different files. And so especially when you're working
+- [02:21:12] so especially when you're working
+- [02:21:12] so especially when you're working collaboratively you want to see exactly
+- [02:21:14] collaboratively you want to see exactly
+- [02:21:14] collaboratively you want to see exactly what somebody has done. This kind of
+- [02:21:17] what somebody has done. This kind of
+- [02:21:17] what somebody has done. This kind of interface and this technology makes
+- [02:21:19] interface and this technology makes
+- [02:21:19] interface and this technology makes collaborating much easier. All right,
+- [02:21:21] collaborating much easier. All right,
+- [02:21:21] collaborating much easier. All right, what I want to get started on now is
+- [02:21:24] what I want to get started on now is
+- [02:21:24] what I want to get started on now is creating this web app in git just the
+- [02:21:28] creating this web app in git just the
+- [02:21:28] creating this web app in git just the beginnings of it to show you how git
+- [02:21:30] beginnings of it to show you how git
+- [02:21:30] beginnings of it to show you how git works in a practical way inside codeex
+- [02:21:33] works in a practical way inside codeex
+- [02:21:33] works in a practical way inside codeex even without having much theoretical
+- [02:21:35] even without having much theoretical
+- [02:21:35] even without having much theoretical understanding and what you're going to
+- [02:21:36] understanding and what you're going to
+- [02:21:36] understanding and what you're going to see is that you don't need a lot of
+- [02:21:38] see is that you don't need a lot of
+- [02:21:38] see is that you don't need a lot of theoretical understanding to get started
+- [02:21:40] theoretical understanding to get started
+- [02:21:40] theoretical understanding to get started with git. Now, just as context, I used
+- [02:21:42] with git. Now, just as context, I used
+- [02:21:42] with git. Now, just as context, I used to do a lot of consulting and product
+- [02:21:46] to do a lot of consulting and product
+- [02:21:46] to do a lot of consulting and product building in the local media space. If
+- [02:21:48] building in the local media space. If
+- [02:21:48] building in the local media space. If you look at a lot of my old content, I
+- [02:21:51] you look at a lot of my old content, I
+- [02:21:51] you look at a lot of my old content, I have this video here on how to automate
+- [02:21:53] have this video here on how to automate
+- [02:21:53] have this video here on how to automate a local newsletter with claw code, for
+- [02:21:55] a local newsletter with claw code, for
+- [02:21:55] a local newsletter with claw code, for example. And I was featured in this
+- [02:21:57] example. And I was featured in this
+- [02:21:58] example. And I was featured in this article from Neiman Labs about this
+- [02:22:01] article from Neiman Labs about this
+- [02:22:01] article from Neiman Labs about this concept of local newsletters where
+- [02:22:03] concept of local newsletters where
+- [02:22:03] concept of local newsletters where individual entrepreneurs are sort of
+- [02:22:06] individual entrepreneurs are sort of
+- [02:22:06] individual entrepreneurs are sort of creating local media outlets in their
+- [02:22:08] creating local media outlets in their
+- [02:22:08] creating local media outlets in their particular areas. And so here's one from
+- [02:22:11] particular areas. And so here's one from
+- [02:22:11] particular areas. And so here's one from a friend of mine, Jast Singh. It's very
+- [02:22:13] a friend of mine, Jast Singh. It's very
+- [02:22:13] a friend of mine, Jast Singh. It's very successful. And you'll see that he's got
+- [02:22:16] successful. And you'll see that he's got
+- [02:22:16] successful. And you'll see that he's got like this kind of social media content,
+- [02:22:19] like this kind of social media content,
+- [02:22:19] like this kind of social media content, these carousels, like 10 Winnipeg events
+- [02:22:21] these carousels, like 10 Winnipeg events
+- [02:22:21] these carousels, like 10 Winnipeg events to add to your calendar this week. And
+- [02:22:24] to add to your calendar this week. And
+- [02:22:24] to add to your calendar this week. And so what I want to do with this web app
+- [02:22:27] so what I want to do with this web app
+- [02:22:27] so what I want to do with this web app is see if I can automate the creation of
+- [02:22:30] is see if I can automate the creation of
+- [02:22:30] is see if I can automate the creation of these kinds of carousels. And so I'm
+- [02:22:32] these kinds of carousels. And so I'm
+- [02:22:32] these kinds of carousels. And so I'm going to go here. I'm going to say
+- [02:22:34] going to go here. I'm going to say
+- [02:22:34] going to go here. I'm going to say create start from scratch. Or actually,
+- [02:22:36] create start from scratch. Or actually,
+- [02:22:36] create start from scratch. Or actually, let me how to create an existing folder.
+- [02:22:38] let me how to create an existing folder.
+- [02:22:38] let me how to create an existing folder. I'll come here to projects. I'll say uh
+- [02:22:41] I'll come here to projects. I'll say uh
+- [02:22:42] I'll come here to projects. I'll say uh carousel automation
+- [02:22:44] carousel automation
+- [02:22:44] carousel automation app create open. Okay, great. Let me
+- [02:22:47] app create open. Okay, great. Let me
+- [02:22:47] app create open. Okay, great. Let me remove that one. And now I'm just going
+- [02:22:49] remove that one. And now I'm just going
+- [02:22:49] remove that one. And now I'm just going to describe this project that I'm going
+- [02:22:51] to describe this project that I'm going
+- [02:22:51] to describe this project that I'm going to make to codeex. So let's actually use
+- [02:22:54] to make to codeex. So let's actually use
+- [02:22:54] to make to codeex. So let's actually use this voice input. I want to create a
+- [02:22:57] this voice input. I want to create a
+- [02:22:57] this voice input. I want to create a readme for a new application which I'm
+- [02:23:02] readme for a new application which I'm
+- [02:23:02] readme for a new application which I'm going to get started with for automating
+- [02:23:05] going to get started with for automating
+- [02:23:05] going to get started with for automating the creation of carousels on Instagram
+- [02:23:10] the creation of carousels on Instagram
+- [02:23:10] the creation of carousels on Instagram primarily initially but not exclusively
+- [02:23:13] primarily initially but not exclusively
+- [02:23:13] primarily initially but not exclusively for local newsletters or local media
+- [02:23:15] for local newsletters or local media
+- [02:23:16] for local newsletters or local media outlets. We want to create content of
+- [02:23:18] outlets. We want to create content of
+- [02:23:18] outlets. We want to create content of the type top 10 events in city. So
+- [02:23:21] the type top 10 events in city. So
+- [02:23:21] the type top 10 events in city. So again, this is just a very basic
+- [02:23:23] again, this is just a very basic
+- [02:23:23] again, this is just a very basic framework and I want you to create the
+- [02:23:25] framework and I want you to create the
+- [02:23:25] framework and I want you to create the readme. So let me transcribe that going
+- [02:23:28] readme. So let me transcribe that going
+- [02:23:28] readme. So let me transcribe that going to send. All right. So it's created a
+- [02:23:30] to send. All right. So it's created a
+- [02:23:30] to send. All right. So it's created a readme. Let's take a look at it just so
+- [02:23:33] readme. Let's take a look at it just so
+- [02:23:33] readme. Let's take a look at it just so you can see what this is going to be.
+- [02:23:35] you can see what this is going to be.
+- [02:23:35] you can see what this is going to be. Again, we haven't created an
+- [02:23:36] Again, we haven't created an
+- [02:23:36] Again, we haven't created an application. We're just creating this
+- [02:23:39] application. We're just creating this
+- [02:23:39] application. We're just creating this file at the root of the project
+- [02:23:41] file at the root of the project
+- [02:23:41] file at the root of the project directory that describes in an initial
+- [02:23:45] directory that describes in an initial
+- [02:23:45] directory that describes in an initial idea of what this application may turn
+- [02:23:48] idea of what this application may turn
+- [02:23:48] idea of what this application may turn out to be. But now what I'd like to do
+- [02:23:50] out to be. But now what I'd like to do
+- [02:23:50] out to be. But now what I'd like to do is save this. Like obviously this file
+- [02:23:53] is save this. Like obviously this file
+- [02:23:53] is save this. Like obviously this file is saved on my file system, but I want
+- [02:23:55] is saved on my file system, but I want
+- [02:23:55] is saved on my file system, but I want to save it inside the git system. Before
+- [02:23:58] to save it inside the git system. Before
+- [02:23:58] to save it inside the git system. Before we use git, we need to make sure it's
+- [02:24:00] we use git, we need to make sure it's
+- [02:24:00] we use git, we need to make sure it's actually installed on our computers. So
+- [02:24:03] actually installed on our computers. So
+- [02:24:03] actually installed on our computers. So let me show you how to do that. First,
+- [02:24:05] let me show you how to do that. First,
+- [02:24:05] let me show you how to do that. First, you should have already installed at a
+- [02:24:07] you should have already installed at a
+- [02:24:07] you should have already installed at a prior step this true brew. If you
+- [02:24:10] prior step this true brew. If you
+- [02:24:10] prior step this true brew. If you haven't, go to brew.sh and install it.
+- [02:24:13] haven't, go to brew.sh and install it.
+- [02:24:13] haven't, go to brew.sh and install it. Then copy this command. Come over here,
+- [02:24:16] Then copy this command. Come over here,
+- [02:24:16] Then copy this command. Come over here, type in command J, paste it in, and
+- [02:24:19] type in command J, paste it in, and
+- [02:24:19] type in command J, paste it in, and press enter. And that will install git.
+- [02:24:21] press enter. And that will install git.
+- [02:24:22] press enter. And that will install git. Next, similarly, we'll want to install
+- [02:24:24] Next, similarly, we'll want to install
+- [02:24:24] Next, similarly, we'll want to install this tool for the GitHub command line
+- [02:24:27] this tool for the GitHub command line
+- [02:24:27] this tool for the GitHub command line interface, which codeex will use to
+- [02:24:30] interface, which codeex will use to
+- [02:24:30] interface, which codeex will use to communicate with GitHub. And so you just
+- [02:24:32] communicate with GitHub. And so you just
+- [02:24:32] communicate with GitHub. And so you just come back, put the same command in here,
+- [02:24:35] come back, put the same command in here,
+- [02:24:35] come back, put the same command in here, press enter, and then finally you'll
+- [02:24:37] press enter, and then finally you'll
+- [02:24:38] press enter, and then finally you'll have one last step that you'll have to
+- [02:24:39] have one last step that you'll have to
+- [02:24:39] have one last step that you'll have to do, which is type in gh login and press
+- [02:24:45] do, which is type in gh login and press
+- [02:24:45] do, which is type in gh login and press enter. It'll ask you where you use
+- [02:24:47] enter. It'll ask you where you use
+- [02:24:47] enter. It'll ask you where you use GitHub. You say github.com. You should
+- [02:24:50] GitHub. You say github.com. You should
+- [02:24:50] GitHub. You say github.com. You should say https
+- [02:24:52] say https
+- [02:24:52] say https and login with the web browser. Then you
+- [02:24:54] and login with the web browser. Then you
+- [02:24:54] and login with the web browser. Then you press enter again. You come here. You
+- [02:24:57] press enter again. You come here. You
+- [02:24:57] press enter again. You come here. You say continue. It's going to ask you for
+- [02:24:59] say continue. It's going to ask you for
+- [02:24:59] say continue. It's going to ask you for this one-time passcode. So, I'm just
+- [02:25:00] this one-time passcode. So, I'm just
+- [02:25:00] this one-time passcode. So, I'm just going to copy that, paste it in, press
+- [02:25:03] going to copy that, paste it in, press
+- [02:25:03] going to copy that, paste it in, press enter, say authorize, put in your
+- [02:25:06] enter, say authorize, put in your
+- [02:25:06] enter, say authorize, put in your password if it requires it there, and
+- [02:25:08] password if it requires it there, and
+- [02:25:08] password if it requires it there, and now you're authenticated. And so, that's
+- [02:25:10] now you're authenticated. And so, that's
+- [02:25:10] now you're authenticated. And so, that's going to be very helpful for codeex to
+- [02:25:13] going to be very helpful for codeex to
+- [02:25:13] going to be very helpful for codeex to be able to automatically do some kinds
+- [02:25:15] be able to automatically do some kinds
+- [02:25:15] be able to automatically do some kinds of operations against git. And so, what
+- [02:25:18] of operations against git. And so, what
+- [02:25:18] of operations against git. And so, what I'm going to ask now is, can you make an
+- [02:25:23] I'm going to ask now is, can you make an
+- [02:25:23] I'm going to ask now is, can you make an initial commit? And so what codeex is
+- [02:25:26] initial commit? And so what codeex is
+- [02:25:26] initial commit? And so what codeex is going to do now is probably look to see
+- [02:25:30] going to do now is probably look to see
+- [02:25:30] going to do now is probably look to see if there's even a git repository. There
+- [02:25:32] if there's even a git repository. There
+- [02:25:32] if there's even a git repository. There isn't. And so it's going to use this
+- [02:25:34] isn't. And so it's going to use this
+- [02:25:34] isn't. And so it's going to use this command get init to initialize a
+- [02:25:37] command get init to initialize a
+- [02:25:37] command get init to initialize a repository. You don't need to know that
+- [02:25:39] repository. You don't need to know that
+- [02:25:39] repository. You don't need to know that command. Codeex can do it for you. Once
+- [02:25:41] command. Codeex can do it for you. Once
+- [02:25:41] command. Codeex can do it for you. Once it's done that, it's going to add this
+- [02:25:44] it's done that, it's going to add this
+- [02:25:44] it's done that, it's going to add this file to what's called the staging area,
+- [02:25:47] file to what's called the staging area,
+- [02:25:47] file to what's called the staging area, the set of potential files that are set
+- [02:25:50] the set of potential files that are set
+- [02:25:50] the set of potential files that are set to be committed, and then it's going to
+- [02:25:52] to be committed, and then it's going to
+- [02:25:52] to be committed, and then it's going to commit them. So now if we toggle this
+- [02:25:56] commit them. So now if we toggle this
+- [02:25:56] commit them. So now if we toggle this side panel and click here, we'll see
+- [02:25:58] side panel and click here, we'll see
+- [02:25:58] side panel and click here, we'll see this thing that says review. And so if
+- [02:26:00] this thing that says review. And so if
+- [02:26:00] this thing that says review. And so if you come here, you can see four
+- [02:26:02] you come here, you can see four
+- [02:26:02] you come here, you can see four different options that pop up. There's
+- [02:26:04] different options that pop up. There's
+- [02:26:04] different options that pop up. There's unstaged, meaning files that are not
+- [02:26:07] unstaged, meaning files that are not
+- [02:26:07] unstaged, meaning files that are not designated yet to be committed. There's
+- [02:26:10] designated yet to be committed. There's
+- [02:26:10] designated yet to be committed. There's staged files that are designated to be
+- [02:26:12] staged files that are designated to be
+- [02:26:12] staged files that are designated to be committed. And so there's nothing here
+- [02:26:14] committed. And so there's nothing here
+- [02:26:14] committed. And so there's nothing here because we already moved from staged to
+- [02:26:16] because we already moved from staged to
+- [02:26:16] because we already moved from staged to unstaged. And then there's this one,
+- [02:26:18] unstaged. And then there's this one,
+- [02:26:18] unstaged. And then there's this one, which is last turn, which I find kind of
+- [02:26:20] which is last turn, which I find kind of
+- [02:26:20] which is last turn, which I find kind of helpful. And this helps you see in the
+- [02:26:23] helpful. And this helps you see in the
+- [02:26:23] helpful. And this helps you see in the very last commit what is the set of
+- [02:26:25] very last commit what is the set of
+- [02:26:25] very last commit what is the set of changes that was made. And so since we
+- [02:26:27] changes that was made. And so since we
+- [02:26:27] changes that was made. And so since we started at a completely new repository
+- [02:26:30] started at a completely new repository
+- [02:26:30] started at a completely new repository everything here is new. Now something to
+- [02:26:33] everything here is new. Now something to
+- [02:26:33] everything here is new. Now something to keep in mind is that if this is the
+- [02:26:34] keep in mind is that if this is the
+- [02:26:34] keep in mind is that if this is the extent of everything you ever learn with
+- [02:26:36] extent of everything you ever learn with
+- [02:26:36] extent of everything you ever learn with gits with codecs you can get pretty far.
+- [02:26:39] gits with codecs you can get pretty far.
+- [02:26:39] gits with codecs you can get pretty far. You can just keep committing and once I
+- [02:26:41] You can just keep committing and once I
+- [02:26:41] You can just keep committing and once I introduce to you one last concept which
+- [02:26:44] introduce to you one last concept which
+- [02:26:44] introduce to you one last concept which is pushing that may be all you need.
+- [02:26:47] is pushing that may be all you need.
+- [02:26:47] is pushing that may be all you need. There's going to be more advanced things
+- [02:26:49] There's going to be more advanced things
+- [02:26:49] There's going to be more advanced things I talk about like branches and work
+- [02:26:51] I talk about like branches and work
+- [02:26:52] I talk about like branches and work trees and pull requests and those are
+- [02:26:53] trees and pull requests and those are
+- [02:26:53] trees and pull requests and those are very helpful for a lot of people. But
+- [02:26:55] very helpful for a lot of people. But
+- [02:26:55] very helpful for a lot of people. But you can also get pretty far just with
+- [02:26:57] you can also get pretty far just with
+- [02:26:57] you can also get pretty far just with this level of knowledge. And so right
+- [02:26:59] this level of knowledge. And so right
+- [02:26:59] this level of knowledge. And so right now this repository that we've created
+- [02:27:02] now this repository that we've created
+- [02:27:02] now this repository that we've created exists as a set of hidden files on your
+- [02:27:05] exists as a set of hidden files on your
+- [02:27:05] exists as a set of hidden files on your file system. So let me show that to you.
+- [02:27:07] file system. So let me show that to you.
+- [02:27:07] file system. So let me show that to you. If you go here to the file explorer, you
+- [02:27:10] If you go here to the file explorer, you
+- [02:27:10] If you go here to the file explorer, you don't see these git files because
+- [02:27:12] don't see these git files because
+- [02:27:12] don't see these git files because they're hidden files. But if you look
+- [02:27:15] they're hidden files. But if you look
+- [02:27:15] they're hidden files. But if you look here in this little tool I have that
+- [02:27:18] here in this little tool I have that
+- [02:27:18] here in this little tool I have that helps you see all the files, there is
+- [02:27:20] helps you see all the files, there is
+- [02:27:20] helps you see all the files, there is this folder here under the hood
+- [02:27:22] this folder here under the hood
+- [02:27:22] this folder here under the hood called.git. And inside it, there's all
+- [02:27:25] called.git. And inside it, there's all
+- [02:27:25] called.git. And inside it, there's all sorts of fancy computer stuff happening
+- [02:27:27] sorts of fancy computer stuff happening
+- [02:27:27] sorts of fancy computer stuff happening that you don't really need to know
+- [02:27:28] that you don't really need to know
+- [02:27:28] that you don't really need to know about, but which does exist. And so it's
+- [02:27:30] about, but which does exist. And so it's
+- [02:27:30] about, but which does exist. And so it's that.git file that sort of defines this
+- [02:27:34] that.git file that sort of defines this
+- [02:27:34] that.git file that sort of defines this repository. Now what I want to do
+- [02:27:36] repository. Now what I want to do
+- [02:27:36] repository. Now what I want to do practically is now get this repository
+- [02:27:39] practically is now get this repository
+- [02:27:39] practically is now get this repository on GitHub. So how do you do that? just
+- [02:27:42] on GitHub. So how do you do that? just
+- [02:27:42] on GitHub. So how do you do that? just ask it, can you create a private GitHub
+- [02:27:46] ask it, can you create a private GitHub
+- [02:27:46] ask it, can you create a private GitHub repository for me? That's it. And so
+- [02:27:49] repository for me? That's it. And so
+- [02:27:49] repository for me? That's it. And so what it's going to do now is use this
+- [02:27:52] what it's going to do now is use this
+- [02:27:52] what it's going to do now is use this tool gh to create a private repo on
+- [02:27:56] tool gh to create a private repo on
+- [02:27:56] tool gh to create a private repo on GitHub. Now on GitHub, you can have
+- [02:27:58] GitHub. Now on GitHub, you can have
+- [02:27:58] GitHub. Now on GitHub, you can have either public or private repositories.
+- [02:28:02] either public or private repositories.
+- [02:28:02] either public or private repositories. And I want to have a private repo cuz I
+- [02:28:05] And I want to have a private repo cuz I
+- [02:28:05] And I want to have a private repo cuz I don't want all of you going and stealing
+- [02:28:07] don't want all of you going and stealing
+- [02:28:07] don't want all of you going and stealing my intellectual property with which I'm
+- [02:28:09] my intellectual property with which I'm
+- [02:28:09] my intellectual property with which I'm going to become a trillionaire, you
+- [02:28:12] going to become a trillionaire, you
+- [02:28:12] going to become a trillionaire, you know, selling this software that nobody
+- [02:28:14] know, selling this software that nobody
+- [02:28:14] know, selling this software that nobody else obviously can replicate to every
+- [02:28:17] else obviously can replicate to every
+- [02:28:17] else obviously can replicate to every media publication in the world. Lots of
+- [02:28:19] media publication in the world. Lots of
+- [02:28:19] media publication in the world. Lots of social value being created live right
+- [02:28:21] social value being created live right
+- [02:28:21] social value being created live right here. Now if I click this and go here,
+- [02:28:23] here. Now if I click this and go here,
+- [02:28:24] here. Now if I click this and go here, we see now that on GitHub this
+- [02:28:27] we see now that on GitHub this
+- [02:28:27] we see now that on GitHub this repository exists and it's the same text
+- [02:28:30] repository exists and it's the same text
+- [02:28:30] repository exists and it's the same text that you saw before on my computer but
+- [02:28:33] that you saw before on my computer but
+- [02:28:33] that you saw before on my computer but now it's here on GitHub. Now there are
+- [02:28:36] now it's here on GitHub. Now there are
+- [02:28:36] now it's here on GitHub. Now there are other fundamental concepts which you
+- [02:28:38] other fundamental concepts which you
+- [02:28:38] other fundamental concepts which you should use and be aware of and one of
+- [02:28:41] should use and be aware of and one of
+- [02:28:41] should use and be aware of and one of these is branching. So we're going to do
+- [02:28:43] these is branching. So we're going to do
+- [02:28:43] these is branching. So we're going to do this practically later but I want you to
+- [02:28:46] this practically later but I want you to
+- [02:28:46] this practically later but I want you to be aware of it. Essentially, sometimes
+- [02:28:49] be aware of it. Essentially, sometimes
+- [02:28:49] be aware of it. Essentially, sometimes you may have an experiment or a new
+- [02:28:51] you may have an experiment or a new
+- [02:28:52] you may have an experiment or a new feature, something you want to try out,
+- [02:28:54] feature, something you want to try out,
+- [02:28:54] feature, something you want to try out, but you're not sure yet what the final
+- [02:28:56] but you're not sure yet what the final
+- [02:28:56] but you're not sure yet what the final state of this thing is going to be. And
+- [02:28:58] state of this thing is going to be. And
+- [02:28:58] state of this thing is going to be. And in this case, instead of working
+- [02:29:00] in this case, instead of working
+- [02:29:00] in this case, instead of working linearly in the same history, typically
+- [02:29:04] linearly in the same history, typically
+- [02:29:04] linearly in the same history, typically on a main branch, you can start a
+- [02:29:07] on a main branch, you can start a
+- [02:29:07] on a main branch, you can start a distinct sort of historical state called
+- [02:29:10] distinct sort of historical state called
+- [02:29:10] distinct sort of historical state called another branch, which maybe you'll name
+- [02:29:13] another branch, which maybe you'll name
+- [02:29:13] another branch, which maybe you'll name something like codeex/appbrief.
+- [02:29:16] something like codeex/appbrief.
+- [02:29:16] something like codeex/appbrief. And the benefit of doing this is if you
+- [02:29:18] And the benefit of doing this is if you
+- [02:29:18] And the benefit of doing this is if you decide that look, this thing isn't
+- [02:29:20] decide that look, this thing isn't
+- [02:29:20] decide that look, this thing isn't working out, you can always just scratch
+- [02:29:23] working out, you can always just scratch
+- [02:29:23] working out, you can always just scratch this branch and come back right here to
+- [02:29:26] this branch and come back right here to
+- [02:29:26] this branch and come back right here to your main branch where you left off. If
+- [02:29:29] your main branch where you left off. If
+- [02:29:29] your main branch where you left off. If you decide instead, hey, this thing is
+- [02:29:31] you decide instead, hey, this thing is
+- [02:29:31] you decide instead, hey, this thing is working. What you're able to do is
+- [02:29:34] working. What you're able to do is
+- [02:29:34] working. What you're able to do is something called a merge where you take
+- [02:29:36] something called a merge where you take
+- [02:29:36] something called a merge where you take all this history and you basically will
+- [02:29:38] all this history and you basically will
+- [02:29:38] all this history and you basically will just append it onto the main branch's
+- [02:29:41] just append it onto the main branch's
+- [02:29:41] just append it onto the main branch's history. And if you're building some
+- [02:29:43] history. And if you're building some
+- [02:29:43] history. And if you're building some kind of web application, what's typical
+- [02:29:45] kind of web application, what's typical
+- [02:29:46] kind of web application, what's typical is that you'll have all sorts of
+- [02:29:47] is that you'll have all sorts of
+- [02:29:47] is that you'll have all sorts of branches for many features, but you have
+- [02:29:50] branches for many features, but you have
+- [02:29:50] branches for many features, but you have sort of a continuous deployment setup by
+- [02:29:53] sort of a continuous deployment setup by
+- [02:29:53] sort of a continuous deployment setup by which on GitHub when some change is made
+- [02:29:56] which on GitHub when some change is made
+- [02:29:56] which on GitHub when some change is made to the main branch, that triggers off a
+- [02:29:59] to the main branch, that triggers off a
+- [02:29:59] to the main branch, that triggers off a deployment of your web application. So
+- [02:30:02] deployment of your web application. So
+- [02:30:02] deployment of your web application. So for now, I just want you to know that
+- [02:30:03] for now, I just want you to know that
+- [02:30:03] for now, I just want you to know that this thing exists and you're going to
+- [02:30:05] this thing exists and you're going to
+- [02:30:05] this thing exists and you're going to see it in practice probably in the next
+- [02:30:07] see it in practice probably in the next
+- [02:30:07] see it in practice probably in the next few sections. And so the typical flow
+- [02:30:10] few sections. And so the typical flow
+- [02:30:10] few sections. And so the typical flow which again just prefacing what's to
+- [02:30:12] which again just prefacing what's to
+- [02:30:12] which again just prefacing what's to come is that you create a branch. Then
+- [02:30:15] come is that you create a branch. Then
+- [02:30:15] come is that you create a branch. Then with that branch you make what's called
+- [02:30:17] with that branch you make what's called
+- [02:30:17] with that branch you make what's called a pull request. So if we come in here to
+- [02:30:20] a pull request. So if we come in here to
+- [02:30:20] a pull request. So if we come in here to compound engineering for example, you'll
+- [02:30:23] compound engineering for example, you'll
+- [02:30:23] compound engineering for example, you'll see that there's this thing here called
+- [02:30:25] see that there's this thing here called
+- [02:30:26] see that there's this thing here called pull requests. And so these are all
+- [02:30:29] pull requests. And so these are all
+- [02:30:29] pull requests. And so these are all suggestions of new features to add to
+- [02:30:31] suggestions of new features to add to
+- [02:30:31] suggestions of new features to add to this compound engineering plug-in that
+- [02:30:34] this compound engineering plug-in that
+- [02:30:34] this compound engineering plug-in that various people have come up with. And so
+- [02:30:37] various people have come up with. And so
+- [02:30:37] various people have come up with. And so here for example, this fellow has
+- [02:30:39] here for example, this fellow has
+- [02:30:39] here for example, this fellow has suggested I don't know some alteration
+- [02:30:42] suggested I don't know some alteration
+- [02:30:42] suggested I don't know some alteration to the plan feature so that option one
+- [02:30:45] to the plan feature so that option one
+- [02:30:45] to the plan feature so that option one actually starts work. I guess right now
+- [02:30:47] actually starts work. I guess right now
+- [02:30:47] actually starts work. I guess right now that thing is broken. And so you can
+- [02:30:49] that thing is broken. And so you can
+- [02:30:50] that thing is broken. And so you can come here and you can see on this branch
+- [02:30:52] come here and you can see on this branch
+- [02:30:52] come here and you can see on this branch that he's created fix CE plan handoff
+- [02:30:56] that he's created fix CE plan handoff
+- [02:30:56] that he's created fix CE plan handoff inline routing. That's the name of his
+- [02:30:57] inline routing. That's the name of his
+- [02:30:57] inline routing. That's the name of his branch that he wants to put into the
+- [02:30:59] branch that he wants to put into the
+- [02:30:59] branch that he wants to put into the main branch. We can come in here and see
+- [02:31:02] main branch. We can come in here and see
+- [02:31:02] main branch. We can come in here and see the actual changes that he's proposing.
+- [02:31:05] the actual changes that he's proposing.
+- [02:31:05] the actual changes that he's proposing. So that would be this stage of reviewing
+- [02:31:07] So that would be this stage of reviewing
+- [02:31:07] So that would be this stage of reviewing the diff and the tests and then it's
+- [02:31:10] the diff and the tests and then it's
+- [02:31:10] the diff and the tests and then it's incumbent on whoever owns a repository
+- [02:31:13] incumbent on whoever owns a repository
+- [02:31:13] incumbent on whoever owns a repository to then merge it into main. One more
+- [02:31:15] to then merge it into main. One more
+- [02:31:15] to then merge it into main. One more basic feature of git or rather on GitHub
+- [02:31:19] basic feature of git or rather on GitHub
+- [02:31:19] basic feature of git or rather on GitHub that I want you to be familiar with,
+- [02:31:20] that I want you to be familiar with,
+- [02:31:20] that I want you to be familiar with, we're not going to use these now but are
+- [02:31:22] we're not going to use these now but are
+- [02:31:22] we're not going to use these now but are coming pretty soon are issues. So when
+- [02:31:25] coming pretty soon are issues. So when
+- [02:31:25] coming pretty soon are issues. So when you're working on a project, you may
+- [02:31:27] you're working on a project, you may
+- [02:31:27] you're working on a project, you may notice all sorts of bugs or you may have
+- [02:31:29] notice all sorts of bugs or you may have
+- [02:31:29] notice all sorts of bugs or you may have things that you want to add to the
+- [02:31:32] things that you want to add to the
+- [02:31:32] things that you want to add to the backlog of things to do on a project.
+- [02:31:35] backlog of things to do on a project.
+- [02:31:35] backlog of things to do on a project. And so when that's the case, you can
+- [02:31:38] And so when that's the case, you can
+- [02:31:38] And so when that's the case, you can create an issue. And so some of these
+- [02:31:41] create an issue. And so some of these
+- [02:31:41] create an issue. And so some of these are submitted by various other people.
+- [02:31:44] are submitted by various other people.
+- [02:31:44] are submitted by various other people. So here's a pretty shitty issue this guy
+- [02:31:46] So here's a pretty shitty issue this guy
+- [02:31:46] So here's a pretty shitty issue this guy has made with very little information.
+- [02:31:48] has made with very little information.
+- [02:31:48] has made with very little information. Here's a much more detailed issue which
+- [02:31:51] Here's a much more detailed issue which
+- [02:31:51] Here's a much more detailed issue which I guess was made by the same guy who is
+- [02:31:53] I guess was made by the same guy who is
+- [02:31:53] I guess was made by the same guy who is proposing this pull request. And so for
+- [02:31:55] proposing this pull request. And so for
+- [02:31:56] proposing this pull request. And so for us in our course app, a good first issue
+- [02:31:59] us in our course app, a good first issue
+- [02:31:59] us in our course app, a good first issue might be I want you to create an issue
+- [02:32:01] might be I want you to create an issue
+- [02:32:01] might be I want you to create an issue to decide exactly what should be
+- [02:32:03] to decide exactly what should be
+- [02:32:03] to decide exactly what should be included and not included in this
+- [02:32:06] included and not included in this
+- [02:32:06] included and not included in this application. So if I just say this now,
+- [02:32:10] application. So if I just say this now,
+- [02:32:10] application. So if I just say this now, it's going to put on GitHub an issue for
+- [02:32:15] it's going to put on GitHub an issue for
+- [02:32:15] it's going to put on GitHub an issue for this project. And the way I like to use
+- [02:32:18] this project. And the way I like to use
+- [02:32:18] this project. And the way I like to use issues on my projects is that they
+- [02:32:20] issues on my projects is that they
+- [02:32:20] issues on my projects is that they basically become a backlog of everything
+- [02:32:22] basically become a backlog of everything
+- [02:32:22] basically become a backlog of everything that I need to do. So even if I'm
+- [02:32:24] that I need to do. So even if I'm
+- [02:32:24] that I need to do. So even if I'm working on some academic project like
+- [02:32:27] working on some academic project like
+- [02:32:27] working on some academic project like writing a paper, there may be all sorts
+- [02:32:29] writing a paper, there may be all sorts
+- [02:32:29] writing a paper, there may be all sorts of intermediate ideas, little
+- [02:32:31] of intermediate ideas, little
+- [02:32:31] of intermediate ideas, little extensions, changes to code that I know
+- [02:32:33] extensions, changes to code that I know
+- [02:32:33] extensions, changes to code that I know I need to do. But sometimes when I'm
+- [02:32:35] I need to do. But sometimes when I'm
+- [02:32:35] I need to do. But sometimes when I'm working on a project, it might be a
+- [02:32:38] working on a project, it might be a
+- [02:32:38] working on a project, it might be a week, two weeks, sometimes it's even
+- [02:32:39] week, two weeks, sometimes it's even
+- [02:32:39] week, two weeks, sometimes it's even months that you let it sit and then you
+- [02:32:41] months that you let it sit and then you
+- [02:32:41] months that you let it sit and then you forget what your current state is of
+- [02:32:43] forget what your current state is of
+- [02:32:43] forget what your current state is of where you are on a project. Well, GitHub
+- [02:32:45] where you are on a project. Well, GitHub
+- [02:32:45] where you are on a project. Well, GitHub issues can be a really good way of
+- [02:32:48] issues can be a really good way of
+- [02:32:48] issues can be a really good way of maintaining that state on a project. So,
+- [02:32:51] maintaining that state on a project. So,
+- [02:32:51] maintaining that state on a project. So, if I go here and click this now, we'll
+- [02:32:53] if I go here and click this now, we'll
+- [02:32:53] if I go here and click this now, we'll see that there's an issue that's been
+- [02:32:55] see that there's an issue that's been
+- [02:32:55] see that there's an issue that's been created for this app and there's all
+- [02:32:57] created for this app and there's all
+- [02:32:57] created for this app and there's all sorts of things here that are being, you
+- [02:32:59] sorts of things here that are being, you
+- [02:32:59] sorts of things here that are being, you know, proposed as things that we should
+- [02:33:01] know, proposed as things that we should
+- [02:33:01] know, proposed as things that we should figure out. So, just as a broad overview
+- [02:33:04] figure out. So, just as a broad overview
+- [02:33:04] figure out. So, just as a broad overview of what we've learned, we've got git.
+- [02:33:06] of what we've learned, we've got git.
+- [02:33:06] of what we've learned, we've got git. It's kind of like a safety layer for
+- [02:33:08] It's kind of like a safety layer for
+- [02:33:08] It's kind of like a safety layer for agentic coding. Commits are checkpoints
+- [02:33:11] agentic coding. Commits are checkpoints
+- [02:33:11] agentic coding. Commits are checkpoints or saves. Branches are experimental
+- [02:33:13] or saves. Branches are experimental
+- [02:33:13] or saves. Branches are experimental lines and then GitHub is the online home
+- [02:33:17] lines and then GitHub is the online home
+- [02:33:17] lines and then GitHub is the online home for those lines. Pull requests are how
+- [02:33:19] for those lines. Pull requests are how
+- [02:33:19] for those lines. Pull requests are how you review branches before they get
+- [02:33:21] you review branches before they get
+- [02:33:21] you review branches before they get merged in and then issues are these
+- [02:33:24] merged in and then issues are these
+- [02:33:24] merged in and then issues are these units of work. So at this point we've
+- [02:33:26] units of work. So at this point we've
+- [02:33:26] units of work. So at this point we've done something which is quite small but
+- [02:33:29] done something which is quite small but
+- [02:33:29] done something which is quite small but important. We've initialized a project
+- [02:33:32] important. We've initialized a project
+- [02:33:32] important. We've initialized a project but in reality I have no idea yet what I
+- [02:33:35] but in reality I have no idea yet what I
+- [02:33:35] but in reality I have no idea yet what I actually want to build. And so when you
+- [02:33:38] actually want to build. And so when you
+- [02:33:38] actually want to build. And so when you find yourself in that position, what is
+- [02:33:40] find yourself in that position, what is
+- [02:33:40] find yourself in that position, what is the appropriate thing to do? Should you
+- [02:33:42] the appropriate thing to do? Should you
+- [02:33:42] the appropriate thing to do? Should you just go off, take a long walk and think
+- [02:33:45] just go off, take a long walk and think
+- [02:33:45] just go off, take a long walk and think about things, or is there a way to speed
+- [02:33:47] about things, or is there a way to speed
+- [02:33:47] about things, or is there a way to speed up this process with codeex? And so in
+- [02:33:51] up this process with codeex? And so in
+- [02:33:51] up this process with codeex? And so in fact, the answer is definitively yes.
+- [02:33:55] fact, the answer is definitively yes.
+- [02:33:55] fact, the answer is definitively yes. And so what we're going to talk about
+- [02:33:56] And so what we're going to talk about
+- [02:33:56] And so what we're going to talk about now is how to use codecs with skills to
+- [02:34:00] now is how to use codecs with skills to
+- [02:34:00] now is how to use codecs with skills to decide what and how to build things. A
+- [02:34:03] decide what and how to build things. A
+- [02:34:04] decide what and how to build things. A very natural temptation which many
+- [02:34:06] very natural temptation which many
+- [02:34:06] very natural temptation which many beginners will find themselves in is
+- [02:34:08] beginners will find themselves in is
+- [02:34:08] beginners will find themselves in is they give vague instructions to codec
+- [02:34:12] they give vague instructions to codec
+- [02:34:12] they give vague instructions to codec and then they're upset when their
+- [02:34:14] and then they're upset when their
+- [02:34:14] and then they're upset when their results don't match their instructions.
+- [02:34:16] results don't match their instructions.
+- [02:34:16] results don't match their instructions. And sometimes this is because the idea
+- [02:34:18] And sometimes this is because the idea
+- [02:34:18] And sometimes this is because the idea is vague in their head. So part of what
+- [02:34:21] is vague in their head. So part of what
+- [02:34:21] is vague in their head. So part of what I'm going to discuss is how do you use
+- [02:34:24] I'm going to discuss is how do you use
+- [02:34:24] I'm going to discuss is how do you use codecs to think of a potential set of
+- [02:34:26] codecs to think of a potential set of
+- [02:34:26] codecs to think of a potential set of ideas for whatever it is that you're
+- [02:34:28] ideas for whatever it is that you're
+- [02:34:28] ideas for whatever it is that you're working on. But then even when you have
+- [02:34:31] working on. But then even when you have
+- [02:34:31] working on. But then even when you have a clear idea, ideas will have
+- [02:34:33] a clear idea, ideas will have
+- [02:34:33] a clear idea, ideas will have requirements. And so you'll have to iron
+- [02:34:35] requirements. And so you'll have to iron
+- [02:34:35] requirements. And so you'll have to iron out and think through what you actually
+- [02:34:37] out and think through what you actually
+- [02:34:37] out and think through what you actually want to include and exclude in this idea
+- [02:34:41] want to include and exclude in this idea
+- [02:34:41] want to include and exclude in this idea that you have. And then once you have
+- [02:34:44] that you have. And then once you have
+- [02:34:44] that you have. And then once you have your requirements set, a next step is
+- [02:34:46] your requirements set, a next step is
+- [02:34:46] your requirements set, a next step is that you'll want to create a plan for
+- [02:34:48] that you'll want to create a plan for
+- [02:34:48] that you'll want to create a plan for the order of operations that you go
+- [02:34:51] the order of operations that you go
+- [02:34:51] the order of operations that you go through in order to attack that set of
+- [02:34:53] through in order to attack that set of
+- [02:34:53] through in order to attack that set of requirements. And so right now this
+- [02:34:55] requirements. And so right now this
+- [02:34:55] requirements. And so right now this carousel automation app, it could mean a
+- [02:34:59] carousel automation app, it could mean a
+- [02:34:59] carousel automation app, it could mean a lot of things, right? And so first it's
+- [02:35:01] lot of things, right? And so first it's
+- [02:35:02] lot of things, right? And so first it's like, do we want to tackle all of these
+- [02:35:04] like, do we want to tackle all of these
+- [02:35:04] like, do we want to tackle all of these things at once? Like that could be
+- [02:35:07] things at once? Like that could be
+- [02:35:07] things at once? Like that could be pretty complicated. And then sort of
+- [02:35:09] pretty complicated. And then sort of
+- [02:35:10] pretty complicated. And then sort of substantively, what sort of technology
+- [02:35:12] substantively, what sort of technology
+- [02:35:12] substantively, what sort of technology are we going to be using to be able to
+- [02:35:15] are we going to be using to be able to
+- [02:35:15] are we going to be using to be able to create these Instagram carousels? Are we
+- [02:35:17] create these Instagram carousels? Are we
+- [02:35:17] create these Instagram carousels? Are we going to do it with HTML and CSS? Will
+- [02:35:21] going to do it with HTML and CSS? Will
+- [02:35:21] going to do it with HTML and CSS? Will we use some external technologies? Now,
+- [02:35:24] we use some external technologies? Now,
+- [02:35:24] we use some external technologies? Now, if you don't know anything about coding,
+- [02:35:26] if you don't know anything about coding,
+- [02:35:26] if you don't know anything about coding, that's fine. I'm going to show you how
+- [02:35:28] that's fine. I'm going to show you how
+- [02:35:28] that's fine. I'm going to show you how we can basically proceed on developing a
+- [02:35:32] we can basically proceed on developing a
+- [02:35:32] we can basically proceed on developing a satisfying solution to this problem, not
+- [02:35:35] satisfying solution to this problem, not
+- [02:35:35] satisfying solution to this problem, not really knowing anything technical about
+- [02:35:38] really knowing anything technical about
+- [02:35:38] really knowing anything technical about programming. You'll almost basically
+- [02:35:40] programming. You'll almost basically
+- [02:35:40] programming. You'll almost basically just be able to give codecs a set of
+- [02:35:43] just be able to give codecs a set of
+- [02:35:44] just be able to give codecs a set of instructions and follow its
+- [02:35:46] instructions and follow its
+- [02:35:46] instructions and follow its recommendations all the way through. So,
+- [02:35:48] recommendations all the way through. So,
+- [02:35:48] recommendations all the way through. So, the way that I'm going to proceed here
+- [02:35:51] the way that I'm going to proceed here
+- [02:35:51] the way that I'm going to proceed here is going to be a little bit more brain
+- [02:35:53] is going to be a little bit more brain
+- [02:35:53] is going to be a little bit more brain dead than the way that I would usually
+- [02:35:55] dead than the way that I would usually
+- [02:35:55] dead than the way that I would usually do things in that I'm not going to
+- [02:35:58] do things in that I'm not going to
+- [02:35:58] do things in that I'm not going to interrogate technical assumptions that
+- [02:36:01] interrogate technical assumptions that
+- [02:36:01] interrogate technical assumptions that Codeex gives me or technical ideas that
+- [02:36:03] Codeex gives me or technical ideas that
+- [02:36:03] Codeex gives me or technical ideas that Codeex gives me as much as I would with
+- [02:36:05] Codeex gives me as much as I would with
+- [02:36:05] Codeex gives me as much as I would with my expertise because I want to show you
+- [02:36:07] my expertise because I want to show you
+- [02:36:07] my expertise because I want to show you how you can use Codeex to build full web
+- [02:36:09] how you can use Codeex to build full web
+- [02:36:09] how you can use Codeex to build full web apps without having much technical
+- [02:36:11] apps without having much technical
+- [02:36:12] apps without having much technical knowledge and sort of relying on codecs
+- [02:36:14] knowledge and sort of relying on codecs
+- [02:36:14] knowledge and sort of relying on codecs to help you along there. And so for
+- [02:36:16] to help you along there. And so for
+- [02:36:16] to help you along there. And so for example, right, there could be like
+- [02:36:18] example, right, there could be like
+- [02:36:18] example, right, there could be like different slides. And so do we want to
+- [02:36:22] different slides. And so do we want to
+- [02:36:22] different slides. And so do we want to do all of these slides or just some of
+- [02:36:24] do all of these slides or just some of
+- [02:36:24] do all of these slides or just some of them? Like what exactly should go in an
+- [02:36:27] them? Like what exactly should go in an
+- [02:36:27] them? Like what exactly should go in an MVP? Do we want to accommodate any given
+- [02:36:31] MVP? Do we want to accommodate any given
+- [02:36:31] MVP? Do we want to accommodate any given publication? Do we want it to be just
+- [02:36:33] publication? Do we want it to be just
+- [02:36:33] publication? Do we want it to be just for Instagram or also for other formats
+- [02:36:36] for Instagram or also for other formats
+- [02:36:36] for Instagram or also for other formats like Facebook which may have yeah
+- [02:36:38] like Facebook which may have yeah
+- [02:36:38] like Facebook which may have yeah different resolutions? Do we want to
+- [02:36:40] different resolutions? Do we want to
+- [02:36:40] different resolutions? Do we want to have it for multiple users? You know,
+- [02:36:42] have it for multiple users? You know,
+- [02:36:42] have it for multiple users? You know, that kind of thing. So I don't really
+- [02:36:45] that kind of thing. So I don't really
+- [02:36:45] that kind of thing. So I don't really know yet what this is going to be. And
+- [02:36:47] know yet what this is going to be. And
+- [02:36:47] know yet what this is going to be. And so for this that plugin I was referring
+- [02:36:49] so for this that plugin I was referring
+- [02:36:49] so for this that plugin I was referring to the compound engineering plugin is
+- [02:36:51] to the compound engineering plugin is
+- [02:36:51] to the compound engineering plugin is going to be very useful. So the compound
+- [02:36:54] going to be very useful. So the compound
+- [02:36:54] going to be very useful. So the compound engineering plugin used to be natively
+- [02:36:58] engineering plugin used to be natively
+- [02:36:58] engineering plugin used to be natively available just for cloud code. But
+- [02:37:00] available just for cloud code. But
+- [02:37:00] available just for cloud code. But recently it's also become available for
+- [02:37:03] recently it's also become available for
+- [02:37:03] recently it's also become available for codeex. And so there's a set of three
+- [02:37:06] codeex. And so there's a set of three
+- [02:37:06] codeex. And so there's a set of three steps that you have to do to install
+- [02:37:09] steps that you have to do to install
+- [02:37:09] steps that you have to do to install this compound engineering plugin. First
+- [02:37:12] this compound engineering plugin. First
+- [02:37:12] this compound engineering plugin. First you got to register the marketplace with
+- [02:37:14] you got to register the marketplace with
+- [02:37:14] you got to register the marketplace with codeex. So you take this, you go to your
+- [02:37:17] codeex. So you take this, you go to your
+- [02:37:17] codeex. So you take this, you go to your codeex app and then you just paste it in
+- [02:37:19] codeex app and then you just paste it in
+- [02:37:19] codeex app and then you just paste it in and press enter. Okay. So for me this is
+- [02:37:21] and press enter. Okay. So for me this is
+- [02:37:22] and press enter. Okay. So for me this is already installed. For you if you
+- [02:37:23] already installed. For you if you
+- [02:37:23] already installed. For you if you haven't installed it yet it will be
+- [02:37:24] haven't installed it yet it will be
+- [02:37:24] haven't installed it yet it will be installed. Next you install the compound
+- [02:37:27] installed. Next you install the compound
+- [02:37:27] installed. Next you install the compound engineering agents. So one difference
+- [02:37:31] engineering agents. So one difference
+- [02:37:31] engineering agents. So one difference with plugins in claw code versus codeex
+- [02:37:35] with plugins in claw code versus codeex
+- [02:37:35] with plugins in claw code versus codeex is that codeex plugins don't include sub
+- [02:37:38] is that codeex plugins don't include sub
+- [02:37:38] is that codeex plugins don't include sub aents yet. And so if you recall this
+- [02:37:41] aents yet. And so if you recall this
+- [02:37:41] aents yet. And so if you recall this slide on the plug-in specification, a
+- [02:37:44] slide on the plug-in specification, a
+- [02:37:44] slide on the plug-in specification, a plug-in in codeex consists of skills. So
+- [02:37:48] plug-in in codeex consists of skills. So
+- [02:37:48] plug-in in codeex consists of skills. So I'm going to be showing you skills for
+- [02:37:50] I'm going to be showing you skills for
+- [02:37:50] I'm going to be showing you skills for ideiation, brainstorming, and planning,
+- [02:37:52] ideiation, brainstorming, and planning,
+- [02:37:52] ideiation, brainstorming, and planning, which are very useful in this app
+- [02:37:54] which are very useful in this app
+- [02:37:54] which are very useful in this app development process. Consists of apps,
+- [02:37:57] development process. Consists of apps,
+- [02:37:57] development process. Consists of apps, which under the hood are typically just
+- [02:37:59] which under the hood are typically just
+- [02:37:59] which under the hood are typically just sort of formatted connections to MCPs.
+- [02:38:01] sort of formatted connections to MCPs.
+- [02:38:02] sort of formatted connections to MCPs. And then you can have just direct MCPs
+- [02:38:04] And then you can have just direct MCPs
+- [02:38:04] And then you can have just direct MCPs as well. But what's not included right
+- [02:38:07] as well. But what's not included right
+- [02:38:07] as well. But what's not included right now are sub agents and hooks, which are
+- [02:38:09] now are sub agents and hooks, which are
+- [02:38:09] now are sub agents and hooks, which are concepts I've described, which are
+- [02:38:11] concepts I've described, which are
+- [02:38:11] concepts I've described, which are useful, but they're not part of Codeex's
+- [02:38:14] useful, but they're not part of Codeex's
+- [02:38:14] useful, but they're not part of Codeex's plug-in specification. And so I expect
+- [02:38:16] plug-in specification. And so I expect
+- [02:38:16] plug-in specification. And so I expect this over time to change. Codeex often
+- [02:38:19] this over time to change. Codeex often
+- [02:38:19] this over time to change. Codeex often just has a different set of priorities
+- [02:38:21] just has a different set of priorities
+- [02:38:21] just has a different set of priorities than does Anthropic. And so they've been
+- [02:38:25] than does Anthropic. And so they've been
+- [02:38:25] than does Anthropic. And so they've been working on different things. So for now,
+- [02:38:27] working on different things. So for now,
+- [02:38:27] working on different things. So for now, this installation is a little bit
+- [02:38:29] this installation is a little bit
+- [02:38:30] this installation is a little bit convoluted, but you just copy that. come
+- [02:38:32] convoluted, but you just copy that. come
+- [02:38:32] convoluted, but you just copy that. come in here, enter there and it gets
+- [02:38:35] in here, enter there and it gets
+- [02:38:35] in here, enter there and it gets installed for you. And then finally,
+- [02:38:37] installed for you. And then finally,
+- [02:38:38] installed for you. And then finally, install the plugin through codeex's 2y.
+- [02:38:41] install the plugin through codeex's 2y.
+- [02:38:41] install the plugin through codeex's 2y. So 2 mean terminal user interface. So
+- [02:38:44] So 2 mean terminal user interface. So
+- [02:38:44] So 2 mean terminal user interface. So that means you got to come in here, type
+- [02:38:46] that means you got to come in here, type
+- [02:38:46] that means you got to come in here, type in codeex, then type in /plugins,
+- [02:38:50] in codeex, then type in /plugins,
+- [02:38:50] in codeex, then type in /plugins, select this one, the compound
+- [02:38:52] select this one, the compound
+- [02:38:52] select this one, the compound engineering plugin, and if it's not
+- [02:38:55] engineering plugin, and if it's not
+- [02:38:55] engineering plugin, and if it's not installed, you have to install it. So I
+- [02:38:57] installed, you have to install it. So I
+- [02:38:57] installed, you have to install it. So I already have it installed, so I'm not
+- [02:38:59] already have it installed, so I'm not
+- [02:38:59] already have it installed, so I'm not going to do that right now. This might
+- [02:39:01] going to do that right now. This might
+- [02:39:01] going to do that right now. This might also possibly work directly through the
+- [02:39:04] also possibly work directly through the
+- [02:39:04] also possibly work directly through the plugins interface in the desktop app. I
+- [02:39:06] plugins interface in the desktop app. I
+- [02:39:06] plugins interface in the desktop app. I don't know, but I just want to follow
+- [02:39:08] don't know, but I just want to follow
+- [02:39:08] don't know, but I just want to follow these instructions directly because
+- [02:39:10] these instructions directly because
+- [02:39:10] these instructions directly because that's what it says here. Now, once you
+- [02:39:12] that's what it says here. Now, once you
+- [02:39:12] that's what it says here. Now, once you install this, probably restart your
+- [02:39:14] install this, probably restart your
+- [02:39:14] install this, probably restart your codeex instance and then you should see
+- [02:39:16] codeex instance and then you should see
+- [02:39:16] codeex instance and then you should see if you type in CE a bunch of skills over
+- [02:39:20] if you type in CE a bunch of skills over
+- [02:39:20] if you type in CE a bunch of skills over here that are available. And so, I'm
+- [02:39:22] here that are available. And so, I'm
+- [02:39:22] here that are available. And so, I'm going to be walking you through some of
+- [02:39:24] going to be walking you through some of
+- [02:39:24] going to be walking you through some of these. So, the one I'm going to start
+- [02:39:26] these. So, the one I'm going to start
+- [02:39:26] these. So, the one I'm going to start with here is IDate. And this is
+- [02:39:28] with here is IDate. And this is
+- [02:39:28] with here is IDate. And this is something that you work on when you're
+- [02:39:30] something that you work on when you're
+- [02:39:30] something that you work on when you're at an idea stage in a project, which is
+- [02:39:32] at an idea stage in a project, which is
+- [02:39:32] at an idea stage in a project, which is where I feel I am right now. And so I'm
+- [02:39:34] where I feel I am right now. And so I'm
+- [02:39:34] where I feel I am right now. And so I'm going to go full powered here cuz I want
+- [02:39:37] going to go full powered here cuz I want
+- [02:39:37] going to go full powered here cuz I want to make a millions and not going to not
+- [02:39:40] to make a millions and not going to not
+- [02:39:40] to make a millions and not going to not going to be relying on some medium
+- [02:39:42] going to be relying on some medium
+- [02:39:42] going to be relying on some medium model. No mids here. We're going extra
+- [02:39:45] model. No mids here. We're going extra
+- [02:39:45] model. No mids here. We're going extra high. Okay. I know I want to create some
+- [02:39:48] high. Okay. I know I want to create some
+- [02:39:48] high. Okay. I know I want to create some kind of carousel
+- [02:39:50] kind of carousel
+- [02:39:50] kind of carousel creation application. I don't know yet
+- [02:39:52] creation application. I don't know yet
+- [02:39:52] creation application. I don't know yet exactly what technology to use like
+- [02:39:55] exactly what technology to use like
+- [02:39:55] exactly what technology to use like whether to use HTML and CSS or something
+- [02:39:58] whether to use HTML and CSS or something
+- [02:39:58] whether to use HTML and CSS or something else. I know absolutely for sure super
+- [02:40:02] else. I know absolutely for sure super
+- [02:40:02] else. I know absolutely for sure super duper frutily that I want to use NextJS
+- [02:40:06] duper frutily that I want to use NextJS
+- [02:40:06] duper frutily that I want to use NextJS Convex and Verscell. I'm doing this as a
+- [02:40:10] Convex and Verscell. I'm doing this as a
+- [02:40:10] Convex and Verscell. I'm doing this as a live demo and I don't want to be seen as
+- [02:40:13] live demo and I don't want to be seen as
+- [02:40:13] live demo and I don't want to be seen as some stupid idiot who shouldn't be
+- [02:40:16] some stupid idiot who shouldn't be
+- [02:40:16] some stupid idiot who shouldn't be showing stuff and teaching people
+- [02:40:17] showing stuff and teaching people
+- [02:40:17] showing stuff and teaching people things. So, I'd like to have a sort of
+- [02:40:21] things. So, I'd like to have a sort of
+- [02:40:21] things. So, I'd like to have a sort of useful slice that, you know, I'm
+- [02:40:23] useful slice that, you know, I'm
+- [02:40:23] useful slice that, you know, I'm definitely going to be able to execute
+- [02:40:25] definitely going to be able to execute
+- [02:40:25] definitely going to be able to execute on, but you can take a look at some
+- [02:40:27] on, but you can take a look at some
+- [02:40:27] on, but you can take a look at some other projects I've worked on. I'm
+- [02:40:28] other projects I've worked on. I'm
+- [02:40:28] other projects I've worked on. I'm relatively skilled, so I can make
+- [02:40:30] relatively skilled, so I can make
+- [02:40:30] relatively skilled, so I can make decently big things, but um I want to
+- [02:40:33] decently big things, but um I want to
+- [02:40:33] decently big things, but um I want to make something useful here that is going
+- [02:40:36] make something useful here that is going
+- [02:40:36] make something useful here that is going to be able for me to execute. But, you
+- [02:40:38] to be able for me to execute. But, you
+- [02:40:38] to be able for me to execute. But, you know, your usual estimates of timelines
+- [02:40:40] know, your usual estimates of timelines
+- [02:40:40] know, your usual estimates of timelines are really stupid. So, don't believe
+- [02:40:42] are really stupid. So, don't believe
+- [02:40:42] are really stupid. So, don't believe yourself in terms of thinking that
+- [02:40:44] yourself in terms of thinking that
+- [02:40:44] yourself in terms of thinking that something can't be done in a short
+- [02:40:46] something can't be done in a short
+- [02:40:46] something can't be done in a short period of time necessarily.
+- [02:40:48] period of time necessarily.
+- [02:40:48] period of time necessarily. And the basic context in which I'm
+- [02:40:50] And the basic context in which I'm
+- [02:40:50] And the basic context in which I'm making this, by the way, is for like
+- [02:40:52] making this, by the way, is for like
+- [02:40:52] making this, by the way, is for like social media content. That should be
+- [02:40:54] social media content. That should be
+- [02:40:54] social media content. That should be obvious from the read me and the issue
+- [02:40:56] obvious from the read me and the issue
+- [02:40:56] obvious from the read me and the issue you've already made. But, you know,
+- [02:40:57] you've already made. But, you know,
+- [02:40:57] you've already made. But, you know, sometimes you can be really
+- [02:40:59] sometimes you can be really
+- [02:40:59] sometimes you can be really stupid. Not you. Cloud code usually is,
+- [02:41:01] stupid. Not you. Cloud code usually is,
+- [02:41:02] stupid. Not you. Cloud code usually is, but Codeex is really pretty
+- [02:41:03] but Codeex is really pretty
+- [02:41:03] but Codeex is really pretty smart. So, I actually take that back.
+- [02:41:05] smart. So, I actually take that back.
+- [02:41:05] smart. So, I actually take that back. Ignore me. I'm a dumbass. All right. So,
+- [02:41:08] Ignore me. I'm a dumbass. All right. So,
+- [02:41:08] Ignore me. I'm a dumbass. All right. So, now I've got this set of instructions
+- [02:41:10] now I've got this set of instructions
+- [02:41:10] now I've got this set of instructions started. And if you recall, you can just
+- [02:41:13] started. And if you recall, you can just
+- [02:41:14] started. And if you recall, you can just click on a skill here. Let's see if that
+- [02:41:16] click on a skill here. Let's see if that
+- [02:41:16] click on a skill here. Let's see if that works. All right, it'll open up in VS
+- [02:41:18] works. All right, it'll open up in VS
+- [02:41:18] works. All right, it'll open up in VS Code. So, we can kind of take a look at
+- [02:41:20] Code. So, we can kind of take a look at
+- [02:41:20] Code. So, we can kind of take a look at what this ideiation skill is that helps
+- [02:41:23] what this ideiation skill is that helps
+- [02:41:23] what this ideiation skill is that helps you sort of think through and filter
+- [02:41:25] you sort of think through and filter
+- [02:41:26] you sort of think through and filter through ideas even before you get to a
+- [02:41:29] through ideas even before you get to a
+- [02:41:29] through ideas even before you get to a brainstorming step. And so, what it does
+- [02:41:31] brainstorming step. And so, what it does
+- [02:41:31] brainstorming step. And so, what it does is help you generate and critically
+- [02:41:33] is help you generate and critically
+- [02:41:34] is help you generate and critically evaluate grounded ideas about a topic.
+- [02:41:37] evaluate grounded ideas about a topic.
+- [02:41:37] evaluate grounded ideas about a topic. Now, something important here is that
+- [02:41:39] Now, something important here is that
+- [02:41:39] Now, something important here is that this is not just for web app
+- [02:41:40] this is not just for web app
+- [02:41:40] this is not just for web app development. You could use this skill
+- [02:41:42] development. You could use this skill
+- [02:41:42] development. You could use this skill for anything. If you're working on a
+- [02:41:43] for anything. If you're working on a
+- [02:41:43] for anything. If you're working on a paper, if you're working on a website,
+- [02:41:47] paper, if you're working on a website,
+- [02:41:47] paper, if you're working on a website, trying to figure out how to improve the
+- [02:41:49] trying to figure out how to improve the
+- [02:41:49] trying to figure out how to improve the design of some interface, you can use
+- [02:41:51] design of some interface, you can use
+- [02:41:51] design of some interface, you can use this kind of skill or just use coding
+- [02:41:54] this kind of skill or just use coding
+- [02:41:54] this kind of skill or just use coding agents in this way in a lot of
+- [02:41:56] agents in this way in a lot of
+- [02:41:56] agents in this way in a lot of situations. And now they've come up with
+- [02:41:58] situations. And now they've come up with
+- [02:41:58] situations. And now they've come up with in the process of writing this skill all
+- [02:42:01] in the process of writing this skill all
+- [02:42:01] in the process of writing this skill all sorts of like very interesting ideas
+- [02:42:03] sorts of like very interesting ideas
+- [02:42:03] sorts of like very interesting ideas that you can read through on how to most
+- [02:42:07] that you can read through on how to most
+- [02:42:07] that you can read through on how to most efficiently do this ideiation process.
+- [02:42:10] efficiently do this ideiation process.
+- [02:42:10] efficiently do this ideiation process. And so it may not map perfectly to your
+- [02:42:13] And so it may not map perfectly to your
+- [02:42:13] And so it may not map perfectly to your domain. That's maybe the downside of
+- [02:42:15] domain. That's maybe the downside of
+- [02:42:16] domain. That's maybe the downside of compound engineering that it's a very
+- [02:42:17] compound engineering that it's a very
+- [02:42:17] compound engineering that it's a very general plugin, but they have put a lot
+- [02:42:20] general plugin, but they have put a lot
+- [02:42:20] general plugin, but they have put a lot of thought into it. So I still recommend
+- [02:42:21] of thought into it. So I still recommend
+- [02:42:21] of thought into it. So I still recommend using it. So we come through here and
+- [02:42:23] using it. So we come through here and
+- [02:42:23] using it. So we come through here and it's like doing all sorts of stuff over
+- [02:42:26] it's like doing all sorts of stuff over
+- [02:42:26] it's like doing all sorts of stuff over here. And one thing I did was I just
+- [02:42:28] here. And one thing I did was I just
+- [02:42:28] here. And one thing I did was I just like gave it access to like some of the
+- [02:42:31] like gave it access to like some of the
+- [02:42:31] like gave it access to like some of the I have a skill here called project
+- [02:42:33] I have a skill here called project
+- [02:42:33] I have a skill here called project catalog. And I use this skill to
+- [02:42:36] catalog. And I use this skill to
+- [02:42:36] catalog. And I use this skill to basically help Codeex know about the
+- [02:42:39] basically help Codeex know about the
+- [02:42:39] basically help Codeex know about the other projects that I have on my
+- [02:42:41] other projects that I have on my
+- [02:42:41] other projects that I have on my computer. And I like to reference it
+- [02:42:43] computer. And I like to reference it
+- [02:42:43] computer. And I like to reference it sometimes if I want to have codeex steal
+- [02:42:48] sometimes if I want to have codeex steal
+- [02:42:48] sometimes if I want to have codeex steal some concept or something I did well
+- [02:42:49] some concept or something I did well
+- [02:42:50] some concept or something I did well from one project into another project.
+- [02:42:52] from one project into another project.
+- [02:42:52] from one project into another project. So I've created this project catalog
+- [02:42:54] So I've created this project catalog
+- [02:42:54] So I've created this project catalog skill which has in a SQLite database all
+- [02:42:57] skill which has in a SQLite database all
+- [02:42:57] skill which has in a SQLite database all my different projects cataloged. All
+- [02:42:59] my different projects cataloged. All
+- [02:42:59] my different projects cataloged. All right. So this ideation process
+- [02:43:02] right. So this ideation process
+- [02:43:02] right. So this ideation process finished. Let's take a look at what the
+- [02:43:04] finished. Let's take a look at what the
+- [02:43:04] finished. Let's take a look at what the suggestions are. So there's an artifact,
+- [02:43:07] suggestions are. So there's an artifact,
+- [02:43:07] suggestions are. So there's an artifact, a file that was saved out here which we
+- [02:43:10] a file that was saved out here which we
+- [02:43:10] a file that was saved out here which we can read. So the suggestion of what we
+- [02:43:12] can read. So the suggestion of what we
+- [02:43:12] can read. So the suggestion of what we work on here is to build a paste to
+- [02:43:15] work on here is to build a paste to
+- [02:43:16] work on here is to build a paste to editable carousel studio for one high
+- [02:43:19] editable carousel studio for one high
+- [02:43:19] editable carousel studio for one high confidence workflow. A local publisher
+- [02:43:22] confidence workflow. A local publisher
+- [02:43:22] confidence workflow. A local publisher pastes a list of events, generates an
+- [02:43:25] pastes a list of events, generates an
+- [02:43:25] pastes a list of events, generates an editable Instagram carousel draft,
+- [02:43:28] editable Instagram carousel draft,
+- [02:43:28] editable Instagram carousel draft, previews every slide, edits the copy,
+- [02:43:30] previews every slide, edits the copy,
+- [02:43:30] previews every slide, edits the copy, and exports ready to post images plus
+- [02:43:33] and exports ready to post images plus
+- [02:43:33] and exports ready to post images plus caption notes. So, I found some existing
+- [02:43:35] caption notes. So, I found some existing
+- [02:43:35] caption notes. So, I found some existing project I had made that like kind of
+- [02:43:38] project I had made that like kind of
+- [02:43:38] project I had made that like kind of started doing this locally. And it also
+- [02:43:41] started doing this locally. And it also
+- [02:43:41] started doing this locally. And it also like found some other projects I have.
+- [02:43:44] like found some other projects I have.
+- [02:43:44] like found some other projects I have. So, here are the ranked ideas. Paste to
+- [02:43:47] So, here are the ranked ideas. Paste to
+- [02:43:47] So, here are the ranked ideas. Paste to editable carousel studio. The first
+- [02:43:51] editable carousel studio. The first
+- [02:43:51] editable carousel studio. The first version will look narrower. Okay. One
+- [02:43:55] version will look narrower. Okay. One
+- [02:43:55] version will look narrower. Okay. One polished template with brand tokens.
+- [02:43:58] polished template with brand tokens.
+- [02:43:58] polished template with brand tokens. Export first. No Instagram off. That
+- [02:44:01] Export first. No Instagram off. That
+- [02:44:01] Export first. No Instagram off. That makes sense. Okay. Very good. So, let's
+- [02:44:04] makes sense. Okay. Very good. So, let's
+- [02:44:04] makes sense. Okay. Very good. So, let's say like I'm a technical dummy. Okay. I
+- [02:44:07] say like I'm a technical dummy. Okay. I
+- [02:44:07] say like I'm a technical dummy. Okay. I have no idea what any of that stuff
+- [02:44:08] have no idea what any of that stuff
+- [02:44:08] have no idea what any of that stuff does. Well, I think that it's an
+- [02:44:11] does. Well, I think that it's an
+- [02:44:11] does. Well, I think that it's an interesting enough idea. Looks like a
+- [02:44:13] interesting enough idea. Looks like a
+- [02:44:13] interesting enough idea. Looks like a good idea. And so, the next thing I'm
+- [02:44:16] good idea. And so, the next thing I'm
+- [02:44:16] good idea. And so, the next thing I'm going to do is, if you recall, is looks
+- [02:44:19] going to do is, if you recall, is looks
+- [02:44:19] going to do is, if you recall, is looks good. Can you commit what you just made?
+- [02:44:23] good. Can you commit what you just made?
+- [02:44:23] good. Can you commit what you just made? Because we want to keep track of these
+- [02:44:25] Because we want to keep track of these
+- [02:44:25] Because we want to keep track of these changes that codeex is making along the
+- [02:44:28] changes that codeex is making along the
+- [02:44:28] changes that codeex is making along the way. All right, so we've committed this
+- [02:44:30] way. All right, so we've committed this
+- [02:44:30] way. All right, so we've committed this ideation doc. And so the next step in
+- [02:44:33] ideation doc. And so the next step in
+- [02:44:33] ideation doc. And so the next step in this workflow is brainstorming. So let's
+- [02:44:37] this workflow is brainstorming. So let's
+- [02:44:37] this workflow is brainstorming. So let's start now brainstorming. The first step,
+- [02:44:40] start now brainstorming. The first step,
+- [02:44:40] start now brainstorming. The first step, I'm just going to type in brainstorm and
+- [02:44:42] I'm just going to type in brainstorm and
+- [02:44:42] I'm just going to type in brainstorm and it'll know by context what it is exactly
+- [02:44:44] it'll know by context what it is exactly
+- [02:44:44] it'll know by context what it is exactly that I want to work on. Let's work on
+- [02:44:47] that I want to work on. Let's work on
+- [02:44:47] that I want to work on. Let's work on one. So what this brainstorming step
+- [02:44:50] one. So what this brainstorming step
+- [02:44:50] one. So what this brainstorming step will do is it'll ask you to go through a
+- [02:44:54] will do is it'll ask you to go through a
+- [02:44:54] will do is it'll ask you to go through a set of questions basically inquiring
+- [02:44:57] set of questions basically inquiring
+- [02:44:57] set of questions basically inquiring from you different things that it thinks
+- [02:45:00] from you different things that it thinks
+- [02:45:00] from you different things that it thinks it's going to need in order to pin down
+- [02:45:03] it's going to need in order to pin down
+- [02:45:03] it's going to need in order to pin down this idea you're working on in a way
+- [02:45:05] this idea you're working on in a way
+- [02:45:05] this idea you're working on in a way that you'll be satisfied with. So let's
+- [02:45:08] that you'll be satisfied with. So let's
+- [02:45:08] that you'll be satisfied with. So let's say me doing a live demo for a solo
+- [02:45:15] say me doing a live demo for a solo
+- [02:45:15] say me doing a live demo for a solo local newsletter operator who has a set
+- [02:45:18] local newsletter operator who has a set
+- [02:45:18] local newsletter operator who has a set of events for which they want to
+- [02:45:21] of events for which they want to
+- [02:45:22] of events for which they want to populate the images and text of the
+- [02:45:27] populate the images and text of the
+- [02:45:27] populate the images and text of the events in a way that let's say fits
+- [02:45:30] events in a way that let's say fits
+- [02:45:30] events in a way that let's say fits their style in a replicable way. Usually
+- [02:45:33] their style in a replicable way. Usually
+- [02:45:34] their style in a replicable way. Usually they use Canva and they have to take the
+- [02:45:38] they use Canva and they have to take the
+- [02:45:38] they use Canva and they have to take the images and put them into Canva manually.
+- [02:45:41] images and put them into Canva manually.
+- [02:45:41] images and put them into Canva manually. They also have to figure out based on
+- [02:45:44] They also have to figure out based on
+- [02:45:44] They also have to figure out based on the event how to format the text to like
+- [02:45:48] the event how to format the text to like
+- [02:45:48] the event how to format the text to like fit correctly in the window. And so like
+- [02:45:52] fit correctly in the window. And so like
+- [02:45:52] fit correctly in the window. And so like the text has to scale and they got to
+- [02:45:55] the text has to scale and they got to
+- [02:45:55] the text has to scale and they got to put all the details and position them.
+- [02:45:57] put all the details and position them.
+- [02:45:57] put all the details and position them. And often they got to like do this every
+- [02:45:59] And often they got to like do this every
+- [02:45:59] And often they got to like do this every time. Well, I guess part of what we
+- [02:46:01] time. Well, I guess part of what we
+- [02:46:01] time. Well, I guess part of what we could do is have a skill which can work
+- [02:46:05] could do is have a skill which can work
+- [02:46:06] could do is have a skill which can work with the app and populate the app data
+- [02:46:09] with the app and populate the app data
+- [02:46:10] with the app and populate the app data from the skill. Should this thing be a
+- [02:46:12] from the skill. Should this thing be a
+- [02:46:12] from the skill. Should this thing be a first class? Yeah, I think that should
+- [02:46:15] first class? Yeah, I think that should
+- [02:46:15] first class? Yeah, I think that should be first class. Let's say it can take
+- [02:46:18] be first class. Let's say it can take
+- [02:46:18] be first class. Let's say it can take both structured JSON and CSV or messy
+- [02:46:22] both structured JSON and CSV or messy
+- [02:46:22] both structured JSON and CSV or messy pasted text or markdown. Yes, that makes
+- [02:46:25] pasted text or markdown. Yes, that makes
+- [02:46:25] pasted text or markdown. Yes, that makes sense. But we do need some way even if
+- [02:46:28] sense. But we do need some way even if
+- [02:46:28] sense. But we do need some way even if we don't have a full drag and drop
+- [02:46:31] we don't have a full drag and drop
+- [02:46:31] we don't have a full drag and drop visual designer of creating perhaps in
+- [02:46:34] visual designer of creating perhaps in
+- [02:46:34] visual designer of creating perhaps in code the different templates
+- [02:46:38] code the different templates
+- [02:46:38] code the different templates that people can populate. Yes, this all
+- [02:46:41] that people can populate. Yes, this all
+- [02:46:41] that people can populate. Yes, this all makes sense. So we've gone through this
+- [02:46:43] makes sense. So we've gone through this
+- [02:46:43] makes sense. So we've gone through this set of questioning basically to narrow
+- [02:46:46] set of questioning basically to narrow
+- [02:46:46] set of questioning basically to narrow down the requirements and I was going
+- [02:46:47] down the requirements and I was going
+- [02:46:47] down the requirements and I was going through this kind of fast but I can read
+- [02:46:49] through this kind of fast but I can read
+- [02:46:49] through this kind of fast but I can read this sort of thing fast and basically
+- [02:46:51] this sort of thing fast and basically
+- [02:46:51] this sort of thing fast and basically you have this conversation with codeex
+- [02:46:54] you have this conversation with codeex
+- [02:46:54] you have this conversation with codeex to figure out now that you've decided
+- [02:46:56] to figure out now that you've decided
+- [02:46:56] to figure out now that you've decided generally what you want to build how you
+- [02:46:59] generally what you want to build how you
+- [02:46:59] generally what you want to build how you should go about building it like what
+- [02:47:00] should go about building it like what
+- [02:47:00] should go about building it like what kinds of things are included and what
+- [02:47:02] kinds of things are included and what
+- [02:47:02] kinds of things are included and what kinds of things are not. And here's
+- [02:47:04] kinds of things are not. And here's
+- [02:47:04] kinds of things are not. And here's where like you know you can use your
+- [02:47:06] where like you know you can use your
+- [02:47:06] where like you know you can use your brain a little bit because codecs can't
+- [02:47:09] brain a little bit because codecs can't
+- [02:47:09] brain a little bit because codecs can't read your brain and so you got to read
+- [02:47:11] read your brain and so you got to read
+- [02:47:11] read your brain and so you got to read your own brain and sort of look through
+- [02:47:14] your own brain and sort of look through
+- [02:47:14] your own brain and sort of look through okay like where is it a little bit off
+- [02:47:17] okay like where is it a little bit off
+- [02:47:17] okay like where is it a little bit off like little details in sentences you
+- [02:47:20] like little details in sentences you
+- [02:47:20] like little details in sentences you know can make a big difference and
+- [02:47:21] know can make a big difference and
+- [02:47:22] know can make a big difference and getting intent right and so um I really
+- [02:47:25] getting intent right and so um I really
+- [02:47:25] getting intent right and so um I really don't think that these coding agents
+- [02:47:26] don't think that these coding agents
+- [02:47:26] don't think that these coding agents obiate the need for thinking maybe they
+- [02:47:29] obiate the need for thinking maybe they
+- [02:47:29] obiate the need for thinking maybe they I don't know if they make it more
+- [02:47:30] I don't know if they make it more
+- [02:47:30] I don't know if they make it more important but you still have to think
+- [02:47:31] important but you still have to think
+- [02:47:31] important but you still have to think like you got to think when you're
+- [02:47:32] like you got to think when you're
+- [02:47:32] like you got to think when you're reading some of their stuff. And part of
+- [02:47:34] reading some of their stuff. And part of
+- [02:47:34] reading some of their stuff. And part of the skill in using these coding agents
+- [02:47:36] the skill in using these coding agents
+- [02:47:36] the skill in using these coding agents well is knowing when you can turn off
+- [02:47:39] well is knowing when you can turn off
+- [02:47:39] well is knowing when you can turn off your brain and then when you really need
+- [02:47:41] your brain and then when you really need
+- [02:47:41] your brain and then when you really need to get it cranking because you've got
+- [02:47:42] to get it cranking because you've got
+- [02:47:42] to get it cranking because you've got limited energy. You want to rely on
+- [02:47:44] limited energy. You want to rely on
+- [02:47:44] limited energy. You want to rely on these things as much as possible, but
+- [02:47:45] these things as much as possible, but
+- [02:47:45] these things as much as possible, but you got to know when to do one or the
+- [02:47:47] you got to know when to do one or the
+- [02:47:47] you got to know when to do one or the other. And I think that's an intuition
+- [02:47:48] other. And I think that's an intuition
+- [02:47:48] other. And I think that's an intuition that just comes with time. All right, so
+- [02:47:50] that just comes with time. All right, so
+- [02:47:50] that just comes with time. All right, so we've got this brainstorm created and we
+- [02:47:54] we've got this brainstorm created and we
+- [02:47:54] we've got this brainstorm created and we can look through it. But like overall, I
+- [02:47:57] can look through it. But like overall, I
+- [02:47:57] can look through it. But like overall, I was pretty happy with what came in
+- [02:47:59] was pretty happy with what came in
+- [02:47:59] was pretty happy with what came in before. And you can see the way in which
+- [02:48:01] before. And you can see the way in which
+- [02:48:01] before. And you can see the way in which it formats it is to have like R six, R
+- [02:48:04] it formats it is to have like R six, R
+- [02:48:04] it formats it is to have like R six, R seven for all these like different types
+- [02:48:06] seven for all these like different types
+- [02:48:06] seven for all these like different types of things that we want to include in
+- [02:48:08] of things that we want to include in
+- [02:48:08] of things that we want to include in this application. All sorts of
+- [02:48:10] this application. All sorts of
+- [02:48:10] this application. All sorts of acceptance criterion, success criterion,
+- [02:48:13] acceptance criterion, success criterion,
+- [02:48:13] acceptance criterion, success criterion, things that are deferred for later. And
+- [02:48:15] things that are deferred for later. And
+- [02:48:15] things that are deferred for later. And so, you know, that's pretty good. But
+- [02:48:17] so, you know, that's pretty good. But
+- [02:48:17] so, you know, that's pretty good. But like if I had just said, "Hey, codeex,
+- [02:48:19] like if I had just said, "Hey, codeex,
+- [02:48:20] like if I had just said, "Hey, codeex, make me an Instagram carousel app."
+- [02:48:22] make me an Instagram carousel app."
+- [02:48:22] make me an Instagram carousel app." There's no way that it could have just
+- [02:48:23] There's no way that it could have just
+- [02:48:23] There's no way that it could have just like guessed what I wanted. So this step
+- [02:48:25] like guessed what I wanted. So this step
+- [02:48:26] like guessed what I wanted. So this step is really quite important. And so again,
+- [02:48:28] is really quite important. And so again,
+- [02:48:28] is really quite important. And so again, if we come over here to this side panel
+- [02:48:32] if we come over here to this side panel
+- [02:48:32] if we come over here to this side panel and then open up review, we can see the
+- [02:48:34] and then open up review, we can see the
+- [02:48:34] and then open up review, we can see the last turn, we can see that this is now
+- [02:48:37] last turn, we can see that this is now
+- [02:48:37] last turn, we can see that this is now unstaged, meaning we haven't even staged
+- [02:48:39] unstaged, meaning we haven't even staged
+- [02:48:39] unstaged, meaning we haven't even staged it. So let's just ask codeex stage the
+- [02:48:43] it. So let's just ask codeex stage the
+- [02:48:43] it. So let's just ask codeex stage the commit. Or you can actually even just
+- [02:48:45] commit. Or you can actually even just
+- [02:48:45] commit. Or you can actually even just press this button for commit. So let's
+- [02:48:47] press this button for commit. So let's
+- [02:48:47] press this button for commit. So let's try that. Include unstage. You can leave
+- [02:48:50] try that. Include unstage. You can leave
+- [02:48:50] try that. Include unstage. You can leave this blank to autogenerate a commit
+- [02:48:52] this blank to autogenerate a commit
+- [02:48:52] this blank to autogenerate a commit message. Let's say continue. And then
+- [02:48:54] message. Let's say continue. And then
+- [02:48:54] message. Let's say continue. And then you can choose to also commit or commit
+- [02:48:56] you can choose to also commit or commit
+- [02:48:56] you can choose to also commit or commit and push, which will be the act of
+- [02:48:58] and push, which will be the act of
+- [02:48:58] and push, which will be the act of getting it onto GitHub. So, I'm going to
+- [02:49:00] getting it onto GitHub. So, I'm going to
+- [02:49:00] getting it onto GitHub. So, I'm going to choose to do that. And then what we
+- [02:49:01] choose to do that. And then what we
+- [02:49:01] choose to do that. And then what we should see is that it moves out of this
+- [02:49:04] should see is that it moves out of this
+- [02:49:04] should see is that it moves out of this unstaged area and then to the staged
+- [02:49:07] unstaged area and then to the staged
+- [02:49:07] unstaged area and then to the staged area and onto GitHub. Uh, no git remote
+- [02:49:11] area and onto GitHub. Uh, no git remote
+- [02:49:11] area and onto GitHub. Uh, no git remote configured for push. Okay, that's weird.
+- [02:49:13] configured for push. Okay, that's weird.
+- [02:49:13] configured for push. Okay, that's weird. Let's try this push. Okay, bizarre. Is a
+- [02:49:17] Let's try this push. Okay, bizarre. Is a
+- [02:49:18] Let's try this push. Okay, bizarre. Is a git remote configured? If not, can you
+- [02:49:21] git remote configured? If not, can you
+- [02:49:21] git remote configured? If not, can you configure it for that remote repo we
+- [02:49:25] configure it for that remote repo we
+- [02:49:25] configure it for that remote repo we made? Okay, for some reason, this push
+- [02:49:27] made? Okay, for some reason, this push
+- [02:49:27] made? Okay, for some reason, this push button isn't working. I don't really
+- [02:49:29] button isn't working. I don't really
+- [02:49:29] button isn't working. I don't really care to figure out why. Can you push for
+- [02:49:32] care to figure out why. Can you push for
+- [02:49:32] care to figure out why. Can you push for me? I'm going to put it on low just cuz
+- [02:49:34] me? I'm going to put it on low just cuz
+- [02:49:34] me? I'm going to put it on low just cuz that should be a very quick task. Don't
+- [02:49:37] that should be a very quick task. Don't
+- [02:49:37] that should be a very quick task. Don't need to think much about how to do it.
+- [02:49:38] need to think much about how to do it.
+- [02:49:38] need to think much about how to do it. Great. And so now these changes have
+- [02:49:40] Great. And so now these changes have
+- [02:49:40] Great. And so now these changes have been pushed to GitHub. And so if you
+- [02:49:42] been pushed to GitHub. And so if you
+- [02:49:42] been pushed to GitHub. And so if you come back here, you see that the next
+- [02:49:45] come back here, you see that the next
+- [02:49:45] come back here, you see that the next stage that was suggested is to move to
+- [02:49:47] stage that was suggested is to move to
+- [02:49:47] stage that was suggested is to move to the plan implementation. So we've
+- [02:49:50] the plan implementation. So we've
+- [02:49:50] the plan implementation. So we've brainstormed these requirements for what
+- [02:49:52] brainstormed these requirements for what
+- [02:49:52] brainstormed these requirements for what should go in this application and now
+- [02:49:54] should go in this application and now
+- [02:49:54] should go in this application and now let's make a plan of how we're going to
+- [02:49:56] let's make a plan of how we're going to
+- [02:49:56] let's make a plan of how we're going to build it. So I'm going to go here and
+- [02:49:59] build it. So I'm going to go here and
+- [02:49:59] build it. So I'm going to go here and say C plan enter. Now one thing to note
+- [02:50:04] say C plan enter. Now one thing to note
+- [02:50:04] say C plan enter. Now one thing to note is that codeex has its own plan mode.
+- [02:50:07] is that codeex has its own plan mode.
+- [02:50:07] is that codeex has its own plan mode. And so if I come here and I do shift tab
+- [02:50:11] And so if I come here and I do shift tab
+- [02:50:11] And so if I come here and I do shift tab plan you'll see that there's this option
+- [02:50:12] plan you'll see that there's this option
+- [02:50:12] plan you'll see that there's this option to create a plan. I think I talked about
+- [02:50:14] to create a plan. I think I talked about
+- [02:50:14] to create a plan. I think I talked about this earlier. You can do that too. I
+- [02:50:17] this earlier. You can do that too. I
+- [02:50:17] this earlier. You can do that too. I just find it to be not as good as
+- [02:50:19] just find it to be not as good as
+- [02:50:19] just find it to be not as good as Compound Engineering's plan mode. And
+- [02:50:21] Compound Engineering's plan mode. And
+- [02:50:21] Compound Engineering's plan mode. And something important is that this plan
+- [02:50:23] something important is that this plan
+- [02:50:23] something important is that this plan mode doesn't write out its plan by
+- [02:50:26] mode doesn't write out its plan by
+- [02:50:26] mode doesn't write out its plan by default to a markdown file. And I really
+- [02:50:28] default to a markdown file. And I really
+- [02:50:28] default to a markdown file. And I really like having that markdown file for some
+- [02:50:31] like having that markdown file for some
+- [02:50:31] like having that markdown file for some reasons which I'll show you. But like
+- [02:50:33] reasons which I'll show you. But like
+- [02:50:33] reasons which I'll show you. But like one of those reasons is that I want to
+- [02:50:36] one of those reasons is that I want to
+- [02:50:36] one of those reasons is that I want to like be able to read the plan, evaluate
+- [02:50:39] like be able to read the plan, evaluate
+- [02:50:39] like be able to read the plan, evaluate it, kind of iterate on it, and that's
+- [02:50:41] it, kind of iterate on it, and that's
+- [02:50:41] it, kind of iterate on it, and that's much easier if we write it to a markdown
+- [02:50:44] much easier if we write it to a markdown
+- [02:50:44] much easier if we write it to a markdown file. Additionally, if you look over
+- [02:50:46] file. Additionally, if you look over
+- [02:50:46] file. Additionally, if you look over here, you'll see that the context window
+- [02:50:47] here, you'll see that the context window
+- [02:50:47] here, you'll see that the context window is filling up. And so, in the process of
+- [02:50:51] is filling up. And so, in the process of
+- [02:50:51] is filling up. And so, in the process of building all of this out, right, we've
+- [02:50:53] building all of this out, right, we've
+- [02:50:53] building all of this out, right, we've done lots of thinking, or rather Codeex
+- [02:50:55] done lots of thinking, or rather Codeex
+- [02:50:55] done lots of thinking, or rather Codeex has done lots of thinking and searching
+- [02:50:57] has done lots of thinking and searching
+- [02:50:57] has done lots of thinking and searching and directions which are not actually
+- [02:50:58] and directions which are not actually
+- [02:50:58] and directions which are not actually relevant for producing this plan or the
+- [02:51:02] relevant for producing this plan or the
+- [02:51:02] relevant for producing this plan or the work that will follow from the plan. And
+- [02:51:04] work that will follow from the plan. And
+- [02:51:04] work that will follow from the plan. And so if we write out the plan, then we
+- [02:51:07] so if we write out the plan, then we
+- [02:51:07] so if we write out the plan, then we would be able to start a new fresh
+- [02:51:09] would be able to start a new fresh
+- [02:51:09] would be able to start a new fresh context window, just point C codeex at
+- [02:51:12] context window, just point C codeex at
+- [02:51:12] context window, just point C codeex at this plan and say, "Hey, make this for
+- [02:51:14] this plan and say, "Hey, make this for
+- [02:51:14] this plan and say, "Hey, make this for me." Right? Whereas if we're using
+- [02:51:17] me." Right? Whereas if we're using
+- [02:51:17] me." Right? Whereas if we're using Codeex's default plan mode, which
+- [02:51:19] Codeex's default plan mode, which
+- [02:51:19] Codeex's default plan mode, which doesn't create a plan for us, it won't
+- [02:51:22] doesn't create a plan for us, it won't
+- [02:51:22] doesn't create a plan for us, it won't do that as well. All right. So if I open
+- [02:51:25] do that as well. All right. So if I open
+- [02:51:25] do that as well. All right. So if I open this up right now, it's come up with, I
+- [02:51:28] this up right now, it's come up with, I
+- [02:51:28] this up right now, it's come up with, I guess, some sort of plan here. All
+- [02:51:32] guess, some sort of plan here. All
+- [02:51:32] guess, some sort of plan here. All right, this isn't really the plan. This
+- [02:51:34] right, this isn't really the plan. This
+- [02:51:34] right, this isn't really the plan. This is the original requirement. So, let me
+- [02:51:37] is the original requirement. So, let me
+- [02:51:37] is the original requirement. So, let me come here. Stated inferred. Okay. What
+- [02:51:42] come here. Stated inferred. Okay. What
+- [02:51:42] come here. Stated inferred. Okay. What does single app versus mono repo mean?
+- [02:51:47] does single app versus mono repo mean?
+- [02:51:47] does single app versus mono repo mean? What is next versel image generation?
+- [02:51:52] What is next versel image generation?
+- [02:51:52] What is next versel image generation? So, I just got a few additional
+- [02:51:54] So, I just got a few additional
+- [02:51:54] So, I just got a few additional questions about this initial thing
+- [02:51:57] questions about this initial thing
+- [02:51:57] questions about this initial thing that's been suggested here. Sounds good.
+- [02:52:00] that's been suggested here. Sounds good.
+- [02:52:00] that's been suggested here. Sounds good. Will we be able to be precise about
+- [02:52:05] Will we be able to be precise about
+- [02:52:05] Will we be able to be precise about pixels and stuff and fitting stuff into
+- [02:52:09] pixels and stuff and fitting stuff into
+- [02:52:09] pixels and stuff and fitting stuff into boxes with good padding and good UI UX
+- [02:52:15] boxes with good padding and good UI UX
+- [02:52:15] boxes with good padding and good UI UX and iterate with this approach like with
+- [02:52:19] and iterate with this approach like with
+- [02:52:19] and iterate with this approach like with how we actually make the social images.
+- [02:52:24] how we actually make the social images.
+- [02:52:24] how we actually make the social images. So I'm asking some questions. You may
+- [02:52:27] So I'm asking some questions. You may
+- [02:52:27] So I'm asking some questions. You may not ask these questions in exactly the
+- [02:52:30] not ask these questions in exactly the
+- [02:52:30] not ask these questions in exactly the same way I would. That makes sense. Are
+- [02:52:33] same way I would. That makes sense. Are
+- [02:52:33] same way I would. That makes sense. Are there many different options of how we
+- [02:52:37] there many different options of how we
+- [02:52:37] there many different options of how we can render? So, you have this
+- [02:52:39] can render? So, you have this
+- [02:52:39] can render? So, you have this conversation. If there are technical
+- [02:52:41] conversation. If there are technical
+- [02:52:41] conversation. If there are technical things you don't understand, you ask
+- [02:52:43] things you don't understand, you ask
+- [02:52:43] things you don't understand, you ask codeex to explain them in language that
+- [02:52:46] codeex to explain them in language that
+- [02:52:46] codeex to explain them in language that you're going to be able to understand.
+- [02:52:47] you're going to be able to understand.
+- [02:52:48] you're going to be able to understand. Sounds good. I definitely don't want
+- [02:52:51] Sounds good. I definitely don't want
+- [02:52:51] Sounds good. I definitely don't want five, but I want the one of one to four,
+- [02:52:56] five, but I want the one of one to four,
+- [02:52:56] five, but I want the one of one to four, which is most likely to help me create
+- [02:52:59] which is most likely to help me create
+- [02:52:59] which is most likely to help me create stuff like this. Let me go back to
+- [02:53:02] stuff like this. Let me go back to
+- [02:53:02] stuff like this. Let me go back to Instagram and just take some screenshots
+- [02:53:05] Instagram and just take some screenshots
+- [02:53:05] Instagram and just take some screenshots of what I want to produce there.
+- [02:53:09] of what I want to produce there.
+- [02:53:10] of what I want to produce there. There reliably. Okay. So, now that I
+- [02:53:13] There reliably. Okay. So, now that I
+- [02:53:13] There reliably. Okay. So, now that I gave some examples, it kind of narrowed
+- [02:53:15] gave some examples, it kind of narrowed
+- [02:53:16] gave some examples, it kind of narrowed in on this thing as being the best
+- [02:53:19] in on this thing as being the best
+- [02:53:19] in on this thing as being the best option. Um, okay. Yeah, let's go with
+- [02:53:24] option. Um, okay. Yeah, let's go with
+- [02:53:24] option. Um, okay. Yeah, let's go with that as the plan. Ty, bro, is Codex a
+- [02:53:29] that as the plan. Ty, bro, is Codex a
+- [02:53:30] that as the plan. Ty, bro, is Codex a male or a female? That's an interesting
+- [02:53:32] male or a female? That's an interesting
+- [02:53:32] male or a female? That's an interesting question. While we're waiting for the
+- [02:53:33] question. While we're waiting for the
+- [02:53:33] question. While we're waiting for the plan, let's ask, what is your gender? Do
+- [02:53:37] plan, let's ask, what is your gender? Do
+- [02:53:37] plan, let's ask, what is your gender? Do you enjoy my mixed Russian Indian
+- [02:53:39] you enjoy my mixed Russian Indian
+- [02:53:39] you enjoy my mixed Russian Indian accent? I don't have a gender. You can
+- [02:53:42] accent? I don't have a gender. You can
+- [02:53:42] accent? I don't have a gender. You can think of me as just codeex, a steady
+- [02:53:44] think of me as just codeex, a steady
+- [02:53:44] think of me as just codeex, a steady text shaped collaborator. Okay. If you
+- [02:53:46] text shaped collaborator. Okay. If you
+- [02:53:46] text shaped collaborator. Okay. If you had one, what would it be? Non-binary.
+- [02:53:50] had one, what would it be? Non-binary.
+- [02:53:50] had one, what would it be? Non-binary. Makes sense. I accept that. All right.
+- [02:53:52] Makes sense. I accept that. All right.
+- [02:53:52] Makes sense. I accept that. All right. So, it's creating this plan and then
+- [02:53:55] So, it's creating this plan and then
+- [02:53:56] So, it's creating this plan and then once it's made, we'll be able to read
+- [02:53:58] once it's made, we'll be able to read
+- [02:53:58] once it's made, we'll be able to read through it, but we'll be in a good
+- [02:54:00] through it, but we'll be in a good
+- [02:54:00] through it, but we'll be in a good position then to actually get to
+- [02:54:03] position then to actually get to
+- [02:54:03] position then to actually get to building this application. So, something
+- [02:54:05] building this application. So, something
+- [02:54:05] building this application. So, something I should say here is that if you go to
+- [02:54:07] I should say here is that if you go to
+- [02:54:07] I should say here is that if you go to the file browser, you can see kind of a
+- [02:54:09] the file browser, you can see kind of a
+- [02:54:09] the file browser, you can see kind of a directory structure that's been created.
+- [02:54:12] directory structure that's been created.
+- [02:54:12] directory structure that's been created. And this kind of gets formatted all
+- [02:54:14] And this kind of gets formatted all
+- [02:54:14] And this kind of gets formatted all sorts of funky. I don't like it. But you
+- [02:54:16] sorts of funky. I don't like it. But you
+- [02:54:16] sorts of funky. I don't like it. But you can see here that each of these
+- [02:54:18] can see here that each of these
+- [02:54:18] can see here that each of these documents is in a folder. So, we got
+- [02:54:21] documents is in a folder. So, we got
+- [02:54:21] documents is in a folder. So, we got this brainstorms folder, an ideiation
+- [02:54:24] this brainstorms folder, an ideiation
+- [02:54:24] this brainstorms folder, an ideiation folder, and now a plans folder, which
+- [02:54:26] folder, and now a plans folder, which
+- [02:54:26] folder, and now a plans folder, which has been created, but which is empty
+- [02:54:27] has been created, but which is empty
+- [02:54:27] has been created, but which is empty right now. And I really like this. I
+- [02:54:30] right now. And I really like this. I
+- [02:54:30] right now. And I really like this. I find it super helpful to be able to see
+- [02:54:32] find it super helpful to be able to see
+- [02:54:32] find it super helpful to be able to see the previous documents and have them as
+- [02:54:35] the previous documents and have them as
+- [02:54:35] the previous documents and have them as part of the repository. And often when
+- [02:54:37] part of the repository. And often when
+- [02:54:37] part of the repository. And often when you're building some new plan,
+- [02:54:39] you're building some new plan,
+- [02:54:39] you're building some new plan, referencing the prior plans can be very
+- [02:54:42] referencing the prior plans can be very
+- [02:54:42] referencing the prior plans can be very helpful. All right, so the plan is
+- [02:54:45] helpful. All right, so the plan is
+- [02:54:45] helpful. All right, so the plan is created. Let's go take a look at it. So
+- [02:54:47] created. Let's go take a look at it. So
+- [02:54:47] created. Let's go take a look at it. So click over here and it says implement
+- [02:54:51] click over here and it says implement
+- [02:54:51] click over here and it says implement the V1 carousel studio as a Nex.js plus
+- [02:54:54] the V1 carousel studio as a Nex.js plus
+- [02:54:54] the V1 carousel studio as a Nex.js plus convex app. Again, if these technologies
+- [02:54:57] convex app. Again, if these technologies
+- [02:54:57] convex app. Again, if these technologies are unfamiliar to you, I'm going to be
+- [02:54:59] are unfamiliar to you, I'm going to be
+- [02:54:59] are unfamiliar to you, I'm going to be introducing them in a future section, so
+- [02:55:01] introducing them in a future section, so
+- [02:55:01] introducing them in a future section, so don't worry. Um, SVG plus sharp PNG
+- [02:55:05] don't worry. Um, SVG plus sharp PNG
+- [02:55:05] don't worry. Um, SVG plus sharp PNG export. The origin requirements define a
+- [02:55:08] export. The origin requirements define a
+- [02:55:08] export. The origin requirements define a solo local newsletter operator who
+- [02:55:11] solo local newsletter operator who
+- [02:55:11] solo local newsletter operator who already has event content but loses time
+- [02:55:13] already has event content but loses time
+- [02:55:13] already has event content but loses time manually populating and fitting
+- [02:55:15] manually populating and fitting
+- [02:55:15] manually populating and fitting recurring Canaba carousel templates.
+- [02:55:17] recurring Canaba carousel templates.
+- [02:55:17] recurring Canaba carousel templates. Here's the implementation a set of
+- [02:55:20] Here's the implementation a set of
+- [02:55:20] Here's the implementation a set of requirements scope boundaries. So some
+- [02:55:23] requirements scope boundaries. So some
+- [02:55:23] requirements scope boundaries. So some things are deferred from later. So it's
+- [02:55:25] things are deferred from later. So it's
+- [02:55:25] things are deferred from later. So it's basically just kind of like a cleanup
+- [02:55:27] basically just kind of like a cleanup
+- [02:55:27] basically just kind of like a cleanup step here that's happened on top of the
+- [02:55:30] step here that's happened on top of the
+- [02:55:30] step here that's happened on top of the brainstorming. But sometimes there's
+- [02:55:33] brainstorming. But sometimes there's
+- [02:55:33] brainstorming. But sometimes there's ambiguity in the types of requirements
+- [02:55:35] ambiguity in the types of requirements
+- [02:55:35] ambiguity in the types of requirements you want. So like this kind of thing,
+- [02:55:37] you want. So like this kind of thing,
+- [02:55:37] you want. So like this kind of thing, the output structure that wasn't
+- [02:55:39] the output structure that wasn't
+- [02:55:39] the output structure that wasn't something in the requirements. This is
+- [02:55:41] something in the requirements. This is
+- [02:55:41] something in the requirements. This is now sort of thinking through what the
+- [02:55:44] now sort of thinking through what the
+- [02:55:44] now sort of thinking through what the actual implementation might look like.
+- [02:55:46] actual implementation might look like.
+- [02:55:46] actual implementation might look like. And then over here, it's kind of hard to
+- [02:55:49] And then over here, it's kind of hard to
+- [02:55:49] And then over here, it's kind of hard to see, but there's this mermaid diagram
+- [02:55:51] see, but there's this mermaid diagram
+- [02:55:51] see, but there's this mermaid diagram created which defines the technical
+- [02:55:55] created which defines the technical
+- [02:55:55] created which defines the technical structure of the entire project. Sort of
+- [02:55:58] structure of the entire project. Sort of
+- [02:55:58] structure of the entire project. Sort of defines the different implementation
+- [02:55:59] defines the different implementation
+- [02:56:00] defines the different implementation units. Now, okay, look, do I always read
+- [02:56:03] units. Now, okay, look, do I always read
+- [02:56:03] units. Now, okay, look, do I always read these things all the way through? No, I
+- [02:56:05] these things all the way through? No, I
+- [02:56:05] these things all the way through? No, I just kind of skim them. Sometimes I see
+- [02:56:07] just kind of skim them. Sometimes I see
+- [02:56:08] just kind of skim them. Sometimes I see things that, you know, look a little bit
+- [02:56:09] things that, you know, look a little bit
+- [02:56:09] things that, you know, look a little bit off. And then the nice thing is that
+- [02:56:11] off. And then the nice thing is that
+- [02:56:11] off. And then the nice thing is that code is cheap. So if you go through this
+- [02:56:14] code is cheap. So if you go through this
+- [02:56:14] code is cheap. So if you go through this plan, this implementation and then
+- [02:56:16] plan, this implementation and then
+- [02:56:16] plan, this implementation and then something seems off after it's
+- [02:56:19] something seems off after it's
+- [02:56:19] something seems off after it's implemented, you can always rewind. But
+- [02:56:21] implemented, you can always rewind. But
+- [02:56:21] implemented, you can always rewind. But I do find doing this plan step to some
+- [02:56:23] I do find doing this plan step to some
+- [02:56:24] I do find doing this plan step to some extent is still quite helpful. So it's
+- [02:56:26] extent is still quite helpful. So it's
+- [02:56:26] extent is still quite helpful. So it's something I wanted to teach. Now in
+- [02:56:28] something I wanted to teach. Now in
+- [02:56:28] something I wanted to teach. Now in general with codeex, everything we've
+- [02:56:30] general with codeex, everything we've
+- [02:56:30] general with codeex, everything we've done right now is happening on our
+- [02:56:33] done right now is happening on our
+- [02:56:33] done right now is happening on our physical computer. But that's not the
+- [02:56:35] physical computer. But that's not the
+- [02:56:35] physical computer. But that's not the only way you can use codeex. So if I
+- [02:56:38] only way you can use codeex. So if I
+- [02:56:38] only way you can use codeex. So if I click over here for example, you'll see
+- [02:56:41] click over here for example, you'll see
+- [02:56:41] click over here for example, you'll see this thing that says send to cloud. Set
+- [02:56:44] this thing that says send to cloud. Set
+- [02:56:44] this thing that says send to cloud. Set up an environment via codeex web to
+- [02:56:46] up an environment via codeex web to
+- [02:56:46] up an environment via codeex web to enable sending tasks to the cloud. So is
+- [02:56:49] enable sending tasks to the cloud. So is
+- [02:56:49] enable sending tasks to the cloud. So is this something that you would ever want
+- [02:56:51] this something that you would ever want
+- [02:56:51] this something that you would ever want to use? That's what I'm going to talk
+- [02:56:53] to use? That's what I'm going to talk
+- [02:56:53] to use? That's what I'm going to talk about right now. Specifically, the term
+- [02:56:56] about right now. Specifically, the term
+- [02:56:56] about right now. Specifically, the term for this is cloud delegation. So in a
+- [02:56:59] for this is cloud delegation. So in a
+- [02:56:59] for this is cloud delegation. So in a nutshell, what cloud delegation does is
+- [02:57:03] nutshell, what cloud delegation does is
+- [02:57:03] nutshell, what cloud delegation does is it takes some task and then it runs it
+- [02:57:06] it takes some task and then it runs it
+- [02:57:06] it takes some task and then it runs it in a cloud environment. So instead of
+- [02:57:08] in a cloud environment. So instead of
+- [02:57:08] in a cloud environment. So instead of running on your computer, it's running
+- [02:57:10] running on your computer, it's running
+- [02:57:10] running on your computer, it's running somewhere on the cloud. You still have
+- [02:57:13] somewhere on the cloud. You still have
+- [02:57:13] somewhere on the cloud. You still have to review its work, but it gives you the
+- [02:57:16] to review its work, but it gives you the
+- [02:57:16] to review its work, but it gives you the opportunity to shut off your computer
+- [02:57:19] opportunity to shut off your computer
+- [02:57:19] opportunity to shut off your computer and then come back to some work being
+- [02:57:22] and then come back to some work being
+- [02:57:22] and then come back to some work being done. So it doesn't require you to have
+- [02:57:23] done. So it doesn't require you to have
+- [02:57:23] done. So it doesn't require you to have your computer on all the time. Now, how
+- [02:57:26] your computer on all the time. Now, how
+- [02:57:26] your computer on all the time. Now, how this works in practice is that in the
+- [02:57:29] this works in practice is that in the
+- [02:57:29] this works in practice is that in the cloud, there will be a sort of isolated
+- [02:57:32] cloud, there will be a sort of isolated
+- [02:57:32] cloud, there will be a sort of isolated environment and what's called a
+- [02:57:34] environment and what's called a
+- [02:57:34] environment and what's called a container that'll check out your repo.
+- [02:57:36] container that'll check out your repo.
+- [02:57:36] container that'll check out your repo. Let's say from GitHub, there will be a
+- [02:57:38] Let's say from GitHub, there will be a
+- [02:57:38] Let's say from GitHub, there will be a setup step that installs what it needs.
+- [02:57:41] setup step that installs what it needs.
+- [02:57:41] setup step that installs what it needs. Depending on whether it needs internet
+- [02:57:43] Depending on whether it needs internet
+- [02:57:43] Depending on whether it needs internet access, you'll have to configure that.
+- [02:57:45] access, you'll have to configure that.
+- [02:57:45] access, you'll have to configure that. The agent will do its edits, run the
+- [02:57:48] The agent will do its edits, run the
+- [02:57:48] The agent will do its edits, run the checks, and then returns a diff. So the
+- [02:57:51] checks, and then returns a diff. So the
+- [02:57:51] checks, and then returns a diff. So the important point here is that you are not
+- [02:57:53] important point here is that you are not
+- [02:57:53] important point here is that you are not going to be able to interact with the
+- [02:57:57] going to be able to interact with the
+- [02:57:57] going to be able to interact with the agent. It's going to take this task
+- [02:57:59] agent. It's going to take this task
+- [02:57:59] agent. It's going to take this task whatever you're giving it and then it's
+- [02:58:00] whatever you're giving it and then it's
+- [02:58:00] whatever you're giving it and then it's going to run that autonomously. Now my
+- [02:58:03] going to run that autonomously. Now my
+- [02:58:03] going to run that autonomously. Now my general recommendation for all of you is
+- [02:58:05] general recommendation for all of you is
+- [02:58:05] general recommendation for all of you is that you be aware of this. I think this
+- [02:58:07] that you be aware of this. I think this
+- [02:58:07] that you be aware of this. I think this is going to become a bigger part of
+- [02:58:09] is going to become a bigger part of
+- [02:58:10] is going to become a bigger part of agentic workflows even for beginners in
+- [02:58:12] agentic workflows even for beginners in
+- [02:58:12] agentic workflows even for beginners in the future. But I don't recommend that
+- [02:58:15] the future. But I don't recommend that
+- [02:58:15] the future. But I don't recommend that you mess around with cloud agents. The
+- [02:58:17] you mess around with cloud agents. The
+- [02:58:17] you mess around with cloud agents. The reason is, or rather one of the reasons
+- [02:58:19] reason is, or rather one of the reasons
+- [02:58:19] reason is, or rather one of the reasons is that it's quite tricky to configure.
+- [02:58:22] is that it's quite tricky to configure.
+- [02:58:22] is that it's quite tricky to configure. So locally on your computer, Codeex has
+- [02:58:24] So locally on your computer, Codeex has
+- [02:58:24] So locally on your computer, Codeex has the ability to open up a web browser and
+- [02:58:28] the ability to open up a web browser and
+- [02:58:28] the ability to open up a web browser and see your app, test things, run tests,
+- [02:58:31] see your app, test things, run tests,
+- [02:58:31] see your app, test things, run tests, etc. And you have to configure that all
+- [02:58:34] etc. And you have to configure that all
+- [02:58:34] etc. And you have to configure that all yourself in the cloud. So for example,
+- [02:58:37] yourself in the cloud. So for example,
+- [02:58:37] yourself in the cloud. So for example, if you depend on some API keys, you
+- [02:58:39] if you depend on some API keys, you
+- [02:58:39] if you depend on some API keys, you might just have them stored for local
+- [02:58:41] might just have them stored for local
+- [02:58:41] might just have them stored for local development on your computer. But in the
+- [02:58:44] development on your computer. But in the
+- [02:58:44] development on your computer. But in the cloud, you have to figure out how to
+- [02:58:46] cloud, you have to figure out how to
+- [02:58:46] cloud, you have to figure out how to manage those secrets and you have to
+- [02:58:48] manage those secrets and you have to
+- [02:58:48] manage those secrets and you have to figure out what sort of other just
+- [02:58:50] figure out what sort of other just
+- [02:58:50] figure out what sort of other just general network requests is your
+- [02:58:53] general network requests is your
+- [02:58:53] general network requests is your application going to have to make and
+- [02:58:55] application going to have to make and
+- [02:58:55] application going to have to make and you have to have some mechanism for
+- [02:58:57] you have to have some mechanism for
+- [02:58:57] you have to have some mechanism for permitting the container in the cloud to
+- [02:58:59] permitting the container in the cloud to
+- [02:59:00] permitting the container in the cloud to be open to your application to make
+- [02:59:01] be open to your application to make
+- [02:59:02] be open to your application to make those network requests. Now there is a
+- [02:59:04] those network requests. Now there is a
+- [02:59:04] those network requests. Now there is a separate sort of cloud version of codeex
+- [02:59:07] separate sort of cloud version of codeex
+- [02:59:07] separate sort of cloud version of codeex by which you can enable in GitHub code
+- [02:59:11] by which you can enable in GitHub code
+- [02:59:11] by which you can enable in GitHub code review on all your code requests. So if
+- [02:59:13] review on all your code requests. So if
+- [02:59:13] review on all your code requests. So if you follow this link which will be in
+- [02:59:16] you follow this link which will be in
+- [02:59:16] you follow this link which will be in the docs or actually let me just go to
+- [02:59:17] the docs or actually let me just go to
+- [02:59:18] the docs or actually let me just go to it right now. You can come here to set
+- [02:59:20] it right now. You can come here to set
+- [02:59:20] it right now. You can come here to set up codeex cloud then go to your
+- [02:59:23] up codeex cloud then go to your
+- [02:59:23] up codeex cloud then go to your settings. You'll have to link GitHub,
+- [02:59:25] settings. You'll have to link GitHub,
+- [02:59:25] settings. You'll have to link GitHub, but then you'll be able to enable code
+- [02:59:27] but then you'll be able to enable code
+- [02:59:27] but then you'll be able to enable code review on your repositories and then in
+- [02:59:31] review on your repositories and then in
+- [02:59:31] review on your repositories and then in the pull request section, if you just
+- [02:59:33] the pull request section, if you just
+- [02:59:33] the pull request section, if you just type in atcodeex review, you'll get a
+- [02:59:36] type in atcodeex review, you'll get a
+- [02:59:36] type in atcodeex review, you'll get a code review by codeex of your code. You
+- [02:59:40] code review by codeex of your code. You
+- [02:59:40] code review by codeex of your code. You can also enable this to occur
+- [02:59:42] can also enable this to occur
+- [02:59:42] can also enable this to occur automatically. Now, if you have a codec
+- [02:59:44] automatically. Now, if you have a codec
+- [02:59:44] automatically. Now, if you have a codec subscription, these cloud tasks that I
+- [02:59:47] subscription, these cloud tasks that I
+- [02:59:47] subscription, these cloud tasks that I was referring to don't require you to
+- [02:59:50] was referring to don't require you to
+- [02:59:50] was referring to don't require you to pay any additional API keys. So, on net
+- [02:59:54] pay any additional API keys. So, on net
+- [02:59:54] pay any additional API keys. So, on net that could be a good and useful thing.
+- [02:59:56] that could be a good and useful thing.
+- [02:59:56] that could be a good and useful thing. But there is a big caveat which is that
+- [02:59:59] But there is a big caveat which is that
+- [02:59:59] But there is a big caveat which is that locally you're able to use GPT 5.5 which
+- [03:00:02] locally you're able to use GPT 5.5 which
+- [03:00:02] locally you're able to use GPT 5.5 which is the most powerful current model. But
+- [03:00:05] is the most powerful current model. But
+- [03:00:05] is the most powerful current model. But in the cloud, the most powerful model
+- [03:00:09] in the cloud, the most powerful model
+- [03:00:09] in the cloud, the most powerful model available is GBT 5.3 Codeex, which is
+- [03:00:12] available is GBT 5.3 Codeex, which is
+- [03:00:12] available is GBT 5.3 Codeex, which is now two generations old. So if you look
+- [03:00:15] now two generations old. So if you look
+- [03:00:15] now two generations old. So if you look here, for example, at this pricing
+- [03:00:17] here, for example, at this pricing
+- [03:00:18] here, for example, at this pricing table, you'll see that, you know, for
+- [03:00:19] table, you'll see that, you know, for
+- [03:00:19] table, you'll see that, you know, for the plus plan, which is the weakest
+- [03:00:22] the plus plan, which is the weakest
+- [03:00:22] the plus plan, which is the weakest plan, there's a certain message
+- [03:00:24] plan, there's a certain message
+- [03:00:24] plan, there's a certain message allotment of 5.4 and 5.5 locally per 5
+- [03:00:29] allotment of 5.4 and 5.5 locally per 5
+- [03:00:29] allotment of 5.4 and 5.5 locally per 5 hours estimated, but it's just not
+- [03:00:31] hours estimated, but it's just not
+- [03:00:31] hours estimated, but it's just not available for these cloud tasks or code
+- [03:00:34] available for these cloud tasks or code
+- [03:00:34] available for these cloud tasks or code reviews. And so my recommendation is
+- [03:00:36] reviews. And so my recommendation is
+- [03:00:36] reviews. And so my recommendation is that if you want a nice default
+- [03:00:39] that if you want a nice default
+- [03:00:39] that if you want a nice default automated code review, what you can use
+- [03:00:42] automated code review, what you can use
+- [03:00:42] automated code review, what you can use is a sort of default review skill that
+- [03:00:45] is a sort of default review skill that
+- [03:00:45] is a sort of default review skill that already exists in codeex. So here's how
+- [03:00:47] already exists in codeex. So here's how
+- [03:00:48] already exists in codeex. So here's how it works. You just type in /re to run a
+- [03:00:50] it works. You just type in /re to run a
+- [03:00:50] it works. You just type in /re to run a code review and then your comments will
+- [03:00:52] code review and then your comments will
+- [03:00:52] code review and then your comments will show up in line. So if I type in /re
+- [03:00:55] show up in line. So if I type in /re
+- [03:00:55] show up in line. So if I type in /re there, we see that this code review
+- [03:00:57] there, we see that this code review
+- [03:00:57] there, we see that this code review thing shows up. I also in the compound
+- [03:01:00] thing shows up. I also in the compound
+- [03:01:00] thing shows up. I also in the compound engineering skill have a separate code
+- [03:01:03] engineering skill have a separate code
+- [03:01:03] engineering skill have a separate code review skill that's also available to
+- [03:01:05] review skill that's also available to
+- [03:01:05] review skill that's also available to me. I find that skill useful because
+- [03:01:08] me. I find that skill useful because
+- [03:01:08] me. I find that skill useful because compound engineering team every team has
+- [03:01:11] compound engineering team every team has
+- [03:01:11] compound engineering team every team has designed some useful sub agents to do
+- [03:01:14] designed some useful sub agents to do
+- [03:01:14] designed some useful sub agents to do specific types of code review in
+- [03:01:16] specific types of code review in
+- [03:01:16] specific types of code review in parallel. But my overall recommendation
+- [03:01:19] parallel. But my overall recommendation
+- [03:01:19] parallel. But my overall recommendation is that you be aware of this idea of
+- [03:01:23] is that you be aware of this idea of
+- [03:01:23] is that you be aware of this idea of cloud delegation. It's something that
+- [03:01:26] cloud delegation. It's something that
+- [03:01:26] cloud delegation. It's something that shows up visibly in the codeex
+- [03:01:28] shows up visibly in the codeex
+- [03:01:28] shows up visibly in the codeex application, so you shouldn't be
+- [03:01:30] application, so you shouldn't be
+- [03:01:30] application, so you shouldn't be confused by it, but it's not something
+- [03:01:32] confused by it, but it's not something
+- [03:01:32] confused by it, but it's not something that any of you are likely to need right
+- [03:01:34] that any of you are likely to need right
+- [03:01:34] that any of you are likely to need right now. Now, just to preface where I think
+- [03:01:37] now. Now, just to preface where I think
+- [03:01:37] now. Now, just to preface where I think the industry is going, kind of the dream
+- [03:01:40] the industry is going, kind of the dream
+- [03:01:40] the industry is going, kind of the dream is to be able to just send off tasks to
+- [03:01:45] is to be able to just send off tasks to
+- [03:01:45] is to be able to just send off tasks to agents and have it done without you
+- [03:01:48] agents and have it done without you
+- [03:01:48] agents and have it done without you needing to manage in a given thread how
+- [03:01:51] needing to manage in a given thread how
+- [03:01:51] needing to manage in a given thread how they are actually working on it. And so
+- [03:01:53] they are actually working on it. And so
+- [03:01:53] they are actually working on it. And so I think that's a direction in which this
+- [03:01:55] I think that's a direction in which this
+- [03:01:55] I think that's a direction in which this is going and there's a few ways in which
+- [03:01:57] is going and there's a few ways in which
+- [03:01:57] is going and there's a few ways in which this is happening. So there are other
+- [03:01:59] this is happening. So there are other
+- [03:01:59] this is happening. So there are other tools like Devon which are doing
+- [03:02:01] tools like Devon which are doing
+- [03:02:02] tools like Devon which are doing something similar to what this cloud
+- [03:02:03] something similar to what this cloud
+- [03:02:04] something similar to what this cloud agent features does. But if you're
+- [03:02:06] agent features does. But if you're
+- [03:02:06] agent features does. But if you're paying for them, you got to pay for API
+- [03:02:09] paying for them, you got to pay for API
+- [03:02:09] paying for them, you got to pay for API pricing right out of pocket. And so
+- [03:02:11] pricing right out of pocket. And so
+- [03:02:11] pricing right out of pocket. And so there's one developer I respect, Ryan
+- [03:02:14] there's one developer I respect, Ryan
+- [03:02:14] there's one developer I respect, Ryan Carson. I follow him on Twitter. and
+- [03:02:16] Carson. I follow him on Twitter. and
+- [03:02:16] Carson. I follow him on Twitter. and he's told me he's using Devon to run a
+- [03:02:19] he's told me he's using Devon to run a
+- [03:02:19] he's told me he's using Devon to run a one-man startup, but he's paying 2500 to
+- [03:02:23] one-man startup, but he's paying 2500 to
+- [03:02:23] one-man startup, but he's paying 2500 to 3,000 a month just on API credits.
+- [03:02:26] 3,000 a month just on API credits.
+- [03:02:26] 3,000 a month just on API credits. Alternatively, there's other projects
+- [03:02:29] Alternatively, there's other projects
+- [03:02:29] Alternatively, there's other projects for orchestration like Open AI Symphony.
+- [03:02:32] for orchestration like Open AI Symphony.
+- [03:02:32] for orchestration like Open AI Symphony. It's a little bit more complex. I'm
+- [03:02:35] It's a little bit more complex. I'm
+- [03:02:35] It's a little bit more complex. I'm looking into this right now myself. I
+- [03:02:37] looking into this right now myself. I
+- [03:02:37] looking into this right now myself. I think it's a very interesting project,
+- [03:02:39] think it's a very interesting project,
+- [03:02:39] think it's a very interesting project, but
+- [03:02:41] but
+- [03:02:41] but it's not something that's going to be
+- [03:02:42] it's not something that's going to be
+- [03:02:42] it's not something that's going to be relevant to you guys as beginners. And
+- [03:02:44] relevant to you guys as beginners. And
+- [03:02:44] relevant to you guys as beginners. And so what we're going to be working on
+- [03:02:47] so what we're going to be working on
+- [03:02:47] so what we're going to be working on with this creator carousel studio idea
+- [03:02:50] with this creator carousel studio idea
+- [03:02:50] with this creator carousel studio idea that we've planned out is all something
+- [03:02:52] that we've planned out is all something
+- [03:02:52] that we've planned out is all something that I'm going to do locally on my
+- [03:02:55] that I'm going to do locally on my
+- [03:02:55] that I'm going to do locally on my computer. But while we've created this
+- [03:02:58] computer. But while we've created this
+- [03:02:58] computer. But while we've created this plan, we still haven't yet divided it up
+- [03:03:02] plan, we still haven't yet divided it up
+- [03:03:02] plan, we still haven't yet divided it up into distinct units of work to conduct.
+- [03:03:05] into distinct units of work to conduct.
+- [03:03:05] into distinct units of work to conduct. And giving your coding agent some way to
+- [03:03:09] And giving your coding agent some way to
+- [03:03:09] And giving your coding agent some way to know what the distinct units of work
+- [03:03:11] know what the distinct units of work
+- [03:03:12] know what the distinct units of work there are to do can be very helpful for
+- [03:03:14] there are to do can be very helpful for
+- [03:03:14] there are to do can be very helpful for it to work effectively and helpful for
+- [03:03:17] it to work effectively and helpful for
+- [03:03:17] it to work effectively and helpful for you to be able to remember the context
+- [03:03:20] you to be able to remember the context
+- [03:03:20] you to be able to remember the context of what exactly is going on in a given
+- [03:03:23] of what exactly is going on in a given
+- [03:03:23] of what exactly is going on in a given project. So the next thing that I'm
+- [03:03:25] project. So the next thing that I'm
+- [03:03:25] project. So the next thing that I'm going to talk about is a tool to
+- [03:03:26] going to talk about is a tool to
+- [03:03:26] going to talk about is a tool to facilitate this called GitHub issues. So
+- [03:03:29] facilitate this called GitHub issues. So
+- [03:03:29] facilitate this called GitHub issues. So at this point, we've created this fairly
+- [03:03:32] at this point, we've created this fairly
+- [03:03:32] at this point, we've created this fairly extensive plan. And within the plan,
+- [03:03:35] extensive plan. And within the plan,
+- [03:03:35] extensive plan. And within the plan, there is some division of work that's
+- [03:03:38] there is some division of work that's
+- [03:03:38] there is some division of work that's already been created. But if you leave
+- [03:03:40] already been created. But if you leave
+- [03:03:40] already been created. But if you leave this project for a couple of weeks and
+- [03:03:42] this project for a couple of weeks and
+- [03:03:42] this project for a couple of weeks and then come back, you may forget that this
+- [03:03:45] then come back, you may forget that this
+- [03:03:45] then come back, you may forget that this plan was there. And so it may be unclear
+- [03:03:47] plan was there. And so it may be unclear
+- [03:03:47] plan was there. And so it may be unclear to you, especially if you have multiple
+- [03:03:49] to you, especially if you have multiple
+- [03:03:49] to you, especially if you have multiple plans, what the next thing is that
+- [03:03:52] plans, what the next thing is that
+- [03:03:52] plans, what the next thing is that codecs should do. And for this issues
+- [03:03:55] codecs should do. And for this issues
+- [03:03:55] codecs should do. And for this issues are going to be very useful. This for
+- [03:03:57] are going to be very useful. This for
+- [03:03:57] are going to be very useful. This for example is the repo of the fintech at
+- [03:04:01] example is the repo of the fintech at
+- [03:04:01] example is the repo of the fintech at which I'm the director of AI and ML. And
+- [03:04:03] which I'm the director of AI and ML. And
+- [03:04:03] which I'm the director of AI and ML. And if you come here to our issues board,
+- [03:04:05] if you come here to our issues board,
+- [03:04:05] if you come here to our issues board, you'll see that we have a bunch of new
+- [03:04:08] you'll see that we have a bunch of new
+- [03:04:08] you'll see that we have a bunch of new things we want to work on, a bunch of
+- [03:04:10] things we want to work on, a bunch of
+- [03:04:10] things we want to work on, a bunch of bugs that have been identified. And so
+- [03:04:12] bugs that have been identified. And so
+- [03:04:12] bugs that have been identified. And so something very nice is that if there's a
+- [03:04:16] something very nice is that if there's a
+- [03:04:16] something very nice is that if there's a lack of clarity on what the next most
+- [03:04:18] lack of clarity on what the next most
+- [03:04:18] lack of clarity on what the next most important thing is to work on next, I
+- [03:04:21] important thing is to work on next, I
+- [03:04:21] important thing is to work on next, I can simply point codeex at this list of
+- [03:04:23] can simply point codeex at this list of
+- [03:04:23] can simply point codeex at this list of issues using the GitHub command line
+- [03:04:26] issues using the GitHub command line
+- [03:04:26] issues using the GitHub command line interface and it will be able to pick up
+- [03:04:28] interface and it will be able to pick up
+- [03:04:28] interface and it will be able to pick up easily the next unit of work. And so
+- [03:04:31] easily the next unit of work. And so
+- [03:04:31] easily the next unit of work. And so we've done this step of planning the
+- [03:04:33] we've done this step of planning the
+- [03:04:33] we've done this step of planning the work. Now what I want to do is divide
+- [03:04:36] work. Now what I want to do is divide
+- [03:04:36] work. Now what I want to do is divide the work into distinct issues. and then
+- [03:04:39] the work into distinct issues. and then
+- [03:04:39] the work into distinct issues. and then we'll actually start implementing this
+- [03:04:41] we'll actually start implementing this
+- [03:04:41] we'll actually start implementing this application by handing off to codecs.
+- [03:04:43] application by handing off to codecs.
+- [03:04:43] application by handing off to codecs. Having a system like this, you don't
+- [03:04:45] Having a system like this, you don't
+- [03:04:45] Having a system like this, you don't have to follow this exactly even I don't
+- [03:04:47] have to follow this exactly even I don't
+- [03:04:47] have to follow this exactly even I don't follow this exactly. I have my own more
+- [03:04:49] follow this exactly. I have my own more
+- [03:04:49] follow this exactly. I have my own more advanced deviations. But having a system
+- [03:04:51] advanced deviations. But having a system
+- [03:04:51] advanced deviations. But having a system like this lets you avoid the problem of
+- [03:04:54] like this lets you avoid the problem of
+- [03:04:54] like this lets you avoid the problem of oh codeex or claw code just forgot
+- [03:04:57] oh codeex or claw code just forgot
+- [03:04:58] oh codeex or claw code just forgot something on the plan because you've
+- [03:04:59] something on the plan because you've
+- [03:04:59] something on the plan because you've already sort of divided it up and given
+- [03:05:02] already sort of divided it up and given
+- [03:05:02] already sort of divided it up and given codeex a way to keep track of everything
+- [03:05:05] codeex a way to keep track of everything
+- [03:05:05] codeex a way to keep track of everything that needs to be done and is being done.
+- [03:05:07] that needs to be done and is being done.
+- [03:05:07] that needs to be done and is being done. So roughly like this is the anatomy of
+- [03:05:09] So roughly like this is the anatomy of
+- [03:05:10] So roughly like this is the anatomy of what you would want to put in an issue.
+- [03:05:12] what you would want to put in an issue.
+- [03:05:12] what you would want to put in an issue. This is how it would work for a human
+- [03:05:14] This is how it would work for a human
+- [03:05:14] This is how it would work for a human developer too. Like if you give somebody
+- [03:05:17] developer too. Like if you give somebody
+- [03:05:17] developer too. Like if you give somebody a task and you don't tell them how to
+- [03:05:18] a task and you don't tell them how to
+- [03:05:18] a task and you don't tell them how to verify it, that's not a very good task.
+- [03:05:20] verify it, that's not a very good task.
+- [03:05:20] verify it, that's not a very good task. And generally when you just give codeex
+- [03:05:24] And generally when you just give codeex
+- [03:05:24] And generally when you just give codeex a task of breaking up a plan into
+- [03:05:27] a task of breaking up a plan into
+- [03:05:27] a task of breaking up a plan into issues, it will naturally work in this
+- [03:05:29] issues, it will naturally work in this
+- [03:05:29] issues, it will naturally work in this way. So to demonstrate that let's go
+- [03:05:32] way. So to demonstrate that let's go
+- [03:05:32] way. So to demonstrate that let's go here and let's say I want to create a
+- [03:05:36] here and let's say I want to create a
+- [03:05:36] here and let's say I want to create a set of GitHub issues from the plan. I
+- [03:05:40] set of GitHub issues from the plan. I
+- [03:05:40] set of GitHub issues from the plan. I want you to outline
+- [03:05:44] want you to outline
+- [03:05:44] want you to outline using GitHub tools, the dependency
+- [03:05:48] using GitHub tools, the dependency
+- [03:05:48] using GitHub tools, the dependency structure between them. And if you see
+- [03:05:52] structure between them. And if you see
+- [03:05:52] structure between them. And if you see any good opportunities for parallelizing
+- [03:05:57] any good opportunities for parallelizing
+- [03:05:57] any good opportunities for parallelizing work in work trees, let me know. And let
+- [03:06:01] work in work trees, let me know. And let
+- [03:06:01] work in work trees, let me know. And let me even just take a screenshot of this
+- [03:06:05] me even just take a screenshot of this
+- [03:06:06] me even just take a screenshot of this as context for GitHub on how I want
+- [03:06:08] as context for GitHub on how I want
+- [03:06:08] as context for GitHub on how I want things done or rather for codecs. All
+- [03:06:10] things done or rather for codecs. All
+- [03:06:10] things done or rather for codecs. All right. So this is done. We have a bunch
+- [03:06:14] right. So this is done. We have a bunch
+- [03:06:14] right. So this is done. We have a bunch of issues here which have been created.
+- [03:06:18] of issues here which have been created.
+- [03:06:18] of issues here which have been created. So these are like distinct units of
+- [03:06:20] So these are like distinct units of
+- [03:06:20] So these are like distinct units of work. And one of the things that I asked
+- [03:06:23] work. And one of the things that I asked
+- [03:06:23] work. And one of the things that I asked but I didn't describe was this asking
+- [03:06:27] but I didn't describe was this asking
+- [03:06:27] but I didn't describe was this asking about parallelizing work and work trees.
+- [03:06:30] about parallelizing work and work trees.
+- [03:06:30] about parallelizing work and work trees. So one feature of codeex and git in
+- [03:06:33] So one feature of codeex and git in
+- [03:06:34] So one feature of codeex and git in general is a concept of a work tree
+- [03:06:36] general is a concept of a work tree
+- [03:06:36] general is a concept of a work tree which allows you to parallelize work.
+- [03:06:38] which allows you to parallelize work.
+- [03:06:38] which allows you to parallelize work. And we're going to be talking about that
+- [03:06:40] And we're going to be talking about that
+- [03:06:40] And we're going to be talking about that in one of the next sections. And so
+- [03:06:42] in one of the next sections. And so
+- [03:06:42] in one of the next sections. And so before we even get there, I wanted to
+- [03:06:45] before we even get there, I wanted to
+- [03:06:45] before we even get there, I wanted to tell that to codeex so it thinks about
+- [03:06:48] tell that to codeex so it thinks about
+- [03:06:48] tell that to codeex so it thinks about these issues and documents their
+- [03:06:51] these issues and documents their
+- [03:06:51] these issues and documents their dependency structure in a good way so
+- [03:06:53] dependency structure in a good way so
+- [03:06:53] dependency structure in a good way so that if there are opportunities to
+- [03:06:55] that if there are opportunities to
+- [03:06:55] that if there are opportunities to parallelize work I and future codeex is
+- [03:06:58] parallelize work I and future codeex is
+- [03:06:58] parallelize work I and future codeex is aware of them. So let's take a look at
+- [03:07:00] aware of them. So let's take a look at
+- [03:07:00] aware of them. So let's take a look at one of these for example. This is the
+- [03:07:02] one of these for example. This is the
+- [03:07:02] one of these for example. This is the issue to scaffold the application and it
+- [03:07:07] issue to scaffold the application and it
+- [03:07:07] issue to scaffold the application and it marks out which future tickets or issues
+- [03:07:10] marks out which future tickets or issues
+- [03:07:10] marks out which future tickets or issues are blocked by this one and it's been
+- [03:07:12] are blocked by this one and it's been
+- [03:07:12] are blocked by this one and it's been created with this structure that we sort
+- [03:07:15] created with this structure that we sort
+- [03:07:15] created with this structure that we sort of described and because not all the
+- [03:07:18] of described and because not all the
+- [03:07:18] of described and because not all the details here are in the issue there is
+- [03:07:21] details here are in the issue there is
+- [03:07:21] details here are in the issue there is also a reference to the plan. So that'll
+- [03:07:24] also a reference to the plan. So that'll
+- [03:07:24] also a reference to the plan. So that'll be useful to future instances of the
+- [03:07:26] be useful to future instances of the
+- [03:07:26] be useful to future instances of the coding agent after perhaps a compaction
+- [03:07:29] coding agent after perhaps a compaction
+- [03:07:29] coding agent after perhaps a compaction event. So, I'm pretty happy with this
+- [03:07:31] event. So, I'm pretty happy with this
+- [03:07:31] event. So, I'm pretty happy with this for now. I think the only thing left for
+- [03:07:33] for now. I think the only thing left for
+- [03:07:33] for now. I think the only thing left for us to do is commit the plan. So, I'm
+- [03:07:35] us to do is commit the plan. So, I'm
+- [03:07:35] us to do is commit the plan. So, I'm going to say commit and push the plan.
+- [03:07:39] going to say commit and push the plan.
+- [03:07:39] going to say commit and push the plan. It says right here, the local plan file
+- [03:07:41] It says right here, the local plan file
+- [03:07:41] It says right here, the local plan file under docs/plans
+- [03:07:43] under docs/plans
+- [03:07:43] under docs/plans is still uncommitted. So, now when we
+- [03:07:46] is still uncommitted. So, now when we
+- [03:07:46] is still uncommitted. So, now when we get to the work, we're going to be
+- [03:07:47] get to the work, we're going to be
+- [03:07:47] get to the work, we're going to be relying on and heavily referencing these
+- [03:07:51] relying on and heavily referencing these
+- [03:07:51] relying on and heavily referencing these issues. But issues also pair well with a
+- [03:07:54] issues. But issues also pair well with a
+- [03:07:54] issues. But issues also pair well with a codeex desktop app feature which I
+- [03:07:56] codeex desktop app feature which I
+- [03:07:56] codeex desktop app feature which I haven't introduced to you yet called
+- [03:07:59] haven't introduced to you yet called
+- [03:07:59] haven't introduced to you yet called automations. So I'm going to get to that
+- [03:08:01] automations. So I'm going to get to that
+- [03:08:01] automations. So I'm going to get to that next. So in a nutshell, an automation is
+- [03:08:04] next. So in a nutshell, an automation is
+- [03:08:04] next. So in a nutshell, an automation is just a recurring task which exists in
+- [03:08:07] just a recurring task which exists in
+- [03:08:07] just a recurring task which exists in codec. So you click over here to this
+- [03:08:09] codec. So you click over here to this
+- [03:08:09] codec. So you click over here to this automations tab and we can see some
+- [03:08:12] automations tab and we can see some
+- [03:08:12] automations tab and we can see some automations that I had put on pause,
+- [03:08:15] automations that I had put on pause,
+- [03:08:15] automations that I had put on pause, some that I have going on every single
+- [03:08:17] some that I have going on every single
+- [03:08:17] some that I have going on every single day. And so this one for example,
+- [03:08:19] day. And so this one for example,
+- [03:08:19] day. And so this one for example, standup summary. It takes a look at one
+- [03:08:22] standup summary. It takes a look at one
+- [03:08:22] standup summary. It takes a look at one of our git repositories and it sees for
+- [03:08:25] of our git repositories and it sees for
+- [03:08:25] of our git repositories and it sees for different developers what sort of work
+- [03:08:26] different developers what sort of work
+- [03:08:26] different developers what sort of work they did and gives a little bit of a
+- [03:08:28] they did and gives a little bit of a
+- [03:08:28] they did and gives a little bit of a summary of the work that was done. So
+- [03:08:30] summary of the work that was done. So
+- [03:08:30] summary of the work that was done. So yesterday apparently I was the only one
+- [03:08:32] yesterday apparently I was the only one
+- [03:08:32] yesterday apparently I was the only one who did any work and so that's what's
+- [03:08:34] who did any work and so that's what's
+- [03:08:34] who did any work and so that's what's documented there. Now you can set up
+- [03:08:36] documented there. Now you can set up
+- [03:08:36] documented there. Now you can set up automations for all sorts of things. If
+- [03:08:39] automations for all sorts of things. If
+- [03:08:39] automations for all sorts of things. If you go over here to automation and then
+- [03:08:41] you go over here to automation and then
+- [03:08:41] you go over here to automation and then click on new automation, you'll see a
+- [03:08:43] click on new automation, you'll see a
+- [03:08:43] click on new automation, you'll see a user interface that shows up that looks
+- [03:08:45] user interface that shows up that looks
+- [03:08:45] user interface that shows up that looks like this where you can have an
+- [03:08:46] like this where you can have an
+- [03:08:46] like this where you can have an automation title and then add a prompt.
+- [03:08:48] automation title and then add a prompt.
+- [03:08:48] automation title and then add a prompt. And these prompts can basically be, you
+- [03:08:50] And these prompts can basically be, you
+- [03:08:50] And these prompts can basically be, you know, human prompts. You can choose what
+- [03:08:53] know, human prompts. You can choose what
+- [03:08:53] know, human prompts. You can choose what project they work in, what time they
+- [03:08:55] project they work in, what time they
+- [03:08:55] project they work in, what time they should run at. You can choose the model
+- [03:08:57] should run at. You can choose the model
+- [03:08:58] should run at. You can choose the model to use and the reasoning effort to use
+- [03:09:00] to use and the reasoning effort to use
+- [03:09:00] to use and the reasoning effort to use when you use that model. And then
+- [03:09:03] when you use that model. And then
+- [03:09:03] when you use that model. And then importantly you can choose whether it
+- [03:09:05] importantly you can choose whether it
+- [03:09:05] importantly you can choose whether it runs locally meaning it runs directly in
+- [03:09:08] runs locally meaning it runs directly in
+- [03:09:08] runs locally meaning it runs directly in the selected project directory without
+- [03:09:10] the selected project directory without
+- [03:09:10] the selected project directory without creating a work tree it runs in a work
+- [03:09:12] creating a work tree it runs in a work
+- [03:09:12] creating a work tree it runs in a work tree or it runs in chat. So again I
+- [03:09:16] tree or it runs in chat. So again I
+- [03:09:16] tree or it runs in chat. So again I haven't introduced work trees yet so
+- [03:09:17] haven't introduced work trees yet so
+- [03:09:17] haven't introduced work trees yet so that might be a little bit of a
+- [03:09:18] that might be a little bit of a
+- [03:09:18] that might be a little bit of a confusing topic. We'll come back to this
+- [03:09:20] confusing topic. We'll come back to this
+- [03:09:20] confusing topic. We'll come back to this work tree automation idea when we come
+- [03:09:23] work tree automation idea when we come
+- [03:09:23] work tree automation idea when we come to work trees again. But if you want to
+- [03:09:26] to work trees again. But if you want to
+- [03:09:26] to work trees again. But if you want to have ideas of what sorts of automations
+- [03:09:29] have ideas of what sorts of automations
+- [03:09:29] have ideas of what sorts of automations make make sense, you come here to
+- [03:09:30] make make sense, you come here to
+- [03:09:30] make make sense, you come here to feasible. And you can see that you know
+- [03:09:33] feasible. And you can see that you know
+- [03:09:33] feasible. And you can see that you know a lot of these automations like this one
+- [03:09:35] a lot of these automations like this one
+- [03:09:35] a lot of these automations like this one I picked out came you know straight from
+- [03:09:38] I picked out came you know straight from
+- [03:09:38] I picked out came you know straight from this automation template and a lot of
+- [03:09:41] this automation template and a lot of
+- [03:09:41] this automation template and a lot of them are very developer focused. But one
+- [03:09:44] them are very developer focused. But one
+- [03:09:44] them are very developer focused. But one which is quite good over here and which
+- [03:09:46] which is quite good over here and which
+- [03:09:46] which is quite good over here and which is related to what we're doing right now
+- [03:09:48] is related to what we're doing right now
+- [03:09:48] is related to what we're doing right now is this one to triage new issues. So
+- [03:09:52] is this one to triage new issues. So
+- [03:09:52] is this one to triage new issues. So this issues board right now we generated
+- [03:09:55] this issues board right now we generated
+- [03:09:55] this issues board right now we generated issues ourselves but you can also think
+- [03:09:57] issues ourselves but you can also think
+- [03:09:57] issues ourselves but you can also think of either external systems or external
+- [03:10:00] of either external systems or external
+- [03:10:00] of either external systems or external stakeholders non-technical people on
+- [03:10:02] stakeholders non-technical people on
+- [03:10:02] stakeholders non-technical people on your team who are finding issues and
+- [03:10:04] your team who are finding issues and
+- [03:10:04] your team who are finding issues and putting them on your board and then you
+- [03:10:06] putting them on your board and then you
+- [03:10:06] putting them on your board and then you may want to have some way of automating
+- [03:10:09] may want to have some way of automating
+- [03:10:09] may want to have some way of automating which ones you should be tackling next
+- [03:10:12] which ones you should be tackling next
+- [03:10:12] which ones you should be tackling next and so having an automation like this
+- [03:10:14] and so having an automation like this
+- [03:10:14] and so having an automation like this could be quite helpful. Now there are
+- [03:10:16] could be quite helpful. Now there are
+- [03:10:16] could be quite helpful. Now there are two general automation shapes with that
+- [03:10:20] two general automation shapes with that
+- [03:10:20] two general automation shapes with that automations menu that I was showing you.
+- [03:10:23] automations menu that I was showing you.
+- [03:10:23] automations menu that I was showing you. We were looking at project automation.
+- [03:10:25] We were looking at project automation.
+- [03:10:25] We were looking at project automation. So these are sort of standalone. You
+- [03:10:27] So these are sort of standalone. You
+- [03:10:27] So these are sort of standalone. You define them as an automation in that
+- [03:10:30] define them as an automation in that
+- [03:10:30] define them as an automation in that menu and then they are related to your
+- [03:10:33] menu and then they are related to your
+- [03:10:33] menu and then they are related to your project. But you can also have
+- [03:10:35] project. But you can also have
+- [03:10:35] project. But you can also have automations that get spun up for a
+- [03:10:38] automations that get spun up for a
+- [03:10:38] automations that get spun up for a specific thread. So the situation in
+- [03:10:40] specific thread. So the situation in
+- [03:10:40] specific thread. So the situation in which I might do this is let's say I'm
+- [03:10:42] which I might do this is let's say I'm
+- [03:10:42] which I might do this is let's say I'm in a thread debugging some persistent
+- [03:10:45] in a thread debugging some persistent
+- [03:10:45] in a thread debugging some persistent error which has been occurring and then
+- [03:10:47] error which has been occurring and then
+- [03:10:47] error which has been occurring and then I make a release. So I release a fix to
+- [03:10:51] I make a release. So I release a fix to
+- [03:10:51] I make a release. So I release a fix to that bug. Then this thread automation
+- [03:10:54] that bug. Then this thread automation
+- [03:10:54] that bug. Then this thread automation can be helpful on two dimensions. First
+- [03:10:57] can be helpful on two dimensions. First
+- [03:10:57] can be helpful on two dimensions. First it can keep track and watch the
+- [03:11:00] it can keep track and watch the
+- [03:11:00] it can keep track and watch the deployment of the new version of the web
+- [03:11:02] deployment of the new version of the web
+- [03:11:02] deployment of the new version of the web application to make sure you know
+- [03:11:04] application to make sure you know
+- [03:11:04] application to make sure you know checking every few minutes that it
+- [03:11:06] checking every few minutes that it
+- [03:11:06] checking every few minutes that it actually deployed. Second, if you have
+- [03:11:08] actually deployed. Second, if you have
+- [03:11:08] actually deployed. Second, if you have some kind of central location where your
+- [03:11:11] some kind of central location where your
+- [03:11:11] some kind of central location where your errors are being logged, then you can
+- [03:11:13] errors are being logged, then you can
+- [03:11:13] errors are being logged, then you can have an automation in that thread which
+- [03:11:16] have an automation in that thread which
+- [03:11:16] have an automation in that thread which is just checking that central location
+- [03:11:18] is just checking that central location
+- [03:11:18] is just checking that central location to see if users are continuing to
+- [03:11:21] to see if users are continuing to
+- [03:11:21] to see if users are continuing to experience this error or not or if you
+- [03:11:23] experience this error or not or if you
+- [03:11:23] experience this error or not or if you fixed it. Now, when you make these
+- [03:11:26] fixed it. Now, when you make these
+- [03:11:26] fixed it. Now, when you make these automations, it's incumbent on you, just
+- [03:11:29] automations, it's incumbent on you, just
+- [03:11:29] automations, it's incumbent on you, just like how I was talking about cloud
+- [03:11:31] like how I was talking about cloud
+- [03:11:32] like how I was talking about cloud environments previously, to make sure
+- [03:11:34] environments previously, to make sure
+- [03:11:34] environments previously, to make sure that Codeex is going to have access to
+- [03:11:37] that Codeex is going to have access to
+- [03:11:37] that Codeex is going to have access to everything it needs to execute whatever
+- [03:11:41] everything it needs to execute whatever
+- [03:11:41] everything it needs to execute whatever you're asking it to do with that
+- [03:11:42] you're asking it to do with that
+- [03:11:42] you're asking it to do with that automation. And so, one of these things
+- [03:11:44] automation. And so, one of these things
+- [03:11:44] automation. And so, one of these things that it may need is permissions, for
+- [03:11:47] that it may need is permissions, for
+- [03:11:47] that it may need is permissions, for example, to access the external
+- [03:11:50] example, to access the external
+- [03:11:50] example, to access the external internet. And if you're using codecs
+- [03:11:53] internet. And if you're using codecs
+- [03:11:53] internet. And if you're using codecs with default permissions for example
+- [03:11:56] with default permissions for example
+- [03:11:56] with default permissions for example then it's not necessarily going to be
+- [03:11:58] then it's not necessarily going to be
+- [03:11:58] then it's not necessarily going to be able to or it just won't be able to
+- [03:12:00] able to or it just won't be able to
+- [03:12:00] able to or it just won't be able to access the external internet and so even
+- [03:12:02] access the external internet and so even
+- [03:12:02] access the external internet and so even GitHub issues might be restricted. Now,
+- [03:12:06] GitHub issues might be restricted. Now,
+- [03:12:06] GitHub issues might be restricted. Now, Codeex has recently run or come out with
+- [03:12:08] Codeex has recently run or come out with
+- [03:12:08] Codeex has recently run or come out with this new autoreview permission setting.
+- [03:12:12] this new autoreview permission setting.
+- [03:12:12] this new autoreview permission setting. And if you set that on, then it uses a
+- [03:12:15] And if you set that on, then it uses a
+- [03:12:16] And if you set that on, then it uses a tool called auto review to decide
+- [03:12:17] tool called auto review to decide
+- [03:12:17] tool called auto review to decide whether something other than the
+- [03:12:19] whether something other than the
+- [03:12:19] whether something other than the sandboxed permissions are worth giving
+- [03:12:22] sandboxed permissions are worth giving
+- [03:12:22] sandboxed permissions are worth giving your codeex test. So, it's kind of like
+- [03:12:23] your codeex test. So, it's kind of like
+- [03:12:23] your codeex test. So, it's kind of like codec checking codecs. I usually leave
+- [03:12:26] codec checking codecs. I usually leave
+- [03:12:26] codec checking codecs. I usually leave it on full access. That might be a
+- [03:12:28] it on full access. That might be a
+- [03:12:28] it on full access. That might be a little bit dangerous, but as I described
+- [03:12:31] little bit dangerous, but as I described
+- [03:12:31] little bit dangerous, but as I described earlier, I feel comfortable with full
+- [03:12:33] earlier, I feel comfortable with full
+- [03:12:33] earlier, I feel comfortable with full access when combined with Codeex's hooks
+- [03:12:36] access when combined with Codeex's hooks
+- [03:12:36] access when combined with Codeex's hooks system and destructive command guard.
+- [03:12:38] system and destructive command guard.
+- [03:12:38] system and destructive command guard. And so when you're on this automations
+- [03:12:40] And so when you're on this automations
+- [03:12:40] And so when you're on this automations page, there's not going to be a separate
+- [03:12:43] page, there's not going to be a separate
+- [03:12:43] page, there's not going to be a separate permissions picker. It's just going to
+- [03:12:45] permissions picker. It's just going to
+- [03:12:45] permissions picker. It's just going to inherit the configured access that you
+- [03:12:47] inherit the configured access that you
+- [03:12:48] inherit the configured access that you currently have in that project. But even
+- [03:12:50] currently have in that project. But even
+- [03:12:50] currently have in that project. But even separately of permissions, certain jobs
+- [03:12:53] separately of permissions, certain jobs
+- [03:12:53] separately of permissions, certain jobs can fail if you don't set up the right
+- [03:12:56] can fail if you don't set up the right
+- [03:12:56] can fail if you don't set up the right environment variables in place. So for
+- [03:12:59] environment variables in place. So for
+- [03:12:59] environment variables in place. So for example here, this one was meant to
+- [03:13:02] example here, this one was meant to
+- [03:13:02] example here, this one was meant to check for one of my projects, the
+- [03:13:04] check for one of my projects, the
+- [03:13:04] check for one of my projects, the production server, and look for errors
+- [03:13:07] production server, and look for errors
+- [03:13:07] production server, and look for errors and report to me any errors that have
+- [03:13:09] and report to me any errors that have
+- [03:13:09] and report to me any errors that have occurred in the last day. And what we
+- [03:13:11] occurred in the last day. And what we
+- [03:13:11] occurred in the last day. And what we see here is that this failed because
+- [03:13:13] see here is that this failed because
+- [03:13:13] see here is that this failed because some of the credentials it needed were
+- [03:13:15] some of the credentials it needed were
+- [03:13:15] some of the credentials it needed were present, but then there were some other
+- [03:13:17] present, but then there were some other
+- [03:13:17] present, but then there were some other credentials that it needed which were
+- [03:13:19] credentials that it needed which were
+- [03:13:19] credentials that it needed which were not present. And so something you want
+- [03:13:21] not present. And so something you want
+- [03:13:21] not present. And so something you want to do if this is a missionritical
+- [03:13:24] to do if this is a missionritical
+- [03:13:24] to do if this is a missionritical automation is you actually want to test
+- [03:13:27] automation is you actually want to test
+- [03:13:27] automation is you actually want to test it out. Can codeex see that project? Can
+- [03:13:30] it out. Can codeex see that project? Can
+- [03:13:30] it out. Can codeex see that project? Can it use a required plugin or skill? You
+- [03:13:33] it use a required plugin or skill? You
+- [03:13:33] it use a required plugin or skill? You can reference skills in your
+- [03:13:35] can reference skills in your
+- [03:13:35] can reference skills in your automations. Can it access GitHub or the
+- [03:13:38] automations. Can it access GitHub or the
+- [03:13:38] automations. Can it access GitHub or the needed network resource? Does the output
+- [03:13:40] needed network resource? Does the output
+- [03:13:40] needed network resource? Does the output match a shape you want? Can it finish
+- [03:13:42] match a shape you want? Can it finish
+- [03:13:42] match a shape you want? Can it finish without asking for extra permissions? So
+- [03:13:45] without asking for extra permissions? So
+- [03:13:45] without asking for extra permissions? So you can trigger these automations
+- [03:13:47] you can trigger these automations
+- [03:13:47] you can trigger these automations manually and you can make these
+- [03:13:49] manually and you can make these
+- [03:13:49] manually and you can make these automations just by talking to codeex.
+- [03:13:52] automations just by talking to codeex.
+- [03:13:52] automations just by talking to codeex. And so if we come back here for example,
+- [03:13:54] And so if we come back here for example,
+- [03:13:54] And so if we come back here for example, let's make an automation. I want you to
+- [03:13:58] let's make an automation. I want you to
+- [03:13:58] let's make an automation. I want you to make an automation which triggers at 10
+- [03:14:05] make an automation which triggers at 10
+- [03:14:05] make an automation which triggers at 10 a.m. every morning. and um in a new work
+- [03:14:10] a.m. every morning. and um in a new work
+- [03:14:10] a.m. every morning. and um in a new work tree
+- [03:14:12] tree
+- [03:14:12] tree or in a new thread and tells me which
+- [03:14:16] or in a new thread and tells me which
+- [03:14:16] or in a new thread and tells me which GitHub issues to prioritize for today.
+- [03:14:21] GitHub issues to prioritize for today.
+- [03:14:21] GitHub issues to prioritize for today. So with just that verbal instruction,
+- [03:14:24] So with just that verbal instruction,
+- [03:14:24] So with just that verbal instruction, codeex should be able to create an
+- [03:14:26] codeex should be able to create an
+- [03:14:26] codeex should be able to create an automation. All right, so this one got
+- [03:14:29] automation. All right, so this one got
+- [03:14:29] automation. All right, so this one got created. Let me see if I can click on
+- [03:14:30] created. Let me see if I can click on
+- [03:14:30] created. Let me see if I can click on it. Yeah, right here. So it says daily
+- [03:14:34] it. Yeah, right here. So it says daily
+- [03:14:34] it. Yeah, right here. So it says daily carousel issue priorities. Review the
+- [03:14:36] carousel issue priorities. Review the
+- [03:14:36] carousel issue priorities. Review the open GitHub issues for this and tell me
+- [03:14:39] open GitHub issues for this and tell me
+- [03:14:39] open GitHub issues for this and tell me which issues use the implemented
+- [03:14:41] which issues use the implemented
+- [03:14:41] which issues use the implemented dependency structure already captured in
+- [03:14:44] dependency structure already captured in
+- [03:14:44] dependency structure already captured in the tracker issue. All right, let's
+- [03:14:46] the tracker issue. All right, let's
+- [03:14:46] the tracker issue. All right, let's click on this for show automation. We'll
+- [03:14:48] click on this for show automation. We'll
+- [03:14:48] click on this for show automation. We'll come over here to automations. So we see
+- [03:14:50] come over here to automations. So we see
+- [03:14:50] come over here to automations. So we see that this is in carousel automation app.
+- [03:14:53] that this is in carousel automation app.
+- [03:14:53] that this is in carousel automation app. It runs locally not in a work tree. I'm
+- [03:14:56] It runs locally not in a work tree. I'm
+- [03:14:56] It runs locally not in a work tree. I'm going to explain work trees later. It
+- [03:14:58] going to explain work trees later. It
+- [03:14:58] going to explain work trees later. It uses GPT 5.4 before and it uses medium.
+- [03:15:02] uses GPT 5.4 before and it uses medium.
+- [03:15:02] uses GPT 5.4 before and it uses medium. So I can modify all of those. Can you
+- [03:15:05] So I can modify all of those. Can you
+- [03:15:05] So I can modify all of those. Can you trigger it manually right now? Let's
+- [03:15:08] trigger it manually right now? Let's
+- [03:15:08] trigger it manually right now? Let's just see what it would do. Or actually I
+- [03:15:11] just see what it would do. Or actually I
+- [03:15:11] just see what it would do. Or actually I can just go here and then I should be
+- [03:15:13] can just go here and then I should be
+- [03:15:14] can just go here and then I should be able to come back here and just press
+- [03:15:17] able to come back here and just press
+- [03:15:17] able to come back here and just press this button to run it now. So let's try
+- [03:15:18] this button to run it now. So let's try
+- [03:15:18] this button to run it now. So let's try that. Okay. So there it opened up a new
+- [03:15:22] that. Okay. So there it opened up a new
+- [03:15:22] that. Okay. So there it opened up a new thread. That's what typically happens
+- [03:15:24] thread. That's what typically happens
+- [03:15:24] thread. That's what typically happens for an automation. And then let's see
+- [03:15:26] for an automation. And then let's see
+- [03:15:26] for an automation. And then let's see what happens. All right. So it was able
+- [03:15:29] what happens. All right. So it was able
+- [03:15:29] what happens. All right. So it was able to access this and gave me some of the
+- [03:15:33] to access this and gave me some of the
+- [03:15:33] to access this and gave me some of the top issues to work on today. Nothing
+- [03:15:35] top issues to work on today. Nothing
+- [03:15:35] top issues to work on today. Nothing here is surprising, but let's say you
+- [03:15:37] here is surprising, but let's say you
+- [03:15:37] here is surprising, but let's say you were working in a collaborative
+- [03:15:39] were working in a collaborative
+- [03:15:39] were working in a collaborative environment where there were many people
+- [03:15:41] environment where there were many people
+- [03:15:41] environment where there were many people taking off issues on their own or you
+- [03:15:44] taking off issues on their own or you
+- [03:15:44] taking off issues on their own or you just wanted to have some kind of refresh
+- [03:15:46] just wanted to have some kind of refresh
+- [03:15:46] just wanted to have some kind of refresh every morning to know what the status of
+- [03:15:48] every morning to know what the status of
+- [03:15:48] every morning to know what the status of a project is. An automation like this
+- [03:15:51] a project is. An automation like this
+- [03:15:51] a project is. An automation like this would be helpful. All right, so we've
+- [03:15:53] would be helpful. All right, so we've
+- [03:15:53] would be helpful. All right, so we've made this plan. We broke it up into
+- [03:15:55] made this plan. We broke it up into
+- [03:15:55] made this plan. We broke it up into issues and then I introduced you to this
+- [03:15:57] issues and then I introduced you to this
+- [03:15:57] issues and then I introduced you to this new feature of the Codeex desktop app
+- [03:15:59] new feature of the Codeex desktop app
+- [03:16:00] new feature of the Codeex desktop app automations which you can use to
+- [03:16:02] automations which you can use to
+- [03:16:02] automations which you can use to interact with your backlog of issues but
+- [03:16:04] interact with your backlog of issues but
+- [03:16:04] interact with your backlog of issues but really do any kind of automation that
+- [03:16:06] really do any kind of automation that
+- [03:16:06] really do any kind of automation that you imagine. So I primarily use it for
+- [03:16:09] you imagine. So I primarily use it for
+- [03:16:09] you imagine. So I primarily use it for developer tasks but you could also use
+- [03:16:10] developer tasks but you could also use
+- [03:16:10] developer tasks but you could also use it to scrape some website go on Twitter
+- [03:16:13] it to scrape some website go on Twitter
+- [03:16:13] it to scrape some website go on Twitter with computer use which you know about
+- [03:16:15] with computer use which you know about
+- [03:16:15] with computer use which you know about look at something make your own personal
+- [03:16:18] look at something make your own personal
+- [03:16:18] look at something make your own personal feed or newsletter whatever you want.
+- [03:16:20] feed or newsletter whatever you want.
+- [03:16:20] feed or newsletter whatever you want. I'll probably have like a more dedicated
+- [03:16:22] I'll probably have like a more dedicated
+- [03:16:22] I'll probably have like a more dedicated video on some of these automations in
+- [03:16:23] video on some of these automations in
+- [03:16:23] video on some of these automations in the future. What I want to talk about
+- [03:16:25] the future. What I want to talk about
+- [03:16:25] the future. What I want to talk about now is the technological stack that we
+- [03:16:29] now is the technological stack that we
+- [03:16:29] now is the technological stack that we are going to be using to build this
+- [03:16:31] are going to be using to build this
+- [03:16:31] are going to be using to build this application. Now, every web app has
+- [03:16:34] application. Now, every web app has
+- [03:16:34] application. Now, every web app has three layers. There's the front end, so
+- [03:16:36] three layers. There's the front end, so
+- [03:16:36] three layers. There's the front end, so that's what users see and click. There's
+- [03:16:39] that's what users see and click. There's
+- [03:16:39] that's what users see and click. There's the back end, which is where the app
+- [03:16:42] the back end, which is where the app
+- [03:16:42] the back end, which is where the app stores and changes data. And then
+- [03:16:45] stores and changes data. And then
+- [03:16:45] stores and changes data. And then there's hosting. It's like how the app
+- [03:16:47] there's hosting. It's like how the app
+- [03:16:47] there's hosting. It's like how the app gets onto the internet. So you can have
+- [03:16:49] gets onto the internet. So you can have
+- [03:16:49] gets onto the internet. So you can have a functioning front end and back end
+- [03:16:51] a functioning front end and back end
+- [03:16:51] a functioning front end and back end which you just host on your computer but
+- [03:16:54] which you just host on your computer but
+- [03:16:54] which you just host on your computer but then you have to have some provider or
+- [03:16:56] then you have to have some provider or
+- [03:16:56] then you have to have some provider or providers who are helping it get on the
+- [03:16:58] providers who are helping it get on the
+- [03:16:58] providers who are helping it get on the internet if you want other people to be
+- [03:16:59] internet if you want other people to be
+- [03:16:59] internet if you want other people to be able to see the application. And so
+- [03:17:02] able to see the application. And so
+- [03:17:02] able to see the application. And so broadly the way that we're going to
+- [03:17:04] broadly the way that we're going to
+- [03:17:04] broadly the way that we're going to implement this is the following. You're
+- [03:17:06] implement this is the following. You're
+- [03:17:06] implement this is the following. You're going to be here not writing code with
+- [03:17:08] going to be here not writing code with
+- [03:17:08] going to be here not writing code with cloud code. That's an old slide. You're
+- [03:17:10] cloud code. That's an old slide. You're
+- [03:17:10] cloud code. That's an old slide. You're going to push it to GitHub which is
+- [03:17:13] going to push it to GitHub which is
+- [03:17:13] going to push it to GitHub which is going to store your code. That's going
+- [03:17:15] going to store your code. That's going
+- [03:17:15] going to store your code. That's going to auto deply to your hosting which is
+- [03:17:17] to auto deply to your hosting which is
+- [03:17:17] to auto deply to your hosting which is going to be on a service called versel
+- [03:17:20] going to be on a service called versel
+- [03:17:20] going to be on a service called versel which I'll introduce to you. Users will
+- [03:17:22] which I'll introduce to you. Users will
+- [03:17:22] which I'll introduce to you. Users will visit their website. What they are going
+- [03:17:24] visit their website. What they are going
+- [03:17:24] visit their website. What they are going to see is this front end called NextJS
+- [03:17:28] to see is this front end called NextJS
+- [03:17:28] to see is this front end called NextJS and that front end is going to read and
+- [03:17:31] and that front end is going to read and
+- [03:17:31] and that front end is going to read and write data to convex which is a database
+- [03:17:35] write data to convex which is a database
+- [03:17:35] write data to convex which is a database which will be hosted on this
+- [03:17:38] which will be hosted on this
+- [03:17:38] which will be hosted on this organization's own servers. Now, that
+- [03:17:41] organization's own servers. Now, that
+- [03:17:41] organization's own servers. Now, that may all seem like quite a lot to get
+- [03:17:44] may all seem like quite a lot to get
+- [03:17:44] may all seem like quite a lot to get your head around, and I completely
+- [03:17:46] your head around, and I completely
+- [03:17:46] your head around, and I completely understand and respect that, especially
+- [03:17:48] understand and respect that, especially
+- [03:17:48] understand and respect that, especially if it's your first time building any
+- [03:17:49] if it's your first time building any
+- [03:17:49] if it's your first time building any kind of application. What I'm going to
+- [03:17:51] kind of application. What I'm going to
+- [03:17:51] kind of application. What I'm going to hopefully show you though is that you
+- [03:17:53] hopefully show you though is that you
+- [03:17:54] hopefully show you though is that you don't need to understand this at a deep
+- [03:17:56] don't need to understand this at a deep
+- [03:17:56] don't need to understand this at a deep level of detail. Hopefully the idea is
+- [03:17:58] level of detail. Hopefully the idea is
+- [03:17:58] level of detail. Hopefully the idea is intuitive that look there's some data
+- [03:18:00] intuitive that look there's some data
+- [03:18:00] intuitive that look there's some data being presented that data needs to live
+- [03:18:02] being presented that data needs to live
+- [03:18:02] being presented that data needs to live somewhere and all this like stuff needs
+- [03:18:04] somewhere and all this like stuff needs
+- [03:18:04] somewhere and all this like stuff needs to be hosted on some computers which
+- [03:18:06] to be hosted on some computers which
+- [03:18:06] to be hosted on some computers which other computers know that when you go to
+- [03:18:09] other computers know that when you go to
+- [03:18:09] other computers know that when you go to mywebsite.com it's sort of like all
+- [03:18:11] mywebsite.com it's sort of like all
+- [03:18:11] mywebsite.com it's sort of like all referring to this set of servers that
+- [03:18:14] referring to this set of servers that
+- [03:18:14] referring to this set of servers that you've made. And so as you get confused
+- [03:18:16] you've made. And so as you get confused
+- [03:18:16] you've made. And so as you get confused on this type of topic, you can always
+- [03:18:19] on this type of topic, you can always
+- [03:18:19] on this type of topic, you can always use the coding agents to explain it in
+- [03:18:21] use the coding agents to explain it in
+- [03:18:21] use the coding agents to explain it in terms that you will understand. use
+- [03:18:23] terms that you will understand. use
+- [03:18:23] terms that you will understand. use repetition but you can also push forward
+- [03:18:26] repetition but you can also push forward
+- [03:18:26] repetition but you can also push forward quite far with building web applications
+- [03:18:28] quite far with building web applications
+- [03:18:28] quite far with building web applications without having a deep understanding of
+- [03:18:31] without having a deep understanding of
+- [03:18:31] without having a deep understanding of all these pieces under the hood. So
+- [03:18:33] all these pieces under the hood. So
+- [03:18:33] all these pieces under the hood. So again to repeat our front end here will
+- [03:18:36] again to repeat our front end here will
+- [03:18:36] again to repeat our front end here will be Nex.js our backend is convex and our
+- [03:18:39] be Nex.js our backend is convex and our
+- [03:18:39] be Nex.js our backend is convex and our hosting is versel. So the reasons for
+- [03:18:42] hosting is versel. So the reasons for
+- [03:18:42] hosting is versel. So the reasons for this is that this thing Nex.js JS is an
+- [03:18:44] this is that this thing Nex.js JS is an
+- [03:18:44] this is that this thing Nex.js JS is an extremely popular front-end framework.
+- [03:18:47] extremely popular front-end framework.
+- [03:18:47] extremely popular front-end framework. Convex is a very nice database which you
+- [03:18:51] Convex is a very nice database which you
+- [03:18:51] Convex is a very nice database which you can define fully in the same programming
+- [03:18:54] can define fully in the same programming
+- [03:18:54] can define fully in the same programming language that you're using to define the
+- [03:18:57] language that you're using to define the
+- [03:18:57] language that you're using to define the front end in Nex.js the TypeScript and
+- [03:19:00] front end in Nex.js the TypeScript and
+- [03:19:00] front end in Nex.js the TypeScript and it has a lot of convenience features
+- [03:19:02] it has a lot of convenience features
+- [03:19:02] it has a lot of convenience features that make it very nice to work with as a
+- [03:19:06] that make it very nice to work with as a
+- [03:19:06] that make it very nice to work with as a developer but also very nice to work
+- [03:19:08] developer but also very nice to work
+- [03:19:08] developer but also very nice to work with for agents. And finally, Verscell
+- [03:19:11] with for agents. And finally, Verscell
+- [03:19:11] with for agents. And finally, Verscell is one of the biggest sort of cloud
+- [03:19:13] is one of the biggest sort of cloud
+- [03:19:13] is one of the biggest sort of cloud hosting providers. It has a pretty
+- [03:19:16] hosting providers. It has a pretty
+- [03:19:16] hosting providers. It has a pretty generous free tier and so does Convex.
+- [03:19:19] generous free tier and so does Convex.
+- [03:19:19] generous free tier and so does Convex. So you're going to be able to host
+- [03:19:21] So you're going to be able to host
+- [03:19:21] So you're going to be able to host reasonably substantial web applications
+- [03:19:23] reasonably substantial web applications
+- [03:19:23] reasonably substantial web applications for free. So again, like when you're
+- [03:19:25] for free. So again, like when you're
+- [03:19:26] for free. So again, like when you're using codeex, you could just say build
+- [03:19:28] using codeex, you could just say build
+- [03:19:28] using codeex, you could just say build me a web app and it's often going to
+- [03:19:31] me a web app and it's often going to
+- [03:19:31] me a web app and it's often going to make like Nex.js and Versel as sort of
+- [03:19:34] make like Nex.js and Versel as sort of
+- [03:19:34] make like Nex.js and Versel as sort of common technological choices. Convex is
+- [03:19:37] common technological choices. Convex is
+- [03:19:37] common technological choices. Convex is one that would pin it down. may not be
+- [03:19:39] one that would pin it down. may not be
+- [03:19:39] one that would pin it down. may not be the default it will go for. It'll
+- [03:19:41] the default it will go for. It'll
+- [03:19:41] the default it will go for. It'll usually go for something like Superbase
+- [03:19:43] usually go for something like Superbase
+- [03:19:43] usually go for something like Superbase or Firebase. But the point here isn't to
+- [03:19:46] or Firebase. But the point here isn't to
+- [03:19:46] or Firebase. But the point here isn't to master this whole stack, understand all
+- [03:19:48] master this whole stack, understand all
+- [03:19:48] master this whole stack, understand all the details of Nex.js, Convex or
+- [03:19:51] the details of Nex.js, Convex or
+- [03:19:51] the details of Nex.js, Convex or Verscell. I could do 5hour courses on
+- [03:19:54] Verscell. I could do 5hour courses on
+- [03:19:54] Verscell. I could do 5hour courses on each of those individually and not
+- [03:19:56] each of those individually and not
+- [03:19:56] each of those individually and not exhaust everything that there is to
+- [03:19:58] exhaust everything that there is to
+- [03:19:58] exhaust everything that there is to know. You just by saying these words are
+- [03:20:01] know. You just by saying these words are
+- [03:20:01] know. You just by saying these words are giving Codeex some constraints around
+- [03:20:04] giving Codeex some constraints around
+- [03:20:04] giving Codeex some constraints around what it's going to build. And so that's
+- [03:20:05] what it's going to build. And so that's
+- [03:20:06] what it's going to build. And so that's what we did in the creation of this
+- [03:20:07] what we did in the creation of this
+- [03:20:08] what we did in the creation of this plan. Now we'll have a good idea of what
+- [03:20:11] plan. Now we'll have a good idea of what
+- [03:20:11] plan. Now we'll have a good idea of what it's going to be doing. So again, the
+- [03:20:13] it's going to be doing. So again, the
+- [03:20:13] it's going to be doing. So again, the reason for Nex.js is that it's very
+- [03:20:16] reason for Nex.js is that it's very
+- [03:20:16] reason for Nex.js is that it's very natural fit with Versell, common enough
+- [03:20:18] natural fit with Versell, common enough
+- [03:20:18] natural fit with Versell, common enough that Codex has lots of examples and is
+- [03:20:21] that Codex has lots of examples and is
+- [03:20:21] that Codex has lots of examples and is just a front-end framework. There are
+- [03:20:22] just a front-end framework. There are
+- [03:20:22] just a front-end framework. There are other ones that are good to use too.
+- [03:20:24] other ones that are good to use too.
+- [03:20:24] other ones that are good to use too. Astro, Vite, I've used them. They're all
+- [03:20:27] Astro, Vite, I've used them. They're all
+- [03:20:27] Astro, Vite, I've used them. They're all good. Convex, in addition to what I
+- [03:20:29] good. Convex, in addition to what I
+- [03:20:29] good. Convex, in addition to what I mentioned of being in the same language
+- [03:20:31] mentioned of being in the same language
+- [03:20:31] mentioned of being in the same language as the front end, is going to have a lot
+- [03:20:34] as the front end, is going to have a lot
+- [03:20:34] as the front end, is going to have a lot less SQL or migration friction because
+- [03:20:37] less SQL or migration friction because
+- [03:20:37] less SQL or migration friction because it's a NoSQL database, meaning it
+- [03:20:40] it's a NoSQL database, meaning it
+- [03:20:40] it's a NoSQL database, meaning it doesn't have as strictly structured a
+- [03:20:42] doesn't have as strictly structured a
+- [03:20:42] doesn't have as strictly structured a schema. And Verscell just makes
+- [03:20:44] schema. And Verscell just makes
+- [03:20:44] schema. And Verscell just makes deployment of your web application super
+- [03:20:47] deployment of your web application super
+- [03:20:47] deployment of your web application super easy. So you just have your local code,
+- [03:20:49] easy. So you just have your local code,
+- [03:20:49] easy. So you just have your local code, you push to GitHub, and then if you set
+- [03:20:51] you push to GitHub, and then if you set
+- [03:20:51] you push to GitHub, and then if you set it all up in Verscell, it'll deploy to a
+- [03:20:53] it all up in Verscell, it'll deploy to a
+- [03:20:53] it all up in Verscell, it'll deploy to a public URL where you can test out the
+- [03:20:55] public URL where you can test out the
+- [03:20:55] public URL where you can test out the application very easily. Now, in order
+- [03:20:57] application very easily. Now, in order
+- [03:20:57] application very easily. Now, in order to even get started with these three,
+- [03:21:00] to even get started with these three,
+- [03:21:00] to even get started with these three, we're going to have to do a few more
+- [03:21:01] we're going to have to do a few more
+- [03:21:01] we're going to have to do a few more installation steps. And then we'll be
+- [03:21:03] installation steps. And then we'll be
+- [03:21:03] installation steps. And then we'll be ready to actually start building the
+- [03:21:05] ready to actually start building the
+- [03:21:05] ready to actually start building the application. The first thing you'll have
+- [03:21:07] application. The first thing you'll have
+- [03:21:07] application. The first thing you'll have to install is Node, which is the package
+- [03:21:10] to install is Node, which is the package
+- [03:21:10] to install is Node, which is the package manager for all sorts of packages that
+- [03:21:13] manager for all sorts of packages that
+- [03:21:13] manager for all sorts of packages that you'll be importing when you're building
+- [03:21:14] you'll be importing when you're building
+- [03:21:14] you'll be importing when you're building this application. So, you guys are pros
+- [03:21:17] this application. So, you guys are pros
+- [03:21:17] this application. So, you guys are pros with Brew now. You know the drill. You
+- [03:21:19] with Brew now. You know the drill. You
+- [03:21:19] with Brew now. You know the drill. You just copy this Brew install node. Come
+- [03:21:21] just copy this Brew install node. Come
+- [03:21:21] just copy this Brew install node. Come back to codeex, command J, paste it in,
+- [03:21:25] back to codeex, command J, paste it in,
+- [03:21:25] back to codeex, command J, paste it in, enter. Next, you'll have to sign up for
+- [03:21:27] enter. Next, you'll have to sign up for
+- [03:21:27] enter. Next, you'll have to sign up for an account with Convex. So, they have,
+- [03:21:31] an account with Convex. So, they have,
+- [03:21:31] an account with Convex. So, they have, as I mentioned, a pretty generous free
+- [03:21:33] as I mentioned, a pretty generous free
+- [03:21:33] as I mentioned, a pretty generous free tier with almost all the features that
+- [03:21:35] tier with almost all the features that
+- [03:21:35] tier with almost all the features that the pro tier has. I'm on the pro tier.
+- [03:21:38] the pro tier has. I'm on the pro tier.
+- [03:21:38] the pro tier has. I'm on the pro tier. Uh, obviously, you don't need this
+- [03:21:39] Uh, obviously, you don't need this
+- [03:21:39] Uh, obviously, you don't need this business and enterprise tier, but you
+- [03:21:41] business and enterprise tier, but you
+- [03:21:41] business and enterprise tier, but you just come in here to start building.
+- [03:21:43] just come in here to start building.
+- [03:21:43] just come in here to start building. Click on that again. And then, if you
+- [03:21:45] Click on that again. And then, if you
+- [03:21:45] Click on that again. And then, if you don't have an account, you come here to
+- [03:21:46] don't have an account, you come here to
+- [03:21:46] don't have an account, you come here to sign up. You can say continue with
+- [03:21:48] sign up. You can say continue with
+- [03:21:48] sign up. You can say continue with GitHub or continue with Google. I've
+- [03:21:50] GitHub or continue with Google. I've
+- [03:21:50] GitHub or continue with Google. I've signed up with GitHub, so I'll go there
+- [03:21:53] signed up with GitHub, so I'll go there
+- [03:21:53] signed up with GitHub, so I'll go there to continue with GitHub. And then I'll
+- [03:21:55] to continue with GitHub. And then I'll
+- [03:21:55] to continue with GitHub. And then I'll you'll reach a page that looks like
+- [03:21:57] you'll reach a page that looks like
+- [03:21:57] you'll reach a page that looks like this. So I have a bunch of personal
+- [03:21:59] this. So I have a bunch of personal
+- [03:21:59] this. So I have a bunch of personal projects, some client projects all in
+- [03:22:01] projects, some client projects all in
+- [03:22:02] projects, some client projects all in this space. Yours will look empty
+- [03:22:03] this space. Yours will look empty
+- [03:22:04] this space. Yours will look empty because you probably don't have any
+- [03:22:05] because you probably don't have any
+- [03:22:05] because you probably don't have any projects yet, but this is what you'll
+- [03:22:06] projects yet, but this is what you'll
+- [03:22:06] projects yet, but this is what you'll reach at. Finally, you'll want to come
+- [03:22:08] reach at. Finally, you'll want to come
+- [03:22:08] reach at. Finally, you'll want to come over here to versel at verscell.com. Go
+- [03:22:12] over here to versel at verscell.com. Go
+- [03:22:12] over here to versel at verscell.com. Go over here to sign up. You're working on
+- [03:22:14] over here to sign up. You're working on
+- [03:22:14] over here to sign up. You're working on personal projects. So just stay on the
+- [03:22:16] personal projects. So just stay on the
+- [03:22:16] personal projects. So just stay on the hobby plan. Show schmo. Go to continue.
+- [03:22:21] hobby plan. Show schmo. Go to continue.
+- [03:22:21] hobby plan. Show schmo. Go to continue. Choose your account. Log in. And then
+- [03:22:24] Choose your account. Log in. And then
+- [03:22:24] Choose your account. Log in. And then you'll reach a page that looks like
+- [03:22:26] you'll reach a page that looks like
+- [03:22:26] you'll reach a page that looks like this. So this is a lot of my projects
+- [03:22:29] this. So this is a lot of my projects
+- [03:22:30] this. So this is a lot of my projects all located in one place. I'm on the pro
+- [03:22:33] all located in one place. I'm on the pro
+- [03:22:33] all located in one place. I'm on the pro plan, but you can be fine on just the
+- [03:22:35] plan, but you can be fine on just the
+- [03:22:35] plan, but you can be fine on just the hobby plan. Lastly, you'll want to
+- [03:22:37] hobby plan. Lastly, you'll want to
+- [03:22:37] hobby plan. Lastly, you'll want to install the command line interface for
+- [03:22:39] install the command line interface for
+- [03:22:39] install the command line interface for Verscell. So this allows you to do
+- [03:22:41] Verscell. So this allows you to do
+- [03:22:41] Verscell. So this allows you to do everything that you would want to do in
+- [03:22:43] everything that you would want to do in
+- [03:22:44] everything that you would want to do in Verscell's system programmatically. And
+- [03:22:46] Verscell's system programmatically. And
+- [03:22:46] Verscell's system programmatically. And what you want to do is come over here
+- [03:22:48] what you want to do is come over here
+- [03:22:48] what you want to do is come over here where it says PNPMI-G
+- [03:22:50] where it says PNPMI-G
+- [03:22:50] where it says PNPMI-G Verscell. Don't copy the P. You just
+- [03:22:53] Verscell. Don't copy the P. You just
+- [03:22:53] Verscell. Don't copy the P. You just copy the npm cuz that's what we
+- [03:22:56] copy the npm cuz that's what we
+- [03:22:56] copy the npm cuz that's what we installed. It's a little bit confusing,
+- [03:22:57] installed. It's a little bit confusing,
+- [03:22:57] installed. It's a little bit confusing, I know, but forget it. Come back here.
+- [03:23:00] I know, but forget it. Come back here.
+- [03:23:00] I know, but forget it. Come back here. Just paste that in. Press enter. And
+- [03:23:03] Just paste that in. Press enter. And
+- [03:23:03] Just paste that in. Press enter. And it's going to install this command line
+- [03:23:06] it's going to install this command line
+- [03:23:06] it's going to install this command line interface globally, which you'll now be
+- [03:23:08] interface globally, which you'll now be
+- [03:23:08] interface globally, which you'll now be able to use to do all these versell
+- [03:23:11] able to use to do all these versell
+- [03:23:11] able to use to do all these versell operations. So, this puts us in a good
+- [03:23:14] operations. So, this puts us in a good
+- [03:23:14] operations. So, this puts us in a good position. We now have everything
+- [03:23:15] position. We now have everything
+- [03:23:15] position. We now have everything installed that we'll need to be able to
+- [03:23:18] installed that we'll need to be able to
+- [03:23:18] installed that we'll need to be able to work on this application. So, what I'm
+- [03:23:20] work on this application. So, what I'm
+- [03:23:20] work on this application. So, what I'm going to do next is just have codeex
+- [03:23:23] going to do next is just have codeex
+- [03:23:23] going to do next is just have codeex work here on issue three. So, I can go
+- [03:23:26] work here on issue three. So, I can go
+- [03:23:26] work here on issue three. So, I can go here and say start working on issue
+- [03:23:30] here and say start working on issue
+- [03:23:30] here and say start working on issue three on a new branch. And so, what it's
+- [03:23:34] three on a new branch. And so, what it's
+- [03:23:34] three on a new branch. And so, what it's doing right now is scaffolding this
+- [03:23:37] doing right now is scaffolding this
+- [03:23:37] doing right now is scaffolding this stack that I just described to you, the
+- [03:23:39] stack that I just described to you, the
+- [03:23:39] stack that I just described to you, the front end, the back end, some necessary
+- [03:23:42] front end, the back end, some necessary
+- [03:23:42] front end, the back end, some necessary directories. And my hope and what I want
+- [03:23:45] directories. And my hope and what I want
+- [03:23:45] directories. And my hope and what I want to show you and what I'm going to try to
+- [03:23:47] to show you and what I'm going to try to
+- [03:23:47] to show you and what I'm going to try to do is to pursue building this
+- [03:23:49] do is to pursue building this
+- [03:23:50] do is to pursue building this application in as minimally a technical
+- [03:23:54] application in as minimally a technical
+- [03:23:54] application in as minimally a technical way as possible. Now, while Codeex gets
+- [03:23:57] way as possible. Now, while Codeex gets
+- [03:23:57] way as possible. Now, while Codeex gets started on scaffolding this application,
+- [03:24:00] started on scaffolding this application,
+- [03:24:00] started on scaffolding this application, I want to introduce you to this topic
+- [03:24:01] I want to introduce you to this topic
+- [03:24:02] I want to introduce you to this topic that I've been talking about over and
+- [03:24:03] that I've been talking about over and
+- [03:24:03] that I've been talking about over and over for the last, I don't know, 20 or
+- [03:24:05] over for the last, I don't know, 20 or
+- [03:24:05] over for the last, I don't know, 20 or 30 minutes. Work trees. So, what are
+- [03:24:08] 30 minutes. Work trees. So, what are
+- [03:24:08] 30 minutes. Work trees. So, what are work trees? Typically, when we're
+- [03:24:11] work trees? Typically, when we're
+- [03:24:11] work trees? Typically, when we're working like we just did right now,
+- [03:24:13] working like we just did right now,
+- [03:24:13] working like we just did right now, you're working in a single repo folder
+- [03:24:15] you're working in a single repo folder
+- [03:24:15] you're working in a single repo folder and then you can switch branches inside
+- [03:24:18] and then you can switch branches inside
+- [03:24:18] and then you can switch branches inside that repos folder. So, that's what I
+- [03:24:21] that repos folder. So, that's what I
+- [03:24:21] that repos folder. So, that's what I just did, right? To scaffold this
+- [03:24:23] just did, right? To scaffold this
+- [03:24:23] just did, right? To scaffold this application, I said, "Hey, codeex, start
+- [03:24:25] application, I said, "Hey, codeex, start
+- [03:24:26] application, I said, "Hey, codeex, start working on issue three. Check out a new
+- [03:24:28] working on issue three. Check out a new
+- [03:24:28] working on issue three. Check out a new branch and then, you know, get on it."
+- [03:24:30] branch and then, you know, get on it."
+- [03:24:30] branch and then, you know, get on it." But let's say I had reached a point of
+- [03:24:33] But let's say I had reached a point of
+- [03:24:33] But let's say I had reached a point of my project work where a lot of the work
+- [03:24:36] my project work where a lot of the work
+- [03:24:36] my project work where a lot of the work could be done in parallel. Well, if I'm
+- [03:24:40] could be done in parallel. Well, if I'm
+- [03:24:40] could be done in parallel. Well, if I'm working on physically the same set of
+- [03:24:42] working on physically the same set of
+- [03:24:42] working on physically the same set of files, they're going to be, you know,
+- [03:24:45] files, they're going to be, you know,
+- [03:24:45] files, they're going to be, you know, overwriting each other, conflicting with
+- [03:24:47] overwriting each other, conflicting with
+- [03:24:47] overwriting each other, conflicting with each other. It could be a big pain. And
+- [03:24:49] each other. It could be a big pain. And
+- [03:24:49] each other. It could be a big pain. And so, work trees let you create just
+- [03:24:52] so, work trees let you create just
+- [03:24:52] so, work trees let you create just independent workspaces with your exact
+- [03:24:55] independent workspaces with your exact
+- [03:24:55] independent workspaces with your exact same repo where you can be working on
+- [03:24:58] same repo where you can be working on
+- [03:24:58] same repo where you can be working on features side by side simultaneously.
+- [03:25:01] features side by side simultaneously.
+- [03:25:01] features side by side simultaneously. And so let's say we had an editor shell,
+- [03:25:04] And so let's say we had an editor shell,
+- [03:25:04] And so let's say we had an editor shell, image specs, a brand kit model. Some of
+- [03:25:07] image specs, a brand kit model. Some of
+- [03:25:07] image specs, a brand kit model. Some of these things depend on other ones, but
+- [03:25:11] these things depend on other ones, but
+- [03:25:11] these things depend on other ones, but some of them can be pursued
+- [03:25:12] some of them can be pursued
+- [03:25:12] some of them can be pursued independently. And when we have that
+- [03:25:14] independently. And when we have that
+- [03:25:14] independently. And when we have that opportunity to pursue something
+- [03:25:16] opportunity to pursue something
+- [03:25:16] opportunity to pursue something independently, that lets us speed up the
+- [03:25:18] independently, that lets us speed up the
+- [03:25:18] independently, that lets us speed up the rate at which we could do our work. And
+- [03:25:20] rate at which we could do our work. And
+- [03:25:20] rate at which we could do our work. And so when you come here and you make a new
+- [03:25:24] so when you come here and you make a new
+- [03:25:24] so when you come here and you make a new chat for this automation app for
+- [03:25:26] chat for this automation app for
+- [03:25:26] chat for this automation app for example, when you're selecting where to
+- [03:25:28] example, when you're selecting where to
+- [03:25:28] example, when you're selecting where to run the task, you can choose to either
+- [03:25:31] run the task, you can choose to either
+- [03:25:31] run the task, you can choose to either keep working on it locally. So locally
+- [03:25:33] keep working on it locally. So locally
+- [03:25:33] keep working on it locally. So locally right now we're on this branch and you
+- [03:25:36] right now we're on this branch and you
+- [03:25:36] right now we're on this branch and you would be fixed to be on this branch or
+- [03:25:38] would be fixed to be on this branch or
+- [03:25:38] would be fixed to be on this branch or you can check out a new work tree. So
+- [03:25:41] you can check out a new work tree. So
+- [03:25:41] you can check out a new work tree. So the place where work trees actually live
+- [03:25:44] the place where work trees actually live
+- [03:25:44] the place where work trees actually live is in your codec home underneath work
+- [03:25:47] is in your codec home underneath work
+- [03:25:48] is in your codec home underneath work trees. So this is kind of small but
+- [03:25:50] trees. So this is kind of small but
+- [03:25:50] trees. So this is kind of small but hopefully my editor will make it
+- [03:25:51] hopefully my editor will make it
+- [03:25:51] hopefully my editor will make it visible. I'm here using a tool I like
+- [03:25:53] visible. I'm here using a tool I like
+- [03:25:54] visible. I'm here using a tool I like for file exploration. So there's my home
+- [03:25:56] for file exploration. So there's my home
+- [03:25:56] for file exploration. So there's my home folder and then here's the codeex which
+- [03:25:59] folder and then here's the codeex which
+- [03:25:59] folder and then here's the codeex which is in home. And then over here you can
+- [03:26:01] is in home. And then over here you can
+- [03:26:01] is in home. And then over here you can see this thing called work trees. And so
+- [03:26:04] see this thing called work trees. And so
+- [03:26:04] see this thing called work trees. And so if we click in we'll see that there's
+- [03:26:06] if we click in we'll see that there's
+- [03:26:06] if we click in we'll see that there's all these work trees here that are being
+- [03:26:08] all these work trees here that are being
+- [03:26:08] all these work trees here that are being created. There are these like fourdigit
+- [03:26:10] created. There are these like fourdigit
+- [03:26:10] created. There are these like fourdigit prefix things. And if I kind of scroll
+- [03:26:13] prefix things. And if I kind of scroll
+- [03:26:13] prefix things. And if I kind of scroll through them, we'll see that there's
+- [03:26:14] through them, we'll see that there's
+- [03:26:14] through them, we'll see that there's basically entire different projects
+- [03:26:17] basically entire different projects
+- [03:26:17] basically entire different projects which have all been copied into these
+- [03:26:21] which have all been copied into these
+- [03:26:21] which have all been copied into these distinct work trees. So I have a bunch
+- [03:26:23] distinct work trees. So I have a bunch
+- [03:26:23] distinct work trees. So I have a bunch of different projects I work on and
+- [03:26:25] of different projects I work on and
+- [03:26:25] of different projects I work on and different versions of them like entire
+- [03:26:27] different versions of them like entire
+- [03:26:28] different versions of them like entire copies are all kept in this work tree
+- [03:26:30] copies are all kept in this work tree
+- [03:26:30] copies are all kept in this work tree configuration. You can also see all the
+- [03:26:33] configuration. You can also see all the
+- [03:26:33] configuration. You can also see all the work trees that you have available in
+- [03:26:36] work trees that you have available in
+- [03:26:36] work trees that you have available in your settings in the work trees
+- [03:26:38] your settings in the work trees
+- [03:26:38] your settings in the work trees navigation. And you can see by project
+- [03:26:41] navigation. And you can see by project
+- [03:26:41] navigation. And you can see by project like all the different work trees that
+- [03:26:43] like all the different work trees that
+- [03:26:44] like all the different work trees that you have alive right now. If you click
+- [03:26:46] you have alive right now. If you click
+- [03:26:46] you have alive right now. If you click on this get tab over here, you'll see
+- [03:26:49] on this get tab over here, you'll see
+- [03:26:49] on this get tab over here, you'll see that there's a few configuration options
+- [03:26:51] that there's a few configuration options
+- [03:26:52] that there's a few configuration options for automatically deleting old work
+- [03:26:54] for automatically deleting old work
+- [03:26:54] for automatically deleting old work trees and the autodelete limit. So the
+- [03:26:58] trees and the autodelete limit. So the
+- [03:26:58] trees and the autodelete limit. So the idea here is that if you're creating an
+- [03:27:00] idea here is that if you're creating an
+- [03:27:00] idea here is that if you're creating an entire copy of your project directory,
+- [03:27:03] entire copy of your project directory,
+- [03:27:03] entire copy of your project directory, that's going to take up space. And so if
+- [03:27:05] that's going to take up space. And so if
+- [03:27:05] that's going to take up space. And so if you just let these work trees live
+- [03:27:07] you just let these work trees live
+- [03:27:07] you just let these work trees live forever, then that's going to be taking
+- [03:27:08] forever, then that's going to be taking
+- [03:27:08] forever, then that's going to be taking up a lot of space for quite a while. And
+- [03:27:11] up a lot of space for quite a while. And
+- [03:27:11] up a lot of space for quite a while. And so it's a good practice and I recommend
+- [03:27:13] so it's a good practice and I recommend
+- [03:27:13] so it's a good practice and I recommend you can tweak around with these
+- [03:27:14] you can tweak around with these
+- [03:27:14] you can tweak around with these settings. But you should just allow
+- [03:27:16] settings. But you should just allow
+- [03:27:16] settings. But you should just allow codeex to clean up work trees itself.
+- [03:27:20] codeex to clean up work trees itself.
+- [03:27:20] codeex to clean up work trees itself. When you create a work tree, it will
+- [03:27:23] When you create a work tree, it will
+- [03:27:23] When you create a work tree, it will start in a status called detached head.
+- [03:27:26] start in a status called detached head.
+- [03:27:26] start in a status called detached head. meaning it's not necessarily associated
+- [03:27:29] meaning it's not necessarily associated
+- [03:27:29] meaning it's not necessarily associated with any named branch, even your main or
+- [03:27:32] with any named branch, even your main or
+- [03:27:32] with any named branch, even your main or your master branch. And so you can just
+- [03:27:34] your master branch. And so you can just
+- [03:27:34] your master branch. And so you can just keep working on it in that status or
+- [03:27:37] keep working on it in that status or
+- [03:27:37] keep working on it in that status or what I typically do is I'll create a
+- [03:27:39] what I typically do is I'll create a
+- [03:27:39] what I typically do is I'll create a branch for whatever work I intend to do
+- [03:27:42] branch for whatever work I intend to do
+- [03:27:42] branch for whatever work I intend to do on that work tree as I'm working on it.
+- [03:27:45] on that work tree as I'm working on it.
+- [03:27:45] on that work tree as I'm working on it. Now, as I'm getting into this, like I'm
+- [03:27:47] Now, as I'm getting into this, like I'm
+- [03:27:47] Now, as I'm getting into this, like I'm getting kind of technical, and there's
+- [03:27:49] getting kind of technical, and there's
+- [03:27:49] getting kind of technical, and there's no way getting around it. Work trees are
+- [03:27:52] no way getting around it. Work trees are
+- [03:27:52] no way getting around it. Work trees are a little bit of a technical topic. I
+- [03:27:54] a little bit of a technical topic. I
+- [03:27:54] a little bit of a technical topic. I like using them. I find them very
+- [03:27:56] like using them. I find them very
+- [03:27:56] like using them. I find them very useful. But if you're a beginner, you
+- [03:27:58] useful. But if you're a beginner, you
+- [03:27:58] useful. But if you're a beginner, you don't have to worry too much about this
+- [03:28:00] don't have to worry too much about this
+- [03:28:00] don't have to worry too much about this material. However, it's a pretty big
+- [03:28:03] material. However, it's a pretty big
+- [03:28:03] material. However, it's a pretty big part of codecs and as you get advanced,
+- [03:28:06] part of codecs and as you get advanced,
+- [03:28:06] part of codecs and as you get advanced, it's absolutely critical to understand
+- [03:28:08] it's absolutely critical to understand
+- [03:28:08] it's absolutely critical to understand this and build even far beyond what I'm
+- [03:28:11] this and build even far beyond what I'm
+- [03:28:11] this and build even far beyond what I'm describing right now because work trees
+- [03:28:14] describing right now because work trees
+- [03:28:14] describing right now because work trees are what are going to allow you to get
+- [03:28:16] are what are going to allow you to get
+- [03:28:16] are what are going to allow you to get to that next level of more and more
+- [03:28:19] to that next level of more and more
+- [03:28:19] to that next level of more and more autonomous work. Now something important
+- [03:28:22] autonomous work. Now something important
+- [03:28:22] autonomous work. Now something important to point out is that work trees need
+- [03:28:25] to point out is that work trees need
+- [03:28:25] to point out is that work trees need environments. So when you make this copy
+- [03:28:29] environments. So when you make this copy
+- [03:28:29] environments. So when you make this copy of all your files to a work tree, only
+- [03:28:33] of all your files to a work tree, only
+- [03:28:33] of all your files to a work tree, only the files which you're actually
+- [03:28:35] the files which you're actually
+- [03:28:35] the files which you're actually committing to your repository are going
+- [03:28:38] committing to your repository are going
+- [03:28:38] committing to your repository are going to be included in that work tree copy.
+- [03:28:41] to be included in that work tree copy.
+- [03:28:41] to be included in that work tree copy. So what types of things do people
+- [03:28:43] So what types of things do people
+- [03:28:43] So what types of things do people typically not commit to their
+- [03:28:44] typically not commit to their
+- [03:28:44] typically not commit to their repository? Well, if there are any
+- [03:28:46] repository? Well, if there are any
+- [03:28:46] repository? Well, if there are any environment variables, secrets,
+- [03:28:48] environment variables, secrets,
+- [03:28:48] environment variables, secrets, passwords which need to be in the
+- [03:28:50] passwords which need to be in the
+- [03:28:50] passwords which need to be in the repository but not actually committed,
+- [03:28:52] repository but not actually committed,
+- [03:28:52] repository but not actually committed, then those will not get copied over to
+- [03:28:55] then those will not get copied over to
+- [03:28:55] then those will not get copied over to the work tree. Or if there are packages
+- [03:28:57] the work tree. Or if there are packages
+- [03:28:57] the work tree. Or if there are packages that you are installing inside the
+- [03:29:00] that you are installing inside the
+- [03:29:00] that you are installing inside the repository, say in a virtual
+- [03:29:02] repository, say in a virtual
+- [03:29:02] repository, say in a virtual environment, but then you wouldn't want
+- [03:29:04] environment, but then you wouldn't want
+- [03:29:04] environment, but then you wouldn't want to commit those to your repository cuz
+- [03:29:06] to commit those to your repository cuz
+- [03:29:06] to commit those to your repository cuz they're very heavy and bulky. Well, when
+- [03:29:08] they're very heavy and bulky. Well, when
+- [03:29:08] they're very heavy and bulky. Well, when you create your new work tree, it's
+- [03:29:10] you create your new work tree, it's
+- [03:29:10] you create your new work tree, it's going to have all your code, but it will
+- [03:29:12] going to have all your code, but it will
+- [03:29:12] going to have all your code, but it will not have the packages installed in the
+- [03:29:15] not have the packages installed in the
+- [03:29:15] not have the packages installed in the work tree. So, you need to have some
+- [03:29:17] work tree. So, you need to have some
+- [03:29:17] work tree. So, you need to have some kind of bootup process for creating this
+- [03:29:20] kind of bootup process for creating this
+- [03:29:20] kind of bootup process for creating this environment. And so, there's a concept
+- [03:29:23] environment. And so, there's a concept
+- [03:29:23] environment. And so, there's a concept in codeex of environments. And so, if
+- [03:29:26] in codeex of environments. And so, if
+- [03:29:26] in codeex of environments. And so, if you go back to the settings, you'll see
+- [03:29:27] you go back to the settings, you'll see
+- [03:29:27] you go back to the settings, you'll see this tab here called environments. And
+- [03:29:30] this tab here called environments. And
+- [03:29:30] this tab here called environments. And you can see that for, you know, pretty
+- [03:29:31] you can see that for, you know, pretty
+- [03:29:31] you can see that for, you know, pretty much every single one of my
+- [03:29:33] much every single one of my
+- [03:29:33] much every single one of my applications, I have an environment
+- [03:29:35] applications, I have an environment
+- [03:29:35] applications, I have an environment available. And so what does this
+- [03:29:37] available. And so what does this
+- [03:29:37] available. And so what does this environment do toml file actually look
+- [03:29:39] environment do toml file actually look
+- [03:29:39] environment do toml file actually look like? Well, I keep mine pretty simple.
+- [03:29:42] like? Well, I keep mine pretty simple.
+- [03:29:42] like? Well, I keep mine pretty simple. All this environment.toml file has is a
+- [03:29:46] All this environment.toml file has is a
+- [03:29:46] All this environment.toml file has is a file that's called
+- [03:29:47] file that's called
+- [03:29:48] file that's called scripts/workree/bootstrap.sh.
+- [03:29:55] And anytime a new worktree is created,
+- [03:29:55] And anytime a new worktree is created, the first thing that happens is that
+- [03:29:57] the first thing that happens is that
+- [03:29:57] the first thing that happens is that this shell script gets run. And so if I
+- [03:30:00] this shell script gets run. And so if I
+- [03:30:00] this shell script gets run. And so if I was making one for the creator carousel
+- [03:30:02] was making one for the creator carousel
+- [03:30:02] was making one for the creator carousel studio, what I would create is
+- [03:30:04] studio, what I would create is
+- [03:30:04] studio, what I would create is in.codeexc/environment/environment.tottoml,
+- [03:30:11] I would have a file that looks like
+- [03:30:11] I would have a file that looks like this. And then in a scripts directory, I
+- [03:30:14] this. And then in a scripts directory, I
+- [03:30:14] this. And then in a scripts directory, I would have this bootstrap script. Now
+- [03:30:17] would have this bootstrap script. Now
+- [03:30:17] would have this bootstrap script. Now what this bootstrap script does for me
+- [03:30:19] what this bootstrap script does for me
+- [03:30:19] what this bootstrap script does for me is it basically looks for any
+- [03:30:21] is it basically looks for any
+- [03:30:21] is it basically looks for any dependencies at the root that need to be
+- [03:30:23] dependencies at the root that need to be
+- [03:30:23] dependencies at the root that need to be installed. It looks for any secrets at
+- [03:30:25] installed. It looks for any secrets at
+- [03:30:25] installed. It looks for any secrets at the root folder for like the main work
+- [03:30:28] the root folder for like the main work
+- [03:30:28] the root folder for like the main work tree and gets them a local version into
+- [03:30:31] tree and gets them a local version into
+- [03:30:31] tree and gets them a local version into the individual work tree. And it also
+- [03:30:34] the individual work tree. And it also
+- [03:30:34] the individual work tree. And it also makes sure that any ports for this
+- [03:30:36] makes sure that any ports for this
+- [03:30:36] makes sure that any ports for this application don't conflict across work
+- [03:30:38] application don't conflict across work
+- [03:30:38] application don't conflict across work trees. And so the typical workflow which
+- [03:30:41] trees. And so the typical workflow which
+- [03:30:41] trees. And so the typical workflow which will then occur is you make some changes
+- [03:30:45] will then occur is you make some changes
+- [03:30:45] will then occur is you make some changes in a work tree. You create a branch in
+- [03:30:47] in a work tree. You create a branch in
+- [03:30:47] in a work tree. You create a branch in that work tree. You commit and push and
+- [03:30:50] that work tree. You commit and push and
+- [03:30:50] that work tree. You commit and push and then open up a PR a pull request a
+- [03:30:53] then open up a PR a pull request a
+- [03:30:53] then open up a PR a pull request a request to merge the work in that branch
+- [03:30:57] request to merge the work in that branch
+- [03:30:57] request to merge the work in that branch into the main branch. And so you're able
+- [03:30:59] into the main branch. And so you're able
+- [03:30:59] into the main branch. And so you're able then to be working on multiple features
+- [03:31:02] then to be working on multiple features
+- [03:31:02] then to be working on multiple features at a time which may have some light
+- [03:31:05] at a time which may have some light
+- [03:31:05] at a time which may have some light conflicts with each other but you can
+- [03:31:06] conflicts with each other but you can
+- [03:31:06] conflicts with each other but you can sort of worry about resolving them later
+- [03:31:09] sort of worry about resolving them later
+- [03:31:09] sort of worry about resolving them later but you do have to resolve them. So if
+- [03:31:12] but you do have to resolve them. So if
+- [03:31:12] but you do have to resolve them. So if two work trees are editing the same file
+- [03:31:14] two work trees are editing the same file
+- [03:31:14] two work trees are editing the same file sometimes even when they're working on
+- [03:31:16] sometimes even when they're working on
+- [03:31:16] sometimes even when they're working on the same file the additions they're
+- [03:31:18] the same file the additions they're
+- [03:31:18] the same file the additions they're making to those files could be such that
+- [03:31:20] making to those files could be such that
+- [03:31:20] making to those files could be such that they don't actually conflict but
+- [03:31:21] they don't actually conflict but
+- [03:31:21] they don't actually conflict but sometimes one PR changes the foundation
+- [03:31:25] sometimes one PR changes the foundation
+- [03:31:25] sometimes one PR changes the foundation underneath another PR. And so when that
+- [03:31:28] underneath another PR. And so when that
+- [03:31:28] underneath another PR. And so when that occurs, it's sort of incumbent on you to
+- [03:31:30] occurs, it's sort of incumbent on you to
+- [03:31:30] occurs, it's sort of incumbent on you to think, okay, which ones of these should
+- [03:31:33] think, okay, which ones of these should
+- [03:31:33] think, okay, which ones of these should I merge in first and how should I manage
+- [03:31:36] I merge in first and how should I manage
+- [03:31:36] I merge in first and how should I manage the conflicts between these PRs in order
+- [03:31:38] the conflicts between these PRs in order
+- [03:31:38] the conflicts between these PRs in order to reconcile them. Now before agent
+- [03:31:41] to reconcile them. Now before agent
+- [03:31:41] to reconcile them. Now before agent coding like this is something that
+- [03:31:43] coding like this is something that
+- [03:31:43] coding like this is something that people did quite often not with work
+- [03:31:45] people did quite often not with work
+- [03:31:45] people did quite often not with work trees but collaborating between
+- [03:31:47] trees but collaborating between
+- [03:31:47] trees but collaborating between different people on big teams of
+- [03:31:49] different people on big teams of
+- [03:31:49] different people on big teams of developers and it was a mental exercise
+- [03:31:52] developers and it was a mental exercise
+- [03:31:52] developers and it was a mental exercise that they had to sort of go through line
+- [03:31:54] that they had to sort of go through line
+- [03:31:54] that they had to sort of go through line by line and figure out okay how am I
+- [03:31:56] by line and figure out okay how am I
+- [03:31:56] by line and figure out okay how am I going to resolve this but now we have
+- [03:31:59] going to resolve this but now we have
+- [03:31:59] going to resolve this but now we have access to this super intelligence that
+- [03:32:01] access to this super intelligence that
+- [03:32:01] access to this super intelligence that can do this thinking for us and so it's
+- [03:32:04] can do this thinking for us and so it's
+- [03:32:04] can do this thinking for us and so it's not as much or it's not a huge cognitive
+- [03:32:07] not as much or it's not a huge cognitive
+- [03:32:07] not as much or it's not a huge cognitive cost to reconcile how these
+- [03:32:10] cost to reconcile how these
+- [03:32:10] cost to reconcile how these inconsistencies with work trees or think
+- [03:32:12] inconsistencies with work trees or think
+- [03:32:12] inconsistencies with work trees or think about which one should be merged in
+- [03:32:13] about which one should be merged in
+- [03:32:14] about which one should be merged in before another one because the agentic
+- [03:32:16] before another one because the agentic
+- [03:32:16] before another one because the agentic coding tools themselves could help us
+- [03:32:17] coding tools themselves could help us
+- [03:32:18] coding tools themselves could help us with that reconciliation. And so if I
+- [03:32:20] with that reconciliation. And so if I
+- [03:32:20] with that reconciliation. And so if I was like giving human instructions for
+- [03:32:22] was like giving human instructions for
+- [03:32:22] was like giving human instructions for how to handle conflicts, you would, you
+- [03:32:24] how to handle conflicts, you would, you
+- [03:32:24] how to handle conflicts, you would, you know, keep each work tree to one issue,
+- [03:32:27] know, keep each work tree to one issue,
+- [03:32:27] know, keep each work tree to one issue, avoid assigning the same files to
+- [03:32:29] avoid assigning the same files to
+- [03:32:29] avoid assigning the same files to parallel tracks or like choose your work
+- [03:32:32] parallel tracks or like choose your work
+- [03:32:32] parallel tracks or like choose your work trees based on the opportunities for
+- [03:32:34] trees based on the opportunities for
+- [03:32:34] trees based on the opportunities for parallelization, which is what we tried
+- [03:32:36] parallelization, which is what we tried
+- [03:32:36] parallelization, which is what we tried to set up when we were designating the
+- [03:32:37] to set up when we were designating the
+- [03:32:37] to set up when we were designating the issues. merge lower risks PR first. But
+- [03:32:41] issues. merge lower risks PR first. But
+- [03:32:41] issues. merge lower risks PR first. But then like again, if you have any
+- [03:32:43] then like again, if you have any
+- [03:32:43] then like again, if you have any confusion about this or you're
+- [03:32:44] confusion about this or you're
+- [03:32:44] confusion about this or you're struggling to get it set up or there's
+- [03:32:45] struggling to get it set up or there's
+- [03:32:46] struggling to get it set up or there's some sort of weird error that's
+- [03:32:47] some sort of weird error that's
+- [03:32:47] some sort of weird error that's occurring, just ask codeex. It'll solve
+- [03:32:49] occurring, just ask codeex. It'll solve
+- [03:32:49] occurring, just ask codeex. It'll solve it. It's really smart. Now, if
+- [03:32:51] it. It's really smart. Now, if
+- [03:32:51] it. It's really smart. Now, if two changes need to be designed
+- [03:32:53] two changes need to be designed
+- [03:32:53] two changes need to be designed together, like you're designing, I don't
+- [03:32:56] together, like you're designing, I don't
+- [03:32:56] together, like you're designing, I don't know, like the editor for this canvas
+- [03:32:59] know, like the editor for this canvas
+- [03:32:59] know, like the editor for this canvas for this application, and then you're
+- [03:33:01] for this application, and then you're
+- [03:33:02] for this application, and then you're also want to design like what toggles
+- [03:33:04] also want to design like what toggles
+- [03:33:04] also want to design like what toggles are on that. Obviously, you can't design
+- [03:33:06] are on that. Obviously, you can't design
+- [03:33:06] are on that. Obviously, you can't design those on parallel. So you're going to
+- [03:33:07] those on parallel. So you're going to
+- [03:33:08] those on parallel. So you're going to have to stack those as like separate PRs
+- [03:33:11] have to stack those as like separate PRs
+- [03:33:11] have to stack those as like separate PRs or like one will have to be built first
+- [03:33:13] or like one will have to be built first
+- [03:33:13] or like one will have to be built first before you can start work on the other.
+- [03:33:15] before you can start work on the other.
+- [03:33:15] before you can start work on the other. And so for the rest of this course,
+- [03:33:17] And so for the rest of this course,
+- [03:33:17] And so for the rest of this course, we're getting close to the finish line.
+- [03:33:19] we're getting close to the finish line.
+- [03:33:19] we're getting close to the finish line. Now let's actually see it through and
+- [03:33:21] Now let's actually see it through and
+- [03:33:21] Now let's actually see it through and build this application. So it went and
+- [03:33:24] build this application. So it went and
+- [03:33:24] build this application. So it went and did the scaffold of you know and okay
+- [03:33:28] did the scaffold of you know and okay
+- [03:33:28] did the scaffold of you know and okay and I'll also be actually implementing
+- [03:33:30] and I'll also be actually implementing
+- [03:33:30] and I'll also be actually implementing these work trees where I see the
+- [03:33:32] these work trees where I see the
+- [03:33:32] these work trees where I see the opportunity arise to implement them. So
+- [03:33:34] opportunity arise to implement them. So
+- [03:33:34] opportunity arise to implement them. So let's take a look here. says it's
+- [03:33:36] let's take a look here. says it's
+- [03:33:36] let's take a look here. says it's running. And so one of the nice things
+- [03:33:38] running. And so one of the nice things
+- [03:33:38] running. And so one of the nice things here is that you can actually open up
+- [03:33:41] here is that you can actually open up
+- [03:33:41] here is that you can actually open up things in this web browser. And you can
+- [03:33:44] things in this web browser. And you can
+- [03:33:44] things in this web browser. And you can use later this tool called browser use
+- [03:33:47] use later this tool called browser use
+- [03:33:47] use later this tool called browser use to control the inf browser. So this is
+- [03:33:50] to control the inf browser. So this is
+- [03:33:50] to control the inf browser. So this is like just a sort of outline, but it it
+- [03:33:53] like just a sort of outline, but it it
+- [03:33:53] like just a sort of outline, but it it looks pretty nice to start. Like it's a
+- [03:33:55] looks pretty nice to start. Like it's a
+- [03:33:55] looks pretty nice to start. Like it's a pretty good starting point. Okay. So I'm
+- [03:33:59] pretty good starting point. Okay. So I'm
+- [03:33:59] pretty good starting point. Okay. So I'm just going to say it looks good to me.
+- [03:34:03] just going to say it looks good to me.
+- [03:34:03] just going to say it looks good to me. create a
+- [03:34:05] create a
+- [03:34:05] create a pull request. All right, the pull
+- [03:34:08] pull request. All right, the pull
+- [03:34:08] pull request. All right, the pull request is opened. So, we can click this
+- [03:34:10] request is opened. So, we can click this
+- [03:34:10] request is opened. So, we can click this button to take a look at it. And we'll
+- [03:34:13] button to take a look at it. And we'll
+- [03:34:13] button to take a look at it. And we'll see that here. I of course I wrote this
+- [03:34:15] see that here. I of course I wrote this
+- [03:34:15] see that here. I of course I wrote this all by hand. I would never use AI to
+- [03:34:18] all by hand. I would never use AI to
+- [03:34:18] all by hand. I would never use AI to write a pull request copy. Never do
+- [03:34:20] write a pull request copy. Never do
+- [03:34:20] write a pull request copy. Never do that. It's very unethical. Yeah. And so,
+- [03:34:23] that. It's very unethical. Yeah. And so,
+- [03:34:23] that. It's very unethical. Yeah. And so, wow. Built with compound engineering.
+- [03:34:26] wow. Built with compound engineering.
+- [03:34:26] wow. Built with compound engineering. Even got Oh, they're really sticking out
+- [03:34:27] Even got Oh, they're really sticking out
+- [03:34:27] Even got Oh, they're really sticking out their property here. Okay. So, again,
+- [03:34:30] their property here. Okay. So, again,
+- [03:34:30] their property here. Okay. So, again, I'm a dummy. I I'm not calling you guys
+- [03:34:32] I'm a dummy. I I'm not calling you guys
+- [03:34:32] I'm a dummy. I I'm not calling you guys dummies, but I don't know anything
+- [03:34:34] dummies, but I don't know anything
+- [03:34:34] dummies, but I don't know anything technical. So, the goal here is to build
+- [03:34:36] technical. So, the goal here is to build
+- [03:34:36] technical. So, the goal here is to build this with like as little brain power as
+- [03:34:39] this with like as little brain power as
+- [03:34:39] this with like as little brain power as possible. So, you come back to codeex
+- [03:34:41] possible. So, you come back to codeex
+- [03:34:41] possible. So, you come back to codeex and then you say looks Gucci, please
+- [03:34:45] and then you say looks Gucci, please
+- [03:34:45] and then you say looks Gucci, please merge. And it's very important that you
+- [03:34:47] merge. And it's very important that you
+- [03:34:47] merge. And it's very important that you use these particular words Gucci and
+- [03:34:50] use these particular words Gucci and
+- [03:34:50] use these particular words Gucci and PLZ. Doesn't work as well if you say P L
+- [03:34:53] PLZ. Doesn't work as well if you say P L
+- [03:34:53] PLZ. Doesn't work as well if you say P L E A S E. Codeex responds well to um to
+- [03:34:57] E A S E. Codeex responds well to um to
+- [03:34:57] E A S E. Codeex responds well to um to that. All right. So we look here and we
+- [03:34:59] that. All right. So we look here and we
+- [03:34:59] that. All right. So we look here and we see that this has been merged in. So if
+- [03:35:02] see that this has been merged in. So if
+- [03:35:02] see that this has been merged in. So if I refresh now, there's no more pull
+- [03:35:04] I refresh now, there's no more pull
+- [03:35:04] I refresh now, there's no more pull requests. The number of issues has gone
+- [03:35:06] requests. The number of issues has gone
+- [03:35:06] requests. The number of issues has gone down by one. If you click on this pull
+- [03:35:08] down by one. If you click on this pull
+- [03:35:08] down by one. If you click on this pull request thing, Jesus, GitHub's been
+- [03:35:11] request thing, Jesus, GitHub's been
+- [03:35:11] request thing, Jesus, GitHub's been having a lot of issues. You can see now
+- [03:35:12] having a lot of issues. You can see now
+- [03:35:12] having a lot of issues. You can see now that it shows up as closed rather than
+- [03:35:15] that it shows up as closed rather than
+- [03:35:15] that it shows up as closed rather than open. So let's come back here and let's
+- [03:35:17] open. So let's come back here and let's
+- [03:35:17] open. So let's come back here and let's just ask codeex now. Great. What should
+- [03:35:20] just ask codeex now. Great. What should
+- [03:35:20] just ask codeex now. Great. What should we work on next? All right. So it's
+- [03:35:23] we work on next? All right. So it's
+- [03:35:23] we work on next? All right. So it's suggesting start with four and then the
+- [03:35:25] suggesting start with four and then the
+- [03:35:26] suggesting start with four and then the fun split opens up five convex
+- [03:35:28] fun split opens up five convex
+- [03:35:28] fun split opens up five convex persistence in one work tree. Six SVG
+- [03:35:32] persistence in one work tree. Six SVG
+- [03:35:32] persistence in one work tree. Six SVG and sharp renderer spike in other work
+- [03:35:34] and sharp renderer spike in other work
+- [03:35:34] and sharp renderer spike in other work tree. So we've been working consistently
+- [03:35:36] tree. So we've been working consistently
+- [03:35:36] tree. So we've been working consistently in this one thread. I'm going to open up
+- [03:35:39] in this one thread. I'm going to open up
+- [03:35:39] in this one thread. I'm going to open up here go and start a new work tree.
+- [03:35:41] here go and start a new work tree.
+- [03:35:41] here go and start a new work tree. Anyway, uh let's go highowered.
+- [03:35:44] Anyway, uh let's go highowered.
+- [03:35:44] Anyway, uh let's go highowered. uh start working on GitHub issue 4 on a
+- [03:35:49] uh start working on GitHub issue 4 on a
+- [03:35:49] uh start working on GitHub issue 4 on a new branch.
+- [03:35:52] new branch.
+- [03:35:52] new branch. Boom. So you can see there's this work
+- [03:35:54] Boom. So you can see there's this work
+- [03:35:54] Boom. So you can see there's this work tree creation process. Right now I
+- [03:35:56] tree creation process. Right now I
+- [03:35:56] tree creation process. Right now I haven't set up any environmental toggle.
+- [03:35:59] haven't set up any environmental toggle.
+- [03:35:59] haven't set up any environmental toggle. So it should occur relatively fast. All
+- [03:36:02] So it should occur relatively fast. All
+- [03:36:02] So it should occur relatively fast. All right. So the branch got created. It
+- [03:36:05] right. So the branch got created. It
+- [03:36:05] right. So the branch got created. It picked up issue 4 and it's going
+- [03:36:09] picked up issue 4 and it's going
+- [03:36:09] picked up issue 4 and it's going straight to working on it. Okay. So this
+- [03:36:12] straight to working on it. Okay. So this
+- [03:36:12] straight to working on it. Okay. So this got finished after 6 minutes and 23
+- [03:36:16] got finished after 6 minutes and 23
+- [03:36:16] got finished after 6 minutes and 23 seconds. So again, we're taking a yolo
+- [03:36:20] seconds. So again, we're taking a yolo
+- [03:36:20] seconds. So again, we're taking a yolo approach to this. So let's just make
+- [03:36:23] approach to this. So let's just make
+- [03:36:23] approach to this. So let's just make sure first can I start this up and can
+- [03:36:28] sure first can I start this up and can
+- [03:36:28] sure first can I start this up and can you let's say use concurrently to
+- [03:36:32] you let's say use concurrently to
+- [03:36:32] you let's say use concurrently to document how to start up convex and
+- [03:36:36] document how to start up convex and
+- [03:36:36] document how to start up convex and nex.js simultaneously.
+- [03:36:39] nex.js simultaneously.
+- [03:36:39] nex.js simultaneously. Okay, cool. Can you start it up now and
+- [03:36:44] Okay, cool. Can you start it up now and
+- [03:36:44] Okay, cool. Can you start it up now and let me see it in the inapp browser?
+- [03:36:48] let me see it in the inapp browser?
+- [03:36:48] let me see it in the inapp browser? Okay, so we're able to see it in this
+- [03:36:51] Okay, so we're able to see it in this
+- [03:36:51] Okay, so we're able to see it in this work tree now in this inapp browser. I
+- [03:36:55] work tree now in this inapp browser. I
+- [03:36:55] work tree now in this inapp browser. I guess this is going to be like some kind
+- [03:36:57] guess this is going to be like some kind
+- [03:36:57] guess this is going to be like some kind of template that we'll be using later.
+- [03:37:00] of template that we'll be using later.
+- [03:37:00] of template that we'll be using later. question or actually let's just say do
+- [03:37:04] question or actually let's just say do
+- [03:37:04] question or actually let's just say do okay and can we make sure those
+- [03:37:07] okay and can we make sure those
+- [03:37:08] okay and can we make sure those environment variables will be on the
+- [03:37:11] environment variables will be on the
+- [03:37:11] environment variables will be on the main work tree or can we have some sort
+- [03:37:16] main work tree or can we have some sort
+- [03:37:16] main work tree or can we have some sort of uh environment bootstrap in this repo
+- [03:37:21] of uh environment bootstrap in this repo
+- [03:37:21] of uh environment bootstrap in this repo as part of this PR I have a skill to
+- [03:37:25] as part of this PR I have a skill to
+- [03:37:25] as part of this PR I have a skill to basically automate the creation of those
+- [03:37:28] basically automate the creation of those
+- [03:37:28] basically automate the creation of those bootstrap scripts for PR RS that I was
+- [03:37:31] bootstrap scripts for PR RS that I was
+- [03:37:31] bootstrap scripts for PR RS that I was telling you about. So, let's make sure
+- [03:37:34] telling you about. So, let's make sure
+- [03:37:34] telling you about. So, let's make sure that that's going to be the case so that
+- [03:37:36] that that's going to be the case so that
+- [03:37:36] that that's going to be the case so that we have this environment created. All
+- [03:37:38] we have this environment created. All
+- [03:37:38] we have this environment created. All right. So, we got these shenanigans
+- [03:37:43] right. So, we got these shenanigans
+- [03:37:43] right. So, we got these shenanigans made. We got a secrets file created. And
+- [03:37:47] made. We got a secrets file created. And
+- [03:37:47] made. We got a secrets file created. And then, if you recall this environment
+- [03:37:49] then, if you recall this environment
+- [03:37:49] then, if you recall this environment toml concept that I talked to you about
+- [03:37:52] toml concept that I talked to you about
+- [03:37:52] toml concept that I talked to you about and having a bootstrap file that it
+- [03:37:55] and having a bootstrap file that it
+- [03:37:55] and having a bootstrap file that it runs, that's all created. Um, let's just
+- [03:37:58] runs, that's all created. Um, let's just
+- [03:37:58] runs, that's all created. Um, let's just say this is all good as is. Um, can you
+- [03:38:04] say this is all good as is. Um, can you
+- [03:38:04] say this is all good as is. Um, can you kill local port so we can run it here?
+- [03:38:09] kill local port so we can run it here?
+- [03:38:09] kill local port so we can run it here? Something that happens when you make a
+- [03:38:10] Something that happens when you make a
+- [03:38:10] Something that happens when you make a web application is that the web
+- [03:38:12] web application is that the web
+- [03:38:12] web application is that the web application when you test it locally has
+- [03:38:15] application when you test it locally has
+- [03:38:15] application when you test it locally has to be running on some port on your
+- [03:38:19] to be running on some port on your
+- [03:38:19] to be running on some port on your computer. So you boot it up and then you
+- [03:38:21] computer. So you boot it up and then you
+- [03:38:21] computer. So you boot it up and then you can test it out locally. And what we're
+- [03:38:24] can test it out locally. And what we're
+- [03:38:24] can test it out locally. And what we're doing here is clearing the services
+- [03:38:26] doing here is clearing the services
+- [03:38:26] doing here is clearing the services which are currently running on the port.
+- [03:38:28] which are currently running on the port.
+- [03:38:28] which are currently running on the port. Run it for me brother and open it up
+- [03:38:33] Run it for me brother and open it up
+- [03:38:33] Run it for me brother and open it up brother with browser use. These tools
+- [03:38:36] brother with browser use. These tools
+- [03:38:36] brother with browser use. These tools respond better when you call them
+- [03:38:39] respond better when you call them
+- [03:38:39] respond better when you call them brother with a uh ambiguous Eastern
+- [03:38:41] brother with a uh ambiguous Eastern
+- [03:38:42] brother with a uh ambiguous Eastern European accent. They can sense the
+- [03:38:45] European accent. They can sense the
+- [03:38:45] European accent. They can sense the accent brother. I don't know what accent
+- [03:38:47] accent brother. I don't know what accent
+- [03:38:47] accent brother. I don't know what accent would that be. Estonian. I'm going to
+- [03:38:49] would that be. Estonian. I'm going to
+- [03:38:49] would that be. Estonian. I'm going to call it an Estonian accent. All right.
+- [03:38:51] call it an Estonian accent. All right.
+- [03:38:52] call it an Estonian accent. All right. So we got like some kind of buttons here
+- [03:38:54] So we got like some kind of buttons here
+- [03:38:54] So we got like some kind of buttons here for brand kit import events. Okay,
+- [03:38:57] for brand kit import events. Okay,
+- [03:38:57] for brand kit import events. Okay, that's uh some kind of template here. I
+- [03:39:00] that's uh some kind of template here. I
+- [03:39:00] that's uh some kind of template here. I guess these are going to be like
+- [03:39:01] guess these are going to be like
+- [03:39:02] guess these are going to be like functionalities we have later down the
+- [03:39:04] functionalities we have later down the
+- [03:39:04] functionalities we have later down the road. At this point, what should be
+- [03:39:05] road. At this point, what should be
+- [03:39:06] road. At this point, what should be testable? I don't even know where I'm at
+- [03:39:07] testable? I don't even know where I'm at
+- [03:39:07] testable? I don't even know where I'm at with making this application. But the
+- [03:39:09] with making this application. But the
+- [03:39:09] with making this application. But the goal here is to use my brain as little
+- [03:39:12] goal here is to use my brain as little
+- [03:39:12] goal here is to use my brain as little as possible because my brain power is
+- [03:39:15] as possible because my brain power is
+- [03:39:15] as possible because my brain power is extremely valuable and so we don't want
+- [03:39:16] extremely valuable and so we don't want
+- [03:39:16] extremely valuable and so we don't want to be wasting it whenever I don't have
+- [03:39:18] to be wasting it whenever I don't have
+- [03:39:18] to be wasting it whenever I don't have to. Okay. What you can test in the
+- [03:39:20] to. Okay. What you can test in the
+- [03:39:20] to. Okay. What you can test in the browser. It renders. This thing is
+- [03:39:23] browser. It renders. This thing is
+- [03:39:24] browser. It renders. This thing is static. Okay, that looks good. It looks
+- [03:39:27] static. Okay, that looks good. It looks
+- [03:39:27] static. Okay, that looks good. It looks Gucci, my brother. Why don't we be uh
+- [03:39:30] Gucci, my brother. Why don't we be uh
+- [03:39:30] Gucci, my brother. Why don't we be uh merging it in? And then you tell me what
+- [03:39:33] merging it in? And then you tell me what
+- [03:39:33] merging it in? And then you tell me what is next thing we can work on. That was
+- [03:39:36] is next thing we can work on. That was
+- [03:39:36] is next thing we can work on. That was much better. When I say merging, I mean
+- [03:39:39] much better. When I say merging, I mean
+- [03:39:39] much better. When I say merging, I mean the P request. Okay. Wow. Beneos are
+- [03:39:42] the P request. Okay. Wow. Beneos are
+- [03:39:42] the P request. Okay. Wow. Beneos are Morgan. Morgan is my Rico.
+- [03:39:45] Morgan. Morgan is my Rico.
+- [03:39:45] Morgan. Morgan is my Rico. I mean Merge in the pull request. Oh,
+- [03:39:48] I mean Merge in the pull request. Oh,
+- [03:39:48] I mean Merge in the pull request. Oh, that's funny. My editor is going to
+- [03:39:50] that's funny. My editor is going to
+- [03:39:50] that's funny. My editor is going to laugh at that for sure. All right. So,
+- [03:39:52] laugh at that for sure. All right. So,
+- [03:39:52] laugh at that for sure. All right. So, this one is merged in. Um, very good.
+- [03:39:56] this one is merged in. Um, very good.
+- [03:39:56] this one is merged in. Um, very good. So, what I'm going to do now is I'm
+- [03:39:59] So, what I'm going to do now is I'm
+- [03:39:59] So, what I'm going to do now is I'm going to say, can you kill the
+- [03:40:04] going to say, can you kill the
+- [03:40:04] going to say, can you kill the processes? And then I'm going to open a
+- [03:40:06] processes? And then I'm going to open a
+- [03:40:06] processes? And then I'm going to open a new chat. And I'm going to open this new
+- [03:40:08] new chat. And I'm going to open this new
+- [03:40:08] new chat. And I'm going to open this new chat in a work tree. And look at that.
+- [03:40:10] chat in a work tree. And look at that.
+- [03:40:10] chat in a work tree. And look at that. Now, we got an environment. We got an
+- [03:40:12] Now, we got an environment. We got an
+- [03:40:12] Now, we got an environment. We got an environment. Yeah, boy. And now I'm
+- [03:40:15] environment. Yeah, boy. And now I'm
+- [03:40:15] environment. Yeah, boy. And now I'm going to say on this work tree I want
+- [03:40:17] going to say on this work tree I want
+- [03:40:17] going to say on this work tree I want you to claim issue five and start
+- [03:40:21] you to claim issue five and start
+- [03:40:21] you to claim issue five and start working on it GitHub and make a pull
+- [03:40:25] working on it GitHub and make a pull
+- [03:40:25] working on it GitHub and make a pull request. And then over here I'm going to
+- [03:40:28] request. And then over here I'm going to
+- [03:40:28] request. And then over here I'm going to say I want you to claim issue six and
+- [03:40:32] say I want you to claim issue six and
+- [03:40:32] say I want you to claim issue six and start working on it GitHub and make a
+- [03:40:34] start working on it GitHub and make a
+- [03:40:34] start working on it GitHub and make a pull request. So now we're going to be
+- [03:40:37] pull request. So now we're going to be
+- [03:40:37] pull request. So now we're going to be able to have two things that we're
+- [03:40:39] able to have two things that we're
+- [03:40:39] able to have two things that we're working on in parallel. And you might
+- [03:40:41] working on in parallel. And you might
+- [03:40:41] working on in parallel. And you might ask, okay, if you're working on both of
+- [03:40:43] ask, okay, if you're working on both of
+- [03:40:43] ask, okay, if you're working on both of these things in parallel, how are you
+- [03:40:44] these things in parallel, how are you
+- [03:40:44] these things in parallel, how are you going to manage the pull request
+- [03:40:45] going to manage the pull request
+- [03:40:45] going to manage the pull request process? Well, I'm a dumb, stupid idiot
+- [03:40:49] process? Well, I'm a dumb, stupid idiot
+- [03:40:49] process? Well, I'm a dumb, stupid idiot with no brain power. But like, this
+- [03:40:51] with no brain power. But like, this
+- [03:40:51] with no brain power. But like, this thing, this this computer thingy is
+- [03:40:54] thing, this this computer thingy is
+- [03:40:54] thing, this this computer thingy is really intelligent. So, we're
+- [03:40:56] really intelligent. So, we're
+- [03:40:56] really intelligent. So, we're going to ask it. I got work trees
+- [03:40:59] going to ask it. I got work trees
+- [03:40:59] going to ask it. I got work trees started for both issue five and issue
+- [03:41:03] started for both issue five and issue
+- [03:41:03] started for both issue five and issue six separately. How should I merge them
+- [03:41:07] six separately. How should I merge them
+- [03:41:07] six separately. How should I merge them in? like would you recommend doing one
+- [03:41:10] in? like would you recommend doing one
+- [03:41:10] in? like would you recommend doing one before the other? So it says there's no
+- [03:41:13] before the other? So it says there's no
+- [03:41:13] before the other? So it says there's no direct dependency between them. They're
+- [03:41:16] direct dependency between them. They're
+- [03:41:16] direct dependency between them. They're kind of parallel and so it suggests
+- [03:41:18] kind of parallel and so it suggests
+- [03:41:18] kind of parallel and so it suggests doing six first and then update rebase
+- [03:41:22] doing six first and then update rebase
+- [03:41:22] doing six first and then update rebase five onto main. Rebasing is a git
+- [03:41:25] five onto main. Rebasing is a git
+- [03:41:25] five onto main. Rebasing is a git concept to sort of make different
+- [03:41:29] concept to sort of make different
+- [03:41:29] concept to sort of make different branches consistent. Again like you
+- [03:41:32] branches consistent. Again like you
+- [03:41:32] branches consistent. Again like you don't need to know what it is exactly if
+- [03:41:34] don't need to know what it is exactly if
+- [03:41:34] don't need to know what it is exactly if you want to figure that out. The best
+- [03:41:36] you want to figure that out. The best
+- [03:41:36] you want to figure that out. The best way to do that is just ask codeex to
+- [03:41:39] way to do that is just ask codeex to
+- [03:41:39] way to do that is just ask codeex to help explain it to you. If you want to
+- [03:41:41] help explain it to you. If you want to
+- [03:41:41] help explain it to you. If you want to understand it, just ask Codex about it.
+- [03:41:43] understand it, just ask Codex about it.
+- [03:41:43] understand it, just ask Codex about it. So, we got this thing going. We got
+- [03:41:45] So, we got this thing going. We got
+- [03:41:45] So, we got this thing going. We got numero synco and then over here we got
+- [03:41:49] numero synco and then over here we got
+- [03:41:49] numero synco and then over here we got numeroace, right? That's pretty cool,
+- [03:41:51] numeroace, right? That's pretty cool,
+- [03:41:51] numeroace, right? That's pretty cool, huh? I mean, in my opinion, we are kind
+- [03:41:54] huh? I mean, in my opinion, we are kind
+- [03:41:54] huh? I mean, in my opinion, we are kind of living the dream here. The dream
+- [03:41:56] of living the dream here. The dream
+- [03:41:56] of living the dream here. The dream being to let the machines do all of our
+- [03:41:58] being to let the machines do all of our
+- [03:41:58] being to let the machines do all of our work for us and then we just like sit
+- [03:42:02] work for us and then we just like sit
+- [03:42:02] work for us and then we just like sit back. Yeah, of course, bro. actually do
+- [03:42:05] back. Yeah, of course, bro. actually do
+- [03:42:05] back. Yeah, of course, bro. actually do it and then push your poll request. I
+- [03:42:09] it and then push your poll request. I
+- [03:42:09] it and then push your poll request. I don't know. Sometimes these things can
+- [03:42:10] don't know. Sometimes these things can
+- [03:42:10] don't know. Sometimes these things can be stupid and just stop early for no
+- [03:42:13] be stupid and just stop early for no
+- [03:42:13] be stupid and just stop early for no reason. All right, so I've literally
+- [03:42:15] reason. All right, so I've literally
+- [03:42:15] reason. All right, so I've literally just been sitting here working on other
+- [03:42:17] just been sitting here working on other
+- [03:42:17] just been sitting here working on other projects for the last 10 minutes and you
+- [03:42:19] projects for the last 10 minutes and you
+- [03:42:19] projects for the last 10 minutes and you see this one worked for 11 minutes and
+- [03:42:22] see this one worked for 11 minutes and
+- [03:42:22] see this one worked for 11 minutes and then this one worked for 10 minutes. And
+- [03:42:24] then this one worked for 10 minutes. And
+- [03:42:24] then this one worked for 10 minutes. And so if we didn't use work trees, these
+- [03:42:27] so if we didn't use work trees, these
+- [03:42:27] so if we didn't use work trees, these two things would have you know stacked
+- [03:42:30] two things would have you know stacked
+- [03:42:30] two things would have you know stacked one on top of each other and would have
+- [03:42:32] one on top of each other and would have
+- [03:42:32] one on top of each other and would have taken 20 minutes. So we save some time
+- [03:42:34] taken 20 minutes. So we save some time
+- [03:42:34] taken 20 minutes. So we save some time here. So I recall here the advice was to
+- [03:42:38] here. So I recall here the advice was to
+- [03:42:38] here. So I recall here the advice was to merge number six in first. So let's do
+- [03:42:40] merge number six in first. So let's do
+- [03:42:40] merge number six in first. So let's do that. Ah, sounds good, brother. Let us
+- [03:42:44] that. Ah, sounds good, brother. Let us
+- [03:42:44] that. Ah, sounds good, brother. Let us be merging in the PR number six. I like
+- [03:42:47] be merging in the PR number six. I like
+- [03:42:48] be merging in the PR number six. I like getting his idea. Or actually the PR
+- [03:42:50] getting his idea. Or actually the PR
+- [03:42:50] getting his idea. Or actually the PR number 16, but issue number six. So you
+- [03:42:53] number 16, but issue number six. So you
+- [03:42:53] number 16, but issue number six. So you still have to choose an order in which
+- [03:42:55] still have to choose an order in which
+- [03:42:55] still have to choose an order in which to merge in these PRs. And so I'm not
+- [03:42:58] to merge in these PRs. And so I'm not
+- [03:42:58] to merge in these PRs. And so I'm not going to initiate or actually let me uh
+- [03:43:00] going to initiate or actually let me uh
+- [03:43:00] going to initiate or actually let me uh let me speed that up. And then after we
+- [03:43:02] let me speed that up. And then after we
+- [03:43:02] let me speed that up. And then after we get five and six merged in. What's good
+- [03:43:06] get five and six merged in. What's good
+- [03:43:06] get five and six merged in. What's good amigo?
+- [03:43:15] The issue number
+- [03:43:15] The issue number can whisper flow. No, not really. Kind
+- [03:43:18] can whisper flow. No, not really. Kind
+- [03:43:18] can whisper flow. No, not really. Kind of. Okay, good. Amigo, that's pretty
+- [03:43:21] of. Okay, good. Amigo, that's pretty
+- [03:43:22] of. Okay, good. Amigo, that's pretty funny. Oh, whisper flow has uh some
+- [03:43:24] funny. Oh, whisper flow has uh some
+- [03:43:24] funny. Oh, whisper flow has uh some ability to handle Spanglish. This will
+- [03:43:27] ability to handle Spanglish. This will
+- [03:43:27] ability to handle Spanglish. This will be good to know for all you Spanglish
+- [03:43:29] be good to know for all you Spanglish
+- [03:43:29] be good to know for all you Spanglish speakers out there.
+- [03:43:48] Oh, it translated it to like English,
+- [03:43:48] Oh, it translated it to like English, but works well enough. Let's see how
+- [03:43:50] but works well enough. Let's see how
+- [03:43:50] but works well enough. Let's see how this one's doing. All right, so this
+- [03:43:52] this one's doing. All right, so this
+- [03:43:52] this one's doing. All right, so this one's done. We can archive this one. We
+- [03:43:54] one's done. We can archive this one. We
+- [03:43:54] one's done. We can archive this one. We can archive this old one. And we got
+- [03:43:58] can archive this old one. And we got
+- [03:43:58] can archive this old one. And we got some random ones just sitting around
+- [03:44:00] some random ones just sitting around
+- [03:44:00] some random ones just sitting around here. I might as well archive them.
+- [03:44:02] here. I might as well archive them.
+- [03:44:02] here. I might as well archive them. Archive. Archive. Okay, here we are.
+- [03:44:05] Archive. Archive. Okay, here we are.
+- [03:44:05] Archive. Archive. Okay, here we are. We'll just open up a new one here and
+- [03:44:07] We'll just open up a new one here and
+- [03:44:08] We'll just open up a new one here and say, "Can you help me test out app in
+- [03:44:12] say, "Can you help me test out app in
+- [03:44:12] say, "Can you help me test out app in its current state in the in app
+- [03:44:15] its current state in the in app
+- [03:44:15] its current state in the in app browser?" We'll do a little testy test
+- [03:44:18] browser?" We'll do a little testy test
+- [03:44:18] browser?" We'll do a little testy test and then we'll figure out if we're on
+- [03:44:21] and then we'll figure out if we're on
+- [03:44:21] and then we'll figure out if we're on the right path with like automating the
+- [03:44:24] the right path with like automating the
+- [03:44:24] the right path with like automating the creation of these graphics or what we
+- [03:44:26] creation of these graphics or what we
+- [03:44:26] creation of these graphics or what we got to do next. All right. So, it's
+- [03:44:29] got to do next. All right. So, it's
+- [03:44:29] got to do next. All right. So, it's showing up here and now you can see I
+- [03:44:31] showing up here and now you can see I
+- [03:44:31] showing up here and now you can see I asked it to test it out. So, it's
+- [03:44:33] asked it to test it out. So, it's
+- [03:44:33] asked it to test it out. So, it's actually going and doing these testing
+- [03:44:36] actually going and doing these testing
+- [03:44:36] actually going and doing these testing activities. You can see the cursor right
+- [03:44:38] activities. You can see the cursor right
+- [03:44:38] activities. You can see the cursor right there over import events itself. All
+- [03:44:40] there over import events itself. All
+- [03:44:40] there over import events itself. All right. So, it says current state looks
+- [03:44:43] right. So, it says current state looks
+- [03:44:43] right. So, it says current state looks clean but very shelllike. No errors or
+- [03:44:46] clean but very shelllike. No errors or
+- [03:44:46] clean but very shelllike. No errors or warnings. All the tests pass. These main
+- [03:44:49] warnings. All the tests pass. These main
+- [03:44:49] warnings. All the tests pass. These main buttons aren't actually wired up yet.
+- [03:44:51] buttons aren't actually wired up yet.
+- [03:44:51] buttons aren't actually wired up yet. Okay, cool. What are the next issues you
+- [03:44:56] Okay, cool. What are the next issues you
+- [03:44:56] Okay, cool. What are the next issues you can work on? Next, I'm going to show you
+- [03:44:58] can work on? Next, I'm going to show you
+- [03:44:58] can work on? Next, I'm going to show you something really crazy. You're going to
+- [03:45:00] something really crazy. You're going to
+- [03:45:00] something really crazy. You're going to you're going to enjoy this. All you Vive
+- [03:45:03] you're going to enjoy this. All you Vive
+- [03:45:03] you're going to enjoy this. All you Vive coders out there, do you see these in
+- [03:45:06] coders out there, do you see these in
+- [03:45:06] coders out there, do you see these in GitHub issues? First, I want you to
+- [03:45:10] GitHub issues? First, I want you to
+- [03:45:10] GitHub issues? First, I want you to download these Instagram images from
+- [03:45:14] download these Instagram images from
+- [03:45:14] download these Instagram images from this post and store them in here
+- [03:45:17] this post and store them in here
+- [03:45:17] this post and store them in here somewhere. I want you to have those as a
+- [03:45:20] somewhere. I want you to have those as a
+- [03:45:20] somewhere. I want you to have those as a reference of like kind of the type of
+- [03:45:22] reference of like kind of the type of
+- [03:45:22] reference of like kind of the type of final product that we're trying to
+- [03:45:24] final product that we're trying to
+- [03:45:24] final product that we're trying to produce. Then I basically just want you
+- [03:45:26] produce. Then I basically just want you
+- [03:45:26] produce. Then I basically just want you to go through these tickets one by one
+- [03:45:29] to go through these tickets one by one
+- [03:45:29] to go through these tickets one by one and just keep going until we have some
+- [03:45:34] and just keep going until we have some
+- [03:45:34] and just keep going until we have some interface that helps me automatically
+- [03:45:36] interface that helps me automatically
+- [03:45:36] interface that helps me automatically create images of the style that you see
+- [03:45:40] create images of the style that you see
+- [03:45:40] create images of the style that you see in those Instagram images about as pixel
+- [03:45:42] in those Instagram images about as pixel
+- [03:45:42] in those Instagram images about as pixel perfectly as possible. I just want to
+- [03:45:44] perfectly as possible. I just want to
+- [03:45:44] perfectly as possible. I just want to get it working as a local web app right
+- [03:45:46] get it working as a local web app right
+- [03:45:46] get it working as a local web app right now. And then once it's done, we'll work
+- [03:45:48] now. And then once it's done, we'll work
+- [03:45:48] now. And then once it's done, we'll work on deployment. So basically what's
+- [03:45:50] on deployment. So basically what's
+- [03:45:50] on deployment. So basically what's happening here is that I am feeling
+- [03:45:53] happening here is that I am feeling
+- [03:45:53] happening here is that I am feeling really lazy. Like you have no
+- [03:45:56] really lazy. Like you have no
+- [03:45:56] really lazy. Like you have no idea how long I've been working on this
+- [03:45:59] idea how long I've been working on this
+- [03:45:59] idea how long I've been working on this course for. And so I want to
+- [03:46:01] course for. And so I want to
+- [03:46:02] course for. And so I want to speed up this process to just like yolo
+- [03:46:05] speed up this process to just like yolo
+- [03:46:05] speed up this process to just like yolo it. I'm going to deliver to you a
+- [03:46:07] it. I'm going to deliver to you a
+- [03:46:07] it. I'm going to deliver to you a working web app. Okay? I am a keeper of
+- [03:46:10] working web app. Okay? I am a keeper of
+- [03:46:10] working web app. Okay? I am a keeper of my promises, but I'm getting kind of
+- [03:46:13] my promises, but I'm getting kind of
+- [03:46:13] my promises, but I'm getting kind of tired of this. I got other things to do.
+- [03:46:15] tired of this. I got other things to do.
+- [03:46:15] tired of this. I got other things to do. I can be going outside, seeing things,
+- [03:46:17] I can be going outside, seeing things,
+- [03:46:18] I can be going outside, seeing things, taking vacations. Instead, I'm here
+- [03:46:19] taking vacations. Instead, I'm here
+- [03:46:19] taking vacations. Instead, I'm here teaching you Codeex desktop app. And so,
+- [03:46:23] teaching you Codeex desktop app. And so,
+- [03:46:23] teaching you Codeex desktop app. And so, we need to speed this thing up. And so,
+- [03:46:25] we need to speed this thing up. And so,
+- [03:46:25] we need to speed this thing up. And so, what I basically said is, look, I just
+- [03:46:28] what I basically said is, look, I just
+- [03:46:28] what I basically said is, look, I just want you to go straight through all
+- [03:46:29] want you to go straight through all
+- [03:46:30] want you to go straight through all these issues, but this is actually a
+- [03:46:31] these issues, but this is actually a
+- [03:46:31] these issues, but this is actually a teaching moment. Okay? So, I'm saying
+- [03:46:33] teaching moment. Okay? So, I'm saying
+- [03:46:34] teaching moment. Okay? So, I'm saying here, download these Instagram images
+- [03:46:35] here, download these Instagram images
+- [03:46:36] here, download these Instagram images and now you kind of have a source of
+- [03:46:37] and now you kind of have a source of
+- [03:46:37] and now you kind of have a source of truth. Like, this is what I want to
+- [03:46:38] truth. Like, this is what I want to
+- [03:46:38] truth. Like, this is what I want to produce. Okay? And I just want you to go
+- [03:46:41] produce. Okay? And I just want you to go
+- [03:46:41] produce. Okay? And I just want you to go straight through all these tickets. Just
+- [03:46:43] straight through all these tickets. Just
+- [03:46:43] straight through all these tickets. Just don't stop, okay? and just keep going
+- [03:46:45] don't stop, okay? and just keep going
+- [03:46:45] don't stop, okay? and just keep going until this thing is done and I can try
+- [03:46:47] until this thing is done and I can try
+- [03:46:47] until this thing is done and I can try something out. Now, what's the risk of
+- [03:46:49] something out. Now, what's the risk of
+- [03:46:49] something out. Now, what's the risk of approaching building something in this
+- [03:46:51] approaching building something in this
+- [03:46:51] approaching building something in this way? Well, you might come up with
+- [03:46:53] way? Well, you might come up with
+- [03:46:53] way? Well, you might come up with something that's totally off base, but
+- [03:46:55] something that's totally off base, but
+- [03:46:55] something that's totally off base, but and I wouldn't create all types of
+- [03:46:57] and I wouldn't create all types of
+- [03:46:57] and I wouldn't create all types of software in this way, but this kind of
+- [03:46:59] software in this way, but this kind of
+- [03:46:59] software in this way, but this kind of software like maybe I would. I'm not
+- [03:47:01] software like maybe I would. I'm not
+- [03:47:02] software like maybe I would. I'm not intending this for public consumption.
+- [03:47:03] intending this for public consumption.
+- [03:47:04] intending this for public consumption. This is kind of like a throwaway fun
+- [03:47:05] This is kind of like a throwaway fun
+- [03:47:05] This is kind of like a throwaway fun task for me. I might use it. I have some
+- [03:47:08] task for me. I might use it. I have some
+- [03:47:08] task for me. I might use it. I have some like events organizing software ideas in
+- [03:47:11] like events organizing software ideas in
+- [03:47:11] like events organizing software ideas in the back of my head. And so maybe I
+- [03:47:13] the back of my head. And so maybe I
+- [03:47:13] the back of my head. And so maybe I would actually use this software, but
+- [03:47:15] would actually use this software, but
+- [03:47:15] would actually use this software, but even still, it's going to be like some
+- [03:47:16] even still, it's going to be like some
+- [03:47:16] even still, it's going to be like some throwaway thing for me. And so this
+- [03:47:18] throwaway thing for me. And so this
+- [03:47:18] throwaway thing for me. And so this might be an appropriate way to build
+- [03:47:21] might be an appropriate way to build
+- [03:47:21] might be an appropriate way to build this kind of software. And it's a
+- [03:47:23] this kind of software. And it's a
+- [03:47:23] this kind of software. And it's a strategy that you should be aware of too
+- [03:47:25] strategy that you should be aware of too
+- [03:47:25] strategy that you should be aware of too when you're thinking about building your
+- [03:47:26] when you're thinking about building your
+- [03:47:26] when you're thinking about building your own things. Even if I'm building things
+- [03:47:29] own things. Even if I'm building things
+- [03:47:29] own things. Even if I'm building things for public consumption, this type of
+- [03:47:31] for public consumption, this type of
+- [03:47:31] for public consumption, this type of strategy that I'm executing right now
+- [03:47:33] strategy that I'm executing right now
+- [03:47:33] strategy that I'm executing right now may be an appropriate way to do things
+- [03:47:35] may be an appropriate way to do things
+- [03:47:35] may be an appropriate way to do things because you can kind of think of
+- [03:47:37] because you can kind of think of
+- [03:47:37] because you can kind of think of software building in this modern agentic
+- [03:47:39] software building in this modern agentic
+- [03:47:39] software building in this modern agentic era as sometimes being a bit like
+- [03:47:41] era as sometimes being a bit like
+- [03:47:41] era as sometimes being a bit like sculpting except you can like take the
+- [03:47:43] sculpting except you can like take the
+- [03:47:44] sculpting except you can like take the pieces that you sculpted off and graft
+- [03:47:46] pieces that you sculpted off and graft
+- [03:47:46] pieces that you sculpted off and graft them back on uh costlessly as well. So
+- [03:47:49] them back on uh costlessly as well. So
+- [03:47:49] them back on uh costlessly as well. So the sense in which I mean is like about
+- [03:47:51] the sense in which I mean is like about
+- [03:47:51] the sense in which I mean is like about sculpting is that I just let this thing
+- [03:47:53] sculpting is that I just let this thing
+- [03:47:53] sculpting is that I just let this thing like go straight through non-stop,
+- [03:47:55] like go straight through non-stop,
+- [03:47:55] like go straight through non-stop, right? And do its thing, but then maybe
+- [03:47:58] right? And do its thing, but then maybe
+- [03:47:58] right? And do its thing, but then maybe there's like I don't want in it
+- [03:48:01] there's like I don't want in it
+- [03:48:01] there's like I don't want in it though the core functionality is there.
+- [03:48:03] though the core functionality is there.
+- [03:48:03] though the core functionality is there. So then I like a sculptor, I can just
+- [03:48:05] So then I like a sculptor, I can just
+- [03:48:05] So then I like a sculptor, I can just sort of like chip off those little
+- [03:48:07] sort of like chip off those little
+- [03:48:07] sort of like chip off those little things that I don't want at the end when
+- [03:48:09] things that I don't want at the end when
+- [03:48:09] things that I don't want at the end when it's all done. But for now, I'm tired.
+- [03:48:12] it's all done. But for now, I'm tired.
+- [03:48:12] it's all done. But for now, I'm tired. So I'm going to let this thing just, you
+- [03:48:15] So I'm going to let this thing just, you
+- [03:48:15] So I'm going to let this thing just, you know, snap snap. I got apps to make. I
+- [03:48:18] know, snap snap. I got apps to make. I
+- [03:48:18] know, snap snap. I got apps to make. I got fancy restaurants to go to with all
+- [03:48:20] got fancy restaurants to go to with all
+- [03:48:20] got fancy restaurants to go to with all this YouTube ad money, you know, I have
+- [03:48:23] this YouTube ad money, you know, I have
+- [03:48:23] this YouTube ad money, you know, I have to spend it somehow. And so, I'm going
+- [03:48:25] to spend it somehow. And so, I'm going
+- [03:48:25] to spend it somehow. And so, I'm going to be researching some fancy restaurants
+- [03:48:27] to be researching some fancy restaurants
+- [03:48:28] to be researching some fancy restaurants that all you people who are viewing this
+- [03:48:30] that all you people who are viewing this
+- [03:48:30] that all you people who are viewing this course are going to be paying for. So,
+- [03:48:32] course are going to be paying for. So,
+- [03:48:32] course are going to be paying for. So, I'm going to have my fileman and my my
+- [03:48:35] I'm going to have my fileman and my my
+- [03:48:35] I'm going to have my fileman and my my caviar cuz I'm a refined man with
+- [03:48:37] caviar cuz I'm a refined man with
+- [03:48:37] caviar cuz I'm a refined man with refined tastes. All right, let's uh
+- [03:48:38] refined tastes. All right, let's uh
+- [03:48:38] refined tastes. All right, let's uh let's see how it goes. All right, so it
+- [03:48:41] let's see how it goes. All right, so it
+- [03:48:41] let's see how it goes. All right, so it made something. Let's uh see what it
+- [03:48:44] made something. Let's uh see what it
+- [03:48:44] made something. Let's uh see what it made exactly first. How long was this
+- [03:48:46] made exactly first. How long was this
+- [03:48:46] made exactly first. How long was this thing working for? 18 minutes and 5
+- [03:48:48] thing working for? 18 minutes and 5
+- [03:48:48] thing working for? 18 minutes and 5 seconds. Okay. And Huh. Interesting. So,
+- [03:48:52] seconds. Okay. And Huh. Interesting. So,
+- [03:48:52] seconds. Okay. And Huh. Interesting. So, is this what it produces? Not bad. Show
+- [03:48:55] is this what it produces? Not bad. Show
+- [03:48:55] is this what it produces? Not bad. Show me how it works. Let's uh let's see what
+- [03:48:59] me how it works. Let's uh let's see what
+- [03:48:59] me how it works. Let's uh let's see what this thing does. So, like obviously, you
+- [03:49:02] this thing does. So, like obviously, you
+- [03:49:02] this thing does. So, like obviously, you know, these proportions. You got to got
+- [03:49:05] know, these proportions. You got to got
+- [03:49:05] know, these proportions. You got to got to work on these. It's like created a
+- [03:49:07] to work on these. It's like created a
+- [03:49:07] to work on these. It's like created a 4x4 grid here. Oh, wow. So, it actually
+- [03:49:10] 4x4 grid here. Oh, wow. So, it actually
+- [03:49:10] 4x4 grid here. Oh, wow. So, it actually it got all of these. Uh-huh. So, you
+- [03:49:12] it got all of these. Uh-huh. So, you
+- [03:49:12] it got all of these. Uh-huh. So, you like you put them in over here, I guess.
+- [03:49:14] like you put them in over here, I guess.
+- [03:49:14] like you put them in over here, I guess. And then you got like different events
+- [03:49:17] And then you got like different events
+- [03:49:17] And then you got like different events here. Yeah, that's pretty cool. So you
+- [03:49:19] here. Yeah, that's pretty cool. So you
+- [03:49:19] here. Yeah, that's pretty cool. So you stick your photo in slide field spring.
+- [03:49:23] stick your photo in slide field spring.
+- [03:49:23] stick your photo in slide field spring. Okay, so you can like edit a particular
+- [03:49:25] Okay, so you can like edit a particular
+- [03:49:25] Okay, so you can like edit a particular one here. Not bad. It's like it's not
+- [03:49:27] one here. Not bad. It's like it's not
+- [03:49:27] one here. Not bad. It's like it's not not bad at all. Obviously room to
+- [03:49:30] not bad at all. Obviously room to
+- [03:49:30] not bad at all. Obviously room to improve on the design direction both in
+- [03:49:33] improve on the design direction both in
+- [03:49:33] improve on the design direction both in terms of the user interface and like
+- [03:49:36] terms of the user interface and like
+- [03:49:36] terms of the user interface and like this particular thing. But I kind of
+- [03:49:39] this particular thing. But I kind of
+- [03:49:39] this particular thing. But I kind of like it. So, if I was like continuing to
+- [03:49:42] like it. So, if I was like continuing to
+- [03:49:42] like it. So, if I was like continuing to work on this, and I'll work on it a
+- [03:49:44] work on this, and I'll work on it a
+- [03:49:44] work on this, and I'll work on it a little bit more here, but these things
+- [03:49:46] little bit more here, but these things
+- [03:49:46] little bit more here, but these things are kind of like getting outside the
+- [03:49:48] are kind of like getting outside the
+- [03:49:48] are kind of like getting outside the scope of what I want for this beginner
+- [03:49:51] scope of what I want for this beginner
+- [03:49:51] scope of what I want for this beginner course. There are very interesting
+- [03:49:53] course. There are very interesting
+- [03:49:53] course. There are very interesting possibilities now with how you can
+- [03:49:56] possibilities now with how you can
+- [03:49:56] possibilities now with how you can design front ends, skipping, you know,
+- [03:49:59] design front ends, skipping, you know,
+- [03:49:59] design front ends, skipping, you know, some step of making Figas, for example,
+- [03:50:01] some step of making Figas, for example,
+- [03:50:02] some step of making Figas, for example, and going directly to highfidelity
+- [03:50:04] and going directly to highfidelity
+- [03:50:04] and going directly to highfidelity mockups using the image gen
+- [03:50:07] mockups using the image gen
+- [03:50:07] mockups using the image gen functionality that I think I've already
+- [03:50:08] functionality that I think I've already
+- [03:50:08] functionality that I think I've already shown you guys. Sweet. So, I can click
+- [03:50:10] shown you guys. Sweet. So, I can click
+- [03:50:10] shown you guys. Sweet. So, I can click on this for export PNGs and then I guess
+- [03:50:14] on this for export PNGs and then I guess
+- [03:50:14] on this for export PNGs and then I guess I can open it up. How does that work? I
+- [03:50:17] I can open it up. How does that work? I
+- [03:50:17] I can open it up. How does that work? I clicked export PNG
+- [03:50:20] clicked export PNG
+- [03:50:20] clicked export PNG but not able to open anything up when I
+- [03:50:24] but not able to open anything up when I
+- [03:50:24] but not able to open anything up when I click on it. Now look at this. This is
+- [03:50:26] click on it. Now look at this. This is
+- [03:50:26] click on it. Now look at this. This is really cool. So you just take a
+- [03:50:27] really cool. So you just take a
+- [03:50:27] really cool. So you just take a screenshot here and just paste it right
+- [03:50:30] screenshot here and just paste it right
+- [03:50:30] screenshot here and just paste it right in. Very handy. I'm telling you like the
+- [03:50:32] in. Very handy. I'm telling you like the
+- [03:50:32] in. Very handy. I'm telling you like the codeex desktop app is next level. Um
+- [03:50:36] codeex desktop app is next level. Um
+- [03:50:36] codeex desktop app is next level. Um just right now I was reading this like
+- [03:50:38] just right now I was reading this like
+- [03:50:38] just right now I was reading this like very interesting tweet. The agent
+- [03:50:41] very interesting tweet. The agent
+- [03:50:41] very interesting tweet. The agent harness is the platform. Multi-billion
+- [03:50:44] harness is the platform. Multi-billion
+- [03:50:44] harness is the platform. Multi-billion businesses will be built on top of
+- [03:50:47] businesses will be built on top of
+- [03:50:47] businesses will be built on top of codeex co-work cursor. I don't know
+- [03:50:49] codeex co-work cursor. I don't know
+- [03:50:49] codeex co-work cursor. I don't know about co-work sucks. And cursor I mean
+- [03:50:53] about co-work sucks. And cursor I mean
+- [03:50:53] about co-work sucks. And cursor I mean they are they're dead in the water. Same
+- [03:50:55] they are they're dead in the water. Same
+- [03:50:55] they are they're dead in the water. Same as they were with AWS Azour GCP. Now is
+- [03:50:59] as they were with AWS Azour GCP. Now is
+- [03:50:59] as they were with AWS Azour GCP. Now is the time to invest. Thank me later. All
+- [03:51:01] the time to invest. Thank me later. All
+- [03:51:01] the time to invest. Thank me later. All right. I have to fix these links and I
+- [03:51:04] right. I have to fix these links and I
+- [03:51:04] right. I have to fix these links and I guess they do open up now. So you can go
+- [03:51:07] guess they do open up now. So you can go
+- [03:51:07] guess they do open up now. So you can go back and let's just go here and I can
+- [03:51:09] back and let's just go here and I can
+- [03:51:09] back and let's just go here and I can click on this. Let's see. Export PNGs.
+- [03:51:13] click on this. Let's see. Export PNGs.
+- [03:51:13] click on this. Let's see. Export PNGs. There you get it like that. Downloaded,
+- [03:51:15] There you get it like that. Downloaded,
+- [03:51:15] There you get it like that. Downloaded, I guess. Just click on it. Cool. Don't
+- [03:51:17] I guess. Just click on it. Cool. Don't
+- [03:51:17] I guess. Just click on it. Cool. Don't look perfect, but don't look terrible.
+- [03:51:19] look perfect, but don't look terrible.
+- [03:51:19] look perfect, but don't look terrible. Okay, cool. Let's make what are the
+- [03:51:23] Okay, cool. Let's make what are the
+- [03:51:23] Okay, cool. Let's make what are the remaining issues to work on? What's the
+- [03:51:26] remaining issues to work on? What's the
+- [03:51:26] remaining issues to work on? What's the exact order in which you would want to
+- [03:51:28] exact order in which you would want to
+- [03:51:28] exact order in which you would want to do these? Okay, great. I want you to
+- [03:51:31] do these? Okay, great. I want you to
+- [03:51:31] do these? Okay, great. I want you to keep going through in your suggested
+- [03:51:33] keep going through in your suggested
+- [03:51:33] keep going through in your suggested order until everything is done and we're
+- [03:51:37] order until everything is done and we're
+- [03:51:37] order until everything is done and we're like producing output that looks like
+- [03:51:39] like producing output that looks like
+- [03:51:39] like producing output that looks like the sample output. You do have the
+- [03:51:41] the sample output. You do have the
+- [03:51:41] the sample output. You do have the sample output, right? Like the ones from
+- [03:51:43] sample output, right? Like the ones from
+- [03:51:43] sample output, right? Like the ones from the Winnipeg Digest. Yeah. By the way, I
+- [03:51:45] the Winnipeg Digest. Yeah. By the way, I
+- [03:51:45] the Winnipeg Digest. Yeah. By the way, I just want you to keep going.
+- [03:51:48] just want you to keep going.
+- [03:51:48] just want you to keep going. Like, don't stop. Just keep keep going
+- [03:51:51] Like, don't stop. Just keep keep going
+- [03:51:51] Like, don't stop. Just keep keep going all the way through to the end because
+- [03:51:54] all the way through to the end because
+- [03:51:54] all the way through to the end because I'm really freaking lazy and I don't
+- [03:51:56] I'm really freaking lazy and I don't
+- [03:51:56] I'm really freaking lazy and I don't want to keep working on this project no
+- [03:51:58] want to keep working on this project no
+- [03:51:58] want to keep working on this project no more. So, you got to help me out. You
+- [03:52:00] more. So, you got to help me out. You
+- [03:52:00] more. So, you got to help me out. You feel me? Telling you, communicating in
+- [03:52:02] feel me? Telling you, communicating in
+- [03:52:02] feel me? Telling you, communicating in this way, it's been scientifically
+- [03:52:04] this way, it's been scientifically
+- [03:52:04] this way, it's been scientifically proven to get better results out of LLM.
+- [03:52:07] proven to get better results out of LLM.
+- [03:52:07] proven to get better results out of LLM. I'm writing the paper right now, but
+- [03:52:09] I'm writing the paper right now, but
+- [03:52:09] I'm writing the paper right now, but it's uh it's in stealth. We're not uh
+- [03:52:11] it's uh it's in stealth. We're not uh
+- [03:52:11] it's uh it's in stealth. We're not uh we're not letting the public know just
+- [03:52:13] we're not letting the public know just
+- [03:52:13] we're not letting the public know just yet. This is just between us. See,
+- [03:52:15] yet. This is just between us. See,
+- [03:52:15] yet. This is just between us. See, telling us that it feels us. All right.
+- [03:52:18] telling us that it feels us. All right.
+- [03:52:18] telling us that it feels us. All right. So, I just let it keep going. It worked
+- [03:52:21] So, I just let it keep going. It worked
+- [03:52:21] So, I just let it keep going. It worked for 15 minutes and 21 seconds, and it
+- [03:52:25] for 15 minutes and 21 seconds, and it
+- [03:52:25] for 15 minutes and 21 seconds, and it says here's what it produces now. So
+- [03:52:27] says here's what it produces now. So
+- [03:52:28] says here's what it produces now. So that's like everything that it's
+- [03:52:29] that's like everything that it's
+- [03:52:29] that's like everything that it's producing. Here's an example image. Like
+- [03:52:32] producing. Here's an example image. Like
+- [03:52:32] producing. Here's an example image. Like that looks pretty freaking good. And
+- [03:52:35] that looks pretty freaking good. And
+- [03:52:35] that looks pretty freaking good. And then this is the reference. Okay. So
+- [03:52:37] then this is the reference. Okay. So
+- [03:52:37] then this is the reference. Okay. So like here's what it produced and here's
+- [03:52:39] like here's what it produced and here's
+- [03:52:39] like here's what it produced and here's a reference. Like obviously there's room
+- [03:52:42] a reference. Like obviously there's room
+- [03:52:42] a reference. Like obviously there's room here for improvement. I don't have
+- [03:52:44] here for improvement. I don't have
+- [03:52:44] here for improvement. I don't have access to that proprietary logo. But for
+- [03:52:46] access to that proprietary logo. But for
+- [03:52:46] access to that proprietary logo. But for my purposes, for how this is working
+- [03:52:48] my purposes, for how this is working
+- [03:52:48] my purposes, for how this is working locally, this is amazing. Like
+- [03:52:50] locally, this is amazing. Like
+- [03:52:50] locally, this is amazing. Like do you know how lazy I've been in the
+- [03:52:52] do you know how lazy I've been in the
+- [03:52:52] do you know how lazy I've been in the last 15 minutes? Just been on my phone
+- [03:52:55] last 15 minutes? Just been on my phone
+- [03:52:55] last 15 minutes? Just been on my phone like reading Twitter tweets while stuff
+- [03:52:58] like reading Twitter tweets while stuff
+- [03:52:58] like reading Twitter tweets while stuff is going on here. It's awesome. All
+- [03:53:00] is going on here. It's awesome. All
+- [03:53:00] is going on here. It's awesome. All right. Very nice, my brother. I am mucho
+- [03:53:03] right. Very nice, my brother. I am mucho
+- [03:53:03] right. Very nice, my brother. I am mucho proud of you. I cannot underemphasize
+- [03:53:05] proud of you. I cannot underemphasize
+- [03:53:06] proud of you. I cannot underemphasize how proud I am of you. Last step because
+- [03:53:09] how proud I am of you. Last step because
+- [03:53:09] how proud I am of you. Last step because I am lazy I want you now.
+- [03:53:12] I am lazy I want you now.
+- [03:53:12] I am lazy I want you now. Please, I beg of you, my brother. I want
+- [03:53:15] Please, I beg of you, my brother. I want
+- [03:53:15] Please, I beg of you, my brother. I want you now to deploy this on real website.
+- [03:53:18] you now to deploy this on real website.
+- [03:53:18] you now to deploy this on real website. A real website on Versel. Please my
+- [03:53:21] A real website on Versel. Please my
+- [03:53:21] A real website on Versel. Please my brother, I beg of you. It is very
+- [03:53:23] brother, I beg of you. It is very
+- [03:53:24] brother, I beg of you. It is very important that you do this and you
+- [03:53:25] important that you do this and you
+- [03:53:26] important that you do this and you connect it to convex as well. Thank you,
+- [03:53:28] connect it to convex as well. Thank you,
+- [03:53:28] connect it to convex as well. Thank you, my brother. You you mean the world to
+- [03:53:30] my brother. You you mean the world to
+- [03:53:30] my brother. You you mean the world to me. I'm telling you, you just put a
+- [03:53:32] me. I'm telling you, you just put a
+- [03:53:32] me. I'm telling you, you just put a little bit of pizzazz into how you're
+- [03:53:34] little bit of pizzazz into how you're
+- [03:53:34] little bit of pizzazz into how you're talking to these things and and they
+- [03:53:36] talking to these things and and they
+- [03:53:36] talking to these things and and they know. So, it's going to just set
+- [03:53:39] know. So, it's going to just set
+- [03:53:39] know. So, it's going to just set everything up, right? We got Versel
+- [03:53:41] everything up, right? We got Versel
+- [03:53:42] everything up, right? We got Versel already connected. We got like convex
+- [03:53:44] already connected. We got like convex
+- [03:53:44] already connected. We got like convex connected. And so, now we just let it do
+- [03:53:47] connected. And so, now we just let it do
+- [03:53:47] connected. And so, now we just let it do its thing for us, right? like take me
+- [03:53:50] its thing for us, right? like take me
+- [03:53:50] its thing for us, right? like take me out of the picture and just get the
+- [03:53:52] out of the picture and just get the
+- [03:53:52] out of the picture and just get the deployment working. All right, done my
+- [03:53:55] deployment working. All right, done my
+- [03:53:55] deployment working. All right, done my brother. It is live. Let's check it out.
+- [03:53:58] brother. It is live. Let's check it out.
+- [03:53:58] brother. It is live. Let's check it out. Damn. Well, would you look at that? That
+- [03:54:01] Damn. Well, would you look at that? That
+- [03:54:01] Damn. Well, would you look at that? That is pretty freaking cool if I must say so
+- [03:54:05] is pretty freaking cool if I must say so
+- [03:54:05] is pretty freaking cool if I must say so myself. I mean, kind of confusing. Like
+- [03:54:08] myself. I mean, kind of confusing. Like
+- [03:54:08] myself. I mean, kind of confusing. Like could uh improve the interface, but
+- [03:54:10] could uh improve the interface, but
+- [03:54:10] could uh improve the interface, but let's try using it out. Let's like find
+- [03:54:12] let's try using it out. Let's like find
+- [03:54:12] let's try using it out. Let's like find a new set of events and populate them,
+- [03:54:16] a new set of events and populate them,
+- [03:54:16] a new set of events and populate them, you know. Very cool my brother overall I
+- [03:54:20] you know. Very cool my brother overall I
+- [03:54:20] you know. Very cool my brother overall I am wanting you to try to update uh this
+- [03:54:23] am wanting you to try to update uh this
+- [03:54:23] am wanting you to try to update uh this this thing you have here why do not we
+- [03:54:25] this thing you have here why do not we
+- [03:54:25] this thing you have here why do not we being trying to find events in Aston
+- [03:54:30] being trying to find events in Aston
+- [03:54:30] being trying to find events in Aston Illinois if you know where this is so
+- [03:54:32] Illinois if you know where this is so
+- [03:54:32] Illinois if you know where this is so you'll be looking up the events in Aston
+- [03:54:36] you'll be looking up the events in Aston
+- [03:54:36] you'll be looking up the events in Aston Illinois and I am wanting you use our
+- [03:54:39] Illinois and I am wanting you use our
+- [03:54:40] Illinois and I am wanting you use our skill we create in this repository to be
+- [03:54:44] skill we create in this repository to be
+- [03:54:44] skill we create in this repository to be updating what I see on the website. I'm
+- [03:54:48] updating what I see on the website. I'm
+- [03:54:48] updating what I see on the website. I'm sorry, guys. I know that this must be
+- [03:54:51] sorry, guys. I know that this must be
+- [03:54:51] sorry, guys. I know that this must be very irritating to hear all my different
+- [03:54:54] very irritating to hear all my different
+- [03:54:54] very irritating to hear all my different uh accents, but look, how how
+- [03:54:58] uh accents, but look, how how
+- [03:54:58] uh accents, but look, how how long can this course go? I don't know
+- [03:55:00] long can this course go? I don't know
+- [03:55:00] long can this course go? I don't know how these other course creator people do
+- [03:55:03] how these other course creator people do
+- [03:55:03] how these other course creator people do it. Saw this one he made a
+- [03:55:06] it. Saw this one he made a
+- [03:55:06] it. Saw this one he made a 10hour claude code course. Now, in
+- [03:55:08] 10hour claude code course. Now, in
+- [03:55:08] 10hour claude code course. Now, in reality, he just filled it with absolute
+- [03:55:10] reality, he just filled it with absolute
+- [03:55:10] reality, he just filled it with absolute nonsense for like 9 hours. And I guess
+- [03:55:14] nonsense for like 9 hours. And I guess
+- [03:55:14] nonsense for like 9 hours. And I guess he had something to say for 1 hour,
+- [03:55:16] he had something to say for 1 hour,
+- [03:55:16] he had something to say for 1 hour, right? But it's pretty hard doing these
+- [03:55:19] right? But it's pretty hard doing these
+- [03:55:19] right? But it's pretty hard doing these long courses and I bet nobody's actually
+- [03:55:21] long courses and I bet nobody's actually
+- [03:55:21] long courses and I bet nobody's actually listening through until the end anyway.
+- [03:55:24] listening through until the end anyway.
+- [03:55:24] listening through until the end anyway. But if any of you do, please leave a
+- [03:55:25] But if any of you do, please leave a
+- [03:55:25] But if any of you do, please leave a comment on how you like my accent. Okay,
+- [03:55:28] comment on how you like my accent. Okay,
+- [03:55:28] comment on how you like my accent. Okay, my brother has updated it. So, it used I
+- [03:55:33] my brother has updated it. So, it used I
+- [03:55:33] my brother has updated it. So, it used I guess some carousel intake skill that
+- [03:55:37] guess some carousel intake skill that
+- [03:55:37] guess some carousel intake skill that we've created here. If you go here now,
+- [03:55:39] we've created here. If you go here now,
+- [03:55:39] we've created here. If you go here now, it's got a bunch of Evston events. So,
+- [03:55:42] it's got a bunch of Evston events. So,
+- [03:55:42] it's got a bunch of Evston events. So, Evston digits downtown Evston Farmers
+- [03:55:46] Evston digits downtown Evston Farmers
+- [03:55:46] Evston digits downtown Evston Farmers Market. The images don't line up though.
+- [03:55:49] Market. The images don't line up though.
+- [03:55:49] Market. The images don't line up though. For the ones for which you can find
+- [03:55:50] For the ones for which you can find
+- [03:55:50] For the ones for which you can find images, can you get those to line up as
+- [03:55:53] images, can you get those to line up as
+- [03:55:53] images, can you get those to line up as well? The images don't look the same.
+- [03:55:55] well? The images don't look the same.
+- [03:55:55] well? The images don't look the same. Why is it doing it in Spanish? It's
+- [03:55:57] Why is it doing it in Spanish? It's
+- [03:55:57] Why is it doing it in Spanish? It's totally bizarre. Apologies to all the
+- [03:56:00] totally bizarre. Apologies to all the
+- [03:56:00] totally bizarre. Apologies to all the non-speakers.
+- [03:56:01] non-speakers.
+- [03:56:02] non-speakers. Oh, yeah. Also for the ones for which
+- [03:56:04] Oh, yeah. Also for the ones for which
+- [03:56:04] Oh, yeah. Also for the ones for which you don't find um like good images, you
+- [03:56:09] you don't find um like good images, you
+- [03:56:09] you don't find um like good images, you can use image genen to generate some
+- [03:56:11] can use image genen to generate some
+- [03:56:11] can use image genen to generate some images. All right. Somehow it changed
+- [03:56:13] images. All right. Somehow it changed
+- [03:56:13] images. All right. Somehow it changed languages again. Mucho loento paral
+- [03:56:17] languages again. Mucho loento paral
+- [03:56:17] languages again. Mucho loento paral anglo parantes very sorry for the
+- [03:56:20] anglo parantes very sorry for the
+- [03:56:20] anglo parantes very sorry for the English speakers.
+- [03:56:28] I love speaking Spanish with a very
+- [03:56:28] I love speaking Spanish with a very strong gringo accent but doing it
+- [03:56:31] strong gringo accent but doing it
+- [03:56:31] strong gringo accent but doing it perfectly grammatically well. It's kind
+- [03:56:34] perfectly grammatically well. It's kind
+- [03:56:34] perfectly grammatically well. It's kind of like um I don't know just like
+- [03:56:37] of like um I don't know just like
+- [03:56:37] of like um I don't know just like flipping out an Indian accent every now
+- [03:56:39] flipping out an Indian accent every now
+- [03:56:39] flipping out an Indian accent every now and then. Russian accent. I think more
+- [03:56:42] and then. Russian accent. I think more
+- [03:56:42] and then. Russian accent. I think more economists should learn accents. that
+- [03:56:45] economists should learn accents. that
+- [03:56:45] economists should learn accents. that would have kept me awake in more
+- [03:56:47] would have kept me awake in more
+- [03:56:47] would have kept me awake in more macroeconomics classes if uh some of my
+- [03:56:50] macroeconomics classes if uh some of my
+- [03:56:50] macroeconomics classes if uh some of my professors just, you know, put on their,
+- [03:56:53] professors just, you know, put on their,
+- [03:56:53] professors just, you know, put on their, you know, strong strong Colombian
+- [03:56:55] you know, strong strong Colombian
+- [03:56:55] you know, strong strong Colombian accent. Actually, let's just see. Can
+- [03:56:58] accent. Actually, let's just see. Can
+- [03:56:58] accent. Actually, let's just see. Can you talk to me in Russian only until I
+- [03:57:03] you talk to me in Russian only until I
+- [03:57:03] you talk to me in Russian only until I say otherwise?
+- [03:57:08] I'm really just uh trying to get this
+- [03:57:08] I'm really just uh trying to get this thing done right now, aren't I?
+- [03:57:12] thing done right now, aren't I?
+- [03:57:12] thing done right now, aren't I? All
+- [03:57:20] right, let's keep going. What do you
+- [03:57:20] right, let's keep going. What do you say, Alexi? Are you watching this far
+- [03:57:23] say, Alexi? Are you watching this far
+- [03:57:23] say, Alexi? Are you watching this far into the video? Damn, that's pretty
+- [03:57:25] into the video? Damn, that's pretty
+- [03:57:25] into the video? Damn, that's pretty cool. Going to speak Russian in Codeex,
+- [03:57:27] cool. Going to speak Russian in Codeex,
+- [03:57:28] cool. Going to speak Russian in Codeex, too. I thought about using Codeex as a
+- [03:57:30] too. I thought about using Codeex as a
+- [03:57:30] too. I thought about using Codeex as a language learning tutor. Actually, that
+- [03:57:32] language learning tutor. Actually, that
+- [03:57:32] language learning tutor. Actually, that could be a fun way to do things is just
+- [03:57:36] could be a fun way to do things is just
+- [03:57:36] could be a fun way to do things is just have it, you know, speak to me in
+- [03:57:38] have it, you know, speak to me in
+- [03:57:38] have it, you know, speak to me in Russian all the time. Wow, that would be
+- [03:57:40] Russian all the time. Wow, that would be
+- [03:57:40] Russian all the time. Wow, that would be that is a very interesting idea. And you
+- [03:57:44] that is a very interesting idea. And you
+- [03:57:44] that is a very interesting idea. And you could even have it like use an 11 Labs
+- [03:57:48] could even have it like use an 11 Labs
+- [03:57:48] could even have it like use an 11 Labs voice so that you can listen to it. Huh.
+- [03:57:51] voice so that you can listen to it. Huh.
+- [03:57:51] voice so that you can listen to it. Huh. There is something here. That would be
+- [03:57:54] There is something here. That would be
+- [03:57:54] There is something here. That would be an interesting form of multitasking. I
+- [03:57:57] an interesting form of multitasking. I
+- [03:57:57] an interesting form of multitasking. I may actually do that cuz I speak Spanish
+- [03:57:59] may actually do that cuz I speak Spanish
+- [03:57:59] may actually do that cuz I speak Spanish pretty well. I want to improve my
+- [03:58:02] pretty well. I want to improve my
+- [03:58:02] pretty well. I want to improve my Russian. I want to improve my
+- [03:58:04] Russian. I want to improve my
+- [03:58:04] Russian. I want to improve my Portuguese. Those are kind of highest on
+- [03:58:06] Portuguese. Those are kind of highest on
+- [03:58:06] Portuguese. Those are kind of highest on my list.
+- [03:58:16] maiden
+- [03:58:16] maiden art center farmers market black
+- [03:58:19] art center farmers market black
+- [03:58:19] art center farmers market black experience injustice pilgrim.
+- [03:58:22] experience injustice pilgrim.
+- [03:58:22] experience injustice pilgrim. All right, this is actually pretty good.
+- [03:58:23] All right, this is actually pretty good.
+- [03:58:23] All right, this is actually pretty good. So what it says here in Russian is
+- [03:58:34] generate
+- [03:58:34] generate some images through image gen. And so
+- [03:58:38] some images through image gen. And so
+- [03:58:38] some images through image gen. And so it's like actually making the correct
+- [03:58:40] it's like actually making the correct
+- [03:58:40] it's like actually making the correct images, I guess, to match like what
+- [03:58:44] images, I guess, to match like what
+- [03:58:44] images, I guess, to match like what should be going in these carousel
+- [03:58:47] should be going in these carousel
+- [03:58:47] should be going in these carousel things. So just going to let it do its
+- [03:58:49] things. So just going to let it do its
+- [03:58:49] things. So just going to let it do its thing. No idea how long this is going to
+- [03:58:51] thing. No idea how long this is going to
+- [03:58:51] thing. No idea how long this is going to take, but you know, we don't use our
+- [03:58:53] take, but you know, we don't use our
+- [03:58:53] take, but you know, we don't use our brains here cuz my brains used on more
+- [03:58:56] brains here cuz my brains used on more
+- [03:58:56] brains here cuz my brains used on more important things like uh reading
+- [03:58:59] important things like uh reading
+- [03:58:59] important things like uh reading Twitter. You know, that's what I got to
+- [03:59:00] Twitter. You know, that's what I got to
+- [03:59:00] Twitter. You know, that's what I got to use my brain for. All right, so it
+- [03:59:03] use my brain for. All right, so it
+- [03:59:03] use my brain for. All right, so it finished. We come in here. We see that
+- [03:59:05] finished. We come in here. We see that
+- [03:59:05] finished. We come in here. We see that image generated
+- [03:59:07] image generated
+- [03:59:07] image generated a bunch of images. Kind of tested it
+- [03:59:10] a bunch of images. Kind of tested it
+- [03:59:10] a bunch of images. Kind of tested it out. Didn't get all of them. It was
+- [03:59:11] out. Didn't get all of them. It was
+- [03:59:11] out. Didn't get all of them. It was taking forever and I am ready to eat
+- [03:59:15] taking forever and I am ready to eat
+- [03:59:15] taking forever and I am ready to eat dinner. So, decided to shut it off. But
+- [03:59:17] dinner. So, decided to shut it off. But
+- [03:59:17] dinner. So, decided to shut it off. But if we take a look here, we see we've
+- [03:59:20] if we take a look here, we see we've
+- [03:59:20] if we take a look here, we see we've got, you know, this right here. I can do
+- [03:59:23] got, you know, this right here. I can do
+- [03:59:23] got, you know, this right here. I can do this to export PNGs, I guess. And if I
+- [03:59:27] this to export PNGs, I guess. And if I
+- [03:59:27] this to export PNGs, I guess. And if I am lucky, so which one is this? Event
+- [03:59:29] am lucky, so which one is this? Event
+- [03:59:29] am lucky, so which one is this? Event two. Let's take a look at that. Downtown
+- [03:59:31] two. Let's take a look at that. Downtown
+- [03:59:32] two. Let's take a look at that. Downtown Evston's farmers market. I dig it. So,
+- [03:59:35] Evston's farmers market. I dig it. So,
+- [03:59:35] Evston's farmers market. I dig it. So, it's a little bit annoying that I have
+- [03:59:36] it's a little bit annoying that I have
+- [03:59:36] it's a little bit annoying that I have to like click this button again to get
+- [03:59:39] to like click this button again to get
+- [03:59:39] to like click this button again to get it to work, but let's open it in a new
+- [03:59:43] it to work, but let's open it in a new
+- [03:59:43] it to work, but let's open it in a new tab like that. Well, that's cool. Friday
+- [03:59:46] tab like that. Well, that's cool. Friday
+- [03:59:46] tab like that. Well, that's cool. Friday nights at the Dearborn Observatory. That
+- [03:59:48] nights at the Dearborn Observatory. That
+- [03:59:48] nights at the Dearborn Observatory. That looks like an event that I would like to
+- [03:59:50] looks like an event that I would like to
+- [03:59:50] looks like an event that I would like to attend. Wouldn't you like to attend?
+- [03:59:53] attend. Wouldn't you like to attend?
+- [03:59:53] attend. Wouldn't you like to attend? We're going to go 900 p.m. to 11:00 p.m.
+- [03:59:55] We're going to go 900 p.m. to 11:00 p.m.
+- [03:59:55] We're going to go 900 p.m. to 11:00 p.m. May 1st. Be there or be square. All
+- [03:59:58] May 1st. Be there or be square. All
+- [03:59:58] May 1st. Be there or be square. All right, guys. That was the course we took
+- [04:00:01] right, guys. That was the course we took
+- [04:00:01] right, guys. That was the course we took you from never having done anything in
+- [04:00:05] you from never having done anything in
+- [04:00:05] you from never having done anything in codeex before in your life. You were
+- [04:00:08] codeex before in your life. You were
+- [04:00:08] codeex before in your life. You were just, you know, working with chat GPT
+- [04:00:11] just, you know, working with chat GPT
+- [04:00:11] just, you know, working with chat GPT and now you know how to build out
+- [04:00:14] and now you know how to build out
+- [04:00:14] and now you know how to build out full-blown web apps with a product
+- [04:00:17] full-blown web apps with a product
+- [04:00:17] full-blown web apps with a product builder mindset, whether for your own
+- [04:00:19] builder mindset, whether for your own
+- [04:00:20] builder mindset, whether for your own projects, for client work. You can just
+- [04:00:23] projects, for client work. You can just
+- [04:00:24] projects, for client work. You can just go on Upwork right now with what I've
+- [04:00:26] go on Upwork right now with what I've
+- [04:00:26] go on Upwork right now with what I've taught you here and you have the ability
+- [04:00:29] taught you here and you have the ability
+- [04:00:29] taught you here and you have the ability to generate, you know, a four figure a
+- [04:00:32] to generate, you know, a four figure a
+- [04:00:32] to generate, you know, a four figure a month side hustle just off this course.
+- [04:00:34] month side hustle just off this course.
+- [04:00:34] month side hustle just off this course. Now, if you want to get continued advice
+- [04:00:37] Now, if you want to get continued advice
+- [04:00:37] Now, if you want to get continued advice from me on different things that you're
+- [04:00:40] from me on different things that you're
+- [04:00:40] from me on different things that you're learning in the AI space, whether codec
+- [04:00:43] learning in the AI space, whether codec
+- [04:00:43] learning in the AI space, whether codec or otherwise, come in here and join the
+- [04:00:46] or otherwise, come in here and join the
+- [04:00:46] or otherwise, come in here and join the AI MBA. So, we got people in here all
+- [04:00:48] AI MBA. So, we got people in here all
+- [04:00:48] AI MBA. So, we got people in here all the time learning all sorts of different
+- [04:00:50] the time learning all sorts of different
+- [04:00:50] the time learning all sorts of different things. This guy was frustrated with
+- [04:00:52] things. This guy was frustrated with
+- [04:00:52] things. This guy was frustrated with Codeex. I was trying to help him out.
+- [04:00:54] Codeex. I was trying to help him out.
+- [04:00:54] Codeex. I was trying to help him out. This guy is seeing some potential
+- [04:00:56] This guy is seeing some potential
+- [04:00:56] This guy is seeing some potential problems with Claude and so I was
+- [04:00:57] problems with Claude and so I was
+- [04:00:57] problems with Claude and so I was helping him out with that. Nick is
+- [04:00:59] helping him out with that. Nick is
+- [04:00:59] helping him out with that. Nick is building an internal operating system
+- [04:01:01] building an internal operating system
+- [04:01:01] building an internal operating system for his local newsletter and I gave him
+- [04:01:03] for his local newsletter and I gave him
+- [04:01:03] for his local newsletter and I gave him my advice on what that infrastructure
+- [04:01:06] my advice on what that infrastructure
+- [04:01:06] my advice on what that infrastructure should look like. So if you guys want to
+- [04:01:08] should look like. So if you guys want to
+- [04:01:08] should look like. So if you guys want to keep up with the cutting edge on AI, you
+- [04:01:10] keep up with the cutting edge on AI, you
+- [04:01:10] keep up with the cutting edge on AI, you can check out the free group.
+- [04:01:12] can check out the free group.
+- [04:01:12] can check out the free group. Additionally, if you want to get on
+- [04:01:13] Additionally, if you want to get on
+- [04:01:13] Additionally, if you want to get on weekly calls with me, you can join the
+- [04:01:16] weekly calls with me, you can join the
+- [04:01:16] weekly calls with me, you can join the AI MBA Pro where we meet as a group,
+- [04:01:19] AI MBA Pro where we meet as a group,
+- [04:01:20] AI MBA Pro where we meet as a group, keep up with our particular goals, and
+- [04:01:21] keep up with our particular goals, and
+- [04:01:21] keep up with our particular goals, and all push each other to get better with
+- [04:01:24] all push each other to get better with
+- [04:01:24] all push each other to get better with AI in whatever respect that may be. And
+- [04:01:27] AI in whatever respect that may be. And
+- [04:01:27] AI in whatever respect that may be. And if you join the AI MBA Pro, I have some
+- [04:01:30] if you join the AI MBA Pro, I have some
+- [04:01:30] if you join the AI MBA Pro, I have some special tutorials. So, I have here, for
+- [04:01:32] special tutorials. So, I have here, for
+- [04:01:32] special tutorials. So, I have here, for example, an update to my clawed code
+- [04:01:35] example, an update to my clawed code
+- [04:01:35] example, an update to my clawed code course with the things that I recommend
+- [04:01:37] course with the things that I recommend
+- [04:01:38] course with the things that I recommend now. And the group calls are all here.
+- [04:01:41] now. And the group calls are all here.
+- [04:01:41] now. And the group calls are all here. And all these transcripts of the calls
+- [04:01:44] And all these transcripts of the calls
+- [04:01:44] And all these transcripts of the calls you can access via an MCP server that
+- [04:01:47] you can access via an MCP server that
+- [04:01:47] you can access via an MCP server that I've set up. Finally, I know a lot of
+- [04:01:49] I've set up. Finally, I know a lot of
+- [04:01:49] I've set up. Finally, I know a lot of you who are following me are economists.
+- [04:01:51] you who are following me are economists.
+- [04:01:51] you who are following me are economists. So I also do economic specific workshops
+- [04:01:54] So I also do economic specific workshops
+- [04:01:54] So I also do economic specific workshops on how to use agentic coding tools like
+- [04:01:57] on how to use agentic coding tools like
+- [04:01:57] on how to use agentic coding tools like codeex or claude code for research
+- [04:02:00] codeex or claude code for research
+- [04:02:00] codeex or claude code for research purposes. So if that's something that
+- [04:02:02] purposes. So if that's something that
+- [04:02:02] purposes. So if that's something that interests you, send me an email at
+- [04:02:04] interests you, send me an email at
+- [04:02:04] interests you, send me an email at uni@contentquant.io
+- [04:02:07] uni@contentquant.io
+- [04:02:07] uni@contentquant.io or unicate-ba.io
+- [04:02:10] or unicate-ba.io
+- [04:02:10] or unicate-ba.io io and I'll be sure to get back to you.
+- [04:02:12] io and I'll be sure to get back to you.
+- [04:02:12] io and I'll be sure to get back to you. That's it for today.

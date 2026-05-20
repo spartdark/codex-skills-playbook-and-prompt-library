@@ -1,0 +1,37 @@
+{
+  "source_type": "web",
+  "captured_date": "2026-05-20",
+  "topic": "OpenAI Codex official usage guidance",
+  "sources": [
+    {
+      "title": "Codex | AI Coding Partner from OpenAI",
+      "url": "https://openai.com/codex/",
+      "publisher": "OpenAI",
+      "confidence": "verified"
+    },
+    {
+      "title": "Codex cloud",
+      "url": "https://platform.openai.com/docs/codex",
+      "publisher": "OpenAI Platform docs",
+      "confidence": "verified"
+    },
+    {
+      "title": "Using Codex with your ChatGPT plan",
+      "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+      "publisher": "OpenAI Help Center",
+      "confidence": "verified"
+    },
+    {
+      "title": "OpenAI Codex CLI - Getting Started",
+      "url": "https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started",
+      "publisher": "OpenAI Help Center",
+      "confidence": "verified"
+    }
+  ],
+  "notes": [
+    "Codex is positioned as a coding agent that can read, modify, and run code.",
+    "Codex can be used locally through CLI, IDE, or app, and delegated to cloud tasks.",
+    "Cloud tasks run in isolated environments and can work in parallel.",
+    "Effective usage depends on clear tasks, configured environments, tests, and review."
+  ]
+}

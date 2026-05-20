@@ -1,0 +1,291 @@
+---
+source_type: youtube_transcript
+source_url: https://www.youtube.com/watch?v=2mq8-y-GV28
+video_id: 2mq8-y-GV28
+source_title: "Build Better Apps With AI Using This NEW Method (Spec-Driven Development)"
+channel: "Jordan Urbs"
+language: en
+is_auto_generated: false
+extraction_strategy: yt-dlp
+retrieved_at: 2026-05-19T19:51:05Z
+raw_evidence: knowledge/raw/youtube/codex-ai-project-management/transcript-2mq8-y-GV28.json
+confidence: verified source capture; caption accuracy not independently verified
+---
+
+# Build Better Apps With AI Using This NEW Method (Spec-Driven Development)
+
+## Transcript
+
+- [00:00] This is, I think, important because it's really the first time that we've started to see the broader-based community getting aligned on,
+- [00:08] okay, how do we introduce the guardrails? How do we actually condition this flow of work so that we're getting results out of the end of it?
+- [00:19] Welcome back to Vibe Coding Weekly.
+- [00:24] Was Vibe Coding all a hype? Did Greg Eisenberg manufacture this whole niche industry?
+- [00:29] just for a few clicks and views on his podcast.
+- [00:32] I don't know.
+- [00:33] But I do know that vibe coding leads to dead ends
+- [00:36] more often than not when you are a non-coder.
+- [00:39] And if you are a coder,
+- [00:40] vibe coding may feel like a waste of time
+- [00:42] because you have no idea how to even build a business.
+- [00:45] Perhaps you're like me and you've vibe coded directories,
+- [00:49] basic, basic SaaS apps, websites, things like that.
+- [00:52] But when you try to actually build something more complex,
+- [00:55] you go down the yellow brick road
+- [00:56] and you enter into the feedback loop of death.
+- [00:59] where does it lead?
+- [01:02] And it really sucks because you'd made a great PRD,
+- [01:05] you had a great plan with Opus,
+- [01:08] or Clock Code, for example,
+- [01:09] and you spent hours and hours and hours doing it
+- [01:12] only to start going in circles and realize,
+- [01:14] oh, this isn't going to get me anywhere.
+- [01:16] I have had this happen to me at least five times now.
+- [01:18] I was a vibe-coding cowboy, cocksure, arrogant,
+- [01:22] perhaps overly confident,
+- [01:23] and I just went ahead and tried to build all these apps
+- [01:26] that did not amount to anything,
+- [01:27] and they're just sitting there.
+- [01:28] couldn't even make a YouTube video about them because I couldn't get them to work.
+- [01:33] So directories and websites are one thing, but if you want to build more complex applications,
+- [01:39] you're going to need to really get a handle on your Vibe Coding agent. So today in this video,
+- [01:44] I want to introduce you to OpenSpec or GitHub's SpecKit. Kenneth Gonzalez, my friend Ken Gon,
+- [01:50] joins me to talk about this whole new thing developing in the Vibe Coding space because
+- [01:54] everything is moving so fast. And if you do want to build applications, this is important to follow
+- [01:59] and understand because even as a non-coder one day, yes, you will be able to build applications
+- [02:03] much easier than you can today if you were like me and you bought into the hype, which is totally
+- [02:07] fine. I don't judge you. Why would I? So before we begin, why should you listen to me or Ken? Well,
+- [02:13] this is Kenneth Gonzalez. He was a former analyst at Gartner. He's got 40 years in enterprise tech
+- [02:18] and he's a consultant, a lead advisor for executives in the industry. So he's got a good
+- [02:22] grasp on how business works in the industry. And he's also really fascinated by what's happening
+- [02:26] with agentic AI. As for me, I vibe coded my first project. It was a directory for Montessori schools
+- [02:31] in the United States. I've vibe coded a whole bunch of different projects. Some of them worked
+- [02:38] and some of them never saw the light of day. Even though I got really far in the development
+- [02:41] process, I spend a lot of time using different workflows with AI agents to make my life easier
+- [02:47] as a YouTuber, as a solopreneur, and as a content creator. This call took place in the AI Captain
+- [02:53] School in our weekly coffee hour workshop. If you want to join us, you're always welcome. You
+- [02:58] get a seven day free trial to see if it's for you. So let's get started. I started vibe coding
+- [03:05] because I was interested in building AI agents and I was interested in building directories,
+- [03:10] right? And that's what got my YouTube channel started. I vibe coded a directory and it worked,
+- [03:14] right? And I got lucky, right? Because a directory is easy enough. It all worked out fine. I didn't
+- [03:18] even use a database, but I got the vibe coding. I vibe coded something. I was encouraged to keep
+- [03:23] vibe coding. And long story short, as my projects got more complex, I ended up hitting more and more
+- [03:31] brick walls and I couldn't build what I wanted to. Even simple things, simple functionality where I
+- [03:38] just needed the user to log in, pay, and if they paid, they can access this. I couldn't even get
+- [03:43] that done in some of my most basic projects. I could in some projects, I couldn't in others.
+- [03:48] And I'm just a vibe coding cowboy, not an actual developer. So I couldn't really figure that out.
+- [03:52] So I have many projects just sitting on the shelf. So now I feel inspired by the open spec and the
+- [03:57] GitHub spec kit that you've been sharing in the AI captain school. And I'm like, okay, is there
+- [04:01] something here where someone like me, where it's really going to be worth trying to build apps?
+- [04:06] Or do I need to just surrender my own ego to like, no, you're going to have to hire developers to
+- [04:11] build apps. You can keep on building directories or whatever, but if you want to get more complicated,
+- [04:14] Jordan, you're going to need a team of people that actually know what they're doing. But you're
+- [04:18] someone, Ken, that's hard, that's deep in the space of professionals, enterprise people that
+- [04:24] really want to figure this whole thing out. Can vibe coding work for real development? So talk to me.
+- [04:30] Okay. There's spectrum that we're talking about here, right? So where you started off and where
+- [04:34] a lot of people are starting off is around the thrill of being able to vibe code, where we have
+- [04:39] an AI coding partner, and that partner is able to actually take something that we say, so we can
+- [04:45] utter in the form of a prompt, hey, build this thing that has these specific capabilities around it,
+- [04:50] and it'll go do that. It'll actually take your tech stack and make it real, give you something
+- [04:54] that you can actually go through, compile, deploy, and boom, it's now available on the web.
+- [05:00] Now, that comes with a certain amount of responsibility that goes along with it, right?
+- [05:05] Because sometimes you're going to add additional functionality, sometimes stuff's going to break,
+- [05:09] and you need to go fix it, and there's security concerns,
+- [05:11] and there's all this stuff that from somebody that's just doing basic by-coding,
+- [05:16] they're not going to think through all of those things.
+- [05:19] On the other end of the spectrum, we have professional developers
+- [05:21] who've been schooled in programming languages and all this other stuff
+- [05:25] and have lots of technical background that have spent many years
+- [05:29] perfecting their craft and building this stuff in really austere conditions
+- [05:34] where it's like, oh, great, we got process, we got tools,
+- [05:37] We got lots of stuff we can bring to bear, but ultimately it ends up being slow, costly, but it actually works and it's fairly bulletproof.
+- [05:48] So between those two extremes lies the potential where we're actually talking about being able to now do what we'll refer to as intentionally driven development.
+- [06:02] So we have an intention that we're bringing to it.
+- [06:05] Now, we want to kind of up the level of rigor without introducing rigor mortis.
+- [06:09] We want to be able to do better things, produce better outcomes, and have them actually be
+- [06:16] higher quality without actually having it go all the way to the other extreme.
+- [06:22] So, the first piece that we did in the micro workshop on requirements is an important piece
+- [06:28] because it starts us at being able to have a marketing conversation, driving all the way down
+- [06:33] to where we actually end up talking about individual feature sets or capabilities that
+- [06:37] we want to be able to build. And that has three parts in addition to where you kind of started off
+- [06:44] with your work, which is the PRD. So you build out a PRD, but we're now filling in the gaps to
+- [06:50] introduce that additional level of rigor that gets us there. Now there's additional work that's being
+- [06:56] done around really specification-driven development. Okay. So there's been a conversation started
+- [07:02] recently. It's about enhancing agentic AI to actually develop things that work. Now, if you're
+- [07:07] a vibe coding cowboy like me, you don't know how to code, but you're getting good enough results
+- [07:13] to decide to invest your energy and time into using AI to build your products. But in the realm
+- [07:18] of vibe coding, coders and non-coders meet in the problem of having an actionable task list,
+- [07:24] plan of attack for development that actually works so the AI doesn't get lost. So no matter who you
+- [07:30] are. As this image shows, vibe coding is unlikely to deliver production-grade software, no matter
+- [07:35] who you are. Enter spec-driven development. And this is really just about good organization and
+- [07:42] planning your specifications before developing. But ultimately, what we want to introduce here is
+- [07:47] that if we can add a missing layer, if you will, a missing tool to our agentic coders, could we
+- [07:53] actually get more predictable outcomes? Now, this is spec kit. Another one is open spec here, which
+- [07:58] is the one I've been playing around with. And basically these are CLI tools that you can attach
+- [08:03] to Codex or Cloud Code or Gemini CLI, whatever you're using. And you basically use it to submit
+- [08:09] a proposal to change something, review and align together with your AI assistant, implement the
+- [08:15] tasks, which means AI writing the code, and then making sure the original documentation is updated
+- [08:21] with these changes. So in the future, the AI knows what's going on. Now, in many videos I've shared
+- [08:27] the Vibe Coding System Rule to have a multi-agent system coordinator with two roles,
+- [08:31] planner and executor. And essentially what this system prompt does is create a scratchpad file
+- [08:36] which updates everything going on in your project. So in planning mode, it's saying,
+- [08:41] hey, here's what we're going to do. In an executor mode, it adds to the file, hey,
+- [08:43] this is what we did. You can get a copy of that prompt at the Terminal Navigation Toolkit.
+- [08:47] There's a link below. It's free. There's also a lot of other prompts, sub-agents,
+- [08:52] resources, and even some NAN workflows on there for you to get started in your AI workflow and
+- [08:58] automation journey. But back to vibe coding versus spec-driven development, this is where things are
+- [09:03] headed. Kiro is one of these release and tools that is supposed to be able to help you plan well,
+- [09:09] create requirements, and design before the coding begins. As I mentioned, OpenSpec and SpecKit
+- [09:14] could be tools you attach to what you're currently using. There's also the TESOL framework, another
+- [09:18] CLI tool, but the questions continue. Now I'm not a professional here, but I do think this is
+- [09:24] important to follow along. So in this video, I just want to introduce you to the whole conversation.
+- [09:28] And Ken and I are going to speak a little about it now. Hey, by the way, if you're into AI and
+- [09:32] you're either new to coding or new to building businesses, then you're the type of person I'm
+- [09:36] creating my educational AI content for. So if you're trying to learn, if you're building a
+- [09:41] business, if you're vibe coding tools, hit that subscribe button so you can stay up to date with
+- [09:45] latest and greatest of what's happening with AI so you can be in control of your destiny.
+- [09:50] No, I'm just kidding. Just in control of your business. All right, let's keep going.
+- [09:55] This is, I think, important because it's really the first time that we've started to see
+- [09:59] the broader-based community getting aligned on, okay, how do we introduce the guardrails? How
+- [10:06] do we actually condition this flow of work so that we're getting results out of the end of it?
+- [10:11] And if you couple the work that we've started with the requirements management
+- [10:14] and have that funnel into the requirements-driven development,
+- [10:18] that's a really great thing.
+- [10:19] Because now we have a powerful one-two punch
+- [10:21] that not only captures the mechanical aspects of how we build code,
+- [10:25] but it also handles the front end for making sure we have good inputs
+- [10:29] so that when we say we have a specification,
+- [10:32] we now have something that we can really take to the bank
+- [10:34] and say that, yeah, this is really good.
+- [10:36] It's reasonably complete so that as we produce those outcomes,
+- [10:40] we're now being able to say that this is better than what we started off with,
+- [10:44] which was the randomness of just any old prompt going into the tool.
+- [10:48] Now, that's not to say that this is 100% complete.
+- [10:52] This is an evolving conversation, and it's going to get even better
+- [10:54] because when you start looking at the fact that we might need to produce subsystems
+- [10:59] or other different component parts that we might want to use as part of our build process
+- [11:03] for building more substantial applications,
+- [11:06] we're not at the point yet where we've been effectively doing that.
+- [11:10] But this is directionally where we're going,
+- [11:12] And that's kind of the conversation that we're starting to lead.
+- [11:15] So I'm really actually excited about what we're doing here, because I think it has a lot of
+- [11:21] potential for being able to lift all the boats as the phrase goes.
+- [11:26] Yeah, I think that's well put.
+- [11:27] And I'm just going to put on screen real quick.
+- [11:29] This is what Ken posted in the AI Captain School just recently.
+- [11:32] And it really got me thinking.
+- [11:33] And it actually got me re-inspired to be Vibe Coding again.
+- [11:36] And these are these tools, OpenSpec and GitHubSpec.
+- [11:39] But these are basically plugins for Cloud Code, Codex, whatever.
+- [11:43] You install them via the command line.
+- [11:46] It'll actually create, in fact, I'll show everyone right now because I was using it last night.
+- [11:51] And I'm sorry, Ken, you can't see my screen.
+- [11:53] But I've got my terminal window open here in this project, which is an AI parenting coach,
+- [11:59] which is what I got stuck on a few weeks ago, trying to just make a Next.js app of this very basic chatbot.
+- [12:07] But it wasn't connecting to the API of 11 labs.
+- [12:11] So the first thing you need to do is install it.
+- [12:13] Then you need to establish the project principles.
+- [12:16] And then spec kit as a command becomes available inside your AI agent.
+- [12:21] Then you create a spec, which in this example,
+- [12:23] build an application that can help me organize my photos and separate photo albums.
+- [12:27] Then you use the forward slash spec kit dot plan command
+- [12:32] to provide your tech stack and architecture choices.
+- [12:35] Then you use the forward slash spec kit dot tasks command to actually create an actionable task list from your implementation plan.
+- [12:43] So if I open up Claude here and I'm running forward slash open spec and you can see here I've got forward slash open spec colon proposal, apply or archive.
+- [12:54] So if I choose proposal, scaffold a new open spec change and validate strictly within the project.
+- [13:01] Apply, implement an approved OpenSpec change and keep tasks in sync and archive.
+- [13:06] Archive, I deployed OpenSpec change and update the specs.
+- [13:09] So if I run OpenSpec proposal, it took a look at the state of the project.
+- [13:14] So it looked at my actionable task list.
+- [13:17] And technically, I guess that's supposed to be an implementation plan.
+- [13:19] Now I'm still figuring this out.
+- [13:21] But it took a look in there and it saw that we need to fix the voice integration,
+- [13:25] which is what I was working on yesterday.
+- [13:27] That was my first foray into using specs.
+- [13:31] And it's looking at the current state of the project.
+- [13:33] It's got no tasks in here.
+- [13:36] Current specs and undefined yet.
+- [13:38] Now, this, I'm going to leave it here because there should be specs here.
+- [13:42] Because I was doing this all afternoon yesterday.
+- [13:45] So to the point of figuring out how to make all this work,
+- [13:49] Cloud Code basically hijacked this conversation yesterday.
+- [13:53] And if I resume it, if I show what was going on,
+- [13:58] Oh, and I'm actually unable to actually to scroll through the conversation with CloudCode.
+- [14:03] But I was using OpenSpec to just fix it.
+- [14:07] I said, I want to refactor the whole code because it's not working the way it should.
+- [14:11] And I don't want to start over because the interface is nice and there's already the PRD in here and everything we need.
+- [14:16] So just fix it, you know, figure out how to fix it.
+- [14:19] And instead of going through the OpenSpec, the specifications, what do you call that framework?
+- [14:24] The thing that we're seeing with the use of specification driven development is that this is embodying whether it's either a waterfall or an iterative development model,
+- [14:32] where we're actually taking component parts from that and saying, hey, we're now going to go through some planning.
+- [14:38] We're going to do some building.
+- [14:39] We're going to do some testing.
+- [14:42] It's a really, I think, a good way of being able to introduce agentic principles so that your AI agents, your partner, is actually going through and doing some of the tasks that you would normally rely on other development team members to do, or your operations team in terms of being able to deploy that code into the production environment.
+- [15:02] But now we're actually using our AI tools as a way of being able to scale and take advantage of the fact that we may not necessarily have all of the skills necessary in order to do these things.
+- [15:13] But we're still enforcing some level of rigor to help us understand what needs to get done so that we're building a better outcome and building a better final product that we'll ultimately end up using.
+- [15:26] The specs thing, when did the specs come on the scene, like these specs tools?
+- [15:31] Well, for the most part, the specs tools have been coming online over the course of the past six weeks or so.
+- [15:36] Six weeks.
+- [15:37] And now we're towards the end of October in 2025.
+- [15:41] So it isn't like this is, oh, we've been building it the entire year.
+- [15:45] I mean, some people have been doing earlier things because there's a number of different projects that are going on with regards to the specification driven development.
+- [15:53] Some have been longer than others.
+- [15:55] What happened for me, and I think this is representative of where this technology, I dare say technology, where this whole thing is at right now, is I created a task to fix all this with this OpenSpec tool.
+- [16:12] And instead of Claude going along with it, Claude code just took over.
+- [16:17] Claude code straight up took over debugging it and just ignored the whole point of the specs list.
+- [16:24] It wasn't using it.
+- [16:26] And nothing got updated.
+- [16:27] And I just showed when I opened the open spec task list, there's nothing there.
+- [16:35] So if I choose apply to apply something here, I just got to come back to the conversation.
+- [16:41] Anyway, I feel like this is something that, like you said, the market hasn't caught up with.
+- [16:45] when Claude, OpenAI, Gemini, whatever, when they start implementing something like this
+- [16:52] into their coding agents, then I think we'll see the real progress. Because I remember when,
+- [16:59] like even with the planner mode and executor mode for cursor that, you know, five months ago,
+- [17:07] I was figuring out and putting on YouTube and that was kind of revolutionary. Like, hey, I mean,
+- [17:11] I found that from someone on Twitter, right? But like, that was even a big deal. Like, cool,
+- [17:16] keep a scratch pad of what's going on. So your AI partner knows what's going on.
+- [17:20] And then soon CloudCode came about with a CloudMD file, which is more or less the same thing if you
+- [17:26] put in the right prompts. And so that was supposed to be like built in to CloudCode. And in the same
+- [17:33] vein, I feel like these specs are eventually just going to be built into these agents.
+- [17:37] But then I ask myself, will they harmonize with these agents?
+- [17:44] Because these agents are so aggressive.
+- [17:46] They take so much initiative.
+- [17:48] They're so ambitious.
+- [17:49] I wonder, would they lose some of their core value proposition if the spec specifications features was built in to it?
+- [17:58] You know what I'm saying?
+- [17:59] But this is actually part of why I think that over the short term, we're going to see a number of different folks coming to the market saying,
+- [18:07] hey, we've got a way of doing this that will work.
+- [18:11] So we're collectively figuring out how to do this in a way that actually makes sense,
+- [18:16] both for Greenfield as well as for Brownfield projects.
+- [18:19] So Greenfield would be, hey, I'm starting from scratch.
+- [18:21] I have an idea.
+- [18:22] Let's go.
+- [18:23] But now for existing projects, how do we work this into existing projects in a way
+- [18:29] which prevents like what we've seen in your example, where Claude just goes nuts,
+- [18:35] for lack of a better term,
+- [18:36] and then just starts doing a whole bunch of stuff
+- [18:38] that we didn't necessarily say,
+- [18:39] hey, yeah, we really want you to go do that.
+- [18:42] And disclaimer,
+- [18:43] I could maybe just not understand this stuff yet,
+- [18:46] and maybe that's the point.
+- [18:47] Maybe it was supposed to do that
+- [18:49] now that I'm thinking about it.
+- [18:51] I'm still trying to figure out
+- [18:52] how these specs tools are supposed to actually operate.
+- [18:56] So let me know in the comments
+- [18:58] what you think about spec-driven development
+- [19:00] versus vibe coding,
+- [19:01] or do you do the two together?
+- [19:02] What is happening in this brave new world
+- [19:04] Where does all of this lead?
+- [19:06] We want to hear from you.
+- [19:06] We want to get this conversation going.
+- [19:08] Once again, the AI Captain School offers a free trial.
+- [19:10] Come join the community.
+- [19:12] We talk a lot.
+- [19:12] We try to figure this stuff out.
+- [19:13] We build together.
+- [19:14] We share.
+- [19:15] And we host calls like this, workshops where anyone can join, ask questions, throw in your
+- [19:19] two cents.
+- [19:19] Thanks for watching and I'll see you next time.

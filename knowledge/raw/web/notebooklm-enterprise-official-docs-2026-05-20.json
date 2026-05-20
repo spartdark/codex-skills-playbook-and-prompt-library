@@ -1,0 +1,53 @@
+{
+  "source_type": "web",
+  "captured_date": "2026-05-20",
+  "confidence": "verified",
+  "sources": [
+    {
+      "title": "Create and manage notebooks (API)",
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "last_updated_utc": "2026-05-18",
+      "notes": [
+        "Documents NotebookLM Enterprise notebook create, get, listRecentlyViewed, batchDelete, and share REST methods.",
+        "Uses discoveryengine.googleapis.com v1alpha endpoints with Google Cloud project number and location."
+      ]
+    },
+    {
+      "title": "Add and manage data sources in a notebook (API)",
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks-sources",
+      "last_updated_utc": "2026-05-18",
+      "notes": [
+        "Documents batch source creation for Google Drive, raw text, web content, and YouTube video sources.",
+        "Documents single file upload and supported file MIME types."
+      ]
+    },
+    {
+      "title": "Manage audio overview of your notebook (API)",
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-audio-overview",
+      "last_updated_utc": "2026-05-18",
+      "notes": [
+        "Documents create and delete methods for NotebookLM Enterprise audio overviews.",
+        "States a notebook can have only one audio overview at a time."
+      ]
+    },
+    {
+      "title": "Generate podcasts (API method)",
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/podcast-api",
+      "last_updated_utc": "2026-05-18",
+      "notes": [
+        "Documents standalone Podcast API under discoveryengine.googleapis.com v1.",
+        "States the API does not require a NotebookLM Enterprise notebook, Gemini Enterprise license, or data store, but does require an enabled Google Cloud project and Podcast API User role.",
+        "States access is GA with allowlist for select Google Cloud customers."
+      ]
+    },
+    {
+      "title": "What is NotebookLM Enterprise?",
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/overview",
+      "last_updated_utc": "2026-05-18",
+      "notes": [
+        "Describes NotebookLM Enterprise as the compliant enterprise product.",
+        "Contrasts personal NotebookLM at notebooklm.google.com with enterprise URLs on notebooklm.cloud.google.com."
+      ]
+    }
+  ]
+}

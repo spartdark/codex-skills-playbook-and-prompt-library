@@ -1,0 +1,9 @@
+{
+  "error": {
+    "code": "temporary_provider_failure",
+    "message": "Fallo temporal de red o proveedor.",
+    "details": {},
+    "retrieved_at": "2026-05-19T17:34:38Z"
+  },
+  "saved_to": "knowledge/raw/youtube/channel-reports/raw-transcripts/UCMcoud_ZW7cfxeIugBflSBw/5XZxmkjsNos.json"
+}

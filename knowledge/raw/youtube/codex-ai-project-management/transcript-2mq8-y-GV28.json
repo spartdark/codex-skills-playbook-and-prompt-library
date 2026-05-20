@@ -1,0 +1,1386 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=2mq8-y-GV28",
+  "video_id": "2mq8-y-GV28",
+  "title": "Build Better Apps With AI Using This NEW Method (Spec-Driven Development)",
+  "channel": "Jordan Urbs",
+  "language": "en",
+  "is_auto_generated": false,
+  "retrieved_at": "2026-05-19T19:51:05Z",
+  "segments": [
+    {
+      "start": 0.1,
+      "duration": 7.76,
+      "text": "This is, I think, important because it's really the first time that we've started to see the broader-based community getting aligned on,"
+    },
+    {
+      "start": 8.1,
+      "duration": 8.14,
+      "text": "okay, how do we introduce the guardrails? How do we actually condition this flow of work so that we're getting results out of the end of it?"
+    },
+    {
+      "start": 19.86,
+      "duration": 1.6,
+      "text": "Welcome back to Vibe Coding Weekly."
+    },
+    {
+      "start": 24.14,
+      "duration": 5.46,
+      "text": "Was Vibe Coding all a hype? Did Greg Eisenberg manufacture this whole niche industry?"
+    },
+    {
+      "start": 29.68,
+      "duration": 2.1,
+      "text": "just for a few clicks and views on his podcast."
+    },
+    {
+      "start": 32.38,
+      "duration": 0.48,
+      "text": "I don't know."
+    },
+    {
+      "start": 33.12,
+      "duration": 3.1,
+      "text": "But I do know that vibe coding leads to dead ends"
+    },
+    {
+      "start": 36.54,
+      "duration": 2.44,
+      "text": "more often than not when you are a non-coder."
+    },
+    {
+      "start": 39.28,
+      "duration": 1.08,
+      "text": "And if you are a coder,"
+    },
+    {
+      "start": 40.72,
+      "duration": 1.72,
+      "text": "vibe coding may feel like a waste of time"
+    },
+    {
+      "start": 42.84,
+      "duration": 2.62,
+      "text": "because you have no idea how to even build a business."
+    },
+    {
+      "start": 45.94,
+      "duration": 2.88,
+      "text": "Perhaps you're like me and you've vibe coded directories,"
+    },
+    {
+      "start": 49.0,
+      "duration": 3.24,
+      "text": "basic, basic SaaS apps, websites, things like that."
+    },
+    {
+      "start": 52.52,
+      "duration": 1.98,
+      "text": "But when you try to actually build something more complex,"
+    },
+    {
+      "start": 55.18,
+      "duration": 1.32,
+      "text": "you go down the yellow brick road"
+    },
+    {
+      "start": 56.6,
+      "duration": 2.18,
+      "text": "and you enter into the feedback loop of death."
+    },
+    {
+      "start": 59.86,
+      "duration": 0.78,
+      "text": "where does it lead?"
+    },
+    {
+      "start": 62.86,
+      "duration": 2.4,
+      "text": "And it really sucks because you'd made a great PRD,"
+    },
+    {
+      "start": 65.76,
+      "duration": 1.78,
+      "text": "you had a great plan with Opus,"
+    },
+    {
+      "start": 68.1,
+      "duration": 0.94,
+      "text": "or Clock Code, for example,"
+    },
+    {
+      "start": 69.54,
+      "duration": 2.4,
+      "text": "and you spent hours and hours and hours doing it"
+    },
+    {
+      "start": 72.22,
+      "duration": 1.68,
+      "text": "only to start going in circles and realize,"
+    },
+    {
+      "start": 74.08,
+      "duration": 1.74,
+      "text": "oh, this isn't going to get me anywhere."
+    },
+    {
+      "start": 76.4,
+      "duration": 2.02,
+      "text": "I have had this happen to me at least five times now."
+    },
+    {
+      "start": 78.7,
+      "duration": 2.76,
+      "text": "I was a vibe-coding cowboy, cocksure, arrogant,"
+    },
+    {
+      "start": 82.24,
+      "duration": 1.02,
+      "text": "perhaps overly confident,"
+    },
+    {
+      "start": 83.88,
+      "duration": 2.08,
+      "text": "and I just went ahead and tried to build all these apps"
+    },
+    {
+      "start": 86.1,
+      "duration": 1.18,
+      "text": "that did not amount to anything,"
+    },
+    {
+      "start": 87.9,
+      "duration": 0.72,
+      "text": "and they're just sitting there."
+    },
+    {
+      "start": 88.76,
+      "duration": 3.72,
+      "text": "couldn't even make a YouTube video about them because I couldn't get them to work."
+    },
+    {
+      "start": 93.22,
+      "duration": 5.24,
+      "text": "So directories and websites are one thing, but if you want to build more complex applications,"
+    },
+    {
+      "start": 99.02,
+      "duration": 4.82,
+      "text": "you're going to need to really get a handle on your Vibe Coding agent. So today in this video,"
+    },
+    {
+      "start": 104.04,
+      "duration": 6.34,
+      "text": "I want to introduce you to OpenSpec or GitHub's SpecKit. Kenneth Gonzalez, my friend Ken Gon,"
+    },
+    {
+      "start": 110.74,
+      "duration": 4.159,
+      "text": "joins me to talk about this whole new thing developing in the Vibe Coding space because"
+    },
+    {
+      "start": 114.92,
+      "duration": 4.2,
+      "text": "everything is moving so fast. And if you do want to build applications, this is important to follow"
+    },
+    {
+      "start": 119.28,
+      "duration": 3.78,
+      "text": "and understand because even as a non-coder one day, yes, you will be able to build applications"
+    },
+    {
+      "start": 123.3,
+      "duration": 4.06,
+      "text": "much easier than you can today if you were like me and you bought into the hype, which is totally"
+    },
+    {
+      "start": 127.54,
+      "duration": 5.78,
+      "text": "fine. I don't judge you. Why would I? So before we begin, why should you listen to me or Ken? Well,"
+    },
+    {
+      "start": 133.44,
+      "duration": 4.84,
+      "text": "this is Kenneth Gonzalez. He was a former analyst at Gartner. He's got 40 years in enterprise tech"
+    },
+    {
+      "start": 138.72,
+      "duration": 4.12,
+      "text": "and he's a consultant, a lead advisor for executives in the industry. So he's got a good"
+    },
+    {
+      "start": 142.86,
+      "duration": 3.84,
+      "text": "grasp on how business works in the industry. And he's also really fascinated by what's happening"
+    },
+    {
+      "start": 146.77,
+      "duration": 4.99,
+      "text": "with agentic AI. As for me, I vibe coded my first project. It was a directory for Montessori schools"
+    },
+    {
+      "start": 151.91,
+      "duration": 4.97,
+      "text": "in the United States. I've vibe coded a whole bunch of different projects. Some of them worked"
+    },
+    {
+      "start": 158.18,
+      "duration": 3.44,
+      "text": "and some of them never saw the light of day. Even though I got really far in the development"
+    },
+    {
+      "start": 161.96,
+      "duration": 5.619,
+      "text": "process, I spend a lot of time using different workflows with AI agents to make my life easier"
+    },
+    {
+      "start": 167.6,
+      "duration": 6.1,
+      "text": "as a YouTuber, as a solopreneur, and as a content creator. This call took place in the AI Captain"
+    },
+    {
+      "start": 173.86,
+      "duration": 4.16,
+      "text": "School in our weekly coffee hour workshop. If you want to join us, you're always welcome. You"
+    },
+    {
+      "start": 178.02,
+      "duration": 6.8,
+      "text": "get a seven day free trial to see if it's for you. So let's get started. I started vibe coding"
+    },
+    {
+      "start": 185.16,
+      "duration": 4.78,
+      "text": "because I was interested in building AI agents and I was interested in building directories,"
+    },
+    {
+      "start": 190.22,
+      "duration": 4.08,
+      "text": "right? And that's what got my YouTube channel started. I vibe coded a directory and it worked,"
+    },
+    {
+      "start": 194.42,
+      "duration": 4.44,
+      "text": "right? And I got lucky, right? Because a directory is easy enough. It all worked out fine. I didn't"
+    },
+    {
+      "start": 198.87,
+      "duration": 4.63,
+      "text": "even use a database, but I got the vibe coding. I vibe coded something. I was encouraged to keep"
+    },
+    {
+      "start": 203.68,
+      "duration": 6.9,
+      "text": "vibe coding. And long story short, as my projects got more complex, I ended up hitting more and more"
+    },
+    {
+      "start": 211.26,
+      "duration": 7.38,
+      "text": "brick walls and I couldn't build what I wanted to. Even simple things, simple functionality where I"
+    },
+    {
+      "start": 218.76,
+      "duration": 4.739,
+      "text": "just needed the user to log in, pay, and if they paid, they can access this. I couldn't even get"
+    },
+    {
+      "start": 223.52,
+      "duration": 4.18,
+      "text": "that done in some of my most basic projects. I could in some projects, I couldn't in others."
+    },
+    {
+      "start": 228.22,
+      "duration": 4.18,
+      "text": "And I'm just a vibe coding cowboy, not an actual developer. So I couldn't really figure that out."
+    },
+    {
+      "start": 232.69,
+      "duration": 4.53,
+      "text": "So I have many projects just sitting on the shelf. So now I feel inspired by the open spec and the"
+    },
+    {
+      "start": 237.32,
+      "duration": 4.48,
+      "text": "GitHub spec kit that you've been sharing in the AI captain school. And I'm like, okay, is there"
+    },
+    {
+      "start": 241.88,
+      "duration": 4.32,
+      "text": "something here where someone like me, where it's really going to be worth trying to build apps?"
+    },
+    {
+      "start": 246.49,
+      "duration": 4.729,
+      "text": "Or do I need to just surrender my own ego to like, no, you're going to have to hire developers to"
+    },
+    {
+      "start": 251.24,
+      "duration": 3.54,
+      "text": "build apps. You can keep on building directories or whatever, but if you want to get more complicated,"
+    },
+    {
+      "start": 254.94,
+      "duration": 3.34,
+      "text": "Jordan, you're going to need a team of people that actually know what they're doing. But you're"
+    },
+    {
+      "start": 258.43,
+      "duration": 5.45,
+      "text": "someone, Ken, that's hard, that's deep in the space of professionals, enterprise people that"
+    },
+    {
+      "start": 264.01,
+      "duration": 5.95,
+      "text": "really want to figure this whole thing out. Can vibe coding work for real development? So talk to me."
+    },
+    {
+      "start": 270.92,
+      "duration": 3.92,
+      "text": "Okay. There's spectrum that we're talking about here, right? So where you started off and where"
+    },
+    {
+      "start": 274.98,
+      "duration": 4.239,
+      "text": "a lot of people are starting off is around the thrill of being able to vibe code, where we have"
+    },
+    {
+      "start": 279.24,
+      "duration": 5.66,
+      "text": "an AI coding partner, and that partner is able to actually take something that we say, so we can"
+    },
+    {
+      "start": 285.06,
+      "duration": 4.76,
+      "text": "utter in the form of a prompt, hey, build this thing that has these specific capabilities around it,"
+    },
+    {
+      "start": 290.3,
+      "duration": 4.22,
+      "text": "and it'll go do that. It'll actually take your tech stack and make it real, give you something"
+    },
+    {
+      "start": 294.68,
+      "duration": 4.4,
+      "text": "that you can actually go through, compile, deploy, and boom, it's now available on the web."
+    },
+    {
+      "start": 300.04,
+      "duration": 5.14,
+      "text": "Now, that comes with a certain amount of responsibility that goes along with it, right?"
+    },
+    {
+      "start": 305.36,
+      "duration": 3.68,
+      "text": "Because sometimes you're going to add additional functionality, sometimes stuff's going to break,"
+    },
+    {
+      "start": 309.16,
+      "duration": 1.92,
+      "text": "and you need to go fix it, and there's security concerns,"
+    },
+    {
+      "start": 311.2,
+      "duration": 4.76,
+      "text": "and there's all this stuff that from somebody that's just doing basic by-coding,"
+    },
+    {
+      "start": 316.66,
+      "duration": 1.92,
+      "text": "they're not going to think through all of those things."
+    },
+    {
+      "start": 319.12,
+      "duration": 2.12,
+      "text": "On the other end of the spectrum, we have professional developers"
+    },
+    {
+      "start": 321.54,
+      "duration": 3.9,
+      "text": "who've been schooled in programming languages and all this other stuff"
+    },
+    {
+      "start": 325.6,
+      "duration": 3.94,
+      "text": "and have lots of technical background that have spent many years"
+    },
+    {
+      "start": 329.92,
+      "duration": 3.74,
+      "text": "perfecting their craft and building this stuff in really austere conditions"
+    },
+    {
+      "start": 334.22,
+      "duration": 3.4,
+      "text": "where it's like, oh, great, we got process, we got tools,"
+    },
+    {
+      "start": 337.86,
+      "duration": 9.84,
+      "text": "We got lots of stuff we can bring to bear, but ultimately it ends up being slow, costly, but it actually works and it's fairly bulletproof."
+    },
+    {
+      "start": 348.64,
+      "duration": 12.56,
+      "text": "So between those two extremes lies the potential where we're actually talking about being able to now do what we'll refer to as intentionally driven development."
+    },
+    {
+      "start": 362.06,
+      "duration": 2.56,
+      "text": "So we have an intention that we're bringing to it."
+    },
+    {
+      "start": 365.1,
+      "duration": 3.84,
+      "text": "Now, we want to kind of up the level of rigor without introducing rigor mortis."
+    },
+    {
+      "start": 369.96,
+      "duration": 6.28,
+      "text": "We want to be able to do better things, produce better outcomes, and have them actually be"
+    },
+    {
+      "start": 376.71,
+      "duration": 4.57,
+      "text": "higher quality without actually having it go all the way to the other extreme."
+    },
+    {
+      "start": 382.34,
+      "duration": 6.42,
+      "text": "So, the first piece that we did in the micro workshop on requirements is an important piece"
+    },
+    {
+      "start": 388.83,
+      "duration": 4.729,
+      "text": "because it starts us at being able to have a marketing conversation, driving all the way down"
+    },
+    {
+      "start": 393.58,
+      "duration": 3.78,
+      "text": "to where we actually end up talking about individual feature sets or capabilities that"
+    },
+    {
+      "start": 397.36,
+      "duration": 6.56,
+      "text": "we want to be able to build. And that has three parts in addition to where you kind of started off"
+    },
+    {
+      "start": 404.12,
+      "duration": 5.96,
+      "text": "with your work, which is the PRD. So you build out a PRD, but we're now filling in the gaps to"
+    },
+    {
+      "start": 410.44,
+      "duration": 6.2,
+      "text": "introduce that additional level of rigor that gets us there. Now there's additional work that's being"
+    },
+    {
+      "start": 416.82,
+      "duration": 6.139,
+      "text": "done around really specification-driven development. Okay. So there's been a conversation started"
+    },
+    {
+      "start": 422.96,
+      "duration": 4.88,
+      "text": "recently. It's about enhancing agentic AI to actually develop things that work. Now, if you're"
+    },
+    {
+      "start": 427.84,
+      "duration": 5.18,
+      "text": "a vibe coding cowboy like me, you don't know how to code, but you're getting good enough results"
+    },
+    {
+      "start": 433.29,
+      "duration": 4.75,
+      "text": "to decide to invest your energy and time into using AI to build your products. But in the realm"
+    },
+    {
+      "start": 438.04,
+      "duration": 5.96,
+      "text": "of vibe coding, coders and non-coders meet in the problem of having an actionable task list,"
+    },
+    {
+      "start": 444.4,
+      "duration": 5.579,
+      "text": "plan of attack for development that actually works so the AI doesn't get lost. So no matter who you"
+    },
+    {
+      "start": 450.0,
+      "duration": 5.24,
+      "text": "are. As this image shows, vibe coding is unlikely to deliver production-grade software, no matter"
+    },
+    {
+      "start": 455.24,
+      "duration": 7.12,
+      "text": "who you are. Enter spec-driven development. And this is really just about good organization and"
+    },
+    {
+      "start": 462.52,
+      "duration": 4.56,
+      "text": "planning your specifications before developing. But ultimately, what we want to introduce here is"
+    },
+    {
+      "start": 467.14,
+      "duration": 6.5,
+      "text": "that if we can add a missing layer, if you will, a missing tool to our agentic coders, could we"
+    },
+    {
+      "start": 473.86,
+      "duration": 4.88,
+      "text": "actually get more predictable outcomes? Now, this is spec kit. Another one is open spec here, which"
+    },
+    {
+      "start": 478.64,
+      "duration": 4.36,
+      "text": "is the one I've been playing around with. And basically these are CLI tools that you can attach"
+    },
+    {
+      "start": 483.18,
+      "duration": 5.98,
+      "text": "to Codex or Cloud Code or Gemini CLI, whatever you're using. And you basically use it to submit"
+    },
+    {
+      "start": 489.16,
+      "duration": 6.48,
+      "text": "a proposal to change something, review and align together with your AI assistant, implement the"
+    },
+    {
+      "start": 495.76,
+      "duration": 4.92,
+      "text": "tasks, which means AI writing the code, and then making sure the original documentation is updated"
+    },
+    {
+      "start": 501.08,
+      "duration": 5.899,
+      "text": "with these changes. So in the future, the AI knows what's going on. Now, in many videos I've shared"
+    },
+    {
+      "start": 507.22,
+      "duration": 4.1,
+      "text": "the Vibe Coding System Rule to have a multi-agent system coordinator with two roles,"
+    },
+    {
+      "start": 511.52,
+      "duration": 5.1,
+      "text": "planner and executor. And essentially what this system prompt does is create a scratchpad file"
+    },
+    {
+      "start": 516.96,
+      "duration": 4.139,
+      "text": "which updates everything going on in your project. So in planning mode, it's saying,"
+    },
+    {
+      "start": 521.11,
+      "duration": 2.609,
+      "text": "hey, here's what we're going to do. In an executor mode, it adds to the file, hey,"
+    },
+    {
+      "start": 523.75,
+      "duration": 3.87,
+      "text": "this is what we did. You can get a copy of that prompt at the Terminal Navigation Toolkit."
+    },
+    {
+      "start": 527.8,
+      "duration": 4.2,
+      "text": "There's a link below. It's free. There's also a lot of other prompts, sub-agents,"
+    },
+    {
+      "start": 532.7,
+      "duration": 5.6,
+      "text": "resources, and even some NAN workflows on there for you to get started in your AI workflow and"
+    },
+    {
+      "start": 538.46,
+      "duration": 4.78,
+      "text": "automation journey. But back to vibe coding versus spec-driven development, this is where things are"
+    },
+    {
+      "start": 543.36,
+      "duration": 5.46,
+      "text": "headed. Kiro is one of these release and tools that is supposed to be able to help you plan well,"
+    },
+    {
+      "start": 549.22,
+      "duration": 4.82,
+      "text": "create requirements, and design before the coding begins. As I mentioned, OpenSpec and SpecKit"
+    },
+    {
+      "start": 554.07,
+      "duration": 4.669,
+      "text": "could be tools you attach to what you're currently using. There's also the TESOL framework, another"
+    },
+    {
+      "start": 558.76,
+      "duration": 5.3,
+      "text": "CLI tool, but the questions continue. Now I'm not a professional here, but I do think this is"
+    },
+    {
+      "start": 564.26,
+      "duration": 3.86,
+      "text": "important to follow along. So in this video, I just want to introduce you to the whole conversation."
+    },
+    {
+      "start": 568.44,
+      "duration": 3.9,
+      "text": "And Ken and I are going to speak a little about it now. Hey, by the way, if you're into AI and"
+    },
+    {
+      "start": 572.44,
+      "duration": 4.08,
+      "text": "you're either new to coding or new to building businesses, then you're the type of person I'm"
+    },
+    {
+      "start": 576.62,
+      "duration": 4.28,
+      "text": "creating my educational AI content for. So if you're trying to learn, if you're building a"
+    },
+    {
+      "start": 581.06,
+      "duration": 4.419,
+      "text": "business, if you're vibe coding tools, hit that subscribe button so you can stay up to date with"
+    },
+    {
+      "start": 585.5,
+      "duration": 4.88,
+      "text": "latest and greatest of what's happening with AI so you can be in control of your destiny."
+    },
+    {
+      "start": 590.99,
+      "duration": 3.79,
+      "text": "No, I'm just kidding. Just in control of your business. All right, let's keep going."
+    },
+    {
+      "start": 595.12,
+      "duration": 4.2,
+      "text": "This is, I think, important because it's really the first time that we've started to see"
+    },
+    {
+      "start": 599.72,
+      "duration": 6.06,
+      "text": "the broader-based community getting aligned on, okay, how do we introduce the guardrails? How"
+    },
+    {
+      "start": 606.06,
+      "duration": 5.14,
+      "text": "do we actually condition this flow of work so that we're getting results out of the end of it?"
+    },
+    {
+      "start": 611.68,
+      "duration": 3.279,
+      "text": "And if you couple the work that we've started with the requirements management"
+    },
+    {
+      "start": 614.96,
+      "duration": 2.9,
+      "text": "and have that funnel into the requirements-driven development,"
+    },
+    {
+      "start": 618.5,
+      "duration": 1.1,
+      "text": "that's a really great thing."
+    },
+    {
+      "start": 619.76,
+      "duration": 1.7,
+      "text": "Because now we have a powerful one-two punch"
+    },
+    {
+      "start": 621.6,
+      "duration": 3.48,
+      "text": "that not only captures the mechanical aspects of how we build code,"
+    },
+    {
+      "start": 625.52,
+      "duration": 3.66,
+      "text": "but it also handles the front end for making sure we have good inputs"
+    },
+    {
+      "start": 629.84,
+      "duration": 1.7,
+      "text": "so that when we say we have a specification,"
+    },
+    {
+      "start": 632.18,
+      "duration": 2.3,
+      "text": "we now have something that we can really take to the bank"
+    },
+    {
+      "start": 634.58,
+      "duration": 1.76,
+      "text": "and say that, yeah, this is really good."
+    },
+    {
+      "start": 636.72,
+      "duration": 2.96,
+      "text": "It's reasonably complete so that as we produce those outcomes,"
+    },
+    {
+      "start": 640.46,
+      "duration": 3.86,
+      "text": "we're now being able to say that this is better than what we started off with,"
+    },
+    {
+      "start": 644.38,
+      "duration": 3.06,
+      "text": "which was the randomness of just any old prompt going into the tool."
+    },
+    {
+      "start": 648.26,
+      "duration": 3.46,
+      "text": "Now, that's not to say that this is 100% complete."
+    },
+    {
+      "start": 652.46,
+      "duration": 2.26,
+      "text": "This is an evolving conversation, and it's going to get even better"
+    },
+    {
+      "start": 654.94,
+      "duration": 3.9,
+      "text": "because when you start looking at the fact that we might need to produce subsystems"
+    },
+    {
+      "start": 659.0,
+      "duration": 4.08,
+      "text": "or other different component parts that we might want to use as part of our build process"
+    },
+    {
+      "start": 663.94,
+      "duration": 2.04,
+      "text": "for building more substantial applications,"
+    },
+    {
+      "start": 666.72,
+      "duration": 2.88,
+      "text": "we're not at the point yet where we've been effectively doing that."
+    },
+    {
+      "start": 670.06,
+      "duration": 2.22,
+      "text": "But this is directionally where we're going,"
+    },
+    {
+      "start": 672.38,
+      "duration": 2.68,
+      "text": "And that's kind of the conversation that we're starting to lead."
+    },
+    {
+      "start": 675.39,
+      "duration": 5.27,
+      "text": "So I'm really actually excited about what we're doing here, because I think it has a lot of"
+    },
+    {
+      "start": 681.2,
+      "duration": 4.5,
+      "text": "potential for being able to lift all the boats as the phrase goes."
+    },
+    {
+      "start": 686.34,
+      "duration": 1.3,
+      "text": "Yeah, I think that's well put."
+    },
+    {
+      "start": 687.77,
+      "duration": 1.69,
+      "text": "And I'm just going to put on screen real quick."
+    },
+    {
+      "start": 689.74,
+      "duration": 2.56,
+      "text": "This is what Ken posted in the AI Captain School just recently."
+    },
+    {
+      "start": 692.31,
+      "duration": 0.95,
+      "text": "And it really got me thinking."
+    },
+    {
+      "start": 693.39,
+      "duration": 2.91,
+      "text": "And it actually got me re-inspired to be Vibe Coding again."
+    },
+    {
+      "start": 696.88,
+      "duration": 2.38,
+      "text": "And these are these tools, OpenSpec and GitHubSpec."
+    },
+    {
+      "start": 699.3,
+      "duration": 4.08,
+      "text": "But these are basically plugins for Cloud Code, Codex, whatever."
+    },
+    {
+      "start": 703.88,
+      "duration": 1.74,
+      "text": "You install them via the command line."
+    },
+    {
+      "start": 706.16,
+      "duration": 4.46,
+      "text": "It'll actually create, in fact, I'll show everyone right now because I was using it last night."
+    },
+    {
+      "start": 711.2,
+      "duration": 1.5,
+      "text": "And I'm sorry, Ken, you can't see my screen."
+    },
+    {
+      "start": 713.52,
+      "duration": 5.78,
+      "text": "But I've got my terminal window open here in this project, which is an AI parenting coach,"
+    },
+    {
+      "start": 719.82,
+      "duration": 7.58,
+      "text": "which is what I got stuck on a few weeks ago, trying to just make a Next.js app of this very basic chatbot."
+    },
+    {
+      "start": 727.52,
+      "duration": 2.88,
+      "text": "But it wasn't connecting to the API of 11 labs."
+    },
+    {
+      "start": 731.08,
+      "duration": 1.68,
+      "text": "So the first thing you need to do is install it."
+    },
+    {
+      "start": 733.46,
+      "duration": 1.98,
+      "text": "Then you need to establish the project principles."
+    },
+    {
+      "start": 736.48,
+      "duration": 4.52,
+      "text": "And then spec kit as a command becomes available inside your AI agent."
+    },
+    {
+      "start": 741.45,
+      "duration": 2.31,
+      "text": "Then you create a spec, which in this example,"
+    },
+    {
+      "start": 743.95,
+      "duration": 3.21,
+      "text": "build an application that can help me organize my photos and separate photo albums."
+    },
+    {
+      "start": 747.84,
+      "duration": 4.36,
+      "text": "Then you use the forward slash spec kit dot plan command"
+    },
+    {
+      "start": 752.31,
+      "duration": 2.01,
+      "text": "to provide your tech stack and architecture choices."
+    },
+    {
+      "start": 755.18,
+      "duration": 8.22,
+      "text": "Then you use the forward slash spec kit dot tasks command to actually create an actionable task list from your implementation plan."
+    },
+    {
+      "start": 763.59,
+      "duration": 10.15,
+      "text": "So if I open up Claude here and I'm running forward slash open spec and you can see here I've got forward slash open spec colon proposal, apply or archive."
+    },
+    {
+      "start": 774.23,
+      "duration": 6.17,
+      "text": "So if I choose proposal, scaffold a new open spec change and validate strictly within the project."
+    },
+    {
+      "start": 781.18,
+      "duration": 4.84,
+      "text": "Apply, implement an approved OpenSpec change and keep tasks in sync and archive."
+    },
+    {
+      "start": 786.52,
+      "duration": 2.58,
+      "text": "Archive, I deployed OpenSpec change and update the specs."
+    },
+    {
+      "start": 789.54,
+      "duration": 4.84,
+      "text": "So if I run OpenSpec proposal, it took a look at the state of the project."
+    },
+    {
+      "start": 794.63,
+      "duration": 2.45,
+      "text": "So it looked at my actionable task list."
+    },
+    {
+      "start": 797.32,
+      "duration": 2.06,
+      "text": "And technically, I guess that's supposed to be an implementation plan."
+    },
+    {
+      "start": 799.46,
+      "duration": 1.0,
+      "text": "Now I'm still figuring this out."
+    },
+    {
+      "start": 801.04,
+      "duration": 3.96,
+      "text": "But it took a look in there and it saw that we need to fix the voice integration,"
+    },
+    {
+      "start": 805.61,
+      "duration": 1.17,
+      "text": "which is what I was working on yesterday."
+    },
+    {
+      "start": 807.98,
+      "duration": 2.44,
+      "text": "That was my first foray into using specs."
+    },
+    {
+      "start": 811.1,
+      "duration": 1.6,
+      "text": "And it's looking at the current state of the project."
+    },
+    {
+      "start": 813.78,
+      "duration": 1.52,
+      "text": "It's got no tasks in here."
+    },
+    {
+      "start": 816.4,
+      "duration": 1.28,
+      "text": "Current specs and undefined yet."
+    },
+    {
+      "start": 818.06,
+      "duration": 4.64,
+      "text": "Now, this, I'm going to leave it here because there should be specs here."
+    },
+    {
+      "start": 822.74,
+      "duration": 1.82,
+      "text": "Because I was doing this all afternoon yesterday."
+    },
+    {
+      "start": 825.28,
+      "duration": 4.06,
+      "text": "So to the point of figuring out how to make all this work,"
+    },
+    {
+      "start": 829.88,
+      "duration": 3.38,
+      "text": "Cloud Code basically hijacked this conversation yesterday."
+    },
+    {
+      "start": 833.84,
+      "duration": 3.2,
+      "text": "And if I resume it, if I show what was going on,"
+    },
+    {
+      "start": 838.62,
+      "duration": 4.62,
+      "text": "Oh, and I'm actually unable to actually to scroll through the conversation with CloudCode."
+    },
+    {
+      "start": 843.38,
+      "duration": 3.96,
+      "text": "But I was using OpenSpec to just fix it."
+    },
+    {
+      "start": 847.34,
+      "duration": 3.9,
+      "text": "I said, I want to refactor the whole code because it's not working the way it should."
+    },
+    {
+      "start": 851.32,
+      "duration": 5.18,
+      "text": "And I don't want to start over because the interface is nice and there's already the PRD in here and everything we need."
+    },
+    {
+      "start": 856.96,
+      "duration": 2.36,
+      "text": "So just fix it, you know, figure out how to fix it."
+    },
+    {
+      "start": 859.6,
+      "duration": 4.14,
+      "text": "And instead of going through the OpenSpec, the specifications, what do you call that framework?"
+    },
+    {
+      "start": 864.38,
+      "duration": 8.22,
+      "text": "The thing that we're seeing with the use of specification driven development is that this is embodying whether it's either a waterfall or an iterative development model,"
+    },
+    {
+      "start": 872.98,
+      "duration": 4.88,
+      "text": "where we're actually taking component parts from that and saying, hey, we're now going to go through some planning."
+    },
+    {
+      "start": 878.18,
+      "duration": 0.82,
+      "text": "We're going to do some building."
+    },
+    {
+      "start": 879.58,
+      "duration": 2.04,
+      "text": "We're going to do some testing."
+    },
+    {
+      "start": 882.96,
+      "duration": 18.5,
+      "text": "It's a really, I think, a good way of being able to introduce agentic principles so that your AI agents, your partner, is actually going through and doing some of the tasks that you would normally rely on other development team members to do, or your operations team in terms of being able to deploy that code into the production environment."
+    },
+    {
+      "start": 902.16,
+      "duration": 11.16,
+      "text": "But now we're actually using our AI tools as a way of being able to scale and take advantage of the fact that we may not necessarily have all of the skills necessary in order to do these things."
+    },
+    {
+      "start": 913.88,
+      "duration": 12.32,
+      "text": "But we're still enforcing some level of rigor to help us understand what needs to get done so that we're building a better outcome and building a better final product that we'll ultimately end up using."
+    },
+    {
+      "start": 926.66,
+      "duration": 3.96,
+      "text": "The specs thing, when did the specs come on the scene, like these specs tools?"
+    },
+    {
+      "start": 931.2,
+      "duration": 5.16,
+      "text": "Well, for the most part, the specs tools have been coming online over the course of the past six weeks or so."
+    },
+    {
+      "start": 936.58,
+      "duration": 0.36,
+      "text": "Six weeks."
+    },
+    {
+      "start": 937.42,
+      "duration": 2.38,
+      "text": "And now we're towards the end of October in 2025."
+    },
+    {
+      "start": 941.0,
+      "duration": 4.08,
+      "text": "So it isn't like this is, oh, we've been building it the entire year."
+    },
+    {
+      "start": 945.44,
+      "duration": 6.92,
+      "text": "I mean, some people have been doing earlier things because there's a number of different projects that are going on with regards to the specification driven development."
+    },
+    {
+      "start": 953.4,
+      "duration": 1.52,
+      "text": "Some have been longer than others."
+    },
+    {
+      "start": 955.64,
+      "duration": 15.86,
+      "text": "What happened for me, and I think this is representative of where this technology, I dare say technology, where this whole thing is at right now, is I created a task to fix all this with this OpenSpec tool."
+    },
+    {
+      "start": 972.36,
+      "duration": 4.54,
+      "text": "And instead of Claude going along with it, Claude code just took over."
+    },
+    {
+      "start": 977.92,
+      "duration": 6.08,
+      "text": "Claude code straight up took over debugging it and just ignored the whole point of the specs list."
+    },
+    {
+      "start": 984.24,
+      "duration": 1.32,
+      "text": "It wasn't using it."
+    },
+    {
+      "start": 986.02,
+      "duration": 1.02,
+      "text": "And nothing got updated."
+    },
+    {
+      "start": 987.32,
+      "duration": 5.94,
+      "text": "And I just showed when I opened the open spec task list, there's nothing there."
+    },
+    {
+      "start": 995.72,
+      "duration": 5.4,
+      "text": "So if I choose apply to apply something here, I just got to come back to the conversation."
+    },
+    {
+      "start": 1001.22,
+      "duration": 4.24,
+      "text": "Anyway, I feel like this is something that, like you said, the market hasn't caught up with."
+    },
+    {
+      "start": 1005.82,
+      "duration": 6.32,
+      "text": "when Claude, OpenAI, Gemini, whatever, when they start implementing something like this"
+    },
+    {
+      "start": 1012.74,
+      "duration": 6.5,
+      "text": "into their coding agents, then I think we'll see the real progress. Because I remember when,"
+    },
+    {
+      "start": 1019.78,
+      "duration": 7.44,
+      "text": "like even with the planner mode and executor mode for cursor that, you know, five months ago,"
+    },
+    {
+      "start": 1027.48,
+      "duration": 4.18,
+      "text": "I was figuring out and putting on YouTube and that was kind of revolutionary. Like, hey, I mean,"
+    },
+    {
+      "start": 1031.699,
+      "duration": 4.281,
+      "text": "I found that from someone on Twitter, right? But like, that was even a big deal. Like, cool,"
+    },
+    {
+      "start": 1036.38,
+      "duration": 3.6,
+      "text": "keep a scratch pad of what's going on. So your AI partner knows what's going on."
+    },
+    {
+      "start": 1040.459,
+      "duration": 5.841,
+      "text": "And then soon CloudCode came about with a CloudMD file, which is more or less the same thing if you"
+    },
+    {
+      "start": 1046.54,
+      "duration": 6.52,
+      "text": "put in the right prompts. And so that was supposed to be like built in to CloudCode. And in the same"
+    },
+    {
+      "start": 1053.24,
+      "duration": 4.16,
+      "text": "vein, I feel like these specs are eventually just going to be built into these agents."
+    },
+    {
+      "start": 1057.94,
+      "duration": 5.76,
+      "text": "But then I ask myself, will they harmonize with these agents?"
+    },
+    {
+      "start": 1064.33,
+      "duration": 1.69,
+      "text": "Because these agents are so aggressive."
+    },
+    {
+      "start": 1066.73,
+      "duration": 1.23,
+      "text": "They take so much initiative."
+    },
+    {
+      "start": 1068.3,
+      "duration": 0.72,
+      "text": "They're so ambitious."
+    },
+    {
+      "start": 1069.86,
+      "duration": 8.62,
+      "text": "I wonder, would they lose some of their core value proposition if the spec specifications features was built in to it?"
+    },
+    {
+      "start": 1078.48,
+      "duration": 0.5,
+      "text": "You know what I'm saying?"
+    },
+    {
+      "start": 1079.32,
+      "duration": 8.14,
+      "text": "But this is actually part of why I think that over the short term, we're going to see a number of different folks coming to the market saying,"
+    },
+    {
+      "start": 1087.72,
+      "duration": 3.54,
+      "text": "hey, we've got a way of doing this that will work."
+    },
+    {
+      "start": 1091.9,
+      "duration": 4.08,
+      "text": "So we're collectively figuring out how to do this in a way that actually makes sense,"
+    },
+    {
+      "start": 1096.62,
+      "duration": 2.4,
+      "text": "both for Greenfield as well as for Brownfield projects."
+    },
+    {
+      "start": 1099.43,
+      "duration": 2.07,
+      "text": "So Greenfield would be, hey, I'm starting from scratch."
+    },
+    {
+      "start": 1101.73,
+      "duration": 0.71,
+      "text": "I have an idea."
+    },
+    {
+      "start": 1102.94,
+      "duration": 0.4,
+      "text": "Let's go."
+    },
+    {
+      "start": 1103.79,
+      "duration": 4.77,
+      "text": "But now for existing projects, how do we work this into existing projects in a way"
+    },
+    {
+      "start": 1109.02,
+      "duration": 5.24,
+      "text": "which prevents like what we've seen in your example, where Claude just goes nuts,"
+    },
+    {
+      "start": 1115.1,
+      "duration": 1.02,
+      "text": "for lack of a better term,"
+    },
+    {
+      "start": 1116.54,
+      "duration": 1.52,
+      "text": "and then just starts doing a whole bunch of stuff"
+    },
+    {
+      "start": 1118.2,
+      "duration": 1.32,
+      "text": "that we didn't necessarily say,"
+    },
+    {
+      "start": 1119.9,
+      "duration": 1.98,
+      "text": "hey, yeah, we really want you to go do that."
+    },
+    {
+      "start": 1122.72,
+      "duration": 0.8,
+      "text": "And disclaimer,"
+    },
+    {
+      "start": 1123.86,
+      "duration": 2.22,
+      "text": "I could maybe just not understand this stuff yet,"
+    },
+    {
+      "start": 1126.16,
+      "duration": 0.88,
+      "text": "and maybe that's the point."
+    },
+    {
+      "start": 1127.52,
+      "duration": 1.16,
+      "text": "Maybe it was supposed to do that"
+    },
+    {
+      "start": 1129.56,
+      "duration": 1.22,
+      "text": "now that I'm thinking about it."
+    },
+    {
+      "start": 1131.92,
+      "duration": 0.92,
+      "text": "I'm still trying to figure out"
+    },
+    {
+      "start": 1132.86,
+      "duration": 3.02,
+      "text": "how these specs tools are supposed to actually operate."
+    },
+    {
+      "start": 1136.1,
+      "duration": 1.66,
+      "text": "So let me know in the comments"
+    },
+    {
+      "start": 1138.04,
+      "duration": 2.1,
+      "text": "what you think about spec-driven development"
+    },
+    {
+      "start": 1140.38,
+      "duration": 0.7,
+      "text": "versus vibe coding,"
+    },
+    {
+      "start": 1141.42,
+      "duration": 0.98,
+      "text": "or do you do the two together?"
+    },
+    {
+      "start": 1142.8,
+      "duration": 1.72,
+      "text": "What is happening in this brave new world"
+    },
+    {
+      "start": 1144.54,
+      "duration": 1.14,
+      "text": "Where does all of this lead?"
+    },
+    {
+      "start": 1146.04,
+      "duration": 0.7,
+      "text": "We want to hear from you."
+    },
+    {
+      "start": 1146.86,
+      "duration": 1.38,
+      "text": "We want to get this conversation going."
+    },
+    {
+      "start": 1148.56,
+      "duration": 2.08,
+      "text": "Once again, the AI Captain School offers a free trial."
+    },
+    {
+      "start": 1150.8,
+      "duration": 0.86,
+      "text": "Come join the community."
+    },
+    {
+      "start": 1152.12,
+      "duration": 0.64,
+      "text": "We talk a lot."
+    },
+    {
+      "start": 1152.82,
+      "duration": 1.04,
+      "text": "We try to figure this stuff out."
+    },
+    {
+      "start": 1153.96,
+      "duration": 0.7,
+      "text": "We build together."
+    },
+    {
+      "start": 1154.76,
+      "duration": 0.38,
+      "text": "We share."
+    },
+    {
+      "start": 1155.54,
+      "duration": 3.4,
+      "text": "And we host calls like this, workshops where anyone can join, ask questions, throw in your"
+    },
+    {
+      "start": 1159.0,
+      "duration": 0.36,
+      "text": "two cents."
+    },
+    {
+      "start": 1159.7,
+      "duration": 1.36,
+      "text": "Thanks for watching and I'll see you next time."
+    }
+  ],
+  "plain_text": "This is, I think, important because it's really the first time that we've started to see the broader-based community getting aligned on,\nokay, how do we introduce the guardrails? How do we actually condition this flow of work so that we're getting results out of the end of it?\nWelcome back to Vibe Coding Weekly.\nWas Vibe Coding all a hype? Did Greg Eisenberg manufacture this whole niche industry?\njust for a few clicks and views on his podcast.\nI don't know.\nBut I do know that vibe coding leads to dead ends\nmore often than not when you are a non-coder.\nAnd if you are a coder,\nvibe coding may feel like a waste of time\nbecause you have no idea how to even build a business.\nPerhaps you're like me and you've vibe coded directories,\nbasic, basic SaaS apps, websites, things like that.\nBut when you try to actually build something more complex,\nyou go down the yellow brick road\nand you enter into the feedback loop of death.\nwhere does it lead?\nAnd it really sucks because you'd made a great PRD,\nyou had a great plan with Opus,\nor Clock Code, for example,\nand you spent hours and hours and hours doing it\nonly to start going in circles and realize,\noh, this isn't going to get me anywhere.\nI have had this happen to me at least five times now.\nI was a vibe-coding cowboy, cocksure, arrogant,\nperhaps overly confident,\nand I just went ahead and tried to build all these apps\nthat did not amount to anything,\nand they're just sitting there.\ncouldn't even make a YouTube video about them because I couldn't get them to work.\nSo directories and websites are one thing, but if you want to build more complex applications,\nyou're going to need to really get a handle on your Vibe Coding agent. So today in this video,\nI want to introduce you to OpenSpec or GitHub's SpecKit. Kenneth Gonzalez, my friend Ken Gon,\njoins me to talk about this whole new thing developing in the Vibe Coding space because\neverything is moving so fast. And if you do want to build applications, this is important to follow\nand understand because even as a non-coder one day, yes, you will be able to build applications\nmuch easier than you can today if you were like me and you bought into the hype, which is totally\nfine. I don't judge you. Why would I? So before we begin, why should you listen to me or Ken? Well,\nthis is Kenneth Gonzalez. He was a former analyst at Gartner. He's got 40 years in enterprise tech\nand he's a consultant, a lead advisor for executives in the industry. So he's got a good\ngrasp on how business works in the industry. And he's also really fascinated by what's happening\nwith agentic AI. As for me, I vibe coded my first project. It was a directory for Montessori schools\nin the United States. I've vibe coded a whole bunch of different projects. Some of them worked\nand some of them never saw the light of day. Even though I got really far in the development\nprocess, I spend a lot of time using different workflows with AI agents to make my life easier\nas a YouTuber, as a solopreneur, and as a content creator. This call took place in the AI Captain\nSchool in our weekly coffee hour workshop. If you want to join us, you're always welcome. You\nget a seven day free trial to see if it's for you. So let's get started. I started vibe coding\nbecause I was interested in building AI agents and I was interested in building directories,\nright? And that's what got my YouTube channel started. I vibe coded a directory and it worked,\nright? And I got lucky, right? Because a directory is easy enough. It all worked out fine. I didn't\neven use a database, but I got the vibe coding. I vibe coded something. I was encouraged to keep\nvibe coding. And long story short, as my projects got more complex, I ended up hitting more and more\nbrick walls and I couldn't build what I wanted to. Even simple things, simple functionality where I\njust needed the user to log in, pay, and if they paid, they can access this. I couldn't even get\nthat done in some of my most basic projects. I could in some projects, I couldn't in others.\nAnd I'm just a vibe coding cowboy, not an actual developer. So I couldn't really figure that out.\nSo I have many projects just sitting on the shelf. So now I feel inspired by the open spec and the\nGitHub spec kit that you've been sharing in the AI captain school. And I'm like, okay, is there\nsomething here where someone like me, where it's really going to be worth trying to build apps?\nOr do I need to just surrender my own ego to like, no, you're going to have to hire developers to\nbuild apps. You can keep on building directories or whatever, but if you want to get more complicated,\nJordan, you're going to need a team of people that actually know what they're doing. But you're\nsomeone, Ken, that's hard, that's deep in the space of professionals, enterprise people that\nreally want to figure this whole thing out. Can vibe coding work for real development? So talk to me.\nOkay. There's spectrum that we're talking about here, right? So where you started off and where\na lot of people are starting off is around the thrill of being able to vibe code, where we have\nan AI coding partner, and that partner is able to actually take something that we say, so we can\nutter in the form of a prompt, hey, build this thing that has these specific capabilities around it,\nand it'll go do that. It'll actually take your tech stack and make it real, give you something\nthat you can actually go through, compile, deploy, and boom, it's now available on the web.\nNow, that comes with a certain amount of responsibility that goes along with it, right?\nBecause sometimes you're going to add additional functionality, sometimes stuff's going to break,\nand you need to go fix it, and there's security concerns,\nand there's all this stuff that from somebody that's just doing basic by-coding,\nthey're not going to think through all of those things.\nOn the other end of the spectrum, we have professional developers\nwho've been schooled in programming languages and all this other stuff\nand have lots of technical background that have spent many years\nperfecting their craft and building this stuff in really austere conditions\nwhere it's like, oh, great, we got process, we got tools,\nWe got lots of stuff we can bring to bear, but ultimately it ends up being slow, costly, but it actually works and it's fairly bulletproof.\nSo between those two extremes lies the potential where we're actually talking about being able to now do what we'll refer to as intentionally driven development.\nSo we have an intention that we're bringing to it.\nNow, we want to kind of up the level of rigor without introducing rigor mortis.\nWe want to be able to do better things, produce better outcomes, and have them actually be\nhigher quality without actually having it go all the way to the other extreme.\nSo, the first piece that we did in the micro workshop on requirements is an important piece\nbecause it starts us at being able to have a marketing conversation, driving all the way down\nto where we actually end up talking about individual feature sets or capabilities that\nwe want to be able to build. And that has three parts in addition to where you kind of started off\nwith your work, which is the PRD. So you build out a PRD, but we're now filling in the gaps to\nintroduce that additional level of rigor that gets us there. Now there's additional work that's being\ndone around really specification-driven development. Okay. So there's been a conversation started\nrecently. It's about enhancing agentic AI to actually develop things that work. Now, if you're\na vibe coding cowboy like me, you don't know how to code, but you're getting good enough results\nto decide to invest your energy and time into using AI to build your products. But in the realm\nof vibe coding, coders and non-coders meet in the problem of having an actionable task list,\nplan of attack for development that actually works so the AI doesn't get lost. So no matter who you\nare. As this image shows, vibe coding is unlikely to deliver production-grade software, no matter\nwho you are. Enter spec-driven development. And this is really just about good organization and\nplanning your specifications before developing. But ultimately, what we want to introduce here is\nthat if we can add a missing layer, if you will, a missing tool to our agentic coders, could we\nactually get more predictable outcomes? Now, this is spec kit. Another one is open spec here, which\nis the one I've been playing around with. And basically these are CLI tools that you can attach\nto Codex or Cloud Code or Gemini CLI, whatever you're using. And you basically use it to submit\na proposal to change something, review and align together with your AI assistant, implement the\ntasks, which means AI writing the code, and then making sure the original documentation is updated\nwith these changes. So in the future, the AI knows what's going on. Now, in many videos I've shared\nthe Vibe Coding System Rule to have a multi-agent system coordinator with two roles,\nplanner and executor. And essentially what this system prompt does is create a scratchpad file\nwhich updates everything going on in your project. So in planning mode, it's saying,\nhey, here's what we're going to do. In an executor mode, it adds to the file, hey,\nthis is what we did. You can get a copy of that prompt at the Terminal Navigation Toolkit.\nThere's a link below. It's free. There's also a lot of other prompts, sub-agents,\nresources, and even some NAN workflows on there for you to get started in your AI workflow and\nautomation journey. But back to vibe coding versus spec-driven development, this is where things are\nheaded. Kiro is one of these release and tools that is supposed to be able to help you plan well,\ncreate requirements, and design before the coding begins. As I mentioned, OpenSpec and SpecKit\ncould be tools you attach to what you're currently using. There's also the TESOL framework, another\nCLI tool, but the questions continue. Now I'm not a professional here, but I do think this is\nimportant to follow along. So in this video, I just want to introduce you to the whole conversation.\nAnd Ken and I are going to speak a little about it now. Hey, by the way, if you're into AI and\nyou're either new to coding or new to building businesses, then you're the type of person I'm\ncreating my educational AI content for. So if you're trying to learn, if you're building a\nbusiness, if you're vibe coding tools, hit that subscribe button so you can stay up to date with\nlatest and greatest of what's happening with AI so you can be in control of your destiny.\nNo, I'm just kidding. Just in control of your business. All right, let's keep going.\nThis is, I think, important because it's really the first time that we've started to see\nthe broader-based community getting aligned on, okay, how do we introduce the guardrails? How\ndo we actually condition this flow of work so that we're getting results out of the end of it?\nAnd if you couple the work that we've started with the requirements management\nand have that funnel into the requirements-driven development,\nthat's a really great thing.\nBecause now we have a powerful one-two punch\nthat not only captures the mechanical aspects of how we build code,\nbut it also handles the front end for making sure we have good inputs\nso that when we say we have a specification,\nwe now have something that we can really take to the bank\nand say that, yeah, this is really good.\nIt's reasonably complete so that as we produce those outcomes,\nwe're now being able to say that this is better than what we started off with,\nwhich was the randomness of just any old prompt going into the tool.\nNow, that's not to say that this is 100% complete.\nThis is an evolving conversation, and it's going to get even better\nbecause when you start looking at the fact that we might need to produce subsystems\nor other different component parts that we might want to use as part of our build process\nfor building more substantial applications,\nwe're not at the point yet where we've been effectively doing that.\nBut this is directionally where we're going,\nAnd that's kind of the conversation that we're starting to lead.\nSo I'm really actually excited about what we're doing here, because I think it has a lot of\npotential for being able to lift all the boats as the phrase goes.\nYeah, I think that's well put.\nAnd I'm just going to put on screen real quick.\nThis is what Ken posted in the AI Captain School just recently.\nAnd it really got me thinking.\nAnd it actually got me re-inspired to be Vibe Coding again.\nAnd these are these tools, OpenSpec and GitHubSpec.\nBut these are basically plugins for Cloud Code, Codex, whatever.\nYou install them via the command line.\nIt'll actually create, in fact, I'll show everyone right now because I was using it last night.\nAnd I'm sorry, Ken, you can't see my screen.\nBut I've got my terminal window open here in this project, which is an AI parenting coach,\nwhich is what I got stuck on a few weeks ago, trying to just make a Next.js app of this very basic chatbot.\nBut it wasn't connecting to the API of 11 labs.\nSo the first thing you need to do is install it.\nThen you need to establish the project principles.\nAnd then spec kit as a command becomes available inside your AI agent.\nThen you create a spec, which in this example,\nbuild an application that can help me organize my photos and separate photo albums.\nThen you use the forward slash spec kit dot plan command\nto provide your tech stack and architecture choices.\nThen you use the forward slash spec kit dot tasks command to actually create an actionable task list from your implementation plan.\nSo if I open up Claude here and I'm running forward slash open spec and you can see here I've got forward slash open spec colon proposal, apply or archive.\nSo if I choose proposal, scaffold a new open spec change and validate strictly within the project.\nApply, implement an approved OpenSpec change and keep tasks in sync and archive.\nArchive, I deployed OpenSpec change and update the specs.\nSo if I run OpenSpec proposal, it took a look at the state of the project.\nSo it looked at my actionable task list.\nAnd technically, I guess that's supposed to be an implementation plan.\nNow I'm still figuring this out.\nBut it took a look in there and it saw that we need to fix the voice integration,\nwhich is what I was working on yesterday.\nThat was my first foray into using specs.\nAnd it's looking at the current state of the project.\nIt's got no tasks in here.\nCurrent specs and undefined yet.\nNow, this, I'm going to leave it here because there should be specs here.\nBecause I was doing this all afternoon yesterday.\nSo to the point of figuring out how to make all this work,\nCloud Code basically hijacked this conversation yesterday.\nAnd if I resume it, if I show what was going on,\nOh, and I'm actually unable to actually to scroll through the conversation with CloudCode.\nBut I was using OpenSpec to just fix it.\nI said, I want to refactor the whole code because it's not working the way it should.\nAnd I don't want to start over because the interface is nice and there's already the PRD in here and everything we need.\nSo just fix it, you know, figure out how to fix it.\nAnd instead of going through the OpenSpec, the specifications, what do you call that framework?\nThe thing that we're seeing with the use of specification driven development is that this is embodying whether it's either a waterfall or an iterative development model,\nwhere we're actually taking component parts from that and saying, hey, we're now going to go through some planning.\nWe're going to do some building.\nWe're going to do some testing.\nIt's a really, I think, a good way of being able to introduce agentic principles so that your AI agents, your partner, is actually going through and doing some of the tasks that you would normally rely on other development team members to do, or your operations team in terms of being able to deploy that code into the production environment.\nBut now we're actually using our AI tools as a way of being able to scale and take advantage of the fact that we may not necessarily have all of the skills necessary in order to do these things.\nBut we're still enforcing some level of rigor to help us understand what needs to get done so that we're building a better outcome and building a better final product that we'll ultimately end up using.\nThe specs thing, when did the specs come on the scene, like these specs tools?\nWell, for the most part, the specs tools have been coming online over the course of the past six weeks or so.\nSix weeks.\nAnd now we're towards the end of October in 2025.\nSo it isn't like this is, oh, we've been building it the entire year.\nI mean, some people have been doing earlier things because there's a number of different projects that are going on with regards to the specification driven development.\nSome have been longer than others.\nWhat happened for me, and I think this is representative of where this technology, I dare say technology, where this whole thing is at right now, is I created a task to fix all this with this OpenSpec tool.\nAnd instead of Claude going along with it, Claude code just took over.\nClaude code straight up took over debugging it and just ignored the whole point of the specs list.\nIt wasn't using it.\nAnd nothing got updated.\nAnd I just showed when I opened the open spec task list, there's nothing there.\nSo if I choose apply to apply something here, I just got to come back to the conversation.\nAnyway, I feel like this is something that, like you said, the market hasn't caught up with.\nwhen Claude, OpenAI, Gemini, whatever, when they start implementing something like this\ninto their coding agents, then I think we'll see the real progress. Because I remember when,\nlike even with the planner mode and executor mode for cursor that, you know, five months ago,\nI was figuring out and putting on YouTube and that was kind of revolutionary. Like, hey, I mean,\nI found that from someone on Twitter, right? But like, that was even a big deal. Like, cool,\nkeep a scratch pad of what's going on. So your AI partner knows what's going on.\nAnd then soon CloudCode came about with a CloudMD file, which is more or less the same thing if you\nput in the right prompts. And so that was supposed to be like built in to CloudCode. And in the same\nvein, I feel like these specs are eventually just going to be built into these agents.\nBut then I ask myself, will they harmonize with these agents?\nBecause these agents are so aggressive.\nThey take so much initiative.\nThey're so ambitious.\nI wonder, would they lose some of their core value proposition if the spec specifications features was built in to it?\nYou know what I'm saying?\nBut this is actually part of why I think that over the short term, we're going to see a number of different folks coming to the market saying,\nhey, we've got a way of doing this that will work.\nSo we're collectively figuring out how to do this in a way that actually makes sense,\nboth for Greenfield as well as for Brownfield projects.\nSo Greenfield would be, hey, I'm starting from scratch.\nI have an idea.\nLet's go.\nBut now for existing projects, how do we work this into existing projects in a way\nwhich prevents like what we've seen in your example, where Claude just goes nuts,\nfor lack of a better term,\nand then just starts doing a whole bunch of stuff\nthat we didn't necessarily say,\nhey, yeah, we really want you to go do that.\nAnd disclaimer,\nI could maybe just not understand this stuff yet,\nand maybe that's the point.\nMaybe it was supposed to do that\nnow that I'm thinking about it.\nI'm still trying to figure out\nhow these specs tools are supposed to actually operate.\nSo let me know in the comments\nwhat you think about spec-driven development\nversus vibe coding,\nor do you do the two together?\nWhat is happening in this brave new world\nWhere does all of this lead?\nWe want to hear from you.\nWe want to get this conversation going.\nOnce again, the AI Captain School offers a free trial.\nCome join the community.\nWe talk a lot.\nWe try to figure this stuff out.\nWe build together.\nWe share.\nAnd we host calls like this, workshops where anyone can join, ask questions, throw in your\ntwo cents.\nThanks for watching and I'll see you next time.",
+  "warnings": [
+    "timedtext_empty_used_ytdlp_fallback"
+  ],
+  "caption_track": {
+    "label": "English",
+    "is_translatable": true
+  },
+  "extraction_strategy": "yt-dlp",
+  "saved_to": "knowledge/raw/youtube/codex-ai-project-management/transcript-2mq8-y-GV28.json"
+}

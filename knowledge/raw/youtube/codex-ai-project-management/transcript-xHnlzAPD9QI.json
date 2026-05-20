@@ -1,0 +1,681 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=xHnlzAPD9QI",
+  "video_id": "xHnlzAPD9QI",
+  "title": "Automate tasks with the Codex app",
+  "channel": "OpenAI",
+  "language": "en",
+  "is_auto_generated": false,
+  "retrieved_at": "2026-05-19T19:50:39Z",
+  "segments": [
+    {
+      "start": 0.0,
+      "duration": 2.9,
+      "text": "So there is a lot about the job"
+    },
+    {
+      "start": 2.93,
+      "duration": 2.77,
+      "text": "isn't actually that fun that I have"
+    },
+    {
+      "start": 5.73,
+      "duration": 2.65,
+      "text": "now automated away almost entirely."
+    },
+    {
+      "start": 9.1,
+      "duration": 1.62,
+      "text": "And so I'll show you a few of those"
+    },
+    {
+      "start": 10.75,
+      "duration": 2.79,
+      "text": "here in our automations tab. And we've"
+    },
+    {
+      "start": 13.57,
+      "duration": 1.47,
+      "text": "got a bunch running now, but we can"
+    },
+    {
+      "start": 15.07,
+      "duration": 1.57,
+      "text": "run down a few of these because I kind"
+    },
+    {
+      "start": 16.67,
+      "duration": 1.59,
+      "text": "of have set up a few different types"
+    },
+    {
+      "start": 18.29,
+      "duration": 1.21,
+      "text": "of automation. And the first type is"
+    },
+    {
+      "start": 19.53,
+      "duration": 1.93,
+      "text": "just sort of information. I'm asking"
+    },
+    {
+      "start": 21.49,
+      "duration": 2.45,
+      "text": "Codex to look at the last day of"
+    },
+    {
+      "start": 23.97,
+      "duration": 2.17,
+      "text": "commits into this section of our"
+    },
+    {
+      "start": 26.17,
+      "duration": 2.57,
+      "text": "monorepo. And basically group them,"
+    },
+    {
+      "start": 28.92,
+      "duration": 2.08,
+      "text": "tell me who worked on what, what got"
+    },
+    {
+      "start": 31.03,
+      "duration": 1.25,
+      "text": "done, what do I need to know about."
+    },
+    {
+      "start": 32.42,
+      "duration": 1.56,
+      "text": "And so I wake up in the morning with"
+    },
+    {
+      "start": 34.01,
+      "duration": 2.37,
+      "text": "almost like a, if you've used JotGPT"
+    },
+    {
+      "start": 36.41,
+      "duration": 2.05,
+      "text": "Pulse, it's like a personalized pulse"
+    },
+    {
+      "start": 38.49,
+      "duration": 1.63,
+      "text": "that I walk, I open the app in the"
+    },
+    {
+      "start": 40.15,
+      "duration": 1.21,
+      "text": "morning and sitting there is like,"
+    },
+    {
+      "start": 41.48,
+      "duration": 1.72,
+      "text": "here's what happened yesterday in the"
+    },
+    {
+      "start": 43.23,
+      "duration": 2.73,
+      "text": "code base, which is super,"
+    },
+    {
+      "start": 46.24,
+      "duration": 1.38,
+      "text": "super useful. So I have one called"
+    },
+    {
+      "start": 47.65,
+      "duration": 2.91,
+      "text": "Upskill. And what Upskill does is"
+    },
+    {
+      "start": 50.59,
+      "duration": 2.13,
+      "text": "it looks at the last day of skill"
+    },
+    {
+      "start": 52.75,
+      "duration": 2.39,
+      "text": "usage. So it says, hey, skills are"
+    },
+    {
+      "start": 55.17,
+      "duration": 1.85,
+      "text": "really useful, but sometimes they take"
+    },
+    {
+      "start": 57.05,
+      "duration": 1.05,
+      "text": "a little bit of tinkering to get"
+    },
+    {
+      "start": 58.13,
+      "duration": 2.51,
+      "text": "right. And so it looks at Codex usage"
+    },
+    {
+      "start": 60.67,
+      "duration": 2.95,
+      "text": "throughout the past day and detects if"
+    },
+    {
+      "start": 63.65,
+      "duration": 1.99,
+      "text": "any skills, like if Codex had any"
+    },
+    {
+      "start": 65.67,
+      "duration": 1.49,
+      "text": "trouble with skills or if any of the"
+    },
+    {
+      "start": 67.19,
+      "duration": 3.01,
+      "text": "scripts didn't work correctly or if"
+    },
+    {
+      "start": 70.23,
+      "duration": 1.59,
+      "text": "like something could be sped up. And"
+    },
+    {
+      "start": 71.85,
+      "duration": 1.61,
+      "text": "it makes improvements to the skills."
+    },
+    {
+      "start": 73.62,
+      "duration": 1.56,
+      "text": "So it's upskilling like overnight."
+    },
+    {
+      "start": 75.48,
+      "duration": 1.34,
+      "text": "Like I'm going to sleep, I wake up,"
+    },
+    {
+      "start": 76.92,
+      "duration": 1.56,
+      "text": "Codex is smarter in the morning based"
+    },
+    {
+      "start": 78.51,
+      "duration": 1.43,
+      "text": "on what we're trying to do here."
+    },
+    {
+      "start": 80.28,
+      "duration": 2.56,
+      "text": "Similarly, update AgentsMD, like"
+    },
+    {
+      "start": 82.87,
+      "duration": 2.59,
+      "text": "this I just have run every, I don't"
+    },
+    {
+      "start": 85.49,
+      "duration": 1.63,
+      "text": "know, six hours. And it just looks at"
+    },
+    {
+      "start": 87.15,
+      "duration": 1.55,
+      "text": "what we've been doing. And if there's"
+    },
+    {
+      "start": 88.73,
+      "duration": 1.95,
+      "text": "any like disagreements or"
+    },
+    {
+      "start": 90.71,
+      "duration": 1.37,
+      "text": "misunderstandings that I've had with"
+    },
+    {
+      "start": 92.11,
+      "duration": 1.85,
+      "text": "Codex or things where things took"
+    },
+    {
+      "start": 93.99,
+      "duration": 2.39,
+      "text": "longer to communicate than, or I used"
+    },
+    {
+      "start": 96.41,
+      "duration": 1.39,
+      "text": "some shorthands that Codex wasn't"
+    },
+    {
+      "start": 97.83,
+      "duration": 1.61,
+      "text": "familiar with, it will just add that"
+    },
+    {
+      "start": 99.47,
+      "duration": 2.01,
+      "text": "to the personalization. So that next"
+    },
+    {
+      "start": 101.51,
+      "duration": 2.35,
+      "text": "time things can just be quicker."
+    },
+    {
+      "start": 104.02,
+      "duration": 1.42,
+      "text": "I've got a few others that are"
+    },
+    {
+      "start": 105.47,
+      "duration": 2.37,
+      "text": "integrated deeply into our other"
+    },
+    {
+      "start": 107.87,
+      "duration": 2.29,
+      "text": "tools. And so one of them is Sentry."
+    },
+    {
+      "start": 110.78,
+      "duration": 1.36,
+      "text": "This is kind of a different type of"
+    },
+    {
+      "start": 112.17,
+      "duration": 2.19,
+      "text": "automation where it's going to go"
+    },
+    {
+      "start": 114.39,
+      "duration": 2.07,
+      "text": "through on whatever schedule, whatever"
+    },
+    {
+      "start": 116.49,
+      "duration": 2.01,
+      "text": "cadence, and it picks off one of the"
+    },
+    {
+      "start": 118.53,
+      "duration": 1.91,
+      "text": "top Sentry issues. So that could be"
+    },
+    {
+      "start": 120.47,
+      "duration": 1.47,
+      "text": "like a performance regression or"
+    },
+    {
+      "start": 121.97,
+      "duration": 2.73,
+      "text": "a crash or an error that's being"
+    },
+    {
+      "start": 124.73,
+      "duration": 3.15,
+      "text": "thrown in the app. And it like goes"
+    },
+    {
+      "start": 127.91,
+      "duration": 1.49,
+      "text": "through all of the information that we"
+    },
+    {
+      "start": 129.43,
+      "duration": 2.75,
+      "text": "have about it, the logs, the maps,"
+    },
+    {
+      "start": 132.26,
+      "duration": 1.64,
+      "text": "everything that Sentry has, it looks"
+    },
+    {
+      "start": 133.93,
+      "duration": 2.41,
+      "text": "at the code base and it picks"
+    },
+    {
+      "start": 136.37,
+      "duration": 2.09,
+      "text": "something to fix basically. And"
+    },
+    {
+      "start": 138.49,
+      "duration": 2.11,
+      "text": "automations have memory. So it"
+    },
+    {
+      "start": 140.63,
+      "duration": 1.93,
+      "text": "remembers what it tried to solve last"
+    },
+    {
+      "start": 142.59,
+      "duration": 1.07,
+      "text": "time. And so you're not going to get a"
+    },
+    {
+      "start": 143.69,
+      "duration": 1.81,
+      "text": "PR like solving the number one issue"
+    },
+    {
+      "start": 145.53,
+      "duration": 2.63,
+      "text": "every hour, right? But it's really"
+    },
+    {
+      "start": 148.19,
+      "duration": 1.91,
+      "text": "good because what this, you know, what"
+    },
+    {
+      "start": 150.13,
+      "duration": 1.89,
+      "text": "this type of automation does is it"
+    },
+    {
+      "start": 152.05,
+      "duration": 2.95,
+      "text": "allows us to focus on what is going to"
+    },
+    {
+      "start": 155.03,
+      "duration": 2.45,
+      "text": "make the Codex app great to use and"
+    },
+    {
+      "start": 157.51,
+      "duration": 2.99,
+      "text": "useful and joyful and all of the"
+    },
+    {
+      "start": 160.53,
+      "duration": 2.25,
+      "text": "things that like, you know,"
+    },
+    {
+      "start": 163.46,
+      "duration": 1.78,
+      "text": "bugs and things that fall through"
+    },
+    {
+      "start": 165.27,
+      "duration": 1.31,
+      "text": "cracks that like aren't quite as"
+    },
+    {
+      "start": 166.61,
+      "duration": 1.31,
+      "text": "fun to figure out, at least for me."
+    },
+    {
+      "start": 168.02,
+      "duration": 2.0,
+      "text": "I know some people love it."
+    },
+    {
+      "start": 171.04,
+      "duration": 1.6,
+      "text": "That stuff can happen kind of behind"
+    },
+    {
+      "start": 172.67,
+      "duration": 1.89,
+      "text": "the scenes, right? And so it's really"
+    },
+    {
+      "start": 174.59,
+      "duration": 2.53,
+      "text": "common that you run into merge"
+    },
+    {
+      "start": 177.15,
+      "duration": 1.27,
+      "text": "conflicts when you try to merge your"
+    },
+    {
+      "start": 178.45,
+      "duration": 1.15,
+      "text": "thing. And like you find, you know,"
+    },
+    {
+      "start": 179.74,
+      "duration": 2.16,
+      "text": "you iterate on your approach and"
+    },
+    {
+      "start": 181.93,
+      "duration": 1.71,
+      "text": "you've got like different types of"
+    },
+    {
+      "start": 183.67,
+      "duration": 1.45,
+      "text": "people giving reviews and then you're"
+    },
+    {
+      "start": 185.15,
+      "duration": 1.61,
+      "text": "finally ready to merge something and"
+    },
+    {
+      "start": 186.79,
+      "duration": 1.49,
+      "text": "there's a conflict. Your CI is failing"
+    },
+    {
+      "start": 188.31,
+      "duration": 2.03,
+      "text": "for, you know, some small reason."
+    },
+    {
+      "start": 190.5,
+      "duration": 1.54,
+      "text": "You got to kind of dive into that. And"
+    },
+    {
+      "start": 192.07,
+      "duration": 2.11,
+      "text": "so I don't like dealing with any of"
+    },
+    {
+      "start": 194.21,
+      "duration": 2.93,
+      "text": "that. Maybe, you know. Most people"
+    },
+    {
+      "start": 197.17,
+      "duration": 1.85,
+      "text": "probably don't. Some people love doing"
+    },
+    {
+      "start": 199.05,
+      "duration": 1.91,
+      "text": "that and they work on CI tools."
+    },
+    {
+      "start": 202.4,
+      "duration": 2.44,
+      "text": "But I have a green PRs automation here"
+    },
+    {
+      "start": 204.87,
+      "duration": 1.33,
+      "text": "that uses some of our skills. So"
+    },
+    {
+      "start": 206.23,
+      "duration": 2.69,
+      "text": "we use BuildKai, we use GitHub. And so"
+    },
+    {
+      "start": 208.95,
+      "duration": 2.19,
+      "text": "what this does is it checks if I have"
+    },
+    {
+      "start": 211.17,
+      "duration": 2.93,
+      "text": "any open PRs and I usually have like"
+    },
+    {
+      "start": 214.13,
+      "duration": 1.81,
+      "text": "at any given time between 10 and"
+    },
+    {
+      "start": 215.97,
+      "duration": 2.27,
+      "text": "20 PRs these days open at a time"
+    },
+    {
+      "start": 218.27,
+      "duration": 3.01,
+      "text": "because of the Codex app. Separate"
+    },
+    {
+      "start": 221.31,
+      "duration": 1.95,
+      "text": "problem. And this is going to go"
+    },
+    {
+      "start": 223.29,
+      "duration": 2.27,
+      "text": "through and it's going to say like, do"
+    },
+    {
+      "start": 225.59,
+      "duration": 2.47,
+      "text": "any have CI failures because of like,"
+    },
+    {
+      "start": 228.3,
+      "duration": 2.48,
+      "text": "you know, something that like linted"
+    },
+    {
+      "start": 230.81,
+      "duration": 2.45,
+      "text": "wrong or like didn't get caught in the"
+    },
+    {
+      "start": 233.29,
+      "duration": 2.21,
+      "text": "pre -push? Or maybe it's going to"
+    },
+    {
+      "start": 235.53,
+      "duration": 1.57,
+      "text": "merge conflict because someone is like"
+    },
+    {
+      "start": 237.13,
+      "duration": 2.15,
+      "text": "also changing it because we're rushing"
+    },
+    {
+      "start": 239.31,
+      "duration": 1.89,
+      "text": "to, you know, finish up a project or"
+    },
+    {
+      "start": 241.23,
+      "duration": 2.11,
+      "text": "something like that. And this is going"
+    },
+    {
+      "start": 243.37,
+      "duration": 0.99,
+      "text": "to go through and it's going to make"
+    },
+    {
+      "start": 244.39,
+      "duration": 1.71,
+      "text": "sure that all my PRs are green. It's"
+    },
+    {
+      "start": 246.13,
+      "duration": 1.09,
+      "text": "going to update the base branch."
+    },
+    {
+      "start": 247.34,
+      "duration": 2.08,
+      "text": "It's going to intelligently resolve"
+    },
+    {
+      "start": 249.45,
+      "duration": 1.37,
+      "text": "merge conflicts by looking at like"
+    },
+    {
+      "start": 250.85,
+      "duration": 2.03,
+      "text": "what have people been trying to do. So"
+    },
+    {
+      "start": 252.91,
+      "duration": 2.41,
+      "text": "it's not just a factual like, you"
+    },
+    {
+      "start": 255.35,
+      "duration": 2.17,
+      "text": "know, I'm going to clean up the like"
+    },
+    {
+      "start": 257.55,
+      "duration": 2.21,
+      "text": "conflict markers. It can look at,"
+    },
+    {
+      "start": 260.54,
+      "duration": 1.26,
+      "text": "oh, like Joey was putting in this"
+    },
+    {
+      "start": 261.83,
+      "duration": 1.57,
+      "text": "feature. So we changed this block for"
+    },
+    {
+      "start": 263.43,
+      "duration": 1.81,
+      "text": "this reason. I'm trying to do this."
+    },
+    {
+      "start": 265.38,
+      "duration": 1.16,
+      "text": "I'm changing it and there's a conflict"
+    },
+    {
+      "start": 266.57,
+      "duration": 1.87,
+      "text": "and like kind of knows how to do that."
+    },
+    {
+      "start": 268.47,
+      "duration": 1.81,
+      "text": "And so that's a very long way of"
+    },
+    {
+      "start": 270.31,
+      "duration": 1.65,
+      "text": "saying my PRs are always green."
+    }
+  ],
+  "plain_text": "So there is a lot about the job\nisn't actually that fun that I have\nnow automated away almost entirely.\nAnd so I'll show you a few of those\nhere in our automations tab. And we've\ngot a bunch running now, but we can\nrun down a few of these because I kind\nof have set up a few different types\nof automation. And the first type is\njust sort of information. I'm asking\nCodex to look at the last day of\ncommits into this section of our\nmonorepo. And basically group them,\ntell me who worked on what, what got\ndone, what do I need to know about.\nAnd so I wake up in the morning with\nalmost like a, if you've used JotGPT\nPulse, it's like a personalized pulse\nthat I walk, I open the app in the\nmorning and sitting there is like,\nhere's what happened yesterday in the\ncode base, which is super,\nsuper useful. So I have one called\nUpskill. And what Upskill does is\nit looks at the last day of skill\nusage. So it says, hey, skills are\nreally useful, but sometimes they take\na little bit of tinkering to get\nright. And so it looks at Codex usage\nthroughout the past day and detects if\nany skills, like if Codex had any\ntrouble with skills or if any of the\nscripts didn't work correctly or if\nlike something could be sped up. And\nit makes improvements to the skills.\nSo it's upskilling like overnight.\nLike I'm going to sleep, I wake up,\nCodex is smarter in the morning based\non what we're trying to do here.\nSimilarly, update AgentsMD, like\nthis I just have run every, I don't\nknow, six hours. And it just looks at\nwhat we've been doing. And if there's\nany like disagreements or\nmisunderstandings that I've had with\nCodex or things where things took\nlonger to communicate than, or I used\nsome shorthands that Codex wasn't\nfamiliar with, it will just add that\nto the personalization. So that next\ntime things can just be quicker.\nI've got a few others that are\nintegrated deeply into our other\ntools. And so one of them is Sentry.\nThis is kind of a different type of\nautomation where it's going to go\nthrough on whatever schedule, whatever\ncadence, and it picks off one of the\ntop Sentry issues. So that could be\nlike a performance regression or\na crash or an error that's being\nthrown in the app. And it like goes\nthrough all of the information that we\nhave about it, the logs, the maps,\neverything that Sentry has, it looks\nat the code base and it picks\nsomething to fix basically. And\nautomations have memory. So it\nremembers what it tried to solve last\ntime. And so you're not going to get a\nPR like solving the number one issue\nevery hour, right? But it's really\ngood because what this, you know, what\nthis type of automation does is it\nallows us to focus on what is going to\nmake the Codex app great to use and\nuseful and joyful and all of the\nthings that like, you know,\nbugs and things that fall through\ncracks that like aren't quite as\nfun to figure out, at least for me.\nI know some people love it.\nThat stuff can happen kind of behind\nthe scenes, right? And so it's really\ncommon that you run into merge\nconflicts when you try to merge your\nthing. And like you find, you know,\nyou iterate on your approach and\nyou've got like different types of\npeople giving reviews and then you're\nfinally ready to merge something and\nthere's a conflict. Your CI is failing\nfor, you know, some small reason.\nYou got to kind of dive into that. And\nso I don't like dealing with any of\nthat. Maybe, you know. Most people\nprobably don't. Some people love doing\nthat and they work on CI tools.\nBut I have a green PRs automation here\nthat uses some of our skills. So\nwe use BuildKai, we use GitHub. And so\nwhat this does is it checks if I have\nany open PRs and I usually have like\nat any given time between 10 and\n20 PRs these days open at a time\nbecause of the Codex app. Separate\nproblem. And this is going to go\nthrough and it's going to say like, do\nany have CI failures because of like,\nyou know, something that like linted\nwrong or like didn't get caught in the\npre -push? Or maybe it's going to\nmerge conflict because someone is like\nalso changing it because we're rushing\nto, you know, finish up a project or\nsomething like that. And this is going\nto go through and it's going to make\nsure that all my PRs are green. It's\ngoing to update the base branch.\nIt's going to intelligently resolve\nmerge conflicts by looking at like\nwhat have people been trying to do. So\nit's not just a factual like, you\nknow, I'm going to clean up the like\nconflict markers. It can look at,\noh, like Joey was putting in this\nfeature. So we changed this block for\nthis reason. I'm trying to do this.\nI'm changing it and there's a conflict\nand like kind of knows how to do that.\nAnd so that's a very long way of\nsaying my PRs are always green.",
+  "warnings": [
+    "timedtext_empty_used_ytdlp_fallback"
+  ],
+  "caption_track": {
+    "label": "English",
+    "is_translatable": true
+  },
+  "extraction_strategy": "yt-dlp",
+  "saved_to": "knowledge/raw/youtube/codex-ai-project-management/transcript-xHnlzAPD9QI.json"
+}

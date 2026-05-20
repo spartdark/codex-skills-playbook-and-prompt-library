@@ -1,0 +1,92 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "FoWJwiSCuC6SmSWkYnZ1TTXIpQ4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "kWWEKvOwSxNQPQ-raPKP78V5gfU",
+      "id": "FQnj8MhQ7zc",
+      "snippet": {
+        "publishedAt": "2026-05-20T15:00:21Z",
+        "channelId": "UCDOUnLypYZFVGjB70QkR8ZQ",
+        "title": "Build a REAL Delivery App with Codex and Supabase (Full Tutorial)",
+        "description": "► Grab The Full Prompt Pack, Exclusive Tutorials & Support: https://www.patreon.com/jamesnocode\n\nFREE CODEX TUTORIALS:\n► https://www.youtube.com/playlist?list=PLrOdxQrSTe5EGcl-DgAemdX8NUjc0F4ru\n\nCOURSES:\n► Comprehensive FlutterFlow Training & Private Community: https://masteringflutterflow.com\n► Comprehensive Supabase Training & Private Community: https://masteringsupabase.com \n► [NEW] Comprehensive BuildShip Training & Private Community: https://masteringbuildship.com \n\n\n\nTIMESTAMPS\n00:00 Intro  \n00:18 Tools We'll Be Using  \n01:17 Tech Stack Overview  \n05:40 Visual Diagram & Entity Setup  \n10:04 Planning the Expo Delivery App Backend  \n13:33 Launching the Blank Expo App  \n14:49 Debugging Our First Issue  \n17:19 Generating the Stitch Prompt \n31:30 Configuring the Supabase Backend  \n36:17 Supabase Data & RLS Configuration  \n38:55 Connecting Supabase to Expo  \n42:15 Building the Restaurant Browsing Experience  \n45:19 Adding Categories, Filters & Favorites  \n48:45 Building the Cart Detail Flow  \n50:47 Adding Item Customization  \n53:22 Building Checkout & Order Flow  \n56:02 Adding Saved Addresses & Delivery Flow  \n58:05 Building Profile, Orders & Tracking  \n1:00:08 Adding the Order Status Timeline  \n1:01:58 Debugging & Testing the Full Simulator  \n1:06:21 Final Simulator Demo Pass  \n1:08:12 Improvements & Refinements  \n1:10:13 Part 2?\n1:10:37 Prompts & Resources",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FQnj8MhQ7zc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FQnj8MhQ7zc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FQnj8MhQ7zc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FQnj8MhQ7zc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FQnj8MhQ7zc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "James NoCode",
+        "tags": [
+          "codex tutorial",
+          "supabase tutorial",
+          "delivery app tutorial",
+          "uber eats clone",
+          "food delivery app",
+          "react native tutorial",
+          "expo tutorial",
+          "ai app builder",
+          "build delivery app",
+          "codex app tutorial",
+          "supabase expo app",
+          "mobile app tutorial",
+          "full stack app tutorial",
+          "ai coding tutorial",
+          "openai codex",
+          "react native expo",
+          "supabase authentication",
+          "supabase rls",
+          "expo router tutorial",
+          "restaurant app tutorial",
+          "mobile app development",
+          "production ready app",
+          "no code ai",
+          "ai development workflow"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Build a REAL Delivery App with Codex and Supabase (Full Tutorial)",
+          "description": "► Grab The Full Prompt Pack, Exclusive Tutorials & Support: https://www.patreon.com/jamesnocode\n\nFREE CODEX TUTORIALS:\n► https://www.youtube.com/playlist?list=PLrOdxQrSTe5EGcl-DgAemdX8NUjc0F4ru\n\nCOURSES:\n► Comprehensive FlutterFlow Training & Private Community: https://masteringflutterflow.com\n► Comprehensive Supabase Training & Private Community: https://masteringsupabase.com \n► [NEW] Comprehensive BuildShip Training & Private Community: https://masteringbuildship.com \n\n\n\nTIMESTAMPS\n00:00 Intro  \n00:18 Tools We'll Be Using  \n01:17 Tech Stack Overview  \n05:40 Visual Diagram & Entity Setup  \n10:04 Planning the Expo Delivery App Backend  \n13:33 Launching the Blank Expo App  \n14:49 Debugging Our First Issue  \n17:19 Generating the Stitch Prompt \n31:30 Configuring the Supabase Backend  \n36:17 Supabase Data & RLS Configuration  \n38:55 Connecting Supabase to Expo  \n42:15 Building the Restaurant Browsing Experience  \n45:19 Adding Categories, Filters & Favorites  \n48:45 Building the Cart Detail Flow  \n50:47 Adding Item Customization  \n53:22 Building Checkout & Order Flow  \n56:02 Adding Saved Addresses & Delivery Flow  \n58:05 Building Profile, Orders & Tracking  \n1:00:08 Adding the Order Status Timeline  \n1:01:58 Debugging & Testing the Full Simulator  \n1:06:21 Final Simulator Demo Pass  \n1:08:12 Improvements & Refinements  \n1:10:13 Part 2?\n1:10:37 Prompts & Resources"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT1H11M7S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

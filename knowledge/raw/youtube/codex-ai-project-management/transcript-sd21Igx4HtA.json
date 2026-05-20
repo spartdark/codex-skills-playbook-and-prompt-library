@@ -1,0 +1,2271 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=sd21Igx4HtA",
+  "video_id": "sd21Igx4HtA",
+  "title": "OpenAI Codex in your code editor",
+  "channel": "OpenAI",
+  "language": "en",
+  "is_auto_generated": true,
+  "retrieved_at": "2026-05-19T19:50:54Z",
+  "segments": [
+    {
+      "start": 3.35,
+      "duration": 0.01,
+      "text": "And we'll roll in those cameras."
+    },
+    {
+      "start": 3.36,
+      "duration": 1.03,
+      "text": "And we'll roll in those cameras. >> Great. Thank you."
+    },
+    {
+      "start": 4.39,
+      "duration": 0.01,
+      "text": ">> Great. Thank you."
+    },
+    {
+      "start": 4.4,
+      "duration": 0.869,
+      "text": ">> Great. Thank you. >> Yeah."
+    },
+    {
+      "start": 5.269,
+      "duration": 0.01,
+      "text": ">> Yeah."
+    },
+    {
+      "start": 5.279,
+      "duration": 2.151,
+      "text": ">> Yeah. >> Hey everyone, I'm Roma. We've been"
+    },
+    {
+      "start": 7.43,
+      "duration": 0.01,
+      "text": ">> Hey everyone, I'm Roma. We've been"
+    },
+    {
+      "start": 7.44,
+      "duration": 1.99,
+      "text": ">> Hey everyone, I'm Roma. We've been steadily improving Codex to make it feel"
+    },
+    {
+      "start": 9.43,
+      "duration": 0.01,
+      "text": "steadily improving Codex to make it feel"
+    },
+    {
+      "start": 9.44,
+      "duration": 2.229,
+      "text": "steadily improving Codex to make it feel like a more capable and reliable coding"
+    },
+    {
+      "start": 11.669,
+      "duration": 0.01,
+      "text": "like a more capable and reliable coding"
+    },
+    {
+      "start": 11.679,
+      "duration": 1.99,
+      "text": "like a more capable and reliable coding collaborator. And for us, it's very"
+    },
+    {
+      "start": 13.669,
+      "duration": 0.01,
+      "text": "collaborator. And for us, it's very"
+    },
+    {
+      "start": 13.679,
+      "duration": 1.83,
+      "text": "collaborator. And for us, it's very important for Codex to be everywhere you"
+    },
+    {
+      "start": 15.509,
+      "duration": 0.01,
+      "text": "important for Codex to be everywhere you"
+    },
+    {
+      "start": 15.519,
+      "duration": 1.991,
+      "text": "important for Codex to be everywhere you work. And that's why we launched an ID"
+    },
+    {
+      "start": 17.51,
+      "duration": 0.01,
+      "text": "work. And that's why we launched an ID"
+    },
+    {
+      "start": 17.52,
+      "duration": 2.39,
+      "text": "work. And that's why we launched an ID extension. You can now have codeex right"
+    },
+    {
+      "start": 19.91,
+      "duration": 0.01,
+      "text": "extension. You can now have codeex right"
+    },
+    {
+      "start": 19.92,
+      "duration": 1.59,
+      "text": "extension. You can now have codeex right in your code editor, whether it's like"
+    },
+    {
+      "start": 21.51,
+      "duration": 0.01,
+      "text": "in your code editor, whether it's like"
+    },
+    {
+      "start": 21.52,
+      "duration": 1.749,
+      "text": "in your code editor, whether it's like VS Code, Cursor, Windsor, or many"
+    },
+    {
+      "start": 23.269,
+      "duration": 0.01,
+      "text": "VS Code, Cursor, Windsor, or many"
+    },
+    {
+      "start": 23.279,
+      "duration": 1.91,
+      "text": "VS Code, Cursor, Windsor, or many others. And with me today, I have"
+    },
+    {
+      "start": 25.189,
+      "duration": 0.01,
+      "text": "others. And with me today, I have"
+    },
+    {
+      "start": 25.199,
+      "duration": 1.591,
+      "text": "others. And with me today, I have Gabriel, engineering lead on the"
+    },
+    {
+      "start": 26.79,
+      "duration": 0.01,
+      "text": "Gabriel, engineering lead on the"
+    },
+    {
+      "start": 26.8,
+      "duration": 1.99,
+      "text": "Gabriel, engineering lead on the extension to give us a quick tour. We on"
+    },
+    {
+      "start": 28.79,
+      "duration": 0.01,
+      "text": "extension to give us a quick tour. We on"
+    },
+    {
+      "start": 28.8,
+      "duration": 1.67,
+      "text": "extension to give us a quick tour. We on the team have been working really hard"
+    },
+    {
+      "start": 30.47,
+      "duration": 0.01,
+      "text": "the team have been working really hard"
+    },
+    {
+      "start": 30.48,
+      "duration": 1.909,
+      "text": "the team have been working really hard to bring lots of new things to Codex and"
+    },
+    {
+      "start": 32.389,
+      "duration": 0.01,
+      "text": "to bring lots of new things to Codex and"
+    },
+    {
+      "start": 32.399,
+      "duration": 1.351,
+      "text": "to bring lots of new things to Codex and I can't wait to show you."
+    },
+    {
+      "start": 33.75,
+      "duration": 0.01,
+      "text": "I can't wait to show you."
+    },
+    {
+      "start": 33.76,
+      "duration": 4.15,
+      "text": "I can't wait to show you. >> Amazing. Let's dive in."
+    },
+    {
+      "start": 40.63,
+      "duration": 0.01,
+      "text": ">> So, I'm working on this OpenA FM project"
+    },
+    {
+      "start": 40.64,
+      "duration": 2.229,
+      "text": ">> So, I'm working on this OpenA FM project and I noticed that it's using service"
+    },
+    {
+      "start": 42.869,
+      "duration": 0.01,
+      "text": "and I noticed that it's using service"
+    },
+    {
+      "start": 42.879,
+      "duration": 1.99,
+      "text": "and I noticed that it's using service workers. There's this interesting return"
+    },
+    {
+      "start": 44.869,
+      "duration": 0.01,
+      "text": "workers. There's this interesting return"
+    },
+    {
+      "start": 44.879,
+      "duration": 2.311,
+      "text": "workers. There's this interesting return clause. I'm going to go over to Codeex"
+    },
+    {
+      "start": 47.19,
+      "duration": 0.01,
+      "text": "clause. I'm going to go over to Codeex"
+    },
+    {
+      "start": 47.2,
+      "duration": 3.029,
+      "text": "clause. I'm going to go over to Codeex and just ask it why. So, what is this"
+    },
+    {
+      "start": 50.229,
+      "duration": 0.01,
+      "text": "and just ask it why. So, what is this"
+    },
+    {
+      "start": 50.239,
+      "duration": 2.47,
+      "text": "and just ask it why. So, what is this clause for? You'll notice that there's"
+    },
+    {
+      "start": 52.709,
+      "duration": 0.01,
+      "text": "clause for? You'll notice that there's"
+    },
+    {
+      "start": 52.719,
+      "duration": 2.631,
+      "text": "clause for? You'll notice that there's an autoc context button that tells"
+    },
+    {
+      "start": 55.35,
+      "duration": 0.01,
+      "text": "an autoc context button that tells"
+    },
+    {
+      "start": 55.36,
+      "duration": 1.59,
+      "text": "an autoc context button that tells codeex everything that I've recently"
+    },
+    {
+      "start": 56.95,
+      "duration": 0.01,
+      "text": "codeex everything that I've recently"
+    },
+    {
+      "start": 56.96,
+      "duration": 1.03,
+      "text": "codeex everything that I've recently done in my IDE."
+    },
+    {
+      "start": 57.99,
+      "duration": 0.01,
+      "text": "done in my IDE."
+    },
+    {
+      "start": 58.0,
+      "duration": 1.189,
+      "text": "done in my IDE. >> So what that means here is that"
+    },
+    {
+      "start": 59.189,
+      "duration": 0.01,
+      "text": ">> So what that means here is that"
+    },
+    {
+      "start": 59.199,
+      "duration": 1.99,
+      "text": ">> So what that means here is that basically you're using GPD5 codeex the"
+    },
+    {
+      "start": 61.189,
+      "duration": 0.01,
+      "text": "basically you're using GPD5 codeex the"
+    },
+    {
+      "start": 61.199,
+      "duration": 1.591,
+      "text": "basically you're using GPD5 codeex the new model we launched but you're kind of"
+    },
+    {
+      "start": 62.79,
+      "duration": 0.01,
+      "text": "new model we launched but you're kind of"
+    },
+    {
+      "start": 62.8,
+      "duration": 1.669,
+      "text": "new model we launched but you're kind of like I'm guessing prompting it a little"
+    },
+    {
+      "start": 64.469,
+      "duration": 0.01,
+      "text": "like I'm guessing prompting it a little"
+    },
+    {
+      "start": 64.479,
+      "duration": 1.111,
+      "text": "like I'm guessing prompting it a little differently when you're in the"
+    },
+    {
+      "start": 65.59,
+      "duration": 0.01,
+      "text": "differently when you're in the"
+    },
+    {
+      "start": 65.6,
+      "duration": 2.23,
+      "text": "differently when you're in the >> ID. Exactly. Exactly. So in this case"
+    },
+    {
+      "start": 67.83,
+      "duration": 0.01,
+      "text": ">> ID. Exactly. Exactly. So in this case"
+    },
+    {
+      "start": 67.84,
+      "duration": 2.15,
+      "text": ">> ID. Exactly. Exactly. So in this case I've just said what is this clause for?"
+    },
+    {
+      "start": 69.99,
+      "duration": 0.01,
+      "text": "I've just said what is this clause for?"
+    },
+    {
+      "start": 70.0,
+      "duration": 1.99,
+      "text": "I've just said what is this clause for? And it said it short circuits the effect"
+    },
+    {
+      "start": 71.99,
+      "duration": 0.01,
+      "text": "And it said it short circuits the effect"
+    },
+    {
+      "start": 72.0,
+      "duration": 1.75,
+      "text": "And it said it short circuits the effect when the browser doesn't support service"
+    },
+    {
+      "start": 73.75,
+      "duration": 0.01,
+      "text": "when the browser doesn't support service"
+    },
+    {
+      "start": 73.76,
+      "duration": 2.07,
+      "text": "when the browser doesn't support service workers which makes sense. If it"
+    },
+    {
+      "start": 75.83,
+      "duration": 0.01,
+      "text": "workers which makes sense. If it"
+    },
+    {
+      "start": 75.84,
+      "duration": 1.43,
+      "text": "workers which makes sense. If it determines that something is easy or a"
+    },
+    {
+      "start": 77.27,
+      "duration": 0.01,
+      "text": "determines that something is easy or a"
+    },
+    {
+      "start": 77.28,
+      "duration": 1.99,
+      "text": "determines that something is easy or a simple chat prompt it'll usually respond"
+    },
+    {
+      "start": 79.27,
+      "duration": 0.01,
+      "text": "simple chat prompt it'll usually respond"
+    },
+    {
+      "start": 79.28,
+      "duration": 1.509,
+      "text": "simple chat prompt it'll usually respond pretty quickly. Why don't you gonna"
+    },
+    {
+      "start": 80.789,
+      "duration": 0.01,
+      "text": "pretty quickly. Why don't you gonna"
+    },
+    {
+      "start": 80.799,
+      "duration": 1.911,
+      "text": "pretty quickly. Why don't you gonna navigate the codebase a little bit and"
+    },
+    {
+      "start": 82.71,
+      "duration": 0.01,
+      "text": "navigate the codebase a little bit and"
+    },
+    {
+      "start": 82.72,
+      "duration": 2.15,
+      "text": "navigate the codebase a little bit and um let's pick something to implement."
+    },
+    {
+      "start": 84.87,
+      "duration": 0.01,
+      "text": "um let's pick something to implement."
+    },
+    {
+      "start": 84.88,
+      "duration": 2.47,
+      "text": "um let's pick something to implement. >> Great. This button component happens to"
+    },
+    {
+      "start": 87.35,
+      "duration": 0.01,
+      "text": ">> Great. This button component happens to"
+    },
+    {
+      "start": 87.36,
+      "duration": 1.83,
+      "text": ">> Great. This button component happens to have a to-do to add a hover state."
+    },
+    {
+      "start": 89.19,
+      "duration": 0.01,
+      "text": "have a to-do to add a hover state."
+    },
+    {
+      "start": 89.2,
+      "duration": 0.63,
+      "text": "have a to-do to add a hover state. >> Yep."
+    },
+    {
+      "start": 89.83,
+      "duration": 0.01,
+      "text": ">> Yep."
+    },
+    {
+      "start": 89.84,
+      "duration": 1.75,
+      "text": ">> Yep. >> And if you have codeex installed, it"
+    },
+    {
+      "start": 91.59,
+      "duration": 0.01,
+      "text": ">> And if you have codeex installed, it"
+    },
+    {
+      "start": 91.6,
+      "duration": 1.35,
+      "text": ">> And if you have codeex installed, it will give you an opportunity to"
+    },
+    {
+      "start": 92.95,
+      "duration": 0.01,
+      "text": "will give you an opportunity to"
+    },
+    {
+      "start": 92.96,
+      "duration": 1.91,
+      "text": "will give you an opportunity to implement any to-do comments with"
+    },
+    {
+      "start": 94.87,
+      "duration": 0.01,
+      "text": "implement any to-do comments with"
+    },
+    {
+      "start": 94.88,
+      "duration": 2.47,
+      "text": "implement any to-do comments with codeex. So if I click it, it's going to"
+    },
+    {
+      "start": 97.35,
+      "duration": 0.01,
+      "text": "codeex. So if I click it, it's going to"
+    },
+    {
+      "start": 97.36,
+      "duration": 1.91,
+      "text": "codeex. So if I click it, it's going to kick off a local conversation and give"
+    },
+    {
+      "start": 99.27,
+      "duration": 0.01,
+      "text": "kick off a local conversation and give"
+    },
+    {
+      "start": 99.28,
+      "duration": 2.31,
+      "text": "kick off a local conversation and give Codex all the context it needs to fix"
+    },
+    {
+      "start": 101.59,
+      "duration": 0.01,
+      "text": "Codex all the context it needs to fix"
+    },
+    {
+      "start": 101.6,
+      "duration": 0.39,
+      "text": "Codex all the context it needs to fix this."
+    },
+    {
+      "start": 101.99,
+      "duration": 0.01,
+      "text": "this."
+    },
+    {
+      "start": 102.0,
+      "duration": 1.67,
+      "text": "this. >> That's awesome. So anyone that has like"
+    },
+    {
+      "start": 103.67,
+      "duration": 0.01,
+      "text": ">> That's awesome. So anyone that has like"
+    },
+    {
+      "start": 103.68,
+      "duration": 2.389,
+      "text": ">> That's awesome. So anyone that has like any to-dos or any task in their backlog"
+    },
+    {
+      "start": 106.069,
+      "duration": 0.01,
+      "text": "any to-dos or any task in their backlog"
+    },
+    {
+      "start": 106.079,
+      "duration": 1.831,
+      "text": "any to-dos or any task in their backlog can just like start sending them over to"
+    },
+    {
+      "start": 107.91,
+      "duration": 0.01,
+      "text": "can just like start sending them over to"
+    },
+    {
+      "start": 107.92,
+      "duration": 1.75,
+      "text": "can just like start sending them over to Codeex. Yeah, that's right."
+    },
+    {
+      "start": 109.67,
+      "duration": 0.01,
+      "text": "Codeex. Yeah, that's right."
+    },
+    {
+      "start": 109.68,
+      "duration": 1.51,
+      "text": "Codeex. Yeah, that's right. >> Can you show us a little bit like what's"
+    },
+    {
+      "start": 111.19,
+      "duration": 0.01,
+      "text": ">> Can you show us a little bit like what's"
+    },
+    {
+      "start": 111.2,
+      "duration": 1.75,
+      "text": ">> Can you show us a little bit like what's happening behind the scenes now?"
+    },
+    {
+      "start": 112.95,
+      "duration": 0.01,
+      "text": "happening behind the scenes now?"
+    },
+    {
+      "start": 112.96,
+      "duration": 1.75,
+      "text": "happening behind the scenes now? >> So behind the scenes when you ask Codeex"
+    },
+    {
+      "start": 114.71,
+      "duration": 0.01,
+      "text": ">> So behind the scenes when you ask Codeex"
+    },
+    {
+      "start": 114.72,
+      "duration": 1.83,
+      "text": ">> So behind the scenes when you ask Codeex to do something, it starts exploring"
+    },
+    {
+      "start": 116.55,
+      "duration": 0.01,
+      "text": "to do something, it starts exploring"
+    },
+    {
+      "start": 116.56,
+      "duration": 1.75,
+      "text": "to do something, it starts exploring your codebase and running commands and"
+    },
+    {
+      "start": 118.31,
+      "duration": 0.01,
+      "text": "your codebase and running commands and"
+    },
+    {
+      "start": 118.32,
+      "duration": 1.51,
+      "text": "your codebase and running commands and you can see its progression as it's"
+    },
+    {
+      "start": 119.83,
+      "duration": 0.01,
+      "text": "you can see its progression as it's"
+    },
+    {
+      "start": 119.84,
+      "duration": 2.629,
+      "text": "you can see its progression as it's going along. First, it's reading code"
+    },
+    {
+      "start": 122.469,
+      "duration": 0.01,
+      "text": "going along. First, it's reading code"
+    },
+    {
+      "start": 122.479,
+      "duration": 1.511,
+      "text": "going along. First, it's reading code and then when it decides to run"
+    },
+    {
+      "start": 123.99,
+      "duration": 0.01,
+      "text": "and then when it decides to run"
+    },
+    {
+      "start": 124.0,
+      "duration": 3.27,
+      "text": "and then when it decides to run commands, it runs in a safe sandbox that"
+    },
+    {
+      "start": 127.27,
+      "duration": 0.01,
+      "text": "commands, it runs in a safe sandbox that"
+    },
+    {
+      "start": 127.28,
+      "duration": 1.749,
+      "text": "commands, it runs in a safe sandbox that ensures that it's not going to modify"
+    },
+    {
+      "start": 129.029,
+      "duration": 0.01,
+      "text": "ensures that it's not going to modify"
+    },
+    {
+      "start": 129.039,
+      "duration": 2.951,
+      "text": "ensures that it's not going to modify files outside of your project. And if"
+    },
+    {
+      "start": 131.99,
+      "duration": 0.01,
+      "text": "files outside of your project. And if"
+    },
+    {
+      "start": 132.0,
+      "duration": 1.51,
+      "text": "files outside of your project. And if the model ever needs to do something"
+    },
+    {
+      "start": 133.51,
+      "duration": 0.01,
+      "text": "the model ever needs to do something"
+    },
+    {
+      "start": 133.52,
+      "duration": 1.83,
+      "text": "the model ever needs to do something that it thinks it can't run successfully"
+    },
+    {
+      "start": 135.35,
+      "duration": 0.01,
+      "text": "that it thinks it can't run successfully"
+    },
+    {
+      "start": 135.36,
+      "duration": 1.83,
+      "text": "that it thinks it can't run successfully in the sandbox, it can ask you for"
+    },
+    {
+      "start": 137.19,
+      "duration": 0.01,
+      "text": "in the sandbox, it can ask you for"
+    },
+    {
+      "start": 137.2,
+      "duration": 2.15,
+      "text": "in the sandbox, it can ask you for permission. It explored the codebase. It"
+    },
+    {
+      "start": 139.35,
+      "duration": 0.01,
+      "text": "permission. It explored the codebase. It"
+    },
+    {
+      "start": 139.36,
+      "duration": 1.83,
+      "text": "permission. It explored the codebase. It updated the button and then it made a"
+    },
+    {
+      "start": 141.19,
+      "duration": 0.01,
+      "text": "updated the button and then it made a"
+    },
+    {
+      "start": 141.2,
+      "duration": 1.83,
+      "text": "updated the button and then it made a bunch of changes at the end. You can"
+    },
+    {
+      "start": 143.03,
+      "duration": 0.01,
+      "text": "bunch of changes at the end. You can"
+    },
+    {
+      "start": 143.04,
+      "duration": 1.909,
+      "text": "bunch of changes at the end. You can then review the changes right in your"
+    },
+    {
+      "start": 144.949,
+      "duration": 0.01,
+      "text": "then review the changes right in your"
+    },
+    {
+      "start": 144.959,
+      "duration": 2.151,
+      "text": "then review the changes right in your IDE to see all the changes it made in"
+    },
+    {
+      "start": 147.11,
+      "duration": 0.01,
+      "text": "IDE to see all the changes it made in"
+    },
+    {
+      "start": 147.12,
+      "duration": 0.87,
+      "text": "IDE to see all the changes it made in one place. Y"
+    },
+    {
+      "start": 147.99,
+      "duration": 0.01,
+      "text": "one place. Y"
+    },
+    {
+      "start": 148.0,
+      "duration": 2.15,
+      "text": "one place. Y >> but I think we should just go see if it"
+    },
+    {
+      "start": 150.15,
+      "duration": 0.01,
+      "text": ">> but I think we should just go see if it"
+    },
+    {
+      "start": 150.16,
+      "duration": 0.63,
+      "text": ">> but I think we should just go see if it worked."
+    },
+    {
+      "start": 150.79,
+      "duration": 0.01,
+      "text": "worked."
+    },
+    {
+      "start": 150.8,
+      "duration": 1.67,
+      "text": "worked. >> Let's do it. Moment of truth."
+    },
+    {
+      "start": 152.47,
+      "duration": 0.01,
+      "text": ">> Let's do it. Moment of truth."
+    },
+    {
+      "start": 152.48,
+      "duration": 1.59,
+      "text": ">> Let's do it. Moment of truth. >> Hop over to the browser and I'm going to"
+    },
+    {
+      "start": 154.07,
+      "duration": 0.01,
+      "text": ">> Hop over to the browser and I'm going to"
+    },
+    {
+      "start": 154.08,
+      "duration": 1.429,
+      "text": ">> Hop over to the browser and I'm going to hover over these buttons. And as you can"
+    },
+    {
+      "start": 155.509,
+      "duration": 0.01,
+      "text": "hover over these buttons. And as you can"
+    },
+    {
+      "start": 155.519,
+      "duration": 2.151,
+      "text": "hover over these buttons. And as you can see, there's a nice subtle hover state"
+    },
+    {
+      "start": 157.67,
+      "duration": 0.01,
+      "text": "see, there's a nice subtle hover state"
+    },
+    {
+      "start": 157.68,
+      "duration": 1.909,
+      "text": "see, there's a nice subtle hover state where it the shadow expands, the card"
+    },
+    {
+      "start": 159.589,
+      "duration": 0.01,
+      "text": "where it the shadow expands, the card"
+    },
+    {
+      "start": 159.599,
+      "duration": 1.591,
+      "text": "where it the shadow expands, the card shifts up a little bit. I was looking"
+    },
+    {
+      "start": 161.19,
+      "duration": 0.01,
+      "text": "shifts up a little bit. I was looking"
+    },
+    {
+      "start": 161.2,
+      "duration": 1.43,
+      "text": "shifts up a little bit. I was looking around the the site and I noticed that"
+    },
+    {
+      "start": 162.63,
+      "duration": 0.01,
+      "text": "around the the site and I noticed that"
+    },
+    {
+      "start": 162.64,
+      "duration": 1.75,
+      "text": "around the the site and I noticed that there's a few other elements that also"
+    },
+    {
+      "start": 164.39,
+      "duration": 0.01,
+      "text": "there's a few other elements that also"
+    },
+    {
+      "start": 164.4,
+      "duration": 1.829,
+      "text": "there's a few other elements that also don't have a hover state. So, what I'm"
+    },
+    {
+      "start": 166.229,
+      "duration": 0.01,
+      "text": "don't have a hover state. So, what I'm"
+    },
+    {
+      "start": 166.239,
+      "duration": 1.431,
+      "text": "don't have a hover state. So, what I'm going to do now is I'm going to take"
+    },
+    {
+      "start": 167.67,
+      "duration": 0.01,
+      "text": "going to do now is I'm going to take"
+    },
+    {
+      "start": 167.68,
+      "duration": 2.15,
+      "text": "going to do now is I'm going to take this conversation we just had and I'm"
+    },
+    {
+      "start": 169.83,
+      "duration": 0.01,
+      "text": "this conversation we just had and I'm"
+    },
+    {
+      "start": 169.84,
+      "duration": 1.83,
+      "text": "this conversation we just had and I'm going to move it from local into the"
+    },
+    {
+      "start": 171.67,
+      "duration": 0.01,
+      "text": "going to move it from local into the"
+    },
+    {
+      "start": 171.68,
+      "duration": 2.15,
+      "text": "going to move it from local into the cloud. And this is going to use codeex"
+    },
+    {
+      "start": 173.83,
+      "duration": 0.01,
+      "text": "cloud. And this is going to use codeex"
+    },
+    {
+      "start": 173.84,
+      "duration": 2.79,
+      "text": "cloud. And this is going to use codeex in the cloud to continue this task"
+    },
+    {
+      "start": 176.63,
+      "duration": 0.01,
+      "text": "in the cloud to continue this task"
+    },
+    {
+      "start": 176.64,
+      "duration": 1.83,
+      "text": "in the cloud to continue this task without taking over my computer."
+    },
+    {
+      "start": 178.47,
+      "duration": 0.01,
+      "text": "without taking over my computer."
+    },
+    {
+      "start": 178.48,
+      "duration": 1.35,
+      "text": "without taking over my computer. >> I think it's like completely changing"
+    },
+    {
+      "start": 179.83,
+      "duration": 0.01,
+      "text": ">> I think it's like completely changing"
+    },
+    {
+      "start": 179.84,
+      "duration": 1.51,
+      "text": ">> I think it's like completely changing the way we think about engineering,"
+    },
+    {
+      "start": 181.35,
+      "duration": 0.01,
+      "text": "the way we think about engineering,"
+    },
+    {
+      "start": 181.36,
+      "duration": 1.83,
+      "text": "the way we think about engineering, right? Because you can start like a task"
+    },
+    {
+      "start": 183.19,
+      "duration": 0.01,
+      "text": "right? Because you can start like a task"
+    },
+    {
+      "start": 183.2,
+      "duration": 1.99,
+      "text": "right? Because you can start like a task locally upload it to your teammate in"
+    },
+    {
+      "start": 185.19,
+      "duration": 0.01,
+      "text": "locally upload it to your teammate in"
+    },
+    {
+      "start": 185.2,
+      "duration": 1.91,
+      "text": "locally upload it to your teammate in the cloud to just take care of it."
+    },
+    {
+      "start": 187.11,
+      "duration": 0.01,
+      "text": "the cloud to just take care of it."
+    },
+    {
+      "start": 187.12,
+      "duration": 1.029,
+      "text": "the cloud to just take care of it. >> That's really magical."
+    },
+    {
+      "start": 188.149,
+      "duration": 0.01,
+      "text": ">> That's really magical."
+    },
+    {
+      "start": 188.159,
+      "duration": 2.15,
+      "text": ">> That's really magical. >> Exactly. And so this is going in the"
+    },
+    {
+      "start": 190.309,
+      "duration": 0.01,
+      "text": ">> Exactly. And so this is going in the"
+    },
+    {
+      "start": 190.319,
+      "duration": 1.511,
+      "text": ">> Exactly. And so this is going in the cloud. It's going to include the changes"
+    },
+    {
+      "start": 191.83,
+      "duration": 0.01,
+      "text": "cloud. It's going to include the changes"
+    },
+    {
+      "start": 191.84,
+      "duration": 1.91,
+      "text": "cloud. It's going to include the changes we just had locally, but we can come"
+    },
+    {
+      "start": 193.75,
+      "duration": 0.01,
+      "text": "we just had locally, but we can come"
+    },
+    {
+      "start": 193.76,
+      "duration": 2.15,
+      "text": "we just had locally, but we can come back to it later. So we can stash our"
+    },
+    {
+      "start": 195.91,
+      "duration": 0.01,
+      "text": "back to it later. So we can stash our"
+    },
+    {
+      "start": 195.92,
+      "duration": 1.91,
+      "text": "back to it later. So we can stash our changes or even throw them away and"
+    },
+    {
+      "start": 197.83,
+      "duration": 0.01,
+      "text": "changes or even throw them away and"
+    },
+    {
+      "start": 197.84,
+      "duration": 1.27,
+      "text": "changes or even throw them away and bring them back from the remote tasks"
+    },
+    {
+      "start": 199.11,
+      "duration": 0.01,
+      "text": "bring them back from the remote tasks"
+    },
+    {
+      "start": 199.12,
+      "duration": 0.95,
+      "text": "bring them back from the remote tasks later if we want."
+    },
+    {
+      "start": 200.07,
+      "duration": 0.01,
+      "text": "later if we want."
+    },
+    {
+      "start": 200.08,
+      "duration": 1.67,
+      "text": "later if we want. >> Amazing. So this was a very like simple"
+    },
+    {
+      "start": 201.75,
+      "duration": 0.01,
+      "text": ">> Amazing. So this was a very like simple"
+    },
+    {
+      "start": 201.76,
+      "duration": 1.829,
+      "text": ">> Amazing. So this was a very like simple task that you showed us. I'd like to see"
+    },
+    {
+      "start": 203.589,
+      "duration": 0.01,
+      "text": "task that you showed us. I'd like to see"
+    },
+    {
+      "start": 203.599,
+      "duration": 2.63,
+      "text": "task that you showed us. I'd like to see like Codeex take some like initiatives"
+    },
+    {
+      "start": 206.229,
+      "duration": 0.01,
+      "text": "like Codeex take some like initiatives"
+    },
+    {
+      "start": 206.239,
+      "duration": 2.07,
+      "text": "like Codeex take some like initiatives in terms of the design direction or the"
+    },
+    {
+      "start": 208.309,
+      "duration": 0.01,
+      "text": "in terms of the design direction or the"
+    },
+    {
+      "start": 208.319,
+      "duration": 1.751,
+      "text": "in terms of the design direction or the I don't know like features or layout of"
+    },
+    {
+      "start": 210.07,
+      "duration": 0.01,
+      "text": "I don't know like features or layout of"
+    },
+    {
+      "start": 210.08,
+      "duration": 0.709,
+      "text": "I don't know like features or layout of the app."
+    },
+    {
+      "start": 210.789,
+      "duration": 0.01,
+      "text": "the app."
+    },
+    {
+      "start": 210.799,
+      "duration": 1.831,
+      "text": "the app. >> So what I'm going to do now is I'm going"
+    },
+    {
+      "start": 212.63,
+      "duration": 0.01,
+      "text": ">> So what I'm going to do now is I'm going"
+    },
+    {
+      "start": 212.64,
+      "duration": 2.71,
+      "text": ">> So what I'm going to do now is I'm going to change my IDE settings to run it in"
+    },
+    {
+      "start": 215.35,
+      "duration": 0.01,
+      "text": "to change my IDE settings to run it in"
+    },
+    {
+      "start": 215.36,
+      "duration": 0.39,
+      "text": "to change my IDE settings to run it in the cloud."
+    },
+    {
+      "start": 215.75,
+      "duration": 0.01,
+      "text": "the cloud."
+    },
+    {
+      "start": 215.76,
+      "duration": 0.87,
+      "text": "the cloud. >> Yep."
+    },
+    {
+      "start": 216.63,
+      "duration": 0.01,
+      "text": ">> Yep."
+    },
+    {
+      "start": 216.64,
+      "duration": 1.669,
+      "text": ">> Yep. >> And this time this is going to be a new"
+    },
+    {
+      "start": 218.309,
+      "duration": 0.01,
+      "text": ">> And this time this is going to be a new"
+    },
+    {
+      "start": 218.319,
+      "duration": 1.83,
+      "text": ">> And this time this is going to be a new task. I don't need it to use my local"
+    },
+    {
+      "start": 220.149,
+      "duration": 0.01,
+      "text": "task. I don't need it to use my local"
+    },
+    {
+      "start": 220.159,
+      "duration": 3.031,
+      "text": "task. I don't need it to use my local changes or IDE context, but I'm going to"
+    },
+    {
+      "start": 223.19,
+      "duration": 0.01,
+      "text": "changes or IDE context, but I'm going to"
+    },
+    {
+      "start": 223.2,
+      "duration": 3.19,
+      "text": "changes or IDE context, but I'm going to ask it to add a button to the header to"
+    },
+    {
+      "start": 226.39,
+      "duration": 0.01,
+      "text": "ask it to add a button to the header to"
+    },
+    {
+      "start": 226.4,
+      "duration": 1.35,
+      "text": "ask it to add a button to the header to make a really interesting thing,"
+    },
+    {
+      "start": 227.75,
+      "duration": 0.01,
+      "text": "make a really interesting thing,"
+    },
+    {
+      "start": 227.76,
+      "duration": 1.35,
+      "text": "make a really interesting thing, something fun. It's like not just like"
+    },
+    {
+      "start": 229.11,
+      "duration": 0.01,
+      "text": "something fun. It's like not just like"
+    },
+    {
+      "start": 229.12,
+      "duration": 1.51,
+      "text": "something fun. It's like not just like dark mode, something more interesting"
+    },
+    {
+      "start": 230.63,
+      "duration": 0.01,
+      "text": "dark mode, something more interesting"
+    },
+    {
+      "start": 230.64,
+      "duration": 2.869,
+      "text": "dark mode, something more interesting than that. And next to it, I can tell"
+    },
+    {
+      "start": 233.509,
+      "duration": 0.01,
+      "text": "than that. And next to it, I can tell"
+    },
+    {
+      "start": 233.519,
+      "duration": 1.911,
+      "text": "than that. And next to it, I can tell Codeex how many times I want it to"
+    },
+    {
+      "start": 235.43,
+      "duration": 0.01,
+      "text": "Codeex how many times I want it to"
+    },
+    {
+      "start": 235.44,
+      "duration": 1.91,
+      "text": "Codeex how many times I want it to attempt this task. So, you just gave"
+    },
+    {
+      "start": 237.35,
+      "duration": 0.01,
+      "text": "attempt this task. So, you just gave"
+    },
+    {
+      "start": 237.36,
+      "duration": 3.11,
+      "text": "attempt this task. So, you just gave those instructions and Codeex Cloud is"
+    },
+    {
+      "start": 240.47,
+      "duration": 0.01,
+      "text": "those instructions and Codeex Cloud is"
+    },
+    {
+      "start": 240.48,
+      "duration": 1.829,
+      "text": "those instructions and Codeex Cloud is going to work separately four different"
+    },
+    {
+      "start": 242.309,
+      "duration": 0.01,
+      "text": "going to work separately four different"
+    },
+    {
+      "start": 242.319,
+      "duration": 2.311,
+      "text": "going to work separately four different times with maybe coming up with four"
+    },
+    {
+      "start": 244.63,
+      "duration": 0.01,
+      "text": "times with maybe coming up with four"
+    },
+    {
+      "start": 244.64,
+      "duration": 1.43,
+      "text": "times with maybe coming up with four different opportunities to solve that"
+    },
+    {
+      "start": 246.07,
+      "duration": 0.01,
+      "text": "different opportunities to solve that"
+    },
+    {
+      "start": 246.08,
+      "duration": 0.95,
+      "text": "different opportunities to solve that problem."
+    },
+    {
+      "start": 247.03,
+      "duration": 0.01,
+      "text": "problem."
+    },
+    {
+      "start": 247.04,
+      "duration": 1.67,
+      "text": "problem. >> Exactly. Exactly. I mean, it's it's"
+    },
+    {
+      "start": 248.71,
+      "duration": 0.01,
+      "text": ">> Exactly. Exactly. I mean, it's it's"
+    },
+    {
+      "start": 248.72,
+      "duration": 1.589,
+      "text": ">> Exactly. Exactly. I mean, it's it's pretty amazing to watch Codeex work."
+    },
+    {
+      "start": 250.309,
+      "duration": 0.01,
+      "text": "pretty amazing to watch Codeex work."
+    },
+    {
+      "start": 250.319,
+      "duration": 1.431,
+      "text": "pretty amazing to watch Codeex work. Every single attempt is going to be a"
+    },
+    {
+      "start": 251.75,
+      "duration": 0.01,
+      "text": "Every single attempt is going to be a"
+    },
+    {
+      "start": 251.76,
+      "duration": 1.669,
+      "text": "Every single attempt is going to be a little bit different. In fact, we we"
+    },
+    {
+      "start": 253.429,
+      "duration": 0.01,
+      "text": "little bit different. In fact, we we"
+    },
+    {
+      "start": 253.439,
+      "duration": 1.51,
+      "text": "little bit different. In fact, we we even have Codeex currently working on"
+    },
+    {
+      "start": 254.949,
+      "duration": 0.01,
+      "text": "even have Codeex currently working on"
+    },
+    {
+      "start": 254.959,
+      "duration": 2.071,
+      "text": "even have Codeex currently working on the hover states and the theme at the"
+    },
+    {
+      "start": 257.03,
+      "duration": 0.01,
+      "text": "the hover states and the theme at the"
+    },
+    {
+      "start": 257.04,
+      "duration": 1.67,
+      "text": "the hover states and the theme at the same time. I could even have another"
+    },
+    {
+      "start": 258.71,
+      "duration": 0.01,
+      "text": "same time. I could even have another"
+    },
+    {
+      "start": 258.72,
+      "duration": 2.31,
+      "text": "same time. I could even have another conversation going locally if I wanted."
+    },
+    {
+      "start": 261.03,
+      "duration": 0.01,
+      "text": "conversation going locally if I wanted."
+    },
+    {
+      "start": 261.04,
+      "duration": 1.19,
+      "text": "conversation going locally if I wanted. >> I'm curious, by the way, in your own"
+    },
+    {
+      "start": 262.23,
+      "duration": 0.01,
+      "text": ">> I'm curious, by the way, in your own"
+    },
+    {
+      "start": 262.24,
+      "duration": 1.43,
+      "text": ">> I'm curious, by the way, in your own personal experience, like how has that"
+    },
+    {
+      "start": 263.67,
+      "duration": 0.01,
+      "text": "personal experience, like how has that"
+    },
+    {
+      "start": 263.68,
+      "duration": 1.27,
+      "text": "personal experience, like how has that changed your workflow?"
+    },
+    {
+      "start": 264.95,
+      "duration": 0.01,
+      "text": "changed your workflow?"
+    },
+    {
+      "start": 264.96,
+      "duration": 2.55,
+      "text": "changed your workflow? >> It's a good question. Um, back when we"
+    },
+    {
+      "start": 267.51,
+      "duration": 0.01,
+      "text": ">> It's a good question. Um, back when we"
+    },
+    {
+      "start": 267.52,
+      "duration": 1.99,
+      "text": ">> It's a good question. Um, back when we were launching Codex Web, it was like"
+    },
+    {
+      "start": 269.51,
+      "duration": 0.01,
+      "text": "were launching Codex Web, it was like"
+    },
+    {
+      "start": 269.52,
+      "duration": 1.91,
+      "text": "were launching Codex Web, it was like 1:30 in the morning and we were trying"
+    },
+    {
+      "start": 271.43,
+      "duration": 0.01,
+      "text": "1:30 in the morning and we were trying"
+    },
+    {
+      "start": 271.44,
+      "duration": 2.15,
+      "text": "1:30 in the morning and we were trying to get this really fun Lahi animation to"
+    },
+    {
+      "start": 273.59,
+      "duration": 0.01,
+      "text": "to get this really fun Lahi animation to"
+    },
+    {
+      "start": 273.6,
+      "duration": 2.39,
+      "text": "to get this really fun Lahi animation to animate whenever you submit a new"
+    },
+    {
+      "start": 275.99,
+      "duration": 0.01,
+      "text": "animate whenever you submit a new"
+    },
+    {
+      "start": 276.0,
+      "duration": 2.87,
+      "text": "animate whenever you submit a new conversation in Codex. Um, and it worked"
+    },
+    {
+      "start": 278.87,
+      "duration": 0.01,
+      "text": "conversation in Codex. Um, and it worked"
+    },
+    {
+      "start": 278.88,
+      "duration": 1.83,
+      "text": "conversation in Codex. Um, and it worked perfectly locally, but when we pushed it"
+    },
+    {
+      "start": 280.71,
+      "duration": 0.01,
+      "text": "perfectly locally, but when we pushed it"
+    },
+    {
+      "start": 280.72,
+      "duration": 1.909,
+      "text": "perfectly locally, but when we pushed it into production, all of the Lah"
+    },
+    {
+      "start": 282.629,
+      "duration": 0.01,
+      "text": "into production, all of the Lah"
+    },
+    {
+      "start": 282.639,
+      "duration": 2.471,
+      "text": "into production, all of the Lah animations except for this one wouldn't"
+    },
+    {
+      "start": 285.11,
+      "duration": 0.01,
+      "text": "animations except for this one wouldn't"
+    },
+    {
+      "start": 285.12,
+      "duration": 2.15,
+      "text": "animations except for this one wouldn't work. So, we asked Codex to attempt it"
+    },
+    {
+      "start": 287.27,
+      "duration": 0.01,
+      "text": "work. So, we asked Codex to attempt it"
+    },
+    {
+      "start": 287.28,
+      "duration": 3.03,
+      "text": "work. So, we asked Codex to attempt it four times. Three of them did not work,"
+    },
+    {
+      "start": 290.31,
+      "duration": 0.01,
+      "text": "four times. Three of them did not work,"
+    },
+    {
+      "start": 290.32,
+      "duration": 1.589,
+      "text": "four times. Three of them did not work, but one of them figured out this very"
+    },
+    {
+      "start": 291.909,
+      "duration": 0.01,
+      "text": "but one of them figured out this very"
+    },
+    {
+      "start": 291.919,
+      "duration": 2.471,
+      "text": "but one of them figured out this very obscure content security policy issue"
+    },
+    {
+      "start": 294.39,
+      "duration": 0.01,
+      "text": "obscure content security policy issue"
+    },
+    {
+      "start": 294.4,
+      "duration": 1.83,
+      "text": "obscure content security policy issue that was preventing some inline"
+    },
+    {
+      "start": 296.23,
+      "duration": 0.01,
+      "text": "that was preventing some inline"
+    },
+    {
+      "start": 296.24,
+      "duration": 1.43,
+      "text": "that was preventing some inline JavaScript that happens to be in that"
+    },
+    {
+      "start": 297.67,
+      "duration": 0.01,
+      "text": "JavaScript that happens to be in that"
+    },
+    {
+      "start": 297.68,
+      "duration": 2.069,
+      "text": "JavaScript that happens to be in that one animation from working and it saved"
+    },
+    {
+      "start": 299.749,
+      "duration": 0.01,
+      "text": "one animation from working and it saved"
+    },
+    {
+      "start": 299.759,
+      "duration": 1.111,
+      "text": "one animation from working and it saved that aspect of the launch."
+    },
+    {
+      "start": 300.87,
+      "duration": 0.01,
+      "text": "that aspect of the launch."
+    },
+    {
+      "start": 300.88,
+      "duration": 1.43,
+      "text": "that aspect of the launch. >> That's incredible. So I guess for like"
+    },
+    {
+      "start": 302.31,
+      "duration": 0.01,
+      "text": ">> That's incredible. So I guess for like"
+    },
+    {
+      "start": 302.32,
+      "duration": 2.79,
+      "text": ">> That's incredible. So I guess for like very nasty or complex like bugs or like"
+    },
+    {
+      "start": 305.11,
+      "duration": 0.01,
+      "text": "very nasty or complex like bugs or like"
+    },
+    {
+      "start": 305.12,
+      "duration": 1.59,
+      "text": "very nasty or complex like bugs or like you know things that you're kind of like"
+    },
+    {
+      "start": 306.71,
+      "duration": 0.01,
+      "text": "you know things that you're kind of like"
+    },
+    {
+      "start": 306.72,
+      "duration": 1.67,
+      "text": "you know things that you're kind of like struggling to find out, this is exactly"
+    },
+    {
+      "start": 308.39,
+      "duration": 0.01,
+      "text": "struggling to find out, this is exactly"
+    },
+    {
+      "start": 308.4,
+      "duration": 1.59,
+      "text": "struggling to find out, this is exactly the kind of thing that Codex can take a"
+    },
+    {
+      "start": 309.99,
+      "duration": 0.01,
+      "text": "the kind of thing that Codex can take a"
+    },
+    {
+      "start": 310.0,
+      "duration": 0.629,
+      "text": "the kind of thing that Codex can take a look at."
+    },
+    {
+      "start": 310.629,
+      "duration": 0.01,
+      "text": "look at."
+    },
+    {
+      "start": 310.639,
+      "duration": 0.311,
+      "text": "look at. >> Exactly."
+    },
+    {
+      "start": 310.95,
+      "duration": 0.01,
+      "text": ">> Exactly."
+    },
+    {
+      "start": 310.96,
+      "duration": 1.509,
+      "text": ">> Exactly. >> Like even like look at it from different"
+    },
+    {
+      "start": 312.469,
+      "duration": 0.01,
+      "text": ">> Like even like look at it from different"
+    },
+    {
+      "start": 312.479,
+      "duration": 1.99,
+      "text": ">> Like even like look at it from different angles, try different perspectives."
+    },
+    {
+      "start": 314.469,
+      "duration": 0.01,
+      "text": "angles, try different perspectives."
+    },
+    {
+      "start": 314.479,
+      "duration": 1.99,
+      "text": "angles, try different perspectives. >> Exactly. And I I'll use it for planning,"
+    },
+    {
+      "start": 316.469,
+      "duration": 0.01,
+      "text": ">> Exactly. And I I'll use it for planning,"
+    },
+    {
+      "start": 316.479,
+      "duration": 1.751,
+      "text": ">> Exactly. And I I'll use it for planning, even planning or working on a"
+    },
+    {
+      "start": 318.23,
+      "duration": 0.01,
+      "text": "even planning or working on a"
+    },
+    {
+      "start": 318.24,
+      "duration": 1.91,
+      "text": "even planning or working on a complicated refactor where I don't even"
+    },
+    {
+      "start": 320.15,
+      "duration": 0.01,
+      "text": "complicated refactor where I don't even"
+    },
+    {
+      "start": 320.16,
+      "duration": 1.589,
+      "text": "complicated refactor where I don't even know exactly what I want, but I'll have"
+    },
+    {
+      "start": 321.749,
+      "duration": 0.01,
+      "text": "know exactly what I want, but I'll have"
+    },
+    {
+      "start": 321.759,
+      "duration": 1.99,
+      "text": "know exactly what I want, but I'll have Codeex take multiple attempts. And"
+    },
+    {
+      "start": 323.749,
+      "duration": 0.01,
+      "text": "Codeex take multiple attempts. And"
+    },
+    {
+      "start": 323.759,
+      "duration": 1.511,
+      "text": "Codeex take multiple attempts. And sometimes I'll take the best aspects of"
+    },
+    {
+      "start": 325.27,
+      "duration": 0.01,
+      "text": "sometimes I'll take the best aspects of"
+    },
+    {
+      "start": 325.28,
+      "duration": 1.51,
+      "text": "sometimes I'll take the best aspects of each one. That's really cool. So, what's"
+    },
+    {
+      "start": 326.79,
+      "duration": 0.01,
+      "text": "each one. That's really cool. So, what's"
+    },
+    {
+      "start": 326.8,
+      "duration": 1.91,
+      "text": "each one. That's really cool. So, what's going on now with those four tasks?"
+    },
+    {
+      "start": 328.71,
+      "duration": 0.01,
+      "text": "going on now with those four tasks?"
+    },
+    {
+      "start": 328.72,
+      "duration": 1.35,
+      "text": "going on now with those four tasks? >> Okay, let's take a look at this. So, we"
+    },
+    {
+      "start": 330.07,
+      "duration": 0.01,
+      "text": ">> Okay, let's take a look at this. So, we"
+    },
+    {
+      "start": 330.08,
+      "duration": 1.75,
+      "text": ">> Okay, let's take a look at this. So, we have attempt number one. I'm just going"
+    },
+    {
+      "start": 331.83,
+      "duration": 0.01,
+      "text": "have attempt number one. I'm just going"
+    },
+    {
+      "start": 331.84,
+      "duration": 1.909,
+      "text": "have attempt number one. I'm just going to go ahead and apply it. See what"
+    },
+    {
+      "start": 333.749,
+      "duration": 0.01,
+      "text": "to go ahead and apply it. See what"
+    },
+    {
+      "start": 333.759,
+      "duration": 1.831,
+      "text": "to go ahead and apply it. See what happens. And go over to the browser. And"
+    },
+    {
+      "start": 335.59,
+      "duration": 0.01,
+      "text": "happens. And go over to the browser. And"
+    },
+    {
+      "start": 335.6,
+      "duration": 1.35,
+      "text": "happens. And go over to the browser. And you can see"
+    },
+    {
+      "start": 336.95,
+      "duration": 0.01,
+      "text": "you can see"
+    },
+    {
+      "start": 336.96,
+      "duration": 1.03,
+      "text": "you can see >> Oh, wow."
+    },
+    {
+      "start": 337.99,
+      "duration": 0.01,
+      "text": ">> Oh, wow."
+    },
+    {
+      "start": 338.0,
+      "duration": 0.87,
+      "text": ">> Oh, wow. >> Oh my gosh."
+    },
+    {
+      "start": 338.87,
+      "duration": 0.01,
+      "text": ">> Oh my gosh."
+    },
+    {
+      "start": 338.88,
+      "duration": 2.79,
+      "text": ">> Oh my gosh. >> That's very, very good actually. Very"
+    },
+    {
+      "start": 341.67,
+      "duration": 0.01,
+      "text": ">> That's very, very good actually. Very"
+    },
+    {
+      "start": 341.68,
+      "duration": 1.03,
+      "text": ">> That's very, very good actually. Very creative. Okay."
+    },
+    {
+      "start": 342.71,
+      "duration": 0.01,
+      "text": "creative. Okay."
+    },
+    {
+      "start": 342.72,
+      "duration": 1.67,
+      "text": "creative. Okay. >> I've never seen that before. the same."
+    },
+    {
+      "start": 344.39,
+      "duration": 0.01,
+      "text": ">> I've never seen that before. the same."
+    },
+    {
+      "start": 344.4,
+      "duration": 0.87,
+      "text": ">> I've never seen that before. the same. Let's see what else it did."
+    },
+    {
+      "start": 345.27,
+      "duration": 0.01,
+      "text": "Let's see what else it did."
+    },
+    {
+      "start": 345.28,
+      "duration": 1.51,
+      "text": "Let's see what else it did. >> Let's Let's take a look at the next one."
+    },
+    {
+      "start": 346.79,
+      "duration": 0.01,
+      "text": ">> Let's Let's take a look at the next one."
+    },
+    {
+      "start": 346.8,
+      "duration": 1.669,
+      "text": ">> Let's Let's take a look at the next one. >> So, I'm going to revert that one and"
+    },
+    {
+      "start": 348.469,
+      "duration": 0.01,
+      "text": ">> So, I'm going to revert that one and"
+    },
+    {
+      "start": 348.479,
+      "duration": 1.751,
+      "text": ">> So, I'm going to revert that one and then I'm going to apply attempt number"
+    },
+    {
+      "start": 350.23,
+      "duration": 0.01,
+      "text": "then I'm going to apply attempt number"
+    },
+    {
+      "start": 350.24,
+      "duration": 0.949,
+      "text": "then I'm going to apply attempt number two."
+    },
+    {
+      "start": 351.189,
+      "duration": 0.01,
+      "text": "two."
+    },
+    {
+      "start": 351.199,
+      "duration": 1.591,
+      "text": "two. >> Oh, yeah. The entire theme has already"
+    },
+    {
+      "start": 352.79,
+      "duration": 0.01,
+      "text": ">> Oh, yeah. The entire theme has already"
+    },
+    {
+      "start": 352.8,
+      "duration": 1.35,
+      "text": ">> Oh, yeah. The entire theme has already changed. Interesting. Okay."
+    },
+    {
+      "start": 354.15,
+      "duration": 0.01,
+      "text": "changed. Interesting. Okay."
+    },
+    {
+      "start": 354.16,
+      "duration": 2.469,
+      "text": "changed. Interesting. Okay. >> Uh let's take a look at the next one."
+    },
+    {
+      "start": 356.629,
+      "duration": 0.01,
+      "text": ">> Uh let's take a look at the next one."
+    },
+    {
+      "start": 356.639,
+      "duration": 1.99,
+      "text": ">> Uh let's take a look at the next one. >> Wa. That's pretty cool. I'm guessing"
+    },
+    {
+      "start": 358.629,
+      "duration": 0.01,
+      "text": ">> Wa. That's pretty cool. I'm guessing"
+    },
+    {
+      "start": 358.639,
+      "duration": 1.83,
+      "text": ">> Wa. That's pretty cool. I'm guessing like conversely to what we did right"
+    },
+    {
+      "start": 360.469,
+      "duration": 0.01,
+      "text": "like conversely to what we did right"
+    },
+    {
+      "start": 360.479,
+      "duration": 1.831,
+      "text": "like conversely to what we did right before, now you can take any of these"
+    },
+    {
+      "start": 362.31,
+      "duration": 0.01,
+      "text": "before, now you can take any of these"
+    },
+    {
+      "start": 362.32,
+      "duration": 2.23,
+      "text": "before, now you can take any of these cloud tasks, check them out locally, and"
+    },
+    {
+      "start": 364.55,
+      "duration": 0.01,
+      "text": "cloud tasks, check them out locally, and"
+    },
+    {
+      "start": 364.56,
+      "duration": 1.43,
+      "text": "cloud tasks, check them out locally, and keep working locally in your code"
+    },
+    {
+      "start": 365.99,
+      "duration": 0.01,
+      "text": "keep working locally in your code"
+    },
+    {
+      "start": 366.0,
+      "duration": 0.55,
+      "text": "keep working locally in your code editor."
+    },
+    {
+      "start": 366.55,
+      "duration": 0.01,
+      "text": "editor."
+    },
+    {
+      "start": 366.56,
+      "duration": 0.39,
+      "text": "editor. >> Exactly."
+    },
+    {
+      "start": 366.95,
+      "duration": 0.01,
+      "text": ">> Exactly."
+    },
+    {
+      "start": 366.96,
+      "duration": 1.91,
+      "text": ">> Exactly. >> That's very magical. Gabriel, before we"
+    },
+    {
+      "start": 368.87,
+      "duration": 0.01,
+      "text": ">> That's very magical. Gabriel, before we"
+    },
+    {
+      "start": 368.88,
+      "duration": 1.749,
+      "text": ">> That's very magical. Gabriel, before we wrap, like can you check on the status"
+    },
+    {
+      "start": 370.629,
+      "duration": 0.01,
+      "text": "wrap, like can you check on the status"
+    },
+    {
+      "start": 370.639,
+      "duration": 1.431,
+      "text": "wrap, like can you check on the status of that task that you sent at the"
+    },
+    {
+      "start": 372.07,
+      "duration": 0.01,
+      "text": "of that task that you sent at the"
+    },
+    {
+      "start": 372.08,
+      "duration": 1.43,
+      "text": "of that task that you sent at the beginning that you started locally and"
+    },
+    {
+      "start": 373.51,
+      "duration": 0.01,
+      "text": "beginning that you started locally and"
+    },
+    {
+      "start": 373.52,
+      "duration": 1.99,
+      "text": "beginning that you started locally and then like offloaded to Codexcloud?"
+    },
+    {
+      "start": 375.51,
+      "duration": 0.01,
+      "text": "then like offloaded to Codexcloud?"
+    },
+    {
+      "start": 375.52,
+      "duration": 2.55,
+      "text": "then like offloaded to Codexcloud? >> Looks like it's done. If I open up the"
+    },
+    {
+      "start": 378.07,
+      "duration": 0.01,
+      "text": ">> Looks like it's done. If I open up the"
+    },
+    {
+      "start": 378.08,
+      "duration": 2.07,
+      "text": ">> Looks like it's done. If I open up the hover state task that we kicked off, I"
+    },
+    {
+      "start": 380.15,
+      "duration": 0.01,
+      "text": "hover state task that we kicked off, I"
+    },
+    {
+      "start": 380.16,
+      "duration": 1.67,
+      "text": "hover state task that we kicked off, I can see now that it's modified a few"
+    },
+    {
+      "start": 381.83,
+      "duration": 0.01,
+      "text": "can see now that it's modified a few"
+    },
+    {
+      "start": 381.84,
+      "duration": 2.55,
+      "text": "can see now that it's modified a few additional files. And if I apply the"
+    },
+    {
+      "start": 384.39,
+      "duration": 0.01,
+      "text": "additional files. And if I apply the"
+    },
+    {
+      "start": 384.4,
+      "duration": 1.75,
+      "text": "additional files. And if I apply the changes locally and then go to the"
+    },
+    {
+      "start": 386.15,
+      "duration": 0.01,
+      "text": "changes locally and then go to the"
+    },
+    {
+      "start": 386.16,
+      "duration": 3.43,
+      "text": "changes locally and then go to the browser, you'll see that it added hover"
+    },
+    {
+      "start": 389.59,
+      "duration": 0.01,
+      "text": "browser, you'll see that it added hover"
+    },
+    {
+      "start": 389.6,
+      "duration": 1.99,
+      "text": "browser, you'll see that it added hover states for a couple new items. The start"
+    },
+    {
+      "start": 391.59,
+      "duration": 0.01,
+      "text": "states for a couple new items. The start"
+    },
+    {
+      "start": 391.6,
+      "duration": 1.67,
+      "text": "states for a couple new items. The start building button now has a slight hover"
+    },
+    {
+      "start": 393.27,
+      "duration": 0.01,
+      "text": "building button now has a slight hover"
+    },
+    {
+      "start": 393.28,
+      "duration": 1.749,
+      "text": "building button now has a slight hover state as well as the switch in the top"
+    },
+    {
+      "start": 395.029,
+      "duration": 0.01,
+      "text": "state as well as the switch in the top"
+    },
+    {
+      "start": 395.039,
+      "duration": 0.71,
+      "text": "state as well as the switch in the top right corner."
+    },
+    {
+      "start": 395.749,
+      "duration": 0.01,
+      "text": "right corner."
+    },
+    {
+      "start": 395.759,
+      "duration": 2.71,
+      "text": "right corner. >> Amazing. Thanks, Gabriel. Well, we hope"
+    },
+    {
+      "start": 398.469,
+      "duration": 0.01,
+      "text": ">> Amazing. Thanks, Gabriel. Well, we hope"
+    },
+    {
+      "start": 398.479,
+      "duration": 1.83,
+      "text": ">> Amazing. Thanks, Gabriel. Well, we hope this gave you a quick tour of how you"
+    },
+    {
+      "start": 400.309,
+      "duration": 0.01,
+      "text": "this gave you a quick tour of how you"
+    },
+    {
+      "start": 400.319,
+      "duration": 2.31,
+      "text": "this gave you a quick tour of how you can use codeex directly in your code"
+    },
+    {
+      "start": 402.629,
+      "duration": 0.01,
+      "text": "can use codeex directly in your code"
+    },
+    {
+      "start": 402.639,
+      "duration": 2.151,
+      "text": "can use codeex directly in your code editor now with the extension. It's all"
+    },
+    {
+      "start": 404.79,
+      "duration": 0.01,
+      "text": "editor now with the extension. It's all"
+    },
+    {
+      "start": 404.8,
+      "duration": 2.07,
+      "text": "editor now with the extension. It's all included in your Chad GPT subscription."
+    },
+    {
+      "start": 406.87,
+      "duration": 0.01,
+      "text": "included in your Chad GPT subscription."
+    },
+    {
+      "start": 406.88,
+      "duration": 1.51,
+      "text": "included in your Chad GPT subscription. In order to download the extension, you"
+    },
+    {
+      "start": 408.39,
+      "duration": 0.01,
+      "text": "In order to download the extension, you"
+    },
+    {
+      "start": 408.4,
+      "duration": 2.229,
+      "text": "In order to download the extension, you can go to opener.com/codex or simply"
+    },
+    {
+      "start": 410.629,
+      "duration": 0.01,
+      "text": "can go to opener.com/codex or simply"
+    },
+    {
+      "start": 410.639,
+      "duration": 1.431,
+      "text": "can go to opener.com/codex or simply look for codeex in your extension"
+    },
+    {
+      "start": 412.07,
+      "duration": 0.01,
+      "text": "look for codeex in your extension"
+    },
+    {
+      "start": 412.08,
+      "duration": 2.229,
+      "text": "look for codeex in your extension marketplace. With that, thank you and we"
+    },
+    {
+      "start": 414.309,
+      "duration": 0.01,
+      "text": "marketplace. With that, thank you and we"
+    },
+    {
+      "start": 414.319,
+      "duration": 3.801,
+      "text": "marketplace. With that, thank you and we can't wait to see what you build."
+    }
+  ],
+  "plain_text": "And we'll roll in those cameras.\nAnd we'll roll in those cameras. >> Great. Thank you.\n>> Great. Thank you.\n>> Great. Thank you. >> Yeah.\n>> Yeah.\n>> Yeah. >> Hey everyone, I'm Roma. We've been\n>> Hey everyone, I'm Roma. We've been\n>> Hey everyone, I'm Roma. We've been steadily improving Codex to make it feel\nsteadily improving Codex to make it feel\nsteadily improving Codex to make it feel like a more capable and reliable coding\nlike a more capable and reliable coding\nlike a more capable and reliable coding collaborator. And for us, it's very\ncollaborator. And for us, it's very\ncollaborator. And for us, it's very important for Codex to be everywhere you\nimportant for Codex to be everywhere you\nimportant for Codex to be everywhere you work. And that's why we launched an ID\nwork. And that's why we launched an ID\nwork. And that's why we launched an ID extension. You can now have codeex right\nextension. You can now have codeex right\nextension. You can now have codeex right in your code editor, whether it's like\nin your code editor, whether it's like\nin your code editor, whether it's like VS Code, Cursor, Windsor, or many\nVS Code, Cursor, Windsor, or many\nVS Code, Cursor, Windsor, or many others. And with me today, I have\nothers. And with me today, I have\nothers. And with me today, I have Gabriel, engineering lead on the\nGabriel, engineering lead on the\nGabriel, engineering lead on the extension to give us a quick tour. We on\nextension to give us a quick tour. We on\nextension to give us a quick tour. We on the team have been working really hard\nthe team have been working really hard\nthe team have been working really hard to bring lots of new things to Codex and\nto bring lots of new things to Codex and\nto bring lots of new things to Codex and I can't wait to show you.\nI can't wait to show you.\nI can't wait to show you. >> Amazing. Let's dive in.\n>> So, I'm working on this OpenA FM project\n>> So, I'm working on this OpenA FM project and I noticed that it's using service\nand I noticed that it's using service\nand I noticed that it's using service workers. There's this interesting return\nworkers. There's this interesting return\nworkers. There's this interesting return clause. I'm going to go over to Codeex\nclause. I'm going to go over to Codeex\nclause. I'm going to go over to Codeex and just ask it why. So, what is this\nand just ask it why. So, what is this\nand just ask it why. So, what is this clause for? You'll notice that there's\nclause for? You'll notice that there's\nclause for? You'll notice that there's an autoc context button that tells\nan autoc context button that tells\nan autoc context button that tells codeex everything that I've recently\ncodeex everything that I've recently\ncodeex everything that I've recently done in my IDE.\ndone in my IDE.\ndone in my IDE. >> So what that means here is that\n>> So what that means here is that\n>> So what that means here is that basically you're using GPD5 codeex the\nbasically you're using GPD5 codeex the\nbasically you're using GPD5 codeex the new model we launched but you're kind of\nnew model we launched but you're kind of\nnew model we launched but you're kind of like I'm guessing prompting it a little\nlike I'm guessing prompting it a little\nlike I'm guessing prompting it a little differently when you're in the\ndifferently when you're in the\ndifferently when you're in the >> ID. Exactly. Exactly. So in this case\n>> ID. Exactly. Exactly. So in this case\n>> ID. Exactly. Exactly. So in this case I've just said what is this clause for?\nI've just said what is this clause for?\nI've just said what is this clause for? And it said it short circuits the effect\nAnd it said it short circuits the effect\nAnd it said it short circuits the effect when the browser doesn't support service\nwhen the browser doesn't support service\nwhen the browser doesn't support service workers which makes sense. If it\nworkers which makes sense. If it\nworkers which makes sense. If it determines that something is easy or a\ndetermines that something is easy or a\ndetermines that something is easy or a simple chat prompt it'll usually respond\nsimple chat prompt it'll usually respond\nsimple chat prompt it'll usually respond pretty quickly. Why don't you gonna\npretty quickly. Why don't you gonna\npretty quickly. Why don't you gonna navigate the codebase a little bit and\nnavigate the codebase a little bit and\nnavigate the codebase a little bit and um let's pick something to implement.\num let's pick something to implement.\num let's pick something to implement. >> Great. This button component happens to\n>> Great. This button component happens to\n>> Great. This button component happens to have a to-do to add a hover state.\nhave a to-do to add a hover state.\nhave a to-do to add a hover state. >> Yep.\n>> Yep.\n>> Yep. >> And if you have codeex installed, it\n>> And if you have codeex installed, it\n>> And if you have codeex installed, it will give you an opportunity to\nwill give you an opportunity to\nwill give you an opportunity to implement any to-do comments with\nimplement any to-do comments with\nimplement any to-do comments with codeex. So if I click it, it's going to\ncodeex. So if I click it, it's going to\ncodeex. So if I click it, it's going to kick off a local conversation and give\nkick off a local conversation and give\nkick off a local conversation and give Codex all the context it needs to fix\nCodex all the context it needs to fix\nCodex all the context it needs to fix this.\nthis.\nthis. >> That's awesome. So anyone that has like\n>> That's awesome. So anyone that has like\n>> That's awesome. So anyone that has like any to-dos or any task in their backlog\nany to-dos or any task in their backlog\nany to-dos or any task in their backlog can just like start sending them over to\ncan just like start sending them over to\ncan just like start sending them over to Codeex. Yeah, that's right.\nCodeex. Yeah, that's right.\nCodeex. Yeah, that's right. >> Can you show us a little bit like what's\n>> Can you show us a little bit like what's\n>> Can you show us a little bit like what's happening behind the scenes now?\nhappening behind the scenes now?\nhappening behind the scenes now? >> So behind the scenes when you ask Codeex\n>> So behind the scenes when you ask Codeex\n>> So behind the scenes when you ask Codeex to do something, it starts exploring\nto do something, it starts exploring\nto do something, it starts exploring your codebase and running commands and\nyour codebase and running commands and\nyour codebase and running commands and you can see its progression as it's\nyou can see its progression as it's\nyou can see its progression as it's going along. First, it's reading code\ngoing along. First, it's reading code\ngoing along. First, it's reading code and then when it decides to run\nand then when it decides to run\nand then when it decides to run commands, it runs in a safe sandbox that\ncommands, it runs in a safe sandbox that\ncommands, it runs in a safe sandbox that ensures that it's not going to modify\nensures that it's not going to modify\nensures that it's not going to modify files outside of your project. And if\nfiles outside of your project. And if\nfiles outside of your project. And if the model ever needs to do something\nthe model ever needs to do something\nthe model ever needs to do something that it thinks it can't run successfully\nthat it thinks it can't run successfully\nthat it thinks it can't run successfully in the sandbox, it can ask you for\nin the sandbox, it can ask you for\nin the sandbox, it can ask you for permission. It explored the codebase. It\npermission. It explored the codebase. It\npermission. It explored the codebase. It updated the button and then it made a\nupdated the button and then it made a\nupdated the button and then it made a bunch of changes at the end. You can\nbunch of changes at the end. You can\nbunch of changes at the end. You can then review the changes right in your\nthen review the changes right in your\nthen review the changes right in your IDE to see all the changes it made in\nIDE to see all the changes it made in\nIDE to see all the changes it made in one place. Y\none place. Y\none place. Y >> but I think we should just go see if it\n>> but I think we should just go see if it\n>> but I think we should just go see if it worked.\nworked.\nworked. >> Let's do it. Moment of truth.\n>> Let's do it. Moment of truth.\n>> Let's do it. Moment of truth. >> Hop over to the browser and I'm going to\n>> Hop over to the browser and I'm going to\n>> Hop over to the browser and I'm going to hover over these buttons. And as you can\nhover over these buttons. And as you can\nhover over these buttons. And as you can see, there's a nice subtle hover state\nsee, there's a nice subtle hover state\nsee, there's a nice subtle hover state where it the shadow expands, the card\nwhere it the shadow expands, the card\nwhere it the shadow expands, the card shifts up a little bit. I was looking\nshifts up a little bit. I was looking\nshifts up a little bit. I was looking around the the site and I noticed that\naround the the site and I noticed that\naround the the site and I noticed that there's a few other elements that also\nthere's a few other elements that also\nthere's a few other elements that also don't have a hover state. So, what I'm\ndon't have a hover state. So, what I'm\ndon't have a hover state. So, what I'm going to do now is I'm going to take\ngoing to do now is I'm going to take\ngoing to do now is I'm going to take this conversation we just had and I'm\nthis conversation we just had and I'm\nthis conversation we just had and I'm going to move it from local into the\ngoing to move it from local into the\ngoing to move it from local into the cloud. And this is going to use codeex\ncloud. And this is going to use codeex\ncloud. And this is going to use codeex in the cloud to continue this task\nin the cloud to continue this task\nin the cloud to continue this task without taking over my computer.\nwithout taking over my computer.\nwithout taking over my computer. >> I think it's like completely changing\n>> I think it's like completely changing\n>> I think it's like completely changing the way we think about engineering,\nthe way we think about engineering,\nthe way we think about engineering, right? Because you can start like a task\nright? Because you can start like a task\nright? Because you can start like a task locally upload it to your teammate in\nlocally upload it to your teammate in\nlocally upload it to your teammate in the cloud to just take care of it.\nthe cloud to just take care of it.\nthe cloud to just take care of it. >> That's really magical.\n>> That's really magical.\n>> That's really magical. >> Exactly. And so this is going in the\n>> Exactly. And so this is going in the\n>> Exactly. And so this is going in the cloud. It's going to include the changes\ncloud. It's going to include the changes\ncloud. It's going to include the changes we just had locally, but we can come\nwe just had locally, but we can come\nwe just had locally, but we can come back to it later. So we can stash our\nback to it later. So we can stash our\nback to it later. So we can stash our changes or even throw them away and\nchanges or even throw them away and\nchanges or even throw them away and bring them back from the remote tasks\nbring them back from the remote tasks\nbring them back from the remote tasks later if we want.\nlater if we want.\nlater if we want. >> Amazing. So this was a very like simple\n>> Amazing. So this was a very like simple\n>> Amazing. So this was a very like simple task that you showed us. I'd like to see\ntask that you showed us. I'd like to see\ntask that you showed us. I'd like to see like Codeex take some like initiatives\nlike Codeex take some like initiatives\nlike Codeex take some like initiatives in terms of the design direction or the\nin terms of the design direction or the\nin terms of the design direction or the I don't know like features or layout of\nI don't know like features or layout of\nI don't know like features or layout of the app.\nthe app.\nthe app. >> So what I'm going to do now is I'm going\n>> So what I'm going to do now is I'm going\n>> So what I'm going to do now is I'm going to change my IDE settings to run it in\nto change my IDE settings to run it in\nto change my IDE settings to run it in the cloud.\nthe cloud.\nthe cloud. >> Yep.\n>> Yep.\n>> Yep. >> And this time this is going to be a new\n>> And this time this is going to be a new\n>> And this time this is going to be a new task. I don't need it to use my local\ntask. I don't need it to use my local\ntask. I don't need it to use my local changes or IDE context, but I'm going to\nchanges or IDE context, but I'm going to\nchanges or IDE context, but I'm going to ask it to add a button to the header to\nask it to add a button to the header to\nask it to add a button to the header to make a really interesting thing,\nmake a really interesting thing,\nmake a really interesting thing, something fun. It's like not just like\nsomething fun. It's like not just like\nsomething fun. It's like not just like dark mode, something more interesting\ndark mode, something more interesting\ndark mode, something more interesting than that. And next to it, I can tell\nthan that. And next to it, I can tell\nthan that. And next to it, I can tell Codeex how many times I want it to\nCodeex how many times I want it to\nCodeex how many times I want it to attempt this task. So, you just gave\nattempt this task. So, you just gave\nattempt this task. So, you just gave those instructions and Codeex Cloud is\nthose instructions and Codeex Cloud is\nthose instructions and Codeex Cloud is going to work separately four different\ngoing to work separately four different\ngoing to work separately four different times with maybe coming up with four\ntimes with maybe coming up with four\ntimes with maybe coming up with four different opportunities to solve that\ndifferent opportunities to solve that\ndifferent opportunities to solve that problem.\nproblem.\nproblem. >> Exactly. Exactly. I mean, it's it's\n>> Exactly. Exactly. I mean, it's it's\n>> Exactly. Exactly. I mean, it's it's pretty amazing to watch Codeex work.\npretty amazing to watch Codeex work.\npretty amazing to watch Codeex work. Every single attempt is going to be a\nEvery single attempt is going to be a\nEvery single attempt is going to be a little bit different. In fact, we we\nlittle bit different. In fact, we we\nlittle bit different. In fact, we we even have Codeex currently working on\neven have Codeex currently working on\neven have Codeex currently working on the hover states and the theme at the\nthe hover states and the theme at the\nthe hover states and the theme at the same time. I could even have another\nsame time. I could even have another\nsame time. I could even have another conversation going locally if I wanted.\nconversation going locally if I wanted.\nconversation going locally if I wanted. >> I'm curious, by the way, in your own\n>> I'm curious, by the way, in your own\n>> I'm curious, by the way, in your own personal experience, like how has that\npersonal experience, like how has that\npersonal experience, like how has that changed your workflow?\nchanged your workflow?\nchanged your workflow? >> It's a good question. Um, back when we\n>> It's a good question. Um, back when we\n>> It's a good question. Um, back when we were launching Codex Web, it was like\nwere launching Codex Web, it was like\nwere launching Codex Web, it was like 1:30 in the morning and we were trying\n1:30 in the morning and we were trying\n1:30 in the morning and we were trying to get this really fun Lahi animation to\nto get this really fun Lahi animation to\nto get this really fun Lahi animation to animate whenever you submit a new\nanimate whenever you submit a new\nanimate whenever you submit a new conversation in Codex. Um, and it worked\nconversation in Codex. Um, and it worked\nconversation in Codex. Um, and it worked perfectly locally, but when we pushed it\nperfectly locally, but when we pushed it\nperfectly locally, but when we pushed it into production, all of the Lah\ninto production, all of the Lah\ninto production, all of the Lah animations except for this one wouldn't\nanimations except for this one wouldn't\nanimations except for this one wouldn't work. So, we asked Codex to attempt it\nwork. So, we asked Codex to attempt it\nwork. So, we asked Codex to attempt it four times. Three of them did not work,\nfour times. Three of them did not work,\nfour times. Three of them did not work, but one of them figured out this very\nbut one of them figured out this very\nbut one of them figured out this very obscure content security policy issue\nobscure content security policy issue\nobscure content security policy issue that was preventing some inline\nthat was preventing some inline\nthat was preventing some inline JavaScript that happens to be in that\nJavaScript that happens to be in that\nJavaScript that happens to be in that one animation from working and it saved\none animation from working and it saved\none animation from working and it saved that aspect of the launch.\nthat aspect of the launch.\nthat aspect of the launch. >> That's incredible. So I guess for like\n>> That's incredible. So I guess for like\n>> That's incredible. So I guess for like very nasty or complex like bugs or like\nvery nasty or complex like bugs or like\nvery nasty or complex like bugs or like you know things that you're kind of like\nyou know things that you're kind of like\nyou know things that you're kind of like struggling to find out, this is exactly\nstruggling to find out, this is exactly\nstruggling to find out, this is exactly the kind of thing that Codex can take a\nthe kind of thing that Codex can take a\nthe kind of thing that Codex can take a look at.\nlook at.\nlook at. >> Exactly.\n>> Exactly.\n>> Exactly. >> Like even like look at it from different\n>> Like even like look at it from different\n>> Like even like look at it from different angles, try different perspectives.\nangles, try different perspectives.\nangles, try different perspectives. >> Exactly. And I I'll use it for planning,\n>> Exactly. And I I'll use it for planning,\n>> Exactly. And I I'll use it for planning, even planning or working on a\neven planning or working on a\neven planning or working on a complicated refactor where I don't even\ncomplicated refactor where I don't even\ncomplicated refactor where I don't even know exactly what I want, but I'll have\nknow exactly what I want, but I'll have\nknow exactly what I want, but I'll have Codeex take multiple attempts. And\nCodeex take multiple attempts. And\nCodeex take multiple attempts. And sometimes I'll take the best aspects of\nsometimes I'll take the best aspects of\nsometimes I'll take the best aspects of each one. That's really cool. So, what's\neach one. That's really cool. So, what's\neach one. That's really cool. So, what's going on now with those four tasks?\ngoing on now with those four tasks?\ngoing on now with those four tasks? >> Okay, let's take a look at this. So, we\n>> Okay, let's take a look at this. So, we\n>> Okay, let's take a look at this. So, we have attempt number one. I'm just going\nhave attempt number one. I'm just going\nhave attempt number one. I'm just going to go ahead and apply it. See what\nto go ahead and apply it. See what\nto go ahead and apply it. See what happens. And go over to the browser. And\nhappens. And go over to the browser. And\nhappens. And go over to the browser. And you can see\nyou can see\nyou can see >> Oh, wow.\n>> Oh, wow.\n>> Oh, wow. >> Oh my gosh.\n>> Oh my gosh.\n>> Oh my gosh. >> That's very, very good actually. Very\n>> That's very, very good actually. Very\n>> That's very, very good actually. Very creative. Okay.\ncreative. Okay.\ncreative. Okay. >> I've never seen that before. the same.\n>> I've never seen that before. the same.\n>> I've never seen that before. the same. Let's see what else it did.\nLet's see what else it did.\nLet's see what else it did. >> Let's Let's take a look at the next one.\n>> Let's Let's take a look at the next one.\n>> Let's Let's take a look at the next one. >> So, I'm going to revert that one and\n>> So, I'm going to revert that one and\n>> So, I'm going to revert that one and then I'm going to apply attempt number\nthen I'm going to apply attempt number\nthen I'm going to apply attempt number two.\ntwo.\ntwo. >> Oh, yeah. The entire theme has already\n>> Oh, yeah. The entire theme has already\n>> Oh, yeah. The entire theme has already changed. Interesting. Okay.\nchanged. Interesting. Okay.\nchanged. Interesting. Okay. >> Uh let's take a look at the next one.\n>> Uh let's take a look at the next one.\n>> Uh let's take a look at the next one. >> Wa. That's pretty cool. I'm guessing\n>> Wa. That's pretty cool. I'm guessing\n>> Wa. That's pretty cool. I'm guessing like conversely to what we did right\nlike conversely to what we did right\nlike conversely to what we did right before, now you can take any of these\nbefore, now you can take any of these\nbefore, now you can take any of these cloud tasks, check them out locally, and\ncloud tasks, check them out locally, and\ncloud tasks, check them out locally, and keep working locally in your code\nkeep working locally in your code\nkeep working locally in your code editor.\neditor.\neditor. >> Exactly.\n>> Exactly.\n>> Exactly. >> That's very magical. Gabriel, before we\n>> That's very magical. Gabriel, before we\n>> That's very magical. Gabriel, before we wrap, like can you check on the status\nwrap, like can you check on the status\nwrap, like can you check on the status of that task that you sent at the\nof that task that you sent at the\nof that task that you sent at the beginning that you started locally and\nbeginning that you started locally and\nbeginning that you started locally and then like offloaded to Codexcloud?\nthen like offloaded to Codexcloud?\nthen like offloaded to Codexcloud? >> Looks like it's done. If I open up the\n>> Looks like it's done. If I open up the\n>> Looks like it's done. If I open up the hover state task that we kicked off, I\nhover state task that we kicked off, I\nhover state task that we kicked off, I can see now that it's modified a few\ncan see now that it's modified a few\ncan see now that it's modified a few additional files. And if I apply the\nadditional files. And if I apply the\nadditional files. And if I apply the changes locally and then go to the\nchanges locally and then go to the\nchanges locally and then go to the browser, you'll see that it added hover\nbrowser, you'll see that it added hover\nbrowser, you'll see that it added hover states for a couple new items. The start\nstates for a couple new items. The start\nstates for a couple new items. The start building button now has a slight hover\nbuilding button now has a slight hover\nbuilding button now has a slight hover state as well as the switch in the top\nstate as well as the switch in the top\nstate as well as the switch in the top right corner.\nright corner.\nright corner. >> Amazing. Thanks, Gabriel. Well, we hope\n>> Amazing. Thanks, Gabriel. Well, we hope\n>> Amazing. Thanks, Gabriel. Well, we hope this gave you a quick tour of how you\nthis gave you a quick tour of how you\nthis gave you a quick tour of how you can use codeex directly in your code\ncan use codeex directly in your code\ncan use codeex directly in your code editor now with the extension. It's all\neditor now with the extension. It's all\neditor now with the extension. It's all included in your Chad GPT subscription.\nincluded in your Chad GPT subscription.\nincluded in your Chad GPT subscription. In order to download the extension, you\nIn order to download the extension, you\nIn order to download the extension, you can go to opener.com/codex or simply\ncan go to opener.com/codex or simply\ncan go to opener.com/codex or simply look for codeex in your extension\nlook for codeex in your extension\nlook for codeex in your extension marketplace. With that, thank you and we\nmarketplace. With that, thank you and we\nmarketplace. With that, thank you and we can't wait to see what you build.",
+  "warnings": [
+    "timedtext_empty_used_ytdlp_fallback"
+  ],
+  "caption_track": {
+    "label": "English (auto-generated)",
+    "is_translatable": true
+  },
+  "extraction_strategy": "yt-dlp",
+  "saved_to": "knowledge/raw/youtube/codex-ai-project-management/transcript-sd21Igx4HtA.json"
+}

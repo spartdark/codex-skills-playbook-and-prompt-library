@@ -1,0 +1,72 @@
+{
+  "captured_at": "2026-05-19T17:45:45Z",
+  "input": "https://www.youtube.com/@rileybrownai",
+  "channel": {
+    "channel_id": "UCMcoud_ZW7cfxeIugBflSBw",
+    "channel_title": "Riley Brown",
+    "author": "Riley Brown",
+    "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMcoud_ZW7cfxeIugBflSBw",
+    "resolution": "page_lookup",
+    "resolved_from": "https://www.youtube.com/@rileybrownai"
+  },
+  "videos": [
+    {
+      "video_id": "sL_KBnYB17I",
+      "title": "Codex: Build Your Full AI Marketing Team (Agents + Skills)",
+      "url": "https://www.youtube.com/watch?v=sL_KBnYB17I",
+      "published_at": "2026-05-18T15:31:53+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sL_KBnYB17I/hqdefault.jpg",
+      "stats": {
+        "statistics": {
+          "viewCount": "19538",
+          "likeCount": "773",
+          "favoriteCount": "0",
+          "commentCount": "26"
+        },
+        "duration": "PT49M34S"
+      }
+    },
+    {
+      "video_id": "3mm-hxVtjkM",
+      "title": "OpenAI just released Codex Mobile",
+      "url": "https://www.youtube.com/shorts/3mm-hxVtjkM",
+      "published_at": "2026-05-15T18:58:56+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3mm-hxVtjkM/hqdefault.jpg",
+      "stats": {
+        "statistics": {
+          "viewCount": "17709",
+          "likeCount": "727",
+          "favoriteCount": "0",
+          "commentCount": "33"
+        },
+        "duration": "PT1M38S"
+      }
+    },
+    {
+      "video_id": "4OiLljSo-hw",
+      "title": "Codex Mobile App Released (Complete Setup Guide)",
+      "url": "https://www.youtube.com/watch?v=4OiLljSo-hw",
+      "published_at": "2026-05-15T01:35:52+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4OiLljSo-hw/hqdefault.jpg",
+      "stats": {
+        "statistics": {
+          "viewCount": "44535",
+          "likeCount": "1202",
+          "favoriteCount": "0",
+          "commentCount": "131"
+        },
+        "duration": "PT14M22S"
+      }
+    }
+  ],
+  "warnings": [
+    "ssl_cert_verification_failed_used_unverified_retry: local Python trust store could not verify TLS."
+  ],
+  "options": {
+    "limit": 3,
+    "period_days": null,
+    "language": null,
+    "include_transcripts": false,
+    "stats_enabled": true
+  }
+}

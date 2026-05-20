@@ -1,0 +1,468 @@
+---
+source_type: youtube_transcript
+source_url: https://www.youtube.com/watch?v=sd21Igx4HtA
+video_id: sd21Igx4HtA
+source_title: "OpenAI Codex in your code editor"
+channel: "OpenAI"
+language: en
+is_auto_generated: true
+extraction_strategy: yt-dlp
+retrieved_at: 2026-05-19T19:50:54Z
+raw_evidence: knowledge/raw/youtube/codex-ai-project-management/transcript-sd21Igx4HtA.json
+confidence: verified source capture; caption accuracy not independently verified
+---
+
+# OpenAI Codex in your code editor
+
+## Transcript
+
+- [00:03] And we'll roll in those cameras.
+- [00:03] And we'll roll in those cameras. >> Great. Thank you.
+- [00:04] >> Great. Thank you.
+- [00:04] >> Great. Thank you. >> Yeah.
+- [00:05] >> Yeah.
+- [00:05] >> Yeah. >> Hey everyone, I'm Roma. We've been
+- [00:07] >> Hey everyone, I'm Roma. We've been
+- [00:07] >> Hey everyone, I'm Roma. We've been steadily improving Codex to make it feel
+- [00:09] steadily improving Codex to make it feel
+- [00:09] steadily improving Codex to make it feel like a more capable and reliable coding
+- [00:11] like a more capable and reliable coding
+- [00:11] like a more capable and reliable coding collaborator. And for us, it's very
+- [00:13] collaborator. And for us, it's very
+- [00:13] collaborator. And for us, it's very important for Codex to be everywhere you
+- [00:15] important for Codex to be everywhere you
+- [00:15] important for Codex to be everywhere you work. And that's why we launched an ID
+- [00:17] work. And that's why we launched an ID
+- [00:17] work. And that's why we launched an ID extension. You can now have codeex right
+- [00:19] extension. You can now have codeex right
+- [00:19] extension. You can now have codeex right in your code editor, whether it's like
+- [00:21] in your code editor, whether it's like
+- [00:21] in your code editor, whether it's like VS Code, Cursor, Windsor, or many
+- [00:23] VS Code, Cursor, Windsor, or many
+- [00:23] VS Code, Cursor, Windsor, or many others. And with me today, I have
+- [00:25] others. And with me today, I have
+- [00:25] others. And with me today, I have Gabriel, engineering lead on the
+- [00:26] Gabriel, engineering lead on the
+- [00:26] Gabriel, engineering lead on the extension to give us a quick tour. We on
+- [00:28] extension to give us a quick tour. We on
+- [00:28] extension to give us a quick tour. We on the team have been working really hard
+- [00:30] the team have been working really hard
+- [00:30] the team have been working really hard to bring lots of new things to Codex and
+- [00:32] to bring lots of new things to Codex and
+- [00:32] to bring lots of new things to Codex and I can't wait to show you.
+- [00:33] I can't wait to show you.
+- [00:33] I can't wait to show you. >> Amazing. Let's dive in.
+- [00:40] >> So, I'm working on this OpenA FM project
+- [00:40] >> So, I'm working on this OpenA FM project and I noticed that it's using service
+- [00:42] and I noticed that it's using service
+- [00:42] and I noticed that it's using service workers. There's this interesting return
+- [00:44] workers. There's this interesting return
+- [00:44] workers. There's this interesting return clause. I'm going to go over to Codeex
+- [00:47] clause. I'm going to go over to Codeex
+- [00:47] clause. I'm going to go over to Codeex and just ask it why. So, what is this
+- [00:50] and just ask it why. So, what is this
+- [00:50] and just ask it why. So, what is this clause for? You'll notice that there's
+- [00:52] clause for? You'll notice that there's
+- [00:52] clause for? You'll notice that there's an autoc context button that tells
+- [00:55] an autoc context button that tells
+- [00:55] an autoc context button that tells codeex everything that I've recently
+- [00:56] codeex everything that I've recently
+- [00:56] codeex everything that I've recently done in my IDE.
+- [00:57] done in my IDE.
+- [00:58] done in my IDE. >> So what that means here is that
+- [00:59] >> So what that means here is that
+- [00:59] >> So what that means here is that basically you're using GPD5 codeex the
+- [01:01] basically you're using GPD5 codeex the
+- [01:01] basically you're using GPD5 codeex the new model we launched but you're kind of
+- [01:02] new model we launched but you're kind of
+- [01:02] new model we launched but you're kind of like I'm guessing prompting it a little
+- [01:04] like I'm guessing prompting it a little
+- [01:04] like I'm guessing prompting it a little differently when you're in the
+- [01:05] differently when you're in the
+- [01:05] differently when you're in the >> ID. Exactly. Exactly. So in this case
+- [01:07] >> ID. Exactly. Exactly. So in this case
+- [01:07] >> ID. Exactly. Exactly. So in this case I've just said what is this clause for?
+- [01:09] I've just said what is this clause for?
+- [01:10] I've just said what is this clause for? And it said it short circuits the effect
+- [01:11] And it said it short circuits the effect
+- [01:12] And it said it short circuits the effect when the browser doesn't support service
+- [01:13] when the browser doesn't support service
+- [01:13] when the browser doesn't support service workers which makes sense. If it
+- [01:15] workers which makes sense. If it
+- [01:15] workers which makes sense. If it determines that something is easy or a
+- [01:17] determines that something is easy or a
+- [01:17] determines that something is easy or a simple chat prompt it'll usually respond
+- [01:19] simple chat prompt it'll usually respond
+- [01:19] simple chat prompt it'll usually respond pretty quickly. Why don't you gonna
+- [01:20] pretty quickly. Why don't you gonna
+- [01:20] pretty quickly. Why don't you gonna navigate the codebase a little bit and
+- [01:22] navigate the codebase a little bit and
+- [01:22] navigate the codebase a little bit and um let's pick something to implement.
+- [01:24] um let's pick something to implement.
+- [01:24] um let's pick something to implement. >> Great. This button component happens to
+- [01:27] >> Great. This button component happens to
+- [01:27] >> Great. This button component happens to have a to-do to add a hover state.
+- [01:29] have a to-do to add a hover state.
+- [01:29] have a to-do to add a hover state. >> Yep.
+- [01:29] >> Yep.
+- [01:29] >> Yep. >> And if you have codeex installed, it
+- [01:31] >> And if you have codeex installed, it
+- [01:31] >> And if you have codeex installed, it will give you an opportunity to
+- [01:32] will give you an opportunity to
+- [01:32] will give you an opportunity to implement any to-do comments with
+- [01:34] implement any to-do comments with
+- [01:34] implement any to-do comments with codeex. So if I click it, it's going to
+- [01:37] codeex. So if I click it, it's going to
+- [01:37] codeex. So if I click it, it's going to kick off a local conversation and give
+- [01:39] kick off a local conversation and give
+- [01:39] kick off a local conversation and give Codex all the context it needs to fix
+- [01:41] Codex all the context it needs to fix
+- [01:41] Codex all the context it needs to fix this.
+- [01:41] this.
+- [01:42] this. >> That's awesome. So anyone that has like
+- [01:43] >> That's awesome. So anyone that has like
+- [01:43] >> That's awesome. So anyone that has like any to-dos or any task in their backlog
+- [01:46] any to-dos or any task in their backlog
+- [01:46] any to-dos or any task in their backlog can just like start sending them over to
+- [01:47] can just like start sending them over to
+- [01:47] can just like start sending them over to Codeex. Yeah, that's right.
+- [01:49] Codeex. Yeah, that's right.
+- [01:49] Codeex. Yeah, that's right. >> Can you show us a little bit like what's
+- [01:51] >> Can you show us a little bit like what's
+- [01:51] >> Can you show us a little bit like what's happening behind the scenes now?
+- [01:52] happening behind the scenes now?
+- [01:52] happening behind the scenes now? >> So behind the scenes when you ask Codeex
+- [01:54] >> So behind the scenes when you ask Codeex
+- [01:54] >> So behind the scenes when you ask Codeex to do something, it starts exploring
+- [01:56] to do something, it starts exploring
+- [01:56] to do something, it starts exploring your codebase and running commands and
+- [01:58] your codebase and running commands and
+- [01:58] your codebase and running commands and you can see its progression as it's
+- [01:59] you can see its progression as it's
+- [01:59] you can see its progression as it's going along. First, it's reading code
+- [02:02] going along. First, it's reading code
+- [02:02] going along. First, it's reading code and then when it decides to run
+- [02:03] and then when it decides to run
+- [02:04] and then when it decides to run commands, it runs in a safe sandbox that
+- [02:07] commands, it runs in a safe sandbox that
+- [02:07] commands, it runs in a safe sandbox that ensures that it's not going to modify
+- [02:09] ensures that it's not going to modify
+- [02:09] ensures that it's not going to modify files outside of your project. And if
+- [02:11] files outside of your project. And if
+- [02:12] files outside of your project. And if the model ever needs to do something
+- [02:13] the model ever needs to do something
+- [02:13] the model ever needs to do something that it thinks it can't run successfully
+- [02:15] that it thinks it can't run successfully
+- [02:15] that it thinks it can't run successfully in the sandbox, it can ask you for
+- [02:17] in the sandbox, it can ask you for
+- [02:17] in the sandbox, it can ask you for permission. It explored the codebase. It
+- [02:19] permission. It explored the codebase. It
+- [02:19] permission. It explored the codebase. It updated the button and then it made a
+- [02:21] updated the button and then it made a
+- [02:21] updated the button and then it made a bunch of changes at the end. You can
+- [02:23] bunch of changes at the end. You can
+- [02:23] bunch of changes at the end. You can then review the changes right in your
+- [02:24] then review the changes right in your
+- [02:24] then review the changes right in your IDE to see all the changes it made in
+- [02:27] IDE to see all the changes it made in
+- [02:27] IDE to see all the changes it made in one place. Y
+- [02:27] one place. Y
+- [02:28] one place. Y >> but I think we should just go see if it
+- [02:30] >> but I think we should just go see if it
+- [02:30] >> but I think we should just go see if it worked.
+- [02:30] worked.
+- [02:30] worked. >> Let's do it. Moment of truth.
+- [02:32] >> Let's do it. Moment of truth.
+- [02:32] >> Let's do it. Moment of truth. >> Hop over to the browser and I'm going to
+- [02:34] >> Hop over to the browser and I'm going to
+- [02:34] >> Hop over to the browser and I'm going to hover over these buttons. And as you can
+- [02:35] hover over these buttons. And as you can
+- [02:35] hover over these buttons. And as you can see, there's a nice subtle hover state
+- [02:37] see, there's a nice subtle hover state
+- [02:37] see, there's a nice subtle hover state where it the shadow expands, the card
+- [02:39] where it the shadow expands, the card
+- [02:39] where it the shadow expands, the card shifts up a little bit. I was looking
+- [02:41] shifts up a little bit. I was looking
+- [02:41] shifts up a little bit. I was looking around the the site and I noticed that
+- [02:42] around the the site and I noticed that
+- [02:42] around the the site and I noticed that there's a few other elements that also
+- [02:44] there's a few other elements that also
+- [02:44] there's a few other elements that also don't have a hover state. So, what I'm
+- [02:46] don't have a hover state. So, what I'm
+- [02:46] don't have a hover state. So, what I'm going to do now is I'm going to take
+- [02:47] going to do now is I'm going to take
+- [02:47] going to do now is I'm going to take this conversation we just had and I'm
+- [02:49] this conversation we just had and I'm
+- [02:49] this conversation we just had and I'm going to move it from local into the
+- [02:51] going to move it from local into the
+- [02:51] going to move it from local into the cloud. And this is going to use codeex
+- [02:53] cloud. And this is going to use codeex
+- [02:53] cloud. And this is going to use codeex in the cloud to continue this task
+- [02:56] in the cloud to continue this task
+- [02:56] in the cloud to continue this task without taking over my computer.
+- [02:58] without taking over my computer.
+- [02:58] without taking over my computer. >> I think it's like completely changing
+- [02:59] >> I think it's like completely changing
+- [02:59] >> I think it's like completely changing the way we think about engineering,
+- [03:01] the way we think about engineering,
+- [03:01] the way we think about engineering, right? Because you can start like a task
+- [03:03] right? Because you can start like a task
+- [03:03] right? Because you can start like a task locally upload it to your teammate in
+- [03:05] locally upload it to your teammate in
+- [03:05] locally upload it to your teammate in the cloud to just take care of it.
+- [03:07] the cloud to just take care of it.
+- [03:07] the cloud to just take care of it. >> That's really magical.
+- [03:08] >> That's really magical.
+- [03:08] >> That's really magical. >> Exactly. And so this is going in the
+- [03:10] >> Exactly. And so this is going in the
+- [03:10] >> Exactly. And so this is going in the cloud. It's going to include the changes
+- [03:11] cloud. It's going to include the changes
+- [03:11] cloud. It's going to include the changes we just had locally, but we can come
+- [03:13] we just had locally, but we can come
+- [03:13] we just had locally, but we can come back to it later. So we can stash our
+- [03:15] back to it later. So we can stash our
+- [03:15] back to it later. So we can stash our changes or even throw them away and
+- [03:17] changes or even throw them away and
+- [03:17] changes or even throw them away and bring them back from the remote tasks
+- [03:19] bring them back from the remote tasks
+- [03:19] bring them back from the remote tasks later if we want.
+- [03:20] later if we want.
+- [03:20] later if we want. >> Amazing. So this was a very like simple
+- [03:21] >> Amazing. So this was a very like simple
+- [03:21] >> Amazing. So this was a very like simple task that you showed us. I'd like to see
+- [03:23] task that you showed us. I'd like to see
+- [03:23] task that you showed us. I'd like to see like Codeex take some like initiatives
+- [03:26] like Codeex take some like initiatives
+- [03:26] like Codeex take some like initiatives in terms of the design direction or the
+- [03:28] in terms of the design direction or the
+- [03:28] in terms of the design direction or the I don't know like features or layout of
+- [03:30] I don't know like features or layout of
+- [03:30] I don't know like features or layout of the app.
+- [03:30] the app.
+- [03:30] the app. >> So what I'm going to do now is I'm going
+- [03:32] >> So what I'm going to do now is I'm going
+- [03:32] >> So what I'm going to do now is I'm going to change my IDE settings to run it in
+- [03:35] to change my IDE settings to run it in
+- [03:35] to change my IDE settings to run it in the cloud.
+- [03:35] the cloud.
+- [03:35] the cloud. >> Yep.
+- [03:36] >> Yep.
+- [03:36] >> Yep. >> And this time this is going to be a new
+- [03:38] >> And this time this is going to be a new
+- [03:38] >> And this time this is going to be a new task. I don't need it to use my local
+- [03:40] task. I don't need it to use my local
+- [03:40] task. I don't need it to use my local changes or IDE context, but I'm going to
+- [03:43] changes or IDE context, but I'm going to
+- [03:43] changes or IDE context, but I'm going to ask it to add a button to the header to
+- [03:46] ask it to add a button to the header to
+- [03:46] ask it to add a button to the header to make a really interesting thing,
+- [03:47] make a really interesting thing,
+- [03:47] make a really interesting thing, something fun. It's like not just like
+- [03:49] something fun. It's like not just like
+- [03:49] something fun. It's like not just like dark mode, something more interesting
+- [03:50] dark mode, something more interesting
+- [03:50] dark mode, something more interesting than that. And next to it, I can tell
+- [03:53] than that. And next to it, I can tell
+- [03:53] than that. And next to it, I can tell Codeex how many times I want it to
+- [03:55] Codeex how many times I want it to
+- [03:55] Codeex how many times I want it to attempt this task. So, you just gave
+- [03:57] attempt this task. So, you just gave
+- [03:57] attempt this task. So, you just gave those instructions and Codeex Cloud is
+- [04:00] those instructions and Codeex Cloud is
+- [04:00] those instructions and Codeex Cloud is going to work separately four different
+- [04:02] going to work separately four different
+- [04:02] going to work separately four different times with maybe coming up with four
+- [04:04] times with maybe coming up with four
+- [04:04] times with maybe coming up with four different opportunities to solve that
+- [04:06] different opportunities to solve that
+- [04:06] different opportunities to solve that problem.
+- [04:07] problem.
+- [04:07] problem. >> Exactly. Exactly. I mean, it's it's
+- [04:08] >> Exactly. Exactly. I mean, it's it's
+- [04:08] >> Exactly. Exactly. I mean, it's it's pretty amazing to watch Codeex work.
+- [04:10] pretty amazing to watch Codeex work.
+- [04:10] pretty amazing to watch Codeex work. Every single attempt is going to be a
+- [04:11] Every single attempt is going to be a
+- [04:11] Every single attempt is going to be a little bit different. In fact, we we
+- [04:13] little bit different. In fact, we we
+- [04:13] little bit different. In fact, we we even have Codeex currently working on
+- [04:14] even have Codeex currently working on
+- [04:14] even have Codeex currently working on the hover states and the theme at the
+- [04:17] the hover states and the theme at the
+- [04:17] the hover states and the theme at the same time. I could even have another
+- [04:18] same time. I could even have another
+- [04:18] same time. I could even have another conversation going locally if I wanted.
+- [04:21] conversation going locally if I wanted.
+- [04:21] conversation going locally if I wanted. >> I'm curious, by the way, in your own
+- [04:22] >> I'm curious, by the way, in your own
+- [04:22] >> I'm curious, by the way, in your own personal experience, like how has that
+- [04:23] personal experience, like how has that
+- [04:23] personal experience, like how has that changed your workflow?
+- [04:24] changed your workflow?
+- [04:24] changed your workflow? >> It's a good question. Um, back when we
+- [04:27] >> It's a good question. Um, back when we
+- [04:27] >> It's a good question. Um, back when we were launching Codex Web, it was like
+- [04:29] were launching Codex Web, it was like
+- [04:29] were launching Codex Web, it was like 1:30 in the morning and we were trying
+- [04:31] 1:30 in the morning and we were trying
+- [04:31] 1:30 in the morning and we were trying to get this really fun Lahi animation to
+- [04:33] to get this really fun Lahi animation to
+- [04:33] to get this really fun Lahi animation to animate whenever you submit a new
+- [04:35] animate whenever you submit a new
+- [04:36] animate whenever you submit a new conversation in Codex. Um, and it worked
+- [04:38] conversation in Codex. Um, and it worked
+- [04:38] conversation in Codex. Um, and it worked perfectly locally, but when we pushed it
+- [04:40] perfectly locally, but when we pushed it
+- [04:40] perfectly locally, but when we pushed it into production, all of the Lah
+- [04:42] into production, all of the Lah
+- [04:42] into production, all of the Lah animations except for this one wouldn't
+- [04:45] animations except for this one wouldn't
+- [04:45] animations except for this one wouldn't work. So, we asked Codex to attempt it
+- [04:47] work. So, we asked Codex to attempt it
+- [04:47] work. So, we asked Codex to attempt it four times. Three of them did not work,
+- [04:50] four times. Three of them did not work,
+- [04:50] four times. Three of them did not work, but one of them figured out this very
+- [04:51] but one of them figured out this very
+- [04:51] but one of them figured out this very obscure content security policy issue
+- [04:54] obscure content security policy issue
+- [04:54] obscure content security policy issue that was preventing some inline
+- [04:56] that was preventing some inline
+- [04:56] that was preventing some inline JavaScript that happens to be in that
+- [04:57] JavaScript that happens to be in that
+- [04:57] JavaScript that happens to be in that one animation from working and it saved
+- [04:59] one animation from working and it saved
+- [04:59] one animation from working and it saved that aspect of the launch.
+- [05:00] that aspect of the launch.
+- [05:00] that aspect of the launch. >> That's incredible. So I guess for like
+- [05:02] >> That's incredible. So I guess for like
+- [05:02] >> That's incredible. So I guess for like very nasty or complex like bugs or like
+- [05:05] very nasty or complex like bugs or like
+- [05:05] very nasty or complex like bugs or like you know things that you're kind of like
+- [05:06] you know things that you're kind of like
+- [05:06] you know things that you're kind of like struggling to find out, this is exactly
+- [05:08] struggling to find out, this is exactly
+- [05:08] struggling to find out, this is exactly the kind of thing that Codex can take a
+- [05:09] the kind of thing that Codex can take a
+- [05:10] the kind of thing that Codex can take a look at.
+- [05:10] look at.
+- [05:10] look at. >> Exactly.
+- [05:10] >> Exactly.
+- [05:10] >> Exactly. >> Like even like look at it from different
+- [05:12] >> Like even like look at it from different
+- [05:12] >> Like even like look at it from different angles, try different perspectives.
+- [05:14] angles, try different perspectives.
+- [05:14] angles, try different perspectives. >> Exactly. And I I'll use it for planning,
+- [05:16] >> Exactly. And I I'll use it for planning,
+- [05:16] >> Exactly. And I I'll use it for planning, even planning or working on a
+- [05:18] even planning or working on a
+- [05:18] even planning or working on a complicated refactor where I don't even
+- [05:20] complicated refactor where I don't even
+- [05:20] complicated refactor where I don't even know exactly what I want, but I'll have
+- [05:21] know exactly what I want, but I'll have
+- [05:21] know exactly what I want, but I'll have Codeex take multiple attempts. And
+- [05:23] Codeex take multiple attempts. And
+- [05:23] Codeex take multiple attempts. And sometimes I'll take the best aspects of
+- [05:25] sometimes I'll take the best aspects of
+- [05:25] sometimes I'll take the best aspects of each one. That's really cool. So, what's
+- [05:26] each one. That's really cool. So, what's
+- [05:26] each one. That's really cool. So, what's going on now with those four tasks?
+- [05:28] going on now with those four tasks?
+- [05:28] going on now with those four tasks? >> Okay, let's take a look at this. So, we
+- [05:30] >> Okay, let's take a look at this. So, we
+- [05:30] >> Okay, let's take a look at this. So, we have attempt number one. I'm just going
+- [05:31] have attempt number one. I'm just going
+- [05:31] have attempt number one. I'm just going to go ahead and apply it. See what
+- [05:33] to go ahead and apply it. See what
+- [05:33] to go ahead and apply it. See what happens. And go over to the browser. And
+- [05:35] happens. And go over to the browser. And
+- [05:35] happens. And go over to the browser. And you can see
+- [05:36] you can see
+- [05:36] you can see >> Oh, wow.
+- [05:37] >> Oh, wow.
+- [05:38] >> Oh, wow. >> Oh my gosh.
+- [05:38] >> Oh my gosh.
+- [05:38] >> Oh my gosh. >> That's very, very good actually. Very
+- [05:41] >> That's very, very good actually. Very
+- [05:41] >> That's very, very good actually. Very creative. Okay.
+- [05:42] creative. Okay.
+- [05:42] creative. Okay. >> I've never seen that before. the same.
+- [05:44] >> I've never seen that before. the same.
+- [05:44] >> I've never seen that before. the same. Let's see what else it did.
+- [05:45] Let's see what else it did.
+- [05:45] Let's see what else it did. >> Let's Let's take a look at the next one.
+- [05:46] >> Let's Let's take a look at the next one.
+- [05:46] >> Let's Let's take a look at the next one. >> So, I'm going to revert that one and
+- [05:48] >> So, I'm going to revert that one and
+- [05:48] >> So, I'm going to revert that one and then I'm going to apply attempt number
+- [05:50] then I'm going to apply attempt number
+- [05:50] then I'm going to apply attempt number two.
+- [05:51] two.
+- [05:51] two. >> Oh, yeah. The entire theme has already
+- [05:52] >> Oh, yeah. The entire theme has already
+- [05:52] >> Oh, yeah. The entire theme has already changed. Interesting. Okay.
+- [05:54] changed. Interesting. Okay.
+- [05:54] changed. Interesting. Okay. >> Uh let's take a look at the next one.
+- [05:56] >> Uh let's take a look at the next one.
+- [05:56] >> Uh let's take a look at the next one. >> Wa. That's pretty cool. I'm guessing
+- [05:58] >> Wa. That's pretty cool. I'm guessing
+- [05:58] >> Wa. That's pretty cool. I'm guessing like conversely to what we did right
+- [06:00] like conversely to what we did right
+- [06:00] like conversely to what we did right before, now you can take any of these
+- [06:02] before, now you can take any of these
+- [06:02] before, now you can take any of these cloud tasks, check them out locally, and
+- [06:04] cloud tasks, check them out locally, and
+- [06:04] cloud tasks, check them out locally, and keep working locally in your code
+- [06:05] keep working locally in your code
+- [06:06] keep working locally in your code editor.
+- [06:06] editor.
+- [06:06] editor. >> Exactly.
+- [06:06] >> Exactly.
+- [06:06] >> Exactly. >> That's very magical. Gabriel, before we
+- [06:08] >> That's very magical. Gabriel, before we
+- [06:08] >> That's very magical. Gabriel, before we wrap, like can you check on the status
+- [06:10] wrap, like can you check on the status
+- [06:10] wrap, like can you check on the status of that task that you sent at the
+- [06:12] of that task that you sent at the
+- [06:12] of that task that you sent at the beginning that you started locally and
+- [06:13] beginning that you started locally and
+- [06:13] beginning that you started locally and then like offloaded to Codexcloud?
+- [06:15] then like offloaded to Codexcloud?
+- [06:15] then like offloaded to Codexcloud? >> Looks like it's done. If I open up the
+- [06:18] >> Looks like it's done. If I open up the
+- [06:18] >> Looks like it's done. If I open up the hover state task that we kicked off, I
+- [06:20] hover state task that we kicked off, I
+- [06:20] hover state task that we kicked off, I can see now that it's modified a few
+- [06:21] can see now that it's modified a few
+- [06:21] can see now that it's modified a few additional files. And if I apply the
+- [06:24] additional files. And if I apply the
+- [06:24] additional files. And if I apply the changes locally and then go to the
+- [06:26] changes locally and then go to the
+- [06:26] changes locally and then go to the browser, you'll see that it added hover
+- [06:29] browser, you'll see that it added hover
+- [06:29] browser, you'll see that it added hover states for a couple new items. The start
+- [06:31] states for a couple new items. The start
+- [06:31] states for a couple new items. The start building button now has a slight hover
+- [06:33] building button now has a slight hover
+- [06:33] building button now has a slight hover state as well as the switch in the top
+- [06:35] state as well as the switch in the top
+- [06:35] state as well as the switch in the top right corner.
+- [06:35] right corner.
+- [06:35] right corner. >> Amazing. Thanks, Gabriel. Well, we hope
+- [06:38] >> Amazing. Thanks, Gabriel. Well, we hope
+- [06:38] >> Amazing. Thanks, Gabriel. Well, we hope this gave you a quick tour of how you
+- [06:40] this gave you a quick tour of how you
+- [06:40] this gave you a quick tour of how you can use codeex directly in your code
+- [06:42] can use codeex directly in your code
+- [06:42] can use codeex directly in your code editor now with the extension. It's all
+- [06:44] editor now with the extension. It's all
+- [06:44] editor now with the extension. It's all included in your Chad GPT subscription.
+- [06:46] included in your Chad GPT subscription.
+- [06:46] included in your Chad GPT subscription. In order to download the extension, you
+- [06:48] In order to download the extension, you
+- [06:48] In order to download the extension, you can go to opener.com/codex or simply
+- [06:50] can go to opener.com/codex or simply
+- [06:50] can go to opener.com/codex or simply look for codeex in your extension
+- [06:52] look for codeex in your extension
+- [06:52] look for codeex in your extension marketplace. With that, thank you and we
+- [06:54] marketplace. With that, thank you and we
+- [06:54] marketplace. With that, thank you and we can't wait to see what you build.

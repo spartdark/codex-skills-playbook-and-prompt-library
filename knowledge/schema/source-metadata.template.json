@@ -1,0 +1,17 @@
+{
+  "source_type": "youtube|reddit|web|docs|other",
+  "source_id": "",
+  "url": "",
+  "title": "",
+  "author": "",
+  "community_or_channel": "",
+  "published_at": "",
+  "captured_at": "",
+  "language": "",
+  "topics": [],
+  "projects": ["ia-learning"],
+  "content_type": "raw|transcript|thread|summary|insight",
+  "confidence": "verified|inferred|experimental|unverified",
+  "evidence_pointer": "",
+  "notes": ""
+}

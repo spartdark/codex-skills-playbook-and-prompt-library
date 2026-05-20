@@ -1,0 +1,66 @@
+{
+  "error": {
+    "code": "temporary_provider_failure",
+    "message": "YouTube anuncio captions, pero el endpoint timedtext devolvio una respuesta vacia.",
+    "details": {
+      "language": "en",
+      "is_auto_generated": true,
+      "hint": "YouTube puede requerir Proof of Origin token o haber cambiado el acceso a captions.",
+      "source_url": "https://www.youtube.com/watch?v=Xdy1vkhSz-M",
+      "video_id": "Xdy1vkhSz-M",
+      "title": "Codex Just Replaced 1,000 Hours of Video Editing Tutorials",
+      "channel": "Riley Brown",
+      "attempted_track": {
+        "language": "en",
+        "label": "English (auto-generated)",
+        "is_auto_generated": true,
+        "is_translatable": true
+      },
+      "available_tracks": [
+        {
+          "language": "en",
+          "label": "English (auto-generated)",
+          "is_auto_generated": true,
+          "is_translatable": true
+        }
+      ],
+      "youtubei_fallback_error": {
+        "code": "temporary_provider_failure",
+        "message": "YouTube devolvio HTTP 400.",
+        "details": {
+          "http_status": 400,
+          "youtube_error": {
+            "code": 400,
+            "message": "Precondition check failed.",
+            "errors": [
+              {
+                "message": "Precondition check failed.",
+                "domain": "global",
+                "reason": "failedPrecondition"
+              }
+            ],
+            "status": "FAILED_PRECONDITION"
+          },
+          "strategy": "youtubei"
+        }
+      },
+      "ytdlp_fallback_error": {
+        "code": "temporary_provider_failure",
+        "message": "yt-dlp no pudo obtener captions.",
+        "details": {
+          "strategy": "yt-dlp",
+          "returncode": 1,
+          "stderr_preview": "endencies\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nWARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'es': HTTP Error 429: Too Many Requests\n",
+          "po_token_used": false,
+          "cookies_from_browser_used": false
+        }
+      }
+    },
+    "retrieved_at": "2026-05-19T17:36:43Z"
+  },
+  "source_url": "https://www.youtube.com/watch?v=Xdy1vkhSz-M",
+  "video_id": "Xdy1vkhSz-M",
+  "title": "Codex Just Replaced 1,000 Hours of Video Editing Tutorials",
+  "channel": "Riley Brown",
+  "saved_to": "knowledge/processed/transcripts/youtube-riley-brown/Xdy1vkhSz-M.json"
+}
