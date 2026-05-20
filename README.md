@@ -12,7 +12,7 @@ Este repositorio organiza cada skill como una unidad distribuible con:
 
 ## Version actual
 
-La version actual del repositorio es `0.4.0`.
+La version actual del repositorio es `0.5.0`.
 
 ## Skills incluidas
 
@@ -22,6 +22,7 @@ La version actual del repositorio es `0.4.0`.
 - `skill-intent-spec-context-generation-validation`: ISCGV++ Product Operating System para pasar de idea ambigua a PRD auditable y validable.
 - `skill-intent-spec-context-generation-validation-en`: versión en inglés de ISCGV para convertir ideas ambiguas en PRDs validados y accionables.
 - `skill-youtube-transcript`: extracción y normalización de transcripciones públicas de YouTube como fuente trazable.
+- `skill-codex-engineering-pre-read`: pre-reads tecnicos con Codex para preparar decisiones, riesgos, gaps de validacion y tareas verificables.
 
 ## Plugins incluidos
 
@@ -42,6 +43,7 @@ La version actual del repositorio es `0.4.0`.
 │   ├── skill-git-github-expert/
 │   ├── skill-intent-spec-context-generation-validation/
 │   ├── skill-intent-spec-context-generation-validation-en/
+│   ├── skill-codex-engineering-pre-read/
 │   ├── skill-rag-research/
 │   ├── skill-sdd-architect/
 │   └── skill-youtube-transcript/

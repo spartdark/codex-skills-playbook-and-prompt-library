@@ -5,8 +5,8 @@
     "owner": "spartdark",
     "visibility": "public",
     "license": "MIT",
-    "version": "0.4.0",
-    "updatedAt": "2026-05-19",
+    "version": "0.5.0",
+    "updatedAt": "2026-05-20",
     "installBase": "skills"
   },
   "skills": [
@@ -133,6 +133,28 @@
         "research",
         "source-extraction",
         "grounding"
+      ],
+      "public": true,
+      "stable": false
+    },
+    {
+      "id": "codex.skill.codex-engineering-pre-read",
+      "name": "Codex Engineering Pre-Read",
+      "slug": "skill-codex-engineering-pre-read",
+      "version": "0.1.0",
+      "summary": "Guia portable para preparar decisiones tecnicas con Codex usando evidencia local, riesgos, gaps de validacion y tareas verificables.",
+      "path": "skills/skill-codex-engineering-pre-read",
+      "entrypoints": [
+        "SKILL.md",
+        "prompt.md"
+      ],
+      "tags": [
+        "codex",
+        "engineering-management",
+        "pre-read",
+        "planning",
+        "developer-experience",
+        "validation"
       ],
       "public": true,
       "stable": false

@@ -4,6 +4,18 @@ Todos los cambios relevantes de este repositorio se documentan aquí.
 
 El formato sigue una variante legible de [Keep a Changelog](https://keepachangelog.com/) y el proyecto usa versionado semántico.
 
+## [0.5.0] - 2026-05-20
+
+### Added
+
+- nueva skill `skill-codex-engineering-pre-read` para preparar pre-reads tecnicos con Codex antes de planear, implementar o automatizar;
+- assets portables con guia de pre-read, guia practica de Codex y templates de prompt briefs;
+- ejemplo de pre-read semanal y prompts para forzar evidencia y convertir recomendaciones en tareas.
+
+### Changed
+
+- version del repositorio actualizada a `0.5.0`.
+
 ## [0.4.0] - 2026-05-19
 
 ### Added

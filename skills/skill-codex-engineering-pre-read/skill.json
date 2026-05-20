@@ -1,0 +1,21 @@
+{
+  "id": "codex.skill.codex-engineering-pre-read",
+  "name": "Codex Engineering Pre-Read",
+  "slug": "skill-codex-engineering-pre-read",
+  "version": "0.1.0",
+  "summary": "Guia portable para preparar decisiones tecnicas con Codex usando evidencia local, riesgos, gaps de validacion y tareas verificables.",
+  "entrypoints": [
+    "SKILL.md",
+    "prompt.md"
+  ],
+  "tags": [
+    "codex",
+    "engineering-management",
+    "pre-read",
+    "planning",
+    "developer-experience",
+    "validation"
+  ],
+  "public": true,
+  "stable": false
+}
