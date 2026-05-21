@@ -45,3 +45,13 @@ Reusable technical patterns discovered from YouTube, Reddit, docs, experiments, 
 - Pattern: map MCP tools only to documented API methods, expose unsupported gaps explicitly, and keep authentication delegated to the provider's supported OAuth/ADC flow.
 - Tradeoffs: the first version may omit desirable UI features such as NotebookLM personal chat, but it is easier to maintain and safer to automate.
 - Next experiment: validate `services/notebooklm-mcp` against a real NotebookLM Enterprise project and capture the minimum IAM roles needed for each tool.
+
+## Harness Task Contract
+
+- Source: [BettaTech Harness Engineering](../../processed/summaries/youtube-bettatech-harness-engineering-q9Vaoz0hd0U-summary.md)
+- Confidence: inferred from secondary summary; transcript extraction failed.
+- Applies to: Codex runs, subagent orchestration, research pipelines, RAG memory updates.
+- Problem: agents degrade when context is long-lived, tools are ambiguous, memory is implicit and success is asserted without evidence.
+- Pattern: wrap each meaningful task in a small versioned contract: objective, non-objectives, allowed scope, context sources, tools, checks, memory update and escalation conditions.
+- Tradeoffs: adds upfront ceremony, but reduces hidden state and makes failures attributable.
+- Next experiment: use this contract on one `ia-learning` implementation or research-to-action task and compare rework against a normal chat-only run.

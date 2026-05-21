@@ -68,3 +68,12 @@ Ideas for improving how this workspace researches, builds, validates, documents,
 - Proposed change: before weekly planning or a medium implementation task, generate a short pre-read from git status, recent commits, source-index changes, stale experiments, open questions, and missing validation evidence.
 - Expected impact: better prioritization, fewer forgotten follow-ups, and clearer handoff from research into implementation.
 - Validation step: run one manual pre-read for `ia-learning`, then record whether it changes the next three task priorities.
+
+## Checked Harness For Source Intelligence
+
+- Source: [BettaTech Harness Engineering](../../processed/summaries/youtube-bettatech-harness-engineering-q9Vaoz0hd0U-summary.md)
+- Confidence: inferred from secondary summary; primary transcript unavailable.
+- Current friction: source research currently depends on the agent remembering every step in `knowledge/README.md`.
+- Proposed change: add a lightweight validator or checklist that checks high-signal sources have raw evidence, processed summary, confidence label, project link and at least one experiment or explicit "no experiment" note.
+- Expected impact: fewer passive summaries, less risk of ungrounded claims, and cleaner future RAG indexing.
+- Validation step: run the validator/checklist on the next three YouTube or Reddit sources and record missing fields.

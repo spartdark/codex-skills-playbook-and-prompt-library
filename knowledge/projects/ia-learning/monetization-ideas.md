@@ -55,3 +55,13 @@ Potential product, service, course, automation, or consulting angles derived fro
 - Offer: paid or lead-magnet reports that compare tools on reproducible repo tasks: correctness, speed, tests, rework, and handoff quality.
 - Why now: channel metadata shows strong demand framing around "new best AI coding tool" and major model/tool releases.
 - Validation step: run one benchmark matrix using a small `ia-learning` task and publish the methodology before any conclusions.
+
+## Agent Harness Kit
+
+- Source: [BettaTech Harness Engineering](../../processed/summaries/youtube-bettatech-harness-engineering-q9Vaoz0hd0U-summary.md)
+- Confidence: inferred
+- Target user: small software teams adopting coding agents but struggling with scope control, validation and context drift.
+- Pain: agents can generate useful code quickly but also lose context, overreach, or declare success without durable evidence.
+- Offer: templates and setup service for `AGENTS.md`, task contracts, state files, validation checklists, subagent roles and source-memory workflow.
+- Why now: the source frames harness quality as a lever separate from model quality; teams are moving from demos to operational agent workflows.
+- Validation step: package one internal harness template for `ia-learning`, run it on two tasks, and offer a review session to one external builder before setting price.

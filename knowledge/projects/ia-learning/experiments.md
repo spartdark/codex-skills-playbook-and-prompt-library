@@ -89,3 +89,15 @@ Validation tasks derived from source research and implementation work.
 - Failure signal: the pre-read repeats obvious information, misses important project state, or creates more review work than it saves.
 - Evidence to capture: generated pre-read, changed priorities, manual corrections, elapsed time, and follow-up tasks.
 - Status: planned
+
+## Harness Task Contract Trial
+
+- Source: [BettaTech Harness Engineering](../../processed/summaries/youtube-bettatech-harness-engineering-q9Vaoz0hd0U-summary.md)
+- Confidence: experimental
+- Hypothesis: a small versioned task contract improves Codex/subagent reliability by making context, scope, tools, validation and memory update explicit.
+- User/problem: `ia-learning` needs agent work to stay traceable and verifiable without turning every task into a heavy PRD.
+- Smallest test: choose one medium task, create a compact task contract, execute it, then compare final evidence and rework against a similar ad hoc task.
+- Success signal: fewer scope corrections, clearer validation evidence and a useful project-memory update.
+- Failure signal: the contract feels like overhead, misses the actual blocker or does not improve verification quality.
+- Evidence to capture: task contract, changed files, validation output, final report and reviewer notes.
+- Status: planned

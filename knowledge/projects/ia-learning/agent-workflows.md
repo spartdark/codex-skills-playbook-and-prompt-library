@@ -58,6 +58,19 @@ Reusable operating patterns for Codex, plugins, skills, and multi-agent work in 
 - Memory update: summarize reusable patterns in `knowledge/projects/ia-learning/` and preserve raw source evidence when external content influenced the decision.
 - Risks: vague tasks, hidden dependencies, duplicated work across agents, missing acceptance criteria, and treating generated summaries as primary evidence.
 
+## Agent Harness Task Contract
+
+- Source: [BettaTech Harness Engineering](../../processed/summaries/youtube-bettatech-harness-engineering-q9Vaoz0hd0U-summary.md)
+- Confidence: inferred from secondary summary; primary transcript unavailable.
+- Use when: running a meaningful Codex/subagent task where context, file scope, tool permissions or validation evidence matter.
+- Project folder: repo root plus `knowledge/` for source-backed memory.
+- Inputs: objective, non-objectives, allowed files, relevant docs, allowed tools, validation command, memory files to update, escalation criteria.
+- Agent lanes: orchestrator owns task contract and final evidence; worker implements within scope; reviewer verifies tests/diff/evidence; memory curator updates `knowledge/`.
+- Artifacts: task contract, changed files or research artifacts, validation output, final summary, project-memory links.
+- Validation: task is not complete until it has an explicit evidence pointer such as test output, raw source, screenshot, diff review or documented blocker.
+- Memory update: save reusable lessons as implementation pattern, process improvement or experiment.
+- Risks: over-structuring small tasks; using generated summaries as if they were transcripts; adding too many specialized tools before measuring whether primitives work.
+
 ## Engineering Manager Pre-Read
 
 - Source: [AI for engineering management and software project administration](../../processed/summaries/youtube-ai-engineering-management-2026-05-20.md)
