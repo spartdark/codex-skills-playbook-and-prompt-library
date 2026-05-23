@@ -4,6 +4,10 @@ Reusable operating patterns for Codex, plugins, skills, and multi-agent work in 
 
 Primary operating guide: [Codex Operating System Guide](codex-operating-system-guide.md).
 
+Specialized control-plane guide: [Agent Control Plane Guide](agent-control-plane-guide.md).
+
+Specialized research guide: [Research Ops Evidence Guide](research-ops-evidence-guide.md).
+
 ## Workflow Template
 
 ```md
