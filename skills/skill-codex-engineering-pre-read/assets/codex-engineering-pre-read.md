@@ -8,6 +8,24 @@ El objetivo es producir un pre-read accionable: un resumen corto, basado en evid
 
 Este documento esta disenado para copiarse a otros proyectos. Ajusta solo las rutas de memoria, comandos de verificacion y fuentes del proyecto.
 
+## Decision De Formato
+
+Este archivo sigue siendo una guia portable, no una skill formal de Codex.
+
+Razones:
+
+- debe poder copiarse a cualquier repo sin depender de instalacion en `$CODEX_HOME/skills`;
+- contiene prompts, criterios y convenciones editables por proyecto;
+- su uso principal es preparar sesiones manuales antes de automatizar.
+
+Si mas adelante se convierte en skill formal, crea un `SKILL.md` separado con:
+
+- descripcion y triggers de uso;
+- pasos obligatorios;
+- formato de salida;
+- guardrails;
+- referencias a esta guia como documentacion extendida.
+
 ## Origen Del Patron
 
 El patron viene del workflow mostrado en el video "Spec-driven development: the AI engineering workflow at Notion | Ryan Nystrom".
@@ -45,6 +63,19 @@ No hace falta usarlo para tareas pequenas o preguntas puntuales.
 - Separar confianza: marca hechos verificados, inferencias y puntos que necesitan validacion.
 - Sin cambios de codigo: el pre-read es analisis y planeacion, no implementacion.
 
+## Politica De Fechas Y Zona Horaria
+
+Usa fechas absolutas en todos los pre-reads.
+
+Reglas:
+
+- No dejes la ventana como "ultimos 7 dias" en el entregable final.
+- Convierte la ventana a rango explicito: `YYYY-MM-DD to YYYY-MM-DD`.
+- Incluye zona horaria: `America/Mexico_City` salvo que el proyecto indique otra.
+- Incluye fecha y hora de generacion en formato ISO local: `YYYY-MM-DD HH:mm TZ`.
+- Si el usuario pide "hoy", "ayer", "esta semana" o "desde la ultima vez", traduce esa frase a fechas concretas antes de analizar.
+- Si no existe un pre-read anterior, marca la ventana como `initial review` y declara el supuesto.
+
 ## Estructura Recomendada Del Proyecto
 
 Para que Codex pueda generar buenos pre-reads, cada proyecto deberia tener al menos:
@@ -58,6 +89,8 @@ docs/
 knowledge/                  # opcional, si usas memoria local
   raw/
   processed/
+  briefs/
+    weekly/
   projects/<project>/
     source-index.md
     experiments.md
@@ -74,6 +107,30 @@ Si tu proyecto no usa `knowledge/`, reemplaza esas rutas por:
 - `docs/roadmap.md`;
 - `docs/experiments.md`;
 - changelog o release notes.
+
+## Output Storage
+
+Por defecto, el pre-read se responde en chat y no modifica archivos.
+
+Guarda un draft solo si el usuario lo pide explicitamente o si existe una automatizacion aprobada.
+
+Rutas recomendadas:
+
+- manual en docs: `docs/pre-reads/YYYY-MM-DD-engineering-pre-read.md`;
+- manual en memoria local: `knowledge/briefs/weekly/YYYY-MM-DD-engineering-pre-read.md`;
+- automatizado semanal: `knowledge/briefs/weekly/YYYY-Www-engineering-pre-read.md`.
+
+Naming:
+
+- usa fecha de inicio o fecha de generacion, segun la convencion del proyecto;
+- evita nombres relativos como `latest.md`;
+- si hay varios pre-reads el mismo dia, agrega sufijo corto: `-v2`, `-frontend`, `-release`.
+
+Politica de escritura:
+
+- Chat-only: Codex devuelve el Markdown y no escribe archivos.
+- Draft: Codex crea o actualiza solo el archivo del pre-read.
+- Automation draft: Codex escribe solo en la ruta aprobada y no toca backlog, specs ni decisiones.
 
 ## Fuentes A Revisar
 
@@ -109,7 +166,7 @@ Si tu proyecto no usa `knowledge/`, reemplaza esas rutas por:
 ## Proceso Manual
 
 1. Define la ventana de analisis.
-   Ejemplo: "ultimos 7 dias" o "desde el ultimo pre-read".
+   Ejemplo: `2026-05-13 to 2026-05-20, America/Mexico_City`.
 
 2. Pide a Codex que inspeccione solo contexto.
    No debe implementar ni modificar archivos.
@@ -129,6 +186,9 @@ Si tu proyecto no usa `knowledge/`, reemplaza esas rutas por:
 7. Cierra con tareas para Codex.
    Cada tarea debe tener objetivo, alcance, criterios de aceptacion y verificacion.
 
+8. Decide destino del resultado.
+   Si no hay instruccion explicita para guardar, responde en chat.
+
 ## Formato Del Pre-Read
 
 ```md
@@ -141,6 +201,7 @@ Si tu proyecto no usa `knowledge/`, reemplaza esas rutas por:
 - Generated:
 - Sources inspected:
 - Confidence:
+- Output destination:
 
 ## Executive Summary
 
@@ -160,6 +221,12 @@ Si tu proyecto no usa `knowledge/`, reemplaza esas rutas por:
 
 ## Evidence Table
 
+| Claim | Status | Evidence | Source | Inference | Next validation |
+|-------|--------|----------|--------|-----------|-----------------|
+|  | verified / inferred / needs validation |  | file path, command, commit, issue, PR or source |  |  |
+
+## Failure Modes Encountered
+
 ## Assumptions And Missing Information
 ```
 
@@ -170,91 +237,86 @@ Copia este prompt en Codex y ajusta las rutas entre corchetes.
 ````md
 # Codex Prompt Brief: Engineering Pre-Read
 
-## Objetivo
+Crea un pre-read de ingenieria para `[project]`.
 
-Crea un pre-read de ingenieria para este proyecto.
+No implementes cambios, no modifiques archivos y no crees automatizaciones. Esta tarea es solo analisis, planeacion y priorizacion.
 
-No implementes cambios. No modifiques archivos. Esta tarea es solo analisis, planeacion y priorizacion.
+Window:
+- Requested window: `[relative or absolute window]`
+- Convert it to absolute dates before analyzing.
+- Timezone: `[timezone, default America/Mexico_City]`
 
-## Contexto
+Output:
+- Destination: chat-only unless I explicitly ask you to save a draft.
+- If saving is requested, use `[docs/pre-reads/YYYY-MM-DD-engineering-pre-read.md or knowledge/briefs/weekly/YYYY-MM-DD-engineering-pre-read.md]`.
 
-Proyecto:
-[Describe brevemente el proyecto.]
-
-Ventana de analisis:
-[Ultimos 7 dias / desde el ultimo pre-read / desde el ultimo release.]
-
-Memoria o gestion del proyecto:
-[Rutas a knowledge/, docs/, issues, backlog, roadmap o decisiones.]
-
-## Fuentes A Revisar
-
-Revisa como minimo:
+Inspect at minimum:
 
 ```bash
 git status --short
 git log --oneline --decorate --max-count=20
 ```
 
-Inspecciona tambien:
+Also inspect:
 
-- [README o docs de setup]
-- [package.json / pyproject.toml / go.mod / equivalente]
-- [docs/specs o docs/runbooks relevantes]
-- [source-index / experiments / open-questions si existen]
-- [issues, PRs o notas si estan disponibles localmente]
+- `[README or setup docs]`
+- `[package.json / pyproject.toml / go.mod / Cargo.toml / equivalent]`
+- `[docs/specs or docs/runbooks]`
+- `[knowledge/projects/<project>/source-index.md if present]`
+- `[knowledge/projects/<project>/experiments.md if present]`
+- `[knowledge/projects/<project>/open-questions.md if present]`
+- `[issues, PRs or local meeting notes if available]`
 
-## Alcance
+Return Markdown with these sections:
 
-Incluye:
+1. Metadata
+2. Executive Summary
+3. Changes Since Last Review
+4. Decisions Needed
+5. Risks And Blockers
+6. Bugs Or Validation Gaps
+7. Open Questions
+8. Recommended Next Actions
+9. Proposed Codex Tasks
+10. Evidence Table
+11. Assumptions And Missing Information
+12. Failure Modes Encountered
 
-- cambios recientes;
-- tareas abiertas o incompletas;
-- bugs, riesgos o bloqueos;
-- decisiones pendientes;
-- gaps de validacion;
-- proximos pasos recomendados;
-- 3 tareas propuestas para Codex.
+Quality rules:
 
-No incluye:
+- Mark each material point as `verified`, `inferred` or `needs validation`.
+- Every recommendation must cite evidence: file, command, commit, issue, PR, source or explicit gap.
+- Use absolute dates and include timezone.
+- If evidence is missing, say so and move the point to open questions or assumptions.
+- Do not revert or hide unrelated working tree changes; mention them if they affect the analysis.
+- Keep proposed tasks small enough for one Codex session.
 
-- implementar codigo;
-- refactors;
-- cambios de documentacion;
-- crear automatizaciones;
-- recomendaciones sin evidencia.
+Evidence table schema:
 
-## Reglas De Calidad
+| Claim | Status | Evidence | Source | Inference | Next validation |
+|-------|--------|----------|--------|-----------|-----------------|
 
-- Marca cada punto como `verified`, `inferred` o `needs validation`.
-- Cada recomendacion debe apuntar a evidencia: archivo, comando, commit, issue, PR, fuente o brecha explicita.
-- Si falta evidencia, dilo.
-- Si hay cambios no relacionados en el working tree, no los reviertas ni los ignores si afectan el analisis.
-- Prioriza acciones pequenas, verificables y utiles para la siguiente sesion.
+Each proposed Codex task must include:
 
-## Entregable
-
-Devuelve un Markdown con:
-
-1. Executive summary.
-2. Changes since last review.
-3. Decisions needed.
-4. Risks and blockers.
-5. Bugs or validation gaps.
-6. Open questions.
-7. Recommended next actions.
-8. Proposed Codex tasks.
-9. Evidence table.
-10. Assumptions and missing information.
-
-Cada tarea propuesta para Codex debe incluir:
-
-- objetivo;
-- alcance;
-- no-alcance;
-- criterios de aceptacion;
-- comando o flujo de verificacion.
+- Objective
+- Scope
+- Non-scope
+- Acceptance criteria
+- Verification command or manual flow
 ````
+
+## Failure Modes
+
+Incluye una seccion `Failure Modes Encountered` cuando ocurra cualquiera de estos casos.
+
+| Failure mode | Como reportarlo | Accion recomendada |
+|--------------|-----------------|--------------------|
+| Fuentes ausentes | Lista la ruta, issue, PR, dashboard o nota que no estuvo disponible. | Marca las conclusiones relacionadas como `needs validation`. |
+| Working tree sucio | Resume archivos modificados/no trackeados relevantes sin revertir nada. | Distingue cambios relacionados vs no relacionados. |
+| Tests no disponibles | Indica que no hay script claro de test/build/lint o que no se encontro manifest. | Propone una tarea pequena para documentar verificacion minima. |
+| Repo sin commits recientes | Reporta el ultimo commit disponible y la fecha si se puede obtener. | Cambia el foco a docs, backlog, memoria local o preguntas abiertas. |
+| CI o gestion externa inaccesible | Reporta herramienta y razon de inaccesibilidad si se conoce. | No inventes estado; pide validar o usa evidencia local. |
+| Ventana ambigua | Muestra el supuesto de fechas absolutas usado. | Pide confirmacion solo si el supuesto cambia decisiones importantes. |
 
 ## Prompt De Correccion Del Pre-Read
 

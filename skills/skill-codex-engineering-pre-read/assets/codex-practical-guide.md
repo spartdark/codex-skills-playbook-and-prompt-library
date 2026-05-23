@@ -19,6 +19,7 @@ intencion -> contexto -> alcance -> implementacion -> verificacion -> memoria
 - Workflows derivados: `knowledge/projects/ia-learning/agent-workflows.md`
 - Mejora de proceso: `knowledge/projects/ia-learning/process-improvements.md`
 - Template complementario: `docs/skills/codex-prompt-briefs.md`
+- Carpeta de control SDD: `docs/skills/codex-control-folder-sdd.md`
 
 ## Modelo mental
 
@@ -110,6 +111,8 @@ Usa Codex para preservar contexto que normalmente se pierde en el chat:
 - experimentos y resultados.
 
 Regla: no guardar solo resumenes. Guardar evidencia, confianza y enlace al proyecto.
+
+Cuando el proyecto requiera continuidad entre sesiones, usa una carpeta de control SDD. El patron recomendado esta en `docs/skills/codex-control-folder-sdd.md` y define donde guardar specs, decisiones, preguntas abiertas, experimentos, validacion y fuentes.
 
 ### 2. Investigacion a backlog
 

@@ -77,3 +77,21 @@ Ideas for improving how this workspace researches, builds, validates, documents,
 - Proposed change: add a lightweight validator or checklist that checks high-signal sources have raw evidence, processed summary, confidence label, project link and at least one experiment or explicit "no experiment" note.
 - Expected impact: fewer passive summaries, less risk of ungrounded claims, and cleaner future RAG indexing.
 - Validation step: run the validator/checklist on the next three YouTube or Reddit sources and record missing fields.
+
+## Manual First, Automated Second
+
+- Source: [Master 97% of Codex in 1 Hour](../../processed/summaries/youtube-nate-herk-master-97-codex-3TdD8Qv5Tk8-summary.md)
+- Confidence: inferred from secondary summaries; primary transcript unavailable.
+- Current friction: it is tempting to schedule recurring agent jobs before data quality, output shape and QA criteria are stable.
+- Proposed change: require one successful manual run and one documented QA pass before converting a workflow into an automation.
+- Expected impact: recurring tasks publish fewer low-quality artifacts and failures become easier to diagnose.
+- Validation step: on the next recurring research/report workflow, record the manual run output, QA notes, and only then create the automation.
+
+## Transcript Failure Backlog
+
+- Source: [Master 97% of Codex in 1 Hour](../../processed/summaries/youtube-nate-herk-master-97-codex-3TdD8Qv5Tk8-summary.md)
+- Confidence: verified failure evidence; fixes are proposed.
+- Current friction: transcript failures are currently preserved as raw JSON, but plugin-improvement work can remain implicit unless promoted to backlog.
+- Proposed change: document repeatable extractor issues in [YouTube Transcript Plugin Improvements](../../../docs/backlog/youtube-transcript-plugin-improvements.md), with evidence pointer, root cause hypothesis, acceptance criteria and regression-test target.
+- Expected impact: makes source-capture failures actionable instead of only cautionary notes in research summaries.
+- Validation step: implement one regression fixture from the Nate Herk failure JSON and verify the plugin emits structured cause, warnings and recommended action.

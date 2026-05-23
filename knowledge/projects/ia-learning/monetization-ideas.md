@@ -65,3 +65,13 @@ Potential product, service, course, automation, or consulting angles derived fro
 - Offer: templates and setup service for `AGENTS.md`, task contracts, state files, validation checklists, subagent roles and source-memory workflow.
 - Why now: the source frames harness quality as a lever separate from model quality; teams are moving from demos to operational agent workflows.
 - Validation step: package one internal harness template for `ia-learning`, run it on two tasks, and offer a review session to one external builder before setting price.
+
+## Comment Intelligence Dashboard Setup
+
+- Source: [Master 97% of Codex in 1 Hour](../../processed/summaries/youtube-nate-herk-master-97-codex-3TdD8Qv5Tk8-summary.md)
+- Confidence: inferred from secondary summaries; demand and pricing unverified.
+- Target user: YouTube creators, course communities, devrel teams and small AI product teams.
+- Pain: audience feedback is scattered across comments and rarely becomes a prioritized roadmap or content backlog.
+- Offer: setup service or kit that connects YouTube comments to a weekly report/dashboard with questions, objections, requested topics, mentioned tools and recommended next actions.
+- Why now: agentic coding tools can combine API setup, analysis, workbook/dashboard generation, deploy and scheduled refresh in one repeatable project loop.
+- Validation step: build one internal MVP from 100 to 200 comments and ask one creator/operator to rank whether the resulting actions are worth paying for.

@@ -71,6 +71,19 @@ Reusable operating patterns for Codex, plugins, skills, and multi-agent work in 
 - Memory update: save reusable lessons as implementation pattern, process improvement or experiment.
 - Risks: over-structuring small tasks; using generated summaries as if they were transcripts; adding too many specialized tools before measuring whether primitives work.
 
+## Codex Project Operating Loop
+
+- Source: [Master 97% of Codex in 1 Hour](../../processed/summaries/youtube-nate-herk-master-97-codex-3TdD8Qv5Tk8-summary.md)
+- Confidence: inferred from secondary summaries; primary transcript unavailable.
+- Use when: turning a repeatable Codex workflow into a durable project, skill, dashboard, deploy or automation.
+- Project folder: one folder per workflow, plus `knowledge/` for source evidence and decisions.
+- Inputs: objective, source/data API, expected output artifact, skill candidate, deploy target, QA checklist and automation cadence.
+- Agent lanes: setup/API lane; analysis lane; artifact/dashboard lane; skill extraction lane; deploy lane; browser QA lane; automation lane.
+- Artifacts: local project folder, `.env` excluded from git, data output, workbook or dashboard, skill/instructions file, deploy URL, QA notes, automation config and memory update.
+- Validation: first run is manual; automation starts only after the output artifact passes at least one QA cycle.
+- Memory update: record the workflow as manual run -> skill -> automation, with raw evidence and failure notes.
+- Risks: automating unverified outputs, exposing API keys, dashboard polish hiding weak data quality, and treating secondary summaries as primary transcript evidence.
+
 ## Engineering Manager Pre-Read
 
 - Source: [AI for engineering management and software project administration](../../processed/summaries/youtube-ai-engineering-management-2026-05-20.md)

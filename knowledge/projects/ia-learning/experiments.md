@@ -101,3 +101,15 @@ Validation tasks derived from source research and implementation work.
 - Failure signal: the contract feels like overhead, misses the actual blocker or does not improve verification quality.
 - Evidence to capture: task contract, changed files, validation output, final report and reviewer notes.
 - Status: planned
+
+## YouTube Comment Intelligence MVP
+
+- Source: [Master 97% of Codex in 1 Hour](../../processed/summaries/youtube-nate-herk-master-97-codex-3TdD8Qv5Tk8-summary.md)
+- Confidence: experimental
+- Hypothesis: a small Codex-driven pipeline can turn recent YouTube comments into more actionable product/content decisions than manual reading.
+- User/problem: creators, educators and AI builders need to detect repeated questions, objections, tool mentions and requested tutorials without scanning every comment.
+- Smallest test: pull 100 to 200 comments from one authorized channel or public test dataset, classify them, generate an Excel or Markdown report, and identify five concrete actions.
+- Success signal: at least three actions are judged useful by the channel owner or project maintainer and can be traced to comment evidence.
+- Failure signal: classifications are generic, noisy, or require more manual cleanup than reading the comments directly.
+- Evidence to capture: raw comments, analysis output, prompt/skill used, QA notes, and decisions accepted or rejected.
+- Status: planned

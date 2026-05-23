@@ -55,3 +55,13 @@ Reusable technical patterns discovered from YouTube, Reddit, docs, experiments, 
 - Pattern: wrap each meaningful task in a small versioned contract: objective, non-objectives, allowed scope, context sources, tools, checks, memory update and escalation conditions.
 - Tradeoffs: adds upfront ceremony, but reduces hidden state and makes failures attributable.
 - Next experiment: use this contract on one `ia-learning` implementation or research-to-action task and compare rework against a normal chat-only run.
+
+## Manual Run To Skill To Automation
+
+- Source: [Master 97% of Codex in 1 Hour](../../processed/summaries/youtube-nate-herk-master-97-codex-3TdD8Qv5Tk8-summary.md)
+- Confidence: inferred from secondary summaries; primary transcript unavailable.
+- Applies to: Codex workflows, research pipelines, API-backed dashboards, recurring reports.
+- Problem: teams often automate a workflow before they know whether the output is correct, useful or stable.
+- Pattern: run the workflow manually once, extract the reliable steps into a skill or script, validate the produced artifact, then schedule automation with logs and review points.
+- Tradeoffs: slower first setup, but fewer recurring bad outputs and clearer rollback points.
+- Next experiment: apply this to one `knowledge/` source workflow or YouTube comment analysis MVP and record the manual QA findings before scheduling it.
