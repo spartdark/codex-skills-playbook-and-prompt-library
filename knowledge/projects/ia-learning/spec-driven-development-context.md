@@ -2,6 +2,8 @@
 
 Use this document as context when asking Codex or another coding agent to turn a rough idea into an implementable spec.
 
+Advanced operating guide: [Spec-Driven Development Guide](spec-driven-development-guide.md).
+
 ## Purpose
 
 Convert vague product or engineering intent into a durable spec before implementation. The spec becomes the source of truth for the agent, reviewer and future changes.

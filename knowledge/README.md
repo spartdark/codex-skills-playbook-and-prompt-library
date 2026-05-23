@@ -11,6 +11,7 @@ This folder stores research outputs from YouTube, Reddit, AI tooling updates, im
 - Connect findings to concrete project areas.
 - Support future RAG indexing with SQLite, embeddings, and later Supabase.
 - Give Codex/plugins a stable place to read and write derived memory.
+- Provide a portable memory pattern for new projects through `templates/project-ai-starter/`.
 
 ## Folder Contract
 
@@ -32,6 +33,7 @@ knowledge/
       process-improvements.md
       ai-news.md
       open-questions.md
+      reuse-backlog.md
   briefs/
     weekly/
     topic/
@@ -47,6 +49,8 @@ knowledge/
 ## Operating Model
 
 Use the chat as the coordinator and the filesystem as the durable record.
+
+For project adoption, start with `AGENTS.md`, `docs/ai/governance.md`, and `templates/project-ai-starter/`. This keeps the active context small while preserving a clear path to deeper evidence.
 
 For every useful source or initiative, create the same four layers:
 
@@ -98,6 +102,7 @@ This creates placeholders in the correct folders; replace placeholders with real
 - `process-improvements.md`: improvements to how this repo researches, builds, validates, and ships.
 - `ai-news.md`: time-sensitive AI/tooling updates.
 - `open-questions.md`: decisions that still need evidence.
+- `reuse-backlog.md`: candidates to promote into docs, templates, skills, or plugins.
 
 ## Confidence Labels
 

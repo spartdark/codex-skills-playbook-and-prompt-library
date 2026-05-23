@@ -8,6 +8,8 @@ Specialized control-plane guide: [Agent Control Plane Guide](agent-control-plane
 
 Specialized research guide: [Research Ops Evidence Guide](research-ops-evidence-guide.md).
 
+Specialized spec-driven guide: [Spec-Driven Development Guide](spec-driven-development-guide.md).
+
 ## Workflow Template
 
 ```md

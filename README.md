@@ -33,6 +33,7 @@ La version actual del repositorio es `0.5.0`.
 
 ```text
 .
+├── AGENTS.md
 ├── catalog.json
 ├── docs/
 ├── install/
@@ -48,7 +49,31 @@ La version actual del repositorio es `0.5.0`.
 │   ├── skill-sdd-architect/
 │   └── skill-youtube-transcript/
 └── templates/
+    ├── project-ai-starter/
     └── skill-template/
+```
+
+## Inicio rapido para IA
+
+Este repositorio incluye una capa de gobernanza para usarlo como punto de partida en proyectos nuevos o existentes:
+
+- [`AGENTS.md`](AGENTS.md): punto de entrada token-light para Codex y otros agentes.
+- [`docs/ai/governance.md`](docs/ai/governance.md): reglas de adopcion, memoria, evidencia y orden de lectura.
+- [`templates/project-ai-starter/`](templates/project-ai-starter/): plantilla portable para copiar a otro repo.
+- [`knowledge/projects/ia-learning/reuse-backlog.md`](knowledge/projects/ia-learning/reuse-backlog.md): candidatos para convertir knowledge en docs, templates, skills o plugins.
+
+Flujo recomendado para un proyecto nuevo:
+
+1. Copia `templates/project-ai-starter/` al repo destino.
+2. Completa `PROJECT_AI_PROFILE.md`.
+3. Renombra `knowledge/projects/_template/` a `knowledge/projects/<project-id>/`.
+4. Mantén `AGENTS.md` corto y delega el detalle a documentos enlazados.
+5. Pide a Codex que lea primero `AGENTS.md` y luego solo los archivos necesarios para la tarea.
+
+Cuando un aprendizaje se repita, promuevelo de forma gradual:
+
+```txt
+knowledge -> docs/templates -> skill -> plugin
 ```
 
 ## Instalación rápida

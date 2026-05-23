@@ -4,6 +4,15 @@ Todos los cambios relevantes de este repositorio se documentan aquí.
 
 El formato sigue una variante legible de [Keep a Changelog](https://keepachangelog.com/) y el proyecto usa versionado semántico.
 
+## [Unreleased]
+
+### Added
+
+- `AGENTS.md` raíz como punto de entrada token-light para Codex y otros agentes;
+- guía `docs/ai/governance.md` para adoptar memoria, evidencia, specs y orden de lectura en proyectos nuevos o existentes;
+- plantilla portable `templates/project-ai-starter/` con perfil de proyecto, memoria mínima, docs base y archivos de control;
+- `reuse-backlog.md` para gestionar la promoción gradual de knowledge hacia docs, templates, skills o plugins.
+
 ## [0.5.0] - 2026-05-20
 
 ### Added
