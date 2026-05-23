@@ -10,6 +10,10 @@ Specialized research guide: [Research Ops Evidence Guide](research-ops-evidence-
 
 Specialized spec-driven guide: [Spec-Driven Development Guide](spec-driven-development-guide.md).
 
+Specialized productization guide: [Monetization Productization Guide](monetization-productization-guide.md).
+
+Specialized automation guide: [Prudent Automation Guide](prudent-automation-guide.md).
+
 ## Workflow Template
 
 ```md
