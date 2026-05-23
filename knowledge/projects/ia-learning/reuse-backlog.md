@@ -34,3 +34,4 @@ knowledge -> docs/templates -> skill -> plugin
 
 | Date | Candidate | Promoted To | Evidence |
 |---|---|---|---|
+| 2026-05-23 | Reuse Promotion Guide | `docs/ai/reuse-promotion-guide/` | Derived from `docs/ai/governance.md`, `knowledge/README.md`, `research-ops-evidence-guide.md`, `spec-driven-development-guide.md`, and `implementation-patterns.md` |
