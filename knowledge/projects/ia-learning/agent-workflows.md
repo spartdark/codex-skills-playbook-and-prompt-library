@@ -2,6 +2,8 @@
 
 Reusable operating patterns for Codex, plugins, skills, and multi-agent work in this repo.
 
+Primary operating guide: [Codex Operating System Guide](codex-operating-system-guide.md).
+
 ## Workflow Template
 
 ```md
