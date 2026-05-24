@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "brand": {
+    "name": "",
+    "project_id": "",
+    "description": "",
+    "audience": "",
+    "personality": [],
+    "tone": "",
+    "anti_tone": []
+  },
+  "visual_identity": {
+    "logo": {
+      "concept": "",
+      "type": "",
+      "approved_assets": {
+        "primary": "",
+        "horizontal": "",
+        "vertical": "",
+        "symbol": "",
+        "one_color": "",
+        "reversed": "",
+        "cricut_cut": ""
+      },
+      "usage_rules": [],
+      "do_not": []
+    },
+    "colors": [
+      {
+        "name": "Primary",
+        "hex": "",
+        "rgb": "",
+        "cmyk": "",
+        "usage": "",
+        "status": "candidate"
+      },
+      {
+        "name": "Accent",
+        "hex": "",
+        "rgb": "",
+        "cmyk": "",
+        "usage": "",
+        "status": "candidate"
+      }
+    ],
+    "typography": {
+      "headline": {
+        "family": "",
+        "source": "",
+        "usage": "",
+        "fallback": ""
+      },
+      "body": {
+        "family": "",
+        "source": "",
+        "usage": "",
+        "fallback": ""
+      },
+      "do_not": []
+    },
+    "imagery": {
+      "style": "",
+      "approved_references": [],
+      "do_not": []
+    }
+  },
+  "ai_context": {
+    "approved_prompt_fragments": [],
+    "negative_prompt_fragments": [],
+    "reference_assets": [],
+    "rejected_directions": [],
+    "open_questions": []
+  },
+  "production": {
+    "web": {
+      "preferred_formats": ["svg", "png"],
+      "rules": []
+    },
+    "print": {
+      "preferred_formats": ["pdf", "svg", "png"],
+      "rules": []
+    },
+    "cricut": {
+      "preferred_formats": ["svg", "png"],
+      "rules": [
+        "Use flat filled vector paths for vinyl cut files.",
+        "Convert text to outlines before export.",
+        "Expand strokes when stroke width matters.",
+        "Avoid pattern fills, gradients, textures, and embedded raster images in cut SVGs.",
+        "Use PNG/JPG for Print Then Cut when raster effects are required."
+      ],
+      "tested_uploads": []
+    }
+  },
+  "decisions": []
+}

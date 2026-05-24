@@ -13,6 +13,7 @@ Documentacion viva del proyecto.
 
 - [AI Governance](ai/governance.md): punto de partida para adoptar `AGENTS.md`, `PROJECT_AI_PROFILE.md`, memoria local y reglas token-light en proyectos nuevos o existentes.
 - [Reuse Promotion Guide](ai/reuse-promotion-guide/README.md): guia operativa para convertir ideas, procesos y aprendizajes en `knowledge`, docs/templates, skills, plugins o automations con evidencia y validacion.
+- [AI Brand Identity Operating Guide](ai/ai-brand-identity-operating-guide/README.md): guia portable para gestionar identidad corporativa con IA, memoria reutilizable, assets, prompts y produccion tipo Cricut/vinilo.
 - [Guia Practica de Codex](skills/codex-practical-guide.md): investigacion sintetizada sobre como usar Codex como agente de ingenieria, reviewer, investigador, coordinador y memoria local.
 - [Codex Prompt Briefs](skills/codex-prompt-briefs.md): plantilla para asignar tareas claras a Codex con contexto, alcance, criterios de aceptacion y verificacion.
 - [Codex Engineering Pre-Read](skills/codex-engineering-pre-read.md): guia portable para preparar decisiones tecnicas con Codex antes de planear, implementar o automatizar trabajo.
